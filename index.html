@@ -108,6 +108,9 @@ h3{font:600 .92rem var(--f-display);margin:0}
 .tt-prac span.lk{color:var(--muted)}
 .links{margin-top:5px;font-size:.85rem}
 .links a{color:var(--accent);text-underline-offset:3px}
+.row.err{grid-template-columns:minmax(0,1fr) auto}
+.err .meta a{color:var(--accent);text-underline-offset:3px}
+.err .fix{color:var(--ink);font-size:.82rem;margin-top:4px}
 .foot{color:var(--muted);font-size:.78rem}
 @media (prefers-reduced-motion:no-preference){.row:hover{background:var(--bg)}}
 </style>
@@ -144,6 +147,11 @@ h3{font:600 .92rem var(--f-display);margin:0}
   <section>
     <div class="sec-head"><h2>Việc cần làm</h2><span class="sync">Tích ô khi đã làm xong (lưu trên máy này)</span></div>
     <div id="tasks"><div class="list"><div class="empty">Đang tải…</div></div></div>
+  </section>
+
+  <section id="err-sec">
+    <div class="sec-head"><h2>Sổ lỗi</h2><span class="sync" id="err-count"></span></div>
+    <div id="errors"><div class="list"><div class="empty">Chưa ghi lỗi nào.</div></div></div>
   </section>
 
   <section>
@@ -272,6 +280,22 @@ h3{font:600 .92rem var(--f-display);margin:0}
     if (!html) html = `<div class="list"><div class="empty">${state.ready ? "Không còn việc nào. Tuyệt vời!" : "Đang tải…"}</div></div>`;
     if (groups.done.length) html += `<details><summary>Đã xong (${groups.done.length})</summary><div class="list">${groups.done.slice(0, 15).map(t => taskRow(t, today)).join("")}</div></details>`;
     $("tasks").innerHTML = html;
+
+    // Sổ lỗi: câu/phần kiến thức con làm sai, ghi sau mỗi buổi làm bài
+    const errs = mine(state.errors || []);
+    const LV = { repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
+    const rank = { repeat: 0, once: 1, unknown: 2, habit: 3 };
+    const openErr = errs.filter(e => e.status !== "fixed").length;
+    $("err-count").textContent = errs.length ? openErr + " mục chưa khắc phục · ghi sau mỗi buổi làm bài" : "";
+    const bySub = {};
+    errs.slice().sort((a, b) => (a.status === "fixed") - (b.status === "fixed") || (rank[a.level] ?? 9) - (rank[b.level] ?? 9) || String(b.date || "").localeCompare(String(a.date || ""))).forEach(e => { (bySub[e.subject] ||= []).push(e); });
+    $("errors").innerHTML = errs.length ? Object.entries(bySub).map(([s, arr]) => `<div class="group-lbl">${esc(s)}</div><div class="list">${arr.map(e => {
+      const lv = LV[e.level] || ["", ""];
+      const u = safeUrl(e.link);
+      const chip = e.status === "fixed" ? `<span class="chip ok">Đã khắc phục</span>` : (lv[0] ? `<span class="chip ${lv[1]}">${lv[0]}</span>` : "");
+      const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.activity)}</a>` : `<span>${esc(e.activity)}</span>`) : "";
+      return `<div class="row err ${e.status === "fixed" ? "done" : ""}"><div style="min-width:0"><div class="title">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div>${chip}</div></div>`;
+    }).join("")}</div>`).join("") : `<div class="list"><div class="empty">Chưa ghi lỗi nào.</div></div>`;
 
     const exams = mine(state.exams).filter(e => !e.date || dayDiff(e.dateEnd || e.date, today) >= 0).sort((a,b) => (a.date||"9999").localeCompare(b.date||"9999"));
     $("exams").innerHTML = exams.length ? `<div class="list">${exams.map(e => {
