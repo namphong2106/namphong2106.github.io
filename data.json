@@ -241,7 +241,7 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 4. Review lần cuối trước khi thi thứ Hai 05/10.",
+   "note": "Thời gian biểu CN 04/10, buổi 4. Review lần cuối trước khi thi thứ Hai 05/10. Soạn sẵn bút mực, bút chì, tẩy (tô trắc nghiệm) theo lời cô Nhi dặn 02/10.",
    "order": 4,
    "practice": "2 file PDF của cô Nhi: Hướng dẫn ôn tập giữa HKI; Kiến thức ôn tập chương 1",
    "review": "Review trước kì thi: xem lại toàn bộ chương 1 theo file của cô Nhi",
@@ -719,6 +719,123 @@
    "status": "done",
    "subject": "Việt Nam học",
    "title": "Quiz tự học CĐ2 Tiết 1 – Tục thờ Thành Hoàng"
+  },
+  {
+   "id": "nam-khtn-bt-2-3",
+   "due": "2026-10-05",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài tập bài 2.3 cô Huệ giao (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu T2 05/10, buổi 3. Nên xong trước buổi ôn của cô chiều thứ Ba 06/10. Nếu lớp chưa học tới bài này thì dời sang hôm sau.",
+   "order": 3,
+   "practice": "Bài tập bài 2.3 cô Huệ giao (bản giấy, không có link)",
+   "review": "Bài 2.3 (chương 2)",
+   "source": "VS One",
+   "status": "todo",
+   "subject": "3 · KHTN",
+   "title": "30 phút – Làm bài tập bài 2.3 (cô Huệ giao tuần 05–10/10)"
+  },
+  {
+   "id": "nam-khtn-bt-2-4",
+   "due": "2026-10-06",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài tập bài 2.4 cô Huệ giao (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu T3 06/10, buổi 3. Câu nào chưa hiểu thì ghi lại để hỏi cô.",
+   "order": 3,
+   "practice": "Bài tập bài 2.4 cô Huệ giao (bản giấy, không có link)",
+   "review": "Bài 2.4 (chương 2)",
+   "source": "VS One",
+   "status": "todo",
+   "subject": "3 · KHTN",
+   "title": "30 phút – Làm bài tập bài 2.4 (cô Huệ giao tuần 05–10/10)"
+  },
+  {
+   "id": "nam-khtn-buoi-on-1",
+   "due": "2026-10-06",
+   "dueTime": "15:30–16:30",
+   "kid": "nam",
+   "note": "Học tại trường sau giờ học. Mang Sách học sinh, Sách bài tập, Phiếu học tập HK1, bài tập ôn cô phát, bút, thước.",
+   "source": "VS One",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "Buổi ôn tập chương 2 của cô Huệ – buổi 1 (tại phòng học lớp 8A2)"
+  },
+  {
+   "id": "nam-khtn-buoi-on-2",
+   "due": "2026-10-12",
+   "dueTime": "15:30–16:30",
+   "kid": "nam",
+   "note": "Cùng ngày kiểm tra chương 2; hôm sau 13/10 kiểm tra giữa kì. Mang phiếu học tập và bài tập ôn cô phát.",
+   "source": "VS One",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "Buổi ôn tập chương 2 của cô Huệ – buổi 2 (tại phòng học lớp 8A2)"
+  },
+  {
+   "id": "nam-on-20261010-khtn-c2",
+   "due": "2026-10-10",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Hướng dẫn ôn tập cô Huệ phát (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 60,
+   "note": "Thời gian biểu T7 10/10, buổi 1. Kiểm tra chương 2 thứ Hai 12/10.",
+   "order": 1,
+   "practice": "Hướng dẫn ôn tập cô Huệ phát (bản giấy); các câu sai ở bài tập 2.3, 2.4",
+   "review": "Lí thuyết chương 2: nguyên tử, phân tử, liên kết hóa học",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · KHTN",
+   "title": "60 phút – Ôn lí thuyết chương 2 theo hướng dẫn ôn tập của cô, làm lại các câu sai ở bài tập 2.3, 2.4"
+  },
+  {
+   "id": "nam-on-20261011-khtn-c1",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Hướng dẫn ôn tập cô Huệ phát, phần chương 1 (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu CN 11/10, buổi 2. Giữa kì KHTN thứ Ba 13/10 gồm chương 1 và chương 2.",
+   "order": 2,
+   "practice": "Hướng dẫn ôn tập cô Huệ phát, phần chương 1 (bản giấy)",
+   "review": "Chương 1 Quang hợp: thí nghiệm chứng minh khí oxygen, cấu tạo lá – lục lạp, trao đổi carbon",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "2 · KHTN",
+   "title": "30 phút – Ôn lại lí thuyết chương 1 Quang hợp cho bài giữa kì thứ Ba 13/10"
+  },
+  {
+   "id": "nam-on-20261011-khtn-c2",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài tập ôn cô Huệ phát, phần chương 2 (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 60,
+   "note": "Thời gian biểu CN 11/10, buổi 1. Kiểm tra chương 2 thứ Hai 12/10.",
+   "order": 1,
+   "practice": "Bài tập ôn cô Huệ phát, phần chương 2 (bản giấy), làm lại có bấm giờ",
+   "review": "Tổng ôn chương 2 (lí thuyết và bài tập)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · KHTN",
+   "title": "60 phút – Tổng ôn chương 2 trước bài kiểm tra thứ Hai: làm lại bài tập ôn cô phát (phần chương 2), có bấm giờ"
   },
   {
    "id": "phong-amnhac-mat-troi-bay",
@@ -1581,19 +1698,27 @@
   },
   {
    "id": "nam-khtn-giuaki1",
-   "date": "2026-10-05",
-   "dateEnd": "2026-10-15",
+   "date": "2026-10-13",
    "kid": "nam",
-   "scope": "Chương 1: Quang hợp; Chương 2: Nguyên tử, phân tử và liên kết hóa học.",
+   "scope": "Lí thuyết và bài tập chương 1 Quang hợp và chương 2 Nguyên tử, phân tử và liên kết hóa học. Tự ôn lí thuyết theo hướng dẫn ôn tập cô đã phát; phần bài tập cô sửa trong tiết ôn. Mang bút, thước, bút chì, phiếu học tập và bài tập ôn cô phát.",
    "source": "VS One",
    "subject": "KHTN",
-   "title": "Kiểm tra giữa kì I (dự kiến)"
+   "title": "Kiểm tra giữa kì I"
+  },
+  {
+   "id": "nam-khtn-kt-chuong2",
+   "date": "2026-10-12",
+   "kid": "nam",
+   "scope": "Lí thuyết và bài tập chương 2 (Nguyên tử, phân tử và liên kết hóa học). Cô có 2 buổi ôn thêm tại phòng 8A2: 15h30–16h30 thứ Ba 06/10 và thứ Hai 12/10.",
+   "source": "VS One",
+   "subject": "KHTN",
+   "title": "Kiểm tra chương 2"
   },
   {
    "id": "nam-ls-giuaki1",
    "date": "2026-10-05",
    "kid": "nam",
-   "scope": "Trên giấy, 45 phút, 60% trắc nghiệm + 40% tự luận. CMTS Anh, Chiến tranh giành độc lập Bắc Mĩ, CMTS Pháp, Cách mạng công nghiệp. Tập trung tư duy nhân – quả, so sánh, đọc tư liệu.",
+   "scope": "Trên giấy, 45 phút, 60% trắc nghiệm + 40% tự luận. CMTS Anh, Chiến tranh giành độc lập Bắc Mĩ, CMTS Pháp, Cách mạng công nghiệp. Tập trung tư duy nhân – quả, so sánh, đọc tư liệu. Cô Nhi (02/10): thi trong tiết Lịch sử, tuần 05–09/10. Mang bút mực, bút chì, tẩy để tô trắc nghiệm.",
    "source": "Phụ huynh báo",
    "subject": "Lịch sử",
    "title": "Kiểm tra giữa kì I"
@@ -1611,7 +1736,7 @@
    "id": "nam-toan-giuaki1",
    "date": "2026-10-23",
    "kid": "nam",
-   "scope": "Phạm vi chưa đọc được (thông báo bị cắt).",
+   "scope": "45 phút, làm bài trên giấy, không dùng máy tính cầm tay. Nội dung: từ đầu chương trình đến Bài 3.4 – Hiểu về cận trên và cận dưới (không gồm các nội dung MoET tích hợp).",
    "source": "VS One",
    "subject": "Toán",
    "title": "Kiểm tra giữa kì I"
@@ -2572,6 +2697,17 @@
    "title": "Progress Check 1"
   },
   {
+   "id": "nam-vsone-cntt-tx1",
+   "date": "2026-10-02",
+   "kid": "nam",
+   "max": 10,
+   "official": true,
+   "score": 9.5,
+   "source": "VS One",
+   "subject": "Công nghệ thông tin",
+   "title": "HK1 – HS1 – Bài kiểm tra thường xuyên số 1"
+  },
+  {
    "id": "nam-vsone-khtn-kt-chuong1",
    "date": "2026-09-15",
    "kid": "nam",
@@ -2701,7 +2837,7 @@
    "source": "VS One",
    "subject": "Toán",
    "teacher": "Cô Nguyễn Thị Thanh Thảo",
-   "text": "Thông báo kiểm tra giữa kì môn Toán ngày 23/10/2026."
+   "text": "Kiểm tra giữa kì môn Toán ngày 23/10/2026: 45 phút, làm bài trên giấy, không dùng máy tính cầm tay. Nội dung từ đầu chương trình đến Bài 3.4 – Hiểu về cận trên và cận dưới (không gồm các nội dung MoET tích hợp). Nhờ phụ huynh nhắc con chủ động ôn tập."
   },
   {
    "id": "nam-2026-09-30-tavn",
@@ -2711,6 +2847,24 @@
    "subject": "Tiếng Anh (TAVN)",
    "teacher": "Thầy Phan Thanh Hùng",
    "text": "Lớp ESL 8A5: tiết 3 thứ Năm 01/10 (9:55–10:40) dùng nền tảng đọc myON Reading (nội dung đầy đủ bị cắt)."
+  },
+  {
+   "id": "nam-2026-10-02-khtn",
+   "date": "2026-10-02",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "KHTN",
+   "teacher": "Cô Vũ Thị Huệ",
+   "text": "Tuần 05–10/10: làm bài tập bài 2.3 và 2.4, làm bài tập ôn tập cô đã phát; mang đủ Sách học sinh, Sách bài tập, Phiếu học tập HK1, bút, thước. Chương 2 khó nên cô ôn thêm 2 buổi tại phòng 8A2, 15h30–16h30: thứ Ba 06/10 và thứ Hai 12/10. Kiểm tra chương 2: thứ Hai 12/10 (lí thuyết và bài tập chương 2). Kiểm tra giữa HK1: thứ Ba 13/10 (chương 1 Quang hợp và chương 2); con tự ôn lí thuyết theo hướng dẫn cô phát, bài tập cô sửa trong tiết ôn; mang bút, thước, bút chì, phiếu học tập, bài tập ôn."
+  },
+  {
+   "id": "nam-2026-10-02-ls",
+   "date": "2026-10-02",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "Lịch sử",
+   "teacher": "Cô Nguyễn Thị Tuyết Nhi",
+   "text": "Kiểm tra giữa HK I trong tiết Lịch sử, tuần 05–09/10: 45 phút, làm trên giấy. Hướng dẫn ôn tập và nội dung kiến thức cơ bản cô đã đăng trên LMS (chung mục với HDOT). Chuẩn bị bút mực, bút chì, tẩy để tô trắc nghiệm. Chủ động ôn, rèn khả năng hiểu vấn đề và câu hỏi tư duy lịch sử như các hoạt động trên lớp. Có thắc mắc thì nhắn cô qua Email hoặc LMS."
   },
   {
    "id": "phong-2026-09-26-gvcn",
@@ -2922,10 +3076,10 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-02T12:30:00+07:00",
+  "lastSync": "2026-10-02T19:14:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS đã đọc · VS One chưa đọc (máy đang sửa)",
+   "sources": "LMS đã đọc · VS One: theo ảnh phụ huynh gửi 02/10",
    "tonight": "1 tiếng, bài LMS trước: Quiz Toán 2.11 (30 phút), rồi thảo luận Công dân toàn cầu tuần 7 (30 phút).",
    "weeklyDone": "2026-10-02"
   },
