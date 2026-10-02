@@ -143,7 +143,7 @@
   },
   {
    "id": "nam-lms-3054591",
-   "due": "2026-10-03",
+   "due": "2026-10-04",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88863/assignments/3054591",
    "links": [
@@ -153,8 +153,8 @@
     }
    ],
    "minutes": 40,
-   "note": "Thời gian biểu T7 03/10, buổi 5. LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
-   "order": 5,
+   "note": "Thời gian biểu CN 04/10, buổi 3 (chuyển từ T7). LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
+   "order": 3,
    "practice": "Bài tập củng cố tuần 8 (LMS)",
    "review": "Nói và nghe: nội dung, nghệ thuật của một tác phẩm thơ Đường luật",
    "source": "LMS",
@@ -174,8 +174,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 03/10, buổi 8. Chưa nộp; LMS không đặt hạn (tuần 7).",
-   "order": 8,
+   "note": "Thời gian biểu T7 03/10, buổi 4. Chưa nộp; LMS không đặt hạn (tuần 7).",
+   "order": 4,
    "practice": "Bài tập tổng kết Lăng kính 3 (LMS)",
    "review": "Nhận xét tính khách quan của một quan điểm trái chiều về bất bình đẳng",
    "source": "LMS",
@@ -185,7 +185,7 @@
   },
   {
    "id": "nam-lms-3065692",
-   "due": "2026-10-04",
+   "due": "2026-10-05",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692",
    "links": [
@@ -199,8 +199,8 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 4. Mục trên LMS đóng 23:59 T6 09/10; không phải nộp bài.",
-   "order": 4,
+   "note": "Thời gian biểu T2 05/10, buổi 2 (chuyển từ CN). Mục trên LMS đóng 23:59 T6 09/10; không phải nộp bài.",
+   "order": 2,
    "practice": "Progress Check 1 – Writing Revision; Revision guideline (LMS)",
    "review": "Ôn 3 dạng viết: Formal Letter, School Report, Non-verbal Communication Guide",
    "source": "LMS",
@@ -220,8 +220,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 03/10, buổi 6. Nam chưa đăng bài.",
-   "order": 6,
+   "note": "Thời gian biểu T7 03/10, buổi 3. Nam chưa đăng bài.",
+   "order": 3,
    "practice": "Nhiệm vụ trước tiết học – Bài 1.3 Thay đổi bản thân, tiết 2 (LMS)",
    "review": "Thay đổi bản thân (tiết 2)",
    "source": "LMS",
@@ -241,8 +241,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 03/10, buổi 7. Cô đăng 22/09; Nam chưa đăng bài.",
-   "order": 7,
+   "note": "Thời gian biểu T7 03/10, buổi 2. Cô đăng 22/09; Nam chưa đăng bài.",
+   "order": 2,
    "practice": "Thảo luận sau tiết học – Bài 6 (LMS)",
    "review": "Ý nghĩa việc các chúa Nguyễn xác lập chủ quyền Hoàng Sa, Trường Sa",
    "source": "LMS",
@@ -252,7 +252,7 @@
   },
   {
    "id": "nam-lms-eng-mustdo-doc-nguphap",
-   "due": "2026-10-03",
+   "due": "2026-10-04",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963",
    "links": [
@@ -274,8 +274,8 @@
     }
    ],
    "minutes": 60,
-   "note": "Thời gian biểu T7 03/10, buổi 4. Module Week 7 – Revision for Progress Check 1; cả 6 quiz Must-do chưa làm.",
-   "order": 4,
+   "note": "Thời gian biểu CN 04/10, buổi 1 (chuyển từ T7). Module Week 7 – Revision for Progress Check 1; cả 6 quiz Must-do chưa làm.",
+   "order": 1,
    "practice": "[Must-do] Reading practice 1, Reading practice 2, Grammar practice 1, Grammar practice 2 (LMS)",
    "review": "Ôn Progress Check 1: Reading và Use of English",
    "source": "LMS",
@@ -299,8 +299,8 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 1.",
-   "order": 1,
+   "note": "Thời gian biểu CN 04/10, buổi 2.",
+   "order": 2,
    "practice": "[Must-do] Listening practice 1 – MCQs; Listening practice 1 – Gap-filling (LMS)",
    "review": "Ôn Progress Check 1: Listening",
    "source": "LMS",
@@ -310,7 +310,7 @@
   },
   {
    "id": "nam-lms-ls-hdot-ghk1",
-   "due": "2026-10-03",
+   "due": "2026-10-04",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/57207/files/11624079",
    "links": [
@@ -323,15 +323,15 @@
      "url": "https://lms.vinschool.edu.vn/courses/57207/files/11742738"
     }
    ],
-   "minutes": 45,
-   "note": "Thời gian biểu T7 03/10, buổi 3. Module Hướng dẫn ôn tập giữa HKI: file LICHSU_KHOI 8_HDOT GHKI và KIẾN THỨC ÔN TẬP CHƯƠNG 1 (cô đăng 01/10).",
-   "order": 3,
+   "minutes": 30,
+   "note": "Thời gian biểu CN 04/10, buổi 7. Đọc lại sau khi đã làm hết Wayground; file cô đăng 20/09 và 01/10.",
+   "order": 7,
    "practice": "2 file PDF của cô Nhi: Hướng dẫn ôn tập giữa HKI; Kiến thức ôn tập chương 1",
-   "review": "Hướng dẫn ôn tập giữa HKI và Kiến thức ôn tập chương 1 (file gốc của cô Nhi)",
+   "review": "Review trước kì thi: xem lại toàn bộ chương 1 theo file của cô Nhi",
    "source": "LMS",
    "status": "todo",
    "subject": "Lịch sử",
-   "title": "Đọc 2 file ôn tập giữa HKI của cô Nhi trên LMS"
+   "title": "Review trước kì thi: đọc lại 2 file ôn tập của cô Nhi"
   },
   {
    "id": "nam-lms-van-on-ghk1",
@@ -349,8 +349,8 @@
     }
    ],
    "minutes": 60,
-   "note": "Thời gian biểu CN 04/10, buổi 2. Module Tuần 9: Ôn tập – Kiểm tra giữa HK1.",
-   "order": 2,
+   "note": "Thời gian biểu CN 04/10, buổi 4. Module Tuần 9: Ôn tập – Kiểm tra giữa HK1.",
+   "order": 4,
    "practice": "Đề tham khảo KT Giữa HK1 (file của cô)",
    "review": "Nội dung ôn tập giữa HKI (file của cô)",
    "source": "LMS",
@@ -405,7 +405,7 @@
   },
   {
    "id": "nam-ls-on-gk-3",
-   "due": "2026-10-04",
+   "due": "2026-10-03",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=03261422",
    "links": [
@@ -415,18 +415,18 @@
     }
    ],
    "minutes": 50,
-   "note": "Thời gian biểu CN 04/10, buổi 5 (chuyển từ T7 để làm bài LMS trước).",
-   "order": 5,
+   "note": "Thời gian biểu T7 03/10, buổi 6. Làm hết Wayground Lịch sử trong thứ Bảy.",
+   "order": 6,
    "practice": "Wayground Lịch sử bài 3 – Cách mạng công nghiệp (15 câu)",
    "review": "Cách mạng công nghiệp",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "5 · Lịch sử",
+   "subject": "6 · Lịch sử",
    "title": "50 phút – Cách mạng công nghiệp: ôn lại bài, rồi làm Wayground bài 3 (15 câu)"
   },
   {
    "id": "nam-ls-on-gk-4",
-   "due": "2026-10-04",
+   "due": "2026-10-03",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=43590638",
    "links": [
@@ -436,13 +436,13 @@
     }
    ],
    "minutes": 45,
-   "note": "Thời gian biểu CN 04/10, buổi 6. Phải xong trước 05/10 vì tuần thi 05–09/10 chưa rõ ngày.",
-   "order": 6,
+   "note": "Thời gian biểu T7 03/10, buổi 7 (chuyển từ CN).",
+   "order": 7,
    "practice": "Wayground Lịch sử bài 4 – Phân tích sử liệu & so sánh (12 câu)",
    "review": "Đọc tư liệu, so sánh",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "6 · Lịch sử",
+   "subject": "7 · Lịch sử",
    "title": "45 phút – Đọc tư liệu và so sánh: Wayground bài 4 (12 câu)"
   },
   {
@@ -455,13 +455,13 @@
     }
    ],
    "minutes": 50,
-   "note": "Thời gian biểu T7 03/10, buổi 2 (bài ôn gốc của cô, làm trước phiếu Claude soạn). Cô Huệ nhận xét cần ôn lại thí nghiệm này.",
-   "order": 2,
+   "note": "Thời gian biểu T7 03/10, buổi 5 (bài ôn gốc của cô). Cô Huệ nhận xét cần ôn lại thí nghiệm này.",
+   "order": 5,
    "practice": "Bài ôn giữa kì cô Huệ phát trong tiết (bản giấy)",
    "review": "Chương 1 Quang hợp, kĩ phần thí nghiệm chứng minh khí oxygen (cô đã nhắc)",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "2 · KHTN",
+   "subject": "5 · KHTN",
    "title": "50 phút – Chương 1 Quang hợp: ôn kĩ thí nghiệm chứng minh khí oxygen, rồi làm bài ôn cô phát trong tiết"
   },
   {
@@ -491,7 +491,7 @@
   },
   {
    "id": "nam-on-20261003-ls-tuluan",
-   "due": "2026-10-04",
+   "due": "2026-10-03",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=54436846",
    "links": [
@@ -501,13 +501,13 @@
     }
    ],
    "minutes": 45,
-   "note": "Thời gian biểu CN 04/10, buổi 7 (chuyển từ T7). Viết tay ra giấy trước rồi mới gõ.",
-   "order": 7,
+   "note": "Thời gian biểu T7 03/10, buổi 8. Viết tay ra giấy trước rồi mới gõ.",
+   "order": 8,
    "practice": "Wayground Lịch sử bài 5 – Tự luận ngắn, câu 1–4 (viết tay ra giấy trước)",
    "review": "Tự luận Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "7 · Lịch sử",
+   "subject": "8 · Lịch sử",
    "title": "45 phút – Tự luận câu 1–4 (Wayground bài 5): Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp"
   },
   {
@@ -566,14 +566,33 @@
     }
    ],
    "minutes": 45,
-   "note": "Thời gian biểu CN 04/10, buổi 3.",
-   "order": 3,
+   "note": "Thời gian biểu CN 04/10, buổi 5.",
+   "order": 5,
    "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại có bấm giờ",
    "review": "Tổng hợp chương 1 và 2",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "3 · KHTN",
+   "subject": "5 · KHTN",
    "title": "45 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, có bấm giờ"
+  },
+  {
+   "id": "nam-on-20261004-ls-bosung",
+   "due": "2026-10-04",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài bổ sung – sẽ gắn link sau khi xem kết quả thứ Bảy"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu CN 04/10, buổi 6. Chưa soạn: nội dung căn cứ kết quả Nam làm thứ Bảy.",
+   "order": 6,
+   "practice": "Bài bổ sung (Claude soạn sau khi có kết quả thứ Bảy)",
+   "review": "Những phần Nam còn sai ở Wayground bài 3, 4, 5 hôm thứ Bảy",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "6 · Lịch sử",
+   "title": "30 phút – Bài bổ sung theo kết quả Wayground thứ Bảy"
   },
   {
    "id": "nam-on-20261004-ls-thithu",
@@ -598,7 +617,7 @@
   },
   {
    "id": "nam-on-20261004-ls-tuluan",
-   "due": "2026-10-05",
+   "due": "2026-10-03",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=54436846",
    "links": [
@@ -608,13 +627,13 @@
     }
    ],
    "minutes": 45,
-   "note": "Thời gian biểu T2 05/10, buổi 2 (chuyển từ CN). Viết tay ra giấy trước rồi mới gõ.",
-   "order": 2,
+   "note": "Thời gian biểu T7 03/10, buổi 9 (chuyển từ T2). Viết tay ra giấy trước rồi mới gõ.",
+   "order": 9,
    "practice": "Wayground Lịch sử bài 5 – Tự luận ngắn, câu 5–8 (viết tay)",
    "review": "Tự luận còn lại",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "2 · Lịch sử",
+   "subject": "9 · Lịch sử",
    "title": "45 phút – Tự luận câu 5–8 (Wayground bài 5)"
   },
   {
