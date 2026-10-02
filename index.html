@@ -83,6 +83,26 @@ td.num.low{color:var(--late)} td.num.hi{color:var(--ok)}
 .msg .who{font-size:.8rem;color:var(--muted)}
 .msg .who b{color:var(--ink);font-weight:600}
 .banner{background:var(--soon-soft);color:var(--soon);border-radius:10px;padding:10px 14px;font-size:.88rem}
+h3{font:600 .92rem var(--f-display);margin:0}
+.tt-wrap{display:flex;flex-direction:column;gap:16px}
+.tt-day{display:flex;flex-direction:column;gap:6px}
+.tt-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.tt-row{display:grid;grid-template-columns:28px 96px 110px minmax(0,1.3fr) minmax(0,1fr);gap:4px 12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
+.tt-row:first-child{border-top:0}
+.tt-row > *{min-width:0;overflow-wrap:anywhere}
+.tt-cols{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--bg);padding-block:8px}
+.tt-dur{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--muted);font-size:.88rem}
+.tt-row .subj{font-size:.88rem;font-weight:600;color:var(--accent)}
+.tt-prac{font-size:.88rem;color:var(--muted)}
+.tt-prac a{color:var(--accent);text-underline-offset:3px}
+.tt-row input[type=checkbox]{width:20px;height:20px;margin-top:1px;accent-color:var(--accent);cursor:pointer}
+@media (max-width:620px){
+  .tt-cols{display:none}
+  .tt-cols + .tt-row{border-top:0}
+  .tt-row{grid-template-columns:28px auto minmax(0,1fr)}
+  .tt-row input[type=checkbox]{grid-row:1 / span 3}
+  .tt-row .title,.tt-row .tt-prac{grid-column:2 / -1}
+}
 .foot{color:var(--muted);font-size:.78rem}
 @media (prefers-reduced-motion:no-preference){.row:hover{background:var(--bg)}}
 </style>
@@ -110,6 +130,11 @@ td.num.low{color:var(--late)} td.num.hi{color:var(--ok)}
   </div>
 
   <div class="tonight" id="tonight-box" hidden><span class="lbl">Tối nay</span><span id="tonight"></span></div>
+
+  <section id="tt-sec" hidden>
+    <div class="sec-head"><h2>Thời gian biểu</h2><span class="sync">Học theo thứ tự từ trên xuống · tích ô khi xong buổi (lưu trên máy này)</span></div>
+    <div class="tt-wrap" id="timetable"></div>
+  </section>
 
   <section>
     <div class="sec-head"><h2>Việc cần làm</h2><span class="sync">Tích ô khi đã làm xong (lưu trên máy này)</span></div>
@@ -206,8 +231,31 @@ td.num.low{color:var(--late)} td.num.hi{color:var(--ok)}
     $("tonight").textContent = (m && m.tonight) || "";
 
     const tasks = mine(state.tasks);
+    // Thời gian biểu: các việc có order (số) và hạn từ hôm nay trở đi
+    const DOWL = ["Chủ nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
+    const inPlan = (t) => Number.isFinite(t.order) && !!t.due && dayDiff(t.due, today) >= 0;
+    const plan = tasks.filter(inPlan);
+    const days = [...new Set(plan.map(t => t.due))].sort().slice(0, 8);
+    $("tt-sec").hidden = !days.length;
+    $("timetable").innerHTML = days.map(d => {
+      const rows = plan.filter(t => t.due === d).sort((a, b) => a.order - b.order);
+      const mins = rows.reduce((s, t) => s + (Number(t.minutes) || 0), 0);
+      const left = rows.filter(t => !isDone(t)).length;
+      const dd = dayDiff(d, today);
+      const when = dd === 0 ? "Hôm nay · " : dd === 1 ? "Ngày mai · " : "";
+      const total = [Math.floor(mins / 60) ? Math.floor(mins / 60) + " giờ" : "", mins % 60 ? (mins % 60) + " phút" : ""].filter(Boolean).join(" ");
+      return `<div class="tt-day"><div class="tt-head"><h3>${when}${DOWL[new Date(d + "T00:00:00Z").getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}</h3><span class="sync">${total ? total + " học · " : ""}${left ? "còn " + left + " buổi" : "đã xong hết"}</span></div>
+        <div class="list"><div class="tt-row tt-cols" aria-hidden="true"><span></span><span>Thời lượng</span><span>Môn</span><span>Ôn gì</span><span>Luyện bằng</span></div>${rows.map(t => {
+          const link = safeUrl(t.link);
+          const subj = String(t.subject || "").replace(/^\d+\s*·\s*/, "");
+          const what = t.review || t.title;
+          const prac = t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : esc(t.practice)) : "";
+          return `<div class="tt-row ${isDone(t) ? "done" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(what)}"><span class="tt-dur">${t.minutes ? esc(t.minutes) + " phút" : ""}</span><span class="subj">${esc(subj)}</span><span class="title">${esc(what)}</span><span class="tt-prac">${prac}</span></div>`;
+        }).join("")}</div></div>`;
+    }).join("");
+    const listTasks = tasks.filter(t => !inPlan(t));
     const groups = { late: [], soon: [], later: [], nodate: [], done: [] };
-    tasks.forEach(t => groups[taskBucket(t, today)].push(t));
+    listTasks.forEach(t => groups[taskBucket(t, today)].push(t));
     const byDue = (a, b) => (a.due || "9999").localeCompare(b.due || "9999") || String(a.subject).localeCompare(String(b.subject));
     Object.values(groups).forEach(g => g.sort(byDue));
     groups.done.sort((a, b) => String(b.doneAt || "").localeCompare(String(a.doneAt || "")));
@@ -250,8 +298,8 @@ td.num.low{color:var(--late)} td.num.hi{color:var(--ok)}
     const notes = mine(state.notes).sort((a,b) => String(b.date||"").localeCompare(String(a.date||""))).slice(0, 12);
     $("notes").innerHTML = notes.length ? `<div class="list">${notes.map(n => `<div class="msg"><div class="who"><b>${esc(n.teacher)}</b>${n.subject?` · ${esc(n.subject)}`:""} · ${fmtDate(n.date)}${n.source?` · ${esc(n.source)}`:""}</div><div>${esc(n.text)}</div></div>`).join("")}</div>` : `<div class="list"><div class="empty">Chưa có nhận xét, dặn dò.</div></div>`;
 
-    $("s-late").textContent = groups.late.length;
-    $("s-soon").textContent = groups.soon.length;
+    $("s-late").textContent = tasks.filter(t => taskBucket(t, today) === "late").length;
+    $("s-soon").textContent = tasks.filter(t => taskBucket(t, today) === "soon").length;
     $("s-exam").textContent = exams.filter(e => e.date && dayDiff(e.date, today) <= 14).length;
     $("s-low").textContent = grades.filter(g => { const v = ten(g); return v !== null && !g.pending && v < 6.5 && g.date && dayDiff(today, g.date) <= 14; }).length;
   }
