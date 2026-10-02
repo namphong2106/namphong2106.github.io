@@ -87,7 +87,7 @@ h3{font:600 .92rem var(--f-display);margin:0}
 .tt-wrap{display:flex;flex-direction:column;gap:16px}
 .tt-day{display:flex;flex-direction:column;gap:6px}
 .tt-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
-.tt-row{display:grid;grid-template-columns:28px 96px 110px minmax(0,1.3fr) minmax(0,1fr);gap:4px 12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
+.tt-row{display:grid;grid-template-columns:28px 80px 100px minmax(0,1fr) minmax(0,1.5fr);gap:4px 12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
 .tt-row:first-child{border-top:0}
 .tt-row > *{min-width:0;overflow-wrap:anywhere}
 .tt-cols{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--bg);padding-block:8px}
@@ -103,6 +103,11 @@ h3{font:600 .92rem var(--f-display);margin:0}
   .tt-row input[type=checkbox]{grid-row:1 / span 3}
   .tt-row .title,.tt-row .tt-prac{grid-column:2 / -1}
 }
+.lk{display:block}
+.lk + .lk{margin-top:6px}
+.tt-prac span.lk{color:var(--muted)}
+.links{margin-top:5px;font-size:.85rem}
+.links a{color:var(--accent);text-underline-offset:3px}
 .foot{color:var(--muted);font-size:.78rem}
 @media (prefers-reduced-motion:no-preference){.row:hover{background:var(--bg)}}
 </style>
@@ -174,6 +179,7 @@ h3{font:600 .92rem var(--f-display);margin:0}
   const dayDiff = (a, b) => Math.round((Date.parse(a+"T00:00:00Z") - Date.parse(b+"T00:00:00Z"))/864e5);
   const fmtDate = (d) => { if(!d) return ""; const x = new Date(d+"T00:00:00Z"); return `${DOW[x.getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}`; };
   const safeUrl = (u) => (typeof u === "string" && /^https:\/\//.test(u)) ? u : null;
+  const linkItems = (t) => (Array.isArray(t.links) ? t.links : []).filter(l => l && l.label).map(l => { const u = safeUrl(l.url); return u ? `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener">${esc(l.label)}</a>` : `<span class="lk">${esc(l.label)}</span>`; }).join("");
   const ls = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e){} } };
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
@@ -212,6 +218,7 @@ h3{font:600 .92rem var(--f-display);margin:0}
         <div class="title">${title}</div>
         <div class="meta"><span class="subj">${esc(t.subject)}</span>${t.due?`<span>Hạn ${fmtDate(t.due)}${t.dueTime?" "+esc(t.dueTime):""}</span>`:""}${t.source?`<span>${esc(t.source)}</span>`:""}${t.who==="parent"?`<span class="chip parent">Việc của phụ huynh</span>`:""}</div>
         ${t.note?`<div class="note">${esc(t.note)}</div>`:""}
+        ${linkItems(t)?`<div class="links">${linkItems(t)}</div>`:""}
       </div>
       <div>${dueChip(t, today)}</div>
     </div>`;
@@ -249,7 +256,8 @@ h3{font:600 .92rem var(--f-display);margin:0}
           const link = safeUrl(t.link);
           const subj = String(t.subject || "").replace(/^\d+\s*·\s*/, "");
           const what = t.review || t.title;
-          const prac = t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : esc(t.practice)) : "";
+          const items = linkItems(t);
+          const prac = items || (t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : esc(t.practice)) : "");
           return `<div class="tt-row ${isDone(t) ? "done" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(what)}"><span class="tt-dur">${t.minutes ? esc(t.minutes) + " phút" : ""}</span><span class="subj">${esc(subj)}</span><span class="title">${esc(what)}</span><span class="tt-prac">${prac}</span></div>`;
         }).join("")}</div></div>`;
     }).join("");
