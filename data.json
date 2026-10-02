@@ -153,8 +153,8 @@
     }
    ],
    "minutes": 40,
-   "note": "Thời gian biểu CN 04/10, buổi 3 (chuyển từ T7). LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
-   "order": 3,
+   "note": "Thời gian biểu CN 04/10, buổi 1 (bài LMS làm trước). LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
+   "order": 1,
    "practice": "Bài tập củng cố tuần 8 (LMS)",
    "review": "Nói và nghe: nội dung, nghệ thuật của một tác phẩm thơ Đường luật",
    "source": "LMS",
@@ -182,31 +182,6 @@
    "status": "todo",
    "subject": "Công dân toàn cầu",
    "title": "Bài tập tổng kết Lăng kính 3 – Đánh giá quan điểm trái chiều"
-  },
-  {
-   "id": "nam-lms-3065692",
-   "due": "2026-10-05",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692",
-   "links": [
-    {
-     "label": "Progress Check 1 – Writing Revision",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692"
-    },
-    {
-     "label": "Revision guideline (trang ôn của thầy)",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892971"
-    }
-   ],
-   "minutes": 30,
-   "note": "Thời gian biểu T2 05/10, buổi 2 (chuyển từ CN). Mục trên LMS đóng 23:59 T6 09/10; không phải nộp bài.",
-   "order": 2,
-   "practice": "Progress Check 1 – Writing Revision; Revision guideline (LMS)",
-   "review": "Ôn 3 dạng viết: Formal Letter, School Report, Non-verbal Communication Guide",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Progress Check 1 – Writing Revision"
   },
   {
    "id": "nam-lms-637488",
@@ -251,64 +226,6 @@
    "title": "Thảo luận sau tiết học Bài 6 – Công cuộc khai phá vùng đất phía Nam"
   },
   {
-   "id": "nam-lms-eng-mustdo-doc-nguphap",
-   "due": "2026-10-04",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963",
-   "links": [
-    {
-     "label": "[Must-do] Reading practice 1 – Multiple choice",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963"
-    },
-    {
-     "label": "[Must-do] Reading practice 2 – Gap-filling",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959"
-    },
-    {
-     "label": "[Must-do] Grammar practice 1 – MCQs",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224962"
-    },
-    {
-     "label": "[Must-do] Grammar practice 2 – Verb forms",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224960"
-    }
-   ],
-   "minutes": 60,
-   "note": "Thời gian biểu CN 04/10, buổi 1 (chuyển từ T7). Module Week 7 – Revision for Progress Check 1; cả 6 quiz Must-do chưa làm.",
-   "order": 1,
-   "practice": "[Must-do] Reading practice 1, Reading practice 2, Grammar practice 1, Grammar practice 2 (LMS)",
-   "review": "Ôn Progress Check 1: Reading và Use of English",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "4 quiz [Must-do] ôn Progress Check 1: Reading practice 1, 2 và Grammar practice 1, 2"
-  },
-  {
-   "id": "nam-lms-eng-mustdo-nghe",
-   "due": "2026-10-04",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961",
-   "links": [
-    {
-     "label": "[Must-do] Listening practice 1 – MCQs",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961"
-    },
-    {
-     "label": "[Must-do] Listening practice 1 – Gap-filling",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224958"
-    }
-   ],
-   "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 2.",
-   "order": 2,
-   "practice": "[Must-do] Listening practice 1 – MCQs; Listening practice 1 – Gap-filling (LMS)",
-   "review": "Ôn Progress Check 1: Listening",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "2 quiz [Must-do] ôn Progress Check 1: Listening practice 1 (MCQs và Gap-filling)"
-  },
-  {
    "id": "nam-lms-ls-hdot-ghk1",
    "due": "2026-10-04",
    "kid": "nam",
@@ -324,8 +241,8 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 7. Đọc lại sau khi đã làm hết Wayground; file cô đăng 20/09 và 01/10.",
-   "order": 7,
+   "note": "Thời gian biểu CN 04/10, buổi 4. Review lần cuối trước khi thi thứ Hai 05/10.",
+   "order": 4,
    "practice": "2 file PDF của cô Nhi: Hướng dẫn ôn tập giữa HKI; Kiến thức ôn tập chương 1",
    "review": "Review trước kì thi: xem lại toàn bộ chương 1 theo file của cô Nhi",
    "source": "LMS",
@@ -349,8 +266,8 @@
     }
    ],
    "minutes": 60,
-   "note": "Thời gian biểu CN 04/10, buổi 4. Module Tuần 9: Ôn tập – Kiểm tra giữa HK1.",
-   "order": 4,
+   "note": "Thời gian biểu CN 04/10, buổi 5. Module Tuần 9: Ôn tập – Kiểm tra giữa HK1.",
+   "order": 5,
    "practice": "Đề tham khảo KT Giữa HK1 (file của cô)",
    "review": "Nội dung ôn tập giữa HKI (file của cô)",
    "source": "LMS",
@@ -480,7 +397,7 @@
     }
    ],
    "minutes": 50,
-   "note": "Thời gian biểu T3 06/10, buổi 1 (chuyển từ T7). Làm sau khi xong bài LMS mới trong ngày.",
+   "note": "Thời gian biểu T3 06/10, buổi 1. Làm sau khi xong bài LMS mới trong ngày.",
    "order": 1,
    "practice": "Phiếu Ôn tập Nguyên tử và Phiếu ôn bổ sung Bài 2.1 & 2.2",
    "review": "Chương 2: nguyên tử",
@@ -511,33 +428,8 @@
    "title": "45 phút – Tự luận câu 1–4 (Wayground bài 5): Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp"
   },
   {
-   "id": "nam-on-20261003-tienganh",
-   "due": "2026-10-07",
-   "kid": "nam",
-   "link": "https://wayground.com/join?gc=55781870",
-   "links": [
-    {
-     "label": "Daily Writing B – Questions beginning with prepositions",
-     "url": "https://wayground.com/join?gc=55781870"
-    },
-    {
-     "label": "Daily Writing C – Correct the mistakes (formal letter)",
-     "url": "https://wayground.com/join?gc=49342958"
-    }
-   ],
-   "minutes": 45,
-   "note": "Thời gian biểu T4 07/10, buổi 1 (chuyển từ T7). Làm sau khi xong bài LMS mới trong ngày.",
-   "order": 1,
-   "practice": "Wayground Daily Writing B và Daily Writing C",
-   "review": "Viết câu: câu hỏi bắt đầu bằng giới từ; sửa lỗi câu (formal letter)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "1 · Tiếng Anh",
-   "title": "45 phút – Viết câu: Wayground Daily Writing B và C"
-  },
-  {
    "id": "nam-on-20261004-khtn-c2",
-   "due": "2026-10-06",
+   "due": "2026-10-07",
    "kid": "nam",
    "link": "https://claude.ai/artifact/YbRwc4pHffEj3JuFKpG1bp",
    "links": [
@@ -547,13 +439,13 @@
     }
    ],
    "minutes": 50,
-   "note": "Thời gian biểu T3 06/10, buổi 2 (chuyển từ CN).",
-   "order": 2,
+   "note": "Thời gian biểu T4 07/10, buổi 1 (chuyển từ T3 để mỗi tối không quá 2 giờ).",
+   "order": 1,
    "practice": "Phiếu khắc phục lỗi KHTN 8 – lần 2",
    "review": "Chương 2: phân tử, liên kết hóa học",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "2 · KHTN",
+   "subject": "1 · KHTN",
    "title": "50 phút – Chương 2 Phân tử, liên kết hóa học: làm Phiếu khắc phục lỗi KHTN 8 – lần 2"
   },
   {
@@ -566,13 +458,13 @@
     }
    ],
    "minutes": 45,
-   "note": "Thời gian biểu CN 04/10, buổi 5.",
-   "order": 5,
+   "note": "Thời gian biểu CN 04/10, buổi 6.",
+   "order": 6,
    "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại có bấm giờ",
    "review": "Tổng hợp chương 1 và 2",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "5 · KHTN",
+   "subject": "6 · KHTN",
    "title": "45 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, có bấm giờ"
   },
   {
@@ -585,18 +477,18 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 6. Chưa soạn: nội dung căn cứ kết quả Nam làm thứ Bảy.",
-   "order": 6,
+   "note": "Thời gian biểu CN 04/10, buổi 2. Thi Lịch sử thứ Hai 05/10. Chưa soạn: nội dung căn cứ kết quả Nam làm thứ Bảy.",
+   "order": 2,
    "practice": "Bài bổ sung (Claude soạn sau khi có kết quả thứ Bảy)",
    "review": "Những phần Nam còn sai ở Wayground bài 3, 4, 5 hôm thứ Bảy",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "6 · Lịch sử",
+   "subject": "2 · Lịch sử",
    "title": "30 phút – Bài bổ sung theo kết quả Wayground thứ Bảy"
   },
   {
    "id": "nam-on-20261004-ls-thithu",
-   "due": "2026-10-05",
+   "due": "2026-10-04",
    "kid": "nam",
    "link": "https://claude.ai/artifact/EvVQYbQVc3NWJvZs3VqmjP",
    "links": [
@@ -606,7 +498,7 @@
     }
    ],
    "minutes": 40,
-   "note": "Thời gian biểu T2 05/10, buổi 3 (chuyển từ CN).",
+   "note": "Thời gian biểu CN 04/10, buổi 3 (chuyển từ T2 vì thi Lịch sử thứ Hai 05/10). Làm trên giấy, bấm giờ 40 phút.",
    "order": 3,
    "practice": "Đề ôn tập Lịch sử – Giữa HK1 – Khối 8",
    "review": "Thi thử trên giấy",
@@ -637,7 +529,78 @@
    "title": "45 phút – Tự luận câu 5–8 (Wayground bài 5)"
   },
   {
-   "id": "nam-on-20261004-tienganh",
+   "id": "nam-ta-ngay-20261004",
+   "due": "2026-10-04",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=10220014",
+   "links": [
+    {
+     "label": "Daily Writing A – Join sentences (preposition + which/whom)",
+     "url": "https://wayground.com/join?gc=10220014"
+    }
+   ],
+   "minutes": 25,
+   "note": "Thời gian biểu CN 04/10, buổi 7. Mỗi ngày chỉ 1–2 bài Tiếng Anh. Bài A mới làm 1/15 câu.",
+   "order": 7,
+   "practice": "Wayground Daily Writing A",
+   "review": "Ghép câu với giới từ + which/whom (1 bài)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "7 · Tiếng Anh",
+   "title": "25 phút – Tiếng Anh hằng ngày: Daily Writing A"
+  },
+  {
+   "id": "nam-ta-ngay-20261005",
+   "due": "2026-10-05",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=55781870",
+   "links": [
+    {
+     "label": "Daily Writing B – Questions beginning with prepositions",
+     "url": "https://wayground.com/join?gc=55781870"
+    },
+    {
+     "label": "[Must-do] Grammar practice 1 – MCQs (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224962"
+    }
+   ],
+   "minutes": 40,
+   "note": "Thời gian biểu T2 05/10, buổi 2. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
+   "order": 2,
+   "practice": "Wayground Daily Writing B; LMS [Must-do] Grammar practice 1",
+   "review": "Câu hỏi bắt đầu bằng giới từ; ngữ pháp trắc nghiệm (2 bài)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "2 · Tiếng Anh",
+   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing B và Grammar practice 1"
+  },
+  {
+   "id": "nam-ta-ngay-20261006",
+   "due": "2026-10-06",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=49342958",
+   "links": [
+    {
+     "label": "Daily Writing C – Correct the mistakes (formal letter)",
+     "url": "https://wayground.com/join?gc=49342958"
+    },
+    {
+     "label": "[Must-do] Grammar practice 2 – Verb forms (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224960"
+    }
+   ],
+   "minutes": 40,
+   "note": "Thời gian biểu T3 06/10, buổi 2. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
+   "order": 2,
+   "practice": "Wayground Daily Writing C; LMS [Must-do] Grammar practice 2",
+   "review": "Sửa lỗi câu (formal letter); chia động từ (2 bài)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "2 · Tiếng Anh",
+   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing C và Grammar practice 2"
+  },
+  {
+   "id": "nam-ta-ngay-20261007",
    "due": "2026-10-07",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=57285102",
@@ -647,23 +610,69 @@
      "url": "https://wayground.com/join?gc=57285102"
     },
     {
-     "label": "Daily Writing A – Join sentences (preposition + which/whom) – mới làm 1/15 câu",
-     "url": "https://wayground.com/join?gc=10220014"
-    },
-    {
-     "label": "Daily Writing D – Second conditional & conjunctions – làm lại (lần tốt nhất 12/15)",
-     "url": "https://wayground.com/join?gc=17295854"
+     "label": "[Must-do] Reading practice 1 – Multiple choice (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963"
     }
    ],
-   "minutes": 45,
-   "note": "Thời gian biểu T4 07/10, buổi 2 (chuyển từ CN).",
+   "minutes": 40,
+   "note": "Thời gian biểu T4 07/10, buổi 2. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
    "order": 2,
-   "practice": "Wayground Daily Writing E, Daily Writing A; làm lại Daily Writing D",
-   "review": "Viết đoạn ngắn; ghép câu với giới từ + which/whom; ôn lại câu điều kiện loại 2",
+   "practice": "Wayground Daily Writing E; LMS [Must-do] Reading practice 1",
+   "review": "Viết đoạn ngắn; đọc hiểu trắc nghiệm (2 bài)",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "2 · Tiếng Anh",
-   "title": "45 phút – Viết: Wayground Daily Writing E và A; làm lại D"
+   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing E và Reading practice 1"
+  },
+  {
+   "id": "nam-ta-ngay-20261008",
+   "due": "2026-10-08",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=17295854",
+   "links": [
+    {
+     "label": "Daily Writing D – Second conditional & conjunctions – làm lại (lần tốt nhất 12/15)",
+     "url": "https://wayground.com/join?gc=17295854"
+    },
+    {
+     "label": "[Must-do] Reading practice 2 – Gap-filling (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959"
+    }
+   ],
+   "minutes": 40,
+   "note": "Thời gian biểu T5 08/10, buổi 1. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
+   "order": 1,
+   "practice": "Wayground Daily Writing D (làm lại); LMS [Must-do] Reading practice 2",
+   "review": "Câu điều kiện loại 2, nối câu với while (các câu đã sai); đọc hiểu điền từ (2 bài)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · Tiếng Anh",
+   "title": "40 phút – Tiếng Anh hằng ngày: làm lại Daily Writing D và Reading practice 2"
+  },
+  {
+   "id": "nam-ta-ngay-20261009",
+   "due": "2026-10-09",
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961",
+   "links": [
+    {
+     "label": "[Must-do] Listening practice 1 – MCQs (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961"
+    },
+    {
+     "label": "[Must-do] Listening practice 1 – Gap-filling (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224958"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu T6 09/10, buổi 1. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
+   "order": 1,
+   "practice": "LMS [Must-do] Listening practice 1 – MCQs và Gap-filling",
+   "review": "Nghe hiểu: trắc nghiệm và điền từ (2 bài)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · Tiếng Anh",
+   "title": "30 phút – Tiếng Anh hằng ngày: 2 quiz Listening practice 1"
   },
   {
    "id": "nam-toan-quiz-2-10",
@@ -754,21 +763,11 @@
   {
    "id": "nam-ls-giuaki1",
    "date": "2026-10-05",
-   "dateEnd": "2026-10-09",
    "kid": "nam",
    "scope": "Trên giấy, 45 phút, 60% trắc nghiệm + 40% tự luận. CMTS Anh, Chiến tranh giành độc lập Bắc Mĩ, CMTS Pháp, Cách mạng công nghiệp. Tập trung tư duy nhân – quả, so sánh, đọc tư liệu.",
-   "source": "LMS",
+   "source": "Phụ huynh báo",
    "subject": "Lịch sử",
    "title": "Kiểm tra giữa kì I"
-  },
-  {
-   "id": "nam-ta-progress-check-1",
-   "date": null,
-   "kid": "nam",
-   "scope": "50–60 phút, 4 phần (Reading, Use of English, Listening, Writing), mỗi phần 25%. Unit 1 và Unit 2. Tuần 28/9–02/10 là tuần ôn; ngày kiểm tra chưa thấy trên LMS.",
-   "source": "LMS",
-   "subject": "Tiếng Anh",
-   "title": "Progress Check 1"
   },
   {
    "id": "nam-tin-giuaki1",
@@ -1732,6 +1731,18 @@
    "title": "[TX] Bài tập kết thúc chương 1"
   },
   {
+   "id": "nam-ta-progress-check-1",
+   "date": "2026-10-02",
+   "kid": "nam",
+   "max": 10,
+   "note": "Phụ huynh báo ngày 02/10; chưa có điểm từng phần.",
+   "official": true,
+   "score": 6,
+   "source": "Phụ huynh báo",
+   "subject": "Tiếng Anh",
+   "title": "Progress Check 1"
+  },
+  {
    "id": "nam-vsone-khtn-kt-chuong1",
    "date": "2026-09-15",
    "kid": "nam",
@@ -1949,7 +1960,7 @@
    "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
    "date": "2026-10-01",
    "detail": "Điểm 15/15 ở lượt tốt nhất có thể do nhớ đáp án sau khi làm lặp lại. Cần kiểm tra lại bằng câu hỏi mới hoặc tự luận.",
-   "fix": "Tự luận Wayground bài 5 (thứ Bảy 03/10) và đề thi thử (thứ Hai 05/10).",
+   "fix": "Tự luận Wayground bài 5 (thứ Bảy 03/10) và đề thi thử trên giấy (Chủ nhật 04/10).",
    "kid": "nam",
    "level": "habit",
    "link": "https://wayground.com/join?gc=53969902",
@@ -2017,7 +2028,7 @@
    "activity": "Daily Writing D – Second conditional & conjunctions",
    "date": "2026-10-01",
    "detail": "Câu 1: I don't have a bike, so I walk to school. → If I had a bike, I wouldn't walk to school. Sai cả 2 lượt có làm.",
-   "fix": "Làm lại Daily Writing D (thứ Tư 07/10).",
+   "fix": "Làm lại Daily Writing D (thứ Năm 08/10).",
    "kid": "nam",
    "level": "repeat",
    "link": "https://wayground.com/join?gc=17295854",
@@ -2031,7 +2042,7 @@
    "activity": "Daily Writing D – Second conditional & conjunctions",
    "date": "2026-10-01",
    "detail": "Câu 15: Some students prefer reading. Others prefer listening. → Some students prefer reading, while others prefer listening. Sai cả 2 lượt có làm.",
-   "fix": "Làm lại Daily Writing D (thứ Tư 07/10).",
+   "fix": "Làm lại Daily Writing D (thứ Năm 08/10).",
    "kid": "nam",
    "level": "repeat",
    "link": "https://wayground.com/join?gc=17295854",
@@ -2045,7 +2056,7 @@
    "activity": "Daily Writing D – Second conditional & conjunctions",
    "date": "2026-10-01",
    "detail": "Câu 7: Nam doesn't practise every day, so his writing doesn't improve. → If Nam practised every day, his writing would improve. Sai cả 2 lượt có làm.",
-   "fix": "Làm lại Daily Writing D (thứ Tư 07/10).",
+   "fix": "Làm lại Daily Writing D (thứ Năm 08/10).",
    "kid": "nam",
    "level": "repeat",
    "link": "https://wayground.com/join?gc=17295854",
@@ -2066,6 +2077,19 @@
    "status": "open",
    "subject": "Tiếng Anh",
    "topic": "Câu điều kiện loại 2 với would / could"
+  },
+  {
+   "id": "nam-ta-progress-check-1",
+   "activity": "Progress Check 1",
+   "date": "2026-10-02",
+   "detail": "Chưa có điểm từng phần (Reading, Use of English, Listening, Writing) nên chưa rõ phần nào yếu nhất.",
+   "fix": "Mỗi ngày 1–2 bài: Daily Writing trên Wayground và quiz Must-do trên LMS (04/10–09/10).",
+   "kid": "nam",
+   "level": "unknown",
+   "source": "Phụ huynh báo",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Progress Check 1: 6 điểm"
   }
  ],
  "meta": {
