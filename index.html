@@ -87,12 +87,12 @@ h3{font:600 .92rem var(--f-display);margin:0}
 .tt-wrap{display:flex;flex-direction:column;gap:16px}
 .tt-day{display:flex;flex-direction:column;gap:6px}
 .tt-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
-.tt-row{display:grid;grid-template-columns:28px 96px 110px minmax(0,1.3fr) minmax(0,1fr);gap:4px 12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
+.tt-row{display:grid;grid-template-columns:28px 80px 100px minmax(0,1fr) minmax(0,1.5fr);gap:4px 12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
 .tt-row:first-child{border-top:0}
 .tt-row > *{min-width:0;overflow-wrap:anywhere}
 .tt-cols{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--bg);padding-block:8px}
 .tt-dur{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--muted);font-size:.88rem}
-.tt-row .subj{font-size:.88rem}
+.tt-row .subj{font-size:.88rem;font-weight:600;color:var(--accent)}
 .tt-prac{font-size:.88rem;color:var(--muted)}
 .tt-prac a{color:var(--accent);text-underline-offset:3px}
 .tt-row input[type=checkbox]{width:20px;height:20px;margin-top:1px;accent-color:var(--accent);cursor:pointer}
@@ -103,6 +103,14 @@ h3{font:600 .92rem var(--f-display);margin:0}
   .tt-row input[type=checkbox]{grid-row:1 / span 3}
   .tt-row .title,.tt-row .tt-prac{grid-column:2 / -1}
 }
+.lk{display:block}
+.lk + .lk{margin-top:6px}
+.tt-prac span.lk{color:var(--muted)}
+.links{margin-top:5px;font-size:.85rem}
+.links a{color:var(--accent);text-underline-offset:3px}
+.row.err{grid-template-columns:minmax(0,1fr) auto}
+.err .meta a{color:var(--accent);text-underline-offset:3px}
+.err .fix{color:var(--ink);font-size:.82rem;margin-top:4px}
 .foot{color:var(--muted);font-size:.78rem}
 @media (prefers-reduced-motion:no-preference){.row:hover{background:var(--bg)}}
 </style>
@@ -122,6 +130,11 @@ h3{font:600 .92rem var(--f-display);margin:0}
 
   <div id="banner" class="banner" hidden></div>
 
+  <section>
+    <h2>Lịch kiểm tra</h2>
+    <div id="exams"></div>
+  </section>
+
   <div class="stats">
     <div class="stat late"><b id="s-late">–</b><span>Quá hạn / thiếu</span></div>
     <div class="stat soon"><b id="s-soon">–</b><span>Đến hạn trong 48 giờ</span></div>
@@ -131,8 +144,8 @@ h3{font:600 .92rem var(--f-display);margin:0}
 
   <div class="tonight" id="tonight-box" hidden><span class="lbl">Tối nay</span><span id="tonight"></span></div>
 
-  <section id="tt-sec" aria-labelledby="h-tt" hidden>
-    <div class="sec-head"><h2 id="h-tt">Thời gian biểu</h2><span class="sync">Học theo thứ tự từ trên xuống · tích ô khi xong buổi</span></div>
+  <section id="tt-sec" hidden>
+    <div class="sec-head"><h2>Thời gian biểu</h2><span class="sync">Học theo thứ tự từ trên xuống · tích ô khi xong buổi (lưu trên máy này)</span></div>
     <div class="tt-wrap" id="timetable"></div>
   </section>
 
@@ -141,9 +154,9 @@ h3{font:600 .92rem var(--f-display);margin:0}
     <div id="tasks"><div class="list"><div class="empty">Đang tải…</div></div></div>
   </section>
 
-  <section>
-    <h2>Lịch kiểm tra</h2>
-    <div id="exams"></div>
+  <section id="err-sec">
+    <div class="sec-head"><h2>Sổ lỗi</h2><span class="sync" id="err-count"></span></div>
+    <div id="errors"><div class="list"><div class="empty">Chưa ghi lỗi nào.</div></div></div>
   </section>
 
   <section>
@@ -174,6 +187,7 @@ h3{font:600 .92rem var(--f-display);margin:0}
   const dayDiff = (a, b) => Math.round((Date.parse(a+"T00:00:00Z") - Date.parse(b+"T00:00:00Z"))/864e5);
   const fmtDate = (d) => { if(!d) return ""; const x = new Date(d+"T00:00:00Z"); return `${DOW[x.getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}`; };
   const safeUrl = (u) => (typeof u === "string" && /^https:\/\//.test(u)) ? u : null;
+  const linkItems = (t) => (Array.isArray(t.links) ? t.links : []).filter(l => l && l.label).map(l => { const u = safeUrl(l.url); return u ? `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener">${esc(l.label)}</a>` : `<span class="lk">${esc(l.label)}</span>`; }).join("");
   const ls = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e){} } };
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
@@ -212,6 +226,7 @@ h3{font:600 .92rem var(--f-display);margin:0}
         <div class="title">${title}</div>
         <div class="meta"><span class="subj">${esc(t.subject)}</span>${t.due?`<span>Hạn ${fmtDate(t.due)}${t.dueTime?" "+esc(t.dueTime):""}</span>`:""}${t.source?`<span>${esc(t.source)}</span>`:""}${t.who==="parent"?`<span class="chip parent">Việc của phụ huynh</span>`:""}</div>
         ${t.note?`<div class="note">${esc(t.note)}</div>`:""}
+        ${linkItems(t)?`<div class="links">${linkItems(t)}</div>`:""}
       </div>
       <div>${dueChip(t, today)}</div>
     </div>`;
@@ -231,10 +246,8 @@ h3{font:600 .92rem var(--f-display);margin:0}
     $("tonight").textContent = (m && m.tonight) || "";
 
     const tasks = mine(state.tasks);
-
-    // timetable: tasks that carry a numeric `order` and a due date from today on
+    // Thời gian biểu: các việc có order (số) và hạn từ hôm nay trở đi
     const DOWL = ["Chủ nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
-    const ttDone = (t) => (typeof isDone === "function") ? isDone(t) : t.status === "done";
     const inPlan = (t) => Number.isFinite(t.order) && !!t.due && dayDiff(t.due, today) >= 0;
     const plan = tasks.filter(inPlan);
     const days = [...new Set(plan.map(t => t.due))].sort().slice(0, 8);
@@ -242,7 +255,7 @@ h3{font:600 .92rem var(--f-display);margin:0}
     $("timetable").innerHTML = days.map(d => {
       const rows = plan.filter(t => t.due === d).sort((a, b) => a.order - b.order);
       const mins = rows.reduce((s, t) => s + (Number(t.minutes) || 0), 0);
-      const left = rows.filter(t => !ttDone(t)).length;
+      const left = rows.filter(t => !isDone(t)).length;
       const dd = dayDiff(d, today);
       const when = dd === 0 ? "Hôm nay · " : dd === 1 ? "Ngày mai · " : "";
       const total = [Math.floor(mins / 60) ? Math.floor(mins / 60) + " giờ" : "", mins % 60 ? (mins % 60) + " phút" : ""].filter(Boolean).join(" ");
@@ -251,9 +264,9 @@ h3{font:600 .92rem var(--f-display);margin:0}
           const link = safeUrl(t.link);
           const subj = String(t.subject || "").replace(/^\d+\s*·\s*/, "");
           const what = t.review || t.title;
-          const prac = t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : esc(t.practice)) : "";
-          const dis = ((typeof canWrite !== "undefined" && !canWrite) || (typeof localDone !== "undefined" && t.status === "done")) ? "disabled" : "";
-          return `<div class="tt-row ${ttDone(t) ? "done" : ""}"><input type="checkbox" id="tt-${esc(t.id)}" data-id="${esc(t.id)}" ${ttDone(t) ? "checked" : ""} ${dis} aria-label="Đã xong: ${esc(what)}"><span class="tt-dur">${t.minutes ? esc(t.minutes) + " phút" : ""}</span><span class="subj">${esc(subj)}</span><span class="title">${esc(what)}</span><span class="tt-prac">${prac}</span></div>`;
+          const items = linkItems(t);
+          const prac = items || (t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : esc(t.practice)) : "");
+          return `<div class="tt-row ${isDone(t) ? "done" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(what)}"><span class="tt-dur">${t.minutes ? esc(t.minutes) + " phút" : ""}</span><span class="subj">${esc(subj)}</span><span class="title">${esc(what)}</span><span class="tt-prac">${prac}</span></div>`;
         }).join("")}</div></div>`;
     }).join("");
     const listTasks = tasks.filter(t => !inPlan(t));
@@ -267,6 +280,22 @@ h3{font:600 .92rem var(--f-display);margin:0}
     if (!html) html = `<div class="list"><div class="empty">${state.ready ? "Không còn việc nào. Tuyệt vời!" : "Đang tải…"}</div></div>`;
     if (groups.done.length) html += `<details><summary>Đã xong (${groups.done.length})</summary><div class="list">${groups.done.slice(0, 15).map(t => taskRow(t, today)).join("")}</div></details>`;
     $("tasks").innerHTML = html;
+
+    // Sổ lỗi: câu/phần kiến thức con làm sai, ghi sau mỗi buổi làm bài
+    const errs = mine(state.errors || []);
+    const LV = { repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
+    const rank = { repeat: 0, once: 1, unknown: 2, habit: 3 };
+    const openErr = errs.filter(e => e.status !== "fixed").length;
+    $("err-count").textContent = errs.length ? openErr + " mục chưa khắc phục · ghi sau mỗi buổi làm bài" : "";
+    const bySub = {};
+    errs.slice().sort((a, b) => (a.status === "fixed") - (b.status === "fixed") || (rank[a.level] ?? 9) - (rank[b.level] ?? 9) || String(b.date || "").localeCompare(String(a.date || ""))).forEach(e => { (bySub[e.subject] ||= []).push(e); });
+    $("errors").innerHTML = errs.length ? Object.entries(bySub).map(([s, arr]) => `<div class="group-lbl">${esc(s)}</div><div class="list">${arr.map(e => {
+      const lv = LV[e.level] || ["", ""];
+      const u = safeUrl(e.link);
+      const chip = e.status === "fixed" ? `<span class="chip ok">Đã khắc phục</span>` : (lv[0] ? `<span class="chip ${lv[1]}">${lv[0]}</span>` : "");
+      const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.activity)}</a>` : `<span>${esc(e.activity)}</span>`) : "";
+      return `<div class="row err ${e.status === "fixed" ? "done" : ""}"><div style="min-width:0"><div class="title">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div>${chip}</div></div>`;
+    }).join("")}</div>`).join("") : `<div class="list"><div class="empty">Chưa ghi lỗi nào.</div></div>`;
 
     const exams = mine(state.exams).filter(e => !e.date || dayDiff(e.dateEnd || e.date, today) >= 0).sort((a,b) => (a.date||"9999").localeCompare(b.date||"9999"));
     $("exams").innerHTML = exams.length ? `<div class="list">${exams.map(e => {
