@@ -647,23 +647,23 @@
      "url": "https://wayground.com/join?gc=57285102"
     },
     {
-     "label": "Daily Writing A – Join sentences (preposition + which/whom) – làm lại",
+     "label": "Daily Writing A – Join sentences (preposition + which/whom) – mới làm 1/15 câu",
      "url": "https://wayground.com/join?gc=10220014"
     },
     {
-     "label": "Daily Writing D – Second conditional & conjunctions – làm lại",
+     "label": "Daily Writing D – Second conditional & conjunctions – làm lại (lần tốt nhất 12/15)",
      "url": "https://wayground.com/join?gc=17295854"
     }
    ],
    "minutes": 45,
    "note": "Thời gian biểu T4 07/10, buổi 2 (chuyển từ CN).",
    "order": 2,
-   "practice": "Wayground Daily Writing E; làm lại Daily Writing A và D",
-   "review": "Viết đoạn ngắn; ôn lại ghép câu và câu điều kiện loại 2",
+   "practice": "Wayground Daily Writing E, Daily Writing A; làm lại Daily Writing D",
+   "review": "Viết đoạn ngắn; ghép câu với giới từ + which/whom; ôn lại câu điều kiện loại 2",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "2 · Tiếng Anh",
-   "title": "45 phút – Viết đoạn: Wayground Daily Writing E; làm lại A và D"
+   "title": "45 phút – Viết: Wayground Daily Writing E và A; làm lại D"
   },
   {
    "id": "nam-toan-quiz-2-10",
@@ -1888,6 +1888,184 @@
    "subject": "Lịch sử và Địa lý",
    "teacher": "Cô Nguyễn Thị Nhã Trúc",
    "text": "Phong nhận biết được những đặc điểm nổi bật về địa hình, thiên nhiên của Trung du và miền núi phía Bắc (nội dung đầy đủ bị cắt)."
+  }
+ ],
+ "errors": [
+  {
+   "id": "nam-khtn-lms-c203",
+   "activity": "Quiz trước tiết học – C2.03",
+   "date": "2026-09-24",
+   "detail": "Điểm trung bình các lần làm. Chưa có chi tiết câu sai.",
+   "fix": "Phiếu khắc phục lỗi KHTN 8 – lần 2 (thứ Ba 06/10).",
+   "kid": "nam",
+   "level": "unknown",
+   "link": "https://lms.vinschool.edu.vn/courses/87368/assignments/2748689",
+   "source": "LMS",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "C2.03 – Tại sao các nguyên tố phản ứng để tạo thành hợp chất: 6,33/10"
+  },
+  {
+   "id": "nam-khtn-vsone-chuong1",
+   "activity": "Bài kiểm tra chương 1 (8,5/10) – nhận xét của cô Huệ",
+   "date": "2026-09-15",
+   "detail": "Cô Huệ nhận xét bài khá tốt nhưng cần ôn lại ba phần này.",
+   "fix": "Bài ôn cô phát (thứ Bảy 03/10), làm lại có bấm giờ (Chủ nhật 04/10).",
+   "kid": "nam",
+   "level": "unknown",
+   "source": "VS One",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "Chương 1: thí nghiệm chứng minh khí oxygen trong quang hợp; cấu tạo lá – lục lạp; trao đổi carbon"
+  },
+  {
+   "id": "nam-ls-lms-ktchuong1",
+   "activity": "[TX] [Bài tập kết thúc chương 1]",
+   "date": "2026-09-29",
+   "detail": "Phần tự luận đang chờ cô chấm. Chưa có chi tiết câu sai.",
+   "kid": "nam",
+   "level": "unknown",
+   "link": "https://lms.vinschool.edu.vn/courses/57207/assignments/3058699",
+   "source": "LMS",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Bài tập kết thúc chương 1: 3/10 ở phần đã chấm"
+  },
+  {
+   "id": "nam-ls-lms-tx1",
+   "activity": "[TX1] [Chương 1] Châu Âu và Bắc Mĩ từ nửa sau thế kỉ XVI đến thế kỉ XVIII",
+   "date": "2026-09-29",
+   "detail": "Điểm chính thức HS1 cột 1. Chưa có chi tiết câu sai; cô Nhi đã mở bài cải thiện điểm.",
+   "kid": "nam",
+   "level": "unknown",
+   "link": "https://lms.vinschool.edu.vn/courses/57207/assignments/3032943",
+   "source": "LMS",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Chương 1 – bài kiểm tra thường xuyên 1: 5/10"
+  },
+  {
+   "id": "nam-ls-wg1-cachlam",
+   "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
+   "date": "2026-10-01",
+   "detail": "Điểm 15/15 ở lượt tốt nhất có thể do nhớ đáp án sau khi làm lặp lại. Cần kiểm tra lại bằng câu hỏi mới hoặc tự luận.",
+   "fix": "Tự luận Wayground bài 5 (thứ Bảy 03/10) và đề thi thử (thứ Hai 05/10).",
+   "kid": "nam",
+   "level": "habit",
+   "link": "https://wayground.com/join?gc=53969902",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Trả lời rất nhanh: trung bình 1–7 giây mỗi câu qua 4 lượt làm"
+  },
+  {
+   "id": "nam-ls-wg1-q11",
+   "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
+   "date": "2026-10-01",
+   "detail": "Câu Đúng/Sai (câu 11), đáp án Đúng. Sai 1 trong 4 lượt.",
+   "kid": "nam",
+   "level": "once",
+   "link": "https://wayground.com/join?gc=53969902",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Lực lượng lãnh đạo Chiến tranh giành độc lập Bắc Mĩ: tư sản và chủ nô"
+  },
+  {
+   "id": "nam-ls-wg1-q14",
+   "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
+   "date": "2026-10-01",
+   "detail": "Câu Đúng/Sai (câu 14), đáp án Đúng. Nam chọn sai 2 trong 4 lượt làm.",
+   "fix": "Bài bổ sung Chủ nhật 04/10 (soạn sau kết quả thứ Bảy).",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=53969902",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Ý nghĩa chung: CMTS Anh và Chiến tranh giành độc lập Bắc Mĩ đều mở đường cho chủ nghĩa tư bản"
+  },
+  {
+   "id": "nam-ls-wg1-q15",
+   "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
+   "date": "2026-10-01",
+   "detail": "Câu Đúng/Sai (câu 15), đáp án Đúng. Nam chọn sai 2 trong 4 lượt làm.",
+   "fix": "Bài bổ sung Chủ nhật 04/10 (soạn sau kết quả thứ Bảy).",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=53969902",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Mốc 1783: Anh kí hòa ước công nhận độc lập của 13 thuộc địa"
+  },
+  {
+   "id": "nam-ls-wg2-q1",
+   "activity": "Wayground Lịch sử bài 2 – Cách mạng tư sản Pháp",
+   "date": "2026-10-01",
+   "detail": "Câu 1. Sai 1 trong 2 lượt; lượt sau làm đúng.",
+   "kid": "nam",
+   "level": "once",
+   "link": "https://wayground.com/join?gc=58475502",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Ba đẳng cấp trong xã hội Pháp trước cách mạng"
+  },
+  {
+   "id": "nam-ta-dwd-q1",
+   "activity": "Daily Writing D – Second conditional & conjunctions",
+   "date": "2026-10-01",
+   "detail": "Câu 1: I don't have a bike, so I walk to school. → If I had a bike, I wouldn't walk to school. Sai cả 2 lượt có làm.",
+   "fix": "Làm lại Daily Writing D (thứ Tư 07/10).",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=17295854",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Câu điều kiện loại 2 – mệnh đề chính ở dạng phủ định (wouldn't)"
+  },
+  {
+   "id": "nam-ta-dwd-q15",
+   "activity": "Daily Writing D – Second conditional & conjunctions",
+   "date": "2026-10-01",
+   "detail": "Câu 15: Some students prefer reading. Others prefer listening. → Some students prefer reading, while others prefer listening. Sai cả 2 lượt có làm.",
+   "fix": "Làm lại Daily Writing D (thứ Tư 07/10).",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=17295854",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Nối hai câu đối lập bằng while"
+  },
+  {
+   "id": "nam-ta-dwd-q7",
+   "activity": "Daily Writing D – Second conditional & conjunctions",
+   "date": "2026-10-01",
+   "detail": "Câu 7: Nam doesn't practise every day, so his writing doesn't improve. → If Nam practised every day, his writing would improve. Sai cả 2 lượt có làm.",
+   "fix": "Làm lại Daily Writing D (thứ Tư 07/10).",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=17295854",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Câu điều kiện loại 2 – mệnh đề chính đổi chủ ngữ"
+  },
+  {
+   "id": "nam-ta-dwd-would-could",
+   "activity": "Daily Writing D – Second conditional & conjunctions",
+   "date": "2026-10-01",
+   "detail": "Câu 3, 5, 6, 8: mỗi câu sai 1 lượt, lượt sau làm đúng. Lượt tốt nhất của cả bài: 12/15.",
+   "kid": "nam",
+   "level": "once",
+   "link": "https://wayground.com/join?gc=17295854",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Câu điều kiện loại 2 với would / could"
   }
  ],
  "meta": {
