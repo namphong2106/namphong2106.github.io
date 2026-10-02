@@ -4,10 +4,17 @@
    "id": "nam-cdtc-thao-luan-tuan-7",
    "due": "2026-10-02",
    "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/88391/discussion_topics/691143",
+   "links": [
+    {
+     "label": "Thảo luận trước tiết 2 – tuần 7: Quy trình giải quyết vấn đề",
+     "url": "https://lms.vinschool.edu.vn/courses/88391/discussion_topics/691143"
+    }
+   ],
    "minutes": 30,
    "note": "Thời gian biểu tối T6 02/10: buổi 2, 30 phút. Đọc bài báo rồi trả lời câu hỏi.",
    "order": 2,
-   "practice": "Trả lời thảo luận trước tiết 2 tuần 7 trên LMS",
+   "practice": "Thảo luận trước tiết 2 – tuần 7: Quy trình giải quyết vấn đề (LMS)",
    "review": "Đọc bài báo về quy trình giải quyết vấn đề",
    "source": "LMS",
    "status": "todo",
@@ -42,11 +49,21 @@
    "id": "nam-khtn-doc-truoc-2-3-2-4",
    "due": "2026-10-03",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87368/assignments/2748597",
+   "link": "https://lms.vinschool.edu.vn/courses/87368/quizzes/2002765",
+   "links": [
+    {
+     "label": "Lý thuyết C2.04 – Những cấu trúc đơn giản và khổng lồ",
+     "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035127"
+    },
+    {
+     "label": "Quiz trước tiết học – C2.04",
+     "url": "https://lms.vinschool.edu.vn/courses/87368/quizzes/2002765"
+    }
+   ],
    "minutes": 30,
    "note": "Thời gian biểu T7 03/10, buổi 1. LMS 02/10: Quiz C2.04 chưa làm (C2.03 đã làm 24/09, 6,33/10). Cô Huệ dặn 29/09; mang đủ SHS, SBT, phiếu học tập HK1.",
    "order": 1,
-   "practice": "Quiz trước tiết học C2.04 trên LMS (10 phút, tối đa 3 lần)",
+   "practice": "Quiz trước tiết học – C2.04 (LMS)",
    "review": "Đọc trước bài 2.3, 2.4",
    "source": "LMS",
    "status": "todo",
@@ -57,7 +74,17 @@
    "id": "nam-lms-2724819",
    "due": null,
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/88139/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/88139/assignments/2724819",
+   "links": [
+    {
+     "label": "Quiz Kiểm tra phần tự học – Nghệ thuật Collage",
+     "url": "https://lms.vinschool.edu.vn/courses/88139/quizzes/1983788"
+    },
+    {
+     "label": "Bài tập thực hành – Nghệ thuật Collage",
+     "url": "https://lms.vinschool.edu.vn/courses/88139/assignments/2724819"
+    }
+   ],
    "note": "LMS đánh dấu bắt buộc nộp, hiện chưa nộp. Hỏi Nam đã làm tại lớp chưa.",
    "source": "LMS",
    "status": "todo",
@@ -68,7 +95,17 @@
    "id": "nam-lms-2847999",
    "due": null,
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87936/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/87936/assignments/2847999",
+   "links": [
+    {
+     "label": "Viết User Story",
+     "url": "https://lms.vinschool.edu.vn/courses/87936/assignments/2847999"
+    },
+    {
+     "label": "Giải pháp tinh chỉnh khi đồng kiến tạo với AI",
+     "url": "https://lms.vinschool.edu.vn/courses/87936/assignments/2847996"
+    }
+   ],
    "note": "Hai bài thang 0 điểm, chưa nộp trên LMS. Hỏi Nam có phải bài làm theo nhóm tại lớp không.",
    "source": "LMS",
    "status": "todo",
@@ -80,10 +117,24 @@
    "due": "2026-10-05",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87796/assignments/3049507",
+   "links": [
+    {
+     "label": "Hướng dẫn đánh giá giữa HK1 (PDF của cô)",
+     "url": "https://lms.vinschool.edu.vn/courses/87796/files/11700576"
+    },
+    {
+     "label": "File mẫu bài làm (Word)",
+     "url": "https://lms.vinschool.edu.vn/courses/87796/files/11700662"
+    },
+    {
+     "label": "Nộp bài đánh giá giữa HK1",
+     "url": "https://lms.vinschool.edu.vn/courses/87796/assignments/3049507"
+    }
+   ],
    "minutes": 40,
    "note": "Thời gian biểu T2 05/10, buổi 1. HẠN NỘP trên LMS: 23:59 T6 09/10.",
    "order": 1,
-   "practice": "Làm theo file mẫu, nộp trên LMS",
+   "practice": "Bài đánh giá giữa HK1 Địa lí: đọc hướng dẫn, làm theo file mẫu, nộp trên LMS",
    "review": "Bài đánh giá giữa HK1 Địa lí 8 (đọc file hướng dẫn của cô)",
    "source": "LMS",
    "status": "todo",
@@ -95,10 +146,16 @@
    "due": "2026-10-03",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88863/assignments/3054591",
+   "links": [
+    {
+     "label": "Bài tập củng cố tuần 8",
+     "url": "https://lms.vinschool.edu.vn/courses/88863/assignments/3054591"
+    }
+   ],
    "minutes": 40,
    "note": "Thời gian biểu T7 03/10, buổi 5. LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
    "order": 5,
-   "practice": "Nộp Bài tập củng cố tuần 8 trên LMS",
+   "practice": "Bài tập củng cố tuần 8 (LMS)",
    "review": "Nói và nghe: nội dung, nghệ thuật của một tác phẩm thơ Đường luật",
    "source": "LMS",
    "status": "todo",
@@ -110,10 +167,16 @@
    "due": "2026-10-03",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88391/assignments/3061170",
+   "links": [
+    {
+     "label": "Bài tập tổng kết Lăng kính 3 – Đánh giá quan điểm trái chiều",
+     "url": "https://lms.vinschool.edu.vn/courses/88391/assignments/3061170"
+    }
+   ],
    "minutes": 15,
    "note": "Thời gian biểu T7 03/10, buổi 8. Chưa nộp; LMS không đặt hạn (tuần 7).",
    "order": 8,
-   "practice": "Nộp bài viết trên LMS",
+   "practice": "Bài tập tổng kết Lăng kính 3 (LMS)",
    "review": "Nhận xét tính khách quan của một quan điểm trái chiều về bất bình đẳng",
    "source": "LMS",
    "status": "todo",
@@ -125,10 +188,20 @@
    "due": "2026-10-04",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692",
+   "links": [
+    {
+     "label": "Progress Check 1 – Writing Revision",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692"
+    },
+    {
+     "label": "Revision guideline (trang ôn của thầy)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892971"
+    }
+   ],
    "minutes": 30,
    "note": "Thời gian biểu CN 04/10, buổi 4. Mục trên LMS đóng 23:59 T6 09/10; không phải nộp bài.",
    "order": 4,
-   "practice": "Đọc yêu cầu Writing Revision trên LMS, ôn cấu trúc và từ nối",
+   "practice": "Progress Check 1 – Writing Revision; Revision guideline (LMS)",
    "review": "Ôn 3 dạng viết: Formal Letter, School Report, Non-verbal Communication Guide",
    "source": "LMS",
    "status": "todo",
@@ -140,10 +213,16 @@
    "due": "2026-10-03",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87358/discussion_topics/637488",
+   "links": [
+    {
+     "label": "Nhiệm vụ trước tiết học – Bài 1.3 Thay đổi bản thân (tiết 2)",
+     "url": "https://lms.vinschool.edu.vn/courses/87358/discussion_topics/637488"
+    }
+   ],
    "minutes": 15,
    "note": "Thời gian biểu T7 03/10, buổi 6. Nam chưa đăng bài.",
    "order": 6,
-   "practice": "Trả lời nhiệm vụ trước tiết học trên LMS",
+   "practice": "Nhiệm vụ trước tiết học – Bài 1.3 Thay đổi bản thân, tiết 2 (LMS)",
    "review": "Thay đổi bản thân (tiết 2)",
    "source": "LMS",
    "status": "todo",
@@ -155,10 +234,16 @@
    "due": "2026-10-03",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/57207/discussion_topics/702278",
+   "links": [
+    {
+     "label": "Thảo luận sau tiết học – Bài 6. Công cuộc khai phá vùng đất phía Nam",
+     "url": "https://lms.vinschool.edu.vn/courses/57207/discussion_topics/702278"
+    }
+   ],
    "minutes": 15,
    "note": "Thời gian biểu T7 03/10, buổi 7. Cô đăng 22/09; Nam chưa đăng bài.",
    "order": 7,
-   "practice": "Viết 2–3 ý trả lời thảo luận trên LMS",
+   "practice": "Thảo luận sau tiết học – Bài 6 (LMS)",
    "review": "Ý nghĩa việc các chúa Nguyễn xác lập chủ quyền Hoàng Sa, Trường Sa",
    "source": "LMS",
    "status": "todo",
@@ -169,11 +254,29 @@
    "id": "nam-lms-eng-mustdo-doc-nguphap",
    "due": "2026-10-03",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963",
+   "links": [
+    {
+     "label": "[Must-do] Reading practice 1 – Multiple choice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963"
+    },
+    {
+     "label": "[Must-do] Reading practice 2 – Gap-filling",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959"
+    },
+    {
+     "label": "[Must-do] Grammar practice 1 – MCQs",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224962"
+    },
+    {
+     "label": "[Must-do] Grammar practice 2 – Verb forms",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224960"
+    }
+   ],
    "minutes": 60,
    "note": "Thời gian biểu T7 03/10, buổi 4. Module Week 7 – Revision for Progress Check 1; cả 6 quiz Must-do chưa làm.",
    "order": 4,
-   "practice": "4 quiz [Must-do] trên LMS (Reading 1, 2; Grammar 1, 2)",
+   "practice": "[Must-do] Reading practice 1, Reading practice 2, Grammar practice 1, Grammar practice 2 (LMS)",
    "review": "Ôn Progress Check 1: Reading và Use of English",
    "source": "LMS",
    "status": "todo",
@@ -184,11 +287,21 @@
    "id": "nam-lms-eng-mustdo-nghe",
    "due": "2026-10-04",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961",
+   "links": [
+    {
+     "label": "[Must-do] Listening practice 1 – MCQs",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961"
+    },
+    {
+     "label": "[Must-do] Listening practice 1 – Gap-filling",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224958"
+    }
+   ],
    "minutes": 30,
    "note": "Thời gian biểu CN 04/10, buổi 1.",
    "order": 1,
-   "practice": "2 quiz [Must-do] Listening trên LMS",
+   "practice": "[Must-do] Listening practice 1 – MCQs; Listening practice 1 – Gap-filling (LMS)",
    "review": "Ôn Progress Check 1: Listening",
    "source": "LMS",
    "status": "todo",
@@ -199,11 +312,21 @@
    "id": "nam-lms-ls-hdot-ghk1",
    "due": "2026-10-03",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/57207/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/57207/files/11624079",
+   "links": [
+    {
+     "label": "Hướng dẫn ôn tập giữa HKI (PDF)",
+     "url": "https://lms.vinschool.edu.vn/courses/57207/files/11624079"
+    },
+    {
+     "label": "Kiến thức ôn tập chương 1 (PDF)",
+     "url": "https://lms.vinschool.edu.vn/courses/57207/files/11742738"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu T7 03/10, buổi 3. Module Hướng dẫn ôn tập giữa HKI: file LICHSU_KHOI 8_HDOT GHKI và KIẾN THỨC ÔN TẬP CHƯƠNG 1 (cô đăng 01/10).",
    "order": 3,
-   "practice": "Đọc 2 file PDF trên LMS, gạch ý chính",
+   "practice": "2 file PDF của cô Nhi: Hướng dẫn ôn tập giữa HKI; Kiến thức ôn tập chương 1",
    "review": "Hướng dẫn ôn tập giữa HKI và Kiến thức ôn tập chương 1 (file gốc của cô Nhi)",
    "source": "LMS",
    "status": "todo",
@@ -214,11 +337,21 @@
    "id": "nam-lms-van-on-ghk1",
    "due": "2026-10-04",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/88863/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/88863/files/11704592",
+   "links": [
+    {
+     "label": "Nội dung ôn tập giữa HKI (file Word của cô)",
+     "url": "https://lms.vinschool.edu.vn/courses/88863/files/11695625"
+    },
+    {
+     "label": "Đề tham khảo KT Giữa HK1 (file Word của cô)",
+     "url": "https://lms.vinschool.edu.vn/courses/88863/files/11704592"
+    }
+   ],
    "minutes": 60,
    "note": "Thời gian biểu CN 04/10, buổi 2. Module Tuần 9: Ôn tập – Kiểm tra giữa HK1.",
    "order": 2,
-   "practice": "Làm Đề tham khảo KT Giữa HK1 (file của cô trên LMS)",
+   "practice": "Đề tham khảo KT Giữa HK1 (file của cô)",
    "review": "Nội dung ôn tập giữa HKI (file của cô)",
    "source": "LMS",
    "status": "todo",
@@ -238,16 +371,25 @@
   },
   {
    "id": "nam-ls-on-gk-1",
+   "doneAt": "2026-10-02T10:45:00+07:00",
    "due": "2026-10-03",
    "kid": "nam",
-   "minutes": 30,
-   "note": "Thời gian biểu T7 03/10, buổi 9 (chuyển từ tối 01/10). Làm sau khi xong các bài LMS.",
-   "order": 9,
+   "links": [
+    {
+     "label": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
+     "url": "https://wayground.com/join?gc=53969902"
+    },
+    {
+     "label": "Wayground Lịch sử bài 2 – Cách mạng tư sản Pháp",
+     "url": "https://wayground.com/join?gc=58475502"
+    }
+   ],
+   "note": "Wayground (đọc 02/10): Nam đã làm bài 1 và bài 2, lần tốt nhất đều 15/15.",
    "practice": "Wayground bài 1 (15 câu) và bài 2 (15 câu)",
    "review": "CMTS Anh, Bắc Mĩ, CMTS Pháp",
    "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "9 · Lịch sử",
+   "status": "done",
+   "subject": "Lịch sử",
    "title": "30 phút – CMTS Anh, Bắc Mĩ, Pháp: Wayground bài 1 và bài 2"
   },
   {
@@ -265,10 +407,17 @@
    "id": "nam-ls-on-gk-3",
    "due": "2026-10-04",
    "kid": "nam",
+   "link": "https://wayground.com/join?gc=03261422",
+   "links": [
+    {
+     "label": "Wayground Lịch sử bài 3 – Cách mạng công nghiệp (15 câu)",
+     "url": "https://wayground.com/join?gc=03261422"
+    }
+   ],
    "minutes": 50,
    "note": "Thời gian biểu CN 04/10, buổi 5 (chuyển từ T7 để làm bài LMS trước).",
    "order": 5,
-   "practice": "Wayground bài 3 (15 câu)",
+   "practice": "Wayground Lịch sử bài 3 – Cách mạng công nghiệp (15 câu)",
    "review": "Cách mạng công nghiệp",
    "source": "Kế hoạch ôn",
    "status": "todo",
@@ -279,10 +428,17 @@
    "id": "nam-ls-on-gk-4",
    "due": "2026-10-04",
    "kid": "nam",
+   "link": "https://wayground.com/join?gc=43590638",
+   "links": [
+    {
+     "label": "Wayground Lịch sử bài 4 – Phân tích sử liệu & so sánh (12 câu)",
+     "url": "https://wayground.com/join?gc=43590638"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu CN 04/10, buổi 6. Phải xong trước 05/10 vì tuần thi 05–09/10 chưa rõ ngày.",
    "order": 6,
-   "practice": "Wayground bài 4 (12 câu)",
+   "practice": "Wayground Lịch sử bài 4 – Phân tích sử liệu & so sánh (12 câu)",
    "review": "Đọc tư liệu, so sánh",
    "source": "Kế hoạch ôn",
    "status": "todo",
@@ -293,10 +449,15 @@
    "id": "nam-on-20261003-khtn-c1",
    "due": "2026-10-03",
    "kid": "nam",
+   "links": [
+    {
+     "label": "Bài ôn giữa kì cô Huệ phát trong tiết (bản giấy, không có link)"
+    }
+   ],
    "minutes": 50,
    "note": "Thời gian biểu T7 03/10, buổi 2 (bài ôn gốc của cô, làm trước phiếu Claude soạn). Cô Huệ nhận xét cần ôn lại thí nghiệm này.",
    "order": 2,
-   "practice": "Bài ôn cô phát trong tiết",
+   "practice": "Bài ôn giữa kì cô Huệ phát trong tiết (bản giấy)",
    "review": "Chương 1 Quang hợp, kĩ phần thí nghiệm chứng minh khí oxygen (cô đã nhắc)",
    "source": "Kế hoạch ôn",
    "status": "todo",
@@ -308,6 +469,16 @@
    "due": "2026-10-06",
    "kid": "nam",
    "link": "https://claude.ai/artifact/Uk8kQuHheQKKsBJdMAHDAX",
+   "links": [
+    {
+     "label": "Phiếu Ôn tập Nguyên tử và Bảng tuần hoàn (19 câu)",
+     "url": "https://claude.ai/artifact/Uk8kQuHheQKKsBJdMAHDAX"
+    },
+    {
+     "label": "Phiếu ôn bổ sung KHTN 8 – Bài 2.1 & 2.2",
+     "url": "https://claude.ai/artifact/1gumMnHx14UVTWMwsSHNeS"
+    }
+   ],
    "minutes": 50,
    "note": "Thời gian biểu T3 06/10, buổi 1 (chuyển từ T7). Làm sau khi xong bài LMS mới trong ngày.",
    "order": 1,
@@ -322,10 +493,17 @@
    "id": "nam-on-20261003-ls-tuluan",
    "due": "2026-10-04",
    "kid": "nam",
+   "link": "https://wayground.com/join?gc=54436846",
+   "links": [
+    {
+     "label": "Wayground Lịch sử bài 5 – Tự luận ngắn: làm câu 1–4",
+     "url": "https://wayground.com/join?gc=54436846"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu CN 04/10, buổi 7 (chuyển từ T7). Viết tay ra giấy trước rồi mới gõ.",
    "order": 7,
-   "practice": "Wayground bài 5, câu 1–4, viết tay ra giấy",
+   "practice": "Wayground Lịch sử bài 5 – Tự luận ngắn, câu 1–4 (viết tay ra giấy trước)",
    "review": "Tự luận Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp",
    "source": "Kế hoạch ôn",
    "status": "todo",
@@ -336,21 +514,38 @@
    "id": "nam-on-20261003-tienganh",
    "due": "2026-10-07",
    "kid": "nam",
+   "link": "https://wayground.com/join?gc=55781870",
+   "links": [
+    {
+     "label": "Daily Writing B – Questions beginning with prepositions",
+     "url": "https://wayground.com/join?gc=55781870"
+    },
+    {
+     "label": "Daily Writing C – Correct the mistakes (formal letter)",
+     "url": "https://wayground.com/join?gc=49342958"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu T4 07/10, buổi 1 (chuyển từ T7). Làm sau khi xong bài LMS mới trong ngày.",
    "order": 1,
-   "practice": "3 quiz viết trên Wayground",
-   "review": "Viết câu, viết đoạn",
+   "practice": "Wayground Daily Writing B và Daily Writing C",
+   "review": "Viết câu: câu hỏi bắt đầu bằng giới từ; sửa lỗi câu (formal letter)",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "1 · Tiếng Anh",
-   "title": "45 phút – Viết câu, viết đoạn: 3 quiz viết trên Wayground"
+   "title": "45 phút – Viết câu: Wayground Daily Writing B và C"
   },
   {
    "id": "nam-on-20261004-khtn-c2",
    "due": "2026-10-06",
    "kid": "nam",
    "link": "https://claude.ai/artifact/YbRwc4pHffEj3JuFKpG1bp",
+   "links": [
+    {
+     "label": "Phiếu khắc phục lỗi KHTN 8 – lần 2",
+     "url": "https://claude.ai/artifact/YbRwc4pHffEj3JuFKpG1bp"
+    }
+   ],
    "minutes": 50,
    "note": "Thời gian biểu T3 06/10, buổi 2 (chuyển từ CN).",
    "order": 2,
@@ -365,10 +560,15 @@
    "id": "nam-on-20261004-khtn-tonghop",
    "due": "2026-10-04",
    "kid": "nam",
+   "links": [
+    {
+     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – làm lại, bấm giờ"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu CN 04/10, buổi 3.",
    "order": 3,
-   "practice": "Làm lại bài ôn cô phát, có bấm giờ",
+   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại có bấm giờ",
    "review": "Tổng hợp chương 1 và 2",
    "source": "Kế hoạch ôn",
    "status": "todo",
@@ -380,6 +580,12 @@
    "due": "2026-10-05",
    "kid": "nam",
    "link": "https://claude.ai/artifact/EvVQYbQVc3NWJvZs3VqmjP",
+   "links": [
+    {
+     "label": "Đề ôn tập Lịch sử – Giữa HK1 – Khối 8 (đề Claude soạn)",
+     "url": "https://claude.ai/artifact/EvVQYbQVc3NWJvZs3VqmjP"
+    }
+   ],
    "minutes": 40,
    "note": "Thời gian biểu T2 05/10, buổi 3 (chuyển từ CN).",
    "order": 3,
@@ -394,10 +600,17 @@
    "id": "nam-on-20261004-ls-tuluan",
    "due": "2026-10-05",
    "kid": "nam",
+   "link": "https://wayground.com/join?gc=54436846",
+   "links": [
+    {
+     "label": "Wayground Lịch sử bài 5 – Tự luận ngắn: làm câu 5–8",
+     "url": "https://wayground.com/join?gc=54436846"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu T2 05/10, buổi 2 (chuyển từ CN). Viết tay ra giấy trước rồi mới gõ.",
    "order": 2,
-   "practice": "Wayground bài 5, câu 5–8, viết tay",
+   "practice": "Wayground Lịch sử bài 5 – Tự luận ngắn, câu 5–8 (viết tay)",
    "review": "Tự luận còn lại",
    "source": "Kế hoạch ôn",
    "status": "todo",
@@ -408,15 +621,30 @@
    "id": "nam-on-20261004-tienganh",
    "due": "2026-10-07",
    "kid": "nam",
+   "link": "https://wayground.com/join?gc=57285102",
+   "links": [
+    {
+     "label": "Daily Writing E – Short paragraph writing (language exchange)",
+     "url": "https://wayground.com/join?gc=57285102"
+    },
+    {
+     "label": "Daily Writing A – Join sentences (preposition + which/whom) – làm lại",
+     "url": "https://wayground.com/join?gc=10220014"
+    },
+    {
+     "label": "Daily Writing D – Second conditional & conjunctions – làm lại",
+     "url": "https://wayground.com/join?gc=17295854"
+    }
+   ],
    "minutes": 45,
    "note": "Thời gian biểu T4 07/10, buổi 2 (chuyển từ CN).",
    "order": 2,
-   "practice": "3 quiz viết trên Wayground",
-   "review": "Viết câu, viết đoạn",
+   "practice": "Wayground Daily Writing E; làm lại Daily Writing A và D",
+   "review": "Viết đoạn ngắn; ôn lại ghép câu và câu điều kiện loại 2",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "2 · Tiếng Anh",
-   "title": "45 phút – Viết câu, viết đoạn: 3 quiz viết trên Wayground"
+   "title": "45 phút – Viết đoạn: Wayground Daily Writing E; làm lại A và D"
   },
   {
    "id": "nam-toan-quiz-2-10",
@@ -432,11 +660,21 @@
    "id": "nam-toan-quiz-2-11",
    "due": "2026-10-02",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/8913165",
+   "link": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2228452",
+   "links": [
+    {
+     "label": "[QUIZ] Bài 2.11 – Biến đổi và sử dụng công thức",
+     "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2228452"
+    },
+    {
+     "label": "Phiếu học tập Bài 2.11 (PDF của cô)",
+     "url": "https://lms.vinschool.edu.vn/courses/88431/files/11732871"
+    }
+   ],
    "minutes": 30,
    "note": "Thời gian biểu tối T6 02/10: buổi 1, 30 phút. Không có hạn chính thức; cô chia bài theo khung học kết thúc 02/10.",
    "order": 1,
-   "practice": "Quiz trên LMS",
+   "practice": "[QUIZ] Bài 2.11 – Biến đổi và sử dụng công thức (LMS)",
    "review": "Quiz Bài 2.11 – Biến đổi và sử dụng công thức (khung học kết thúc hôm nay)",
    "source": "LMS",
    "status": "todo",
