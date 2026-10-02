@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* Bố cục: một cuốn sổ ô li. Nhãn vở chọn con ở đầu, dải kiểm tra luôn hiện,
-   bốn thẻ chia trang (Hôm nay / Các ngày tới / Sổ lỗi / Điểm). Mỗi môn một màu khối giờ học. */
+   năm thẻ chia trang (Hôm nay / Các ngày tới / Đã làm / Sổ lỗi / Điểm). Mỗi môn một màu khối giờ học. */
 :root{
   --bg:#e9eefa; --paper:#ffffff; --paper-2:#f3f6fd; --ink:#161d3a; --muted:#5a6384; --line:#d6ddf0;
   --grid:rgba(70,98,190,.07); --grid-4:rgba(70,98,190,.13);
@@ -112,6 +112,7 @@ button{font:inherit;color:inherit;cursor:pointer}
   background-image:linear-gradient(var(--grid-4) 1px,transparent 1px),linear-gradient(90deg,var(--grid-4) 1px,transparent 1px),linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
   background-size:96px 96px,96px 96px,24px 24px,24px 24px;background-position:-1px -1px}
 .page > :first-child{margin-top:0}
+.page > div > .sec-head:first-child{margin-top:0}
 .ex-grid > .empty{grid-column:1/-1}
 .empty{padding:22px;text-align:center;color:var(--muted);background:var(--paper-2);border-radius:var(--r)}
 
@@ -219,6 +220,7 @@ details.more > .list, details.more > .tbl-wrap{margin-top:8px}
 .wr-what small{display:block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .wr-prac{display:grid;gap:2px;font-size:13.5px;line-height:1.35}
 .wr-prac a{font-weight:600;text-underline-offset:3px}
+.wr.dn .wr-prac .chip{margin-top:2px}
 .wr.done{background:var(--paper-2)}
 .wr.done .mini{background:color-mix(in oklab,var(--c) 35%,var(--paper-2));color:var(--ink)}
 .wr.done .wr-what{color:var(--muted);text-decoration:line-through}
@@ -262,7 +264,8 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   .kids{width:100%}
   .kid{flex:1;min-width:0;padding-inline:12px}
   .ex-grid{grid-template-columns:1fr}
-  .tabs button{font-size:14.5px;gap:4px;padding-inline:2px;white-space:nowrap}
+  .tabs{overflow-x:auto;scrollbar-width:none;gap:2px}
+  .tabs button{flex:1 0 auto;font-size:13.5px;gap:3px;padding-inline:5px;white-space:nowrap}
   .badge{min-width:19px;padding:1px 5px;font-size:11px}
   .page{padding:14px 12px 20px}
   .hero{gap:12px;padding:12px}
@@ -304,6 +307,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   <nav class="tabs" role="tablist" aria-label="Các phần của sổ">
     <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
     <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
+    <button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
     <button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
   </nav>
@@ -332,6 +336,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     <section class="page" id="p-week" role="tabpanel" aria-labelledby="t-week" hidden>
       <div id="week"></div>
       <div id="week-tasks"></div>
+    </section>
+
+    <section class="page" id="p-done" role="tabpanel" aria-labelledby="t-done" hidden>
+      <div id="done-list"></div>
     </section>
 
     <section class="page" id="p-errors" role="tabpanel" aria-labelledby="t-errors" hidden>
@@ -377,12 +385,19 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  let tab = ["today","week","errors","grades"].includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
+  const TABS = ["today","week","done","errors","grades"];
+  const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
+  let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
+  // localDone: { mã bài: thời điểm con tích (ms) }
   let localDone = {}; try { localDone = JSON.parse(ls.get("soht-done") || "{}") || {}; } catch(e) {}
+  Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
+  ls.set("soht-done", JSON.stringify(localDone));
   let showAllExams = false, lastLeft = 0;
   const state = { tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
 
-  const isDone = (t) => t.status === "done" || localDone[t.id] === true;
+  const isDone = (t) => t.status === "done" || !!localDone[t.id];
+  const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
+  const doneTime = (t) => (t.status === "done" ? (Date.parse(t.doneAt || "") || (t.due ? Date.parse(t.due + "T12:00:00+07:00") : 0)) : 0) || Number(localDone[t.id]) || 0;
   const tick = (t, label, small) => `<label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(label)}"><span aria-hidden="true"></span></label>`;
   function taskBucket(t, today) {
     if (isDone(t)) return "done";
@@ -429,7 +444,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     $("t-grades").hidden = !hasGrades;
     if (!hasGrades && tab === "grades") tab = "today";
     document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
-    ["today","week","errors","grades"].forEach(k => { $("p-" + k).hidden = k !== tab; });
+    TABS.forEach(k => { $("p-" + k).hidden = k !== tab; });
 
     const m = state.meta && state.meta[kid];
     if (state.meta && state.meta.lastSync) {
@@ -532,8 +547,21 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
         }).join("")}</div></section>`;
     }).join("") : `<div class="empty">${state.ready ? "Chưa có thời gian biểu cho những ngày tới." : "Đang tải…"}</div>`;
     let wt = block("Việc sắp tới", groups.later, today) + block("Chưa có hạn cụ thể", groups.nodate, today);
-    if (groups.done.length) wt += `<details class="more"><summary>Đã xong (${groups.done.length})</summary><div class="list">${groups.done.slice(0, 15).map(t => taskRow(t, today)).join("")}</div></details>`;
     $("week-tasks").innerHTML = wt;
+
+    // ----- Đã làm: giữ KEEP_DAYS ngày rồi tự ẩn -----
+    const recent = kidTasks.filter(isDone).map(t => ({ t, at: doneTime(t) })).filter(x => x.at && dayDiff(today, vnDay(x.at)) >= 0 && dayDiff(today, vnDay(x.at)) <= KEEP_DAYS).sort((a, b) => b.at - a.at);
+    const doneDays = [...new Set(recent.map(x => vnDay(x.at)))];
+    $("done-list").innerHTML = recent.length ? `<div class="sec-head"><h2>${recent.length} bài đã làm xong</h2><span class="hint">Giữ ở đây ${KEEP_DAYS} ngày rồi tự ẩn</span></div>` + doneDays.map(d => {
+      const dd = dayDiff(today, d);
+      return `<section class="day"><div class="day-h"><h3>${dd === 0 ? "Hôm nay · " : dd === 1 ? "Hôm qua · " : ""}${DOWL[dowOf(d)]} ${dm(d)}</h3><span>${recent.filter(x => vnDay(x.at) === d).length} bài</span></div>
+        <div class="wrs">${recent.filter(x => vnDay(x.at) === d).map(({ t }) => {
+          const link = safeUrl(t.link);
+          const prac = textLinks(t) || (t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : `<span>${esc(t.practice)}</span>`) : "");
+          return `<div class="wr dn s${slot(t.subject)}">${tick(t, what(t), true)}<span class="mini">${mm(t) ? mm(t) + "′" : "·"}</span>
+            <div class="wr-b"><div class="wr-what"><small>${esc(subjName(t.subject))}</small>${esc(what(t))}</div><div class="wr-prac">${prac}<span><span class="chip ${t.status === "done" ? "ok" : ""}">${t.status === "done" ? "Đã xác nhận" : "Con báo xong"}</span></span></div></div></div>`;
+        }).join("")}</div></section>`;
+    }).join("") : `<div class="empty">${state.ready ? `Chưa có bài nào làm xong trong ${KEEP_DAYS} ngày gần đây.` : "Đang tải…"}</div>`;
 
     // ----- Sổ lỗi -----
     const errs = mine(state.errors);
@@ -606,9 +634,9 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     const cb = ev.target.closest("input[type=checkbox][data-id]");
     if (!cb) return;
     const before = lastLeft;
-    if (cb.checked) localDone[cb.dataset.id] = true; else delete localDone[cb.dataset.id];
+    if (cb.checked) localDone[cb.dataset.id] = Date.now(); else delete localDone[cb.dataset.id];
     ls.set("soht-done", JSON.stringify(localDone));
-    pushTick(cb.dataset.id, cb.checked);
+    pushTick(cb.dataset.id, cb.checked ? localDone[cb.dataset.id] : 0);
     const after = render();
     if (cb.checked && before > 0 && after.total > 0 && after.left === 0) celebrate();
   });
@@ -623,7 +651,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const pending = {};   // ô vừa tích trên máy này: tạm chưa nhận giá trị từ xa để khỏi bị bật ngược lại
   function pushTick(id, on) {
     pending[id] = Date.now();
-    const body = new URLSearchParams(); body.set(SYNC.fId, id); body.set(SYNC.fDone, on ? "1" : "0");
+    const body = new URLSearchParams(); body.set(SYNC.fId, id); body.set(SYNC.fDone, String(on || 0));   // thời điểm tích (ms); 0 = bỏ tích
     fetch(SYNC.form, { method: "POST", mode: "no-cors", body }).catch(() => {});
   }
   function applyRemote(rows) {
@@ -633,9 +661,9 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
       if (!id || seen.has(id)) return;          // hàng mới nhất của mỗi bài quyết định
       seen.add(id);
       if (pending[id] && now - pending[id] < SYNC.hold) return;
-      const on = r.c[2] && String(r.c[2].v) === "1";
-      if (on && localDone[id] !== true) { localDone[id] = true; changed = true; }
-      if (!on && localDone[id] === true) { delete localDone[id]; changed = true; }
+      const v = r.c[2] ? Number(r.c[2].v) || 0 : 0;
+      if (v > 0 && !localDone[id]) { localDone[id] = v > 1e12 ? v : now; changed = true; }
+      if (!(v > 0) && localDone[id]) { delete localDone[id]; changed = true; }
     });
     $("sync-note").textContent = "Ô “đã xong” tự đồng bộ giữa các máy sau khoảng nửa phút;";
     if (changed) { ls.set("soht-done", JSON.stringify(localDone)); render(); }
