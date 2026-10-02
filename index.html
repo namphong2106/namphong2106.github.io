@@ -2,209 +2,394 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="robots" content="noindex,nofollow,noarchive">
-<title>Sổ học tập Nam & Phong</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Sổ học tập Nam &amp; Phong</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+/* Bố cục: một cuốn sổ ô li. Nhãn vở chọn con ở đầu, dải kiểm tra luôn hiện,
+   bốn thẻ chia trang (Hôm nay / Các ngày tới / Sổ lỗi / Điểm). Mỗi môn một màu khối giờ học. */
 :root{
-  --bg:#f3f5f8; --paper:#ffffff; --ink:#18212f; --muted:#5d6878; --line:#dde2ea;
-  --accent:#1f5fae; --accent-soft:#e3edf9;
-  --late:#b4232c; --late-soft:#fbe7e8; --soon:#a35a00; --soon-soft:#fdf0dc; --ok:#1c7a4a; --ok-soft:#e1f3e9;
-  --f-display:"Lexend","Be Vietnam Pro",system-ui,sans-serif;
+  --bg:#e9eefa; --paper:#ffffff; --paper-2:#f3f6fd; --ink:#161d3a; --muted:#5a6384; --line:#d6ddf0;
+  --grid:rgba(70,98,190,.07); --grid-4:rgba(70,98,190,.13);
+  --late:#c22b2b; --late-soft:#fde8e6; --soon:#8a5200; --soon-soft:#fff0d1; --ok:#0f7a3c; --ok-soft:#dff5e6; --ok-mark:#0ca30c;
+  --c0:#6b7493; --on0:#ffffff;
+  --c1:#2a78d6; --on1:#ffffff;
+  --c2:#eb6834; --on2:#161d3a;
+  --c3:#1baf7a; --on3:#161d3a;
+  --c4:#eda100; --on4:#161d3a;
+  --c5:#e87ba4; --on5:#161d3a;
+  --c6:#008300; --on6:#ffffff;
+  --c7:#4a3aa7; --on7:#ffffff;
+  --wash:11%;
+  --f-display:"Baloo 2","Be Vietnam Pro",system-ui,sans-serif;
   --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:14px;
   color-scheme:light;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#10151d; --paper:#18202b; --ink:#e6ebf2; --muted:#9aa6b6; --line:#2a3442;
-  --accent:#7fb0ef; --accent-soft:#1d2f47;
-  --late:#f08a8f; --late-soft:#3a1d22; --soon:#f0b660; --soon-soft:#3a2c17; --ok:#6fd19c; --ok-soft:#173326; color-scheme:dark}}
-*{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--f-body);margin:0}
-.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:flex;flex-direction:column;gap:22px}
-h1,h2{font-family:var(--f-display);text-wrap:balance;margin:0}
-h1{font-size:1.45rem;font-weight:700;letter-spacing:-.01em}
-h2{font-size:1.05rem;font-weight:600}
-.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px}
-.sync{color:var(--muted);font-size:.82rem}
-.tabs{display:flex;gap:6px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:4px;width:fit-content}
-.tab{font:600 .95rem var(--f-display);border:0;background:none;color:var(--muted);padding:8px 16px;border-radius:9px;cursor:pointer;display:flex;gap:8px;align-items:baseline}
-.tab small{font:500 .75rem var(--f-body)}
-.tab[aria-selected="true"]{background:var(--accent);color:var(--paper)}
-.tab:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
-@media (max-width:620px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.stat{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
-.stat b{font:700 1.6rem/1.1 var(--f-display);font-variant-numeric:tabular-nums}
-.stat span{color:var(--muted);font-size:.8rem}
-.stat.late b{color:var(--late)} .stat.soon b{color:var(--soon)}
-.tonight{background:var(--accent-soft);border-radius:12px;padding:12px 16px;display:flex;gap:10px;align-items:baseline}
-.tonight .lbl{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.08em;color:var(--accent);white-space:nowrap}
-section{display:flex;flex-direction:column;gap:10px}
-.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
-.group-lbl{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-top:4px}
-.list{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.row{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:start;padding:11px 14px;border-top:1px solid var(--line)}
-.row:first-child{border-top:0}
-.row input[type=checkbox]{width:20px;height:20px;margin-top:2px;accent-color:var(--accent);cursor:pointer}
-.title{font-weight:500;min-width:0;overflow-wrap:anywhere}
-.title a{color:inherit;text-decoration-color:var(--line);text-underline-offset:3px}
-.meta{display:flex;flex-wrap:wrap;gap:6px 10px;color:var(--muted);font-size:.8rem;margin-top:3px}
-.subj{font-weight:600;color:var(--accent)}
-.note{color:var(--muted);font-size:.82rem;margin-top:3px}
-.chip{font:600 .72rem var(--f-body);padding:2px 8px;border-radius:999px;white-space:nowrap;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
-.chip.late{background:var(--late-soft);color:var(--late);border-color:transparent}
-.chip.soon{background:var(--soon-soft);color:var(--soon);border-color:transparent}
-.chip.ok{background:var(--ok-soft);color:var(--ok);border-color:transparent}
-.chip.parent{background:var(--accent-soft);color:var(--accent);border-color:transparent}
-.done .title{text-decoration:line-through;color:var(--muted)}
-.empty{padding:14px;color:var(--muted);font-size:.88rem}
-details summary{cursor:pointer;color:var(--muted);font-size:.85rem;padding:4px 0}
-.exam{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;padding:12px 14px;border-top:1px solid var(--line)}
-.exam:first-child{border-top:0}
-.cal{border:1px solid var(--line);border-radius:10px;text-align:center;padding:6px 0;font-variant-numeric:tabular-nums;align-self:start}
-.cal b{display:block;font:700 1.15rem/1.1 var(--f-display)}
-.cal span{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-.tbl-wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:12px}
-table{border-collapse:collapse;width:100%;font-size:.88rem}
-th,td{text-align:left;padding:9px 12px;border-top:1px solid var(--line);vertical-align:top}
-th{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-top:0;background:var(--bg)}
-td.num{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
-td.num.low{color:var(--late)} td.num.hi{color:var(--ok)}
-.subjects{display:flex;flex-wrap:wrap;gap:8px}
-.sbar{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:8px 12px;display:flex;flex-direction:column;gap:5px;min-width:140px;flex:1 1 140px}
-.sbar .h{display:flex;justify-content:space-between;gap:8px;font-size:.82rem}
-.sbar .h b{font-variant-numeric:tabular-nums}
-.track{height:6px;border-radius:3px;background:var(--line);overflow:hidden}
-.fill{height:100%;background:var(--ok)} .fill.mid{background:var(--soon)} .fill.low{background:var(--late)}
-.msg{padding:12px 14px;border-top:1px solid var(--line)}
-.msg:first-child{border-top:0}
-.msg .who{font-size:.8rem;color:var(--muted)}
-.msg .who b{color:var(--ink);font-weight:600}
-.banner{background:var(--soon-soft);color:var(--soon);border-radius:10px;padding:10px 14px;font-size:.88rem}
-h3{font:600 .92rem var(--f-display);margin:0}
-.tt-wrap{display:flex;flex-direction:column;gap:16px}
-.tt-day{display:flex;flex-direction:column;gap:6px}
-.tt-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
-.tt-row{display:grid;grid-template-columns:28px 80px 100px minmax(0,1fr) minmax(0,1.5fr);gap:4px 12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
-.tt-row:first-child{border-top:0}
-.tt-row > *{min-width:0;overflow-wrap:anywhere}
-.tt-cols{font:600 .72rem var(--f-display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--bg);padding-block:8px}
-.tt-dur{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--muted);font-size:.88rem}
-.tt-row .subj{font-size:.88rem;font-weight:600;color:var(--accent)}
-.tt-prac{font-size:.88rem;color:var(--muted)}
-.tt-prac a{color:var(--accent);text-underline-offset:3px}
-.tt-row input[type=checkbox]{width:20px;height:20px;margin-top:1px;accent-color:var(--accent);cursor:pointer}
-@media (max-width:620px){
-  .tt-cols{display:none}
-  .tt-cols + .tt-row{border-top:0}
-  .tt-row{grid-template-columns:28px auto minmax(0,1fr)}
-  .tt-row input[type=checkbox]{grid-row:1 / span 3}
-  .tt-row .title,.tt-row .tt-prac{grid-column:2 / -1}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1120; --paper:#191e31; --paper-2:#21273e; --ink:#eef1fb; --muted:#a2abc8; --line:#303858;
+    --grid:rgba(150,170,255,.05); --grid-4:rgba(150,170,255,.09);
+    --late:#ff8f8a; --late-soft:#4a1f24; --soon:#ffc968; --soon-soft:#40300f; --ok:#6fdc8c; --ok-soft:#173a26; --ok-mark:#0ca30c;
+    --c0:#7c86a8; --on0:#0e1120; --c1:#3987e5; --on1:#0e1120; --c2:#d95926; --on2:#0e1120; --c3:#199e70; --on3:#0e1120;
+    --c4:#c98500; --on4:#0e1120; --c5:#d55181; --on5:#0e1120; --c6:#008300; --on6:#ffffff; --c7:#9085e9; --on7:#0e1120;
+    --wash:20%;
+    color-scheme:dark;
+  }
 }
-.lk{display:block}
-.lk + .lk{margin-top:6px}
-.tt-prac span.lk{color:var(--muted)}
-.links{margin-top:5px;font-size:.85rem}
-.links a{color:var(--accent);text-underline-offset:3px}
+:root[data-theme="dark"]{
+  --bg:#0e1120; --paper:#191e31; --paper-2:#21273e; --ink:#eef1fb; --muted:#a2abc8; --line:#303858;
+  --grid:rgba(150,170,255,.05); --grid-4:rgba(150,170,255,.09);
+  --late:#ff8f8a; --late-soft:#4a1f24; --soon:#ffc968; --soon-soft:#40300f; --ok:#6fdc8c; --ok-soft:#173a26; --ok-mark:#0ca30c;
+  --c0:#7c86a8; --on0:#0e1120; --c1:#3987e5; --on1:#0e1120; --c2:#d95926; --on2:#0e1120; --c3:#199e70; --on3:#0e1120;
+  --c4:#c98500; --on4:#0e1120; --c5:#d55181; --on5:#0e1120; --c6:#008300; --on6:#ffffff; --c7:#9085e9; --on7:#0e1120;
+  --wash:20%;
+  color-scheme:dark;
+}
+.s0{--c:var(--c0);--on:var(--on0)} .s1{--c:var(--c1);--on:var(--on1)} .s2{--c:var(--c2);--on:var(--on2)} .s3{--c:var(--c3);--on:var(--on3)}
+.s4{--c:var(--c4);--on:var(--on4)} .s5{--c:var(--c5);--on:var(--on5)} .s6{--c:var(--c6);--on:var(--on6)} .s7{--c:var(--c7);--on:var(--on7)}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font:15px/1.5 var(--f-body);color:var(--ink);background:var(--bg)}
+.wrap{max-width:960px;margin:0 auto;padding-inline:16px;padding-block:20px 56px}
+h1,h2,h3,p{margin:0}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--ink);outline-offset:2px;border-radius:6px}
+
+/* ---------- Đầu trang: tên sổ + nhãn vở ---------- */
+.top{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;justify-content:space-between}
+.brand h1{font:800 34px/1 var(--f-display);letter-spacing:-.01em}
+.sync{color:var(--muted);font-size:12.5px;margin-top:6px;max-width:56ch}
+.kids{display:flex;gap:10px}
+.kid{display:grid;gap:0;text-align:left;min-width:128px;padding:8px 16px 9px;background:var(--paper);border:2px solid var(--line);border-radius:12px}
+.kid .kn{font:700 19px/1.15 var(--f-display)}
+.kid .kc{font-size:12px;color:var(--muted);border-top:1px dashed var(--line);margin-top:4px;padding-top:3px}
+.kid[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.kid[aria-selected="true"] .kc{color:inherit;opacity:.75;border-top-color:currentColor}
+
+/* ---------- Tiêu đề mục ---------- */
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:26px 0 10px}
+.sec-head h2{font:700 21px/1.2 var(--f-display)}
+.sec-head .hint{color:var(--muted);font-size:12.5px;text-align:right}
+.link-btn{background:none;border:0;padding:4px 2px;font-size:13px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.group-lbl{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:20px 0 8px}
+
+/* ---------- Dải kiểm tra ---------- */
+.ex-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px;align-items:start}
+.ex{background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+.ex summary{display:grid;grid-template-columns:auto minmax(0,1fr);gap:11px;align-items:center;padding:9px 11px 9px 9px;cursor:pointer;list-style:none;border-radius:var(--r)}
+.ex summary::-webkit-details-marker{display:none}
+.cd{display:grid;place-items:center;align-content:center;width:54px;height:54px;border-radius:11px;background:var(--paper-2);text-align:center}
+.cd b{font:800 25px/0.95 var(--f-display)}
+.cd i{font-style:normal;font-size:10.5px;font-weight:600;line-height:1.1}
+.cd.txt b{font-size:13px;line-height:1.1}
+.ex.u-crit .cd{background:var(--late-soft);color:var(--late)}
+.ex.u-warn .cd{background:var(--soon-soft);color:var(--soon)}
+.ex.u-none .cd{background:none;border:1.5px dashed var(--line);color:var(--muted)}
+.ex-main{display:grid;gap:1px;min-width:0}
+.ex-t{font-weight:600;font-size:13.5px;line-height:1.3}
+.ex-d{color:var(--muted);font-size:12.5px}
+.ex-scope{padding:0 12px 12px;font-size:13px;color:var(--muted);border-top:1px dashed var(--line);margin-top:2px;padding-top:9px}
+.ex-scope b{color:var(--ink);font-weight:600}
+
+/* ---------- Nhãn môn ---------- */
+.subj{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:12.5px;white-space:nowrap}
+.subj i{width:10px;height:10px;border-radius:3px;background:var(--c);flex:none}
+
+/* ---------- Thẻ chia trang ---------- */
+.tabs{position:sticky;top:0;z-index:5;display:flex;gap:4px;margin-top:26px;padding-top:8px;background:var(--bg)}
+.tabs button{flex:1 1 0;min-width:0;display:flex;align-items:center;justify-content:center;gap:7px;padding:10px 6px 9px;border:1px solid transparent;border-bottom:0;border-radius:13px 13px 0 0;background:color-mix(in oklab,var(--paper) 45%,var(--bg));color:var(--muted);font:700 17px/1.1 var(--f-display)}
+.tabs button[aria-selected="true"]{background:var(--paper);color:var(--ink);border-color:var(--line)}
+.badge{min-width:22px;padding:2px 6px;border-radius:99px;background:var(--ink);color:var(--paper);font:700 12px/1.4 var(--f-body);font-variant-numeric:tabular-nums}
+.badge.warn{background:var(--late);color:var(--paper)}
+.page{background-color:var(--paper);border:1px solid var(--line);border-top:0;border-radius:0 0 18px 18px;padding:20px 20px 26px;
+  background-image:linear-gradient(var(--grid-4) 1px,transparent 1px),linear-gradient(90deg,var(--grid-4) 1px,transparent 1px),linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:96px 96px,96px 96px,24px 24px,24px 24px;background-position:-1px -1px}
+.page > :first-child{margin-top:0}
+.ex-grid > .empty{grid-column:1/-1}
+.empty{padding:22px;text-align:center;color:var(--muted);background:var(--paper-2);border-radius:var(--r)}
+
+/* ---------- Hôm nay: tiến độ ---------- */
+.hero{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;align-items:center;background:var(--paper);border:2px solid var(--ink);border-radius:18px;padding:14px 18px}
+.ring{position:relative;width:88px;height:88px}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring .trk{fill:none;stroke:var(--line);stroke-width:9}
+.ring .prg{fill:none;stroke:var(--ok-mark);stroke-width:9;stroke-linecap:round;transition:stroke-dashoffset .5s ease}
+.ring span{position:absolute;inset:0;display:grid;place-items:center;font:800 22px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hero h2{font:800 27px/1.15 var(--f-display);text-wrap:balance;margin:2px 0 10px}
+.hero .sub{color:var(--muted);font-size:13.5px;margin-top:-6px}
+.daybar{display:flex;gap:2px;height:10px}
+.daybar span{flex:var(--m) 1 0;min-width:4px;border-radius:3px;background:color-mix(in oklab,var(--c) 30%,var(--paper))}
+.daybar span.on{background:var(--c)}
+.tonight{margin-top:12px;padding:10px 14px;background:var(--paper-2);border-radius:var(--r);font-size:13.5px}
+.tonight b{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:8px}
+
+/* ---------- Hôm nay: từng buổi ---------- */
+.ses-list{display:grid;gap:10px;margin-top:16px}
+.ses{display:grid;grid-template-columns:76px minmax(0,1fr) auto;align-items:stretch;background:color-mix(in oklab,var(--c) var(--wash),var(--paper));border-radius:var(--r);overflow:hidden}
+.blk{display:grid;place-items:center;align-content:center;background:var(--c);color:var(--on);padding:10px 4px;text-align:center}
+.blk b{font:800 30px/0.95 var(--f-display);font-variant-numeric:tabular-nums}
+.blk span{font-size:11.5px;font-weight:600}
+.ses-b{padding:11px 14px 13px;min-width:0;display:grid;gap:5px;align-content:start}
+.ses-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ses-subj{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.nexttag{font-size:11.5px;font-weight:700;background:var(--ink);color:var(--paper);padding:1px 9px;border-radius:99px}
+.ses h3{font:600 16px/1.35 var(--f-body)}
+.acts{display:flex;flex-wrap:wrap;gap:7px;margin-top:3px}
+.go{display:inline-flex;align-items:center;gap:7px;max-width:100%;padding:6px 11px;border-radius:10px;background:var(--paper);border:1.5px solid color-mix(in oklab,var(--c) 60%,var(--paper));font-size:13.5px;font-weight:600;line-height:1.3;text-decoration:none}
+.go svg{flex:none;width:13px;height:13px}
+.go:hover{background:var(--c);border-color:var(--c);color:var(--on)}
+.onpaper{display:inline-block;padding:6px 11px;border-radius:10px;border:1.5px dashed color-mix(in oklab,var(--c) 55%,var(--paper));font-size:13.5px;line-height:1.3}
+.ahead{margin-top:14px;padding:10px 14px;background:var(--paper);border:2px dashed var(--ink);border-radius:var(--r)}
+.ahead h3{font:800 20px/1.2 var(--f-display)}
+.ahead p{color:var(--muted);font-size:13px;margin-top:2px}
+.ses.done{background:var(--paper-2)}
+.ses.done .blk{background:color-mix(in oklab,var(--c) 35%,var(--paper-2));color:var(--ink)}
+.ses.done h3{text-decoration:line-through;text-decoration-thickness:1.5px;color:var(--muted)}
+.ses.done .acts{opacity:.6}
+
+/* ---------- Ô tích ---------- */
+.tick{display:grid;place-items:center;padding:0 14px;cursor:pointer}
+.tick input{position:absolute;opacity:0;width:1px;height:1px}
+.tick span{width:32px;height:32px;border-radius:50%;border:2.5px solid color-mix(in oklab,var(--ink) 35%,var(--paper));background:var(--paper);display:grid;place-items:center;transition:transform .15s ease}
+.tick span::after{content:"";width:13px;height:7px;border-left:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.tick input:checked + span{background:var(--ok-mark);border-color:var(--ok-mark)}
+.tick input:checked + span::after{opacity:1}
+.tick input:focus-visible + span{outline:3px solid var(--ink);outline-offset:2px}
+.tick:hover input:not(:disabled) + span{transform:scale(1.08)}
+.tick input:disabled + span{cursor:default}
+.tick.sm{padding:0}
+.tick.sm span{width:24px;height:24px;border-width:2px}
+.tick.sm span::after{width:10px;height:5px;border-width:2.5px}
+
+/* ---------- Danh sách việc ---------- */
+.list{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:start;padding:11px 13px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+.row .tick{margin-top:1px}
+.row-t{font-weight:600;line-height:1.35}
+.row-t a{text-decoration-color:color-mix(in oklab,var(--ink) 35%,transparent);text-underline-offset:3px}
+.meta{display:flex;flex-wrap:wrap;gap:3px 12px;align-items:center;color:var(--muted);font-size:12.5px;margin-top:3px}
+.meta .subj{color:var(--ink)}
+.note{color:var(--muted);font-size:13px;margin-top:4px}
+.links{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:5px;font-size:13.5px}
+.links a{font-weight:600;text-underline-offset:3px}
+.row.done{background:var(--paper-2)}
+.row.done .row-t{color:var(--muted);text-decoration:line-through}
+.chip{display:inline-block;padding:2px 9px;border-radius:99px;background:var(--paper-2);border:1px solid var(--line);font-size:11.5px;font-weight:700;white-space:nowrap}
+.chip.late{background:var(--late-soft);border-color:transparent;color:var(--late)}
+.chip.soon{background:var(--soon-soft);border-color:transparent;color:var(--soon)}
+.chip.ok{background:var(--ok-soft);border-color:transparent;color:var(--ok)}
+details.more{margin-top:18px}
+details.more > summary{cursor:pointer;font-weight:600;font-size:13.5px;color:var(--muted);padding:6px 0}
+details.more > .list, details.more > .tbl-wrap{margin-top:8px}
+
+/* ---------- Phần của phụ huynh ---------- */
+.parent{margin-top:30px;padding-top:6px;border-top:2px dashed var(--line)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;padding:10px 14px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+.stat b{font:800 30px/1 var(--f-display);min-width:1.2ch;text-align:center}
+.stat span{font-size:12.5px;color:var(--muted);line-height:1.3}
+.stat.hot{background:var(--late-soft);border-color:transparent}
+.stat.hot b,.stat.hot span{color:var(--late)}
+.stat.warm{background:var(--soon-soft);border-color:transparent}
+.stat.warm b,.stat.warm span{color:var(--soon)}
+
+/* ---------- Cả tuần ---------- */
+.day{margin-top:22px}
+.day:first-child{margin-top:0}
+.day-h{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 12px}
+.day-h h3{font:700 19px/1.2 var(--f-display)}
+.day-h span{color:var(--muted);font-size:12.5px}
+.day .daybar{height:7px;margin:7px 0 6px}
+.mix{display:flex;flex-wrap:wrap;gap:3px 14px;margin-bottom:9px}
+.mix .subj{font-weight:600;font-size:12px}
+.mix .subj em{font-style:normal;font-weight:400;color:var(--muted)}
+.wrs{display:grid;gap:6px}
+.wr{display:grid;grid-template-columns:auto 50px minmax(0,1fr);gap:11px;align-items:center;padding:7px 12px 7px 10px;background:color-mix(in oklab,var(--c) var(--wash),var(--paper));border-radius:12px}
+.mini{display:grid;place-items:center;height:36px;border-radius:9px;background:var(--c);color:var(--on);font:800 17px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.wr-b{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:4px 16px;align-items:center;min-width:0}
+.wr-what{font-weight:600;font-size:14px;line-height:1.35}
+.wr-what small{display:block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.wr-prac{display:grid;gap:2px;font-size:13.5px;line-height:1.35}
+.wr-prac a{font-weight:600;text-underline-offset:3px}
+.wr.done{background:var(--paper-2)}
+.wr.done .mini{background:color-mix(in oklab,var(--c) 35%,var(--paper-2));color:var(--ink)}
+.wr.done .wr-what{color:var(--muted);text-decoration:line-through}
+
+/* ---------- Sổ lỗi ---------- */
+.lv{display:flex;flex-wrap:wrap;gap:8px}
+.lv .chip{font-size:12.5px;padding:4px 12px}
+.err-sub{display:flex;align-items:center;gap:9px;margin:22px 0 8px}
+.err-sub i{width:14px;height:14px;border-radius:4px;background:var(--c)}
+.err-sub h3{font:700 18px/1.2 var(--f-display)}
+.err-sub span{color:var(--muted);font-size:12.5px}
 .row.err{grid-template-columns:minmax(0,1fr) auto}
-.err .meta a{color:var(--accent);text-underline-offset:3px}
-.err .fix{color:var(--ink);font-size:.82rem;margin-top:4px}
-.foot{color:var(--muted);font-size:.78rem}
-@media (prefers-reduced-motion:no-preference){.row:hover{background:var(--bg)}}
+.fix{margin-top:7px;padding:6px 10px;background:var(--ok-soft);color:var(--ok);border-radius:9px;font-size:13px}
+.fix b{font-weight:700}
+
+/* ---------- Điểm ---------- */
+.sbars{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px 22px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.sbar .h{display:flex;justify-content:space-between;gap:10px;align-items:baseline;font-size:13.5px}
+.sbar .h b{font:800 17px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.sbar .h small{color:var(--muted)}
+.track{height:9px;border-radius:5px;background:var(--paper-2);margin-top:4px;overflow:hidden}
+.fill{height:100%;border-radius:5px 4px 4px 5px;background:var(--c)}
+.tbl-wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;white-space:nowrap}
+td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.score{display:inline-block;padding:1px 9px;border-radius:99px;background:var(--paper-2);font-weight:700}
+.score.low{background:var(--late-soft);color:var(--late)}
+.score.hi{background:var(--ok-soft);color:var(--ok)}
+.msg{padding:11px 14px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);font-size:14px}
+.msg .who{display:flex;flex-wrap:wrap;gap:3px 12px;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:4px}
+.msg .who b{color:var(--ink);font-size:13.5px}
+
+footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:20}
+
+@media (max-width:640px){
+  .brand h1{font-size:28px}
+  .kids{width:100%}
+  .kid{flex:1;min-width:0;padding-inline:12px}
+  .ex-grid{grid-template-columns:1fr}
+  .tabs button{font-size:14.5px;gap:4px;padding-inline:2px;white-space:nowrap}
+  .badge{min-width:19px;padding:1px 5px;font-size:11px}
+  .page{padding:14px 12px 20px}
+  .hero{gap:12px;padding:12px}
+  .ring{width:70px;height:70px}
+  .ring span{font-size:18px}
+  .hero h2{font-size:21px}
+  .ses{grid-template-columns:58px minmax(0,1fr) auto}
+  .blk b{font-size:24px}
+  .ses-b{padding:10px 10px 12px}
+  .tick{padding:0 10px}
+  .wr-b{grid-template-columns:1fr}
+  .row{grid-template-columns:auto minmax(0,1fr)}
+  .row > .row-c{grid-column:2}
+  .row.err{grid-template-columns:minmax(0,1fr)}
+  .row.err > .row-c{grid-column:1}
+  .sec-head{flex-wrap:wrap}
+}
+@media (prefers-reduced-motion:reduce){ *{transition:none!important} }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="top">
-    <div>
-      <h1>Sổ học tập Nam &amp; Phong</h1>
-      <div class="sync" id="sync">Đang tải dữ liệu…</div>
+  <header class="top">
+    <div class="brand">
+      <h1>Sổ học tập</h1>
+      <p class="sync" id="sync">Đang tải…</p>
     </div>
-    <div class="tabs" role="tablist">
-      <button class="tab" role="tab" aria-selected="true" data-kid="nam">Hải Nam <small>8A2</small></button>
-      <button class="tab" role="tab" aria-selected="false" data-kid="phong">Hải Phong <small>4B3</small></button>
+    <div class="kids" role="tablist" aria-label="Chọn con">
+      <button class="kid" role="tab" data-kid="nam" aria-selected="true"><span class="kn">Hải Nam</span><span class="kc">Lớp 8A2</span></button>
+      <button class="kid" role="tab" data-kid="phong" aria-selected="false"><span class="kn">Hải Phong</span><span class="kc">Lớp 4B3</span></button>
     </div>
-  </div>
+  </header>
 
-  <div id="banner" class="banner" hidden></div>
-
-  <section>
-    <h2>Lịch kiểm tra</h2>
-    <div id="exams"></div>
+  <section aria-labelledby="ex-h">
+    <div class="sec-head"><h2 id="ex-h">Kiểm tra sắp tới</h2><button class="link-btn" id="ex-more" type="button" hidden></button></div>
+    <div class="ex-grid" id="exams"></div>
   </section>
 
-  <div class="stats">
-    <div class="stat late"><b id="s-late">–</b><span>Quá hạn / thiếu</span></div>
-    <div class="stat soon"><b id="s-soon">–</b><span>Đến hạn trong 48 giờ</span></div>
-    <div class="stat"><b id="s-exam">–</b><span>Kiểm tra trong 14 ngày</span></div>
-    <div class="stat"><b id="s-low">–</b><span>Điểm thấp (14 ngày)</span></div>
-  </div>
+  <nav class="tabs" role="tablist" aria-label="Các phần của sổ">
+    <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
+    <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
+    <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
+    <button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
+  </nav>
 
-  <div class="tonight" id="tonight-box" hidden><span class="lbl">Tối nay</span><span id="tonight"></span></div>
+  <main>
+    <section class="page" id="p-today" role="tabpanel" aria-labelledby="t-today">
+      <div class="hero">
+        <div class="ring" id="ring"></div>
+        <div>
+          <p class="eyebrow" id="hero-day"></p>
+          <h2 id="hero-h">Đang tải…</h2>
+          <p class="sub" id="hero-sub" hidden></p>
+          <div class="daybar" id="hero-bar"></div>
+        </div>
+      </div>
+      <p class="tonight" id="tonight-box" hidden><b>Nhắc nhanh</b><span id="tonight"></span></p>
+      <div class="ses-list" id="sessions"></div>
+      <div id="today-tasks"></div>
+      <section class="parent" aria-labelledby="par-h">
+        <div class="sec-head"><h2 id="par-h">Phần của phụ huynh</h2><span class="hint">Nhìn nhanh tình hình của con</span></div>
+        <div class="stats" id="stats"></div>
+        <div id="parent-tasks"></div>
+      </section>
+    </section>
 
-  <section id="tt-sec" hidden>
-    <div class="sec-head"><h2>Thời gian biểu</h2><span class="sync">Học theo thứ tự từ trên xuống · tích ô khi xong buổi (lưu trên máy này)</span></div>
-    <div class="tt-wrap" id="timetable"></div>
-  </section>
+    <section class="page" id="p-week" role="tabpanel" aria-labelledby="t-week" hidden>
+      <div id="week"></div>
+      <div id="week-tasks"></div>
+    </section>
 
-  <section>
-    <div class="sec-head"><h2>Việc cần làm</h2><span class="sync">Tích ô khi đã làm xong (lưu trên máy này)</span></div>
-    <div id="tasks"><div class="list"><div class="empty">Đang tải…</div></div></div>
-  </section>
+    <section class="page" id="p-errors" role="tabpanel" aria-labelledby="t-errors" hidden>
+      <div id="errors"></div>
+    </section>
 
-  <section id="err-sec">
-    <div class="sec-head"><h2>Sổ lỗi</h2><span class="sync" id="err-count"></span></div>
-    <div id="errors"><div class="list"><div class="empty">Chưa ghi lỗi nào.</div></div></div>
-  </section>
+    <section class="page" id="p-grades" role="tabpanel" aria-labelledby="t-grades" hidden>
+      <div class="sec-head"><h2>Điểm chính thức</h2><span class="hint">Từ VinschoolOne · quy về thang 10</span></div>
+      <div id="grades-off"></div>
+      <div class="sec-head"><h2>Điểm bài làm trên LMS</h2><span class="hint">Trung bình theo môn, chưa tính bài chờ chấm</span></div>
+      <div class="sbars" id="subjects"></div>
+      <div id="grades-lms"></div>
+      <div class="sec-head"><h2>Lời cô dặn</h2></div>
+      <div id="notes"></div>
+    </section>
+  </main>
 
-  <section>
-    <div class="sec-head"><h2>Điểm chính thức</h2><span class="sync">Từ VinschoolOne · quy về thang 10</span></div>
-    <div id="grades-off"></div>
-  </section>
-
-  <section>
-    <div class="sec-head"><h2>Điểm bài làm trên LMS</h2><span class="sync">Trung bình theo môn, chưa tính bài chờ chấm</span></div>
-    <div class="subjects" id="subjects"></div>
-    <div id="grades-lms"></div>
-  </section>
-
-  <section>
-    <h2>Lời cô dặn</h2>
-    <div id="notes"></div>
-  </section>
-
-  <p class="foot">Dữ liệu được Claude cập nhật từ LMS và VinschoolOne vào các tối thứ Hai – thứ Sáu. Ô “đã xong” chỉ lưu trên thiết bị đang mở trang; việc đánh dấu chính thức do Claude cập nhật.</p>
+  <footer>Dữ liệu được Claude cập nhật từ LMS và VinschoolOne vào các tối thứ Hai – thứ Sáu. <span id="sync-note">Ô “đã xong” chỉ lưu trên thiết bị đang mở trang;</span> việc đánh dấu chính thức do Claude cập nhật.</footer>
 </div>
+<canvas id="fx" hidden aria-hidden="true"></canvas>
 
 <script>
 (() => {
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const DOW = ["CN","T2","T3","T4","T5","T6","T7"];
+  const DOWL = ["Chủ nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
   const vnToday = () => new Date(Date.now() + 7*3600e3).toISOString().slice(0,10);
   const dayDiff = (a, b) => Math.round((Date.parse(a+"T00:00:00Z") - Date.parse(b+"T00:00:00Z"))/864e5);
-  const fmtDate = (d) => { if(!d) return ""; const x = new Date(d+"T00:00:00Z"); return `${DOW[x.getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}`; };
+  const dowOf = (d) => new Date(d+"T00:00:00Z").getUTCDay();
+  const dm = (d) => `${d.slice(8,10)}/${d.slice(5,7)}`;
+  const fmtDate = (d) => d ? `${DOW[dowOf(d)]} ${dm(d)}` : "";
+  const fmtMins = (m) => [Math.floor(m/60) ? Math.floor(m/60) + " giờ" : "", m % 60 ? (m % 60) + " phút" : ""].filter(Boolean).join(" ");
   const safeUrl = (u) => (typeof u === "string" && /^https:\/\//.test(u)) ? u : null;
-  const linkItems = (t) => (Array.isArray(t.links) ? t.links : []).filter(l => l && l.label).map(l => { const u = safeUrl(l.url); return u ? `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener">${esc(l.label)}</a>` : `<span class="lk">${esc(l.label)}</span>`; }).join("");
   const ls = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch(e){} } };
+  const ARROW = `<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10 10 4M5 4h5v5"/></svg>`;
+
+  // Màu theo môn: gom các môn cùng nhóm vào một màu, tên môn luôn đi kèm
+  const norm = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[đĐ]/g, "d").toLowerCase();
+  const subjName = (s) => String(s || "").replace(/^\d+\s*·\s*/, "");
+  const FAM = [[1,/^toan|math/],[2,/lich su|dia l|viet nam hoc|history|geograph/],[3,/khtn|khoa hoc|science/],[4,/mi thuat|my thuat|am nhac|the chat|gdtc|music/],[5,/ngu van|tieng viet/],[7,/tieng anh|esl|english|raz/],[6,/tin hoc|ict|cong nghe|comput/]];
+  const slot = (s) => { const n = norm(subjName(s)); for (const [i, re] of FAM) if (re.test(n)) return i; return 0; };
+  const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
+  let tab = ["today","week","errors","grades"].includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
   let localDone = {}; try { localDone = JSON.parse(ls.get("soht-done") || "{}") || {}; } catch(e) {}
-  const state = { tasks: [], exams: [], grades: [], notes: [], meta: null, ready: false };
-
-  document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => { kid = b.dataset.kid; ls.set("soht-kid", kid); render(); }));
+  let showAllExams = false, lastLeft = 0;
+  const state = { tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
 
   const isDone = (t) => t.status === "done" || localDone[t.id] === true;
+  const tick = (t, label, small) => `<label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(label)}"><span aria-hidden="true"></span></label>`;
   function taskBucket(t, today) {
     if (isDone(t)) return "done";
     if (t.missing) return "late";
     if (!t.due) return "nodate";
     const d = dayDiff(t.due, today);
-    if (d < 0) return "late";
-    if (d <= 1) return "soon";
-    return "later";
+    return d < 0 ? "late" : d <= 1 ? "soon" : "later";
   }
   function dueChip(t, today) {
     if (isDone(t)) return `<span class="chip ok">Đã xong</span>`;
@@ -216,138 +401,266 @@ h3{font:600 .92rem var(--f-display);margin:0}
     if (d === 1) return `<span class="chip soon">Hạn ngày mai</span>`;
     return `<span class="chip">Còn ${d} ngày</span>`;
   }
+  const textLinks = (t) => (Array.isArray(t.links) ? t.links : []).filter(l => l && l.label).map(l => { const u = safeUrl(l.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l.label)}</a>` : `<span>${esc(l.label)}</span>`; }).join("");
   function taskRow(t, today) {
     const link = safeUrl(t.link);
     const title = link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.title)}</a>` : esc(t.title);
-    const official = t.status === "done";
-    return `<div class="row ${isDone(t)?"done":""}">
-      <input type="checkbox" data-id="${esc(t.id)}" ${isDone(t)?"checked":""} ${official?"disabled":""} aria-label="Đã xong: ${esc(t.title)}">
-      <div style="min-width:0">
-        <div class="title">${title}</div>
-        <div class="meta"><span class="subj">${esc(t.subject)}</span>${t.due?`<span>Hạn ${fmtDate(t.due)}${t.dueTime?" "+esc(t.dueTime):""}</span>`:""}${t.source?`<span>${esc(t.source)}</span>`:""}${t.who==="parent"?`<span class="chip parent">Việc của phụ huynh</span>`:""}</div>
-        ${t.note?`<div class="note">${esc(t.note)}</div>`:""}
-        ${linkItems(t)?`<div class="links">${linkItems(t)}</div>`:""}
-      </div>
-      <div>${dueChip(t, today)}</div>
-    </div>`;
+    const links = textLinks(t);
+    return `<div class="row ${isDone(t) ? "done" : ""}">${tick(t, t.title, true)}
+      <div style="min-width:0"><div class="row-t">${title}</div>
+      <div class="meta">${subjPill(t.subject)}${t.due ? `<span>Hạn ${fmtDate(t.due)}${t.dueTime ? " " + esc(t.dueTime) : ""}</span>` : ""}${t.source ? `<span>${esc(t.source)}</span>` : ""}</div>
+      ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}${links ? `<div class="links">${links}</div>` : ""}</div>
+      <div class="row-c">${dueChip(t, today)}</div></div>`;
   }
+  const block = (label, arr, today) => arr.length ? `<div class="group-lbl">${label}</div><div class="list">${arr.map(t => taskRow(t, today)).join("")}</div>` : "";
+  // Số phút hiển thị: bài trên Wayground tối đa 30 phút
+  const WG_MAX = 30;
+  const isWayground = (t) => /wayground/i.test([t.source, t.link, t.practice, ...(Array.isArray(t.links) ? t.links : []).map(l => l ? (l.url || "") + " " + (l.label || "") : "")].join(" "));
+  const mm = (t) => { const m = Number(t.minutes) || 0; return isWayground(t) ? Math.min(m, WG_MAX) : m; };
+  const dayBar = (rows) => rows.filter(t => mm(t) > 0).map(t => `<span class="s${slot(t.subject)}${isDone(t) ? " on" : ""}" style="--m:${mm(t)}" title="${esc(subjName(t.subject))} · ${mm(t)} phút${isDone(t) ? " · đã xong" : ""}"></span>`).join("");
+  const what = (t) => t.review || t.title;
 
   function render() {
-    document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.kid === kid)));
     const today = vnToday();
-    const mine = (arr) => arr.filter(x => x.kid === kid);
+    const mine = (arr) => (arr || []).filter(x => x.kid === kid);
+    document.querySelectorAll(".kid").forEach(b => b.setAttribute("aria-selected", String(b.dataset.kid === kid)));
+
+    const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
+    $("t-grades").hidden = !hasGrades;
+    if (!hasGrades && tab === "grades") tab = "today";
+    document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
+    ["today","week","errors","grades"].forEach(k => { $("p-" + k).hidden = k !== tab; });
 
     const m = state.meta && state.meta[kid];
     if (state.meta && state.meta.lastSync) {
       const t = new Date(state.meta.lastSync);
       $("sync").textContent = "Cập nhật lần cuối: " + t.toLocaleString("vi-VN", {timeZone:"Asia/Ho_Chi_Minh", hour:"2-digit", minute:"2-digit", day:"2-digit", month:"2-digit"}) + (m && m.sources ? " · " + m.sources : "");
     }
+
+    // ----- Kiểm tra -----
+    const exams = mine(state.exams).filter(e => !e.date || dayDiff(e.dateEnd || e.date, today) >= 0).sort((a,b) => (a.date || "9999").localeCompare(b.date || "9999"));
+    const shown = showAllExams ? exams : exams.slice(0, 4);
+    $("exams").innerHTML = exams.length ? shown.map(e => {
+      const d = e.date ? dayDiff(e.date, today) : null;
+      const u = d === null ? "u-none" : d <= 2 ? "u-crit" : d <= 7 ? "u-warn" : "";
+      const cd = d === null ? `<span class="cd"><b>?</b><i>chưa có ngày</i></span>` : d <= 0 ? `<span class="cd txt"><b>${d === 0 && !e.dateEnd ? "Hôm nay" : "Đang diễn ra"}</b></span>` : `<span class="cd"><b>${d}</b><i>ngày nữa</i></span>`;
+      const when = e.date ? (e.dateEnd ? `${fmtDate(e.date)} – ${fmtDate(e.dateEnd)}` : fmtDate(e.date)) : "Chưa có ngày";
+      return `<details class="ex ${u}"><summary>${cd}<span class="ex-main">${subjPill(e.subject)}<span class="ex-t">${esc(e.title)}</span><span class="ex-d">${when}</span></span></summary>
+        <div class="ex-scope">${e.scope ? esc(e.scope) : "Chưa có nội dung ôn."}${e.source ? ` <b>· ${esc(e.source)}</b>` : ""}</div></details>`;
+    }).join("") : `<div class="empty">${state.ready ? "Chưa có lịch kiểm tra." : "Đang tải…"}</div>`;
+    $("ex-more").hidden = exams.length <= 4;
+    $("ex-more").textContent = showAllExams ? "Thu gọn" : `Xem cả ${exams.length} bài`;
+
+    // ----- Thời gian biểu -----
+    const tasks = mine(state.tasks);
+    const kidTasks = tasks.filter(t => t.who !== "parent");
+    const inPlan = (t) => Number.isFinite(t.order) && !!t.due && dayDiff(t.due, today) >= 0;
+    const plan = kidTasks.filter(inPlan);
+    const days = [...new Set(plan.map(t => t.due))].sort().slice(0, 8);
+    const rowsOf = (d) => plan.filter(t => t.due === d).sort((a, b) => a.order - b.order);
+    const todayRows = rowsOf(today);
+    const total = todayRows.length, left = todayRows.filter(t => !isDone(t)).length, done = total - left;
+    const minsLeft = todayRows.filter(t => !isDone(t)).reduce((s, t) => s + (Number(t.minutes) || 0), 0);
+
+    $("hero-day").textContent = `Hôm nay · ${DOWL[dowOf(today)]} ${dm(today)}`;
+    const C = 2 * Math.PI * 34;
+    $("ring").innerHTML = `<svg viewBox="0 0 84 84" aria-hidden="true"><circle class="trk" cx="42" cy="42" r="34"/><circle class="prg" cx="42" cy="42" r="34" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${(total ? C * (1 - done / total) : C).toFixed(1)}"/></svg><span>${total ? `${done}/${total}` : "–"}</span>`;
+    $("hero-h").textContent = !state.ready ? "Đang tải…" : !total ? "Hôm nay không có bài nào trong thời gian biểu" : !left ? `Xong hết ${total} bài hôm nay!` : `Còn ${left} bài cần làm`;
+    // Xong hết bài hôm nay thì đưa luôn bài của ngày kế tiếp còn việc lên để con làm trước
+    const aheadDay = state.ready && !left ? days.find(d => d > today && rowsOf(d).some(t => !isDone(t))) : null;
+    const aheadRows = aheadDay ? rowsOf(aheadDay) : [];
+    const aheadName = aheadDay ? `${DOWL[dowOf(aheadDay)]} ${dm(aheadDay)}` : "";
+    const sub = aheadDay ? `Con có thể làm trước bài của ${aheadName} ở ngay bên dưới.` : "";
+    $("hero-sub").hidden = !sub; $("hero-sub").textContent = sub;
+    $("hero-bar").innerHTML = dayBar(todayRows);
+    $("hero-bar").hidden = !total;
     $("tonight-box").hidden = !(m && m.tonight);
     $("tonight").textContent = (m && m.tonight) || "";
+    $("b-today").hidden = !left; $("b-today").textContent = left;
 
-    const tasks = mine(state.tasks);
-    // Thời gian biểu: các việc có order (số) và hạn từ hôm nay trở đi
-    const DOWL = ["Chủ nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
-    const inPlan = (t) => Number.isFinite(t.order) && !!t.due && dayDiff(t.due, today) >= 0;
-    const plan = tasks.filter(inPlan);
-    const days = [...new Set(plan.map(t => t.due))].sort().slice(0, 8);
-    $("tt-sec").hidden = !days.length;
-    $("timetable").innerHTML = days.map(d => {
-      const rows = plan.filter(t => t.due === d).sort((a, b) => a.order - b.order);
-      const mins = rows.reduce((s, t) => s + (Number(t.minutes) || 0), 0);
-      const left = rows.filter(t => !isDone(t)).length;
-      const dd = dayDiff(d, today);
-      const when = dd === 0 ? "Hôm nay · " : dd === 1 ? "Ngày mai · " : "";
-      const total = [Math.floor(mins / 60) ? Math.floor(mins / 60) + " giờ" : "", mins % 60 ? (mins % 60) + " phút" : ""].filter(Boolean).join(" ");
-      return `<div class="tt-day"><div class="tt-head"><h3>${when}${DOWL[new Date(d + "T00:00:00Z").getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}</h3><span class="sync">${total ? total + " học · " : ""}${left ? "còn " + left + " buổi" : "đã xong hết"}</span></div>
-        <div class="list"><div class="tt-row tt-cols" aria-hidden="true"><span></span><span>Thời lượng</span><span>Môn</span><span>Ôn gì</span><span>Luyện bằng</span></div>${rows.map(t => {
-          const link = safeUrl(t.link);
-          const subj = String(t.subject || "").replace(/^\d+\s*·\s*/, "");
-          const what = t.review || t.title;
-          const items = linkItems(t);
-          const prac = items || (t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : esc(t.practice)) : "");
-          return `<div class="tt-row ${isDone(t) ? "done" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(what)}"><span class="tt-dur">${t.minutes ? esc(t.minutes) + " phút" : ""}</span><span class="subj">${esc(subj)}</span><span class="title">${esc(what)}</span><span class="tt-prac">${prac}</span></div>`;
-        }).join("")}</div></div>`;
-    }).join("");
-    const listTasks = tasks.filter(t => !inPlan(t));
+    const nextId = (todayRows.find(t => !isDone(t)) || aheadRows.find(t => !isDone(t)) || {}).id;
+    const sesCard = (t) => {
+      const link = safeUrl(t.link);
+      const items = (Array.isArray(t.links) ? t.links : []).filter(l => l && l.label).map(l => { const u = safeUrl(l.url); return u ? `<a class="go" href="${esc(u)}" target="_blank" rel="noopener">${esc(l.label)}${ARROW}</a>` : `<span class="onpaper">${esc(l.label)}</span>`; }).join("");
+      const prac = items || (t.practice ? (link ? `<a class="go" href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}${ARROW}</a>` : `<span class="onpaper">${esc(t.practice)}</span>`) : "");
+      return `<article class="ses s${slot(t.subject)} ${isDone(t) ? "done" : ""}">
+        <div class="blk">${mm(t) ? `<b>${mm(t)}</b><span>phút</span>` : `<span>Bài</span>`}</div>
+        <div class="ses-b"><div class="ses-top">${t.id === nextId ? `<span class="nexttag">Làm tiếp bài này</span>` : ""}<span class="ses-subj">${esc(subjName(t.subject))}</span></div>
+          <h3>${esc(what(t))}</h3>${prac ? `<div class="acts">${prac}</div>` : ""}</div>
+        ${tick(t, what(t))}</article>`;
+    };
+    $("sessions").innerHTML = todayRows.map(sesCard).join("") + (aheadDay ? `<div class="ahead"><h3>Làm trước bài của ${aheadName}</h3><p>Không bắt buộc. Bài nào tích ở đây thì đến ngày đó sẽ hiện là đã xong.</p></div>` + aheadRows.map(sesCard).join("") : "");
+
+    // ----- Việc cần làm -----
+    const listTasks = kidTasks.filter(t => !inPlan(t));
     const groups = { late: [], soon: [], later: [], nodate: [], done: [] };
     listTasks.forEach(t => groups[taskBucket(t, today)].push(t));
     const byDue = (a, b) => (a.due || "9999").localeCompare(b.due || "9999") || String(a.subject).localeCompare(String(b.subject));
     Object.values(groups).forEach(g => g.sort(byDue));
     groups.done.sort((a, b) => String(b.doneAt || "").localeCompare(String(a.doneAt || "")));
-    const block = (label, arr) => arr.length ? `<div class="group-lbl">${label}</div><div class="list">${arr.map(t => taskRow(t, today)).join("")}</div>` : "";
-    let html = block("Quá hạn hoặc bị tính thiếu", groups.late) + block("Hôm nay và ngày mai", groups.soon) + block("Sắp tới", groups.later) + block("Chưa có hạn cụ thể", groups.nodate);
-    if (!html) html = `<div class="list"><div class="empty">${state.ready ? "Không còn việc nào. Tuyệt vời!" : "Đang tải…"}</div></div>`;
-    if (groups.done.length) html += `<details><summary>Đã xong (${groups.done.length})</summary><div class="list">${groups.done.slice(0, 15).map(t => taskRow(t, today)).join("")}</div></details>`;
-    $("tasks").innerHTML = html;
+    $("today-tasks").innerHTML = block("Còn nợ: quá hạn hoặc bị tính thiếu", groups.late, today) + block("Hạn hôm nay và ngày mai", groups.soon, today);
 
-    // Sổ lỗi: câu/phần kiến thức con làm sai, ghi sau mỗi buổi làm bài
-    const errs = mine(state.errors || []);
+    const parentTasks = tasks.filter(t => t.who === "parent" && !isDone(t)).sort(byDue);
+    $("parent-tasks").innerHTML = block("Việc của phụ huynh", parentTasks, today);
+
+    const grades = mine(state.grades).sort((a,b) => String(b.date || "").localeCompare(String(a.date || "")));
+    const ten = (g) => g.max ? g.score / g.max * 10 : null;
+    const nLate = tasks.filter(t => taskBucket(t, today) === "late").length;
+    const nSoon = tasks.filter(t => taskBucket(t, today) === "soon").length;
+    const nExam = exams.filter(e => e.date && dayDiff(e.date, today) <= 14).length;
+    const nLow = grades.filter(g => { const v = ten(g); return v !== null && !g.pending && v < 6.5 && g.date && dayDiff(today, g.date) <= 14; }).length;
+    const stat = (n, label, cls) => `<div class="stat ${n ? cls : ""}"><b>${n}</b><span>${label}</span></div>`;
+    $("stats").innerHTML = stat(nLate, "Quá hạn hoặc thiếu", "hot") + stat(nSoon, "Đến hạn trong 48 giờ", "warm") + stat(nExam, "Kiểm tra trong 14 ngày", "warm") + ((state.grades || []).length ? stat(nLow, "Điểm thấp (14 ngày)", "hot") : "");
+
+    // ----- Cả tuần -----
+    const nextDays = days.filter(d => d > today);
+    $("week").innerHTML = nextDays.length ? nextDays.map(d => {
+      const rows = rowsOf(d);
+      const mins = rows.reduce((s, t) => s + (Number(t.minutes) || 0), 0);
+      const l = rows.filter(t => !isDone(t)).length;
+      const dd = dayDiff(d, today);
+      const bySub = new Map();
+      rows.forEach(t => { const k = subjName(t.subject); bySub.set(k, (bySub.get(k) || 0) + (Number(t.minutes) || 0)); });
+      const mix = [...bySub].map(([s, v]) => `<span class="subj s${slot(s)}"><i></i>${esc(s)}</span>`).join("");
+      return `<section class="day"><div class="day-h"><h3>${dd === 1 ? "Ngày mai · " : ""}${DOWL[dowOf(d)]} ${dm(d)}</h3><span>${l ? "còn " + l + " bài" : "đã xong hết"}</span></div>
+        <div class="daybar">${dayBar(rows)}</div><div class="mix">${mix}</div>
+        <div class="wrs">${rows.map(t => {
+          const link = safeUrl(t.link);
+          const prac = textLinks(t) || (t.practice ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(t.practice)}</a>` : `<span>${esc(t.practice)}</span>`) : "");
+          return `<div class="wr s${slot(t.subject)} ${isDone(t) ? "done" : ""}">${tick(t, what(t), true)}<span class="mini" title="${mm(t) ? mm(t) + " phút" : ""}">${mm(t) ? mm(t) + "′" : "·"}</span>
+            <div class="wr-b"><div class="wr-what"><small>${esc(subjName(t.subject))}</small>${esc(what(t))}</div><div class="wr-prac">${prac}</div></div></div>`;
+        }).join("")}</div></section>`;
+    }).join("") : `<div class="empty">${state.ready ? "Chưa có thời gian biểu cho những ngày tới." : "Đang tải…"}</div>`;
+    let wt = block("Việc sắp tới", groups.later, today) + block("Chưa có hạn cụ thể", groups.nodate, today);
+    if (groups.done.length) wt += `<details class="more"><summary>Đã xong (${groups.done.length})</summary><div class="list">${groups.done.slice(0, 15).map(t => taskRow(t, today)).join("")}</div></details>`;
+    $("week-tasks").innerHTML = wt;
+
+    // ----- Sổ lỗi -----
+    const errs = mine(state.errors);
     const LV = { repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
     const rank = { repeat: 0, once: 1, unknown: 2, habit: 3 };
-    const openErr = errs.filter(e => e.status !== "fixed").length;
-    $("err-count").textContent = errs.length ? openErr + " mục chưa khắc phục · ghi sau mỗi buổi làm bài" : "";
+    const open = errs.filter(e => e.status !== "fixed");
+    $("b-errors").hidden = !open.length; $("b-errors").textContent = open.length;
     const bySub = {};
     errs.slice().sort((a, b) => (a.status === "fixed") - (b.status === "fixed") || (rank[a.level] ?? 9) - (rank[b.level] ?? 9) || String(b.date || "").localeCompare(String(a.date || ""))).forEach(e => { (bySub[e.subject] ||= []).push(e); });
-    $("errors").innerHTML = errs.length ? Object.entries(bySub).map(([s, arr]) => `<div class="group-lbl">${esc(s)}</div><div class="list">${arr.map(e => {
-      const lv = LV[e.level] || ["", ""];
-      const u = safeUrl(e.link);
-      const chip = e.status === "fixed" ? `<span class="chip ok">Đã khắc phục</span>` : (lv[0] ? `<span class="chip ${lv[1]}">${lv[0]}</span>` : "");
-      const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.activity)}</a>` : `<span>${esc(e.activity)}</span>`) : "";
-      return `<div class="row err ${e.status === "fixed" ? "done" : ""}"><div style="min-width:0"><div class="title">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div>${chip}</div></div>`;
-    }).join("")}</div>`).join("") : `<div class="list"><div class="empty">Chưa ghi lỗi nào.</div></div>`;
+    const lvCount = Object.keys(LV).map(k => [k, open.filter(e => e.level === k).length]).filter(x => x[1]);
+    $("errors").innerHTML = errs.length ? `<div class="sec-head"><h2>${open.length} mục chưa khắc phục</h2><span class="hint">Ghi sau mỗi lần làm bài</span></div>
+      <div class="lv">${lvCount.map(([k, n]) => `<span class="chip ${LV[k][1]}">${LV[k][0]}: ${n}</span>`).join("")}</div>` +
+      Object.entries(bySub).map(([s, arr]) => `<div class="err-sub s${slot(s)}"><i></i><h3>${esc(subjName(s))}</h3><span>${arr.filter(e => e.status !== "fixed").length} mục</span></div><div class="list">${arr.map(e => {
+        const lv = LV[e.level] || ["", ""];
+        const u = safeUrl(e.link);
+        const chip = e.status === "fixed" ? `<span class="chip ok">Đã khắc phục</span>` : (lv[0] ? `<span class="chip ${lv[1]}">${lv[0]}</span>` : "");
+        const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.activity)}</a>` : `<span>${esc(e.activity)}</span>`) : "";
+        return `<div class="row err ${e.status === "fixed" ? "done" : ""}"><div style="min-width:0"><div class="row-t">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div class="row-c">${chip}</div></div>`;
+      }).join("")}</div>`).join("") : `<div class="empty">${state.ready ? "Chưa ghi lỗi nào." : "Đang tải…"}</div>`;
 
-    const exams = mine(state.exams).filter(e => !e.date || dayDiff(e.dateEnd || e.date, today) >= 0).sort((a,b) => (a.date||"9999").localeCompare(b.date||"9999"));
-    $("exams").innerHTML = exams.length ? `<div class="list">${exams.map(e => {
-      const d = e.date ? dayDiff(e.date, today) : null;
-      const chip = d === null ? `<span class="chip">Chưa có ngày</span>` : d <= 0 ? `<span class="chip late">Đang diễn ra</span>` : d <= 7 ? `<span class="chip soon">Còn ${d} ngày</span>` : `<span class="chip">Còn ${d} ngày</span>`;
-      return `<div class="exam"><div class="cal">${e.date?`<span>${DOW[new Date(e.date+"T00:00:00Z").getUTCDay()]}</span><b>${e.date.slice(8,10)}/${e.date.slice(5,7)}</b>`:`<b>?</b>`}</div>
-        <div style="min-width:0"><div class="title">${esc(e.subject)} – ${esc(e.title)}</div>
-        <div class="meta">${chip}${e.dateEnd?`<span>Trong khoảng ${fmtDate(e.date)} – ${fmtDate(e.dateEnd)}</span>`:""}${e.source?`<span>${esc(e.source)}</span>`:""}</div>
-        ${e.scope?`<div class="note">${esc(e.scope)}</div>`:""}</div></div>`;
-    }).join("")}</div>` : `<div class="list"><div class="empty">Chưa có lịch kiểm tra.</div></div>`;
-
-    const grades = mine(state.grades).sort((a,b) => String(b.date||"").localeCompare(String(a.date||"")));
-    const ten = (g) => g.max ? g.score / g.max * 10 : null;
+    // ----- Điểm -----
     const isOff = (g) => g.official === true || g.source === "VS One";
     const offG = grades.filter(isOff), lmsG = grades.filter(g => !isOff(g));
-    const bySubj = {};
-    lmsG.forEach(g => { const v = ten(g); if (v === null || g.pending) return; (bySubj[g.subject] ||= []).push(v); });
-    $("subjects").innerHTML = Object.entries(bySubj).map(([s, vs]) => {
-      const avg = vs.reduce((a,b)=>a+b,0)/vs.length;
-      const cls = avg < 6.5 ? "low" : avg < 8 ? "mid" : "";
-      return `<div class="sbar"><div class="h"><span>${esc(s)} <small style="color:var(--muted)">(${vs.length} bài)</small></span><b>${avg.toFixed(1)}</b></div><div class="track"><div class="fill ${cls}" style="width:${Math.max(4, Math.min(100, avg*10))}%"></div></div></div>`;
-    }).join("");
+    const avgBy = {};
+    lmsG.forEach(g => { const v = ten(g); if (v === null || g.pending) return; (avgBy[g.subject] ||= []).push(v); });
     const fmtScore = (n) => Number.isInteger(n) ? String(n) : (Math.round(n*100)/100).toString().replace(".", ",");
+    $("subjects").hidden = !Object.keys(avgBy).length;
+    $("subjects").innerHTML = Object.entries(avgBy).map(([s, vs]) => {
+      const avg = vs.reduce((a,b) => a+b, 0) / vs.length;
+      return `<div class="sbar s${slot(s)}"><div class="h"><span>${subjPill(s)} <small>${vs.length} bài</small>${avg < 6.5 ? ` <span class="chip late">Cần chú ý</span>` : ""}</span><b>${avg.toFixed(1).replace(".", ",")}</b></div><div class="track"><div class="fill" style="width:${Math.max(4, Math.min(100, avg*10))}%"></div></div></div>`;
+    }).join("");
     const table = (arr) => `<div class="tbl-wrap"><table><thead><tr><th>Ngày</th><th>Môn</th><th>Bài</th><th>Điểm</th><th>Ghi chú</th></tr></thead><tbody>${arr.map(g => {
       const v = ten(g); const cls = (v === null || g.pending) ? "" : v < 6.5 ? "low" : v >= 8.5 ? "hi" : "";
       const scaled = (v !== null && g.max !== 10) ? ` <small style="color:var(--muted)">(${fmtScore(Math.round(v*10)/10)}/10)</small>` : "";
-      return `<tr><td style="white-space:nowrap">${fmtDate(g.date)}</td><td>${esc(g.subject)}</td><td>${esc(g.title)}</td><td class="num ${cls}">${g.pending ? "–" : fmtScore(g.score)}/${g.max ?? "–"}${g.pending?` <span class="chip">chờ chấm</span>`:scaled}</td><td>${esc(g.note || "")}</td></tr>`;
+      return `<tr><td style="white-space:nowrap">${fmtDate(g.date)}</td><td>${subjPill(g.subject)}</td><td>${esc(g.title)}</td><td class="num">${g.pending ? `<span class="chip">chờ chấm</span>` : `<span class="score ${cls}">${fmtScore(g.score)}/${g.max ?? "–"}</span>${scaled}`}</td><td>${esc(g.note || "")}</td></tr>`;
     }).join("")}</tbody></table></div>`;
-    $("grades-off").innerHTML = offG.length ? table(offG) : `<div class="tbl-wrap"><div class="empty">Chưa có điểm chính thức.</div></div>`;
-    $("grades-lms").innerHTML = lmsG.length ? `<details><summary>Xem từng bài (${lmsG.length})</summary>${table(lmsG)}</details>` : `<div class="tbl-wrap"><div class="empty">Chưa có điểm bài làm.</div></div>`;
+    $("grades-off").innerHTML = offG.length ? table(offG) : `<div class="empty">Chưa có điểm chính thức.</div>`;
+    $("grades-lms").innerHTML = lmsG.length ? `<details class="more"><summary>Xem từng bài (${lmsG.length})</summary>${table(lmsG)}</details>` : `<div class="empty">Chưa có điểm bài làm.</div>`;
+    const notes = mine(state.notes).sort((a,b) => String(b.date || "").localeCompare(String(a.date || ""))).slice(0, 12);
+    $("notes").innerHTML = notes.length ? `<div class="list">${notes.map(n => `<div class="msg"><div class="who"><b>${esc(n.teacher)}</b>${n.subject ? subjPill(n.subject) : ""}<span>${fmtDate(n.date)}</span>${n.source ? `<span>${esc(n.source)}</span>` : ""}</div><div>${esc(n.text)}</div></div>`).join("")}</div>` : `<div class="empty">Chưa có nhận xét, dặn dò.</div>`;
 
-    const notes = mine(state.notes).sort((a,b) => String(b.date||"").localeCompare(String(a.date||""))).slice(0, 12);
-    $("notes").innerHTML = notes.length ? `<div class="list">${notes.map(n => `<div class="msg"><div class="who"><b>${esc(n.teacher)}</b>${n.subject?` · ${esc(n.subject)}`:""} · ${fmtDate(n.date)}${n.source?` · ${esc(n.source)}`:""}</div><div>${esc(n.text)}</div></div>`).join("")}</div>` : `<div class="list"><div class="empty">Chưa có nhận xét, dặn dò.</div></div>`;
-
-    $("s-late").textContent = tasks.filter(t => taskBucket(t, today) === "late").length;
-    $("s-soon").textContent = tasks.filter(t => taskBucket(t, today) === "soon").length;
-    $("s-exam").textContent = exams.filter(e => e.date && dayDiff(e.date, today) <= 14).length;
-    $("s-low").textContent = grades.filter(g => { const v = ten(g); return v !== null && !g.pending && v < 6.5 && g.date && dayDiff(today, g.date) <= 14; }).length;
+    lastLeft = left;
+    return { total, left };
   }
 
+  // Pháo giấy khi tích xong bài cuối cùng trong ngày
+  function celebrate() {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const cv = $("fx"), ctx = cv.getContext("2d");
+    const W = cv.width = innerWidth, H = cv.height = innerHeight;
+    const css = getComputedStyle(document.documentElement);
+    const cols = [1,2,3,4,5,7].map(i => css.getPropertyValue("--c" + i).trim());
+    const ps = Array.from({length: 110}, (_, i) => ({ x: W/2 + (Math.random() - .5) * 120, y: H * .32, vx: (Math.random() - .5) * 13, vy: -Math.random() * 11 - 3, s: 5 + Math.random() * 6, r: Math.random() * 6, c: cols[i % cols.length] }));
+    cv.hidden = false;
+    const t0 = performance.now();
+    (function frame(t) {
+      const k = (t - t0) / 1900;
+      ctx.clearRect(0, 0, W, H);
+      if (k >= 1) { cv.hidden = true; return; }
+      ctx.globalAlpha = k < .7 ? 1 : (1 - k) / .3;
+      ps.forEach(p => { p.vy += .32; p.x += p.vx; p.y += p.vy; p.r += .2; ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.fillStyle = p.c; ctx.fillRect(-p.s/2, -p.s/3, p.s, p.s * .66); ctx.restore(); });
+      requestAnimationFrame(frame);
+    })(t0);
+  }
+
+  document.querySelectorAll(".kid").forEach(b => b.addEventListener("click", () => { kid = b.dataset.kid; ls.set("soht-kid", kid); showAllExams = false; render(); }));
+  document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => { tab = b.dataset.tab; ls.set("soht-tab", tab); render(); }));
+  $("ex-more").addEventListener("click", () => { showAllExams = !showAllExams; render(); });
   document.addEventListener("change", (ev) => {
     const cb = ev.target.closest("input[type=checkbox][data-id]");
     if (!cb) return;
+    const before = lastLeft;
     if (cb.checked) localDone[cb.dataset.id] = true; else delete localDone[cb.dataset.id];
     ls.set("soht-done", JSON.stringify(localDone));
-    render();
+    pushTick(cb.dataset.id, cb.checked);
+    const after = render();
+    if (cb.checked && before > 0 && after.total > 0 && after.left === 0) celebrate();
   });
 
-  fetch("data.json?t=" + Date.now(), { cache: "no-store" })
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  // ----- Đồng bộ ô tích giữa các máy: ghi qua Google Form, đọc lại từ Google Sheet -----
+  const SYNC = {
+    form: "https://docs.google.com/forms/d/e/1FAIpQLSdmvfN-xfrVoaf_uRSAIZak77zxcaOMM92WjxExRF8E-K9DqQ/formResponse",
+    fId: "entry.1061890612", fDone: "entry.1088075215",
+    sheet: "https://docs.google.com/spreadsheets/d/15X00LJ3ME1kwTXRPa3MuFlMn8QIHTWB4II4Y3h7rLIc/gviz/tq",
+    every: 20000, hold: 90000
+  };
+  const pending = {};   // ô vừa tích trên máy này: tạm chưa nhận giá trị từ xa để khỏi bị bật ngược lại
+  function pushTick(id, on) {
+    pending[id] = Date.now();
+    const body = new URLSearchParams(); body.set(SYNC.fId, id); body.set(SYNC.fDone, on ? "1" : "0");
+    fetch(SYNC.form, { method: "POST", mode: "no-cors", body }).catch(() => {});
+  }
+  function applyRemote(rows) {
+    const seen = new Set(); let changed = false; const now = Date.now();
+    rows.forEach(r => {
+      const id = r && r.c && r.c[1] && r.c[1].v != null ? String(r.c[1].v) : "";
+      if (!id || seen.has(id)) return;          // hàng mới nhất của mỗi bài quyết định
+      seen.add(id);
+      if (pending[id] && now - pending[id] < SYNC.hold) return;
+      const on = r.c[2] && String(r.c[2].v) === "1";
+      if (on && localDone[id] !== true) { localDone[id] = true; changed = true; }
+      if (!on && localDone[id] === true) { delete localDone[id]; changed = true; }
+    });
+    $("sync-note").textContent = "Ô “đã xong” tự đồng bộ giữa các máy sau khoảng nửa phút;";
+    if (changed) { ls.set("soht-done", JSON.stringify(localDone)); render(); }
+  }
+  let pulling = false;
+  function pullTicks() {
+    if (pulling || document.hidden) return;
+    pulling = true;
+    const name = "sohtSync" + Date.now();
+    const el = document.createElement("script");
+    const done = () => { pulling = false; clearTimeout(timer); try { delete window[name]; } catch(e) {} el.remove(); };
+    const timer = setTimeout(done, 15000);
+    window[name] = (res) => { done(); if (res && res.status === "ok" && res.table) applyRemote((res.table.rows || []).slice().reverse()); };   // hàng ghi sau cùng xét trước
+    el.onerror = done;
+    el.src = SYNC.sheet + "?tqx=" + encodeURIComponent("out:json;responseHandler:" + name) + "&headers=1&tq=" + encodeURIComponent("select A,B,C where A >= datetime '" + new Date(Date.now() - 10 * 864e5).toISOString().slice(0, 10) + " 00:00:00'") + "&t=" + Date.now();
+    document.head.appendChild(el);
+  }
+  setInterval(pullTicks, SYNC.every);
+  document.addEventListener("visibilitychange", pullTicks);
+  pullTicks();
+
+  const load = (url) => fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  load("data.json").catch(() => load("https://namphong2106.github.io/data.json"))
     .then(d => { Object.assign(state, d); state.ready = true; render(); })
-    .catch(() => { $("sync").textContent = "Chưa tải được dữ liệu. Tải lại trang để thử lại."; });
+    .catch(() => { $("sync").textContent = "Chưa tải được dữ liệu. Tải lại trang để thử lại."; $("hero-h").textContent = "Chưa tải được dữ liệu"; });
   render();
 })();
 </script>
