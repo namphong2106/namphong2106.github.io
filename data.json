@@ -531,6 +531,27 @@
    "title": "30 phút – Ôn Toán chương 2: bài tổng hợp 1"
   },
   {
+   "id": "nam-on-20261003-van-duongluat",
+   "due": "2026-10-03",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=36908269",
+   "links": [
+    {
+     "label": "Wayground: Luyện thơ Đường luật (20 câu)",
+     "url": "https://wayground.com/join?gc=36908269"
+    }
+   ],
+   "minutes": 25,
+   "note": "Thời gian biểu T7 03/10, buổi 11. Ôn cho bài kiểm tra giữa kì I Ngữ văn (thứ Hai 05/10). 11 câu lý thuyết thi luật, 9 câu vận dụng trên bài thơ mới; mỗi câu ghi rõ phần kiến thức để biết con yếu phần nào.",
+   "order": 11,
+   "practice": "Wayground: Luyện thơ Đường luật (20 câu)",
+   "review": "Ôn thơ Đường luật: bố cục, luật, niêm, vần, đối, nhịp",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "11 · Ngữ văn",
+   "title": "25 phút – Luyện kiến thức thơ Đường luật"
+  },
+  {
    "id": "nam-ta-ngay-20261004",
    "due": "2026-10-04",
    "kid": "nam",
