@@ -410,22 +410,22 @@
    "id": "nam-on-20261003-ls-tuluan",
    "due": "2026-10-03",
    "kid": "nam",
-   "link": "https://wayground.com/join?gc=54436846",
+   "link": "https://wayground.com/join?gc=12264685",
    "links": [
     {
-     "label": "Wayground Lịch sử bài 5 – Tự luận ngắn: làm câu 1–4",
-     "url": "https://wayground.com/join?gc=54436846"
+     "label": "Wayground Lịch sử bài 5A – Tự luận ngắn (4 câu: câu 1–4)",
+     "url": "https://wayground.com/join?gc=12264685"
     }
    ],
-   "minutes": 45,
-   "note": "Thời gian biểu T7 03/10, buổi 8. Viết tay ra giấy trước rồi mới gõ.",
+   "minutes": 30,
+   "note": "Thời gian biểu T7 03/10, buổi 8. Viết tay ra giấy trước rồi mới gõ. Link riêng 4 câu (tách từ bài 5). Sáng 03/10 Nam đã nộp 8 câu ở link cũ; làm lại theo link này.",
    "order": 8,
-   "practice": "Wayground Lịch sử bài 5 – Tự luận ngắn, câu 1–4 (viết tay ra giấy trước)",
+   "practice": "Wayground Lịch sử bài 5A – Tự luận ngắn, 4 câu (viết tay ra giấy trước)",
    "review": "Tự luận Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "8 · Lịch sử",
-   "title": "45 phút – Tự luận câu 1–4 (Wayground bài 5): Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp"
+   "title": "30 phút – Tự luận câu 1–4 (Wayground bài 5A): Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp"
   },
   {
    "id": "nam-on-20261004-khtn-c2",
@@ -511,22 +511,22 @@
    "id": "nam-on-20261004-ls-tuluan",
    "due": "2026-10-03",
    "kid": "nam",
-   "link": "https://wayground.com/join?gc=54436846",
+   "link": "https://wayground.com/join?gc=08070381",
    "links": [
     {
-     "label": "Wayground Lịch sử bài 5 – Tự luận ngắn: làm câu 5–8",
-     "url": "https://wayground.com/join?gc=54436846"
+     "label": "Wayground Lịch sử bài 5B – Tự luận ngắn (4 câu: câu 5–8)",
+     "url": "https://wayground.com/join?gc=08070381"
     }
    ],
-   "minutes": 45,
-   "note": "Thời gian biểu T7 03/10, buổi 9 (chuyển từ T2). Viết tay ra giấy trước rồi mới gõ.",
+   "minutes": 30,
+   "note": "Thời gian biểu T7 03/10, buổi 9 (chuyển từ T2). Viết tay ra giấy trước rồi mới gõ. Link riêng 4 câu (tách từ bài 5). Sáng 03/10 Nam đã nộp 8 câu ở link cũ; làm lại theo link này.",
    "order": 9,
-   "practice": "Wayground Lịch sử bài 5 – Tự luận ngắn, câu 5–8 (viết tay)",
-   "review": "Tự luận còn lại",
+   "practice": "Wayground Lịch sử bài 5B – Tự luận ngắn, 4 câu (viết tay ra giấy trước)",
+   "review": "Tự luận Cách mạng công nghiệp và câu liên hệ",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "9 · Lịch sử",
-   "title": "45 phút – Tự luận câu 5–8 (Wayground bài 5)"
+   "title": "30 phút – Tự luận câu 5–8 (Wayground bài 5B): Cách mạng công nghiệp, liên hệ ngày nay"
   },
   {
    "id": "nam-ta-ngay-20261004",
