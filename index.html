@@ -232,7 +232,7 @@ details.more > .list, details.more > .tbl-wrap{margin-top:8px}
 .err-sub i{width:14px;height:14px;border-radius:4px;background:var(--c)}
 .err-sub h3{font:700 18px/1.2 var(--f-display)}
 .err-sub span{color:var(--muted);font-size:12.5px}
-.row.err{grid-template-columns:minmax(0,1fr) auto}
+.row.err{grid-template-columns:auto minmax(0,1fr) auto}
 .fix{margin-top:7px;padding:6px 10px;background:var(--ok-soft);color:var(--ok);border-radius:9px;font-size:13px}
 .fix b{font-weight:700}
 
@@ -279,8 +279,8 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   .wr-b{grid-template-columns:1fr}
   .row{grid-template-columns:auto minmax(0,1fr)}
   .row > .row-c{grid-column:2}
-  .row.err{grid-template-columns:minmax(0,1fr)}
-  .row.err > .row-c{grid-column:1}
+  .row.err{grid-template-columns:auto minmax(0,1fr)}
+  .row.err > .row-c{grid-column:2}
   .sec-head{flex-wrap:wrap}
 }
 @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
@@ -567,19 +567,20 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     const errs = mine(state.errors);
     const LV = { redo: ["Quiz sửa lỗi", "soon"], repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
     const rank = { redo: -1, repeat: 0, once: 1, unknown: 2, habit: 3 };
-    const open = errs.filter(e => e.status !== "fixed");
+    const errFixed = (e) => e.status === "fixed" || !!localDone[e.id];
+const open = errs.filter(e => !errFixed(e));
     $("b-errors").hidden = !open.length; $("b-errors").textContent = open.length;
     const bySub = {};
-    errs.slice().sort((a, b) => (a.status === "fixed") - (b.status === "fixed") || (rank[a.level] ?? 9) - (rank[b.level] ?? 9) || String(b.date || "").localeCompare(String(a.date || ""))).forEach(e => { (bySub[e.subject] ||= []).push(e); });
+    errs.slice().sort((a, b) => errFixed(a) - errFixed(b) || (rank[a.level] ?? 9) - (rank[b.level] ?? 9) || String(b.date || "").localeCompare(String(a.date || ""))).forEach(e => { (bySub[e.subject] ||= []).push(e); });
     const lvCount = Object.keys(LV).map(k => [k, open.filter(e => e.level === k).length]).filter(x => x[1]);
-    $("errors").innerHTML = errs.length ? `<div class="sec-head"><h2>${open.length} mục chưa khắc phục</h2><span class="hint">Ghi sau mỗi lần làm bài</span></div>
+    $("errors").innerHTML = errs.length ? `<div class="sec-head"><h2>${open.length} mục chưa khắc phục</h2><span class="hint">Tích ô tròn khi con đã sửa xong</span></div>
       <div class="lv">${lvCount.map(([k, n]) => `<span class="chip ${LV[k][1]}">${LV[k][0]}: ${n}</span>`).join("")}</div>` +
-      Object.entries(bySub).map(([s, arr]) => `<div class="err-sub s${slot(s)}"><i></i><h3>${esc(subjName(s))}</h3><span>${arr.filter(e => e.status !== "fixed").length} mục</span></div><div class="list">${arr.map(e => {
+      Object.entries(bySub).map(([s, arr]) => `<div class="err-sub s${slot(s)}"><i></i><h3>${esc(subjName(s))}</h3><span>${arr.filter(e => !errFixed(e)).length} mục</span></div><div class="list">${arr.map(e => {
         const lv = LV[e.level] || ["", ""];
         const u = safeUrl(e.link);
-        const chip = e.status === "fixed" ? `<span class="chip ok">Đã khắc phục</span>` : (lv[0] ? `<span class="chip ${lv[1]}">${lv[0]}</span>` : "");
+        const chip = errFixed(e) ? `<span class="chip ok">Đã sửa</span>` : (lv[0] ? `<span class="chip ${lv[1]}">${lv[0]}</span>` : "");
         const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.activity)}</a>` : `<span>${esc(e.activity)}</span>`) : "";
-        return `<div class="row err ${e.status === "fixed" ? "done" : ""}"><div style="min-width:0"><div class="row-t">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div class="row-c">${chip}</div></div>`;
+        return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, status: e.status === "fixed" ? "done" : "todo" }, e.topic, true)}<div style="min-width:0"><div class="row-t">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date && e.level !== "redo" ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div class="row-c">${chip}</div></div>`;
       }).join("")}</div>`).join("") : `<div class="empty">${state.ready ? "Chưa ghi lỗi nào." : "Đang tải…"}</div>`;
 
     // ----- Điểm -----
