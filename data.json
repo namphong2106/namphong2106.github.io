@@ -468,31 +468,6 @@
    "title": "45 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, có bấm giờ"
   },
   {
-   "id": "nam-on-20261004-ls-bosung",
-   "due": "2026-10-04",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Quiz sửa lỗi Lịch sử – phần 1/2 (10 câu)",
-     "url": "https://wayground.com/join?gc=26021101"
-    },
-    {
-     "label": "Quiz sửa lỗi Lịch sử – phần 2/2 (9 câu)",
-     "url": "https://wayground.com/join?gc=05049581"
-    }
-   ],
-   "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 2. Thi Lịch sử thứ Hai 05/10. Gồm 19 câu Nam từng sai ở Wayground Lịch sử bài 1–4, chia 2 quiz.",
-   "order": 2,
-   "practice": "Wayground: Quiz sửa lỗi Lịch sử phần 1 (10 câu) và phần 2 (9 câu)",
-   "review": "Làm lại 19 câu Lịch sử đã từng sai ở Wayground bài 1–4",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "2 · Lịch sử",
-   "title": "30 phút – Làm lại 19 câu Lịch sử đã từng sai (2 quiz sửa lỗi)",
-   "link": "https://wayground.com/join?gc=26021101"
-  },
-  {
    "id": "nam-on-20261004-ls-thithu",
    "due": "2026-10-04",
    "kid": "nam",
@@ -634,26 +609,22 @@
    "id": "nam-ta-ngay-20261008",
    "due": "2026-10-08",
    "kid": "nam",
-   "link": "https://wayground.com/join?gc=17295854",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959",
    "links": [
-    {
-     "label": "Daily Writing D – Second conditional & conjunctions – làm lại (lần tốt nhất 12/15)",
-     "url": "https://wayground.com/join?gc=17295854"
-    },
     {
      "label": "[Must-do] Reading practice 2 – Gap-filling (LMS)",
      "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959"
     }
    ],
-   "minutes": 40,
-   "note": "Thời gian biểu T5 08/10, buổi 1. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
+   "minutes": 20,
+   "note": "Thời gian biểu T5 08/10, buổi 1. Mỗi ngày chỉ 1–2 bài Tiếng Anh. Phần làm lại Daily Writing D đã chuyển vào quiz sửa lỗi trong Sổ lỗi.",
    "order": 1,
-   "practice": "Wayground Daily Writing D (làm lại); LMS [Must-do] Reading practice 2",
-   "review": "Câu điều kiện loại 2, nối câu với while (các câu đã sai); đọc hiểu điền từ (2 bài)",
+   "practice": "LMS [Must-do] Reading practice 2",
+   "review": "Đọc hiểu điền từ (1 bài)",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "1 · Tiếng Anh",
-   "title": "40 phút – Tiếng Anh hằng ngày: làm lại Daily Writing D và Reading practice 2"
+   "title": "20 phút – Tiếng Anh hằng ngày: Reading practice 2"
   },
   {
    "id": "nam-ta-ngay-20261009",
