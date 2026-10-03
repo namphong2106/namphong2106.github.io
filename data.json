@@ -114,7 +114,7 @@
   },
   {
    "id": "nam-lms-3049507",
-   "due": "2026-10-05",
+   "due": "2026-10-08",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87796/assignments/3049507",
    "links": [
@@ -132,8 +132,8 @@
     }
    ],
    "minutes": 40,
-   "note": "Thời gian biểu T2 05/10, buổi 1. HẠN NỘP trên LMS: 23:59 T6 09/10.",
-   "order": 1,
+   "note": "Thời gian biểu T5 08/10, buổi 2 (dời từ T2 05/10 để dành chỗ ôn Toán). HẠN NỘP trên LMS: 23:59 T6 09/10.",
+   "order": 2,
    "practice": "Bài đánh giá giữa HK1 Địa lí: đọc hướng dẫn, làm theo file mẫu, nộp trên LMS",
    "review": "Bài đánh giá giữa HK1 Địa lí 8 (đọc file hướng dẫn của cô)",
    "source": "LMS",
@@ -531,6 +531,48 @@
    "title": "25 phút – Tiếng Anh hằng ngày: Daily Writing A"
   },
   {
+   "id": "nam-on-20261004-toan-ch2-1",
+   "due": "2026-10-04",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=28167405",
+   "links": [
+    {
+     "label": "Wayground: Ôn chương 2 – 1. Biểu thức, số mũ, nhân đa thức (10 câu)",
+     "url": "https://wayground.com/join?gc=28167405"
+    }
+   ],
+   "minutes": 25,
+   "note": "Thời gian biểu CN 04/10, buổi 2. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10).",
+   "order": 2,
+   "practice": "Wayground: Ôn chương 2 – 1. Biểu thức, số mũ, nhân đa thức (10 câu)",
+   "review": "Ôn Toán chương 2, phần 1: bài 2.1–2.6 (tính giá trị biểu thức, số mũ, nhân đa thức)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "2 · Toán",
+   "title": "25 phút – Ôn Toán chương 2, phần 1: bài 2.1–2.6 (tính giá trị biểu thức, số mũ, nhân đa thức)"
+  },
+  {
+   "id": "nam-on-20261004-toan-ch2-2",
+   "due": "2026-10-04",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=57527533",
+   "links": [
+    {
+     "label": "Wayground: Ôn chương 2 – 2. Hằng đẳng thức (10 câu)",
+     "url": "https://wayground.com/join?gc=57527533"
+    }
+   ],
+   "minutes": 25,
+   "note": "Thời gian biểu CN 04/10, buổi 8. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10).",
+   "order": 8,
+   "practice": "Wayground: Ôn chương 2 – 2. Hằng đẳng thức (10 câu)",
+   "review": "Ôn Toán chương 2, phần 2: bài 2.7–2.9 (hằng đẳng thức)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "8 · Toán",
+   "title": "25 phút – Ôn Toán chương 2, phần 2: bài 2.7–2.9 (hằng đẳng thức)"
+  },
+  {
    "id": "nam-ta-ngay-20261005",
    "due": "2026-10-05",
    "kid": "nam",
@@ -716,6 +758,48 @@
    "status": "todo",
    "subject": "3 · KHTN",
    "title": "30 phút – Làm bài tập bài 2.3 (cô Huệ giao tuần 05–10/10)"
+  },
+  {
+   "id": "nam-on-20261005-toan-ch2-3",
+   "due": "2026-10-05",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=18730221",
+   "links": [
+    {
+     "label": "Wayground: Ôn chương 2 – 3. Phân thức và công thức (10 câu)",
+     "url": "https://wayground.com/join?gc=18730221"
+    }
+   ],
+   "minutes": 25,
+   "note": "Thời gian biểu T2 05/10, buổi 1. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10).",
+   "order": 1,
+   "practice": "Wayground: Ôn chương 2 – 3. Phân thức và công thức (10 câu)",
+   "review": "Ôn Toán chương 2, phần 3: bài 2.10–2.11 (phân thức đại số, biến đổi công thức)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · Toán",
+   "title": "25 phút – Ôn Toán chương 2, phần 3: bài 2.10–2.11 (phân thức đại số, biến đổi công thức)"
+  },
+  {
+   "id": "nam-on-20261005-toan-ch2-4",
+   "due": "2026-10-05",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=27118829",
+   "links": [
+    {
+     "label": "Wayground: Ôn chương 2 – 4. Tự luận (4 câu)",
+     "url": "https://wayground.com/join?gc=27118829"
+    }
+   ],
+   "minutes": 25,
+   "note": "Thời gian biểu T2 05/10, buổi 4. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10). Làm ra giấy trước, trình bày từng bước, rồi gõ lại hoặc chụp ảnh tải lên; máy không chấm.",
+   "order": 4,
+   "practice": "Wayground: Ôn chương 2 – 4. Tự luận (4 câu)",
+   "review": "Ôn Toán chương 2, phần 4: 4 câu tự luận tổng hợp",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "4 · Toán",
+   "title": "25 phút – Ôn Toán chương 2, phần 4: 4 câu tự luận tổng hợp"
   },
   {
    "id": "nam-khtn-bt-2-4",
@@ -2003,7 +2087,7 @@
    "id": "nam-toan-kt-chuong2",
    "date": "2026-10-06",
    "kid": "nam",
-   "scope": "Nội dung chương 2. Phụ huynh báo ngày 03/10; chưa có chi tiết phạm vi và hình thức làm bài.",
+   "scope": "Chương 2 gồm bài 2.1–2.11: thay vào biểu thức, số mũ, lập biểu thức, nhân đơn thức và đa thức, hằng đẳng thức, phân thức đại số, biến đổi công thức. LMS chưa có file ôn tập riêng (đọc 03/10); chưa rõ hình thức làm bài.",
    "source": "Phụ huynh báo",
    "subject": "Toán",
    "title": "Kiểm tra cuối chương 2"
