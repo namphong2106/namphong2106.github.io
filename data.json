@@ -3413,7 +3413,49 @@
    "source": "Wayground",
    "status": "open",
    "subject": "CIE Maths",
-   "topic": "Quiz sửa lỗi Maths (7 câu)"
+   "topic": "Quiz sửa lỗi Maths – phần 1/2 (7 câu)"
+  },
+  {
+   "id": "phong-maths-sualoi-2",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 7 câu Phong làm sai ngày 03/10 ở Unit 7 Practice Sheet (Sections C phần 2, D, Bonus) và LMS practice 7.1–7.2 trên Wayground. Không lặp lại các câu đã có ở phần 1.",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "phong",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=53837037",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "CIE Maths",
+   "topic": "Quiz sửa lỗi Maths – phần 2/2 (7 câu)"
+  },
+  {
+   "id": "phong-esl-sualoi-1",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 6 câu đọc hiểu (câu 13–18) Phong trả lời sai và 1 bài viết chưa làm ở ESL Unit 2 Review trên Wayground ngày 03/10.",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "phong",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=58031341",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "CIE ESL",
+   "topic": "Quiz sửa lỗi ESL (7 câu)"
+  },
+  {
+   "id": "phong-tv-sualoi-1",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 6 câu Phong làm sai ở quiz T07 Ngôn ngữ: Dấu ngoặc kép trên LMS ngày 03/10 (câu viết cô chưa chấm).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "phong",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=26049773",
+   "source": "LMS",
+   "status": "open",
+   "subject": "Tiếng Việt",
+   "topic": "Quiz sửa lỗi Tiếng Việt (6 câu)"
   },
   {
    "id": "nam-ta-sualoi-1",
