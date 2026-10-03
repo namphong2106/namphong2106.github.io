@@ -153,8 +153,8 @@
     }
    ],
    "minutes": 40,
-   "note": "Thời gian biểu CN 04/10, buổi 1 (bài LMS làm trước). LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
-   "order": 1,
+   "note": "Thời gian biểu CN 04/10, buổi 5 (sáng) (bài LMS làm trước). LMS không đặt hạn; thuộc tuần 8 (28/9–2/10). Nhớ chia sẻ quyền truy cập cho cô.",
+   "order": 5,
    "practice": "Bài tập củng cố tuần 8 (LMS)",
    "review": "Nói và nghe: nội dung, nghệ thuật của một tác phẩm thơ Đường luật",
    "source": "LMS",
@@ -241,8 +241,8 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 5. Review lần cuối trước khi thi thứ Hai 05/10. Soạn sẵn bút mực, bút chì, tẩy (tô trắc nghiệm) theo lời cô Nhi dặn 02/10.",
-   "order": 5,
+   "note": "Thời gian biểu CN 04/10, buổi 4 (sáng). Review lần cuối trước khi thi thứ Hai 05/10. Soạn sẵn bút mực, bút chì, tẩy (tô trắc nghiệm) theo lời cô Nhi dặn 02/10.",
+   "order": 4,
    "practice": "2 file PDF của cô Nhi: Hướng dẫn ôn tập giữa HKI; Kiến thức ôn tập chương 1",
    "review": "Review trước kì thi: xem lại toàn bộ chương 1 theo file của cô Nhi",
    "source": "LMS",
@@ -262,7 +262,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Thời gian biểu CN 04/10, buổi 6. Module Tuần 9: Ôn tập – Kiểm tra giữa HK1. Đề tham khảo của cô đã chuyển sang Wayground, chia 3 phần.",
+   "note": "Thời gian biểu CN 04/10, buổi 6 (sáng). Module Tuần 9: Ôn tập – Kiểm tra giữa HK1. Đề tham khảo của cô đã chuyển sang Wayground, chia 3 phần.",
    "order": 6,
    "practice": "Nội dung ôn tập giữa HKI (file Word của cô)",
    "review": "Đọc nội dung ôn tập giữa HKI (file của cô)",
@@ -283,7 +283,7 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 7. Nguyên văn đề tham khảo của cô (LMS, module Tuần 9): câu 1–4 trắc nghiệm, câu 5–6 trả lời ngắn. Đoạn trích hiện bên cạnh câu hỏi.",
+   "note": "Thời gian biểu CN 04/10, buổi 7 (sáng). Nguyên văn đề tham khảo của cô (LMS, module Tuần 9): câu 1–4 trắc nghiệm, câu 5–6 trả lời ngắn. Đoạn trích hiện bên cạnh câu hỏi.",
    "order": 7,
    "practice": "Wayground: Đề tham khảo giữa HK1 – Phần 1 (6 câu)",
    "review": "Đề tham khảo của cô – đọc hiểu đoạn trích Đêm hội Long Trì",
@@ -304,7 +304,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Thời gian biểu CN 04/10, buổi 8. Nguyên văn đề tham khảo của cô: câu 7–10 trắc nghiệm, câu 11 trả lời ngắn. Bài thơ hiện bên cạnh câu hỏi.",
+   "note": "Thời gian biểu CN 04/10, buổi 8 (sáng). Nguyên văn đề tham khảo của cô: câu 7–10 trắc nghiệm, câu 11 trả lời ngắn. Bài thơ hiện bên cạnh câu hỏi.",
    "order": 8,
    "practice": "Wayground: Đề tham khảo giữa HK1 – Phần 2 (5 câu)",
    "review": "Đề tham khảo của cô – đọc hiểu bài thơ Xuất dương lưu biệt",
@@ -487,23 +487,80 @@
    "title": "50 phút – Chương 2 Phân tử, liên kết hóa học: làm Phiếu khắc phục lỗi KHTN 8 – lần 2"
   },
   {
-   "id": "nam-on-20261004-khtn-tonghop",
-   "due": "2026-10-04",
+   "id": "nam-on-20261006-khtn-tonghop-1",
+   "due": "2026-10-06",
    "kid": "nam",
    "links": [
     {
-     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – làm lại, bấm giờ"
+     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 1/4"
     }
    ],
-   "minutes": 45,
-   "note": "Thời gian biểu CN 04/10, buổi 10.",
-   "order": 10,
-   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại có bấm giờ",
-   "review": "Tổng hợp chương 1 và 2",
+   "minutes": 10,
+   "note": "Thời gian biểu T3 06/10, buổi 4 (tối). Chuyển từ CN 04/10: chia bài ôn cô phát thành 4 phần, làm lại lần lượt tối thứ Ba đến thứ Sáu.",
+   "order": 4,
+   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 1/4",
+   "review": "Tổng hợp chương 1 và 2 (phần 1/4)",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "10 · KHTN",
-   "title": "45 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, có bấm giờ"
+   "subject": "4 · KHTN",
+   "title": "10 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 1/4"
+  },
+  {
+   "id": "nam-on-20261007-khtn-tonghop-2",
+   "due": "2026-10-07",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 2/4"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu T4 07/10, buổi 3 (tối). Chuyển từ CN 04/10: chia bài ôn cô phát thành 4 phần, làm lại lần lượt tối thứ Ba đến thứ Sáu.",
+   "order": 3,
+   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 2/4",
+   "review": "Tổng hợp chương 1 và 2 (phần 2/4)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "3 · KHTN",
+   "title": "10 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 2/4"
+  },
+  {
+   "id": "nam-on-20261008-khtn-tonghop-3",
+   "due": "2026-10-08",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 3/4"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T5 08/10, buổi 3 (tối). Chuyển từ CN 04/10: chia bài ôn cô phát thành 4 phần, làm lại lần lượt tối thứ Ba đến thứ Sáu.",
+   "order": 3,
+   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 3/4",
+   "review": "Tổng hợp chương 1 và 2 (phần 3/4)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "3 · KHTN",
+   "title": "15 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 3/4"
+  },
+  {
+   "id": "nam-on-20261009-khtn-tonghop-4",
+   "due": "2026-10-09",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 4/4"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu T6 09/10, buổi 2 (tối). Chuyển từ CN 04/10: chia bài ôn cô phát thành 4 phần, làm lại lần lượt tối thứ Ba đến thứ Sáu.",
+   "order": 2,
+   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 4/4",
+   "review": "Tổng hợp chương 1 và 2 (phần 4/4)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "2 · KHTN",
+   "title": "10 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 4/4"
   },
   {
    "id": "nam-on-20261004-ls-thithu-tn",
@@ -517,13 +574,13 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu CN 04/10, buổi 3. Đề thi thử đã chuyển từ bản giấy sang Wayground. 8 câu một đáp án, 2 câu Đúng/Sai (chọn tất cả nhận định đúng).",
-   "order": 3,
+   "note": "Thời gian biểu CN 04/10, buổi 2 (sáng). Đề thi thử đã chuyển từ bản giấy sang Wayground. 8 câu một đáp án, 2 câu Đúng/Sai (chọn tất cả nhận định đúng).",
+   "order": 2,
    "practice": "Wayground: Thi thử giữa HK1 – Phần 1 Trắc nghiệm (10 câu)",
    "review": "Thi thử giữa HK1 – phần trắc nghiệm",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "3 · Lịch sử",
+   "subject": "2 · Lịch sử",
    "title": "15 phút – Thi thử Lịch sử giữa HK1, phần 1: trắc nghiệm (10 câu)"
   },
   {
@@ -538,13 +595,13 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 4. Phân tích sử liệu, so sánh nguyên nhân, liên hệ thực tiễn. Máy không chấm tự động; có hướng chấm kèm theo từng câu.",
-   "order": 4,
+   "note": "Thời gian biểu CN 04/10, buổi 3 (sáng). Phân tích sử liệu, so sánh nguyên nhân, liên hệ thực tiễn. Máy không chấm tự động; có hướng chấm kèm theo từng câu.",
+   "order": 3,
    "practice": "Wayground: Thi thử giữa HK1 – Phần 2 Tự luận (3 câu)",
    "review": "Thi thử giữa HK1 – phần tự luận",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "4 · Lịch sử",
+   "subject": "3 · Lịch sử",
    "title": "30 phút – Thi thử Lịch sử giữa HK1, phần 2: tự luận (3 câu)"
   },
   {
@@ -559,13 +616,13 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 2 (chuyển từ T7 03/10). Viết tay ra giấy trước rồi mới gõ. Link riêng 4 câu (tách từ bài 5). Sáng 03/10 Nam đã nộp 8 câu ở link cũ; làm lại theo link này.",
-   "order": 2,
+   "note": "Thời gian biểu CN 04/10, buổi 1 (sáng) (chuyển từ T7 03/10). Viết tay ra giấy trước rồi mới gõ. Link riêng 4 câu (tách từ bài 5). Sáng 03/10 Nam đã nộp 8 câu ở link cũ; làm lại theo link này.",
+   "order": 1,
    "practice": "Wayground Lịch sử bài 5B – Tự luận ngắn, 4 câu (viết tay ra giấy trước)",
    "review": "Tự luận Cách mạng công nghiệp và câu liên hệ",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "2 · Lịch sử",
+   "subject": "1 · Lịch sử",
    "title": "30 phút – Tự luận câu 5–8 (Wayground bài 5B): Cách mạng công nghiệp, liên hệ ngày nay"
   },
   {
@@ -590,29 +647,8 @@
    "title": "25 phút – Luyện kiến thức thơ Đường luật"
   },
   {
-   "id": "nam-ta-ngay-20261004",
-   "due": "2026-10-04",
-   "kid": "nam",
-   "link": "https://wayground.com/join?gc=10220014",
-   "links": [
-    {
-     "label": "Daily Writing A – Join sentences (preposition + which/whom)",
-     "url": "https://wayground.com/join?gc=10220014"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu CN 04/10, buổi 11. Mỗi ngày chỉ 1–2 bài Tiếng Anh. Bài A mới làm 1/15 câu.",
-   "order": 11,
-   "practice": "Wayground Daily Writing A",
-   "review": "Ghép câu với giới từ + which/whom (1 bài)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "11 · Tiếng Anh",
-   "title": "25 phút – Tiếng Anh hằng ngày: Daily Writing A"
-  },
-  {
    "id": "nam-ta-ngay-20261005",
-   "due": "2026-10-05",
+   "due": "2026-10-04",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=55781870",
    "links": [
@@ -626,13 +662,13 @@
     }
    ],
    "minutes": 40,
-   "note": "Thời gian biểu T2 05/10, buổi 2. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
-   "order": 2,
+   "note": "Thời gian biểu CN 04/10, buổi 10 (sáng; chuyển từ T2 05/10). Thay cho Daily Writing A.",
+   "order": 10,
    "practice": "Wayground Daily Writing B; LMS [Must-do] Grammar practice 1",
    "review": "Câu hỏi bắt đầu bằng giới từ; ngữ pháp trắc nghiệm (2 bài)",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "10 · Tiếng Anh",
    "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing B và Grammar practice 1"
   },
   {
@@ -2044,7 +2080,7 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 9. Nguyên văn câu 12 trong đề tham khảo của cô. Viết ra giấy rồi chụp ảnh tải lên, hoặc gõ trực tiếp.",
+   "note": "Thời gian biểu CN 04/10, buổi 9 (sáng). Nguyên văn câu 12 trong đề tham khảo của cô. Viết ra giấy rồi chụp ảnh tải lên, hoặc gõ trực tiếp.",
    "order": 9,
    "practice": "Wayground: Đề tham khảo giữa HK1 – Phần 3 Viết (1 câu)",
    "review": "Đề tham khảo của cô – bài văn kể lại chuyến tham quan di tích lịch sử, văn hóa",
@@ -2052,6 +2088,25 @@
    "status": "todo",
    "subject": "9 · Ngữ văn",
    "title": "30 phút – Đề tham khảo Ngữ văn giữa HK1, phần 3: viết (1 câu)"
+  },
+  {
+   "id": "nam-on-20261004-toan-phieu-on",
+   "due": "2026-10-04",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Phiếu ôn tập Toán (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 45,
+   "note": "Thời gian biểu CN 04/10, buổi 11 (chiều). Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10). Phụ huynh báo: ôn theo phiếu ôn tập Toán bản giấy.",
+   "order": 11,
+   "practice": "Phiếu ôn tập Toán (bản giấy, không có link)",
+   "review": "Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "11 · Toán",
+   "title": "45 phút – Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán"
   }
  ],
  "exams": [
@@ -3301,7 +3356,7 @@
    "activity": "Bài kiểm tra chương 1 (8,5/10) – nhận xét của cô Huệ",
    "date": "2026-09-15",
    "detail": "Cô Huệ nhận xét bài khá tốt nhưng cần ôn lại ba phần này.",
-   "fix": "Bài ôn cô phát (thứ Bảy 03/10), làm lại có bấm giờ (Chủ nhật 04/10).",
+   "fix": "Bài ôn cô phát (thứ Bảy 03/10), làm lại theo 4 phần (tối thứ Ba 06/10 đến thứ Sáu 09/10).",
    "kid": "nam",
    "level": "unknown",
    "source": "VS One",
