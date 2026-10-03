@@ -473,18 +473,24 @@
    "kid": "nam",
    "links": [
     {
-     "label": "Bài bổ sung – sẽ gắn link sau khi xem kết quả thứ Bảy"
+     "label": "Quiz sửa lỗi Lịch sử – phần 1/2 (10 câu)",
+     "url": "https://wayground.com/join?gc=26021101"
+    },
+    {
+     "label": "Quiz sửa lỗi Lịch sử – phần 2/2 (9 câu)",
+     "url": "https://wayground.com/join?gc=05049581"
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 2. Thi Lịch sử thứ Hai 05/10. Chưa soạn: nội dung căn cứ kết quả Nam làm thứ Bảy.",
+   "note": "Thời gian biểu CN 04/10, buổi 2. Thi Lịch sử thứ Hai 05/10. Gồm 19 câu Nam từng sai ở Wayground Lịch sử bài 1–4, chia 2 quiz.",
    "order": 2,
-   "practice": "Bài bổ sung (Claude soạn sau khi có kết quả thứ Bảy)",
-   "review": "Những phần Nam còn sai ở Wayground bài 3, 4, 5 hôm thứ Bảy",
+   "practice": "Wayground: Quiz sửa lỗi Lịch sử phần 1 (10 câu) và phần 2 (9 câu)",
+   "review": "Làm lại 19 câu Lịch sử đã từng sai ở Wayground bài 1–4",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "2 · Lịch sử",
-   "title": "30 phút – Bài bổ sung theo kết quả Wayground thứ Bảy"
+   "title": "30 phút – Làm lại 19 câu Lịch sử đã từng sai (2 quiz sửa lỗi)",
+   "link": "https://wayground.com/join?gc=26021101"
   },
   {
    "id": "nam-on-20261004-ls-thithu",
@@ -3379,6 +3385,104 @@
    "status": "open",
    "subject": "Tiếng Anh",
    "topic": "Progress Check 1: 6 điểm"
+  },
+  {
+   "id": "nam-ls-sualoi-1",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 10 câu Nam từng trả lời sai ở mọi lượt làm: bài 1 CMTS Anh & Bắc Mĩ (6 câu), bài 2 CMTS Pháp (4 câu).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=26021101",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Quiz sửa lỗi Lịch sử – phần 1/2 (10 câu)"
+  },
+  {
+   "id": "nam-ls-sualoi-2",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 9 câu Nam từng trả lời sai ở mọi lượt làm: bài 2 CMTS Pháp (1 câu), bài 3 Cách mạng công nghiệp (7 câu), bài 4 Phân tích sử liệu (1 câu).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=05049581",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Lịch sử",
+   "topic": "Quiz sửa lỗi Lịch sử – phần 2/2 (9 câu)"
+  },
+  {
+   "id": "nam-ta-sualoi-1",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Trắc nghiệm, các câu từng sai: câu hỏi bắt đầu bằng giới từ (6 câu), câu điều kiện loại 2 (3 câu), từ vựng Unit 2 – buildings (4 câu).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=21826797",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Quiz sửa lỗi Tiếng Anh – phần 1/4 (13 câu)"
+  },
+  {
+   "id": "nam-ta-sualoi-2",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Các câu từng sai: danh từ ghép (1), ngữ pháp Unit 1 (2), tìm lỗi sai (1), đoán nghĩa từ (1), dạng từ (1), viết câu hỏi với giới từ (7 câu tự gõ).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=46992621",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Quiz sửa lỗi Tiếng Anh – phần 2/4 (13 câu)"
+  },
+  {
+   "id": "nam-ta-sualoi-3",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Tự gõ, các câu từng sai: nối câu với in which / to whom (5 câu), đọc hiểu điền từ (4 câu), viết câu hỏi với giới từ (1), dạng từ và danh từ (2), chia động từ (1).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=53284077",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Quiz sửa lỗi Tiếng Anh – phần 3/4 (13 câu)"
+  },
+  {
+   "id": "nam-ta-sualoi-4",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Tự gõ cả câu, các câu từng sai: Daily Writing D – câu điều kiện loại 2 và liên từ (8 câu), Daily Writing A – nối câu (1 câu), chia động từ (1 câu).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=28118253",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "Tiếng Anh",
+   "topic": "Quiz sửa lỗi Tiếng Anh – phần 4/4 (10 câu)"
+  },
+  {
+   "id": "phong-maths-sualoi-1",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 7 câu Phong từng trả lời sai ở mọi lượt làm: Fraction basics (4 câu), Unit 7 Practice Sheet Section A (2 câu), Sections B & C (1 câu).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "phong",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=07146733",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "CIE Maths",
+   "topic": "Quiz sửa lỗi Maths (7 câu)"
   }
  ],
  "meta": {
