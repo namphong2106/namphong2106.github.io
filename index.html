@@ -565,8 +565,8 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 
     // ----- Sổ lỗi -----
     const errs = mine(state.errors);
-    const LV = { repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
-    const rank = { repeat: 0, once: 1, unknown: 2, habit: 3 };
+    const LV = { redo: ["Quiz sửa lỗi", "soon"], repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
+    const rank = { redo: -1, repeat: 0, once: 1, unknown: 2, habit: 3 };
     const open = errs.filter(e => e.status !== "fixed");
     $("b-errors").hidden = !open.length; $("b-errors").textContent = open.length;
     const bySub = {};
