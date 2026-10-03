@@ -309,7 +309,8 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
     <button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
-    <button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
+    <button role="tab" id="t-review" data-tab="review" aria-controls="p-review">Cần xem lại <span class="badge" id="b-review" hidden></span></button>
+<button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
   </nav>
 
   <main>
@@ -346,7 +347,11 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
       <div id="errors"></div>
     </section>
 
-    <section class="page" id="p-grades" role="tabpanel" aria-labelledby="t-grades" hidden>
+    <section class="page" id="p-review" role="tabpanel" aria-labelledby="t-review" hidden>
+<div id="review"></div>
+</section>
+
+<section class="page" id="p-grades" role="tabpanel" aria-labelledby="t-grades" hidden>
       <div class="sec-head"><h2>Điểm chính thức</h2><span class="hint">Từ VinschoolOne · quy về thang 10</span></div>
       <div id="grades-off"></div>
       <div class="sec-head"><h2>Điểm bài làm trên LMS</h2><span class="hint">Trung bình theo môn, chưa tính bài chờ chấm</span></div>
@@ -385,7 +390,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  const TABS = ["today","week","done","errors","grades"];
+  const TABS = ["today","week","done","errors","review","grades"];
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
   let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
   // localDone: { mã bài: thời điểm con tích (ms) }
@@ -564,7 +569,9 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     }).join("") : `<div class="empty">${state.ready ? `Chưa có bài nào làm xong trong ${KEEP_DAYS} ngày gần đây.` : "Đang tải…"}</div>`;
 
     // ----- Sổ lỗi -----
-    const errs = mine(state.errors);
+    const allErrs = mine(state.errors);
+const errs = allErrs.filter(e => e.level !== "unknown");
+const revs = allErrs.filter(e => e.level === "unknown");
     const LV = { redo: ["Quiz sửa lỗi", "soon"], repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
     const rank = { redo: -1, repeat: 0, once: 1, unknown: 2, habit: 3 };
     const errFixed = (e) => e.status === "fixed" || !!localDone[e.id];
@@ -583,7 +590,19 @@ const open = errs.filter(e => !errFixed(e));
         return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, status: e.status === "fixed" ? "done" : "todo" }, e.topic, true)}<div style="min-width:0"><div class="row-t">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date && e.level !== "redo" ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div class="row-c">${chip}</div></div>`;
       }).join("")}</div>`).join("") : `<div class="empty">${state.ready ? "Chưa ghi lỗi nào." : "Đang tải…"}</div>`;
 
-    // ----- Điểm -----
+    // ----- Cần xem lại -----
+const revOpen = revs.filter(e => !errFixed(e));
+$("b-review").hidden = !revOpen.length; $("b-review").textContent = revOpen.length;
+const revBySub = {};
+revs.slice().sort((a, b) => errFixed(a) - errFixed(b) || String(b.date || "").localeCompare(String(a.date || ""))).forEach(e => { (revBySub[e.subject] ||= []).push(e); });
+$("review").innerHTML = revs.length ? `<div class="sec-head"><h2>${revOpen.length} mục cần xem lại</h2><span class="hint">Chưa rõ câu sai · phân tích xong sẽ chuyển sang Sổ lỗi</span></div>` +
+Object.entries(revBySub).map(([s, arr]) => `<div class="err-sub s${slot(s)}"><i></i><h3>${esc(subjName(s))}</h3><span>${arr.filter(e => !errFixed(e)).length} mục</span></div><div class="list">${arr.map(e => {
+const u = safeUrl(e.link);
+const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(e.activity)}</a>` : `<span>${esc(e.activity)}</span>`) : "";
+return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, status: e.status === "fixed" ? "done" : "todo" }, e.topic, true)}<div style="min-width:0"><div class="row-t">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div class="row-c">${errFixed(e) ? `<span class="chip ok">Đã xem</span>` : `<span class="chip">Chưa rõ câu sai</span>`}</div></div>`;
+}).join("")}</div>`).join("") : `<div class="empty">${state.ready ? "Không có mục nào cần xem lại." : "Đang tải…"}</div>`;
+
+// ----- Điểm -----
     const isOff = (g) => g.official === true || g.source === "VS One";
     const offG = grades.filter(isOff), lmsG = grades.filter(g => !isOff(g));
     const avgBy = {};
