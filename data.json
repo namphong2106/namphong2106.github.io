@@ -510,6 +510,27 @@
    "title": "30 phút – Tự luận câu 5–8 (Wayground bài 5B): Cách mạng công nghiệp, liên hệ ngày nay"
   },
   {
+   "id": "nam-on-20261003-toan-ch2-tonghop-1",
+   "due": "2026-10-03",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=09448685",
+   "links": [
+    {
+     "label": "Wayground: Bài tổng hợp 1 (13 câu)",
+     "url": "https://wayground.com/join?gc=09448685"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu T7 03/10, buổi 10. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10). Bài gộp cả chương, mỗi dạng bài một câu, để biết con đang yếu phần nào.",
+   "order": 10,
+   "practice": "Wayground: Bài tổng hợp 1 (13 câu)",
+   "review": "Ôn Toán chương 2: bài tổng hợp, mỗi dạng một câu (bài 2.1–2.11)",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "10 · Toán",
+   "title": "30 phút – Ôn Toán chương 2: bài tổng hợp 1"
+  },
+  {
    "id": "nam-ta-ngay-20261004",
    "due": "2026-10-04",
    "kid": "nam",
@@ -531,46 +552,25 @@
    "title": "25 phút – Tiếng Anh hằng ngày: Daily Writing A"
   },
   {
-   "id": "nam-on-20261004-toan-ch2-1",
+   "id": "nam-on-20261004-toan-ch2-tonghop-2",
    "due": "2026-10-04",
    "kid": "nam",
-   "link": "https://wayground.com/join?gc=28167405",
+   "link": "https://wayground.com/join?gc=59780333",
    "links": [
     {
-     "label": "Wayground: Ôn chương 2 – 1. Biểu thức, số mũ, nhân đa thức (10 câu)",
-     "url": "https://wayground.com/join?gc=28167405"
+     "label": "Wayground: Bài tổng hợp 2 (13 câu)",
+     "url": "https://wayground.com/join?gc=59780333"
     }
    ],
-   "minutes": 25,
-   "note": "Thời gian biểu CN 04/10, buổi 2. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10).",
+   "minutes": 30,
+   "note": "Thời gian biểu CN 04/10, buổi 2. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10). Bài gộp cả chương, mỗi dạng bài một câu, để biết con đang yếu phần nào.",
    "order": 2,
-   "practice": "Wayground: Ôn chương 2 – 1. Biểu thức, số mũ, nhân đa thức (10 câu)",
-   "review": "Ôn Toán chương 2, phần 1: bài 2.1–2.6 (tính giá trị biểu thức, số mũ, nhân đa thức)",
+   "practice": "Wayground: Bài tổng hợp 2 (13 câu)",
+   "review": "Ôn Toán chương 2: bài tổng hợp, mỗi dạng một câu (bài 2.1–2.11)",
    "source": "Kế hoạch ôn",
    "status": "todo",
    "subject": "2 · Toán",
-   "title": "25 phút – Ôn Toán chương 2, phần 1: bài 2.1–2.6 (tính giá trị biểu thức, số mũ, nhân đa thức)"
-  },
-  {
-   "id": "nam-on-20261004-toan-ch2-2",
-   "due": "2026-10-04",
-   "kid": "nam",
-   "link": "https://wayground.com/join?gc=57527533",
-   "links": [
-    {
-     "label": "Wayground: Ôn chương 2 – 2. Hằng đẳng thức (10 câu)",
-     "url": "https://wayground.com/join?gc=57527533"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu CN 04/10, buổi 8. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10).",
-   "order": 8,
-   "practice": "Wayground: Ôn chương 2 – 2. Hằng đẳng thức (10 câu)",
-   "review": "Ôn Toán chương 2, phần 2: bài 2.7–2.9 (hằng đẳng thức)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "8 · Toán",
-   "title": "25 phút – Ôn Toán chương 2, phần 2: bài 2.7–2.9 (hằng đẳng thức)"
+   "title": "30 phút – Ôn Toán chương 2: bài tổng hợp 2"
   },
   {
    "id": "nam-ta-ngay-20261005",
@@ -758,27 +758,6 @@
    "status": "todo",
    "subject": "3 · KHTN",
    "title": "30 phút – Làm bài tập bài 2.3 (cô Huệ giao tuần 05–10/10)"
-  },
-  {
-   "id": "nam-on-20261005-toan-ch2-3",
-   "due": "2026-10-05",
-   "kid": "nam",
-   "link": "https://wayground.com/join?gc=18730221",
-   "links": [
-    {
-     "label": "Wayground: Ôn chương 2 – 3. Phân thức và công thức (10 câu)",
-     "url": "https://wayground.com/join?gc=18730221"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu T2 05/10, buổi 1. Ôn cho bài kiểm tra cuối chương 2 Toán (thứ Ba 06/10).",
-   "order": 1,
-   "practice": "Wayground: Ôn chương 2 – 3. Phân thức và công thức (10 câu)",
-   "review": "Ôn Toán chương 2, phần 3: bài 2.10–2.11 (phân thức đại số, biến đổi công thức)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "1 · Toán",
-   "title": "25 phút – Ôn Toán chương 2, phần 3: bài 2.10–2.11 (phân thức đại số, biến đổi công thức)"
   },
   {
    "id": "nam-on-20261005-toan-ch2-4",
