@@ -884,24 +884,24 @@
    "kid": "phong",
    "links": [
     {
-     "label": "Maths Unit 7 Parent Letter (PDF của thầy Tim)",
-     "url": "https://lms.vinschool.edu.vn/courses/73563/files/11699051"
+     "label": "Wayground: LMS practice Maths 7.1–7.2 (5 câu)",
+     "url": "https://wayground.com/join?gc=26840301"
     },
     {
-     "label": "Unit 7 Practice Sheet with answers",
-     "url": "https://lms.vinschool.edu.vn/courses/73563/files/9798774"
+     "label": "Đọc lại: Maths Unit 7 Parent Letter (PDF của thầy Tim)",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/files/11699051"
     }
    ],
    "minutes": 20,
-   "note": "Thời gian biểu T7 03/10, buổi 1. Con đọc đề bằng tiếng Anh thành tiếng, gạch chân từ khoá trước khi làm.",
+   "note": "Thời gian biểu T7 03/10, buổi 1. Bài đã chuyển lên Wayground, không cần in; thư gửi phụ huynh chỉ để đọc lại phần giải thích. Con đọc đề bằng tiếng Anh thành tiếng trước khi làm.",
    "order": 1,
-   "practice": "LMS practice 4 câu trong thư gửi phụ huynh (làm vào vở, có đáp án ở cuối thư)",
+   "practice": "Wayground: LMS practice trong thư gửi phụ huynh (5 câu, làm trên máy, không cần in)",
    "review": "Unit 7.1–7.2: phân số là phép chia, tìm phân số của một số, phân số – số thập phân – phần trăm",
    "source": "LMS",
    "status": "todo",
    "subject": "CIE Maths",
    "title": "20 phút – Unit 7.1–7.2: phân số là phép chia, tìm phân số của một số, phân số – số thập phân – phần trăm",
-   "link": "https://lms.vinschool.edu.vn/courses/73563/files/11699051"
+   "link": "https://wayground.com/join?gc=26840301"
   },
   {
    "id": "phong-esl-w7-lms-practice",
@@ -938,20 +938,24 @@
    "kid": "phong",
    "links": [
     {
-     "label": "Science Unit 3.1 Gases Parent Letter (PDF)",
+     "label": "Wayground: LMS practice Science 3.1 Gases (5 câu)",
+     "url": "https://wayground.com/join?gc=05868781"
+    },
+    {
+     "label": "Đọc lại: Science Unit 3.1 Gases Parent Letter (PDF)",
      "url": "https://lms.vinschool.edu.vn/courses/73566/files/11699726"
     }
    ],
    "minutes": 25,
-   "note": "Thời gian biểu T7 03/10, buổi 3.",
+   "note": "Thời gian biểu T7 03/10, buổi 3. Bài đã chuyển lên Wayground, không cần in. 4 câu là câu trả lời mở, máy không chấm: so với mục Parent check ở cuối thư gửi phụ huynh.",
    "order": 3,
-   "practice": "LMS practice 4 câu trong thư gửi phụ huynh (vẽ và viết vào vở)",
+   "practice": "Wayground: LMS practice trong thư gửi phụ huynh (5 câu, làm trên máy, không cần in)",
    "review": "Unit 3.1 Gases: mô hình hạt rắn – lỏng – khí, các khí trong không khí, ô nhiễm, biểu đồ chấm",
    "source": "LMS",
    "status": "todo",
    "subject": "CIE Science",
    "title": "25 phút – Unit 3.1 Gases: mô hình hạt rắn – lỏng – khí, các khí trong không khí, ô nhiễm, biểu đồ chấm",
-   "link": "https://lms.vinschool.edu.vn/courses/73566/files/11699726"
+   "link": "https://wayground.com/join?gc=05868781"
   },
   {
    "id": "phong-tv-t07-quiz-gach-ngang-2-ngoac-kep",
