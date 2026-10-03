@@ -3374,6 +3374,34 @@
    "topic": "Quiz sửa lỗi Lịch sử – phần 2/2 (9 câu)"
   },
   {
+   "id": "nam-khtn-sualoi-1",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 6 câu Nam làm sai trên phiếu ôn tập giữa HK1 môn KHTN (phiếu giấy, chấm 03/10).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=58240237",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "Quiz sửa lỗi KHTN – phần 1/2 (6 câu)"
+  },
+  {
+   "id": "nam-khtn-sualoi-2",
+   "activity": "Mở quiz sửa lỗi trên Wayground",
+   "date": "2026-10-03",
+   "detail": "Gồm 5 câu Nam làm sai trên phiếu ôn tập giữa HK1 môn KHTN (phiếu giấy, chấm 03/10).",
+   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
+   "kid": "nam",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=63220973",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "Quiz sửa lỗi KHTN – phần 2/2 (5 câu)"
+  },
+  {
    "id": "phong-maths-sualoi-1",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-03",
