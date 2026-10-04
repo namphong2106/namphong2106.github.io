@@ -256,7 +256,9 @@ td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
 .msg .who{display:flex;flex-wrap:wrap;gap:3px 12px;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:4px}
 .msg .who b{color:var(--ink);font-size:13.5px}
 
-/* ---------- Xem trước: nội dung học tuần tới ---------- */
+/* ---------- Nội dung tuần học ---------- */
+.tabs{overflow-x:auto;scrollbar-width:none}
+.tabs button{flex:1 0 auto;white-space:nowrap;padding-inline:10px}
 .pv-intro{padding:10px 14px;background:var(--paper-2);border-radius:var(--r);font-size:13.5px;color:var(--muted)}
 .pv-status{font-size:13px;color:var(--muted);margin:0 0 8px}
 .pv{background:color-mix(in oklab,var(--c) var(--wash),var(--paper));border-left:5px solid var(--c);border-radius:var(--r);padding:11px 14px 12px;min-width:0}
@@ -319,7 +321,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   <nav class="tabs" role="tablist" aria-label="Các phần của sổ">
     <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
     <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
-    <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Xem trước</button>
+    <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Tuần học</button>
 <button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
     <button role="tab" id="t-review" data-tab="review" aria-controls="p-review">Cần xem lại <span class="badge" id="b-review" hidden></span></button>
@@ -462,8 +464,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     const mine = (arr) => (arr || []).filter(x => x.kid === kid);
     document.querySelectorAll(".kid").forEach(b => b.setAttribute("aria-selected", String(b.dataset.kid === kid)));
 
-    const pvAll = mine(state.preview).filter(w => w.from && w.to && dayDiff(w.to, today) >= -2).sort((a, b) => String(a.from).localeCompare(String(b.from)));
+    const pvRange = (w) => w.from.slice(0, 7) === w.to.slice(0, 7) ? w.from.slice(8, 10) + "–" + dm(w.to) : dm(w.from) + "–" + dm(w.to);
+const pvAll = mine(state.preview).filter(w => w.from && w.to && dayDiff(w.to, today) >= -2).sort((a, b) => String(a.from).localeCompare(String(b.from)));
 $("t-preview").hidden = !pvAll.length && !(tab === "preview" && !state.pvReady);
+$("t-preview").textContent = pvAll.length ? "Tuần học " + pvRange(pvAll[0]) : "Tuần học";
 if (!pvAll.length && tab === "preview" && state.pvReady) tab = "today";
 const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
     $("t-grades").hidden = !hasGrades;
@@ -588,11 +592,11 @@ const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.note
         }).join("")}</div></section>`;
     }).join("") : `<div class="empty">${state.ready ? `Chưa có bài nào làm xong trong ${KEEP_DAYS} ngày gần đây.` : "Đang tải…"}</div>`;
 
-    // ----- Xem trước: nội dung học tuần tới -----
+    // ----- Nội dung tuần học -----
 const pvLi = (arr) => (arr || []).map(p => "<li>" + esc(p) + "</li>").join("");
 const pvLong = (d) => DOWL[dowOf(d)] + " " + dm(d);
 $("preview").innerHTML = pvAll.length ? pvAll.map(w =>
-"<div class='sec-head'><h2>Nội dung học tuần " + dm(w.from) + " – " + dm(w.to) + "</h2><span class='hint'>" + pvLong(w.from) + " đến " + pvLong(w.to) + (w.updated ? " · cập nhật " + dm(w.updated) : "") + "</span></div>" +
+"<div class='sec-head'><h2>Nội dung tuần học " + pvRange(w) + "</h2><span class='hint'>" + pvLong(w.from) + " đến " + pvLong(w.to) + (w.updated ? " · cập nhật " + dm(w.updated) : "") + "</span></div>" +
 (w.note ? "<p class='pv-intro'>" + esc(w.note) + "</p>" : "") +
 (w.subjects || []).map(s => {
 const c = "s" + slot(s.subject);
@@ -600,7 +604,7 @@ return "<div class='err-sub " + c + "'><i></i><h3>" + esc(subjName(s.subject)) +
 (s.status ? "<p class='pv-status'>" + esc(s.status) + "</p>" : "") +
 "<div class='list'>" + (s.lessons || []).map(l => "<article class='pv " + c + "'><h4>" + esc(l.title) + "</h4>" + (l.read ? "<div class='pv-read'><b>" + esc(l.readLabel || "Đọc trước") + ":</b> " + esc(l.read) + "</div>" : "") + ((l.points || []).length ? "<ul>" + pvLi(l.points) + "</ul>" : "") + (textLinks(l) ? "<div class='links'>" + textLinks(l) + "</div>" : "") + "</article>").join("") + "</div>" +
 ((s.watch || []).length ? "<div class='pv-watch " + c + "'><b>Lưu ý trong tuần</b><ul>" + pvLi(s.watch) + "</ul></div>" : "");
-}).join("")).join("") : "<div class='empty'>" + (state.pvReady ? "Chưa có nội dung xem trước." : "Đang tải…") + "</div>";
+}).join("")).join("") : "<div class='empty'>" + (state.pvReady ? "Chưa có nội dung tuần học." : "Đang tải…") + "</div>";
 
 // ----- Sổ lỗi -----
     const allErrs = mine(state.errors);
