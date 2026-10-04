@@ -2559,6 +2559,7 @@
    "date": "2026-09-01",
    "kid": "nam",
    "max": 10,
+   "note": "Lượt đầu 7/10. Một câu LMS chấm nhầm: a²(a + b) − b(a² − b²), Nam chọn a³ + b³ là đúng (phụ huynh xác nhận 04/10) nên không tính là lỗi của Nam. Lỗi thật: sai dấu khi thay số, tìm x bỏ sót nghiệm âm.",
    "official": false,
    "score": 8.5,
    "source": "LMS",
