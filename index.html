@@ -256,6 +256,18 @@ td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
 .msg .who{display:flex;flex-wrap:wrap;gap:3px 12px;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:4px}
 .msg .who b{color:var(--ink);font-size:13.5px}
 
+/* ---------- Xem trước: nội dung học tuần tới ---------- */
+.pv-intro{padding:10px 14px;background:var(--paper-2);border-radius:var(--r);font-size:13.5px;color:var(--muted)}
+.pv-status{font-size:13px;color:var(--muted);margin:0 0 8px}
+.pv{background:color-mix(in oklab,var(--c) var(--wash),var(--paper));border-left:5px solid var(--c);border-radius:var(--r);padding:11px 14px 12px;min-width:0}
+.pv h4{margin:0;font:600 15.5px/1.35 var(--f-body)}
+.pv-read{font-size:13px;margin-top:3px}
+.pv ul,.pv-watch ul{margin:7px 0 0;padding-left:18px;display:grid;gap:4px;font-size:13.5px;line-height:1.45;overflow-wrap:anywhere}
+.pv .links{margin-top:8px}
+.pv-watch{margin-top:8px;padding:9px 13px;background:var(--paper);border:1.5px dashed color-mix(in oklab,var(--c) 60%,var(--paper));border-radius:var(--r);font-size:13px}
+.pv-watch b{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pv-watch ul{margin-top:4px;font-size:13px}
+
 footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 #fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:20}
 
@@ -307,7 +319,8 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   <nav class="tabs" role="tablist" aria-label="Các phần của sổ">
     <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
     <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
-    <button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
+    <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Xem trước</button>
+<button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
     <button role="tab" id="t-review" data-tab="review" aria-controls="p-review">Cần xem lại <span class="badge" id="b-review" hidden></span></button>
 <button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
@@ -339,7 +352,11 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
       <div id="week-tasks"></div>
     </section>
 
-    <section class="page" id="p-done" role="tabpanel" aria-labelledby="t-done" hidden>
+    <section class="page" id="p-preview" role="tabpanel" aria-labelledby="t-preview" hidden>
+<div id="preview"></div>
+</section>
+
+<section class="page" id="p-done" role="tabpanel" aria-labelledby="t-done" hidden>
       <div id="done-list"></div>
     </section>
 
@@ -390,7 +407,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  const TABS = ["today","week","done","errors","review","grades"];
+  const TABS = ["today","week","preview","done","errors","review","grades"];
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
   let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
   // localDone: { mã bài: thời điểm con tích (ms) }
@@ -398,7 +415,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
   ls.set("soht-done", JSON.stringify(localDone));
   let showAllExams = false, lastLeft = 0;
-  const state = { tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
+  const state = { preview: [], pvReady: false, tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
 
   const isDone = (t) => t.status === "done" || !!localDone[t.id];
   const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
@@ -445,7 +462,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     const mine = (arr) => (arr || []).filter(x => x.kid === kid);
     document.querySelectorAll(".kid").forEach(b => b.setAttribute("aria-selected", String(b.dataset.kid === kid)));
 
-    const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
+    const pvAll = mine(state.preview).filter(w => w.from && w.to && dayDiff(w.to, today) >= -2).sort((a, b) => String(a.from).localeCompare(String(b.from)));
+$("t-preview").hidden = !pvAll.length && !(tab === "preview" && !state.pvReady);
+if (!pvAll.length && tab === "preview" && state.pvReady) tab = "today";
+const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
     $("t-grades").hidden = !hasGrades;
     if (!hasGrades && tab === "grades") tab = "today";
     document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
@@ -568,7 +588,21 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
         }).join("")}</div></section>`;
     }).join("") : `<div class="empty">${state.ready ? `Chưa có bài nào làm xong trong ${KEEP_DAYS} ngày gần đây.` : "Đang tải…"}</div>`;
 
-    // ----- Sổ lỗi -----
+    // ----- Xem trước: nội dung học tuần tới -----
+const pvLi = (arr) => (arr || []).map(p => "<li>" + esc(p) + "</li>").join("");
+const pvLong = (d) => DOWL[dowOf(d)] + " " + dm(d);
+$("preview").innerHTML = pvAll.length ? pvAll.map(w =>
+"<div class='sec-head'><h2>Nội dung học tuần " + dm(w.from) + " – " + dm(w.to) + "</h2><span class='hint'>" + pvLong(w.from) + " đến " + pvLong(w.to) + (w.updated ? " · cập nhật " + dm(w.updated) : "") + "</span></div>" +
+(w.note ? "<p class='pv-intro'>" + esc(w.note) + "</p>" : "") +
+(w.subjects || []).map(s => {
+const c = "s" + slot(s.subject);
+return "<div class='err-sub " + c + "'><i></i><h3>" + esc(subjName(s.subject)) + "</h3>" + (s.summary ? "<span>" + esc(s.summary) + "</span>" : "") + "</div>" +
+(s.status ? "<p class='pv-status'>" + esc(s.status) + "</p>" : "") +
+"<div class='list'>" + (s.lessons || []).map(l => "<article class='pv " + c + "'><h4>" + esc(l.title) + "</h4>" + (l.read ? "<div class='pv-read'><b>" + esc(l.readLabel || "Đọc trước") + ":</b> " + esc(l.read) + "</div>" : "") + ((l.points || []).length ? "<ul>" + pvLi(l.points) + "</ul>" : "") + (textLinks(l) ? "<div class='links'>" + textLinks(l) + "</div>" : "") + "</article>").join("") + "</div>" +
+((s.watch || []).length ? "<div class='pv-watch " + c + "'><b>Lưu ý trong tuần</b><ul>" + pvLi(s.watch) + "</ul></div>" : "");
+}).join("")).join("") : "<div class='empty'>" + (state.pvReady ? "Chưa có nội dung xem trước." : "Đang tải…") + "</div>";
+
+// ----- Sổ lỗi -----
     const allErrs = mine(state.errors);
 const errs = allErrs.filter(e => e.level !== "unknown");
 const revs = allErrs.filter(e => e.level === "unknown");
@@ -706,7 +740,8 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
   pullTicks();
 
   const load = (url) => fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
-  load("data.json").catch(() => load("https://namphong2106.github.io/data.json"))
+  load("preview.json").then(p => { state.preview = (p && p.weeks) || []; }).catch(() => {}).then(() => { state.pvReady = true; render(); });
+load("data.json").catch(() => load("https://namphong2106.github.io/data.json"))
     .then(d => { Object.assign(state, d); state.ready = true; render(); })
     .catch(() => { $("sync").textContent = "Chưa tải được dữ liệu. Tải lại trang để thử lại."; $("hero-h").textContent = "Chưa tải được dữ liệu"; });
   render();
