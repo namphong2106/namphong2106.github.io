@@ -270,6 +270,17 @@ td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
 .pv-watch b{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .pv-watch ul{margin-top:4px;font-size:13px}
 
+/* ---------- Đánh giá ---------- */
+.as-lv{margin:12px 0}
+.as-list{gap:10px}
+.as-h{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 12px}
+.as-h h4{font:700 18px/1.2 var(--f-display)}
+.as-v{font-size:14px;font-weight:600;margin-top:4px}
+.as-b{margin-top:9px}
+.as-b b{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.as-b ul{margin-top:3px}
+.as .fix{background:var(--paper);color:var(--ink);border:1.5px dashed color-mix(in oklab,var(--c) 60%,var(--paper))}
+
 footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 #fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:20}
 
@@ -325,6 +336,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 <button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
     <button role="tab" id="t-review" data-tab="review" aria-controls="p-review">Cần xem lại <span class="badge" id="b-review" hidden></span></button>
+<button role="tab" id="t-assess" data-tab="assess" aria-controls="p-assess" hidden>Đánh giá</button>
 <button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
   </nav>
 
@@ -370,6 +382,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 <div id="review"></div>
 </section>
 
+<section class="page" id="p-assess" role="tabpanel" aria-labelledby="t-assess" hidden>
+<div id="assess"></div>
+</section>
+
 <section class="page" id="p-grades" role="tabpanel" aria-labelledby="t-grades" hidden>
       <div class="sec-head"><h2>Điểm chính thức</h2><span class="hint">Từ VinschoolOne · quy về thang 10</span></div>
       <div id="grades-off"></div>
@@ -409,7 +425,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  const TABS = ["today","week","preview","done","errors","review","grades"];
+  const TABS = ["today","week","preview","done","errors","review","assess","grades"];
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
   let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
   // localDone: { mã bài: thời điểm con tích (ms) }
@@ -417,7 +433,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
   ls.set("soht-done", JSON.stringify(localDone));
   let showAllExams = false, lastLeft = 0;
-  const state = { preview: [], pvReady: false, tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
+  const state = { preview: [], pvReady: false, assess: [], assessNotes: {}, asReady: false, tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
 
   const isDone = (t) => t.status === "done" || !!localDone[t.id];
   const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
@@ -469,7 +485,10 @@ const pvAll = mine(state.preview).filter(w => w.from && w.to && dayDiff(w.to, to
 $("t-preview").hidden = !pvAll.length && !(tab === "preview" && !state.pvReady);
 $("t-preview").textContent = pvAll.length ? "Tuần học " + pvRange(pvAll[0]) : "Tuần học";
 if (!pvAll.length && tab === "preview" && state.pvReady) tab = "today";
-const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
+const asAll = mine(state.assess);
+  $("t-assess").hidden = !asAll.length && !(tab === "assess" && !state.asReady);
+  if (!asAll.length && tab === "assess" && state.asReady) tab = "today";
+  const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
     $("t-grades").hidden = !hasGrades;
     if (!hasGrades && tab === "grades") tab = "today";
     document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
@@ -640,7 +659,24 @@ const act = e.activity ? (u ? `<a href="${esc(u)}" target="_blank" rel="noopener
 return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, status: e.status === "fixed" ? "done" : "todo" }, e.topic, true)}<div style="min-width:0"><div class="row-t">${esc(e.topic)}</div>${e.detail ? `<div class="note">${esc(e.detail)}</div>` : ""}<div class="meta">${act}${e.date ? `<span>${fmtDate(e.date)}</span>` : ""}${e.source ? `<span>${esc(e.source)}</span>` : ""}</div>${e.fix ? `<div class="fix"><b>Khắc phục:</b> ${esc(e.fix)}</div>` : ""}</div><div class="row-c">${errFixed(e) ? `<span class="chip ok">Đã xem</span>` : `<span class="chip">Chưa rõ câu sai</span>`}</div></div>`;
 }).join("")}</div>`).join("") : `<div class="empty">${state.ready ? "Không có mục nào cần xem lại." : "Đang tải…"}</div>`;
 
-// ----- Điểm -----
+// ----- Đánh giá: con hiểu bài đến đâu -----
+  const AL = { yeu: ["Cần củng cố", "late"], tam: ["Tạm ổn", "soon"], vung: ["Vững", "ok"], chua: ["Chưa đủ dữ liệu", ""] };
+  const aRank = { yeu: 0, tam: 1, vung: 2, chua: 3 };
+  const asList = asAll.slice().sort((a, b) => (aRank[a.level] ?? 9) - (aRank[b.level] ?? 9));
+  const asUpd = asList.map(a => a.updated || "").sort().pop();
+  const asNote = (state.assessNotes || {})[kid];
+  const asBlock = (label, arr) => (arr || []).length ? "<div class='as-b'><b>" + label + "</b><ul>" + pvLi(arr) + "</ul></div>" : "";
+  $("assess").innerHTML = asList.length ? "<div class='sec-head'><h2>Con hiểu bài đến đâu</h2><span class='hint'>" + (asUpd ? "Đánh giá ngày " + dm(asUpd) + " · " : "") + "phần dành cho phụ huynh</span></div>" +
+    (asNote ? "<p class='pv-intro'>" + esc(asNote) + "</p>" : "") +
+    "<div class='lv as-lv'>" + Object.keys(AL).map(k => [k, asList.filter(a => a.level === k).length]).filter(x => x[1]).map(([k, n]) => "<span class='chip " + AL[k][1] + "'>" + AL[k][0] + ": " + n + " môn</span>").join("") + "</div>" +
+    "<div class='list as-list'>" + asList.map(a => {
+      const lv = AL[a.level] || AL.chua;
+      return "<article class='pv as s" + slot(a.subject) + "'><div class='as-h'><h4>" + esc(subjName(a.subject)) + "</h4><span class='chip " + lv[1] + "'>" + lv[0] + "</span></div>" +
+        (a.verdict ? "<p class='as-v'>" + esc(a.verdict) + "</p>" : "") + asBlock("Đã vững", a.strong) + asBlock("Chưa vững", a.weak) + asBlock("Căn cứ", a.evidence) +
+        (a.next ? "<div class='fix'><b>Việc tiếp theo:</b> " + esc(a.next) + "</div>" : "") + "</article>";
+    }).join("") + "</div>" : "<div class='empty'>" + (state.asReady ? "Chưa có đánh giá." : "Đang tải…") + "</div>";
+
+  // ----- Điểm -----
     const isOff = (g) => g.official === true || g.source === "VS One";
     const offG = grades.filter(isOff), lmsG = grades.filter(g => !isOff(g));
     const avgBy = {};
@@ -745,7 +781,8 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
 
   const load = (url) => fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
   load("preview.json").then(p => { state.preview = (p && p.weeks) || []; }).catch(() => {}).then(() => { state.pvReady = true; render(); });
-load("data.json").catch(() => load("https://namphong2106.github.io/data.json"))
+load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.assessNotes = (a && a.notes) || {}; }).catch(() => {}).then(() => { state.asReady = true; render(); });
+  load("data.json").catch(() => load("https://namphong2106.github.io/data.json"))
     .then(d => { Object.assign(state, d); state.ready = true; render(); })
     .catch(() => { $("sync").textContent = "Chưa tải được dữ liệu. Tải lại trang để thử lại."; $("hero-h").textContent = "Chưa tải được dữ liệu"; });
   render();
