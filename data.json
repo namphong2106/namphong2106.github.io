@@ -836,6 +836,25 @@
    "title": "Quiz tự học CĐ2 Tiết 1 – Tục thờ Thành Hoàng"
   },
   {
+   "id": "nam-on-20261005-toan-on-ch2",
+   "due": "2026-10-05",
+   "kid": "nam",
+   "links": [
+    {
+     "label": "Phiếu ôn tập Toán và các bài ôn cô phát (bản giấy, không có link)"
+    }
+   ],
+   "minutes": 60,
+   "note": "Thời gian biểu T2 05/10, buổi 1 (tối). Phụ huynh báo 04/10: tối thứ Hai ôn Toán chương 2. Ngày mai thứ Ba 06/10 kiểm tra cuối chương 2 (bài 2.1–2.11).",
+   "order": 1,
+   "practice": "Phiếu ôn tập Toán và các bài ôn cô phát (bản giấy, không có link)",
+   "review": "Ôn tập Toán chương 2 trước ngày kiểm tra",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · Toán",
+   "title": "60 phút – Ôn tập Toán chương 2 theo phiếu ôn tập (tối thứ Hai)"
+  },
+  {
    "id": "nam-khtn-bt-2-3",
    "due": "2026-10-05",
    "kid": "nam",
@@ -845,13 +864,13 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu T2 05/10, buổi 3. Nên xong trước buổi ôn của cô chiều thứ Ba 06/10. Nếu lớp chưa học tới bài này thì dời sang hôm sau.",
-   "order": 3,
+   "note": "Thời gian biểu T2 05/10, buổi 2. Nên xong trước buổi ôn của cô chiều thứ Ba 06/10. Nếu lớp chưa học tới bài này thì dời sang hôm sau.",
+   "order": 2,
    "practice": "Bài tập bài 2.3 cô Huệ giao (bản giấy, không có link)",
    "review": "Bài 2.3 (chương 2)",
    "source": "VS One",
    "status": "todo",
-   "subject": "3 · KHTN",
+   "subject": "2 · KHTN",
    "title": "30 phút – Làm bài tập bài 2.3 (cô Huệ giao tuần 05–10/10)"
   },
   {
