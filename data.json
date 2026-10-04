@@ -2168,6 +2168,69 @@
    "status": "todo",
    "subject": "12 · Toán",
    "title": "45 phút – Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán"
+  },
+  {
+   "id": "phong-wg-esl-u2-test-practice-1",
+   "due": "2026-10-04",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Wayground: ESL U2 Test Practice 1 – Use of English (10 câu)",
+     "url": "https://wayground.com/join?gc=56367853"
+    }
+   ],
+   "minutes": 15,
+   "note": "Bài ôn kiểm tra Unit 2 soạn thêm ngày 04/10: 4 câu trắc nghiệm, 4 câu tự gõ, 2 câu viết câu trả lời. Câu viết máy không chấm, phụ huynh xem lại bài viết của con.",
+   "order": 11,
+   "practice": "Wayground: ESL U2 Test Practice 1 – Use of English (10 câu)",
+   "review": "Ôn kiểm tra Unit 2 Food and Health (bài 1): Use of English – tên bệnh, less/fewer, a few/a little, should/mustn't/need to, đang làm gì (is/are + -ing)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE ESL",
+   "title": "15 phút – Ôn kiểm tra Unit 2 Food and Health (bài 1): Use of English – tên bệnh, less/fewer, a few/a little, should/mustn't/need to, đang làm gì (is/are + -ing)",
+   "link": "https://wayground.com/join?gc=56367853"
+  },
+  {
+   "id": "phong-wg-esl-u2-test-practice-2",
+   "due": "2026-10-04",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Wayground: ESL U2 Test Practice 2 – Reading (10 câu)",
+     "url": "https://wayground.com/join?gc=31439597"
+    }
+   ],
+   "minutes": 20,
+   "note": "Bài ôn kiểm tra Unit 2 soạn thêm ngày 04/10: 4 câu trắc nghiệm, 4 câu tự gõ, 2 câu viết câu trả lời. Câu viết máy không chấm, phụ huynh xem lại bài viết của con.",
+   "order": 12,
+   "practice": "Wayground: ESL U2 Test Practice 2 – Reading (10 câu)",
+   "review": "Ôn kiểm tra Unit 2 Food and Health (bài 2): Reading – đọc đoạn văn “Minh Stays at Home” rồi trả lời",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE ESL",
+   "title": "20 phút – Ôn kiểm tra Unit 2 Food and Health (bài 2): Reading – đọc đoạn văn “Minh Stays at Home” rồi trả lời",
+   "link": "https://wayground.com/join?gc=31439597"
+  },
+  {
+   "id": "phong-wg-esl-u2-test-practice-3",
+   "due": "2026-10-04",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Wayground: ESL U2 Test Practice 3 – Vocabulary & Writing (10 câu)",
+     "url": "https://wayground.com/join?gc=50469613"
+    }
+   ],
+   "minutes": 25,
+   "note": "Bài ôn kiểm tra Unit 2 soạn thêm ngày 04/10: 4 câu trắc nghiệm, 4 câu tự gõ, 2 câu viết (có 1 đoạn 4–5 câu). Câu viết máy không chấm, phụ huynh xem lại bài viết của con.",
+   "order": 13,
+   "practice": "Wayground: ESL U2 Test Practice 3 – Vocabulary & Writing (10 câu)",
+   "review": "Ôn kiểm tra Unit 2 Food and Health (bài 3): Vocabulary & Writing – vitamins, protein, fibre, calcium, germs, balanced diet; viết đoạn “My Healthy Day”",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE ESL",
+   "title": "25 phút – Ôn kiểm tra Unit 2 Food and Health (bài 3): Vocabulary & Writing – vitamins, protein, fibre, calcium, germs, balanced diet; viết đoạn “My Healthy Day”",
+   "link": "https://wayground.com/join?gc=50469613"
   }
  ],
  "exams": [
