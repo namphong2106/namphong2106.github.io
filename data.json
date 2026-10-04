@@ -836,6 +836,27 @@
    "title": "Quiz tự học CĐ2 Tiết 1 – Tục thờ Thành Hoàng"
   },
   {
+   "id": "nam-on-20261005-toan-kiem-tra-muc-hieu",
+   "due": "2026-10-05",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=43619053",
+   "links": [
+    {
+     "label": "Wayground: Toán chương 2 – Kiểm tra mức hiểu (12 câu, mỗi dạng 1 câu)",
+     "url": "https://wayground.com/join?gc=43619053"
+    }
+   ],
+   "minutes": 30,
+   "note": "Thời gian biểu T2 05/10, buổi 1 (tối). 12 dạng của bài 2.1–2.11, mỗi dạng 1 câu khó; thiên về các dạng con sai ở lượt làm đầu trên LMS (thay số có dấu âm, số mũ, tìm x, nhân đa thức, rút gọn phân thức, đổi chủ thể công thức). Làm ra nháp, không dùng máy tính. Sau mỗi câu trang dừng lại hiện lời giải.",
+   "order": 1,
+   "practice": "Wayground: Toán chương 2 – Kiểm tra mức hiểu (12 câu)",
+   "review": "Kiểm tra mức hiểu Toán chương 2: mỗi dạng 1 câu khó",
+   "source": "Kế hoạch ôn",
+   "status": "todo",
+   "subject": "1 · Toán",
+   "title": "30 phút – Kiểm tra mức hiểu Toán chương 2 (12 câu, mỗi dạng 1 câu)"
+  },
+  {
    "id": "nam-on-20261005-toan-on-ch2",
    "due": "2026-10-05",
    "kid": "nam",
@@ -844,19 +865,19 @@
      "label": "Phiếu ôn tập Toán và các bài ôn cô phát (bản giấy, không có link)"
     }
    ],
-   "minutes": 60,
-   "note": "Thời gian biểu T2 05/10, buổi 1 (tối). Phụ huynh báo 04/10: tối thứ Hai ôn Toán chương 2. Ngày mai thứ Ba 06/10 kiểm tra cuối chương 2 (bài 2.1–2.11).",
-   "order": 1,
+   "minutes": 45,
+   "note": "Thời gian biểu T2 05/10, buổi 2 (tối). Sau bài kiểm tra mức hiểu trên Wayground, ôn lại đúng các dạng con làm sai bằng phiếu ôn tập và bài ôn cô phát. Thứ Ba 06/10 kiểm tra cuối chương 2.",
+   "order": 2,
    "practice": "Phiếu ôn tập Toán và các bài ôn cô phát (bản giấy, không có link)",
-   "review": "Ôn tập Toán chương 2 trước ngày kiểm tra",
+   "review": "Ôn lại các dạng vừa làm sai trong bài kiểm tra mức hiểu",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "1 · Toán",
-   "title": "60 phút – Ôn tập Toán chương 2 theo phiếu ôn tập (tối thứ Hai)"
+   "subject": "2 · Toán",
+   "title": "45 phút – Ôn lại các dạng Toán chương 2 con làm sai, theo phiếu ôn tập (bản giấy)"
   },
   {
    "id": "nam-khtn-bt-2-3",
-   "due": "2026-10-05",
+   "due": "2026-10-06",
    "kid": "nam",
    "links": [
     {
@@ -864,18 +885,18 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu T2 05/10, buổi 2. Nên xong trước buổi ôn của cô chiều thứ Ba 06/10. Nếu lớp chưa học tới bài này thì dời sang hôm sau.",
-   "order": 2,
+   "note": "Thời gian biểu T3 06/10, buổi 3 (chuyển từ T2 vì tối thứ Hai chỉ ôn Toán). Nên xong trước buổi ôn của cô chiều thứ Ba 06/10. Nếu lớp chưa học tới bài này thì dời sang hôm sau.",
+   "order": 3,
    "practice": "Bài tập bài 2.3 cô Huệ giao (bản giấy, không có link)",
    "review": "Bài 2.3 (chương 2)",
    "source": "VS One",
    "status": "todo",
-   "subject": "2 · KHTN",
+   "subject": "3 · KHTN",
    "title": "30 phút – Làm bài tập bài 2.3 (cô Huệ giao tuần 05–10/10)"
   },
   {
    "id": "nam-khtn-bt-2-4",
-   "due": "2026-10-06",
+   "due": "2026-10-07",
    "kid": "nam",
    "links": [
     {
@@ -883,13 +904,13 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu T3 06/10, buổi 3. Câu nào chưa hiểu thì ghi lại để hỏi cô.",
-   "order": 3,
+   "note": "Thời gian biểu T4 07/10, buổi 4 (chuyển từ T3). Câu nào chưa hiểu thì ghi lại để hỏi cô.",
+   "order": 4,
    "practice": "Bài tập bài 2.4 cô Huệ giao (bản giấy, không có link)",
    "review": "Bài 2.4 (chương 2)",
    "source": "VS One",
    "status": "todo",
-   "subject": "3 · KHTN",
+   "subject": "4 · KHTN",
    "title": "30 phút – Làm bài tập bài 2.4 (cô Huệ giao tuần 05–10/10)"
   },
   {
