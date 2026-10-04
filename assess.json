@@ -1,7 +1,8 @@
 {
  "updated": "2026-10-04",
  "notes": {
-  "phong": "Mức đánh giá dựa trên điểm lần làm đầu của mỗi bài (từ 80% trở lên tính là vững), điểm chính thức và nhận xét của thầy cô. Điểm các lượt làm lại không tính, vì làm lại nhiều lần dễ thành nhớ đáp án. Môn chưa có bài nào có điểm thì chưa được đánh giá."
+  "phong": "Mức đánh giá dựa trên điểm lần làm đầu của mỗi bài (từ 80% trở lên tính là vững), điểm chính thức và nhận xét của thầy cô. Điểm các lượt làm lại không tính, vì làm lại nhiều lần dễ thành nhớ đáp án. Môn chưa có bài nào có điểm thì chưa được đánh giá.",
+  "nam": "Mức đánh giá dựa trên điểm lần làm đầu của mỗi bài trên LMS (từ 80% trở lên tính là vững), điểm chính thức và nhận xét của thầy cô. Điểm các lượt làm lại không tính, vì làm lại nhiều lần dễ thành nhớ đáp án. Các môn chưa có bài nào có điểm trên LMS (Giáo dục công dân, Mĩ thuật, Âm nhạc, Giáo dục thể chất, Hoạt động trải nghiệm, Kỹ năng phẩm chất) chưa được đánh giá."
  },
  "subjects": [
   {
@@ -116,6 +117,164 @@
     "Cô Nhã Trúc nhận xét ngày 26/09: Phong nhận biết được những đặc điểm nổi bật về địa hình, thiên nhiên của Trung du và miền núi phía Bắc."
    ],
    "next": "Làm quiz T07 Đền Hùng và Giỗ Tổ Hùng Vương (04/10) và quiz T05 (08/10) để có điểm lượt đầu.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Tiếng Anh",
+   "level": "yeu",
+   "verdict": "Đọc ý chính và present continuous ổn; ngữ pháp Unit 2, nghe và viết còn yếu.",
+   "strong": [
+    "Đọc hiểu ý chính: [U2] Reading practice 1 và 2 đều 5/5; Reading comprehension 6/6.",
+    "Present continuous (8,33 và 8,46/10), -ing form test 9/10, partitives 14/15 và 8/10 ngay lượt đầu."
+   ],
+   "weak": [
+    "Giới từ đứng đầu câu hỏi và mệnh đề quan hệ: Questions with preposition 0/5 rồi 1/10; Relative clause with preposition 3/10 rồi 2/10.",
+    "Second conditional: bài luyện 8,5/10 nhưng bài test chỉ 5/10.",
+    "Nghe: ba bài chỉ đạt 3/5, 3/5 và 3/8.",
+    "Viết: Formal Letter 12/20; thầy nhận xét lỗi ngữ pháp nhiều làm bài viết khó hiểu.",
+    "Từ vựng Unit 2: Compound nouns 4/7, Prepositional and phrasal verbs 3/7 ở lượt đầu."
+   ],
+   "evidence": [
+    "Unit Quiz 1 ngày 22/09: 8,5/10. Progress Check 1: 6/10 theo phụ huynh báo ngày 02/10, chưa có điểm từng phần.",
+    "22 trong 44 bài có điểm trên LMS đạt từ 80% ở lượt đầu.",
+    "Sổ lỗi đang mở 5 quiz sửa lỗi Tiếng Anh, tổng 49 câu con từng sai trên Wayground.",
+    "6 quiz Must-do của Week 7 chưa có điểm."
+   ],
+   "next": "Mỗi ngày 1–2 bài theo thời gian biểu (Daily Writing trên Wayground, quiz Must-do Week 7). Viết tay một bài formal letter 150–180 từ theo file Writing Revision để phụ huynh xem, trước hạn 09/10.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Lịch sử",
+   "level": "yeu",
+   "verdict": "Điểm chính thức 5/10; tự luận là phần yếu rõ nhất, mà kiểm tra giữa kì là thứ Hai 05/10.",
+   "weak": [
+    "Tự luận: bài TX1 chương 1 được 5/10; cô Nhi nhận xét con nên xem lại phần tự luận và tự lực làm để quen câu hỏi mở.",
+    "Bài tự luận 5A trên Wayground tối 03/10: con viết quá ngắn (1–3 câu), câu hỏi hai vế chỉ trả lời một vế.",
+    "Trắc nghiệm: con trả lời rất nhanh (1–7 giây mỗi câu); điểm 15/15 ở lượt tốt nhất có thể do nhớ đáp án."
+   ],
+   "evidence": [
+    "Bài tập kết thúc chương 1 (29/09): 3/10 ở phần đã chấm, tự luận còn chờ cô chấm.",
+    "Sổ lỗi đang mở 2 quiz sửa lỗi Lịch sử, tổng 19 câu con từng sai trên Wayground."
+   ],
+   "next": "Hôm nay 04/10: đọc Khung ý tự luận, làm bài 5B rồi đề thi thử (10 câu trắc nghiệm, 3 câu tự luận); viết tay ra giấy trước khi gõ.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Toán",
+   "level": "tam",
+   "verdict": "Hằng đẳng thức và nhân đa thức con làm chắc; thay số có dấu âm, số mũ và biến đổi công thức còn sai ở lượt đầu.",
+   "strong": [
+    "Hằng đẳng thức: quiz Bài 2.7 và 2.8 đạt 10/10, Bài 2.9 đạt 9/10 ngay lượt đầu.",
+    "Lập biểu thức, khai triển, nhân đa thức: Bài 2.4 và 2.5 đạt 10/10; Bài 2.2 đạt 9/10; Bài 2.6 đạt 8/10.",
+    "Dạng chuẩn (Bài 1.2): 10/10. Rút gọn phân thức (Bài 2.10): 8,5/10."
+   ],
+   "weak": [
+    "Thay vào biểu thức (Bài 2.1): lượt đầu 4/10. Số mũ (Bài 1.3): lượt đầu 5/10.",
+    "Biến đổi và sử dụng công thức (Bài 2.11, ngày 02/10): lượt đầu 7/10. Số vô tỉ (Bài 1.1): lượt đầu 7/10.",
+    "Bài 2.3: lượt đầu 7/10, trong đó một câu LMS chấm nhầm; lỗi thật là sai dấu khi thay số và bỏ sót nghiệm âm khi tìm x."
+   ],
+   "evidence": [
+    "9 trong 14 quiz Toán trên LMS đạt từ 8/10 ở lượt đầu.",
+    "Chưa có điểm chính thức môn Toán trong sổ.",
+    "Ba quiz chương 3 (Bài 3.1–3.3) chưa làm."
+   ],
+   "next": "Tối thứ Hai 05/10: làm bài Kiểm tra mức hiểu Toán chương 2 trên Wayground (12 câu), rồi ôn lại đúng các dạng sai bằng phiếu ôn tập. Thứ Ba 06/10 kiểm tra cuối chương 2.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "KHTN",
+   "level": "tam",
+   "verdict": "Chương 1 khá vững; chương 2 (nguyên tử, liên kết hóa học) là phần yếu, mà bài kiểm tra chương 2 rơi vào thứ Hai 12/10.",
+   "strong": [
+    "Chương 1 Quang hợp: 6 trong 7 quiz đạt từ 8/10 ở lượt đầu; bài kiểm tra chương 1 ngày 15/09 được 8,5/10.",
+    "C2.04 Những cấu trúc đơn giản và khổng lồ: lượt đầu 8,67/10 (03/10)."
+   ],
+   "weak": [
+    "Chương 2: C2.01 và C2.02 lượt đầu 6/10; C2.03 (liên kết ion, cộng hóa trị) lượt đầu 5/10, sau ba lượt vẫn chỉ 7/10.",
+    "Chu trình carbon: quiz sau tiết C1.03 lượt đầu 2,75/10. Cô Huệ cũng dặn ôn lại trao đổi carbon, thí nghiệm chứng minh khí oxygen và cấu tạo lá – lục lạp.",
+    "Phiếu ôn tập giữa HK1 chấm ngày 03/10: sai 11 câu, gồm vai trò diệp lục, cấu tạo lá, từ số proton suy ra nhóm và chu kì, khối lượng và điện tích các hạt, cấu trúc khổng lồ."
+   ],
+   "evidence": [
+    "Sổ lỗi đang mở 2 quiz sửa lỗi KHTN (6 câu và 5 câu) soạn từ phiếu ôn tập giữa HK1."
+   ],
+   "next": "Tối thứ Ba 06/10 và thứ Tư 07/10: làm phiếu ôn chương 2 và bài tập bài 2.3, 2.4; dự buổi ôn của cô chiều thứ Ba 06/10. Kiểm tra chương 2 thứ Hai 12/10, giữa kì thứ Ba 13/10.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Ngữ văn",
+   "level": "tam",
+   "verdict": "Điểm chính thức tốt; quiz tự học gần đây chưa đều.",
+   "strong": [
+    "Bài tập thực hành chương 1 ngày 25/09: 9/10.",
+    "Quiz tự học tuần 1&2: 10/10; quiz trước tiết tuần 4: 9,33/10; quiz tự học tuần 7: 8/10."
+   ],
+   "weak": [
+    "Quiz tự học tuần 6: lượt đầu 4/10 (lượt hai 8/10). Quiz tự học tuần 8: 7,5/10."
+   ],
+   "evidence": [
+    "3 trong 5 quiz trên LMS đạt từ 8/10 ở lượt đầu.",
+    "Bài tập củng cố tuần 8 chưa nộp."
+   ],
+   "next": "Thứ Hai 05/10 kiểm tra giữa kì: hôm nay đọc file Nội dung ôn tập giữa HKI của cô và làm đề tham khảo (3 phần trên Wayground).",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Tin học",
+   "level": "vung",
+   "verdict": "Hai bài có điểm đều từ 9,5/10.",
+   "strong": [
+    "Bài kiểm tra thường xuyên số 1 (HS1 cột 1): 9,5/10.",
+    "Quiz sau tiết học ngày 09/09: 10/10."
+   ],
+   "evidence": [
+    "Hai bài tuần 6 (Viết User Story; Giải pháp tinh chỉnh khi đồng kiến tạo với AI) LMS ghi chưa nộp, thang 0 điểm.",
+    "Kiểm tra giữa kì đã có kế hoạch nhưng sổ chưa có ngày."
+   ],
+   "next": "Hỏi Nam hai bài tuần 6 có phải bài nhóm làm tại lớp không, và hỏi ngày kiểm tra giữa kì.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Việt Nam học",
+   "level": "vung",
+   "verdict": "Ba quiz đã chấm đều từ 8/10 ở lượt đầu.",
+   "strong": [
+    "Quiz tự học Bài 1 và Bài 2 (Chủ đề 1): 10/10.",
+    "Quiz Chủ đề 2 Tiết 1 – Tục thờ Thành Hoàng (01/10): 8/10."
+   ],
+   "evidence": [
+    "Ba quiz khác còn chờ cô chấm nên chưa tính."
+   ],
+   "next": "Làm quiz Chủ đề 2 Tiết 2 – Nguồn gốc, thứ hạng Thành hoàng, hạn 23:59 thứ Sáu 09/10.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Công dân toàn cầu",
+   "level": "chua",
+   "verdict": "Từ đầu năm mới có một bài có điểm.",
+   "evidence": [
+    "Tìm hiểu về bộ môn GCED (20/08): 8/10.",
+    "Còn một bài trên LMS chưa nộp (thảo luận tuần 7)."
+   ],
+   "next": "Làm thảo luận tuần 7.",
+   "updated": "2026-10-04"
+  },
+  {
+   "kid": "nam",
+   "subject": "Địa lý",
+   "level": "chua",
+   "verdict": "Chưa có bài nào có điểm.",
+   "evidence": [
+    "Bài đánh giá giữa HK1 chưa nộp; hạn trên LMS là 23:59 thứ Sáu 09/10."
+   ],
+   "next": "Thứ Năm 08/10: đọc file hướng dẫn của cô, làm theo file mẫu và nộp trên LMS.",
    "updated": "2026-10-04"
   }
  ]
