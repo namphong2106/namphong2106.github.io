@@ -2251,6 +2251,25 @@
    "source": "LMS",
    "subject": "Tiếng Anh",
    "title": "Progress Check 1"
+  },
+  {
+   "id": "phong-esl-unit2-test",
+   "date": "2026-10-05",
+   "dateEnd": "2026-10-09",
+   "kid": "phong",
+   "scope": "LMS ghi bài kiểm tra Unit 2 trong tuần 8 (05–09/10), chưa ghi ngày cụ thể; mục Unit 3 ghi “after Unit Test”. Ôn theo phiếu Unit_2_Review: Use of English (từ chỉ bệnh và triệu chứng; less, fewer, as much as, a little; should, mustn't, need to, could; present continuous), Reading 10 câu chọn A, B, C, và Writing 7–8 câu “My Healthy Week Plan”.",
+   "source": "LMS",
+   "subject": "CIE ESL",
+   "title": "Kiểm tra Unit 2 – Food and Health"
+  },
+  {
+   "id": "phong-tv-giuaki1",
+   "date": null,
+   "kid": "phong",
+   "scope": "Chưa có ngày. Ngày 01–02/10 cô đã tải tài liệu ôn tập giữa HK1 lên LMS (hệ thống kiến thức Đọc hiểu, Ngôn ngữ, Viết sáng tạo; phiếu ôn Đọc hiểu; phiếu viết bài văn kể lại câu chuyện và thuật lại sự việc) nhưng học phần chưa mở cho học sinh.",
+   "source": "LMS",
+   "subject": "Tiếng Việt",
+   "title": "Kiểm tra giữa HK1"
   }
  ],
  "grades": [
