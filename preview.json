@@ -1,17 +1,118 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-10",
  "weeks": [
   {
-   "id": "nam-2026-10-05",
+   "id": "nam-2026-10-12",
    "kid": "nam",
-   "from": "2026-10-05",
-   "to": "2026-10-09",
-   "updated": "2026-10-04",
-   "note": "Lấy từ LMS ngày 04/10. Toán có 3 bài mới của chương 3. KHTN và Tiếng Anh: LMS chưa mở mục riêng cho tuần này, nên phần dưới ghi bài đang học dở và nội dung ôn thầy cô đã đăng.",
+   "from": "2026-10-12",
+   "to": "2026-10-16",
+   "updated": "2026-10-10",
+   "note": "Lấy từ LMS ngày 10/10. Tuần này KHTN kiểm tra chương 2 và giữa học kì 1. Toán và Tiếng Anh: LMS chưa mở mục cho tuần 12–16/10, nên phần dưới ghi bài đang học dở và các quiz con chưa làm.",
    "subjects": [
     {
+     "subject": "KHTN",
+     "summary": "Kiểm tra chương 2 (thứ Hai 12/10) và giữa học kì 1 (thứ Ba 13/10)",
+     "status": "Mục mới nhất trên LMS là Tuần 8–9 (05/10–16/10): Ôn tập và kiểm tra giữa học kì 1, trong đó chỉ có file gợi ý đáp án bài tập ôn tập. LMS chưa mở bài mới sau kiểm tra.",
+     "lessons": [
+      {
+       "title": "Thứ Hai 12/10 · Kiểm tra chương 2",
+       "readLabel": "Ôn theo",
+       "read": "hướng dẫn ôn tập và bài tập ôn cô Huệ phát (bản giấy)",
+       "points": [
+        "Nội dung: lí thuyết và bài tập chương 2 – Nguyên tử, phân tử và liên kết hóa học (cô Huệ dặn ngày 02/10).",
+        "Chiều cùng ngày, 15h30–16h30, cô ôn thêm buổi 2 tại phòng 8A2.",
+        "Phần con chưa vững: từ số proton suy ra cấu trúc electron, nhóm và chu kì (20 nguyên tố đầu); khối lượng và điện tích của proton, neutron, electron; liên kết ion và cộng hóa trị (C2.03); cấu trúc khổng lồ (kim cương, than chì, chuỗi polymer)."
+       ],
+       "links": [
+        {
+         "label": "Gợi ý đáp án bài tập ôn tập (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87368/files/11893381"
+        }
+       ]
+      },
+      {
+       "title": "Thứ Ba 13/10 · Kiểm tra giữa học kì 1",
+       "readLabel": "Ôn theo",
+       "read": "hướng dẫn ôn tập cô phát; bài tập cô đã sửa trong tiết ôn",
+       "points": [
+        "Nội dung: chương 1 Quang hợp và chương 2.",
+        "Mang bút, thước, bút chì, phiếu học tập và bài tập ôn cô phát.",
+        "Chương 1 cần xem lại: vai trò của diệp lục; cấu tạo lá (lớp mô giậu, lớp mô xốp); thí nghiệm đo tốc độ tạo khí oxygen và các yếu tố phải giữ không đổi; vì sao thiếu magnesium và thiếu nitrate có biểu hiện giống nhau."
+       ]
+      }
+     ],
+     "watch": [
+      "Sau hai bài kiểm tra, LMS chưa có bài mới cho phần còn lại của tuần."
+     ]
+    },
+    {
+     "subject": "Tiếng Anh",
+     "summary": "Unit 3 · Lesson 3.1 My City và Lesson 3.4 You and Your Community",
+     "status": "LMS chưa mở mục Week 9 (12/10–16/10); mục mới nhất là Week 8 (05/10–09/10) với hai bài của Unit 3. Ba quiz MUST DO của Lesson 3.4 con chưa làm.",
+     "lessons": [
+      {
+       "title": "Lesson 3.1 · My City",
+       "readLabel": "Đọc lại",
+       "read": "trang Vocabularies trong mục Week 8 trên LMS",
+       "points": [
+        "Kĩ năng: nghe và nói về thành phố, nắm ý chính, chi tiết và ý kiến của người nói.",
+        "Từ vựng tả thành phố: attractive, historic centre, elegant main square, lively, crowded, polluted, noisy, congested, industrial city, car-free, traffic congestion, walkways, narrow streets, green space.",
+        "Tính từ khen: picturesque, historic, spacious, elegant, magnificent, lively. Tính từ chê: deserted, packed, filthy, run-down, sprawling.",
+        "Ngữ pháp: mệnh đề kết thúc bằng giới từ (clauses ending in prepositions). Ví dụ: This is the city I grew up in.",
+        "Dạng này gần với phần con còn yếu ở Unit 2 (Questions with preposition, Relative clause with preposition), nên làm chậm và đọc lại ví dụ."
+       ],
+       "links": [
+        {
+         "label": "Vocabularies (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/pages/vocabularies"
+        },
+        {
+         "label": "Mục Week 8 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/modules/1087651"
+        }
+       ]
+      },
+      {
+       "title": "Lesson 3.4 · You and Your Community",
+       "readLabel": "Đọc",
+       "read": "trang Self-study instruction trên LMS",
+       "points": [
+        "Kĩ năng: đọc bài báo về cách đóng góp cho cộng đồng (tìm thông tin cụ thể, suy ra ý ngầm), nghe ý kiến và nói về việc mình có thể làm.",
+        "Ngữ pháp: động từ, tính từ và giới từ đi với V-ing.",
+        "Verb + -ing: I enjoy helping my community. Động từ hay gặp: enjoy, avoid, suggest, consider, miss, can't stand.",
+        "Adjective + preposition + -ing: She is interested in volunteering. Cụm hay gặp: interested in, good at, tired of, worried about, responsible for, keen on.",
+        "Sau giới từ luôn dùng V-ing, không dùng to V: They talked about improving the neighborhood.",
+        "Việc thầy giao: 3 quiz MUST DO (Listening, Reading, Grammar) và bài After class task – Reflection."
+       ],
+       "links": [
+        {
+         "label": "Self-study instruction (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/pages/self-study-instruction-6"
+        },
+        {
+         "label": "[MUST DO] 3.4. Reading Practice (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248471"
+        },
+        {
+         "label": "[MUST DO] Grammar practice – V-ing (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248472"
+        },
+        {
+         "label": "[MUST DO] 3.4. Listening practice (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248473"
+        }
+       ]
+      }
+     ],
+     "watch": [
+      "Còn 5 quiz Must-do của Week 7 chưa làm: Reading practice 1 và 2, Grammar practice 1, hai bài Listening practice 1.",
+      "Grammar practice 2 làm ngày 06/10 được 0/10."
+     ]
+    },
+    {
      "subject": "Toán",
-     "summary": "3 bài mới · Chương 3: Số thập phân, phần trăm và làm tròn",
+     "summary": "Chương 3 · làm nốt quiz Bài 3.1–3.3, đọc trước Bài 3.4",
+     "status": "LMS chưa mở bài mới cho tuần 12/10–16/10. Ba mục mới nhất là Bài 3.1, 3.2, 3.3 (05/10–09/10) và cả ba quiz con chưa làm. Kiểm tra giữa kì thứ Sáu 23/10 lấy đến hết Bài 3.4.",
      "lessons": [
       {
        "title": "Bài 3.1 · Phép nhân và phép chia cho lũy thừa của 10",
@@ -32,7 +133,8 @@
          "label": "Quiz Bài 3.1 (LMS)",
          "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2240205"
         }
-       ]
+       ],
+       "readLabel": "Đọc lại"
       },
       {
        "title": "Bài 3.2 · Phép nhân và phép chia số thập phân",
@@ -58,7 +160,8 @@
          "label": "Quiz Bài 3.2 (LMS)",
          "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2240219"
         }
-       ]
+       ],
+       "readLabel": "Đọc lại"
       },
       {
        "title": "Bài 3.3 · Hiểu về phần trăm kép",
@@ -79,146 +182,22 @@
          "label": "Quiz Bài 3.3 (LMS)",
          "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2240220"
         }
+       ],
+       "readLabel": "Đọc lại"
+      },
+      {
+       "title": "Bài 3.4 · Hiểu về cận trên và cận dưới (bài kế tiếp, LMS chưa mở)",
+       "points": [
+        "Bài này nằm trong nội dung kiểm tra giữa kì 23/10 nhưng LMS chưa có hướng dẫn tự học. Mấy ý dưới đây do sổ tóm tắt theo tên bài để con đọc trước, chưa phải nội dung cô đăng.",
+        "Một số đã làm tròn thì giá trị thật nằm trong một khoảng. Cận dưới là giá trị nhỏ nhất có thể; cận trên là mốc mà giá trị thật luôn nhỏ hơn.",
+        "Cách tìm: lấy một nửa đơn vị làm tròn, trừ đi để có cận dưới, cộng vào để có cận trên.",
+        "Ví dụ: 350 làm tròn đến hàng chục thì 345 ≤ x < 355. Số 4,7 làm tròn đến một chữ số thập phân thì 4,65 ≤ x < 4,75.",
+        "Chỗ dễ nhầm: phía cận trên viết dấu <, không viết dấu ≤."
        ]
       }
      ],
      "watch": [
-      "Thứ Ba 06/10 có bài kiểm tra cuối chương 2; bài mới của chương 3 học trong cùng tuần.",
-      "Giữa kì Toán ngày 23/10 tính đến Bài 3.4 và không dùng máy tính cầm tay, nên ba bài này con tập tính tay.",
-      "Ba quiz chương 3 đã mở trên LMS, mỗi quiz làm được 3 lượt; khung học ghi 05/10–09/10."
-     ]
-    },
-    {
-     "subject": "KHTN",
-     "summary": "Củng cố bài 2.3 và 2.4",
-     "status": "LMS chưa có mục cho tuần 05/10–09/10; mục mới nhất là Tuần 6–7 (21/09–03/10). Cô Huệ dặn trên VinschoolOne ngày 02/10: tuần này làm bài tập bài 2.3, 2.4 và bài ôn tập cô phát.",
-     "lessons": [
-      {
-       "title": "C2.03 · Tại sao các nguyên tố phản ứng để tạo thành hợp chất?",
-       "readLabel": "Đọc lại",
-       "read": "trang Nội dung lý thuyết C2.03 trên LMS",
-       "points": [
-        "Nguyên tử bền khi lớp electron ngoài cùng đã đầy. Khí hiếm (nhóm 8) đầy sẵn nên không phản ứng.",
-        "Liên kết ion: kim loại cho electron thành ion dương, phi kim nhận electron thành ion âm; hai ion hút nhau bằng lực hút tĩnh điện. Ví dụ Na⁺ có cấu trúc [2, 8]⁺, Cl⁻ có cấu trúc [2, 8, 8]⁻.",
-        "Chỗ dễ nhầm: bảng trên LMS ghi cả ion dương và ion âm đều “cho electron”. Ion âm là do nguyên tử nhận electron.",
-        "Viết công thức hợp chất ion sao cho tổng điện tích bằng 0: NaCl, MgO, MgCl₂ (một Mg²⁺ cần hai Cl⁻).",
-        "Liên kết cộng hóa trị: phi kim với phi kim, dùng chung electron; vẽ bằng sơ đồ dấu chấm và dấu gạch chéo.",
-        "Mức độ phản ứng: nhóm I thì potassium > sodium > lithium; nhóm VII thì fluorine > chlorine > bromine."
-       ],
-       "links": [
-        {
-         "label": "Nội dung lý thuyết C2.03 (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87368/pages/noi-dung-ly-thuyet-c2-dot-03-tai-sao-cac-nguyen-to-phan-ung-de-tao-thanh-hop-chat"
-        },
-        {
-         "label": "Hướng dẫn tự học C2.03: 16 câu hỏi (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87368/pages/huong-dan-tu-hoc-c2-dot-03-tai-sao-cac-nguyen-to-phan-ung-de-tao-thanh-hop-chat"
-        }
-       ]
-      },
-      {
-       "title": "C2.04 · Những cấu trúc đơn giản và khổng lồ",
-       "readLabel": "Đọc lại",
-       "read": "trang Nội dung lý thuyết C2.04 trên LMS",
-       "points": [
-        "Hợp chất ion như NaCl tạo mạng tinh thể khổng lồ: mỗi Na⁺ có sáu Cl⁻ bao quanh, lực hút mạnh theo mọi hướng nên nhiệt độ nóng chảy cao.",
-        "Phân tử đơn giản như oxygen, carbon dioxide, methane: liên kết trong phân tử mạnh nhưng lực giữa các phân tử yếu nên nhiệt độ nóng chảy và nhiệt độ sôi thấp.",
-        "Kim cương: mỗi nguyên tử carbon nối với bốn nguyên tử khác, rất cứng, dùng để cắt và khoan.",
-        "Than chì: mỗi nguyên tử carbon nối với ba nguyên tử khác, xếp thành lớp; các lớp trượt lên nhau nên mềm, dùng làm ruột bút chì và chất bôi trơn.",
-        "Dạng câu hỏi hay gặp: cho nhiệt độ nóng chảy, độ cứng, khả năng dẫn điện rồi hỏi chất có kiểu liên kết gì, kèm một lí do."
-       ],
-       "links": [
-        {
-         "label": "Nội dung lý thuyết C2.04 (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87368/pages/noi-dung-ly-thuyet-c2-dot-04-nhung-cau-truc-don-gian-va-khong-lo"
-        },
-        {
-         "label": "Hướng dẫn tự học C2.04: 12 câu hỏi (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87368/pages/huong-dan-tu-hoc-c2-dot-04-nhung-cau-truc-don-gian-va-khong-lo"
-        }
-       ]
-      }
-     ],
-     "watch": [
-      "Thứ Ba 06/10, 15:30–16:30: buổi ôn chương 2 của cô Huệ tại phòng 8A2.",
-      "Thứ Hai 12/10 kiểm tra chương 2; thứ Ba 13/10 kiểm tra giữa kì (chương 1 và chương 2).",
-      "Quiz trước tiết C2.03 con đạt 6,33/10, thấp nhất chương 2, nên bài này cần đọc lại kĩ nhất."
-     ]
-    },
-    {
-     "subject": "Tiếng Anh",
-     "summary": "Ôn Progress Check 1",
-     "status": "LMS chưa mở mục Week 8 (05/10–09/10); mục mới nhất là Week 7 – Revision for Progress Check 1. LMS chưa ghi ngày thi. Thầy giao bài ôn viết, hạn 23:59 thứ Sáu 09/10.",
-     "lessons": [
-      {
-       "title": "Progress Check 1 · bài thi gồm những gì",
-       "points": [
-        "50–60 phút, 4 phần: Reading, Use of English, Listening, Writing; mỗi phần 25% số điểm.",
-        "Nội dung: Unit 1 Languages of the World và Unit 2 Design and Architecture."
-       ],
-       "links": [
-        {
-         "label": "Unit outcomes are assessed (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87505/pages/unit-outcomes-are-assessed"
-        },
-        {
-         "label": "6 quiz Must-do của Week 7 (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87505/modules/1076936"
-        }
-       ]
-      },
-      {
-       "title": "Writing · 3 dạng bài, mỗi bài 150–180 từ",
-       "readLabel": "Đọc",
-       "read": "file STAGE 8 ESL – Writing Revision trong bài Writing Revision trên LMS",
-       "points": [
-        "Formal letter (xin tham gia school exchange programme): Dear Mr./Ms. + họ → lí do viết → lí do muốn tham gia và điều mong học được → I look forward to hearing from you. → Yours sincerely.",
-        "Formal school report (ví dụ về school canteen): Title → Introduction → Main findings (điểm mạnh, điểm yếu) → Recommendations → Conclusion. Dùng should và câu bị động: Additional equipment should be provided.",
-        "Non-verbal communication guide: Title → Introduction → Main points (body language, eye contact, gestures, personal space) → Advice. Dùng can, may, should và mẫu In some cultures, …",
-        "Từ nối: furthermore, however, for example, therefore, in conclusion.",
-        "Trước khi nộp: đủ các phần, đủ 150–180 từ, soát chính tả và dấu câu."
-       ],
-       "links": [
-        {
-         "label": "Writing Revision (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692"
-        }
-       ]
-      },
-      {
-       "title": "Use of English · 10 điểm ngữ pháp",
-       "readLabel": "Đọc",
-       "read": "trang Revision guideline trên LMS",
-       "points": [
-        "Unit 1: although / while / whereas; -ing form làm chủ ngữ và tân ngữ; present continuous; abstract nouns; countable và uncountable nouns.",
-        "Unit 2: second conditional; relative clauses bắt đầu bằng giới từ; câu hỏi bắt đầu bằng giới từ; compound nouns; prepositional verbs và phrasal verbs.",
-        "Second conditional: If + past simple, would + động từ nguyên mẫu. If I won the lottery, I would travel around the world.",
-        "Giới từ đứng đầu: the school in which my mother studied; With whom are you traveling?"
-       ],
-       "links": [
-        {
-         "label": "Revision guideline (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87505/pages/revision-guideline"
-        }
-       ]
-      },
-      {
-       "title": "Vocabulary · Unit 1 và Unit 2",
-       "points": [
-        "Unit 1: first language, bilingual, official language, creole, pidgin; confidence, confusion, embarrassment; bar, loaf, slice, bunch, jar, carton.",
-        "Unit 2: heart-shaped, star-shaped; façade, skylight windows, curved roof, log cabin; heat conductor, energy efficiency; mosque, cathedral, pyramid, equinox."
-       ],
-       "links": [
-        {
-         "label": "Revision guideline (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/87505/pages/revision-guideline"
-        }
-       ]
-      }
-     ],
-     "watch": [
-      "Writing và Use of English chiếm một nửa số điểm, nên dành nhiều thời gian nhất cho hai phần này.",
-      "6 quiz Must-do của Week 7 (Grammar, Reading, Listening) đã có trong thời gian biểu của tuần."
+      "Kiểm tra giữa kì Toán thứ Sáu 23/10: 45 phút, làm trên giấy, không dùng máy tính cầm tay."
      ]
     }
    ]

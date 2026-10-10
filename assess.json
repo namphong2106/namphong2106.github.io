@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-10",
  "notes": {
   "phong": "Mức đánh giá dựa trên điểm lần làm đầu của mỗi bài (từ 80% trở lên tính là vững), điểm chính thức và nhận xét của thầy cô. Điểm các lượt làm lại không tính, vì làm lại nhiều lần dễ thành nhớ đáp án. Môn chưa có bài nào có điểm thì chưa được đánh giá.",
   "nam": "Mức đánh giá dựa trên điểm lần làm đầu của mỗi bài trên LMS (từ 80% trở lên tính là vững), điểm chính thức và nhận xét của thầy cô. Điểm các lượt làm lại không tính, vì làm lại nhiều lần dễ thành nhớ đáp án. Các môn chưa có bài nào có điểm trên LMS (Giáo dục công dân, Mĩ thuật, Âm nhạc, Giáo dục thể chất, Hoạt động trải nghiệm, Kỹ năng phẩm chất) chưa được đánh giá."
@@ -133,33 +133,39 @@
     "Second conditional: bài luyện 8,5/10 nhưng bài test chỉ 5/10.",
     "Nghe: ba bài chỉ đạt 3/5, 3/5 và 3/8.",
     "Viết: Formal Letter 12/20; thầy nhận xét lỗi ngữ pháp nhiều làm bài viết khó hiểu.",
-    "Từ vựng Unit 2: Compound nouns 4/7, Prepositional and phrasal verbs 3/7 ở lượt đầu."
+    "Từ vựng Unit 2: Compound nouns 4/7, Prepositional and phrasal verbs 3/7 ở lượt đầu.",
+    "[Must-do] Grammar practice 2 (06/10): lượt đầu 0/10; cần hỏi con có làm thật không.",
+    "Unit 2.8 Project Challenge: 12/20, nộp muộn."
    ],
    "evidence": [
     "Unit Quiz 1 ngày 22/09: 8,5/10. Progress Check 1: 6/10 theo phụ huynh báo ngày 02/10, chưa có điểm từng phần.",
     "22 trong 44 bài có điểm trên LMS đạt từ 80% ở lượt đầu.",
     "Sổ lỗi đang mở 5 quiz sửa lỗi Tiếng Anh, tổng 49 câu con từng sai trên Wayground.",
-    "6 quiz Must-do của Week 7 chưa có điểm."
+    "5 quiz Must-do của Week 7 và 3 quiz MUST DO của Lesson 3.4 (Week 8) LMS ghi chưa làm."
    ],
-   "next": "Mỗi ngày 1–2 bài theo thời gian biểu (Daily Writing trên Wayground, quiz Must-do Week 7). Viết tay một bài formal letter 150–180 từ theo file Writing Revision để phụ huynh xem, trước hạn 09/10.",
-   "updated": "2026-10-04"
+   "next": "Mỗi ngày 1–2 bài theo thời gian biểu: thứ Ba 13/10 Reading và Grammar của Lesson 3.4, thứ Tư 14/10 Listening và Reflection, sau đó làm nốt các quiz Must-do của Week 7.",
+   "updated": "2026-10-10"
   },
   {
    "kid": "nam",
    "subject": "Lịch sử",
-   "level": "yeu",
-   "verdict": "Điểm chính thức 5/10; tự luận là phần yếu rõ nhất, mà kiểm tra giữa kì là thứ Hai 05/10.",
+   "level": "tam",
+   "verdict": "Điểm chính thức cột 1 đã sửa từ 5 lên 7 và bài tập kết thúc chương 1 được 7/10; tự luận vẫn là phần cần rèn. Chưa có điểm kiểm tra giữa kì.",
+   "strong": [
+    "HS1 cột 1 trên VinschoolOne: 7/10 (trước đó 5/10).",
+    "Bài tập kết thúc chương 1: cô chấm xong ngày 06/10, 7/10."
+   ],
    "weak": [
-    "Tự luận: bài TX1 chương 1 được 5/10; cô Nhi nhận xét con nên xem lại phần tự luận và tự lực làm để quen câu hỏi mở.",
+    "Tự luận: bài TX1 chương 1 lần đầu 5/10; cô Nhi nhận xét con nên xem lại phần tự luận và tự lực làm để quen câu hỏi mở.",
     "Bài tự luận 5A trên Wayground tối 03/10: con viết quá ngắn (1–3 câu), câu hỏi hai vế chỉ trả lời một vế.",
     "Trắc nghiệm: con trả lời rất nhanh (1–7 giây mỗi câu); điểm 15/15 ở lượt tốt nhất có thể do nhớ đáp án."
    ],
    "evidence": [
-    "Bài tập kết thúc chương 1 (29/09): 3/10 ở phần đã chấm, tự luận còn chờ cô chấm.",
-    "Sổ lỗi đang mở 2 quiz sửa lỗi Lịch sử, tổng 19 câu con từng sai trên Wayground."
+    "Sổ lỗi đang mở 2 quiz sửa lỗi Lịch sử, tổng 19 câu con từng sai trên Wayground.",
+    "Kiểm tra giữa kì làm trong tuần 05–09/10, sổ chưa có điểm."
    ],
-   "next": "Hôm nay 04/10: đọc Khung ý tự luận, làm bài 5B rồi đề thi thử (10 câu trắc nghiệm, 3 câu tự luận); viết tay ra giấy trước khi gõ.",
-   "updated": "2026-10-04"
+   "next": "Thứ Hai 12/10: làm bài tập trước tiết học Phong trào nông dân Đàng Ngoài thế kỉ XVIII. Hỏi con điểm giữa kì khi cô trả bài.",
+   "updated": "2026-10-10"
   },
   {
    "kid": "nam",
@@ -227,32 +233,36 @@
    "kid": "nam",
    "subject": "Tin học",
    "level": "vung",
-   "verdict": "Hai bài có điểm đều từ 9,5/10.",
+   "verdict": "Ba bài có điểm đều từ 9,2/10.",
    "strong": [
+    "Kiểm tra giữa học kì 1: 9,2/10 (VinschoolOne, phụ huynh báo 10/10).",
     "Bài kiểm tra thường xuyên số 1 (HS1 cột 1): 9,5/10.",
     "Quiz sau tiết học ngày 09/09: 10/10."
    ],
    "evidence": [
-    "Hai bài tuần 6 (Viết User Story; Giải pháp tinh chỉnh khi đồng kiến tạo với AI) LMS ghi chưa nộp, thang 0 điểm.",
-    "Kiểm tra giữa kì đã có kế hoạch nhưng sổ chưa có ngày."
+    "Bài Viết User Story (tuần 6) LMS vẫn ghi chưa nộp, thang 0 điểm."
    ],
-   "next": "Hỏi Nam hai bài tuần 6 có phải bài nhóm làm tại lớp không, và hỏi ngày kiểm tra giữa kì.",
-   "updated": "2026-10-04"
+   "next": "Hỏi Nam bài Viết User Story có phải bài nhóm làm tại lớp không.",
+   "updated": "2026-10-10"
   },
   {
    "kid": "nam",
    "subject": "Việt Nam học",
-   "level": "vung",
-   "verdict": "Ba quiz đã chấm đều từ 8/10 ở lượt đầu.",
+   "level": "tam",
+   "verdict": "Chủ đề 1 chắc (điểm chính thức 10/10); quiz Chủ đề 2 Tiết 2 lượt đầu chỉ 6/10.",
    "strong": [
+    "Điểm Chủ đề 1 trên VinschoolOne: 10/10 (phụ huynh báo 10/10).",
     "Quiz tự học Bài 1 và Bài 2 (Chủ đề 1): 10/10.",
     "Quiz Chủ đề 2 Tiết 1 – Tục thờ Thành Hoàng (01/10): 8/10."
+   ],
+   "weak": [
+    "Quiz Chủ đề 2 Tiết 2 – Nguồn gốc, thứ hạng Thành hoàng (07/10): lượt đầu 6/10."
    ],
    "evidence": [
     "Ba quiz khác còn chờ cô chấm nên chưa tính."
    ],
-   "next": "Làm quiz Chủ đề 2 Tiết 2 – Nguồn gốc, thứ hạng Thành hoàng, hạn 23:59 thứ Sáu 09/10.",
-   "updated": "2026-10-04"
+   "next": "Mở lại bài làm quiz Tiết 2 trên LMS cùng con để xem câu sai (đang nằm ở mục Cần xem lại).",
+   "updated": "2026-10-10"
   },
   {
    "kid": "nam",
@@ -269,13 +279,18 @@
   {
    "kid": "nam",
    "subject": "Địa lý",
-   "level": "chua",
-   "verdict": "Chưa có bài nào có điểm.",
-   "evidence": [
-    "Bài đánh giá giữa HK1 chưa nộp; hạn trên LMS là 23:59 thứ Sáu 09/10."
+   "level": "yeu",
+   "verdict": "Bài kiểm tra hệ số 1 mới đạt trung bình 6,5/10 sau 4 lượt; bài đánh giá giữa HK1 chưa nộp và LMS đã khóa.",
+   "weak": [
+    "Bài kiểm tra hệ số 1 – lần 1 (08/10): 6,5/10, là điểm trung bình của 4 lượt làm.",
+    "Bài đánh giá giữa HK1: quá hạn 23:59 thứ Sáu 09/10, LMS ghi chưa nộp."
    ],
-   "next": "Thứ Năm 08/10: đọc file hướng dẫn của cô, làm theo file mẫu và nộp trên LMS.",
-   "updated": "2026-10-04"
+   "evidence": [
+    "Bài kiểm tra hệ số 1 còn làm lại được đến 23:59 thứ Tư 14/10; LMS tính trung bình các lượt.",
+    "Cô đăng bài tập làm trước tiết học Bài 4 – Đặc điểm khoáng sản Việt Nam ngày 09/10."
+   ],
+   "next": "Hôm nay 10/10: con làm xong bài đánh giá giữa HK1, phụ huynh nhắn cô xin nộp muộn. Chủ nhật 11/10: ôn rồi mới làm thêm một lượt bài hệ số 1.",
+   "updated": "2026-10-10"
   }
  ]
 }
