@@ -1718,27 +1718,6 @@
    "link": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939926"
   },
   {
-   "id": "phong-wg-maths-u7-4-b",
-   "due": "2026-10-17",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground Maths U7 - 4. Improper fractions & mixed numbers (13 câu)",
-     "url": "https://wayground.com/join?gc=22983277"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T7 17/10, buổi 5. Đây là phần con còn yếu ở Unit 7.",
-   "order": 5,
-   "practice": "Wayground Maths U7 - 4. Improper fractions & mixed numbers (13 câu)",
-   "review": "Improper fractions và mixed numbers (hỗn số)",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Improper fractions và mixed numbers (hỗn số)",
-   "link": "https://wayground.com/join?gc=22983277"
-  },
-  {
    "id": "phong-tv-t07-gach-ngang-2-b",
    "due": "2026-10-18",
    "kid": "phong",
@@ -1770,7 +1749,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Thời gian biểu CN 18/10, buổi 2. Viết vào vở. Cần ít nhất ba tính từ miêu tả, ba từ nối khác nhau (and, but, because, so, then) và một ý kiến có lí do. Phụ huynh xem bài viết: đây là phần con còn yếu.",
+   "note": "Thời gian biểu CN 18/10, buổi 2. Viết vào vở. Cần ít nhất ba tính từ miêu tả, ba từ nối khác nhau (and, but, because, so, then) và một ý kiến có lí do. Phụ huynh xem bài viết: đây là phần con còn yếu. Trên Wayground, ở các câu phải gõ cả câu, con thường gõ thiếu câu hoặc gõ bừa cho qua.",
    "order": 2,
    "practice": "Thư gửi phụ huynh ESL tuần 9 (mục LMS practice, Task 4)",
    "review": "Viết hai đoạn (6–8 câu) tả một nơi tưởng tượng: đoạn 1 tả hiện tại, đoạn 2 kể một lần đến thăm",
@@ -1812,7 +1791,7 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu CN 18/10, buổi 4. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4). Đọc to đề và nói lại đề bằng tiếng Việt trước khi tính.",
+   "note": "Thời gian biểu CN 18/10, buổi 4. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4). Đọc to đề và nói lại đề bằng tiếng Việt trước khi tính. Ở bài Fraction Word Problems hôm 08/10 con tính đúng 1/3 của 60 nhưng quên trừ để ra số tiền còn lại.",
    "order": 4,
    "practice": "Wayground: Mixed Numbers and Improper Fractions – Word Problems tuần 8 (6 câu)",
    "review": "Mixed Numbers and Improper Fractions – Word Problems (phiếu LMS tuần 8)",
@@ -1947,19 +1926,15 @@
      "url": "https://wayground.com/join?gc=66418925"
     },
     {
-     "label": "Wayground: Fraction Word Problems – Sheets 1 & 2 (10 câu)",
-     "url": "https://wayground.com/join?gc=53311725"
-    },
-    {
      "label": "Wayground: Fraction Word Problems – Sheet 3 (5 câu)",
      "url": "https://wayground.com/join?gc=32340205"
     }
    ],
-   "note": "Đưa ra khỏi thời gian biểu ngày 10/10 để giảm tải. Nội dung trùng với bốn bài MyiMaths thầy giao, nên con làm MyiMaths trước; các bài này chỉ làm khi con muốn luyện thêm.",
+   "note": "Đưa ra khỏi thời gian biểu ngày 10/10 để giảm tải. Nội dung trùng với bốn bài MyiMaths thầy giao, nên con làm MyiMaths trước; các bài này chỉ làm khi con muốn luyện thêm. Finding Fractions of a Set – Sheet 1 con đang làm dở từ 06/10 (4 câu đầu đúng cả 4).",
    "source": "Wayground",
    "status": "todo",
    "subject": "CIE Maths",
-   "title": "Maths Unit 7 – 5 bài Wayground làm thêm, không bắt buộc"
+   "title": "Maths Unit 7 – 4 bài Wayground làm thêm, không bắt buộc"
   }
  ],
  "exams": [
@@ -3493,13 +3468,13 @@
    "id": "phong-esl-sualoi-1",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-03",
-   "detail": "Gồm 6 câu đọc hiểu (câu 13–18) Phong trả lời sai và 1 bài viết chưa làm ở ESL Unit 2 Review trên Wayground ngày 03/10. Từ 04/10 quiz dùng câu mới cùng dạng hoặc đổi cách hỏi, không lặp lại nguyên câu cũ.",
+   "detail": "Gồm 6 câu đọc hiểu (câu 13–18) Phong trả lời sai và 1 bài viết chưa làm ở ESL Unit 2 Review trên Wayground ngày 03/10. Từ 04/10 quiz dùng câu mới cùng dạng hoặc đổi cách hỏi, không lặp lại nguyên câu cũ. Con làm ngày 05/10: lượt đầu sai 3 trong 6 câu đọc hiểu; lượt hai đúng cả 7 nhưng chỉ làm trong khoảng một phút, nên ba câu sai được ghi lại để soạn câu mới.",
    "fix": "Làm quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=58031341",
    "source": "Wayground",
-   "status": "open",
+   "status": "fixed",
    "subject": "CIE ESL",
    "topic": "Quiz sửa lỗi ESL (7 câu)"
   },
@@ -3659,7 +3634,7 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T18:00:00+07:00",
+  "lastSync": "2026-10-10T18:40:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
@@ -3668,7 +3643,7 @@
   },
   "phong": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS, MyiMaths và Raz-Kids của Phong đọc lúc 17:45 thứ Bảy 10/10 · Wayground và VS One của Phong chưa đọc được lần này",
+   "sources": "LMS, MyiMaths và Raz-Kids của Phong đọc lúc 17:45, Wayground đọc lúc 18:30 thứ Bảy 10/10 · VS One của Phong chưa đọc được lần này",
    "tonight": "Từ hôm nay sổ xếp nhẹ hơn: ngày thường mỗi tối hai bài ngắn, thứ Sáu một bài, cuối tuần năm đến sáu bài. Tối nay ba bài: quiz Tiếng Việt Dấu gạch ngang (1), bài MyiMaths \"Fractions of amounts\", rồi làm nốt quiz Raz-Kids \"Critter Crossings\".",
    "weeklyDone": "2026-10-02"
   }
