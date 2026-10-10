@@ -203,246 +203,248 @@
    ]
   },
   {
-   "id": "phong-2026-10-05",
+   "id": "phong-2026-10-12",
    "kid": "phong",
-   "from": "2026-10-05",
-   "to": "2026-10-09",
-   "updated": "2026-10-04",
-   "note": "Lấy từ LMS ngày 04/10, mục Week 8 (05/10) của ba môn CIE. Maths học tiếp Unit 7 với Topics 7.2 và 7.3. ESL ôn và kiểm tra Unit 2, sau đó sang Unit 3. Science học bài 3.2 về nước.",
+   "from": "2026-10-12",
+   "to": "2026-10-16",
+   "updated": "2026-10-10",
+   "note": "Lấy từ LMS ngày 10/10, mục Week 9 của ba môn CIE và Tuần 09 của Tiếng Việt. LMS ghi tuần này các môn CIE học 3 ngày (12–14/10). Maths sang Unit 3 với bài 3.3 số nguyên tố và hợp số. ESL học Unit 3 Places, bài 3.3 và 3.4. Science học bài 3.3 bay hơi, ngưng tụ và bài 3.4 dung dịch.",
    "subjects": [
     {
      "subject": "CIE Maths",
-     "summary": "Unit 7 · Topics 7.2 và 7.3: phân số, số thập phân, phần trăm",
+     "summary": "Unit 3 Numbers and sequences · 3.3 Prime and composite numbers",
      "lessons": [
       {
-       "title": "7.2 · Một giá trị, ba cách viết",
-       "read": "Thư gửi phụ huynh tuần 8 trên LMS, mục Idea 1",
+       "title": "3.3 · Dùng ước để phân loại số",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 1",
        "points": [
-        "Sẽ học: phân số, số thập phân (một chữ số sau dấu chấm) và phần trăm có thể bằng nhau.",
-        "Ví dụ: 7/10 = 0.7 = 70%; 1/2 = 5/10 = 0.5 = 50%; 3/5 = 6/10 = 0.6 = 60%.",
-        "Mẹo: đổi phân số về mẫu số 10 rồi viết thành số thập phân.",
-        "Chỗ dễ nhầm: 0.5 là năm phần mười, không phải một phần năm. 1/5 = 0.2 = 20%."
+        "Factor (ước): số chia hết một số khác, không dư. 3 là ước của 12 vì 12 ÷ 3 = 4.",
+        "Prime number (số nguyên tố): số lớn hơn 1, chỉ có đúng hai ước là 1 và chính nó. 13 chỉ có ước 1 và 13.",
+        "Composite number (hợp số): số lớn hơn 1, có nhiều hơn hai ước. 12 có sáu ước: 1, 2, 3, 4, 6, 12.",
+        "Chỗ dễ nhầm: 1 không phải số nguyên tố, cũng không phải hợp số. 2 là số nguyên tố chẵn duy nhất. Số lẻ vẫn có thể là hợp số: 9 = 3 × 3.",
+        "Mẫu câu giải thích: “13 is prime because its only factors are 1 and 13.”"
        ],
        "links": [
         {
-         "label": "Thư gửi phụ huynh tuần 8 (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/8960495"
-        }
-       ]
-      },
-      {
-       "title": "7.2 · Phần trăm của một hình",
-       "read": "Thư gửi phụ huynh tuần 8 trên LMS, mục Idea 2",
-       "points": [
-        "Per cent nghĩa là “trên 100”. Bảng 100 ô vuông: mỗi ô là 1/100 = 1%; tô 37 ô là 37% = 37/100.",
-        "1/10 = 10/100 = 10%; 8/10 = 80%; 63/100 = 63%.",
-        "Hình chia 5 phần bằng nhau: mỗi phần là 100% ÷ 5 = 20%; tô 2 phần là 40%.",
-        "Chỗ dễ nhầm: các phần phải bằng nhau. 5% = 5/100, còn 1/5 = 20%."
-       ],
-       "links": [
-        {
-         "label": "Wayground Maths U7 - 3. Percentages",
-         "url": "https://wayground.com/join?gc=04881229"
-        }
-       ]
-      },
-      {
-       "title": "7.3 · Improper fractions và mixed numbers (hỗn số)",
-       "read": "Thư gửi phụ huynh tuần 8 trên LMS, mục Idea 3; phiếu Mixed Numbers and Improper Fractions",
-       "points": [
-        "Improper fraction: tử số lớn hơn hoặc bằng mẫu số, ví dụ 7/4. Mixed number: một số nguyên kèm một phân số bé hơn 1, ví dụ 1 3/4.",
-        "Đổi 7/4 thành hỗn số: 7 ÷ 4 = 1 dư 3, nên 7/4 = 1 3/4.",
-        "Đổi 2 3/5 thành phân số: 2 × 5 = 10, thêm 3 là 13, nên 2 3/5 = 13/5.",
-        "Chia hết thì ra số nguyên: 8/4 = 2.",
-        "Chỗ dễ nhầm: khi đổi, mẫu số giữ nguyên."
-       ],
-       "links": [
-        {
-         "label": "Phiếu Mixed Numbers and Improper Fractions (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/8960886"
+         "label": "Thư gửi phụ huynh Maths tuần 9 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9006509"
         },
         {
-         "label": "Video: Convert improper fraction to a mixed number",
-         "url": "https://youtu.be/Jms-gKdn_QU"
-        },
-        {
-         "label": "Wayground Maths U7 - 4. Improper fractions & mixed numbers",
-         "url": "https://wayground.com/join?gc=22983277"
+         "label": "Prime and Composite Numbers Grade 4 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9006506"
         }
        ]
       },
       {
-       "title": "7.3 · So sánh và sắp xếp",
-       "read": "Thư gửi phụ huynh tuần 8 trên LMS, mục Idea 4",
+       "title": "3.3 · Các số nguyên tố đến 100",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 2",
        "points": [
-        "Cùng dạng thì so sánh trực tiếp: 2/5 < 4/5 (cùng mẫu số, so sánh tử số); 0.3 < 0.8; 25% < 60%.",
-        "Khác dạng thì đổi về cùng một dạng. Sắp xếp 0.6, 4/10 và 80%: đổi thành 0.6, 0.4, 0.8, nên 4/10 < 0.6 < 80%.",
-        "3/5 = 0.6 = 60%: ba số này nằm cùng một chỗ trên tia số.",
-        "Phía mở của dấu > và < quay về số lớn hơn."
+        "Trên bảng số 1–100: đánh dấu 1 là “neither”; giữ 2 rồi gạch các bội lớn hơn của 2; làm tiếp với 3, 5 và 7. Các số còn lại là số nguyên tố.",
+        "Có 25 số nguyên tố từ 1 đến 100.",
+        "Thầy dặn luyện ngắn, mỗi lần vài phút: thuộc các số nguyên tố đến 20 trước, rồi mới mở rộng đến 100."
        ],
        "links": [
         {
-         "label": "Thư gửi phụ huynh tuần 8 (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/8960495"
+         "label": "ITP Number Grid (bảng số tương tác)",
+         "url": "https://mathsframe.co.uk/en/resources/resource/71/itp-number-grid"
         }
        ]
       }
      ],
      "watch": [
-      "Thầy Tim giao 4 câu “LMS practice for students” ở cuối thư: làm vào vở, viết cách làm và giải thích một câu cho bố mẹ nghe. Đáp án ở dòng Parent check.",
-      "Bài MyiMaths “Introducing improper and mixed fractions” hôm 01/10 con được 67%. Đây đúng là nội dung Topic 7.3 của tuần này.",
-      "Từ cần thuộc: numerator (tử số), denominator (mẫu số), proper fraction, improper fraction, mixed number (hỗn số), equivalent (bằng nhau), per cent (phần trăm), compare (so sánh), order (sắp xếp).",
-      "Sách Cambridge viết 0.5 với dấu chấm; Toán tiếng Việt viết 0,5 với dấu phẩy."
+      "Thầy Tim giao ba Task “LMS practice for students” ở cuối thư: làm vào vở, viết ước hoặc phép nhân khi giải thích. Đáp án ở dòng Parent check. Task 1 và 2 đã xếp vào thứ Ba 13/10.",
+      "Bài tập về nhà của tuần: phiếu Identifying Number Pattern (có đáp án), đã xếp vào thứ Bảy 17/10.",
+      "Từ cần thuộc: factor (ước), factor pair (cặp ước), prime number (số nguyên tố), composite number (hợp số), multiple (bội), remainder (số dư).",
+      "MyiMaths còn bốn bài phân số của Unit 7 thầy giao từ 04/10, trong đó hai bài đang báo trễ."
      ]
     },
     {
      "subject": "CIE ESL",
-     "summary": "Ôn và kiểm tra Unit 2 · bắt đầu Unit 3 Places",
-     "status": "LMS có hai mục cho tuần 05/10: “Unit Test 2 REVIEW Food and Health” và “Unit 3 Places (after Unit Test)”. LMS chưa ghi ngày kiểm tra Unit 2.",
+     "summary": "Unit 3 Places · 3.3 Describing places past and present · 3.4 Fictional places",
      "lessons": [
       {
-       "title": "Unit 2 Food and Health · ôn để kiểm tra",
-       "readLabel": "Đọc lại",
-       "read": "phiếu Unit_2_Review trên LMS (6 trang, đáp án ở trang cuối)",
+       "title": "3.3 · Tả một nơi ngày xưa và bây giờ (past simple)",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 1 và Idea 2",
        "points": [
-        "Phiếu ôn 37 điểm, 3 phần: Use of English 12 điểm, Reading 10 điểm, Writing 15 điểm.",
-        "Từ chỉ bệnh và triệu chứng: blocked nose, sore throat, earache, a fever, an allergic reaction, a chest infection.",
-        "less + danh từ không đếm được (less sugar); fewer + danh từ đếm được (fewer mosquitoes); as much sugar as; a little soup.",
-        "Modal verbs: should là lời khuyên, mustn't là cấm, need to là cần phải, could dùng để nhờ lịch sự (Could you help me…?).",
-        "Present continuous cho việc đang diễn ra: The helper is cleaning a small cut.",
-        "Reading: bài đọc 5 đoạn, 10 câu chọn A, B, C; có câu hỏi nghĩa của cụm từ (cutting down on) và ý chính của bài.",
-        "Writing: 7–8 câu “My Healthy Week Plan”, có tiêu đề, 3 thói quen tốt, 3 từ trong Word Bank (vitamins, protein, fibre, balanced diet, germs, energy, calcium, rest), 1 modal (mustn't, need to hoặc could) và ý kiến với I think… hoặc In my opinion…"
+        "Dùng past simple cho thói quen và trạng thái trong quá khứ, kèm cụm chỉ thời gian: when I was younger, years ago, in the past.",
+        "She usually walks to school. → When she was young, she usually walked to school.",
+        "Động từ cần thuộc: walk → walked; live → lived; have → had; go → went; see → saw; is → was; are → were.",
+        "Chỗ dễ nhầm: sau didn't dùng động từ nguyên mẫu. Viết “We didn't go by train”, không viết “We didn't went”.",
+        "Từ mới: transport goods (chở hàng), a train network (mạng lưới đường sắt), the bullet train (tàu cao tốc), bright neon lights."
        ],
        "links": [
         {
-         "label": "Unit_2_Review (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/8962905"
+         "label": "Thư gửi phụ huynh ESL tuần 9 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9005939"
         },
         {
-         "label": "Wayground: ESL Unit 2 Review – Reading & Writing",
-         "url": "https://wayground.com/join?gc=64846061"
+         "label": "Wordwall: Past simple",
+         "url": "https://wordwall.net/resource/24970496/esl/whats-the-past-of"
         },
         {
-         "label": "Wordwall: Illness and symptoms",
-         "url": "https://wordwall.net/resource/16009999/symptoms-and-illnesses-movers"
-        },
-        {
-         "label": "Wordwall: Modal verbs",
-         "url": "https://wordwall.net/resource/33076197/esol/modal-verbs"
+         "label": "Wordwall: Irregular past simple",
+         "url": "https://wordwall.net/resource/32357309/english/simple-past-verbs"
         }
        ]
       },
       {
-       "title": "Unit 3 Places · Lesson 3: Street Art và Optical Illusions",
-       "read": "file Vocabulary Review Week 8 Unit 3 trên LMS (10 trang)",
+       "title": "3.3 · Từ nối: and, but, because, so, then",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 3",
        "points": [
-        "7 từ mới: sketch (bản vẽ phác), curved (cong), rub out (tẩy đi), shade (tô đậm một phần), hole (cái lỗ), melting glacier (sông băng đang tan), pattern (họa tiết lặp lại).",
-        "Với mỗi từ, thầy yêu cầu: đọc từ, nói nghĩa, đặt một câu.",
-        "Câu mẫu: I made a mistake, so I rubbed out the line. Shade one side of the ball to make it look 3D."
-       ],
-       "links": [
-        {
-         "label": "Vocabulary Review Week 8 (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/8963577"
-        },
-        {
-         "label": "Lesson 3: Street Art (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503458"
-        },
-        {
-         "label": "Lesson 3: Optical illusions (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503459"
-        }
+        "and thêm ý; but nêu ý trái ngược; because nêu lí do; so nêu kết quả; then nêu việc xảy ra tiếp theo.",
+        "The castle looked scary, but it was safe. The river was wide, so we crossed by boat.",
+        "Chỗ dễ nhầm: because trả lời câu hỏi “vì sao”; but mở ra một ý khác hoặc trái ngược."
        ]
       },
       {
-       "title": "Ngữ pháp · Comparative và superlative adverbs",
-       "read": "file Lesson 3 Warm up trên LMS (13 trang)",
+       "title": "3.4 · Tả một nơi tưởng tượng thành hai đoạn",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 4 và bài mẫu “Moonleaf Valley”",
        "points": [
-        "Adverb (trạng từ) cho biết việc được làm ở đâu, khi nào, như thế nào. Nhiều trạng từ kết thúc bằng -ly: quickly, carefully, safely.",
-        "Comparative dùng khi so sánh hai; superlative dùng khi so sánh từ ba trở lên.",
-        "Trạng từ một âm tiết: thêm -er và -est. fast → faster → fastest; tương tự với hard, high, late, long, low, wide.",
-        "Trạng từ đuôi -ly: thêm more và most. slowly → more slowly → most slowly.",
-        "Bất quy tắc, phải thuộc: bad → worse → worst; good → better → best; far → farther → farthest; little → less → least; much → more → most.",
-        "Chỗ dễ nhầm: không viết “more faster” hay “quicklier”."
+        "Đoạn 1 tả nơi đó ở hiện tại. Đoạn 2 kể một lần đến thăm trong quá khứ, có ý kiến và cảm xúc.",
+        "Cụm chỉ thời gian như “Last summer” cho người đọc biết đã chuyển sang quá khứ.",
+        "Từ mới: magical (kì diệu), scary-looking (trông đáng sợ), exotic (lạ mắt).",
+        "Khi đọc: tìm chi tiết trong bài trước khi trả lời."
        ],
        "links": [
         {
-         "label": "Lesson 3 Warm up: adverbs (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503457"
+         "label": "Poster từ vựng Fictional places (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9006004"
         },
         {
-         "label": "Video quiz: Comparative & Superlative",
-         "url": "https://www.youtube.com/watch?v=go1fefXkIBo"
+         "label": "Poster từ vựng Places past and present (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9006003"
         }
        ]
       }
      ],
      "watch": [
-      "Ở phiếu Unit 2 Review ngày 03/10, con sai 6 câu đọc hiểu (câu 13–18) và chưa làm bài viết. Hai phần này cần ôn kĩ nhất trước bài kiểm tra.",
-      "Mục Homework của tuần ghi RazKids: con đọc tiếp sách Level S."
+      "Bài tập về nhà: phiếu Go, Going, and Went (có đáp án), đã xếp vào thứ Tư 14/10. Thầy cũng dặn con tìm và chép lại vài tính từ trong sách thư viện.",
+      "Task 4 của thư là viết hai đoạn 6–8 câu về một nơi tưởng tượng, đã xếp vào Chủ nhật 18/10. Viết là phần con còn yếu, phụ huynh nên xem bài.",
+      "Theo LMS, bài kiểm tra Unit 2 nằm trong tuần 05–09/10; chưa có điểm."
      ]
     },
     {
      "subject": "CIE Science",
-     "summary": "Bài 3.2 Properties of water · Learner's Book trang 64",
+     "summary": "3.3 Evaporation and Condensation · 3.4 Solutions",
      "lessons": [
       {
-       "title": "3.2 · Nước đổi thể: melt và boil",
-       "read": "Learner's Book trang 64; slide UNIT 3.2 Properties of water trên LMS",
+       "title": "3.3 · Evaporation và condensation",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 1",
        "points": [
-        "Sẽ học: tìm hiểu tính chất của nước; đo nhiệt độ, ghi kết quả vào bảng và vẽ đồ thị đường (line graph).",
-        "Melt (nóng chảy): chất rắn + nhiệt → chất lỏng. Các hạt nhận năng lượng, chuyển động nhanh hơn và tách xa nhau.",
-        "Boil (sôi): chất lỏng + nhiệt → chất khí. Nước sôi tạo bọt khí gọi là steam (hơi nước nóng). Bọt xuất hiện khắp trong nước, không chỉ ở mặt nước.",
-        "Temperature (nhiệt độ) đo bằng thermometer (nhiệt kế), đơn vị là °C."
+        "Evaporation (bay hơi): nước lỏng ấm lên, một số hạt ở bề mặt thoát vào không khí thành water vapour (hơi nước).",
+        "Condensation (ngưng tụ): hơi nước nguội đi, các hạt chậm lại, xích gần nhau và thành giọt nước.",
+        "Bay hơi xảy ra ở bề mặt và ở cả nhiệt độ phòng (áo ướt khô dần). Sôi xảy ra khắp trong chất lỏng, có bọt (nước trong ấm).",
+        "Giọt nước bên ngoài cốc lạnh là hơi nước trong không khí ngưng tụ lại; nước không thấm qua cốc.",
+        "Chỗ dễ nhầm: hơi nước không nhìn thấy được. Làn khói trắng gần ấm nước là những giọt nước rất nhỏ."
        ],
        "links": [
         {
-         "label": "Slide UNIT 3.2 Properties of water (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939943"
+         "label": "Thư gửi phụ huynh Science tuần 9 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006554"
         },
         {
-         "label": "Words of the week (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939940"
+         "label": "Videos (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939913"
         }
        ]
       },
       {
-       "title": "3.2 · Melting point và boiling point",
-       "read": "slide UNIT 3.2 trên LMS, phần Melting and boiling points",
+       "title": "3.3 · Vòng tuần hoàn của nước",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 2; hình Water Cycle",
        "points": [
-        "Melting point: nhiệt độ chất rắn chảy thành chất lỏng. Của nước đá là 0°C.",
-        "Boiling point: nhiệt độ chất lỏng sôi thành chất khí. Của nước tinh khiết là 100°C.",
-        "Nước thường có lẫn chất hòa tan nên sôi ở nhiệt độ hơi khác 100°C. Càng lên cao so với mực nước biển, nước sôi ở nhiệt độ càng thấp.",
-        "Melting point và boiling point là tính chất của một chất; chúng không đổi trừ khi chất đó thay đổi."
+        "Mặt Trời cấp năng lượng cho nước bay hơi. Hơi nước nguội đi, ngưng tụ thành những giọt nhỏ trong mây.",
+        "Các giọt gộp lại, lớn dần rồi rơi xuống: precipitation (giáng thủy), ví dụ mưa. Nước về lại biển, hồ và vòng lặp tiếp tục.",
+        "Chỗ dễ nhầm: mây gồm những giọt nước nhỏ hoặc tinh thể băng, không phải chỉ có hơi nước."
        ],
        "links": [
         {
-         "label": "Liveworksheet: What are the properties of water?",
-         "url": "https://www.liveworksheets.com/vn296390vj"
+         "label": "Hình Water Cycle (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006568"
+        },
+        {
+         "label": "Water Cycle Homework (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006580"
         }
        ]
       },
       {
-       "title": "3.2 · Expand và contract: nước là trường hợp đặc biệt",
-       "read": "slide UNIT 3.2 trên LMS, phần Water expands",
+       "title": "3.4 · Dung dịch: solute, solvent, solution",
+       "read": "Thư gửi phụ huynh tuần 9 trên LMS, mục Idea 3 và Idea 4",
        "points": [
-        "Chất nóng lên: các hạt chuyển động nhanh và tách xa nhau, chất expand (nở ra). Chất nguội đi: các hạt chậm lại và gần nhau hơn, chất contract (co lại).",
-        "Nước khác các chất khác: khi đóng băng, nước nở ra chứ không co lại. Nhờ vậy nước đá nổi trên nước.",
-        "Thí nghiệm ở nhà: đổ nước nửa chai nhựa, đậy nắp, để ngăn đá qua đêm. Trước đó dự đoán nước nở ra hay co lại và nói lí do; hôm sau quan sát và ghi lại thay đổi."
+        "Muối tan trong nước: muối là solute (chất tan), nước là solvent (dung môi), nước muối là solution (dung dịch).",
+        "Soluble là tan được (muối, đường); insoluble là không tan (cát).",
+        "Hòa tan có thể đảo ngược (reversible): cho nước bay hơi thì muối còn lại.",
+        "Giấy lọc thường giữ được cát nhưng không tách được muối đã tan.",
+        "Chỗ dễ nhầm: hòa tan khác nóng chảy. Đường tan trong nước là hòa tan; nước đá thành nước là nóng chảy."
        ],
        "links": [
         {
-         "label": "Homework (required): thí nghiệm ở nhà (LMS)",
-         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939941"
+         "label": "Poster từ vựng Dissolving Solutions (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006596"
+        },
+        {
+         "label": "Poster Science Solutions (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006595"
         }
        ]
       }
      ],
      "watch": [
-      "Bài tập bắt buộc là thí nghiệm nước đóng băng. Cần làm từ tối hôm trước vì chai phải để ngăn đá qua đêm; cô Laver sẽ kiểm tra phần ghi chép ở buổi học sau.",
-      "9 từ của tuần: boil, boiling point, contract, expand, melt, melting point, steam, temperature, thermometer.",
-      "Phần Self-study có một Liveworksheet “What are the properties of water?”. Workbook trang 39 nằm trong slide bài học."
+      "Bài tập về nhà: phiếu Water Cycle Homework, đã xếp vào thứ Năm 15/10.",
+      "Ở bài thí nghiệm nước đóng băng của tuần 8, ngày 08/10 con đăng dự đoán nước sẽ “contract” (co lại). Đáp án đúng là nước nở ra (expand) khi đóng băng. Phụ huynh nên hỏi lại con kết quả quan sát.",
+      "LMS có thêm mục thảo luận “Short Experiment” trong tuần, con chưa đăng bài.",
+      "Từ của tuần: evaporation, condensation, precipitation, water vapour, dissolve, soluble, insoluble, solute, solvent, solution, reversible."
+     ]
+    },
+    {
+     "subject": "Tiếng Việt",
+     "summary": "Tuần 09 (12–23/10) · Bài 3.1 Vẽ màu · Bài 3.2 Đồng cỏ nở hoa",
+     "status": "Học phần Tuần 09 trên LMS ghi cho hai tuần 12/10–23/10.",
+     "lessons": [
+      {
+       "title": "Đọc · Bài thơ “Vẽ màu” và văn bản “Đồng cỏ nở hoa”",
+       "read": "trang Tổng hợp nội dung trọng tâm tuần 9 trên LMS",
+       "points": [
+        "“Vẽ màu”: bạn nhỏ vẽ bức tranh nhiều màu sắc; mỗi màu có nét đẹp riêng. Màu trắng trên tóc mẹ cho thấy bạn nhỏ thương và hiểu nỗi vất vả của mẹ.",
+        "“Đồng cỏ nở hoa”: Bống có tài hội họa, vẽ giống thật và giàu trí tưởng tượng, được họa sĩ Phan khen. Bài ca ngợi sự sáng tạo.",
+        "Phân biệt ba từ: sáng tạo (nghĩ ra cách làm mới), sáng tác (làm ra tác phẩm văn học, nghệ thuật), sáng chế (làm ra máy móc, dụng cụ mới)."
+       ],
+       "links": [
+        {
+         "label": "Tổng hợp nội dung trọng tâm tuần 9 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021904"
+        }
+       ]
+      },
+      {
+       "title": "Luyện từ và câu · Biện pháp nhân hóa",
+       "points": [
+        "Nhân hóa: dùng từ ngữ vốn để gọi, kể, tả người cho con vật, cây cối, đồ vật, hiện tượng tự nhiên.",
+        "Tác dụng: làm sự vật gần gũi, sinh động. Ví dụ: “Chú mèo cười tít mắt khi được vuốt ve.”"
+       ],
+       "links": [
+        {
+         "label": "T08 Quiz – Biện pháp nhân hóa (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021908"
+        }
+       ]
+      },
+      {
+       "title": "Viết · Đoạn văn tưởng tượng",
+       "points": [
+        "Ba cách viết: thêm lời thoại cho nhân vật; thêm chi tiết hoặc tình huống mới; thay đổi hoặc viết tiếp kết thúc."
+       ],
+       "links": [
+        {
+         "label": "T08 Thảo luận – Tìm hiểu cách viết đoạn văn tưởng tượng (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021909"
+        }
+       ]
+      }
+     ],
+     "watch": [
+      "LMS có ba nhiệm vụ làm trước, một quiz và một thảo luận cho hai tuần này; đã xếp rải từ Chủ nhật 11/10 đến thứ Bảy 17/10.",
+      "LMS ghi ngày kiểm tra giữa HK1 môn Tiếng Việt là 09/10; chưa có điểm."
      ]
     }
    ]

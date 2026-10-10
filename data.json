@@ -739,1039 +739,6 @@
    "title": "60 phút – Tổng ôn chương 2 trước bài kiểm tra thứ Hai: làm lại bài tập ôn cô phát (phần chương 2), có bấm giờ"
   },
   {
-   "id": "phong-amnhac-mat-troi-bay",
-   "due": "2026-10-02",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Thảo luận – Âm nhạc tuần 6+7",
-     "url": "https://lms.vinschool.edu.vn/courses/72800/discussion_topics/701224"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T6 02/10, buổi 1.",
-   "order": 1,
-   "practice": "Thảo luận tuần 6+7 (LMS)",
-   "review": "Viết 2–3 câu cảm nhận về bài hát \"Mặt trời bay\"",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Âm nhạc",
-   "title": "Thảo luận: cảm nhận về bài hát \"Mặt trời bay\"",
-   "link": "https://lms.vinschool.edu.vn/courses/72800/discussion_topics/701224"
-  },
-  {
-   "id": "phong-tv-t07-quiz-gach-ngang-1",
-   "due": "2026-10-02",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T07 Quiz – Dấu gạch ngang (1)",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226019"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T6 02/10, buổi 2.",
-   "order": 2,
-   "practice": "T07_Quiz_Ngôn ngữ: Dấu gạch ngang (1) (LMS)",
-   "review": "Dấu gạch ngang (phần 1)",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Việt",
-   "title": "10 phút – Dấu gạch ngang (phần 1)",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226019"
-  },
-  {
-   "id": "phong-raz-20261002",
-   "due": "2026-10-02",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: quiz \"Critter Crossings\" (đang làm dở)",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T6 02/10, buổi 3.",
-   "order": 3,
-   "practice": "Raz-Kids Level S: quiz \"Critter Crossings\" (đang làm dở)",
-   "review": "Đọc lại và làm nốt quiz đang dở",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "15 phút – Đọc lại và làm nốt quiz đang dở",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-maths-u7-lms-practice",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: LMS practice Maths 7.1–7.2 (5 câu)",
-     "url": "https://wayground.com/join?gc=26840301"
-    },
-    {
-     "label": "Đọc lại: Maths Unit 7 Parent Letter (PDF của thầy Tim)",
-     "url": "https://lms.vinschool.edu.vn/courses/73563/files/11699051"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T7 03/10, buổi 1. Bài đã chuyển lên Wayground, không cần in; thư gửi phụ huynh chỉ để đọc lại phần giải thích. Con đọc đề bằng tiếng Anh thành tiếng trước khi làm.",
-   "order": 1,
-   "practice": "Wayground: LMS practice trong thư gửi phụ huynh (5 câu, làm trên máy, không cần in)",
-   "review": "Unit 7.1–7.2: phân số là phép chia, tìm phân số của một số, phân số – số thập phân – phần trăm",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "20 phút – Unit 7.1–7.2: phân số là phép chia, tìm phân số của một số, phân số – số thập phân – phần trăm",
-   "link": "https://wayground.com/join?gc=26840301"
-  },
-  {
-   "id": "phong-esl-w7-lms-practice",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "ESL Parent Letter – Vocabulary and Stories Week 7 (PDF)",
-     "url": "https://lms.vinschool.edu.vn/courses/73561/files/11700119"
-    },
-    {
-     "label": "Wordwall: Symptoms and illnesses",
-     "url": "https://wordwall.net/resource/16009999/symptoms-and-illnesses-movers"
-    },
-    {
-     "label": "Wordwall: Food groups",
-     "url": "https://wordwall.net/resource/16211109/food-groups"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu T7 03/10, buổi 2. Cô nhận xét bài Unit 1: câu viết cần thêm chi tiết who/what/where/why.",
-   "order": 2,
-   "practice": "LMS practice Task 1–4 trong thư gửi phụ huynh (viết vào vở); xong thì chơi Wordwall của thầy",
-   "review": "Unit 2 Food and Health tuần 7: từ vựng về muỗi, a/an với bệnh, cụm từ chỉ lượng thức ăn, kể lại truyện",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "25 phút – Unit 2 Food and Health tuần 7: từ vựng về muỗi, a/an với bệnh, cụm từ chỉ lượng thức ăn, kể lại truyện",
-   "link": "https://lms.vinschool.edu.vn/courses/73561/files/11700119"
-  },
-  {
-   "id": "phong-sci-u31-lms-practice",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: LMS practice Science 3.1 Gases (5 câu)",
-     "url": "https://wayground.com/join?gc=05868781"
-    },
-    {
-     "label": "Đọc lại: Science Unit 3.1 Gases Parent Letter (PDF)",
-     "url": "https://lms.vinschool.edu.vn/courses/73566/files/11699726"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu T7 03/10, buổi 3. Bài đã chuyển lên Wayground, không cần in. 4 câu là câu trả lời mở, máy không chấm: so với mục Parent check ở cuối thư gửi phụ huynh.",
-   "order": 3,
-   "practice": "Wayground: LMS practice trong thư gửi phụ huynh (5 câu, làm trên máy, không cần in)",
-   "review": "Unit 3.1 Gases: mô hình hạt rắn – lỏng – khí, các khí trong không khí, ô nhiễm, biểu đồ chấm",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "CIE Science",
-   "title": "25 phút – Unit 3.1 Gases: mô hình hạt rắn – lỏng – khí, các khí trong không khí, ô nhiễm, biểu đồ chấm",
-   "link": "https://wayground.com/join?gc=05868781"
-  },
-  {
-   "id": "phong-tv-t07-quiz-gach-ngang-2-ngoac-kep",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T07 Quiz – Dấu gạch ngang (2)",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226020"
-    },
-    {
-     "label": "T07 Quiz – Dấu ngoặc kép",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226021"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T7 03/10, buổi 4.",
-   "order": 4,
-   "practice": "2 quiz T07: Dấu gạch ngang (2); Dấu ngoặc kép (LMS)",
-   "review": "Dấu gạch ngang (phần 2) và dấu ngoặc kép",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Việt",
-   "title": "20 phút – Dấu gạch ngang (phần 2) và dấu ngoặc kép",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226020"
-  },
-  {
-   "id": "phong-raz-20261003",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: quiz \"Ghosts in the House\" (dở) và quiz \"Animal Groups: Strength in Numbers\"",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T7 03/10, buổi 5.",
-   "order": 5,
-   "practice": "Raz-Kids Level S: quiz \"Ghosts in the House\" (dở) và quiz \"Animal Groups: Strength in Numbers\"",
-   "review": "Sách đã đọc, còn thiếu quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "20 phút – Sách đã đọc, còn thiếu quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-maths-u7-1",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground Maths U7 - 1. Fraction basics (8 câu)",
-     "url": "https://wayground.com/join?gc=46168909"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T7 03/10, buổi 6. MyiMaths hiện không có bài giao nên chuyển sang Wayground.",
-   "order": 6,
-   "practice": "Wayground Maths U7 - 1. Fraction basics (8 câu)",
-   "review": "Phân số cơ bản: tử số, mẫu số, phân số là phép chia",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Phân số cơ bản: tử số, mẫu số, phân số là phép chia",
-   "link": "https://wayground.com/join?gc=46168909"
-  },
-  {
-   "id": "phong-wg-lms-maths-u7-practice-a",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Unit 7 Practice Sheet – Section A (12 câu)",
-     "url": "https://wayground.com/join?gc=61634797"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T7 03/10, buổi 7. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4).",
-   "order": 7,
-   "practice": "Wayground: Unit 7 Practice Sheet – Section A (12 câu)",
-   "review": "Unit 7 Practice Sheet (phiếu LMS): đổi phân số – số thập phân – phần trăm",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "20 phút – Unit 7 Practice Sheet (phiếu LMS): đổi phân số – số thập phân – phần trăm",
-   "link": "https://wayground.com/join?gc=61634797"
-  },
-  {
-   "id": "phong-wg-lms-maths-u7-practice-bc",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Unit 7 Practice Sheet – Sections B & C phần 1 (9 câu)",
-     "url": "https://wayground.com/join?gc=30767341"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T7 03/10, buổi 8. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4).",
-   "order": 8,
-   "practice": "Wayground: Unit 7 Practice Sheet – Sections B & C phần 1 (9 câu)",
-   "review": "Unit 7 Practice Sheet (phiếu LMS): tìm phân số của một số; đổi phân số lớn hơn 1 thành hỗn số",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Unit 7 Practice Sheet (phiếu LMS): tìm phân số của một số; đổi phân số lớn hơn 1 thành hỗn số",
-   "link": "https://wayground.com/join?gc=30767341"
-  },
-  {
-   "id": "phong-wg-lms-esl-u2-review-1",
-   "due": "2026-10-03",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: ESL Unit 2 Review – Section 1 Use of English (12 câu)",
-     "url": "https://wayground.com/join?gc=18708717"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T7 03/10, buổi 9. Phiếu LMS chuyển sang Wayground: câu khoanh thì chọn đáp án, câu điền từ thì tự gõ.",
-   "order": 9,
-   "practice": "Wayground: ESL Unit 2 Review – Section 1 Use of English (12 câu)",
-   "review": "Unit 2 Review (phiếu ôn kiểm tra Unit 2): Section 1 Use of English",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "20 phút – Unit 2 Review (phiếu ôn kiểm tra Unit 2): Section 1 Use of English",
-   "link": "https://wayground.com/join?gc=18708717"
-  },
-  {
-   "id": "phong-lsdl-t07-quiz-den-hung",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T07 Quiz – Đền Hùng và Giỗ Tổ Hùng Vương",
-     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2226018"
-    },
-    {
-     "label": "Phiếu ôn tập: Đền Hùng và Lễ Giỗ Tổ",
-     "url": "https://lms.vinschool.edu.vn/courses/73707/files/11715403"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu CN 04/10, buổi 1.",
-   "order": 1,
-   "practice": "T07_Quiz_Đền Hùng và Giỗ Tổ Hùng Vương (LMS)",
-   "review": "Đền Hùng và Giỗ Tổ Hùng Vương: xem video tự học rồi làm quiz",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Lịch sử và Địa lý",
-   "title": "20 phút – Đền Hùng và Giỗ Tổ Hùng Vương: xem video tự học rồi làm quiz",
-   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2226018"
-  },
-  {
-   "id": "phong-tv-t07-nhiem-vu-truoc-tiet-2-8",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T07 Nhiệm vụ trước tiết học – Đọc và giải nghĩa",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/discussion_topics/704640"
-    },
-    {
-     "label": "T07 Phiếu bài đọc: Trí tuệ nhân tạo cảnh báo sớm thiên tai",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/files/11715425"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu CN 04/10, buổi 2.",
-   "order": 2,
-   "practice": "T07_Nhiệm vụ trước tiết học (thảo luận trên LMS), dùng phiếu bài đọc của cô",
-   "review": "Bài 2.8 Trí tuệ nhân tạo cảnh báo sớm thiên tai: đọc và giải nghĩa từ",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Việt",
-   "title": "20 phút – Bài 2.8 Trí tuệ nhân tạo cảnh báo sớm thiên tai: đọc và giải nghĩa từ",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/discussion_topics/704640"
-  },
-  {
-   "id": "phong-sci-u31-homework-selfstudy",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Homework – Liveworksheet States of Matter",
-     "url": "https://lms.vinschool.edu.vn/courses/73566/pages/homework-2"
-    },
-    {
-     "label": "Self-study – Air pollution (thảo luận)",
-     "url": "https://lms.vinschool.edu.vn/courses/73566/discussion_topics/631012"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu CN 04/10, buổi 3. Liveworksheet: bấm Finish rồi chọn Check my answers là đủ; ô gửi email ghi tên cô Laver, không phải thầy Tim.",
-   "order": 3,
-   "practice": "Homework: Liveworksheet States of Matter; Self-study: xem video air pollution, trả lời 2 câu hỏi",
-   "review": "Các thể của chất; ô nhiễm không khí",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "CIE Science",
-   "title": "25 phút – Các thể của chất; ô nhiễm không khí",
-   "link": "https://lms.vinschool.edu.vn/courses/73566/pages/homework-2"
-  },
-  {
-   "id": "phong-vnh-quiz-gioi-thieu-danh-thang",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Quiz tự học – Giới thiệu chủ đề Danh thắng Việt Nam",
-     "url": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939921"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu CN 04/10, buổi 4.",
-   "order": 4,
-   "practice": "[Quiz tự học] Giới thiệu chủ đề Danh thắng Việt Nam (LMS)",
-   "review": "Chủ đề 2 Danh thắng Việt Nam (tuần 28/9–02/10): đọc tài liệu tự học rồi làm quiz",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Việt Nam học",
-   "title": "15 phút – Chủ đề 2 Danh thắng Việt Nam (tuần 28/9–02/10): đọc tài liệu tự học rồi làm quiz",
-   "link": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939921"
-  },
-  {
-   "id": "phong-raz-20261004",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: đọc \"Here Come the Locusts\" và làm quiz",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu CN 04/10, buổi 5.",
-   "order": 5,
-   "practice": "Raz-Kids Level S: đọc \"Here Come the Locusts\" và làm quiz",
-   "review": "Đọc sách mới rồi làm quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "20 phút – Đọc sách mới rồi làm quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-maths-u7-2",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground Maths U7 - 2. Fraction of a quantity & Decimals (9 câu)",
-     "url": "https://wayground.com/join?gc=63208269"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu CN 04/10, buổi 6.",
-   "order": 6,
-   "practice": "Wayground Maths U7 - 2. Fraction of a quantity & Decimals (9 câu)",
-   "review": "Tìm phân số của một số; phân số và số thập phân",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Tìm phân số của một số; phân số và số thập phân",
-   "link": "https://wayground.com/join?gc=63208269"
-  },
-  {
-   "id": "phong-wg-esl-w7-1",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground ESL W7 - 1. Mosquitoes (14 câu)",
-     "url": "https://wayground.com/join?gc=52540013"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu CN 04/10, buổi 7.",
-   "order": 7,
-   "practice": "Wayground ESL W7 - 1. Mosquitoes (14 câu)",
-   "review": "Từ vựng về muỗi và môi trường",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "10 phút – Từ vựng về muỗi và môi trường",
-   "link": "https://wayground.com/join?gc=52540013"
-  },
-  {
-   "id": "phong-wg-lms-maths-u7-practice-cd",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Unit 7 Practice Sheet – Sections C phần 2, D & Bonus (8 câu)",
-     "url": "https://wayground.com/join?gc=20281581"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu CN 04/10, buổi 8. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4).",
-   "order": 8,
-   "practice": "Wayground: Unit 7 Practice Sheet – Sections C phần 2, D & Bonus (8 câu)",
-   "review": "Unit 7 Practice Sheet (phiếu LMS): đổi hỗn số thành phân số, toán có lời văn, câu Bonus",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Unit 7 Practice Sheet (phiếu LMS): đổi hỗn số thành phân số, toán có lời văn, câu Bonus",
-   "link": "https://wayground.com/join?gc=20281581"
-  },
-  {
-   "id": "phong-wg-lms-esl-u2-review-2",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: ESL Unit 2 Review – Section 2 Reading & Section 3 Writing (11 câu)",
-     "url": "https://wayground.com/join?gc=64846061"
-    }
-   ],
-   "minutes": 30,
-   "note": "Thời gian biểu CN 04/10, buổi 9. Phiếu LMS chuyển sang Wayground. Bài viết Section 3 máy không chấm, phụ huynh xem lại bài viết của con.",
-   "order": 9,
-   "practice": "Wayground: ESL Unit 2 Review – Section 2 Reading & Section 3 Writing (11 câu)",
-   "review": "Unit 2 Review (phiếu ôn kiểm tra Unit 2): Section 2 Reading và Section 3 Writing",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "30 phút – Unit 2 Review (phiếu ôn kiểm tra Unit 2): Section 2 Reading và Section 3 Writing",
-   "link": "https://wayground.com/join?gc=64846061"
-  },
-  {
-   "id": "phong-wg-lms-sci-u3-revision-1",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: G4 Revision Unit 3.1–3.2, câu 1–10 (10 câu)",
-     "url": "https://wayground.com/join?gc=54360301"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu CN 04/10, buổi 10. Phiếu LMS chuyển sang Wayground. Phần lớn là câu trả lời mở, máy không chấm; 3 câu vẽ mô hình hạt thì vẽ ra giấy rồi chụp ảnh tải lên.",
-   "order": 10,
-   "practice": "Wayground: G4 Revision Unit 3.1–3.2, câu 1–10 (10 câu)",
-   "review": "G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 1–10",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Science",
-   "title": "25 phút – G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 1–10",
-   "link": "https://wayground.com/join?gc=54360301"
-  },
-  {
-   "id": "phong-tv-t06-quiz-dong-tu",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T06 Quiz – Luyện tập về động từ",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2213897"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T2 05/10, buổi 1.",
-   "order": 1,
-   "practice": "T06_Quiz_Ngôn ngữ: Luyện tập về động từ (LMS)",
-   "review": "Luyện tập về động từ (bài tuần 6 còn thiếu)",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Việt",
-   "title": "10 phút – Luyện tập về động từ (bài tuần 6 còn thiếu)",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2213897"
-  },
-  {
-   "id": "phong-lsdl-t07-san-pham-gio-to",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T07 Hướng dẫn làm sản phẩm về Lễ hội Giỗ Tổ",
-     "url": "https://lms.vinschool.edu.vn/courses/73707/assignments/3058674"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T2 05/10, buổi 2.",
-   "order": 2,
-   "practice": "T07_Hướng dẫn làm sản phẩm về Lễ hội Giỗ Tổ Hùng Vương (LMS)",
-   "review": "Sản phẩm về Lễ hội Giỗ Tổ Hùng Vương: đọc tiêu chí của cô, chọn hình thức (poster, lapbook, PowerPoint, video)",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Lịch sử và Địa lý",
-   "title": "15 phút – Sản phẩm về Lễ hội Giỗ Tổ Hùng Vương: đọc tiêu chí của cô, chọn hình thức (poster, lapbook, PowerPoint, video)",
-   "link": "https://lms.vinschool.edu.vn/courses/73707/assignments/3058674"
-  },
-  {
-   "id": "phong-myimaths-lam-lai-improper",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "MyiMaths: làm lại \"Introducing improper and mixed fractions\" (vào Scores, bấm Try again)",
-     "url": "https://app.myimaths.com/myportal/student/my_homework"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T2 05/10, buổi 3. MyiMaths chưa có bài giao mới; làm lại bài điểm thấp trước khi sang Wayground.",
-   "order": 3,
-   "practice": "MyiMaths: làm lại \"Introducing improper and mixed fractions\" (vào Scores, bấm Try again)",
-   "review": "Phân số lớn hơn 1 và hỗn số (bài hôm 01/10 được 67%)",
-   "source": "MyiMaths",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Phân số lớn hơn 1 và hỗn số (bài hôm 01/10 được 67%)",
-   "link": "https://app.myimaths.com/myportal/student/my_homework"
-  },
-  {
-   "id": "phong-raz-20261005",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T2 05/10, buổi 4.",
-   "order": 4,
-   "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
-   "review": "Sách đã đọc, còn thiếu quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "10 phút – Sách đã đọc, còn thiếu quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-maths-u7-4",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground Maths U7 - 4. Improper fractions & mixed numbers (13 câu)",
-     "url": "https://wayground.com/join?gc=22983277"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T2 05/10, buổi 5.",
-   "order": 5,
-   "practice": "Wayground Maths U7 - 4. Improper fractions & mixed numbers (13 câu)",
-   "review": "Improper fractions và mixed numbers (hỗn số)",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Improper fractions và mixed numbers (hỗn số)",
-   "link": "https://wayground.com/join?gc=22983277"
-  },
-  {
-   "id": "phong-wg-lms-maths-mixed-wp-w8",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Mixed Numbers and Improper Fractions – Word Problems tuần 8 (6 câu)",
-     "url": "https://wayground.com/join?gc=45447405"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T2 05/10, buổi 6. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4).",
-   "order": 6,
-   "practice": "Wayground: Mixed Numbers and Improper Fractions – Word Problems tuần 8 (6 câu)",
-   "review": "Mixed Numbers and Improper Fractions – Word Problems (phiếu LMS tuần 8)",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Mixed Numbers and Improper Fractions – Word Problems (phiếu LMS tuần 8)",
-   "link": "https://wayground.com/join?gc=45447405"
-  },
-  {
-   "id": "phong-wg-lms-sci-u3-revision-2",
-   "due": "2026-10-05",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: G4 Revision Unit 3.1–3.2, câu 11–20 (10 câu)",
-     "url": "https://wayground.com/join?gc=25000173"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T2 05/10, buổi 7. Phiếu LMS chuyển sang Wayground. Phần lớn là câu trả lời mở, máy không chấm.",
-   "order": 7,
-   "practice": "Wayground: G4 Revision Unit 3.1–3.2, câu 11–20 (10 câu)",
-   "review": "G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 11–20",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Science",
-   "title": "20 phút – G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 11–20",
-   "link": "https://wayground.com/join?gc=25000173"
-  },
-  {
-   "id": "phong-vnh-quiz-tu-hao-danh-thang",
-   "due": "2026-10-06",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Quiz tự học – Tự hào danh thắng Việt Nam",
-     "url": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939926"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T3 06/10, buổi 1.",
-   "order": 1,
-   "practice": "[Quiz tự học] Tự hào danh thắng Việt Nam (LMS)",
-   "review": "Chủ đề 2 Danh thắng Việt Nam (tuần 05–09/10): Tự hào danh thắng Việt Nam",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Việt Nam học",
-   "title": "15 phút – Chủ đề 2 Danh thắng Việt Nam (tuần 05–09/10): Tự hào danh thắng Việt Nam",
-   "link": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939926"
-  },
-  {
-   "id": "phong-tv-t06-hai-trinh",
-   "due": "2026-10-06",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T06 Nhiệm vụ trước tiết – Đọc",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/assignments/3042923"
-    },
-    {
-     "label": "T06 Quiz – Cặp văn bản về hải trình",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2213898"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T3 06/10, buổi 2.",
-   "order": 2,
-   "practice": "T06_Nhiệm vụ trước tiết_Đọc; T06_Quiz – Cặp văn bản về hải trình (LMS)",
-   "review": "Bài 2.6 Hơn một nghìn ngày vòng quanh trái đất (bài tuần 6 còn thiếu)",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Tiếng Việt",
-   "title": "20 phút – Bài 2.6 Hơn một nghìn ngày vòng quanh trái đất (bài tuần 6 còn thiếu)",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/assignments/3042923"
-  },
-  {
-   "id": "phong-raz-20261006",
-   "due": "2026-10-06",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: quiz \"The Great Gallardo's Books\"",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T3 06/10, buổi 3.",
-   "order": 3,
-   "practice": "Raz-Kids Level S: quiz \"The Great Gallardo's Books\"",
-   "review": "Sách đã đọc, còn thiếu quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "10 phút – Sách đã đọc, còn thiếu quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-maths-u7-3",
-   "due": "2026-10-06",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground Maths U7 - 3. Percentages (9 câu)",
-     "url": "https://wayground.com/join?gc=04881229"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T3 06/10, buổi 4.",
-   "order": 4,
-   "practice": "Wayground Maths U7 - 3. Percentages (9 câu)",
-   "review": "Phần trăm: số phần trên 100, phần trăm của hình",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Phần trăm: số phần trên 100, phần trăm của hình",
-   "link": "https://wayground.com/join?gc=04881229"
-  },
-  {
-   "id": "phong-wg-lms-maths-fractions-set-1",
-   "due": "2026-10-06",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Finding Fractions of a Set – Sheet 1 (10 câu)",
-     "url": "https://wayground.com/join?gc=07698669"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T3 06/10, buổi 5. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án.",
-   "order": 5,
-   "practice": "Wayground: Finding Fractions of a Set – Sheet 1 (10 câu)",
-   "review": "Finding Fractions of a Set (phiếu LMS): Sheet 1",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "10 phút – Finding Fractions of a Set (phiếu LMS): Sheet 1",
-   "link": "https://wayground.com/join?gc=07698669"
-  },
-  {
-   "id": "phong-wg-lms-maths-fractions-set-2",
-   "due": "2026-10-06",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Finding Fractions of a Set – Sheet 2 (10 câu)",
-     "url": "https://wayground.com/join?gc=66418925"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T3 06/10, buổi 6. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án.",
-   "order": 6,
-   "practice": "Wayground: Finding Fractions of a Set – Sheet 2 (10 câu)",
-   "review": "Finding Fractions of a Set (phiếu LMS): Sheet 2",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "10 phút – Finding Fractions of a Set (phiếu LMS): Sheet 2",
-   "link": "https://wayground.com/join?gc=66418925"
-  },
-  {
-   "id": "phong-amnhac-bai-tap-de",
-   "due": "2026-10-07",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Bài tập mức độ dễ – Âm nhạc tuần 6+7",
-     "url": "https://lms.vinschool.edu.vn/courses/72800/quizzes/2214730"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T4 07/10, buổi 1.",
-   "order": 1,
-   "practice": "Bài tập mức độ dễ – tuần 6+7 (LMS)",
-   "review": "Hợp xướng \"Mặt trời bay\": xem hướng dẫn tự học tuần 6 rồi làm bài tập",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Âm nhạc",
-   "title": "10 phút – Hợp xướng \"Mặt trời bay\": xem hướng dẫn tự học tuần 6 rồi làm bài tập",
-   "link": "https://lms.vinschool.edu.vn/courses/72800/quizzes/2214730"
-  },
-  {
-   "id": "phong-congnghe-t06-quiz",
-   "due": "2026-10-07",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T06 Quiz – Hoa và cây cảnh trong đời sống",
-     "url": "https://lms.vinschool.edu.vn/courses/92073/quizzes/1976280"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T4 07/10, buổi 2.",
-   "order": 2,
-   "practice": "T06_Quiz: Hoa và cây cảnh trong đời sống (LMS)",
-   "review": "Hoa và cây cảnh trong đời sống",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Công nghệ",
-   "title": "10 phút – Hoa và cây cảnh trong đời sống",
-   "link": "https://lms.vinschool.edu.vn/courses/92073/quizzes/1976280"
-  },
-  {
-   "id": "phong-raz-20261007",
-   "due": "2026-10-07",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: đọc \"The International T-Shirt Challenge\" và làm quiz",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 20,
-   "note": "Thời gian biểu T4 07/10, buổi 3.",
-   "order": 3,
-   "practice": "Raz-Kids Level S: đọc \"The International T-Shirt Challenge\" và làm quiz",
-   "review": "Đọc sách mới rồi làm quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "20 phút – Đọc sách mới rồi làm quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-sci-u31",
-   "due": "2026-10-07",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground Unit 3.1 Gases (15 câu)",
-     "url": "https://wayground.com/join?gc=04305517"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T4 07/10, buổi 4.",
-   "order": 4,
-   "practice": "Wayground Unit 3.1 Gases (15 câu)",
-   "review": "Unit 3.1 Gases: hạt, các khí trong không khí, ô nhiễm",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Science",
-   "title": "15 phút – Unit 3.1 Gases: hạt, các khí trong không khí, ô nhiễm",
-   "link": "https://wayground.com/join?gc=04305517"
-  },
-  {
-   "id": "phong-wg-lms-maths-fractions-set-3",
-   "due": "2026-10-07",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Finding Fractions of a Set – Sheet 3 (10 câu)",
-     "url": "https://wayground.com/join?gc=63797485"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T4 07/10, buổi 5. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án.",
-   "order": 5,
-   "practice": "Wayground: Finding Fractions of a Set – Sheet 3 (10 câu)",
-   "review": "Finding Fractions of a Set (phiếu LMS): Sheet 3",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Finding Fractions of a Set (phiếu LMS): Sheet 3",
-   "link": "https://wayground.com/join?gc=63797485"
-  },
-  {
-   "id": "phong-lsdl-t05-quiz-trung-du",
-   "due": "2026-10-08",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "T05 Quiz – Thiên nhiên Trung du và miền núi Bắc Bộ",
-     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2204824"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T5 08/10, buổi 1. Cô Nhã Trúc đã nhận xét về nội dung này ngày 26/09.",
-   "order": 1,
-   "practice": "T05_Quiz_Thiên nhiên Trung du và miền núi Bắc Bộ (LMS)",
-   "review": "Thiên nhiên Trung du và miền núi Bắc Bộ (bài tuần 5 còn thiếu)",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Lịch sử và Địa lý",
-   "title": "15 phút – Thiên nhiên Trung du và miền núi Bắc Bộ (bài tuần 5 còn thiếu)",
-   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2204824"
-  },
-  {
-   "id": "phong-raz-20261008",
-   "due": "2026-10-08",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T5 08/10, buổi 2.",
-   "order": 2,
-   "practice": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
-   "review": "Sách đã đọc, còn thiếu quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "10 phút – Sách đã đọc, còn thiếu quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-esl-w7-2",
-   "due": "2026-10-08",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground ESL W7 - 2. Health & food phrases (13 câu)",
-     "url": "https://wayground.com/join?gc=17937005"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T5 08/10, buổi 3.",
-   "order": 3,
-   "practice": "Wayground ESL W7 - 2. Health & food phrases (13 câu)",
-   "review": "a/an với tên bệnh; cụm từ chỉ lượng thức ăn (a pinch of, a bunch of…)",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "10 phút – a/an với tên bệnh; cụm từ chỉ lượng thức ăn (a pinch of, a bunch of…)",
-   "link": "https://wayground.com/join?gc=17937005"
-  },
-  {
-   "id": "phong-wg-lms-maths-fraction-wp-12",
-   "due": "2026-10-08",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Fraction Word Problems – Sheets 1 & 2 (10 câu)",
-     "url": "https://wayground.com/join?gc=53311725"
-    }
-   ],
-   "minutes": 25,
-   "note": "Thời gian biểu T5 08/10, buổi 4. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án. Lời đề được viết lại, số liệu và đáp án giữ nguyên như phiếu.",
-   "order": 4,
-   "practice": "Wayground: Fraction Word Problems – Sheets 1 & 2 (10 câu)",
-   "review": "Fraction Word Problems (phiếu LMS): Sheets 1 & 2",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "25 phút – Fraction Word Problems (phiếu LMS): Sheets 1 & 2",
-   "link": "https://wayground.com/join?gc=53311725"
-  },
-  {
-   "id": "phong-raz-20261009",
-   "due": "2026-10-09",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Raz-Kids Level S: quiz \"Harriet Tubman and the Underground Railroad\"",
-     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T6 09/10, buổi 1.",
-   "order": 1,
-   "practice": "Raz-Kids Level S: quiz \"Harriet Tubman and the Underground Railroad\"",
-   "review": "Sách đã đọc, còn thiếu quiz",
-   "source": "Raz-Kids",
-   "status": "todo",
-   "subject": "Raz-Kids",
-   "title": "10 phút – Sách đã đọc, còn thiếu quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
-  },
-  {
-   "id": "phong-wg-esl-w7-3",
-   "due": "2026-10-09",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground ESL W7 - 3. Story vocabulary (14 câu)",
-     "url": "https://wayground.com/join?gc=05354093"
-    }
-   ],
-   "minutes": 10,
-   "note": "Thời gian biểu T6 09/10, buổi 2.",
-   "order": 2,
-   "practice": "Wayground ESL W7 - 3. Story vocabulary (14 câu)",
-   "review": "Từ vựng trong truyện: weary, discouraged, villagers, flavoursome…",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "10 phút – Từ vựng trong truyện: weary, discouraged, villagers, flavoursome…",
-   "link": "https://wayground.com/join?gc=05354093"
-  },
-  {
-   "id": "phong-wg-lms-maths-fraction-wp-3",
-   "due": "2026-10-09",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: Fraction Word Problems – Sheet 3 (5 câu)",
-     "url": "https://wayground.com/join?gc=32340205"
-    }
-   ],
-   "minutes": 15,
-   "note": "Thời gian biểu T6 09/10, buổi 3. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án. Lời đề được viết lại, số liệu và đáp án giữ nguyên như phiếu.",
-   "order": 3,
-   "practice": "Wayground: Fraction Word Problems – Sheet 3 (5 câu)",
-   "review": "Fraction Word Problems (phiếu LMS): Sheet 3",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE Maths",
-   "title": "15 phút – Fraction Word Problems (phiếu LMS): Sheet 3",
-   "link": "https://wayground.com/join?gc=32340205"
-  },
-  {
-   "id": "phong-mithuat-thuc-hanh-0410",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "note": "Làm tại lớp, thang 0 điểm, không tính thiếu bài.",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "Mĩ thuật",
-   "title": "Thực hành Mĩ thuật"
-  },
-  {
    "id": "phong-vnh-quiz-huong-dan-san-pham-cd2",
    "due": null,
    "kid": "phong",
@@ -1822,12 +789,12 @@
      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdFiJgIuEQs4off_7RLV_MVs5pF9mKVyt5ntfreBJlLIYjoRQ/viewform"
     }
    ],
-   "note": "Hoạt động làm trong tiết ICT tuần 7 (28/9–02/10). LMS không ghi nhận trạng thái nộp; hỏi con đã nộp form ở lớp chưa.",
+   "note": "Hoạt động làm trong tiết ICT tuần 7 (Parts of a Computer) và tuần 8 (Bitmaps). LMS không ghi nhận trạng thái nộp; hỏi con đã nộp form ở lớp chưa.",
    "source": "LMS",
    "status": "todo",
    "subject": "CIE ICT",
-   "window": "Tuần 7 (28/9–02/10)",
-   "title": "Unit 2 Week 7: Parts of a Computer activity và form nộp bài"
+   "window": "Tuần 7–8 (28/9–09/10)",
+   "title": "Unit 2 Week 7–8: hoạt động trên lớp và form nộp bài"
   },
   {
    "id": "phong-tv-ton-tuan-1-5",
@@ -1857,7 +824,7 @@
      "url": "https://lms.vinschool.edu.vn/courses/73707/modules"
     }
    ],
-   "note": "5 quiz tuần 1–4 và 1 bài phần Học tập trải nghiệm chưa làm (LMS không đặt hạn). Chưa xếp vào thời gian biểu; chờ phụ huynh quyết định có làm bù không.",
+   "note": "5 quiz tuần 1–4, quiz T06 Địa đạo Củ Chi và 1 bài phần Học tập trải nghiệm chưa làm (LMS không đặt hạn). Chưa xếp vào thời gian biểu; chờ phụ huynh quyết định có làm bù không.",
    "source": "LMS",
    "status": "todo",
    "subject": "Lịch sử và Địa lý",
@@ -1902,69 +869,6 @@
    "status": "todo",
    "subject": "12 · Toán",
    "title": "45 phút – Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán"
-  },
-  {
-   "id": "phong-wg-esl-u2-test-practice-1",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: ESL U2 Test Practice 1 – Use of English (10 câu)",
-     "url": "https://wayground.com/join?gc=56367853"
-    }
-   ],
-   "minutes": 15,
-   "note": "Bài ôn kiểm tra Unit 2 soạn thêm ngày 04/10: 4 câu trắc nghiệm, 4 câu tự gõ, 2 câu viết câu trả lời. Câu viết máy không chấm, phụ huynh xem lại bài viết của con.",
-   "order": 11,
-   "practice": "Wayground: ESL U2 Test Practice 1 – Use of English (10 câu)",
-   "review": "Ôn kiểm tra Unit 2 Food and Health (bài 1): Use of English – tên bệnh, less/fewer, a few/a little, should/mustn't/need to, đang làm gì (is/are + -ing)",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "15 phút – Ôn kiểm tra Unit 2 Food and Health (bài 1): Use of English – tên bệnh, less/fewer, a few/a little, should/mustn't/need to, đang làm gì (is/are + -ing)",
-   "link": "https://wayground.com/join?gc=56367853"
-  },
-  {
-   "id": "phong-wg-esl-u2-test-practice-2",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: ESL U2 Test Practice 2 – Reading (10 câu)",
-     "url": "https://wayground.com/join?gc=31439597"
-    }
-   ],
-   "minutes": 20,
-   "note": "Bài ôn kiểm tra Unit 2 soạn thêm ngày 04/10: 4 câu trắc nghiệm, 4 câu tự gõ, 2 câu viết câu trả lời. Câu viết máy không chấm, phụ huynh xem lại bài viết của con.",
-   "order": 12,
-   "practice": "Wayground: ESL U2 Test Practice 2 – Reading (10 câu)",
-   "review": "Ôn kiểm tra Unit 2 Food and Health (bài 2): Reading – đọc đoạn văn “Minh Stays at Home” rồi trả lời",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "20 phút – Ôn kiểm tra Unit 2 Food and Health (bài 2): Reading – đọc đoạn văn “Minh Stays at Home” rồi trả lời",
-   "link": "https://wayground.com/join?gc=31439597"
-  },
-  {
-   "id": "phong-wg-esl-u2-test-practice-3",
-   "due": "2026-10-04",
-   "kid": "phong",
-   "links": [
-    {
-     "label": "Wayground: ESL U2 Test Practice 3 – Vocabulary & Writing (10 câu)",
-     "url": "https://wayground.com/join?gc=50469613"
-    }
-   ],
-   "minutes": 25,
-   "note": "Bài ôn kiểm tra Unit 2 soạn thêm ngày 04/10: 4 câu trắc nghiệm, 4 câu tự gõ, 2 câu viết (có 1 đoạn 4–5 câu). Câu viết máy không chấm, phụ huynh xem lại bài viết của con.",
-   "order": 13,
-   "practice": "Wayground: ESL U2 Test Practice 3 – Vocabulary & Writing (10 câu)",
-   "review": "Ôn kiểm tra Unit 2 Food and Health (bài 3): Vocabulary & Writing – vitamins, protein, fibre, calcium, germs, balanced diet; viết đoạn “My Healthy Day”",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "CIE ESL",
-   "title": "25 phút – Ôn kiểm tra Unit 2 Food and Health (bài 3): Vocabulary & Writing – vitamins, protein, fibre, calcium, germs, balanced diet; viết đoạn “My Healthy Day”",
-   "link": "https://wayground.com/join?gc=50469613"
   },
   {
    "id": "nam-amnhac-hs1-20261010",
@@ -2326,6 +1230,736 @@
    "status": "todo",
    "subject": "Giáo dục công dân",
    "title": "10 quiz tự học Giáo dục công dân trên LMS (chưa xếp lịch tuần này)"
+  },
+  {
+   "id": "phong-tv-t07-gach-ngang-1-b",
+   "due": "2026-10-10",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T07 Quiz – Dấu gạch ngang (1)",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226019"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu T7 10/10, buổi 1. Bài tuần 7 còn thiếu.",
+   "order": 1,
+   "practice": "T07 Quiz – Dấu gạch ngang (1)",
+   "review": "Dấu gạch ngang (phần 1)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "10 phút – Dấu gạch ngang (phần 1)",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226019"
+  },
+  {
+   "id": "phong-myimaths-fractions-of-amounts",
+   "due": "2026-10-10",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "MyiMaths: Fractions of amounts",
+     "url": "https://app.myimaths.com/myportal/student/my_homework"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T7 10/10, buổi 2.",
+   "order": 2,
+   "practice": "MyiMaths: Fractions of amounts",
+   "review": "Tìm phân số của một số lượng (bài thầy giao, MyiMaths đang báo trễ)",
+   "source": "MyiMaths",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Tìm phân số của một số lượng (bài thầy giao, MyiMaths đang báo trễ)",
+   "link": "https://app.myimaths.com/myportal/student/my_homework"
+  },
+  {
+   "id": "phong-raz-20261010-quiz",
+   "due": "2026-10-10",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Raz-Kids Level S: quiz \"Critter Crossings\"",
+     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu T7 10/10, buổi 3. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "order": 3,
+   "practice": "Raz-Kids Level S: quiz \"Critter Crossings\"",
+   "review": "Làm nốt quiz đang dở của sách \"Critter Crossings\"",
+   "source": "Raz-Kids",
+   "status": "todo",
+   "subject": "Raz-Kids",
+   "title": "10 phút – Làm nốt quiz đang dở của sách \"Critter Crossings\"",
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+  },
+  {
+   "id": "phong-tv-t08-doc-ve-mau",
+   "due": "2026-10-11",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T08 Nhiệm vụ làm trước – Đọc Vẽ màu",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021907"
+    },
+    {
+     "label": "Tổng hợp nội dung trọng tâm tuần 9",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021904"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu CN 11/10, buổi 1. Chuẩn bị cho tuần học 12/10.",
+   "order": 1,
+   "practice": "T08 Nhiệm vụ làm trước – Đọc Vẽ màu",
+   "review": "Bài 3.1 Vẽ màu: đọc bài thơ và làm nhiệm vụ trước tiết học",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "15 phút – Bài 3.1 Vẽ màu: đọc bài thơ và làm nhiệm vụ trước tiết học",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021907"
+  },
+  {
+   "id": "phong-tv-t08-quiz-nhan-hoa",
+   "due": "2026-10-11",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T08 Quiz – Luyện từ và câu: Biện pháp nhân hóa",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021908"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu CN 11/10, buổi 2.",
+   "order": 2,
+   "practice": "T08 Quiz – Luyện từ và câu: Biện pháp nhân hóa",
+   "review": "Biện pháp nhân hóa",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "10 phút – Biện pháp nhân hóa",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021908"
+  },
+  {
+   "id": "phong-lsdl-t07-den-hung-b",
+   "due": "2026-10-11",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T07 Quiz – Đền Hùng và Giỗ Tổ Hùng Vương",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2226018"
+    },
+    {
+     "label": "T07 Video hướng dẫn tự học",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/modules/items/8899340"
+    }
+   ],
+   "minutes": 20,
+   "note": "Thời gian biểu CN 11/10, buổi 3. Bài tuần 7 còn thiếu. Quiz T05 hôm 07/10 con làm chưa đầy 4 phút và được 4,67/10, nên lần này xem video trước rồi mới làm.",
+   "order": 3,
+   "practice": "T07 Quiz – Đền Hùng và Giỗ Tổ Hùng Vương",
+   "review": "Đền Hùng và Giỗ Tổ Hùng Vương: xem video tự học rồi làm quiz",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Lịch sử và Địa lý",
+   "title": "20 phút – Đền Hùng và Giỗ Tổ Hùng Vương: xem video tự học rồi làm quiz",
+   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2226018"
+  },
+  {
+   "id": "phong-myimaths-fractions-as-operators-2",
+   "due": "2026-10-11",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "MyiMaths: Fractions as operators 2",
+     "url": "https://app.myimaths.com/myportal/student/my_homework"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu CN 11/10, buổi 4.",
+   "order": 4,
+   "practice": "MyiMaths: Fractions as operators 2",
+   "review": "Tìm phân số của một số, tử số lớn hơn 1 (bài thầy giao, MyiMaths đang báo trễ)",
+   "source": "MyiMaths",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Tìm phân số của một số, tử số lớn hơn 1 (bài thầy giao, MyiMaths đang báo trễ)",
+   "link": "https://app.myimaths.com/myportal/student/my_homework"
+  },
+  {
+   "id": "phong-raz-20261011-quiz",
+   "due": "2026-10-11",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
+     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu CN 11/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "order": 5,
+   "practice": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
+   "review": "Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
+   "source": "Raz-Kids",
+   "status": "todo",
+   "subject": "Raz-Kids",
+   "title": "10 phút – Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+  },
+  {
+   "id": "phong-wg-lms-sci-u3-revision-2-b",
+   "due": "2026-10-11",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Wayground: G4 Revision Unit 3.1–3.2, câu 11–20 (10 câu)",
+     "url": "https://wayground.com/join?gc=25000173"
+    }
+   ],
+   "minutes": 20,
+   "note": "Thời gian biểu CN 11/10, buổi 6. Phiếu LMS chuyển sang Wayground. Phần lớn là câu trả lời mở, máy không chấm.",
+   "order": 6,
+   "practice": "Wayground: G4 Revision Unit 3.1–3.2, câu 11–20 (10 câu)",
+   "review": "G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 11–20",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE Science",
+   "title": "20 phút – G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 11–20",
+   "link": "https://wayground.com/join?gc=25000173"
+  },
+  {
+   "id": "phong-tv-t08-doc-dong-co-no-hoa",
+   "due": "2026-10-12",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T08 Nhiệm vụ làm trước – Đọc Đồng cỏ nở hoa",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021911"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T2 12/10, buổi 1.",
+   "order": 1,
+   "practice": "T08 Nhiệm vụ làm trước – Đọc Đồng cỏ nở hoa",
+   "review": "Bài 3.2 Đồng cỏ nở hoa: đọc văn bản và làm nhiệm vụ trước tiết học",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "15 phút – Bài 3.2 Đồng cỏ nở hoa: đọc văn bản và làm nhiệm vụ trước tiết học",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021911"
+  },
+  {
+   "id": "phong-raz-20261012-quiz",
+   "due": "2026-10-12",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
+     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu T2 12/10, buổi 2. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "order": 2,
+   "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
+   "review": "Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
+   "source": "Raz-Kids",
+   "status": "todo",
+   "subject": "Raz-Kids",
+   "title": "10 phút – Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+  },
+  {
+   "id": "phong-maths-w9-lms-practice",
+   "due": "2026-10-13",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Thư gửi phụ huynh Maths tuần 9 (mục LMS practice)",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9006509"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T3 13/10, buổi 1. Task 1: liệt kê ước của 12 và 13. Task 2: xếp 1, 2, 9, 17, 25, 29, 51, 97 vào ba nhóm. Đáp án ở dòng Parent check.",
+   "order": 1,
+   "practice": "Thư gửi phụ huynh Maths tuần 9 (mục LMS practice)",
+   "review": "Số nguyên tố và hợp số: làm Task 1 và Task 2 trong thư tuần 9 vào vở",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Số nguyên tố và hợp số: làm Task 1 và Task 2 trong thư tuần 9 vào vở",
+   "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9006509"
+  },
+  {
+   "id": "phong-myimaths-improper-lam-lai",
+   "due": "2026-10-13",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "MyiMaths: Introducing improper and mixed fractions",
+     "url": "https://app.myimaths.com/myportal/student/my_homework"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T3 13/10, buổi 2.",
+   "order": 2,
+   "practice": "MyiMaths: Introducing improper and mixed fractions",
+   "review": "Phân số lớn hơn 1 và hỗn số: làm lại bài hôm 01/10 được 67%",
+   "source": "MyiMaths",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Phân số lớn hơn 1 và hỗn số: làm lại bài hôm 01/10 được 67%",
+   "link": "https://app.myimaths.com/myportal/student/my_homework"
+  },
+  {
+   "id": "phong-esl-w9-homework-go-went",
+   "due": "2026-10-14",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Phiếu Go, Going, and Went (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503455"
+    },
+    {
+     "label": "Đáp án phiếu Go, Going, and Went",
+     "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503454"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T4 14/10, buổi 1. Làm vào vở hoặc in phiếu, rồi tự soát bằng file đáp án.",
+   "order": 1,
+   "practice": "Phiếu Go, Going, and Went (LMS)",
+   "review": "Bài tập về nhà tuần 9: go, going, went (hiện tại và quá khứ)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "CIE ESL",
+   "title": "15 phút – Bài tập về nhà tuần 9: go, going, went (hiện tại và quá khứ)",
+   "link": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503455"
+  },
+  {
+   "id": "phong-tv-t08-thao-luan-doan-van-tuong-tuong",
+   "due": "2026-10-14",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T08 Thảo luận – Tìm hiểu cách viết đoạn văn tưởng tượng",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021909"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T4 14/10, buổi 2.",
+   "order": 2,
+   "practice": "T08 Thảo luận – Tìm hiểu cách viết đoạn văn tưởng tượng",
+   "review": "Tìm hiểu cách viết đoạn văn tưởng tượng: đọc hai đoạn văn về chú gà rồi trả lời",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "15 phút – Tìm hiểu cách viết đoạn văn tưởng tượng: đọc hai đoạn văn về chú gà rồi trả lời",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021909"
+  },
+  {
+   "id": "phong-sci-w9-water-cycle-homework",
+   "due": "2026-10-15",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Water Cycle Homework (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006580"
+    },
+    {
+     "label": "Hình Water Cycle để xem lại",
+     "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006568"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T5 15/10, buổi 1.",
+   "order": 1,
+   "practice": "Water Cycle Homework (LMS)",
+   "review": "Bài tập về nhà tuần 9: vòng tuần hoàn của nước (evaporation, condensation, precipitation)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "CIE Science",
+   "title": "15 phút – Bài tập về nhà tuần 9: vòng tuần hoàn của nước (evaporation, condensation, precipitation)",
+   "link": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006580"
+  },
+  {
+   "id": "phong-vnh-quiz-gioi-thieu-danh-thang-b",
+   "due": "2026-10-15",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Quiz tự học – Giới thiệu chủ đề Danh thắng Việt Nam",
+     "url": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939921"
+    },
+    {
+     "label": "Tài liệu tự học – Giới thiệu chủ đề",
+     "url": "https://lms.vinschool.edu.vn/courses/72358/modules/items/7784013"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T5 15/10, buổi 2. Bài tuần 28/9–02/10 còn thiếu.",
+   "order": 2,
+   "practice": "Quiz tự học – Giới thiệu chủ đề Danh thắng Việt Nam",
+   "review": "Chủ đề 2 Danh thắng Việt Nam: đọc tài liệu tự học rồi làm quiz giới thiệu chủ đề",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Việt Nam học",
+   "title": "15 phút – Chủ đề 2 Danh thắng Việt Nam: đọc tài liệu tự học rồi làm quiz giới thiệu chủ đề",
+   "link": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939921"
+  },
+  {
+   "id": "phong-raz-20261016-quiz",
+   "due": "2026-10-16",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Raz-Kids Level S: quiz \"The Great Gallardo's Books\"",
+     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T6 16/10, buổi 1. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "order": 1,
+   "practice": "Raz-Kids Level S: quiz \"The Great Gallardo's Books\"",
+   "review": "Xem lại sách \"The Great Gallardo's Books\" rồi làm quiz",
+   "source": "Raz-Kids",
+   "status": "todo",
+   "subject": "Raz-Kids",
+   "title": "15 phút – Xem lại sách \"The Great Gallardo's Books\" rồi làm quiz",
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+  },
+  {
+   "id": "phong-tv-t08-viet-tim-y",
+   "due": "2026-10-17",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T08 Nhiệm vụ làm trước – Viết: Tìm ý cho đoạn văn tưởng tượng",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021912"
+    }
+   ],
+   "minutes": 20,
+   "note": "Thời gian biểu T7 17/10, buổi 1.",
+   "order": 1,
+   "practice": "T08 Nhiệm vụ làm trước – Viết: Tìm ý cho đoạn văn tưởng tượng",
+   "review": "Viết: tìm ý cho đoạn văn tưởng tượng (thêm lời thoại, thêm chi tiết, hoặc đổi kết thúc)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "20 phút – Viết: tìm ý cho đoạn văn tưởng tượng (thêm lời thoại, thêm chi tiết, hoặc đổi kết thúc)",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021912"
+  },
+  {
+   "id": "phong-maths-w9-homework-number-pattern",
+   "due": "2026-10-17",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Identifying Number Pattern Worksheet, có đáp án (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/7501871"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T7 17/10, buổi 2.",
+   "order": 2,
+   "practice": "Identifying Number Pattern Worksheet, có đáp án (LMS)",
+   "review": "Bài tập về nhà tuần 9: tìm quy luật dãy số",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Bài tập về nhà tuần 9: tìm quy luật dãy số",
+   "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/7501871"
+  },
+  {
+   "id": "phong-myimaths-fractions-as-operators",
+   "due": "2026-10-17",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "MyiMaths: Fractions as operators",
+     "url": "https://app.myimaths.com/myportal/student/my_homework"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T7 17/10, buổi 3.",
+   "order": 3,
+   "practice": "MyiMaths: Fractions as operators",
+   "review": "Tìm phân số của một nhóm đồ vật (bài thầy giao)",
+   "source": "MyiMaths",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Tìm phân số của một nhóm đồ vật (bài thầy giao)",
+   "link": "https://app.myimaths.com/myportal/student/my_homework"
+  },
+  {
+   "id": "phong-vnh-quiz-tu-hao-danh-thang-b",
+   "due": "2026-10-17",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Quiz tự học – Tự hào danh thắng Việt Nam",
+     "url": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939926"
+    },
+    {
+     "label": "Tài liệu tự học – Tự hào danh thắng Việt Nam",
+     "url": "https://lms.vinschool.edu.vn/courses/72358/modules/items/7784018"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T7 17/10, buổi 4. Bài tuần 05–09/10 còn thiếu.",
+   "order": 4,
+   "practice": "Quiz tự học – Tự hào danh thắng Việt Nam",
+   "review": "Chủ đề 2 Danh thắng Việt Nam: đọc tài liệu Tự hào danh thắng Việt Nam rồi làm quiz",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Việt Nam học",
+   "title": "15 phút – Chủ đề 2 Danh thắng Việt Nam: đọc tài liệu Tự hào danh thắng Việt Nam rồi làm quiz",
+   "link": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939926"
+  },
+  {
+   "id": "phong-wg-maths-u7-4-b",
+   "due": "2026-10-17",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Wayground Maths U7 - 4. Improper fractions & mixed numbers (13 câu)",
+     "url": "https://wayground.com/join?gc=22983277"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu T7 17/10, buổi 5. Đây là phần con còn yếu ở Unit 7.",
+   "order": 5,
+   "practice": "Wayground Maths U7 - 4. Improper fractions & mixed numbers (13 câu)",
+   "review": "Improper fractions và mixed numbers (hỗn số)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Improper fractions và mixed numbers (hỗn số)",
+   "link": "https://wayground.com/join?gc=22983277"
+  },
+  {
+   "id": "phong-tv-t07-gach-ngang-2-b",
+   "due": "2026-10-18",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "T07 Quiz – Dấu gạch ngang (2)",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226020"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu CN 18/10, buổi 1. Bài tuần 7 còn thiếu: hôm 03/10 con mới làm quiz Dấu ngoặc kép, quiz này LMS ghi chưa nộp.",
+   "order": 1,
+   "practice": "T07 Quiz – Dấu gạch ngang (2)",
+   "review": "Dấu gạch ngang (phần 2)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "10 phút – Dấu gạch ngang (phần 2)",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226020"
+  },
+  {
+   "id": "phong-esl-w9-viet-fictional-place",
+   "due": "2026-10-18",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Thư gửi phụ huynh ESL tuần 9 (mục LMS practice, Task 4)",
+     "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9005939"
+    }
+   ],
+   "minutes": 20,
+   "note": "Thời gian biểu CN 18/10, buổi 2. Viết vào vở. Cần ít nhất ba tính từ miêu tả, ba từ nối khác nhau (and, but, because, so, then) và một ý kiến có lí do. Phụ huynh xem bài viết: đây là phần con còn yếu.",
+   "order": 2,
+   "practice": "Thư gửi phụ huynh ESL tuần 9 (mục LMS practice, Task 4)",
+   "review": "Viết hai đoạn (6–8 câu) tả một nơi tưởng tượng: đoạn 1 tả hiện tại, đoạn 2 kể một lần đến thăm",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "CIE ESL",
+   "title": "20 phút – Viết hai đoạn (6–8 câu) tả một nơi tưởng tượng: đoạn 1 tả hiện tại, đoạn 2 kể một lần đến thăm",
+   "link": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9005939"
+  },
+  {
+   "id": "phong-sci-w9-lms-practice",
+   "due": "2026-10-18",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Thư gửi phụ huynh Science tuần 9 (mục LMS practice)",
+     "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006554"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu CN 18/10, buổi 3. Đáp án ở dòng Parent check.",
+   "order": 3,
+   "practice": "Thư gửi phụ huynh Science tuần 9 (mục LMS practice)",
+   "review": "Solutions: làm câu 3 và câu 4 trong thư tuần 9 vào vở (solute, solvent, solution; đọc bảng kết quả bay hơi)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "CIE Science",
+   "title": "15 phút – Solutions: làm câu 3 và câu 4 trong thư tuần 9 vào vở (solute, solvent, solution; đọc bảng kết quả bay hơi)",
+   "link": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006554"
+  },
+  {
+   "id": "phong-wg-lms-maths-mixed-wp-w8-b",
+   "due": "2026-10-18",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Wayground: Mixed Numbers and Improper Fractions – Word Problems tuần 8 (6 câu)",
+     "url": "https://wayground.com/join?gc=45447405"
+    }
+   ],
+   "minutes": 15,
+   "note": "Thời gian biểu CN 18/10, buổi 4. Phiếu LMS chuyển sang Wayground, con tự gõ đáp án (phân số gõ 1/4, hỗn số gõ 1 3/4). Đọc to đề và nói lại đề bằng tiếng Việt trước khi tính.",
+   "order": 4,
+   "practice": "Wayground: Mixed Numbers and Improper Fractions – Word Problems tuần 8 (6 câu)",
+   "review": "Mixed Numbers and Improper Fractions – Word Problems (phiếu LMS tuần 8)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "15 phút – Mixed Numbers and Improper Fractions – Word Problems (phiếu LMS tuần 8)",
+   "link": "https://wayground.com/join?gc=45447405"
+  },
+  {
+   "id": "phong-raz-20261018-quiz",
+   "due": "2026-10-18",
+   "kid": "phong",
+   "links": [
+    {
+     "label": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
+     "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+    }
+   ],
+   "minutes": 10,
+   "note": "Thời gian biểu CN 18/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "order": 5,
+   "practice": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
+   "review": "Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
+   "source": "Raz-Kids",
+   "status": "todo",
+   "subject": "Raz-Kids",
+   "title": "10 phút – Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+  },
+  {
+   "id": "phong-tv-ton-tuan-6-7",
+   "due": null,
+   "kid": "phong",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2213897",
+   "links": [
+    {
+     "label": "T06 Quiz – Luyện tập về động từ",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2213897"
+    },
+    {
+     "label": "T06 Quiz – Cặp văn bản về hải trình",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2213898"
+    },
+    {
+     "label": "T06 Nhiệm vụ trước tiết – Đọc",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/assignments/3042923"
+    },
+    {
+     "label": "T07 Nhiệm vụ trước tiết học – Đọc và giải nghĩa",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/discussion_topics/704640"
+    }
+   ],
+   "note": "Lớp đã học qua các bài này. Đưa ra khỏi thời gian biểu ngày 10/10 để giảm tải; làm bù khi con còn sức.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "Bài tồn tuần 6–7: 2 quiz và 2 nhiệm vụ đọc chưa làm"
+  },
+  {
+   "id": "phong-tv-on-giua-ki-quiz-doc-hieu",
+   "due": null,
+   "kid": "phong",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules",
+   "links": [
+    {
+     "label": "Học phần Tuần 08: tài liệu ôn tập giữa HK1",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/modules"
+    }
+   ],
+   "note": "Cô mở học phần ôn tập sau lần đọc 04/10, con chưa làm quiz nào. Bài kiểm tra đã qua nên không xếp lịch; có thể dùng để luyện đọc hiểu.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Việt",
+   "title": "6 quiz Đọc hiểu trong tài liệu ôn giữa HK1 (LMS ghi kiểm tra ngày 09/10)"
+  },
+  {
+   "id": "phong-lsdl-t07-san-pham-gio-to-b",
+   "due": null,
+   "kid": "phong",
+   "link": "https://lms.vinschool.edu.vn/courses/73707/assignments/3058674",
+   "links": [
+    {
+     "label": "T07 Hướng dẫn làm sản phẩm về Lễ hội Giỗ Tổ",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/assignments/3058674"
+    }
+   ],
+   "note": "LMS không đặt hạn và không có chỗ nộp. Hỏi con cô có yêu cầu nộp sản phẩm không.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Lịch sử và Địa lý",
+   "title": "Sản phẩm về Lễ hội Giỗ Tổ Hùng Vương"
+  },
+  {
+   "id": "phong-vnh-quiz-danh-thang-em-yeu",
+   "due": null,
+   "kid": "phong",
+   "link": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939931",
+   "links": [
+    {
+     "label": "Quiz tự học – Danh thắng em yêu",
+     "url": "https://lms.vinschool.edu.vn/courses/72358/quizzes/1939931"
+    },
+    {
+     "label": "Tài liệu tự học – Danh thắng em yêu",
+     "url": "https://lms.vinschool.edu.vn/courses/72358/modules/items/7784023"
+    }
+   ],
+   "note": "Bài của hai tuần 12–23/10. Sẽ xếp vào tuần 19–23/10, sau khi con làm xong hai quiz còn thiếu của Chủ đề 2.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Việt Nam học",
+   "title": "Quiz tự học – Danh thắng em yêu",
+   "window": "Tuần 8+9 (12–23/10)"
+  },
+  {
+   "id": "phong-wg-maths-u7-lam-them",
+   "due": null,
+   "kid": "phong",
+   "link": "https://wayground.com/join?gc=04881229",
+   "links": [
+    {
+     "label": "Wayground Maths U7 - 3. Percentages (9 câu)",
+     "url": "https://wayground.com/join?gc=04881229"
+    },
+    {
+     "label": "Wayground: Finding Fractions of a Set – Sheet 1 (10 câu)",
+     "url": "https://wayground.com/join?gc=07698669"
+    },
+    {
+     "label": "Wayground: Finding Fractions of a Set – Sheet 2 (10 câu)",
+     "url": "https://wayground.com/join?gc=66418925"
+    },
+    {
+     "label": "Wayground: Fraction Word Problems – Sheets 1 & 2 (10 câu)",
+     "url": "https://wayground.com/join?gc=53311725"
+    },
+    {
+     "label": "Wayground: Fraction Word Problems – Sheet 3 (5 câu)",
+     "url": "https://wayground.com/join?gc=32340205"
+    }
+   ],
+   "note": "Đưa ra khỏi thời gian biểu ngày 10/10 để giảm tải. Nội dung trùng với bốn bài MyiMaths thầy giao, nên con làm MyiMaths trước; các bài này chỉ làm khi con muốn luyện thêm.",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "CIE Maths",
+   "title": "Maths Unit 7 – 5 bài Wayground làm thêm, không bắt buộc"
   }
  ],
  "exams": [
@@ -2397,16 +2031,16 @@
    "date": "2026-10-05",
    "dateEnd": "2026-10-09",
    "kid": "phong",
-   "scope": "LMS ghi bài kiểm tra Unit 2 trong tuần 8 (05–09/10), chưa ghi ngày cụ thể; mục Unit 3 ghi “after Unit Test”. Ôn theo phiếu Unit_2_Review: Use of English (từ chỉ bệnh và triệu chứng; less, fewer, as much as, a little; should, mustn't, need to, could; present continuous), Reading 10 câu chọn A, B, C, và Writing 7–8 câu “My Healthy Week Plan”.",
+   "scope": "LMS ghi bài kiểm tra Unit 2 trong tuần 8 (05–09/10). Từ tuần 05/10 lớp đã sang Unit 3 Places. Chưa có điểm; điểm sẽ có trên VS One.",
    "source": "LMS",
    "subject": "CIE ESL",
    "title": "Kiểm tra Unit 2 – Food and Health"
   },
   {
    "id": "phong-tv-giuaki1",
-   "date": null,
+   "date": "2026-10-09",
    "kid": "phong",
-   "scope": "Chưa có ngày. Ngày 01–02/10 cô đã tải tài liệu ôn tập giữa HK1 lên LMS (hệ thống kiến thức Đọc hiểu, Ngôn ngữ, Viết sáng tạo; phiếu ôn Đọc hiểu; phiếu viết bài văn kể lại câu chuyện và thuật lại sự việc) nhưng học phần chưa mở cho học sinh.",
+   "scope": "LMS ghi ngày kiểm tra đánh giá là 09/10/2026. Phạm vi: Đọc hiểu, Ngôn ngữ, Viết sáng tạo (bài văn kể lại câu chuyện, thuật lại sự việc, đoạn văn nêu ý kiến). Chưa có điểm.",
    "source": "LMS",
    "subject": "Tiếng Việt",
    "title": "Kiểm tra giữa HK1"
@@ -3601,6 +3235,53 @@
    "source": "LMS",
    "subject": "KHTN",
    "title": "Quiz trước tiết học – C2.04"
+  },
+  {
+   "id": "phong-lms-3058677",
+   "date": "2026-10-03",
+   "kid": "phong",
+   "max": 10,
+   "official": false,
+   "score": 4.67,
+   "source": "LMS",
+   "subject": "Tiếng Việt",
+   "title": "T07 Quiz – Ngôn ngữ: Dấu ngoặc kép",
+   "note": "Lượt làm đầu. Câu viết cô chưa chấm."
+  },
+  {
+   "id": "phong-lms-3030790",
+   "date": "2026-10-07",
+   "kid": "phong",
+   "max": 10,
+   "official": false,
+   "score": 4.67,
+   "source": "LMS",
+   "subject": "Lịch sử và Địa lý",
+   "title": "T05 Quiz – Thiên nhiên Trung du và miền núi Bắc Bộ",
+   "note": "Lượt làm đầu, làm trong chưa đầy 4 phút."
+  },
+  {
+   "id": "phong-lms-2711931",
+   "date": "2026-10-07",
+   "kid": "phong",
+   "max": 4,
+   "official": false,
+   "score": 3,
+   "source": "LMS",
+   "subject": "Công nghệ",
+   "title": "T06 Quiz – Hoa và cây cảnh trong đời sống",
+   "note": "Lượt làm đầu."
+  },
+  {
+   "id": "phong-lms-3043916",
+   "date": "2026-10-07",
+   "kid": "phong",
+   "max": 2,
+   "official": false,
+   "score": 2,
+   "source": "LMS",
+   "subject": "Âm nhạc",
+   "title": "Bài tập mức độ dễ (tuần 6+7)"
   }
  ],
  "notes": [
@@ -3947,10 +3628,38 @@
    "status": "open",
    "subject": "Địa lý",
    "topic": "Bài kiểm tra hệ số 1 Địa lí: trung bình 6,5/10 sau 4 lượt"
+  },
+  {
+   "id": "phong-lsdl-lms-t05-quiz",
+   "activity": "Quiz T05 trên LMS",
+   "date": "2026-10-07",
+   "detail": "Lượt làm đầu 4,67/10, làm trong chưa đầy 4 phút. Trang kết quả trên LMS không hiện câu nào sai.",
+   "fix": "Phụ huynh mở quiz cùng con để xem các câu sai. Khi rõ câu sai sẽ soạn quiz sửa lỗi.",
+   "kid": "phong",
+   "level": "unknown",
+   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2204824",
+   "source": "LMS",
+   "status": "open",
+   "subject": "Lịch sử và Địa lý",
+   "topic": "T05 – Thiên nhiên Trung du và miền núi Bắc Bộ: 4,67/10"
+  },
+  {
+   "id": "phong-congnghe-lms-t06-quiz",
+   "activity": "Quiz T06 trên LMS",
+   "date": "2026-10-07",
+   "detail": "Lượt làm đầu 3/4, sai một câu. Chưa rõ câu nào.",
+   "fix": "Hỏi con câu đã sai, hoặc mở lại quiz để xem.",
+   "kid": "phong",
+   "level": "unknown",
+   "link": "https://lms.vinschool.edu.vn/courses/92073/assignments/2711931",
+   "source": "LMS",
+   "status": "open",
+   "subject": "Công nghệ",
+   "topic": "T06 – Hoa và cây cảnh trong đời sống: 3/4"
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T16:00:00+07:00",
+  "lastSync": "2026-10-10T18:00:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
@@ -3959,8 +3668,8 @@
   },
   "phong": {
    "dailyDone": "2026-10-01",
-   "sources": "Phần của Phong chưa cập nhật lại từ 04/10 (lần 10/10 chỉ đọc được LMS của Nam)",
-   "tonight": "35 phút, bài LMS trước: viết cảm nhận bài hát \"Mặt trời bay\" (10 phút), quiz Tiếng Việt Dấu gạch ngang (1) (10 phút), rồi làm nốt quiz Raz-Kids \"Critter Crossings\" (15 phút).",
+   "sources": "LMS, MyiMaths và Raz-Kids của Phong đọc lúc 17:45 thứ Bảy 10/10 · Wayground và VS One của Phong chưa đọc được lần này",
+   "tonight": "Từ hôm nay sổ xếp nhẹ hơn: ngày thường mỗi tối hai bài ngắn, thứ Sáu một bài, cuối tuần năm đến sáu bài. Tối nay ba bài: quiz Tiếng Việt Dấu gạch ngang (1), bài MyiMaths \"Fractions of amounts\", rồi làm nốt quiz Raz-Kids \"Critter Crossings\".",
    "weeklyDone": "2026-10-02"
   }
  }
