@@ -800,35 +800,99 @@
    "id": "phong-tv-ton-tuan-1-5",
    "due": null,
    "kid": "phong",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2006873",
    "links": [
     {
-     "label": "Tiếng Việt – các học phần tuần 1–5",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/modules"
+     "label": "T01 Quiz – Viết: đặc điểm của báo cáo thảo luận nhóm",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2006873"
+    },
+    {
+     "label": "T01 Quiz – Chuẩn bị trước bài học: Thi nhạc",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2006874"
+    },
+    {
+     "label": "T01 Quiz – So sánh câu chuyện dân gian khác nhau",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2006871"
+    },
+    {
+     "label": "T01 Quiz – Lập dàn ý cho bài báo cáo thảo luận nhóm",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2006872"
+    },
+    {
+     "label": "T02 Quiz – Danh từ chung, danh từ riêng",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2142306"
+    },
+    {
+     "label": "T03 Quiz – Quy tắc viết tên cơ quan, tổ chức",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2177412"
+    },
+    {
+     "label": "T04 Quiz – Luyện từ và câu: Động từ",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2189243"
+    },
+    {
+     "label": "T04 Quiz – Cách dùng và công dụng của từ điển",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2189242"
+    },
+    {
+     "label": "T04 Quiz – Đọc hiểu: Đôi tai của tâm hồn",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2189244"
+    },
+    {
+     "label": "T05 Quiz – Luyện tập về động từ",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2204821"
+    },
+    {
+     "label": "T05 Quiz – Đọc hiểu văn bản văn học: Cây sồi và cây sậy",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2204823"
+    },
+    {
+     "label": "T05 Quiz – Đọc hiểu văn bản thông tin: Cồng chiêng",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2204822"
     }
    ],
-   "note": "24 quiz và nhiệm vụ tuần 1–5 chưa làm (LMS không đặt hạn). Chưa xếp vào thời gian biểu; chờ phụ huynh quyết định có làm bù không.",
+   "note": "LMS không đặt hạn. Mỗi dòng dưới đây mở thẳng một quiz. Ngoài ra còn 12 nhiệm vụ làm trước (đọc, viết trước tiết học) của các tuần này; lớp đã học qua nên không liệt kê. Chưa xếp vào thời gian biểu; chờ phụ huynh quyết định có làm bù không.",
    "source": "LMS",
    "status": "todo",
    "subject": "Tiếng Việt",
-   "title": "Bài tồn tuần 1–5: 24 quiz và nhiệm vụ chưa làm"
+   "title": "Bài tồn tuần 1–5: 12 quiz chưa làm"
   },
   {
    "id": "phong-lsdl-ton-tuan-1-4",
    "due": null,
    "kid": "phong",
-   "link": "https://lms.vinschool.edu.vn/courses/73707/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2007432",
    "links": [
     {
-     "label": "Lịch sử và Địa lý – các học phần tuần 1–4",
-     "url": "https://lms.vinschool.edu.vn/courses/73707/modules"
+     "label": "T01 Quiz – Tìm hiểu chương trình Lịch sử và Địa lí 4",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2007432"
+    },
+    {
+     "label": "T02 Quiz – Thiên nhiên, con người địa phương (TP Hồ Chí Minh)",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2142265"
+    },
+    {
+     "label": "T02 Bài tập củng cố – Thiên nhiên, con người địa phương",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/assignments/2947179"
+    },
+    {
+     "label": "T03 Quiz – Lịch sử và văn hóa truyền thống ở TP Hồ Chí Minh",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2177414"
+    },
+    {
+     "label": "T03 Quiz – Ôn tập tổng hợp Chủ đề Địa phương em",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2177413"
+    },
+    {
+     "label": "T06 Quiz – Địa đạo Củ Chi (Học tập trải nghiệm)",
+     "url": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2213906"
     }
    ],
-   "note": "5 quiz tuần 1–4, quiz T06 Địa đạo Củ Chi và 1 bài phần Học tập trải nghiệm chưa làm (LMS không đặt hạn). Chưa xếp vào thời gian biểu; chờ phụ huynh quyết định có làm bù không.",
+   "note": "LMS không đặt hạn. Mỗi dòng dưới đây mở thẳng một bài. Chưa xếp vào thời gian biểu; chờ phụ huynh quyết định có làm bù không.",
    "source": "LMS",
    "status": "todo",
    "subject": "Lịch sử và Địa lý",
-   "title": "Bài tồn tuần 1–4: 6 bài chưa làm"
+   "title": "Bài tồn tuần 1–6: 6 bài chưa làm"
   },
   {
    "id": "nam-on-20261005-van-dethamkhao-3",
@@ -1258,20 +1322,24 @@
    "kid": "phong",
    "links": [
     {
-     "label": "MyiMaths: Fractions of amounts",
-     "url": "https://app.myimaths.com/myportal/student/my_homework"
+     "label": "MyiMaths: làm bài Fractions of amounts",
+     "url": "https://app.myimaths.com/1676-homework/fractions-of-amounts/5208094/task"
+    },
+    {
+     "label": "MyiMaths: xem bài giảng Fractions of amounts",
+     "url": "https://app.myimaths.com/1676-lesson/fractions-of-amounts"
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 10/10, buổi 2.",
+   "note": "Thời gian biểu T7 10/10, buổi 2. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
    "order": 2,
-   "practice": "MyiMaths: Fractions of amounts",
+   "practice": "MyiMaths: làm bài Fractions of amounts",
    "review": "Tìm phân số của một số lượng (bài thầy giao, MyiMaths đang báo trễ)",
    "source": "MyiMaths",
    "status": "todo",
    "subject": "CIE Maths",
    "title": "15 phút – Tìm phân số của một số lượng (bài thầy giao, MyiMaths đang báo trễ)",
-   "link": "https://app.myimaths.com/myportal/student/my_homework"
+   "link": "https://app.myimaths.com/1676-homework/fractions-of-amounts/5208094/task"
   },
   {
    "id": "phong-raz-20261010-quiz",
@@ -1284,7 +1352,7 @@
     }
    ],
    "minutes": 10,
-   "note": "Thời gian biểu T7 10/10, buổi 3. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "note": "Thời gian biểu T7 10/10, buổi 3. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
    "order": 3,
    "practice": "Raz-Kids Level S: quiz \"Critter Crossings\"",
    "review": "Làm nốt quiz đang dở của sách \"Critter Crossings\"",
@@ -1371,20 +1439,24 @@
    "kid": "phong",
    "links": [
     {
-     "label": "MyiMaths: Fractions as operators 2",
-     "url": "https://app.myimaths.com/myportal/student/my_homework"
+     "label": "MyiMaths: làm bài Fractions as operators 2",
+     "url": "https://app.myimaths.com/1746-homework/fractions-as-operators-2/5208097/task"
+    },
+    {
+     "label": "MyiMaths: xem bài giảng Fractions as operators 2",
+     "url": "https://app.myimaths.com/1746-lesson/fractions-as-operators-2"
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu CN 11/10, buổi 4.",
+   "note": "Thời gian biểu CN 11/10, buổi 4. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
    "order": 4,
-   "practice": "MyiMaths: Fractions as operators 2",
+   "practice": "MyiMaths: làm bài Fractions as operators 2",
    "review": "Tìm phân số của một số, tử số lớn hơn 1 (bài thầy giao, MyiMaths đang báo trễ)",
    "source": "MyiMaths",
    "status": "todo",
    "subject": "CIE Maths",
    "title": "15 phút – Tìm phân số của một số, tử số lớn hơn 1 (bài thầy giao, MyiMaths đang báo trễ)",
-   "link": "https://app.myimaths.com/myportal/student/my_homework"
+   "link": "https://app.myimaths.com/1746-homework/fractions-as-operators-2/5208097/task"
   },
   {
    "id": "phong-raz-20261011-quiz",
@@ -1397,7 +1469,7 @@
     }
    ],
    "minutes": 10,
-   "note": "Thời gian biểu CN 11/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "note": "Thời gian biểu CN 11/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
    "order": 5,
    "practice": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
    "review": "Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
@@ -1460,7 +1532,7 @@
     }
    ],
    "minutes": 10,
-   "note": "Thời gian biểu T2 12/10, buổi 2. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "note": "Thời gian biểu T2 12/10, buổi 2. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
    "order": 2,
    "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
    "review": "Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
@@ -1497,20 +1569,24 @@
    "kid": "phong",
    "links": [
     {
-     "label": "MyiMaths: Introducing improper and mixed fractions",
-     "url": "https://app.myimaths.com/myportal/student/my_homework"
+     "label": "MyiMaths: làm bài Introducing improper and mixed fractions",
+     "url": "https://app.myimaths.com/5998-homework/introducing-improper-and-mixed-fractions/5208096/task"
+    },
+    {
+     "label": "MyiMaths: xem bài giảng Introducing improper and mixed fractions",
+     "url": "https://app.myimaths.com/5998-lesson/introducing-improper-and-mixed-fractions"
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T3 13/10, buổi 2.",
+   "note": "Thời gian biểu T3 13/10, buổi 2. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
    "order": 2,
-   "practice": "MyiMaths: Introducing improper and mixed fractions",
+   "practice": "MyiMaths: làm bài Introducing improper and mixed fractions",
    "review": "Phân số lớn hơn 1 và hỗn số: làm lại bài hôm 01/10 được 67%",
    "source": "MyiMaths",
    "status": "todo",
    "subject": "CIE Maths",
    "title": "15 phút – Phân số lớn hơn 1 và hỗn số: làm lại bài hôm 01/10 được 67%",
-   "link": "https://app.myimaths.com/myportal/student/my_homework"
+   "link": "https://app.myimaths.com/5998-homework/introducing-improper-and-mixed-fractions/5208096/task"
   },
   {
    "id": "phong-esl-w9-homework-go-went",
@@ -1619,7 +1695,7 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T6 16/10, buổi 1. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "note": "Thời gian biểu T6 16/10, buổi 1. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
    "order": 1,
    "practice": "Raz-Kids Level S: quiz \"The Great Gallardo's Books\"",
    "review": "Xem lại sách \"The Great Gallardo's Books\" rồi làm quiz",
@@ -1677,20 +1753,24 @@
    "kid": "phong",
    "links": [
     {
-     "label": "MyiMaths: Fractions as operators",
-     "url": "https://app.myimaths.com/myportal/student/my_homework"
+     "label": "MyiMaths: làm bài Fractions as operators",
+     "url": "https://app.myimaths.com/1759-homework/fractions-as-operators/5208093/task"
+    },
+    {
+     "label": "MyiMaths: xem bài giảng Fractions as operators",
+     "url": "https://app.myimaths.com/1759-lesson/fractions-as-operators"
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 17/10, buổi 3.",
+   "note": "Thời gian biểu T7 17/10, buổi 3. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
    "order": 3,
-   "practice": "MyiMaths: Fractions as operators",
+   "practice": "MyiMaths: làm bài Fractions as operators",
    "review": "Tìm phân số của một nhóm đồ vật (bài thầy giao)",
    "source": "MyiMaths",
    "status": "todo",
    "subject": "CIE Maths",
    "title": "15 phút – Tìm phân số của một nhóm đồ vật (bài thầy giao)",
-   "link": "https://app.myimaths.com/myportal/student/my_homework"
+   "link": "https://app.myimaths.com/1759-homework/fractions-as-operators/5208093/task"
   },
   {
    "id": "phong-vnh-quiz-tu-hao-danh-thang-b",
@@ -1812,7 +1892,7 @@
     }
    ],
    "minutes": 10,
-   "note": "Thời gian biểu CN 18/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz.",
+   "note": "Thời gian biểu CN 18/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
    "order": 5,
    "practice": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
    "review": "Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
@@ -1855,11 +1935,31 @@
    "id": "phong-tv-on-giua-ki-quiz-doc-hieu",
    "due": null,
    "kid": "phong",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/modules",
+   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2236131",
    "links": [
     {
-     "label": "Học phần Tuần 08: tài liệu ôn tập giữa HK1",
-     "url": "https://lms.vinschool.edu.vn/courses/73709/modules"
+     "label": "Quiz Đọc hiểu: Hành trình của Thomas Edison và bóng đèn điện",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2236131"
+    },
+    {
+     "label": "Quiz Đọc hiểu: Đi làm nương",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2236132"
+    },
+    {
+     "label": "Quiz Đọc hiểu: Sự tích hoa mào gà",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2236133"
+    },
+    {
+     "label": "Quiz Đọc hiểu: Sa Pa",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2238288"
+    },
+    {
+     "label": "Quiz Đọc hiểu: Sáng tạo vì cuộc sống",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2238287"
+    },
+    {
+     "label": "Quiz Đọc hiểu: Lòng tốt tạo nên tương lai",
+     "url": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2238286"
     }
    ],
    "note": "Cô mở học phần ôn tập sau lần đọc 04/10, con chưa làm quiz nào. Bài kiểm tra đã qua nên không xếp lịch; có thể dùng để luyện đọc hiểu.",
@@ -3690,7 +3790,7 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T18:40:00+07:00",
+  "lastSync": "2026-10-10T20:25:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
