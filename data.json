@@ -3740,20 +3740,6 @@
    "topic": "Chương 1 – bài kiểm tra thường xuyên 1: lần đầu 5/10, điểm chính thức đã sửa lên 7/10"
   },
   {
-   "id": "nam-ls-wg1-cachlam",
-   "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
-   "date": "2026-10-01",
-   "detail": "Điểm 15/15 ở lượt tốt nhất có thể do nhớ đáp án sau khi làm lặp lại. Cần kiểm tra lại bằng câu hỏi mới hoặc tự luận.",
-   "fix": "Con đã làm bài tự luận và đề thi thử ngày 03–04/10. Theo dõi tiếp ở các bài sau: nhắc con đọc hết đề rồi mới chọn.",
-   "kid": "nam",
-   "level": "habit",
-   "link": "https://wayground.com/join?gc=53969902",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "Lịch sử",
-   "topic": "Trả lời rất nhanh: trung bình 1–7 giây mỗi câu qua 4 lượt làm"
-  },
-  {
    "id": "nam-ta-progress-check-1",
    "activity": "Progress Check 1",
    "date": "2026-10-02",
@@ -3765,34 +3751,6 @@
    "status": "open",
    "subject": "Tiếng Anh",
    "topic": "Progress Check 1: 6 điểm"
-  },
-  {
-   "id": "nam-ls-sualoi-1",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-03",
-   "detail": "Gồm 10 câu Nam từng trả lời sai ở các bài Lịch sử trên Wayground.",
-   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=26021101",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "Lịch sử",
-   "topic": "Quiz sửa lỗi Lịch sử – phần 1/2 (10 câu)"
-  },
-  {
-   "id": "nam-ls-sualoi-2",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-03",
-   "detail": "Gồm 9 câu Nam từng trả lời sai ở các bài Lịch sử trên Wayground. Từ 04/10 quiz dùng câu mới cùng dạng hoặc đổi cách hỏi, không lặp lại nguyên câu cũ.",
-   "fix": "Làm quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=05049581",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "Lịch sử",
-   "topic": "Quiz sửa lỗi Lịch sử – phần 2/2 (9 câu)"
   },
   {
    "id": "nam-khtn-sualoi-1",
@@ -3992,7 +3950,7 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T15:45:00+07:00",
+  "lastSync": "2026-10-10T16:00:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
