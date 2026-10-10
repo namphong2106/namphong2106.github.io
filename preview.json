@@ -7,7 +7,7 @@
    "from": "2026-10-12",
    "to": "2026-10-16",
    "updated": "2026-10-10",
-   "note": "Lấy từ LMS ngày 10/10. Tuần này KHTN kiểm tra chương 2 và giữa học kì 1. Toán và Tiếng Anh: LMS chưa mở mục cho tuần 12–16/10, nên phần dưới ghi bài đang học dở và các quiz con chưa làm.",
+   "note": "Lấy từ LMS ngày 10/10. Tuần này KHTN kiểm tra chương 2 và giữa học kì 1. Toán và Tiếng Anh: LMS chưa mở mục cho tuần 12–16/10, nên phần dưới ghi bài đang học dở. Thời gian biểu tuần này xếp nhẹ theo mức con thực làm tuần trước: ngày thường mỗi tối một bài.",
    "subjects": [
     {
      "subject": "KHTN",
@@ -48,7 +48,7 @@
     {
      "subject": "Tiếng Anh",
      "summary": "Unit 3 · Lesson 3.1 My City và Lesson 3.4 You and Your Community",
-     "status": "LMS chưa mở mục Week 9 (12/10–16/10); mục mới nhất là Week 8 (05/10–09/10) với hai bài của Unit 3. Ba quiz MUST DO của Lesson 3.4 con chưa làm.",
+     "status": "LMS chưa mở mục Week 9 (12/10–16/10); mục mới nhất là Week 8 (05/10–09/10) với hai bài của Unit 3. Ba quiz MUST DO của Lesson 3.4 con chưa làm; sổ xếp vào cuối tuần 17–18/10.",
      "lessons": [
       {
        "title": "Lesson 3.1 · My City",
@@ -105,14 +105,14 @@
       }
      ],
      "watch": [
-      "Còn 5 quiz Must-do của Week 7 chưa làm: Reading practice 1 và 2, Grammar practice 1, hai bài Listening practice 1.",
+      "Năm quiz Must-do của Week 7 (bài ôn Progress Check 1) chưa làm; tuần này sổ không xếp.",
       "Grammar practice 2 làm ngày 06/10 được 0/10."
      ]
     },
     {
      "subject": "Toán",
      "summary": "Chương 3 · làm nốt quiz Bài 3.1–3.3, đọc trước Bài 3.4",
-     "status": "LMS chưa mở bài mới cho tuần 12/10–16/10. Ba mục mới nhất là Bài 3.1, 3.2, 3.3 (05/10–09/10) và cả ba quiz con chưa làm. Kiểm tra giữa kì thứ Sáu 23/10 lấy đến hết Bài 3.4.",
+     "status": "LMS chưa mở bài mới cho tuần 12/10–16/10. Ba mục mới nhất là Bài 3.1, 3.2, 3.3 (05/10–09/10) và cả ba quiz con chưa làm; sổ xếp Bài 3.1 thứ Tư 14/10, Bài 3.2 thứ Sáu 16/10, Bài 3.3 thứ Bảy 17/10. Kiểm tra giữa kì thứ Sáu 23/10 lấy đến hết Bài 3.4.",
      "lessons": [
       {
        "title": "Bài 3.1 · Phép nhân và phép chia cho lũy thừa của 10",

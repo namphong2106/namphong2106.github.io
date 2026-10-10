@@ -423,31 +423,6 @@
    "title": "50 phút – Chương 1 Quang hợp: ôn kĩ thí nghiệm chứng minh khí oxygen, rồi làm bài ôn cô phát trong tiết"
   },
   {
-   "id": "nam-on-20261003-khtn-c2",
-   "due": "2026-10-10",
-   "kid": "nam",
-   "link": "https://claude.ai/artifact/Uk8kQuHheQKKsBJdMAHDAX",
-   "links": [
-    {
-     "label": "Phiếu Ôn tập Nguyên tử và Bảng tuần hoàn (19 câu)",
-     "url": "https://claude.ai/artifact/Uk8kQuHheQKKsBJdMAHDAX"
-    },
-    {
-     "label": "Phiếu ôn bổ sung KHTN 8 – Bài 2.1 & 2.2",
-     "url": "https://claude.ai/artifact/1gumMnHx14UVTWMwsSHNeS"
-    }
-   ],
-   "minutes": 50,
-   "note": "Dời từ thứ Ba 06/10 (chưa làm). Kiểm tra chương 2 thứ Hai 12/10.",
-   "order": 3,
-   "practice": "Phiếu Ôn tập Nguyên tử và Phiếu ôn bổ sung Bài 2.1 & 2.2",
-   "review": "Chương 2: nguyên tử",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "3 · KHTN",
-   "title": "50 phút – Chương 2 Nguyên tử: làm phiếu Ôn tập Nguyên tử và Phiếu ôn bổ sung Bài 2.1 & 2.2"
-  },
-  {
    "id": "nam-on-20261003-ls-tuluan",
    "due": "2026-10-03",
    "kid": "nam",
@@ -479,91 +454,15 @@
      "url": "https://claude.ai/artifact/YbRwc4pHffEj3JuFKpG1bp"
     }
    ],
-   "minutes": 50,
-   "note": "Dời từ thứ Tư 07/10 (chưa làm). Kiểm tra chương 2 thứ Hai 12/10.",
-   "order": 1,
+   "minutes": 40,
+   "note": "Phần con yếu nhất của chương 2 (quiz C2.03 lượt đầu 5/10). Nếu hết giờ thì dừng ở 40 phút.",
+   "order": 2,
    "practice": "Phiếu khắc phục lỗi KHTN 8 – lần 2",
    "review": "Chương 2: phân tử, liên kết hóa học",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "1 · KHTN",
-   "title": "50 phút – Chương 2 Phân tử, liên kết hóa học: làm Phiếu khắc phục lỗi KHTN 8 – lần 2"
-  },
-  {
-   "id": "nam-on-20261006-khtn-tonghop-1",
-   "due": "2026-10-10",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 1/4"
-    }
-   ],
-   "minutes": 10,
-   "note": "Dời từ thứ Ba 06/10. Bài ôn cô phát chia thành 4 phần, làm lại lần lượt.",
-   "order": 6,
-   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 1/4",
-   "review": "Tổng hợp chương 1 và 2 (phần 1/4)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "6 · KHTN",
-   "title": "10 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 1/4"
-  },
-  {
-   "id": "nam-on-20261007-khtn-tonghop-2",
-   "due": "2026-10-11",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 2/4"
-    }
-   ],
-   "minutes": 10,
-   "note": "Dời từ thứ Tư 07/10.",
-   "order": 5,
-   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 2/4",
-   "review": "Tổng hợp chương 1 và 2 (phần 2/4)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "5 · KHTN",
-   "title": "10 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 2/4"
-  },
-  {
-   "id": "nam-on-20261008-khtn-tonghop-3",
-   "due": "2026-10-12",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 3/4"
-    }
-   ],
-   "minutes": 15,
-   "note": "Dời từ thứ Năm 08/10. Sáng mai thứ Ba 13/10 kiểm tra giữa kì KHTN (chương 1 và 2).",
-   "order": 1,
-   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 3/4",
-   "review": "Tổng hợp chương 1 và 2 (phần 3/4)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "1 · KHTN",
-   "title": "15 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 3/4"
-  },
-  {
-   "id": "nam-on-20261009-khtn-tonghop-4",
-   "due": "2026-10-12",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Bài ôn giữa kì cô Huệ phát (bản giấy, không có link) – phần 4/4"
-    }
-   ],
-   "minutes": 10,
-   "note": "Dời từ thứ Sáu 09/10. Sáng mai thứ Ba 13/10 kiểm tra giữa kì KHTN.",
-   "order": 2,
-   "practice": "Bài ôn giữa kì cô Huệ phát (bản giấy), làm lại phần 4/4",
-   "review": "Tổng hợp chương 1 và 2 (phần 4/4)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
    "subject": "2 · KHTN",
-   "title": "10 phút – Tổng hợp chương 1 và 2: làm lại bài ôn cô phát, phần 4/4"
+   "title": "40 phút – KHTN chương 2: Phiếu khắc phục lỗi lần 2 (phân tử, liên kết hóa học)"
   },
   {
    "id": "nam-on-20261004-ls-thithu-tn",
@@ -721,77 +620,6 @@
    "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing C và Grammar practice 2"
   },
   {
-   "id": "nam-ta-ngay-20261007",
-   "due": "2026-10-14",
-   "kid": "nam",
-   "link": "https://wayground.com/join?gc=57285102",
-   "links": [
-    {
-     "label": "Daily Writing E – Short paragraph writing (language exchange)",
-     "url": "https://wayground.com/join?gc=57285102"
-    },
-    {
-     "label": "[Must-do] Reading practice 1 – Multiple choice (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963"
-    }
-   ],
-   "minutes": 40,
-   "note": "Dời từ thứ Tư 07/10 (chưa làm).",
-   "order": 2,
-   "practice": "Wayground Daily Writing E; LMS [Must-do] Reading practice 1",
-   "review": "Viết đoạn ngắn; đọc hiểu trắc nghiệm (2 bài)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "2 · Tiếng Anh",
-   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing E và Reading practice 1"
-  },
-  {
-   "id": "nam-ta-ngay-20261008",
-   "due": "2026-10-16",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959",
-   "links": [
-    {
-     "label": "[Must-do] Reading practice 2 – Gap-filling (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959"
-    }
-   ],
-   "minutes": 20,
-   "note": "Dời từ thứ Năm 08/10 (chưa làm). Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
-   "order": 3,
-   "practice": "LMS [Must-do] Reading practice 2",
-   "review": "Đọc hiểu điền từ (1 bài)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "3 · Tiếng Anh",
-   "title": "20 phút – Tiếng Anh hằng ngày: Reading practice 2"
-  },
-  {
-   "id": "nam-ta-ngay-20261009",
-   "due": "2026-10-15",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961",
-   "links": [
-    {
-     "label": "[Must-do] Listening practice 1 – MCQs (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961"
-    },
-    {
-     "label": "[Must-do] Listening practice 1 – Gap-filling (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224958"
-    }
-   ],
-   "minutes": 30,
-   "note": "Dời từ thứ Sáu 09/10 (chưa làm).",
-   "order": 1,
-   "practice": "LMS [Must-do] Listening practice 1 – MCQs và Gap-filling",
-   "review": "Nghe hiểu: trắc nghiệm và điền từ (2 bài)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "1 · Tiếng Anh",
-   "title": "30 phút – Tiếng Anh hằng ngày: 2 quiz Listening practice 1"
-  },
-  {
    "id": "nam-toan-quiz-2-10",
    "doneAt": "2026-09-30T20:51:00+07:00",
    "due": "2026-10-02",
@@ -839,44 +667,6 @@
    "title": "Quiz tự học CĐ2 Tiết 1 – Tục thờ Thành Hoàng"
   },
   {
-   "id": "nam-khtn-bt-2-3",
-   "due": "2026-10-10",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Bài tập bài 2.3 cô Huệ giao (bản giấy, không có link)"
-    }
-   ],
-   "minutes": 30,
-   "note": "Dời từ thứ Ba 06/10 (chưa tích). Nếu con đã làm ở lớp thì tích luôn.",
-   "order": 5,
-   "practice": "Bài tập bài 2.3 cô Huệ giao (bản giấy, không có link)",
-   "review": "Bài 2.3 (chương 2)",
-   "source": "VS One",
-   "status": "todo",
-   "subject": "5 · KHTN",
-   "title": "30 phút – Làm bài tập bài 2.3 (cô Huệ giao tuần 05–10/10)"
-  },
-  {
-   "id": "nam-khtn-bt-2-4",
-   "due": "2026-10-11",
-   "kid": "nam",
-   "links": [
-    {
-     "label": "Bài tập bài 2.4 cô Huệ giao (bản giấy, không có link)"
-    }
-   ],
-   "minutes": 30,
-   "note": "Dời từ thứ Tư 07/10 (chưa tích). Câu nào chưa hiểu thì ghi lại để hỏi cô trong buổi ôn chiều thứ Hai.",
-   "order": 2,
-   "practice": "Bài tập bài 2.4 cô Huệ giao (bản giấy, không có link)",
-   "review": "Bài 2.4 (chương 2)",
-   "source": "VS One",
-   "status": "todo",
-   "subject": "2 · KHTN",
-   "title": "30 phút – Làm bài tập bài 2.4 (cô Huệ giao tuần 05–10/10)"
-  },
-  {
    "id": "nam-khtn-buoi-on-2",
    "due": "2026-10-12",
    "dueTime": "15:30–16:30",
@@ -896,19 +686,19 @@
      "label": "Hướng dẫn ôn tập cô Huệ phát (bản giấy, không có link)"
     }
    ],
-   "minutes": 60,
-   "note": "Kiểm tra chương 2 thứ Hai 12/10.",
-   "order": 4,
+   "minutes": 45,
+   "note": "Kiểm tra chương 2 thứ Hai 12/10. Chỉ ôn theo tài liệu cô phát, không làm thêm phiếu ngoài.",
+   "order": 3,
    "practice": "Hướng dẫn ôn tập cô Huệ phát (bản giấy); các câu sai ở bài tập 2.3, 2.4",
    "review": "Lí thuyết chương 2: nguyên tử, phân tử, liên kết hóa học",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "4 · KHTN",
-   "title": "60 phút – Ôn lí thuyết chương 2 theo hướng dẫn ôn tập của cô, làm lại các câu sai ở bài tập 2.3, 2.4"
+   "subject": "3 · KHTN",
+   "title": "45 phút – KHTN chương 2: ôn lí thuyết theo hướng dẫn ôn tập của cô, xem lại các câu sai ở bài tập 2.3 và 2.4"
   },
   {
    "id": "nam-on-20261011-khtn-c1",
-   "due": "2026-10-11",
+   "due": "2026-10-12",
    "kid": "nam",
    "links": [
     {
@@ -916,14 +706,14 @@
     }
    ],
    "minutes": 30,
-   "note": "Thời gian biểu CN 11/10, buổi 2. Giữa kì KHTN thứ Ba 13/10 gồm chương 1 và chương 2.",
-   "order": 4,
+   "note": "Tối trước ngày kiểm tra giữa kì. Xem thêm các câu chương 1 trong bài ôn cô phát.",
+   "order": 1,
    "practice": "Hướng dẫn ôn tập cô Huệ phát, phần chương 1 (bản giấy)",
    "review": "Chương 1 Quang hợp: thí nghiệm chứng minh khí oxygen, cấu tạo lá – lục lạp, trao đổi carbon",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "4 · KHTN",
-   "title": "30 phút – Ôn lại lí thuyết chương 1 Quang hợp cho bài giữa kì thứ Ba 13/10"
+   "subject": "1 · KHTN",
+   "title": "30 phút – KHTN: ôn lại lí thuyết chương 1 Quang hợp cho bài giữa kì sáng thứ Ba 13/10"
   },
   {
    "id": "nam-on-20261011-khtn-c2",
@@ -939,13 +729,13 @@
     }
    ],
    "minutes": 60,
-   "note": "Kiểm tra chương 2 thứ Hai 12/10. Làm xong thì đối chiếu với file gợi ý đáp án cô mới đăng trên LMS.",
-   "order": 3,
+   "note": "Kiểm tra chương 2 thứ Hai 12/10. Làm xong thì đối chiếu với file gợi ý đáp án cô đăng trên LMS; câu nào chưa hiểu ghi lại để hỏi cô trong buổi ôn chiều thứ Hai.",
+   "order": 1,
    "practice": "Bài tập ôn cô Huệ phát, phần chương 2 (bản giấy), làm lại có bấm giờ",
    "review": "Tổng ôn chương 2 (lí thuyết và bài tập)",
    "source": "Kế hoạch ôn",
    "status": "todo",
-   "subject": "3 · KHTN",
+   "subject": "1 · KHTN",
    "title": "60 phút – Tổng ôn chương 2 trước bài kiểm tra thứ Hai: làm lại bài tập ôn cô phát (phần chương 2), có bấm giờ"
   },
   {
@@ -2207,7 +1997,7 @@
   },
   {
    "id": "nam-toan-quiz-3-1",
-   "due": "2026-10-11",
+   "due": "2026-10-14",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/pages/hdth-bai-3-dot-1-phep-nhan-va-phep-chia-cho-luy-thua-cua-10",
    "links": [
@@ -2221,13 +2011,13 @@
     }
    ],
    "minutes": 20,
-   "note": "Bài của tuần 05–09/10, LMS ghi con chưa làm quiz. Kiểm tra giữa kì Toán thứ Sáu 23/10 lấy đến hết Bài 3.4.",
-   "order": 6,
+   "note": "Bài của tuần 05–09/10, LMS ghi con chưa làm quiz. Hôm nay cũng là hạn cuối bài kiểm tra hệ số 1 Địa lí (23:59), nếu Chủ nhật chưa làm.",
+   "order": 1,
    "practice": "[QUIZ] Bài 3.1 (LMS)",
    "review": "Bài 3.1: nhân, chia với lũy thừa của 10",
    "source": "LMS",
    "status": "todo",
-   "subject": "6 · Toán",
+   "subject": "1 · Toán",
    "title": "20 phút – Toán: quiz Bài 3.1 – Phép nhân và phép chia cho lũy thừa của 10"
   },
   {
@@ -2243,17 +2033,17 @@
    ],
    "minutes": 20,
    "note": "Con đã làm 4 lượt, điểm đang là 6,5/10. LMS tính trung bình các lượt: lượt điểm cao kéo điểm lên, lượt làm vội kéo điểm xuống, nên ôn kĩ rồi mới làm. 10 câu, 15 phút.",
-   "order": 7,
+   "order": 3,
    "practice": "Bài kiểm tra hệ số 1 – lần 1 (LMS)",
    "review": "Xem lại các câu đã sai ở 4 lượt trước",
    "source": "LMS",
    "status": "todo",
-   "subject": "7 · Địa lý",
+   "subject": "3 · Địa lý",
    "title": "20 phút – Địa lí: ôn lại rồi làm thêm một lượt bài kiểm tra hệ số 1 (hạn thứ Tư 14/10)"
   },
   {
    "id": "nam-toan-quiz-3-2",
-   "due": "2026-10-12",
+   "due": "2026-10-16",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/pages/hdth-bai-3-dot-2-phep-nhan-va-phep-chia-so-thap-phan",
    "links": [
@@ -2268,17 +2058,17 @@
    ],
    "minutes": 20,
    "note": "Bài của tuần 05–09/10, LMS ghi con chưa làm quiz. Cô đặt mục tiêu đúng từ 8/10 câu.",
-   "order": 3,
+   "order": 1,
    "practice": "[QUIZ] Bài 3.2 (LMS)",
    "review": "Bài 3.2: nhân, chia số thập phân",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Toán",
+   "subject": "1 · Toán",
    "title": "20 phút – Toán: quiz Bài 3.2 – Phép nhân và phép chia số thập phân"
   },
   {
    "id": "nam-van-tuan10-tu-hoc",
-   "due": "2026-10-12",
+   "due": "2026-10-15",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88863/pages/huong-dan-tu-hoc-tuan-10",
    "links": [
@@ -2293,17 +2083,17 @@
    ],
    "minutes": 30,
    "note": "Cô mở mục Tuần 10 (12/10–23/10) ngày 09/10. Bài tập củng cố Tuần 10 làm sau khi học trên lớp.",
-   "order": 4,
+   "order": 1,
    "practice": "QUIZ TỰ HỌC TUẦN 10 (LMS)",
    "review": "Hịch tướng sĩ: đọc Hướng dẫn tự học tuần 10",
    "source": "LMS",
    "status": "todo",
-   "subject": "4 · Ngữ văn",
+   "subject": "1 · Ngữ văn",
    "title": "30 phút – Ngữ văn tuần 10 (Hịch tướng sĩ): đọc Hướng dẫn tự học rồi làm Quiz tự học tuần 10"
   },
   {
    "id": "nam-ls-truoc-tiet-dang-ngoai",
-   "due": "2026-10-12",
+   "due": "2026-10-13",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/57207/assignments/3092965",
    "links": [
@@ -2313,18 +2103,18 @@
     }
    ],
    "minutes": 15,
-   "note": "Cô đăng ngày 10/10. Sổ chưa biết tiết Lịch sử tuần này vào thứ mấy; nếu có tiết ngay thứ Hai thì làm trước từ Chủ nhật.",
-   "order": 5,
+   "note": "Cô đăng ngày 10/10. Sổ chưa biết tiết Lịch sử tuần này vào thứ mấy; nếu có tiết sớm hơn thì làm trước.",
+   "order": 1,
    "practice": "[Kiến thức cơ bản] [Bài tập trước tiết học] (LMS)",
    "review": "Phong trào nông dân Đàng Ngoài thế kỉ XVIII",
    "source": "LMS",
    "status": "todo",
-   "subject": "5 · Lịch sử",
+   "subject": "1 · Lịch sử",
    "title": "15 phút – Lịch sử: bài tập trước tiết học – Phong trào nông dân Đàng Ngoài thế kỉ XVIII"
   },
   {
    "id": "nam-toan-quiz-3-3",
-   "due": "2026-10-13",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/pages/hdth-bai-3-dot-3-hieu-ve-phan-tram-kep",
    "links": [
@@ -2338,7 +2128,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Bài của tuần 05–09/10, LMS ghi con chưa làm quiz.",
+   "note": "Bài của tuần 05–09/10. Kiểm tra giữa kì Toán thứ Sáu 23/10. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
    "order": 1,
    "practice": "[QUIZ] Bài 3.3 (LMS)",
    "review": "Bài 3.3: phần trăm kép",
@@ -2349,7 +2139,7 @@
   },
   {
    "id": "nam-ta-u34-reading-grammar",
-   "due": "2026-10-13",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/pages/self-study-instruction-6",
    "links": [
@@ -2367,7 +2157,7 @@
     }
    ],
    "minutes": 30,
-   "note": "Thầy mở ngày 07/10 trong mục Week 8, con chưa làm. Mỗi ngày chỉ 1–2 bài Tiếng Anh.",
+   "note": "Thầy mở ngày 07/10 trong mục Week 8, con chưa làm. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
    "order": 2,
    "practice": "LMS [MUST DO] 3.4 Reading Practice; [MUST DO] Grammar practice",
    "review": "Đọc Self-study instruction: động từ, tính từ, giới từ đi với V-ing",
@@ -2389,42 +2179,17 @@
    ],
    "minutes": 25,
    "note": "Cô đăng ngày 09/10. Việc: phân nhóm các kí hiệu khoáng sản trên bản đồ; tìm hiểu nguồn gốc và công dụng của 3–5 loại khoáng sản; làm cá nhân, nộp trên LMS.",
-   "order": 3,
+   "order": 2,
    "practice": "Bài tập làm trước tiết học Bài 4 (LMS)",
    "review": "Bài 4: khoáng sản Việt Nam (xem bản đồ khoáng sản trong Atlat hoặc SGK)",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Địa lý",
+   "subject": "2 · Địa lý",
    "title": "25 phút – Địa lí: bài tập làm trước tiết học – Bài 4: Đặc điểm khoáng sản Việt Nam (Tiết 1)"
   },
   {
-   "id": "nam-gdcd-quiz-1-2",
-   "due": "2026-10-13",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238471",
-   "links": [
-    {
-     "label": "Bài 1 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238471"
-    },
-    {
-     "label": "Bài 2 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238467"
-    }
-   ],
-   "minutes": 20,
-   "note": "LMS mở 10 quiz tự học và các bài kiểm tra của môn này, hạn kiểm tra 31/10. Mỗi ngày làm 2 quiz; bài nào lớp chưa học tới thì để lại.",
-   "order": 4,
-   "practice": "Bài 1_Quiz tự học; Bài 2_Quiz tự học (LMS)",
-   "review": "GDCD Bài 1 và Bài 2",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "4 · Giáo dục công dân",
-   "title": "20 phút – Giáo dục công dân: Quiz tự học Bài 1 và Bài 2"
-  },
-  {
    "id": "nam-ta-u34-listening-reflection",
-   "due": "2026-10-14",
+   "due": "2026-10-18",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248473",
    "links": [
@@ -2438,7 +2203,7 @@
     }
    ],
    "minutes": 30,
-   "note": "Thầy mở ngày 07/10 trong mục Week 8, con chưa làm.",
+   "note": "Thầy mở ngày 07/10 trong mục Week 8, con chưa làm. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
    "order": 1,
    "practice": "LMS [MUST DO] 3.4 Listening practice; After class task – Reflection",
    "review": "Lesson 3.4 You and Your Community: nghe và viết phần tự nhận xét",
@@ -2448,54 +2213,8 @@
    "title": "30 phút – Tiếng Anh Lesson 3.4: Listening practice và After class task – Reflection"
   },
   {
-   "id": "nam-gdcd-quiz-3-4",
-   "due": "2026-10-14",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238473",
-   "links": [
-    {
-     "label": "Bài 3 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238473"
-    },
-    {
-     "label": "Bài 4 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238468"
-    }
-   ],
-   "minutes": 20,
-   "note": "Bài nào lớp chưa học tới thì để lại. Hôm nay cũng là hạn cuối bài kiểm tra hệ số 1 Địa lí (23:59).",
-   "order": 3,
-   "practice": "Bài 3_Quiz tự học; Bài 4_Quiz tự học (LMS)",
-   "review": "GDCD Bài 3 và Bài 4",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "3 · Giáo dục công dân",
-   "title": "20 phút – Giáo dục công dân: Quiz tự học Bài 3 và Bài 4"
-  },
-  {
-   "id": "nam-ta-grammar-practice-1",
-   "due": "2026-10-15",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224962",
-   "links": [
-    {
-     "label": "[Must-do] Grammar practice 1 – MCQs (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224962"
-    }
-   ],
-   "minutes": 20,
-   "note": "Quiz Must-do của Week 7, LMS ghi con chưa làm. Làm chậm, đọc kĩ đề: bài Grammar practice 2 ngày 06/10 được 0/10.",
-   "order": 2,
-   "practice": "LMS [Must-do] Grammar practice 1 – MCQs",
-   "review": "Ngữ pháp Unit 2 (trắc nghiệm)",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "2 · Tiếng Anh",
-   "title": "20 phút – Tiếng Anh: [Must-do] Grammar practice 1 – MCQs"
-  },
-  {
    "id": "nam-hdtn-hs1-bai1",
-   "due": "2026-10-15",
+   "due": "2026-10-18",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/165813/quizzes/2231307",
    "links": [
@@ -2505,43 +2224,18 @@
     }
    ],
    "minutes": 15,
-   "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Trước khi bấm làm, xem LMS cho mấy lượt.",
-   "order": 3,
+   "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Trước khi bấm làm, xem LMS cho mấy lượt. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
+   "order": 2,
    "practice": "HK1_Kiểm tra HS1 (Bài 1) (LMS)",
    "review": "Xem lại bài đã học trước khi làm",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Hoạt động trải nghiệm",
+   "subject": "2 · Hoạt động trải nghiệm",
    "title": "15 phút – Hoạt động trải nghiệm: HK1 – Kiểm tra HS1 (Bài 1)"
   },
   {
-   "id": "nam-gdcd-quiz-5-6",
-   "due": "2026-10-15",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238469",
-   "links": [
-    {
-     "label": "Bài 5 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238469"
-    },
-    {
-     "label": "Bài 6 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238464"
-    }
-   ],
-   "minutes": 20,
-   "note": "Bài nào lớp chưa học tới thì để lại.",
-   "order": 4,
-   "practice": "Bài 5_Quiz tự học; Bài 6_Quiz tự học (LMS)",
-   "review": "GDCD Bài 5 và Bài 6",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "4 · Giáo dục công dân",
-   "title": "20 phút – Giáo dục công dân: Quiz tự học Bài 5 và Bài 6"
-  },
-  {
    "id": "nam-hdtn-hs1-bai2",
-   "due": "2026-10-16",
+   "due": "2026-10-18",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/165813/quizzes/2231295",
    "links": [
@@ -2551,39 +2245,14 @@
     }
    ],
    "minutes": 15,
-   "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Còn hai bài HS2 và HS3 làm tuần sau.",
-   "order": 1,
+   "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Hai bài HS2 và HS3 làm tuần sau nữa. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
+   "order": 3,
    "practice": "HK1_Kiểm tra HS1 (Bài 2) (LMS)",
    "review": "Xem lại bài đã học trước khi làm",
    "source": "LMS",
    "status": "todo",
-   "subject": "1 · Hoạt động trải nghiệm",
+   "subject": "3 · Hoạt động trải nghiệm",
    "title": "15 phút – Hoạt động trải nghiệm: HK1 – Kiểm tra HS1 (Bài 2)"
-  },
-  {
-   "id": "nam-gdcd-quiz-7-8",
-   "due": "2026-10-16",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238465",
-   "links": [
-    {
-     "label": "Bài 7 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238465"
-    },
-    {
-     "label": "Bài 8 – Quiz tự học (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238470"
-    }
-   ],
-   "minutes": 20,
-   "note": "Bài nào lớp chưa học tới thì để lại.",
-   "order": 2,
-   "practice": "Bài 7_Quiz tự học; Bài 8_Quiz tự học (LMS)",
-   "review": "GDCD Bài 7 và Bài 8",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "2 · Giáo dục công dân",
-   "title": "20 phút – Giáo dục công dân: Quiz tự học Bài 7 và Bài 8"
   },
   {
    "id": "nam-ph-dia-xin-nop-muon",
@@ -2607,6 +2276,56 @@
    "subject": "Nhiều môn",
    "title": "Hỏi Nam 4 bài con đã tích xong nhưng LMS chưa ghi nhận nộp",
    "who": "parent"
+  },
+  {
+   "id": "nam-ta-week7-con-thieu",
+   "due": null,
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/modules/1076936",
+   "links": [
+    {
+     "label": "Reading practice 1 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224963"
+    },
+    {
+     "label": "Reading practice 2 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224959"
+    },
+    {
+     "label": "Grammar practice 1 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224962"
+    },
+    {
+     "label": "Listening practice 1 – MCQs (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224961"
+    },
+    {
+     "label": "Listening practice 1 – Gap-filling (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224958"
+    }
+   ],
+   "note": "Đây là bài ôn cho Progress Check 1, bài thi đã xong nên tuần này sổ không xếp. Làm khi còn thời gian.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Tiếng Anh",
+   "title": "5 quiz Must-do của Week 7 còn thiếu (chưa xếp lịch tuần này)"
+  },
+  {
+   "id": "nam-gdcd-quiz-tu-hoc",
+   "due": null,
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/165713/modules",
+   "links": [
+    {
+     "label": "Mục bài học Giáo dục công dân (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/165713/modules"
+    }
+   ],
+   "note": "Các bài kiểm tra của môn này hạn 31/10. Sổ sẽ xếp dần từ tuần 19/10, sau khi con thi xong KHTN và Toán.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Giáo dục công dân",
+   "title": "10 quiz tự học Giáo dục công dân trên LMS (chưa xếp lịch tuần này)"
   }
  ],
  "exams": [
@@ -3972,7 +3691,7 @@
    "activity": "Quiz trước tiết học – C2.03",
    "date": "2026-09-24",
    "detail": "Điểm trung bình các lần làm. Chưa có chi tiết câu sai.",
-   "fix": "Phiếu khắc phục lỗi KHTN 8 – lần 2 (thứ Ba 06/10).",
+   "fix": "Phiếu khắc phục lỗi KHTN 8 – lần 2 (Chủ nhật 11/10).",
    "kid": "nam",
    "level": "unknown",
    "link": "https://lms.vinschool.edu.vn/courses/87368/assignments/2748689",
@@ -3986,7 +3705,7 @@
    "activity": "Bài kiểm tra chương 1 (8,5/10) – nhận xét của cô Huệ",
    "date": "2026-09-15",
    "detail": "Cô Huệ nhận xét bài khá tốt nhưng cần ôn lại ba phần này.",
-   "fix": "Bài ôn cô phát (thứ Bảy 03/10), làm lại theo 4 phần (tối thứ Ba 06/10 đến thứ Sáu 09/10).",
+   "fix": "Ôn lại lí thuyết chương 1 tối thứ Hai 12/10, trước bài giữa kì thứ Ba 13/10.",
    "kid": "nam",
    "level": "unknown",
    "source": "VS One",
@@ -4025,7 +3744,7 @@
    "activity": "Wayground Lịch sử bài 1 – CMTS Anh & Chiến tranh giành độc lập Bắc Mĩ",
    "date": "2026-10-01",
    "detail": "Điểm 15/15 ở lượt tốt nhất có thể do nhớ đáp án sau khi làm lặp lại. Cần kiểm tra lại bằng câu hỏi mới hoặc tự luận.",
-   "fix": "Tự luận Wayground bài 5 (thứ Bảy 03/10) và đề thi thử trên Wayground (Chủ nhật 04/10).",
+   "fix": "Con đã làm bài tự luận và đề thi thử ngày 03–04/10. Theo dõi tiếp ở các bài sau: nhắc con đọc hết đề rồi mới chọn.",
    "kid": "nam",
    "level": "habit",
    "link": "https://wayground.com/join?gc=53969902",
@@ -4039,7 +3758,7 @@
    "activity": "Progress Check 1",
    "date": "2026-10-02",
    "detail": "Chưa có điểm từng phần (Reading, Use of English, Listening, Writing) nên chưa rõ phần nào yếu nhất.",
-   "fix": "Mỗi ngày 1–2 bài: Daily Writing trên Wayground và quiz Must-do trên LMS (04/10–09/10).",
+   "fix": "Tuần 12–16/10 không xếp bài Tiếng Anh vào ngày thường. Ba quiz Lesson 3.4 làm cuối tuần 17–18/10; 5 quiz sửa lỗi bên Sổ lỗi làm khi phụ huynh sắp xếp.",
    "kid": "nam",
    "level": "unknown",
    "source": "Phụ huynh báo",
@@ -4262,7 +3981,7 @@
    "activity": "Bài kiểm tra hệ số 1 – lần 1 (HK1)",
    "date": "2026-10-08",
    "detail": "LMS tính điểm trung bình các lượt. Chưa có chi tiết câu sai của từng lượt.",
-   "fix": "Xem lại câu sai trên LMS trước khi làm thêm lượt nữa (hạn 14/10).",
+   "fix": "Xem lại câu sai trên LMS rồi làm thêm một lượt vào Chủ nhật 11/10 (hạn 14/10).",
    "kid": "nam",
    "level": "unknown",
    "link": "https://lms.vinschool.edu.vn/courses/87796/quizzes/2221074",
@@ -4273,11 +3992,11 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T15:20:00+07:00",
+  "lastSync": "2026-10-10T15:45:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS của Nam đọc lúc 15:10 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
-   "tonight": "Làm trước hai việc gấp: bài kiểm tra Âm nhạc trên LMS (hạn hôm nay, chỉ 1 lượt) và bài đánh giá giữa HK1 Địa lí (quá hạn, LMS đã khóa). Sau đó ôn KHTN chương 2 cho bài kiểm tra thứ Hai 12/10.",
+   "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
+   "tonight": "Tuần này sổ xếp nhẹ hơn: ngày thường mỗi tối một bài 20–30 phút, phần ôn dồn vào cuối tuần. Hôm nay làm bài kiểm tra Âm nhạc trên LMS (hạn hôm nay, chỉ 1 lượt), bài đánh giá giữa HK1 Địa lí (quá hạn), rồi ôn KHTN chương 2.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
