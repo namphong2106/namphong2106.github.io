@@ -2051,7 +2051,7 @@
    "id": "nam-khtn-giuaki1",
    "date": "2026-10-13",
    "kid": "nam",
-   "scope": "Lí thuyết và bài tập chương 1 Quang hợp và chương 2 Nguyên tử, phân tử và liên kết hóa học. Tự ôn lí thuyết theo hướng dẫn ôn tập cô đã phát; phần bài tập cô sửa trong tiết ôn. Mang bút, thước, bút chì, phiếu học tập và bài tập ôn cô phát.",
+   "scope": "Lí thuyết và bài tập chương 1 Quang hợp và chương 2 Nguyên tử, phân tử và liên kết hóa học. Tự ôn lí thuyết theo hướng dẫn ôn tập cô đã phát; phần bài tập cô sửa trong tiết ôn. Mang bút, thước, bút chì, phiếu học tập và bài tập ôn cô phát. Thông tin tuần 12–16/10: đáp án bài ôn có trên LMS, mục \"TUẦN 9\"; mang thêm máy tính cầm tay.",
    "source": "VS One",
    "subject": "KHTN",
    "title": "Kiểm tra giữa kì I"
@@ -3357,6 +3357,28 @@
    "source": "LMS",
    "subject": "Âm nhạc",
    "title": "Bài tập mức độ dễ (tuần 6+7)"
+  },
+  {
+   "id": "nam-vsone-dia-giuaki1",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "max": 10,
+   "official": true,
+   "score": 0,
+   "source": "VS One",
+   "subject": "Địa lý",
+   "title": "Kiểm tra giữa HK1 (hệ số 2) – ghi 0 điểm vì chưa nộp bài, quá hạn 23h59 ngày 09/10"
+  },
+  {
+   "id": "phong-vsone-science-unit1",
+   "date": "2026-10-04",
+   "kid": "phong",
+   "max": 29,
+   "official": true,
+   "score": 27,
+   "source": "VS One",
+   "subject": "CIE Science",
+   "title": "Unit 1 – Flowering and Non-Flowering Plants"
   }
  ],
  "notes": [
@@ -3439,6 +3461,66 @@
    "subject": "Âm nhạc",
    "teacher": "Giáo viên Âm nhạc",
    "text": "Hoàn thành bài kiểm tra trên LMS trong ngày 10/10/2026 (phụ huynh báo theo VinschoolOne)."
+  },
+  {
+   "id": "nam-2026-10-07-gvcn",
+   "date": "2026-10-07",
+   "kid": "nam",
+   "source": "VS One",
+   "teacher": "Cô Vũ Thị Huệ (GVCN)",
+   "text": "Rà soát thông tin học sinh năm học 2026–2027: con đã nhận Phiếu rà soát. Phụ huynh kiểm tra, gạch sửa thông tin sai, điền ô còn trống, ký xác nhận cuối phiếu và cho con nộp lại GVCN chậm nhất thứ Sáu 09/10."
+  },
+  {
+   "id": "nam-2026-10-08-gvcn",
+   "date": "2026-10-08",
+   "kid": "nam",
+   "source": "VS One",
+   "teacher": "Cô Vũ Thị Huệ (GVCN)",
+   "text": "Đăng ký nơi khám chữa bệnh ban đầu BHYT: học sinh đã học tại Vinschool từ năm trước thì trường tự mua BHYT theo dữ liệu có sẵn. Nếu không mua qua trường (kể cả khi con đã có thẻ BHYT diện khác), phụ huynh xác nhận không mua muộn nhất 15/10; nếu cần kê khai mới hoặc đổi thông tin, cập nhật muộn nhất 15/10. Link kê khai và link xác nhận nằm trong thông báo trên VinschoolOne."
+  },
+  {
+   "id": "nam-2026-10-08-nenep",
+   "date": "2026-10-08",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "Nề nếp",
+   "teacher": "Thông báo nề nếp",
+   "text": "Ghi nhận vi phạm ngày 08/10: đi học muộn/vào lớp muộn không có lí do chính đáng."
+  },
+  {
+   "id": "nam-2026-10-09-khtn",
+   "date": "2026-10-09",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "KHTN",
+   "teacher": "Cô Vũ Thị Huệ",
+   "text": "Tuần 12–16/10: Kiểm tra chương 2 vào thứ Hai 12/10 (lí thuyết và bài tập chương 2). Kiểm tra giữa HK1 vào thứ Ba 13/10: lí thuyết và bài tập chương 1 Quang hợp và chương 2 Nguyên tử, phân tử và liên kết hóa học. Cô đã sửa bài trong tiết ôn tập và gửi đáp án trên LMS, mục \"TUẦN 9\"; nhờ phụ huynh nhắc con chủ động ôn kĩ. Mang bút, thước, bút chì, máy tính cầm tay."
+  },
+  {
+   "id": "nam-2026-10-10-dia",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "Địa lý",
+   "teacher": "Giáo viên Địa lý",
+   "text": "Điểm kiểm tra giữa HK1 (hệ số 2) đang ghi 0/10, kèm nhận xét: HS không nộp bài, quá hạn nộp bài từ 23h59 ngày 09/10/2026."
+  },
+  {
+   "id": "phong-2026-10-09-gvcn",
+   "date": "2026-10-09",
+   "kid": "phong",
+   "source": "VS One",
+   "teacher": "Cô Trương Hạnh Ngân (GVCN)",
+   "text": "Phong luôn hào hứng trả lời câu hỏi và sẵn sàng đóng góp ý kiến. Con vẫn đang xây dựng sự tự tin khi phát biểu; cô mong con nói to, rõ hơn để cả lớp nghe được. Con thoải mái hơn khi làm việc với nhiều bạn khác nhau và tiến bộ trong việc làm theo hướng dẫn. Chuẩn bị bàn học và sách vở trước mỗi tiết sẽ giúp con vào bài nhanh và tự tin hơn."
+  },
+  {
+   "id": "phong-2026-10-09-bongro",
+   "date": "2026-10-09",
+   "kid": "phong",
+   "source": "VS One",
+   "subject": "CLB Bóng rổ",
+   "teacher": "GV Nguyễn Bảo Lộc",
+   "text": "Phong luôn nỗ lực tập luyện, nắm kĩ thuật dẫn bóng tốc độ rất nhanh; chuyền bóng hai tay trước ngực nhịp nhàng, chuẩn xác. Thời gian tới con cần chủ động và dứt khoát hơn trong các pha dẫn bóng đột phá dưới bảng rổ."
   }
  ],
  "errors": [
@@ -3790,16 +3872,16 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T20:25:00+07:00",
+  "lastSync": "2026-10-10T21:31:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One: theo tin phụ huynh báo ngày 10/10",
+   "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
    "tonight": "Tuần này sổ xếp nhẹ hơn: ngày thường mỗi tối một bài 20–30 phút, phần ôn dồn vào cuối tuần. Hôm nay làm bài kiểm tra Âm nhạc trên LMS (hạn hôm nay, chỉ 1 lượt), bài đánh giá giữa HK1 Địa lí (quá hạn), rồi ôn KHTN chương 2.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS, MyiMaths và Raz-Kids của Phong đọc lúc 17:45, Wayground đọc lúc 18:15 thứ Bảy 10/10 · VS One của Phong chưa đọc được lần này",
+   "sources": "LMS, MyiMaths và Raz-Kids của Phong đọc lúc 17:45, Wayground đọc lúc 18:15 thứ Bảy 10/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
    "tonight": "Từ hôm nay sổ xếp nhẹ hơn: ngày thường mỗi tối hai bài ngắn, thứ Sáu một bài, cuối tuần năm đến sáu bài. Tối nay ba bài: quiz Tiếng Việt Dấu gạch ngang (1), bài MyiMaths \"Fractions of amounts\", rồi làm nốt quiz Raz-Kids \"Critter Crossings\".",
    "weeklyDone": "2026-10-02"
   }
