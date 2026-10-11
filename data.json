@@ -2166,6 +2166,48 @@
    "status": "todo",
    "subject": "KHTN",
    "title": "15 phút – KHTN chương 2, nâng cao 3/3: bài tổng hợp kiểu đề kiểm tra"
+  },
+  {
+   "id": "nam-wg-khtn-onlancuoi-bai1",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=09129021",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Ôn lần cuối – Bài 1: Liên kết hóa học (10 câu)",
+     "url": "https://wayground.com/join?gc=09129021"
+    }
+   ],
+   "minutes": 20,
+   "note": "Soạn ngày 11/10 để ôn lần cuối trước bài kiểm tra giữa kì 13/10. Có 4 câu tự luận con tự viết câu trả lời (máy không chấm, so với đáp án gợi ý) và 2 câu tự gõ đáp án ngắn. Đọc kĩ phần giải thích sau mỗi câu.",
+   "order": 1.2,
+   "practice": "Wayground: KHTN 8 – Ôn lần cuối – Bài 1: Liên kết hóa học (10 câu)",
+   "review": "Ion, liên kết ion và cộng hóa trị, phân tử",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "20 phút – KHTN ôn lần cuối, bài 1/2: Liên kết hóa học"
+  },
+  {
+   "id": "nam-wg-khtn-onlancuoi-bai2",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=15420477",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Ôn lần cuối – Bài 2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm (10 câu)",
+     "url": "https://wayground.com/join?gc=15420477"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10 để ôn lần cuối trước bài kiểm tra giữa kì 13/10. Có 3 câu tự gõ đáp án ngắn (công thức, con số). Đọc kĩ phần giải thích sau mỗi câu.",
+   "order": 1.4,
+   "practice": "Wayground: KHTN 8 – Ôn lần cuối – Bài 2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm (10 câu)",
+   "review": "Công thức và ion, cặp electron dùng chung, khối lượng riêng, biến trong thí nghiệm, truyền nhiệt",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN ôn lần cuối, bài 2/2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm"
   }
  ],
  "exams": [
