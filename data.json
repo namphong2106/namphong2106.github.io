@@ -2037,6 +2037,69 @@
    "status": "todo",
    "subject": "CIE Maths",
    "title": "Maths Unit 7 – 4 bài Wayground làm thêm, không bắt buộc"
+  },
+  {
+   "id": "nam-wg-khtn-c2-bai1",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=29276221",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Chương 2 – Bài 1: Nguyên tử và cách xếp electron (10 câu)",
+     "url": "https://wayground.com/join?gc=29276221"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10 theo bài C2.01 trên LMS, câu hỏi mới. Làm lần lượt bài 1, 2, 3 vì bài sau dùng kiến thức bài trước. Có cả câu trắc nghiệm và câu tự gõ đáp án; sau mỗi câu đọc kĩ phần giải thích rồi mới bấm sang câu tiếp.",
+   "order": 0.2,
+   "practice": "Wayground: KHTN 8 – Chương 2 – Bài 1: Nguyên tử và cách xếp electron (10 câu)",
+   "review": "Nguyên tử và cách xếp electron",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN chương 2, bài 1/3: Nguyên tử và cách xếp electron"
+  },
+  {
+   "id": "nam-wg-khtn-c2-bai2",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=58636349",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Chương 2 – Bài 2: Bảng tuần hoàn, nhóm và chu kì (10 câu)",
+     "url": "https://wayground.com/join?gc=58636349"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10 theo bài C2.02 trên LMS: từ cấu trúc electron suy ra nhóm và chu kì, xu hướng của nhóm 1, nhóm 7 và khí hiếm. Có cả câu trắc nghiệm và câu tự gõ đáp án; sau mỗi câu đọc kĩ phần giải thích rồi mới bấm sang câu tiếp.",
+   "order": 0.4,
+   "practice": "Wayground: KHTN 8 – Chương 2 – Bài 2: Bảng tuần hoàn, nhóm và chu kì (10 câu)",
+   "review": "Bảng tuần hoàn, nhóm và chu kì",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN chương 2, bài 2/3: Bảng tuần hoàn, nhóm và chu kì"
+  },
+  {
+   "id": "nam-wg-khtn-c2-bai3",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=16693309",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Chương 2 – Bài 3: Ion và liên kết hóa học (10 câu)",
+     "url": "https://wayground.com/join?gc=16693309"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10 theo bài C2.03 trên LMS, là phần con yếu nhất: nguyên tử nào cho, nguyên tử nào nhận electron, kí hiệu ion, liên kết ion và liên kết cộng hóa trị. Có cả câu trắc nghiệm và câu tự gõ đáp án; sau mỗi câu đọc kĩ phần giải thích rồi mới bấm sang câu tiếp.",
+   "order": 0.6,
+   "practice": "Wayground: KHTN 8 – Chương 2 – Bài 3: Ion và liên kết hóa học (10 câu)",
+   "review": "Ion và liên kết hóa học",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN chương 2, bài 3/3: Ion và liên kết hóa học"
   }
  ],
  "exams": [
@@ -3566,11 +3629,11 @@
    "id": "nam-khtn-lms-c203",
    "activity": "Quiz trước tiết học – C2.03",
    "date": "2026-09-24",
-   "detail": "Điểm trung bình các lần làm. Chưa có chi tiết câu sai.",
-   "fix": "Phiếu khắc phục lỗi KHTN 8 – lần 2 (Chủ nhật 11/10).",
+   "detail": "Ba lượt làm: 5/10, 7/10, 7/10 (LMS tính trung bình). LMS khóa phần xem lại đề nên không xem được câu hỏi. Ở câu điền từ về việc nguyên tử cho hay nhận electron, con lần lượt điền trung hòa, liên kết cộng hóa trị, lấy thêm và sai cả ba lượt; một câu trắc nghiệm khác con chọn cùng một đáp án sai cả ba lượt.",
+   "fix": "Làm quiz Wayground KHTN chương 2 bài 3: Ion và liên kết hóa học (10 câu mới, soạn ngày 11/10), sau đó là Phiếu khắc phục lỗi KHTN 8 – lần 2.",
    "kid": "nam",
    "level": "unknown",
-   "link": "https://lms.vinschool.edu.vn/courses/87368/assignments/2748689",
+   "link": "https://wayground.com/join?gc=16693309",
    "source": "LMS",
    "status": "open",
    "subject": "KHTN",
@@ -3910,11 +3973,11 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-11T10:58:00+07:00",
+  "lastSync": "2026-10-11T11:24:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam và Wayground đọc lúc 10:58 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Chủ nhật 11/10: việc đầu tiên là nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp, điểm đang là 0). Sau đó tổng ôn KHTN chương 2 cho bài kiểm tra thứ Hai 12/10.",
+   "tonight": "Chủ nhật 11/10: việc đầu tiên là nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp, điểm đang là 0). Sau đó làm ba quiz KHTN chương 2 trên Wayground theo thứ tự bài 1, 2, 3 rồi tổng ôn cho bài kiểm tra thứ Hai 12/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
