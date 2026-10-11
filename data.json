@@ -115,7 +115,7 @@
   },
   {
    "id": "nam-lms-3049507",
-   "due": "2026-10-10",
+   "due": "2026-10-11",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87796/assignments/3049507",
    "links": [
@@ -133,14 +133,15 @@
     }
    ],
    "minutes": 40,
-   "note": "LMS ghi chưa nộp và đã khóa bài lúc 23:59 thứ Sáu 09/10. Con làm xong bài theo file hướng dẫn và file mẫu rồi lưu lại; phụ huynh nhắn cô xin nộp muộn.",
-   "order": 2,
+   "note": "Kiểm tra LMS sáng Chủ nhật 11/10: bài vẫn chưa nộp, LMS ghi thiếu bài và VinschoolOne đang ghi 0 điểm. Ô đã xong con tích lúc 16:48 ngày 10/10 đã được bỏ tích.",
+   "order": 0,
    "practice": "Bài đánh giá giữa HK1 Địa lí: đọc hướng dẫn, làm theo file mẫu, nộp trên LMS",
    "review": "Bài đánh giá giữa HK1 Địa lí 8 (đọc file hướng dẫn của cô)",
    "source": "LMS",
    "status": "todo",
    "subject": "2 · Địa lý",
-   "title": "40 phút – Địa lí: hoàn thành bài đánh giá giữa HK1 (quá hạn 09/10, LMS đã khóa)"
+   "title": "40 phút – Địa lí: hoàn thành bài đánh giá giữa HK1 (quá hạn 09/10, LMS đã khóa)",
+   "missing": true
   },
   {
    "id": "nam-lms-3054591",
@@ -954,14 +955,15 @@
     }
    ],
    "minutes": 20,
-   "note": "VinschoolOne báo phải xong trong ngày 10/10. Bài có 5 câu và LMS chỉ cho làm 1 lượt, nên đọc bài và hai tài liệu trước rồi mới bấm làm. Trong mục này còn hai bài “Bài đánh giá tuần 2”; nếu cô dặn làm bài khác thì làm theo lời cô.",
+   "note": "Đã nộp 16:49 ngày 10/10, đạt 6/10. Con làm 5 câu trong 41 giây; bài chỉ cho 1 lượt nên không làm lại được.",
    "order": 1,
    "practice": "Bài tập trắc nghiệm Âm nhạc Hệ số 1 (LMS)",
    "review": "Đọc bài Tiết 2 – Nhạc nền trong phim trước khi làm",
    "source": "VS One",
-   "status": "todo",
+   "status": "done",
    "subject": "1 · Âm nhạc",
-   "title": "20 phút – Âm nhạc: làm bài kiểm tra hệ số 1 trên LMS (hạn hôm nay 10/10)"
+   "title": "20 phút – Âm nhạc: làm bài kiểm tra hệ số 1 trên LMS (hạn hôm nay 10/10)",
+   "doneAt": "2026-10-10T16:49:00+07:00"
   },
   {
    "id": "nam-toan-quiz-3-1",
@@ -3379,6 +3381,42 @@
    "source": "VS One",
    "subject": "CIE Science",
    "title": "Unit 1 – Flowering and Non-Flowering Plants"
+  },
+  {
+   "id": "nam-lms-2855855",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "max": 10,
+   "note": "Làm 5 câu trong 41 giây; bài chỉ cho 1 lượt.",
+   "official": false,
+   "score": 6,
+   "source": "LMS",
+   "subject": "Âm nhạc",
+   "title": "Bài tập trắc nghiệm Âm nhạc Hệ số 1"
+  },
+  {
+   "id": "nam-lms-2855839",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "max": 10,
+   "note": "Lượt đầu 5/10, lượt hai 9/10 (LMS giữ điểm cao nhất).",
+   "official": false,
+   "score": 9,
+   "source": "LMS",
+   "subject": "Âm nhạc",
+   "title": "Bài đánh giá tuần 2"
+  },
+  {
+   "id": "nam-lms-2855797",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "max": 10,
+   "note": "Lượt đầu 6/10, lượt hai 10/10 (LMS giữ điểm cao nhất).",
+   "official": false,
+   "score": 10,
+   "source": "LMS",
+   "subject": "Âm nhạc",
+   "title": "Bài đánh giá tuần 2 (2)"
   }
  ],
  "notes": [
@@ -3692,8 +3730,8 @@
    "id": "nam-ta-sualoi-5",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-03",
-   "detail": "Gồm 9 câu Nam từng trả lời sai ở các bài Tiếng Anh trên Wayground (tự gõ cả câu). Từ 04/10 quiz dùng câu mới cùng dạng hoặc đổi cách hỏi, không lặp lại nguyên câu cũ.",
-   "fix": "Làm quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
+   "detail": "Gồm 9 câu Nam từng trả lời sai ở các bài Tiếng Anh trên Wayground (tự gõ cả câu). Từ 04/10 quiz dùng câu mới cùng dạng hoặc đổi cách hỏi, không lặp lại nguyên câu cũ. Nam làm tối 10/10 (22:43–22:50): lượt đầu đúng 7/9. Sai câu nối hai câu bằng giới từ + which/whom và một câu điều kiện loại 2 (If I knew his address…); câu điều kiện sửa lại đúng, câu mệnh đề quan hệ vẫn sai.",
+   "fix": "Lượt đầu chưa đạt 80% (7/9). Cần làm lại hai dạng đã sai bằng câu mới; quiz mới chưa soạn.",
    "kid": "nam",
    "level": "redo",
    "link": "https://wayground.com/join?gc=35476205",
@@ -3776,8 +3814,8 @@
    "id": "phong-maths-sualoi-honso-1",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ các câu con sai ở quiz Improper fractions & mixed numbers ngày 05/10. Câu mới cùng dạng, không lặp lại câu cũ.",
-   "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
+   "detail": "Soạn từ các câu con sai ở quiz Improper fractions & mixed numbers ngày 05/10. Câu mới cùng dạng, không lặp lại câu cũ. Con làm tối 10/10: lượt đầu đúng 2/5. Sai ba câu: 1 đơn vị có mấy phần ba; 13/5 = 2 và ?/5 (sửa lại đúng); 8 miếng 1/3 cái bánh là bao nhiêu (con chọn 2 1/3, đáp án là 2 2/3).",
+   "fix": "Lượt đầu chưa đạt 80%. Cần làm lại dạng đếm số phần trong một đơn vị và đổi phân số lớn hơn 1 sang hỗn số bằng câu mới; quiz mới chưa soạn.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=62988349",
@@ -3790,8 +3828,8 @@
    "id": "phong-maths-sualoi-honso-2",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ các câu con sai ngày 03/10 và 05/10 khi đổi hỗn số thành phân số. Câu mới cùng dạng, không lặp lại câu cũ.",
-   "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
+   "detail": "Soạn từ các câu con sai ngày 03/10 và 05/10 khi đổi hỗn số thành phân số. Câu mới cùng dạng, không lặp lại câu cũ. Tối 10/10 con mới làm câu 1 (đúng) rồi dừng; còn 4 câu chưa làm.",
+   "fix": "Làm nốt 4 câu còn lại của quiz này.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=38871101",
@@ -3804,13 +3842,13 @@
    "id": "phong-maths-sualoi-phanso-cua-so",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ các câu con sai ngày 04/10 và 07/10 (dạng 2/6 của 42, 4/5 của 70). Câu mới cùng dạng, không lặp lại câu cũ.",
+   "detail": "Soạn từ các câu con sai ngày 04/10 và 07/10 (dạng 2/6 của 42, 4/5 của 70). Câu mới cùng dạng, không lặp lại câu cũ. Con làm tối 10/10: lượt đầu đúng 4/5; sai câu 7/10 của 40, sau đó sửa lại đúng.",
    "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=57745469",
    "source": "Wayground",
-   "status": "open",
+   "status": "fixed",
    "subject": "CIE Maths",
    "topic": "Quiz sửa lỗi Maths – Tìm phân số của một số (5 câu)"
   },
@@ -3818,8 +3856,8 @@
    "id": "phong-maths-sualoi-loi-van",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ các bài toán có lời văn con sai ngày 03/10 và 08/10, nhất là dạng hỏi phần còn lại. Mỗi đề có gợi ý tiếng Việt ở chỗ đề hỏi.",
-   "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
+   "detail": "Soạn từ các bài toán có lời văn con sai ngày 03/10 và 08/10, nhất là dạng hỏi phần còn lại. Mỗi đề có gợi ý tiếng Việt ở chỗ đề hỏi. Con làm tối 10/10: lượt đầu đúng 2/5. Sai ba câu: số tiền CÒN LẠI sau khi tiêu 2/3 của 90 đô; 0,5 của sợi dây 20 mét; số học sinh KHÔNG đeo kính khi 25% của 24 bạn đeo kính. Sửa lại chỉ đúng thêm câu sợi dây.",
+   "fix": "Lượt đầu chưa đạt 80%. Cần làm lại dạng hỏi phần còn lại và dạng đổi 0,5 hoặc 25% thành phân số bằng câu mới; quiz mới chưa soạn.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=04792381",
@@ -3832,8 +3870,8 @@
    "id": "phong-esl-sualoi-viet-ca-cau",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ các câu phải gõ cả câu con sai ngày 04–05/10 (xếp từ thành câu, viết lại với mustn't, present continuous). Câu mới cùng dạng.",
-   "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
+   "detail": "Soạn từ các câu phải gõ cả câu con sai ngày 04–05/10 (xếp từ thành câu, viết lại với mustn't, present continuous). Câu mới cùng dạng. Con làm tối 10/10: lượt đầu làm 3 câu rồi dừng, đúng 1 (sai một câu sắp xếp từ và một câu viết lại với mustn't); lượt hai làm đủ 5 câu, đúng cả 5.",
+   "fix": "Lượt đầu chưa đạt 80% nên hai dạng đã sai (sắp xếp từ thành câu, viết lại với mustn't) cần làm lại bằng câu mới; quiz mới chưa soạn.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=36249661",
@@ -3846,13 +3884,13 @@
    "id": "phong-esl-sualoi-doc-hieu",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ lỗi đọc hiểu ngày 03/10 và 05/10. Một bài đọc ngắn mới, 5 câu hỏi chi tiết.",
+   "detail": "Soạn từ lỗi đọc hiểu ngày 03/10 và 05/10. Một bài đọc ngắn mới, 5 câu hỏi chi tiết. Con làm tối 10/10: lượt đầu đúng 4/5; sai câu 5 (chọn He plays football again thay vì He reads a book in bed), sau đó sửa lại đúng.",
    "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=10035261",
    "source": "Wayground",
-   "status": "open",
+   "status": "fixed",
    "subject": "CIE ESL",
    "topic": "Quiz sửa lỗi ESL – Đọc hiểu: tìm chi tiết trong bài (5 câu)"
   },
@@ -3860,29 +3898,29 @@
    "id": "phong-tv-sualoi-ngoac-kep",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-10",
-   "detail": "Soạn từ 6 câu con sai ở quiz T07 Dấu ngoặc kép trên LMS ngày 03/10. Câu mới cùng dạng, không lặp lại câu cũ.",
+   "detail": "Soạn từ 6 câu con sai ở quiz T07 Dấu ngoặc kép trên LMS ngày 03/10. Câu mới cùng dạng, không lặp lại câu cũ. Con làm tối 10/10: lượt đầu đúng 4/5; sai câu về lời trích dẫn trực tiếp (câu tục ngữ ông bà dạy), con chọn nhầm là lời đối thoại, sau đó sửa lại đúng.",
    "fix": "Làm quiz này, mỗi lần chỉ một quiz. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
    "kid": "phong",
    "level": "redo",
    "link": "https://wayground.com/join?gc=24715325",
    "source": "Wayground",
-   "status": "open",
+   "status": "fixed",
    "subject": "Tiếng Việt",
    "topic": "Quiz sửa lỗi Tiếng Việt – Dấu ngoặc kép (5 câu)"
   }
  ],
  "meta": {
-  "lastSync": "2026-10-10T21:31:00+07:00",
+  "lastSync": "2026-10-11T10:58:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS của Nam đọc lúc 15:25 thứ Bảy 10/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Tuần này sổ xếp nhẹ hơn: ngày thường mỗi tối một bài 20–30 phút, phần ôn dồn vào cuối tuần. Hôm nay làm bài kiểm tra Âm nhạc trên LMS (hạn hôm nay, chỉ 1 lượt), bài đánh giá giữa HK1 Địa lí (quá hạn), rồi ôn KHTN chương 2.",
+   "sources": "LMS của Nam và Wayground đọc lúc 10:58 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
+   "tonight": "Chủ nhật 11/10: việc đầu tiên là nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp, điểm đang là 0). Sau đó tổng ôn KHTN chương 2 cho bài kiểm tra thứ Hai 12/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS, MyiMaths và Raz-Kids của Phong đọc lúc 17:45, Wayground đọc lúc 18:15 thứ Bảy 10/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Từ hôm nay sổ xếp nhẹ hơn: ngày thường mỗi tối hai bài ngắn, thứ Sáu một bài, cuối tuần năm đến sáu bài. Tối nay ba bài: quiz Tiếng Việt Dấu gạch ngang (1), bài MyiMaths \"Fractions of amounts\", rồi làm nốt quiz Raz-Kids \"Critter Crossings\".",
+   "sources": "Wayground đọc lúc 10:58 Chủ nhật 11/10 · LMS, MyiMaths và Raz-Kids của Phong chưa đọc được sáng 11/10 (chưa đăng nhập) · VS One đọc lúc 21:10 thứ Bảy 10/10",
+   "tonight": "Chủ nhật 11/10: làm theo danh sách hôm nay. Quiz sửa lỗi Hỗn số 2 còn dở 4 câu, con làm nốt khi có thời gian.",
    "weeklyDone": "2026-10-02"
   }
  }
