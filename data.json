@@ -2103,6 +2103,69 @@
    "subject": "KHTN",
    "title": "15 phút – KHTN chương 2, bài 3/3: Ion và liên kết hóa học",
    "doneAt": "2026-10-11T12:18:00+07:00"
+  },
+  {
+   "id": "nam-wg-khtn-c2-sualoi1",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=02848829",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 1: Ion – ai cho, ai nhận electron (10 câu)",
+     "url": "https://wayground.com/join?gc=02848829"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10 từ các câu con sai ở bài 3 (lượt đầu 5/10): đảo dấu điện tích của ion. Làm bài này trước hai bài còn lại. Câu hỏi mới, không lặp lại câu cũ; đọc kĩ phần giải thích sau mỗi câu.",
+   "order": 0.7,
+   "practice": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 1: Ion – ai cho, ai nhận electron (10 câu)",
+   "review": "Ion: đếm proton và electron để biết dấu điện tích",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN chương 2, sửa lỗi 1/3: ion – ai cho, ai nhận electron"
+  },
+  {
+   "id": "nam-wg-khtn-c2-sualoi2",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=36403261",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 2: Hợp chất ion, cộng hóa trị, nhóm 7 (10 câu)",
+     "url": "https://wayground.com/join?gc=36403261"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10, khó hơn bài sửa lỗi 1: phân biệt hợp chất ion với cộng hóa trị, vì sao MgCl₂ cần hai nguyên tử chlorine, cấu trúc electron của ion, halogen so với khí hiếm. Câu hỏi mới, không lặp lại câu cũ; đọc kĩ phần giải thích sau mỗi câu.",
+   "order": 0.8,
+   "practice": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 2: Hợp chất ion, cộng hóa trị, nhóm 7 (10 câu)",
+   "review": "Hợp chất ion và cộng hóa trị; halogen và khí hiếm",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN chương 2, sửa lỗi 2/3: hợp chất ion, cộng hóa trị, nhóm 7"
+  },
+  {
+   "id": "nam-wg-khtn-c2-nangcao",
+   "due": "2026-10-11",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=28014653",
+   "links": [
+    {
+     "label": "Wayground: KHTN 8 – Chương 2 – Nâng cao: Bài tổng hợp kiểu đề kiểm tra (10 câu)",
+     "url": "https://wayground.com/join?gc=28014653"
+    }
+   ],
+   "minutes": 15,
+   "note": "Soạn ngày 11/10, mức khó nhất: từ số nguyên tử suy ra cấu trúc electron, nhóm, chu kì, ion, loại liên kết và công thức; có thêm mạng tinh thể sodium chloride, kim cương, than chì. Làm sau hai bài sửa lỗi. Câu hỏi mới, không lặp lại câu cũ; đọc kĩ phần giải thích sau mỗi câu.",
+   "order": 0.9,
+   "practice": "Wayground: KHTN 8 – Chương 2 – Nâng cao: Bài tổng hợp kiểu đề kiểm tra (10 câu)",
+   "review": "Bài tổng hợp nhiều bước, gồm cả cấu trúc đơn giản và khổng lồ (C2.04)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN chương 2, nâng cao 3/3: bài tổng hợp kiểu đề kiểm tra"
   }
  ],
  "exams": [
@@ -3979,10 +4042,10 @@
    "activity": "Wayground KHTN chương 2, bài 3 (10 câu)",
    "date": "2026-10-11",
    "detail": "Lượt đầu 5/10 (trưa 11/10). Con đảo dấu điện tích của ion: cho electron thì gõ ion âm, chlorine nhận electron thì chọn Cl⁺ (sửa lại vẫn chọn Cl⁺), magnesium cho 2 electron thì chọn Mg²⁻. Con cũng cho rằng sodium dùng chung electron thay vì cho đi, và chọn nước (H₂O) là hợp chất ion. Ở bài 1 con chọn nguyên tử trung hòa vì không chứa hạt mang điện, tức chưa nắm proton mang điện dương cân bằng với electron mang điện âm.",
-   "fix": "Giảng lại bằng cách đếm: số proton (dương) so với số electron (âm) sau khi cho hoặc nhận. Kim loại nhóm 1, 2, 3 cho electron thành ion dương; phi kim nhóm 5, 6, 7 nhận electron thành ion âm. Sau đó làm một quiz 5 câu mới về đúng dạng này.",
+   "fix": "Giảng lại bằng cách đếm: số proton (dương) so với số electron (âm) sau khi cho hoặc nhận. Sau đó làm quiz Wayground Sửa lỗi 1 (ion – ai cho, ai nhận electron), rồi Sửa lỗi 2 và bài Nâng cao.",
    "kid": "nam",
    "level": "repeat",
-   "link": "https://wayground.com/join?gc=16693309",
+   "link": "https://wayground.com/join?gc=02848829",
    "source": "Wayground",
    "status": "open",
    "subject": "KHTN",
@@ -3990,11 +4053,11 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-11T12:23:00+07:00",
+  "lastSync": "2026-10-11T12:28:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 10:58, Wayground đọc lúc 12:23 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Chủ nhật 11/10: nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp). KHTN: ba quiz chương 2 đã làm xong; phần cần ôn lại ngay là ion (ai cho, ai nhận electron, dấu điện tích) trước bài kiểm tra thứ Hai 12/10.",
+   "tonight": "Chủ nhật 11/10: nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp). KHTN: làm ba quiz mới trên Wayground theo thứ tự Sửa lỗi 1, Sửa lỗi 2, Nâng cao để chắc phần ion trước bài kiểm tra thứ Hai 12/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
