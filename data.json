@@ -2050,14 +2050,15 @@
     }
    ],
    "minutes": 15,
-   "note": "Soạn ngày 11/10 theo bài C2.01 trên LMS, câu hỏi mới. Làm lần lượt bài 1, 2, 3 vì bài sau dùng kiến thức bài trước. Có cả câu trắc nghiệm và câu tự gõ đáp án; sau mỗi câu đọc kĩ phần giải thích rồi mới bấm sang câu tiếp.",
+   "note": "Làm trưa 11/10: lượt đầu đúng 9/10. Sai câu vì sao nguyên tử trung hòa về điện (con chọn: vì nguyên tử không chứa hạt mang điện), sửa lại đúng.",
    "order": 0.2,
    "practice": "Wayground: KHTN 8 – Chương 2 – Bài 1: Nguyên tử và cách xếp electron (10 câu)",
    "review": "Nguyên tử và cách xếp electron",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN chương 2, bài 1/3: Nguyên tử và cách xếp electron"
+   "title": "15 phút – KHTN chương 2, bài 1/3: Nguyên tử và cách xếp electron",
+   "doneAt": "2026-10-11T12:06:00+07:00"
   },
   {
    "id": "nam-wg-khtn-c2-bai2",
@@ -2071,14 +2072,15 @@
     }
    ],
    "minutes": 15,
-   "note": "Soạn ngày 11/10 theo bài C2.02 trên LMS: từ cấu trúc electron suy ra nhóm và chu kì, xu hướng của nhóm 1, nhóm 7 và khí hiếm. Có cả câu trắc nghiệm và câu tự gõ đáp án; sau mỗi câu đọc kĩ phần giải thích rồi mới bấm sang câu tiếp.",
+   "note": "Làm trưa 11/10: lượt đầu đúng 8/10. Sai tên gọi nhóm 7 (con gõ: hiem, nhầm với khí hiếm) và câu halogen nào phản ứng mạnh nhất (con chọn: cả ba như nhau).",
    "order": 0.4,
    "practice": "Wayground: KHTN 8 – Chương 2 – Bài 2: Bảng tuần hoàn, nhóm và chu kì (10 câu)",
    "review": "Bảng tuần hoàn, nhóm và chu kì",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN chương 2, bài 2/3: Bảng tuần hoàn, nhóm và chu kì"
+   "title": "15 phút – KHTN chương 2, bài 2/3: Bảng tuần hoàn, nhóm và chu kì",
+   "doneAt": "2026-10-11T12:10:00+07:00"
   },
   {
    "id": "nam-wg-khtn-c2-bai3",
@@ -2092,14 +2094,15 @@
     }
    ],
    "minutes": 15,
-   "note": "Soạn ngày 11/10 theo bài C2.03 trên LMS, là phần con yếu nhất: nguyên tử nào cho, nguyên tử nào nhận electron, kí hiệu ion, liên kết ion và liên kết cộng hóa trị. Có cả câu trắc nghiệm và câu tự gõ đáp án; sau mỗi câu đọc kĩ phần giải thích rồi mới bấm sang câu tiếp.",
+   "note": "Làm trưa 11/10: lượt đầu đúng 5/10. Sai dấu điện tích của ion (cho electron con gõ: âm; chọn Cl⁺ cả hai lần; chọn Mg²⁻), cho rằng sodium dùng chung electron, và chọn nước là hợp chất ion.",
    "order": 0.6,
    "practice": "Wayground: KHTN 8 – Chương 2 – Bài 3: Ion và liên kết hóa học (10 câu)",
    "review": "Ion và liên kết hóa học",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN chương 2, bài 3/3: Ion và liên kết hóa học"
+   "title": "15 phút – KHTN chương 2, bài 3/3: Ion và liên kết hóa học",
+   "doneAt": "2026-10-11T12:18:00+07:00"
   }
  ],
  "exams": [
@@ -3970,14 +3973,28 @@
    "status": "fixed",
    "subject": "Tiếng Việt",
    "topic": "Quiz sửa lỗi Tiếng Việt – Dấu ngoặc kép (5 câu)"
+  },
+  {
+   "id": "nam-khtn-wg-c2-ion",
+   "activity": "Wayground KHTN chương 2, bài 3 (10 câu)",
+   "date": "2026-10-11",
+   "detail": "Lượt đầu 5/10 (trưa 11/10). Con đảo dấu điện tích của ion: cho electron thì gõ ion âm, chlorine nhận electron thì chọn Cl⁺ (sửa lại vẫn chọn Cl⁺), magnesium cho 2 electron thì chọn Mg²⁻. Con cũng cho rằng sodium dùng chung electron thay vì cho đi, và chọn nước (H₂O) là hợp chất ion. Ở bài 1 con chọn nguyên tử trung hòa vì không chứa hạt mang điện, tức chưa nắm proton mang điện dương cân bằng với electron mang điện âm.",
+   "fix": "Giảng lại bằng cách đếm: số proton (dương) so với số electron (âm) sau khi cho hoặc nhận. Kim loại nhóm 1, 2, 3 cho electron thành ion dương; phi kim nhóm 5, 6, 7 nhận electron thành ion âm. Sau đó làm một quiz 5 câu mới về đúng dạng này.",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=16693309",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "Ion: nguyên tử nào cho, nguyên tử nào nhận electron và dấu điện tích của ion"
   }
  ],
  "meta": {
-  "lastSync": "2026-10-11T11:24:00+07:00",
+  "lastSync": "2026-10-11T12:23:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS của Nam và Wayground đọc lúc 10:58 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Chủ nhật 11/10: việc đầu tiên là nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp, điểm đang là 0). Sau đó làm ba quiz KHTN chương 2 trên Wayground theo thứ tự bài 1, 2, 3 rồi tổng ôn cho bài kiểm tra thứ Hai 12/10.",
+   "sources": "LMS của Nam đọc lúc 10:58, Wayground đọc lúc 12:23 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
+   "tonight": "Chủ nhật 11/10: nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp). KHTN: ba quiz chương 2 đã làm xong; phần cần ôn lại ngay là ion (ai cho, ai nhận electron, dấu điện tích) trước bài kiểm tra thứ Hai 12/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
