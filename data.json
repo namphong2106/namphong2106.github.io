@@ -4092,10 +4092,38 @@
    "status": "open",
    "subject": "KHTN",
    "topic": "Ion: nguyên tử nào cho, nguyên tử nào nhận electron và dấu điện tích của ion"
+  },
+  {
+   "id": "nam-khtn-sualoi-3",
+   "activity": "Wayground KHTN – Sửa lỗi 3: Ion, hợp chất ion, phân tử (10 câu)",
+   "date": "2026-10-12",
+   "detail": "Tổng hợp từ các bài KHTN trên Wayground (13/09–11/10), những dạng Nam sai từ 2 lần trở lên: dấu điện tích và cấu trúc electron của ion (Na⁺, Cl⁻, Mg²⁺, Ca²⁺, ion 3+); lập công thức hợp chất ion (dạng X₂Y₃) và nhận biết hợp chất ion; phân biệt phân tử đơn chất với hợp chất, số cặp electron dùng chung. Quiz dùng câu mới, không lặp nguyên câu cũ.",
+   "fix": "Làm quiz 10 câu: 3 câu ion, 3 câu công thức hợp chất ion, 3 câu phân tử – hợp chất, 1 câu khả năng phản ứng nhóm 1. Lượt đầu dưới 80% thì hôm sau làm lại các câu sai.",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=14636605",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "Ion, công thức hợp chất ion, phân tử và hợp chất"
+  },
+  {
+   "id": "nam-khtn-sualoi-4",
+   "activity": "Wayground KHTN – Sửa lỗi 4: Nguyên tử, khối lượng riêng, quang hợp (10 câu)",
+   "date": "2026-10-12",
+   "detail": "Tổng hợp các câu Nam từng sai: cấu tạo hạt nhân (chỉ có proton và neutron), số khối, số proton quyết định nguyên tố; tính khối lượng riêng D = m/V và thể tích V = m/D, so sánh thể tích khi cùng khối lượng; thí nghiệm quang hợp (đo số bọt khí, đọc kết quả khi đổi khoảng cách đèn, yếu tố giữ nguyên trong fair test, thử tinh bột bằng iốt). Quiz dùng câu mới, không lặp nguyên câu cũ.",
+   "fix": "Làm quiz 10 câu: 3 câu cấu tạo nguyên tử, 3 câu khối lượng riêng, 3 câu thí nghiệm quang hợp, 1 câu thử tinh bột. Lượt đầu dưới 80% thì hôm sau làm lại các câu sai.",
+   "kid": "nam",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=51041853",
+   "source": "Wayground",
+   "status": "open",
+   "subject": "KHTN",
+   "topic": "Cấu tạo nguyên tử, khối lượng riêng, thí nghiệm quang hợp"
   }
  ],
  "meta": {
-  "lastSync": "2026-10-11T12:28:00+07:00",
+  "lastSync": "2026-10-12T15:10:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 10:58, Wayground đọc lúc 12:23 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
