@@ -2106,7 +2106,7 @@
   },
   {
    "id": "nam-wg-khtn-c2-sualoi1",
-   "due": "2026-10-11",
+   "due": "2026-10-12",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=02848829",
    "links": [
@@ -2117,7 +2117,7 @@
    ],
    "minutes": 15,
    "note": "Soạn ngày 11/10 từ các câu con sai ở bài 3 (lượt đầu 5/10): đảo dấu điện tích của ion. Làm bài này trước hai bài còn lại. Câu hỏi mới, không lặp lại câu cũ; đọc kĩ phần giải thích sau mỗi câu.",
-   "order": 0.7,
+   "order": 1.5,
    "practice": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 1: Ion – ai cho, ai nhận electron (10 câu)",
    "review": "Ion: đếm proton và electron để biết dấu điện tích",
    "source": "Wayground",
@@ -2127,7 +2127,7 @@
   },
   {
    "id": "nam-wg-khtn-c2-sualoi2",
-   "due": "2026-10-11",
+   "due": "2026-10-12",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=36403261",
    "links": [
@@ -2138,7 +2138,7 @@
    ],
    "minutes": 15,
    "note": "Soạn ngày 11/10, khó hơn bài sửa lỗi 1: phân biệt hợp chất ion với cộng hóa trị, vì sao MgCl₂ cần hai nguyên tử chlorine, cấu trúc electron của ion, halogen so với khí hiếm. Câu hỏi mới, không lặp lại câu cũ; đọc kĩ phần giải thích sau mỗi câu.",
-   "order": 0.8,
+   "order": 1.6,
    "practice": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 2: Hợp chất ion, cộng hóa trị, nhóm 7 (10 câu)",
    "review": "Hợp chất ion và cộng hóa trị; halogen và khí hiếm",
    "source": "Wayground",
@@ -2148,7 +2148,7 @@
   },
   {
    "id": "nam-wg-khtn-c2-nangcao",
-   "due": "2026-10-11",
+   "due": "2026-10-12",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=28014653",
    "links": [
@@ -2159,7 +2159,7 @@
    ],
    "minutes": 15,
    "note": "Soạn ngày 11/10, mức khó nhất: từ số nguyên tử suy ra cấu trúc electron, nhóm, chu kì, ion, loại liên kết và công thức; có thêm mạng tinh thể sodium chloride, kim cương, than chì. Làm sau hai bài sửa lỗi. Câu hỏi mới, không lặp lại câu cũ; đọc kĩ phần giải thích sau mỗi câu.",
-   "order": 0.9,
+   "order": 1.7,
    "practice": "Wayground: KHTN 8 – Chương 2 – Nâng cao: Bài tổng hợp kiểu đề kiểm tra (10 câu)",
    "review": "Bài tổng hợp nhiều bước, gồm cả cấu trúc đơn giản và khổng lồ (C2.04)",
    "source": "Wayground",
@@ -2208,6 +2208,136 @@
    "status": "todo",
    "subject": "KHTN",
    "title": "15 phút – KHTN ôn lần cuối, bài 2/2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm"
+  },
+  {
+   "id": "nam-wg-khtn-sualoi-phieuon",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=58240237",
+   "links": [
+    {
+     "label": "Phần 1/2 (6 câu)",
+     "url": "https://wayground.com/join?gc=58240237"
+    },
+    {
+     "label": "Phần 2/2 (5 câu)",
+     "url": "https://wayground.com/join?gc=63220973"
+    }
+   ],
+   "minutes": 15,
+   "note": "Hạn hôm nay 12/10, trước bài kiểm tra giữa kì KHTN 13/10.",
+   "order": 1.8,
+   "practice": "Wayground: KHTN 8 - Sửa lỗi phiếu ôn giữa HK1 - Phần 1/2 và 2/2",
+   "review": "Các câu sai trong phiếu ôn giữa HK1 chấm 03/10",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "15 phút – KHTN sửa lỗi phiếu ôn giữa HK1 (2 phần: 6 câu + 5 câu)"
+  },
+  {
+   "id": "nam-wg-khtn-sualoi-3",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=14636605",
+   "links": [
+    {
+     "label": "Mở quiz",
+     "url": "https://wayground.com/join?gc=14636605"
+    }
+   ],
+   "minutes": 20,
+   "note": "Hạn hôm nay 12/10, trước bài kiểm tra giữa kì KHTN 13/10. Có câu tự gõ đáp án và câu tự viết.",
+   "order": 1.9,
+   "practice": "Wayground: Sửa lỗi KHTN 3: Ion, công thức hợp chất ion, phân tử (10 câu)",
+   "review": "Ion, công thức hợp chất ion, phân tử – hợp chất, khả năng phản ứng nhóm 1",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "20 phút – KHTN sửa lỗi 3: Ion, công thức hợp chất ion, phân tử (10 câu)"
+  },
+  {
+   "id": "nam-wg-khtn-sualoi-4",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=51041853",
+   "links": [
+    {
+     "label": "Mở quiz",
+     "url": "https://wayground.com/join?gc=51041853"
+    }
+   ],
+   "minutes": 20,
+   "note": "Hạn hôm nay 12/10, trước bài kiểm tra giữa kì KHTN 13/10. Có câu tự gõ đáp án và câu tự viết.",
+   "order": 2,
+   "practice": "Wayground: Sửa lỗi KHTN 4: Nguyên tử, khối lượng riêng, thí nghiệm quang hợp (10 câu)",
+   "review": "Cấu tạo nguyên tử, khối lượng riêng, thí nghiệm quang hợp, thử tinh bột",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "20 phút – KHTN sửa lỗi 4: Nguyên tử, khối lượng riêng, thí nghiệm quang hợp (10 câu)"
+  },
+  {
+   "id": "nam-wg-khtn-sualoi-a",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=04011581",
+   "links": [
+    {
+     "label": "Mở quiz",
+     "url": "https://wayground.com/join?gc=04011581"
+    }
+   ],
+   "minutes": 25,
+   "note": "Hạn hôm nay 12/10, trước bài kiểm tra giữa kì KHTN 13/10. Có câu tự gõ đáp án và câu tự viết.",
+   "order": 2.1,
+   "practice": "Wayground: KHTN 8 – Sửa lỗi A: Ion, nguyên tử, nhóm và chu kì (10 câu)",
+   "review": "Kim loại nhường e → ion dương, phi kim nhận e → ion âm; số proton → cấu hình → nhóm, chu kì; không cộng neutron khi tìm số hiệu",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "25 phút – KHTN sửa lỗi A: Ion, nguyên tử, nhóm và chu kì (10 câu)"
+  },
+  {
+   "id": "nam-wg-khtn-sualoi-b",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=41760317",
+   "links": [
+    {
+     "label": "Mở quiz",
+     "url": "https://wayground.com/join?gc=41760317"
+    }
+   ],
+   "minutes": 25,
+   "note": "Hạn hôm nay 12/10, trước bài kiểm tra giữa kì KHTN 13/10. Có câu tự gõ đáp án và câu tự viết.",
+   "order": 2.2,
+   "practice": "Wayground: KHTN 8 – Sửa lỗi B: Quang hợp và chu trình carbon (10 câu)",
+   "review": "Chất tham gia quang hợp chỉ là nước và CO₂; diệp lục: ánh sáng → năng lượng hóa học; mô giậu – mô xốp; lấy – truyền – trả CO₂",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "25 phút – KHTN sửa lỗi B: Quang hợp và chu trình carbon (10 câu)"
+  },
+  {
+   "id": "nam-wg-khtn-sualoi-c",
+   "due": "2026-10-12",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=16987709",
+   "links": [
+    {
+     "label": "Mở quiz",
+     "url": "https://wayground.com/join?gc=16987709"
+    }
+   ],
+   "minutes": 25,
+   "note": "Hạn hôm nay 12/10, trước bài kiểm tra giữa kì KHTN 13/10. Có câu tự gõ đáp án và câu tự viết.",
+   "order": 2.3,
+   "practice": "Wayground: KHTN 8 – Sửa lỗi C: Thí nghiệm, khoáng chất, các nhóm và cấu trúc khổng lồ (10 câu)",
+   "review": "Biến độc lập, phụ thuộc, cố định; thiếu Mg và nitrate; khí hiếm đều là khí; kim cương, than chì, polymer",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "KHTN",
+   "title": "25 phút – KHTN sửa lỗi C: Thí nghiệm, khoáng chất, các nhóm và cấu trúc khổng lồ (10 câu)"
   }
  ],
  "exams": [
@@ -3800,34 +3930,6 @@
    "topic": "Progress Check 1: 6 điểm"
   },
   {
-   "id": "nam-khtn-sualoi-1",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-03",
-   "detail": "Gồm 6 câu Nam làm sai trên phiếu ôn tập giữa HK1 môn KHTN (phiếu giấy, chấm 03/10). Từ 04/10 quiz dùng câu mới cùng dạng hoặc đổi cách hỏi, không lặp lại nguyên câu cũ.",
-   "fix": "Làm quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn tiếp câu tương tự khác.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=58240237",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN – phần 1/2 (6 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-2",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-03",
-   "detail": "Gồm 5 câu Nam làm sai trên phiếu ôn tập giữa HK1 môn KHTN (phiếu giấy, chấm 03/10).",
-   "fix": "Làm lại quiz này. Câu nào vẫn sai sẽ được ghi lại và soạn câu bổ sung.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=63220973",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN – phần 2/2 (5 câu)"
-  },
-  {
    "id": "phong-esl-sualoi-1",
    "activity": "Mở quiz sửa lỗi trên Wayground",
    "date": "2026-10-03",
@@ -4078,136 +4180,10 @@
    "status": "fixed",
    "subject": "Tiếng Việt",
    "topic": "Quiz sửa lỗi Tiếng Việt – Dấu ngoặc kép (5 câu)"
-  },
-  {
-   "id": "nam-khtn-wg-c2-ion",
-   "activity": "Wayground KHTN chương 2, bài 3 (10 câu)",
-   "date": "2026-10-11",
-   "detail": "Lượt đầu 5/10 (trưa 11/10). Con đảo dấu điện tích của ion: cho electron thì gõ ion âm, chlorine nhận electron thì chọn Cl⁺ (sửa lại vẫn chọn Cl⁺), magnesium cho 2 electron thì chọn Mg²⁻. Con cũng cho rằng sodium dùng chung electron thay vì cho đi, và chọn nước (H₂O) là hợp chất ion. Ở bài 1 con chọn nguyên tử trung hòa vì không chứa hạt mang điện, tức chưa nắm proton mang điện dương cân bằng với electron mang điện âm.",
-   "fix": "Giảng lại bằng cách đếm: số proton (dương) so với số electron (âm) sau khi cho hoặc nhận. Sau đó làm quiz Wayground Sửa lỗi 1 (ion – ai cho, ai nhận electron), rồi Sửa lỗi 2 và bài Nâng cao.",
-   "kid": "nam",
-   "level": "repeat",
-   "link": "https://wayground.com/join?gc=02848829",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Ion: nguyên tử nào cho, nguyên tử nào nhận electron và dấu điện tích của ion"
-  },
-  {
-   "id": "nam-khtn-sualoi-3",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "Tổng hợp từ các bài KHTN trên Wayground (13/09–11/10), những dạng Nam sai từ 2 lần trở lên: dấu điện tích và cấu trúc electron của ion (Na⁺, Cl⁻, Mg²⁺, Ca²⁺, ion 3+); lập công thức hợp chất ion (dạng X₂Y₃) và nhận biết hợp chất ion; phân biệt phân tử đơn chất với hợp chất, số cặp electron dùng chung. Quiz dùng câu mới, không lặp nguyên câu cũ.",
-   "fix": "Làm quiz 10 câu: 3 câu ion, 3 câu công thức hợp chất ion, 3 câu phân tử – hợp chất, 1 câu khả năng phản ứng nhóm 1. Lượt đầu dưới 80% thì hôm sau làm lại các câu sai.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=14636605",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 3: Ion, công thức hợp chất ion, phân tử (10 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-4",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "Tổng hợp các câu Nam từng sai: cấu tạo hạt nhân (chỉ có proton và neutron), số khối, số proton quyết định nguyên tố; tính khối lượng riêng D = m/V và thể tích V = m/D, so sánh thể tích khi cùng khối lượng; thí nghiệm quang hợp (đo số bọt khí, đọc kết quả khi đổi khoảng cách đèn, yếu tố giữ nguyên trong fair test, thử tinh bột bằng iốt). Quiz dùng câu mới, không lặp nguyên câu cũ.",
-   "fix": "Làm quiz 10 câu: 3 câu cấu tạo nguyên tử, 3 câu khối lượng riêng, 3 câu thí nghiệm quang hợp, 1 câu thử tinh bột. Lượt đầu dưới 80% thì hôm sau làm lại các câu sai.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=51041853",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 4: Nguyên tử, khối lượng riêng, thí nghiệm quang hợp (10 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-5",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "C2.03 quiz trước tiết: lượt đầu 5/10, câu 4–5 sai cả 3 lượt (điền \"trung hòa\", \"lấy thêm\", \"cho\"). Câu mới cùng dạng, không lặp lại câu cũ; có câu tự gõ đáp án và câu tự viết.",
-   "fix": "Kim loại NHƯỜNG electron → ion dương; phi kim NHẬN electron → ion âm. Có 1 câu tự viết: giải thích sự tạo thành LiF.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=62117437",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 5: Liên kết ion – nhường hay nhận electron (5 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-6",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "C1.03 quiz sau tiết: lượt đầu 2,75/10, lượt 3 vẫn đúng một phần ở 4 câu. Câu mới cùng dạng, không lặp lại câu cũ; có câu tự gõ đáp án và câu tự viết.",
-   "fix": "Xếp được 3 nhóm quá trình: lấy CO₂ (quang hợp) – truyền carbon (ăn) – trả CO₂ (hô hấp, phân hủy, đốt cháy). Thực vật hô hấp cả ngày lẫn đêm. Có 1 câu tự viết.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=47961661",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 6: Chu trình carbon (5 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-7",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "C2.01 quiz trước tiết: lượt đầu 6/10; phiếu ôn giữa HK1 (03/10): chưa chắc số proton → cấu hình → nhóm, chu kì; nhận biết nguyên tố từ sơ đồ. Câu mới cùng dạng, không lặp lại câu cũ; có câu tự gõ đáp án và câu tự viết.",
-   "fix": "Số proton = số electron → xếp 2,8,8 → số lớp = chu kì, electron lớp ngoài = nhóm. Không cộng neutron khi tìm số hiệu. Có 1 câu tự viết.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=34068029",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 7: Từ số proton đến nhóm, chu kì (5 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-8",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "C1.01: câu \"chất tham gia quang hợp\" sai cả 3 lượt (chọn có ánh sáng); phiếu ôn: vai trò diệp lục, mô giậu – mô xốp. Câu mới cùng dạng, không lặp lại câu cũ; có câu tự gõ đáp án và câu tự viết.",
-   "fix": "Chất tham gia chỉ là nước và CO₂; ánh sáng là năng lượng. Diệp lục: năng lượng ánh sáng → năng lượng hóa học. Có 1 câu tự viết.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=63428157",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 8: Quang hợp, diệp lục và cấu tạo lá (5 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-9",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "Phiếu ôn giữa HK1 (03/10): chưa nêu đủ biến cần giữ cố định; chưa giải thích vì sao thiếu Mg và thiếu nitrate trông giống nhau. Câu mới cùng dạng, không lặp lại câu cũ; có câu tự gõ đáp án và câu tự viết.",
-   "fix": "Chỉ thay đổi MỘT yếu tố. Thiếu Mg hay nitrate đều làm thiếu diệp lục → lá vàng. Có 2 câu tự viết.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=56088125",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 9: Thí nghiệm oxygen và khoáng chất Mg, nitrate (5 câu)"
-  },
-  {
-   "id": "nam-khtn-sualoi-10",
-   "activity": "Mở quiz sửa lỗi trên Wayground",
-   "date": "2026-10-12",
-   "detail": "C2.02 lượt đầu 6/10 (halogen nhóm mấy, khí hiếm ở trạng thái nào); phiếu ôn: kim cương, than chì, polymer. Câu mới cùng dạng, không lặp lại câu cũ; có câu tự gõ đáp án và câu tự viết.",
-   "fix": "Khí hiếm đều là chất khí. Kim cương 4 liên kết → cứng; than chì các lớp trượt → bôi trơn. Có 1 câu tự viết.",
-   "kid": "nam",
-   "level": "redo",
-   "link": "https://wayground.com/join?gc=16242237",
-   "source": "Wayground",
-   "status": "open",
-   "subject": "KHTN",
-   "topic": "Quiz sửa lỗi KHTN 10: Nhóm 1, 7, 8 và cấu trúc khổng lồ (5 câu)"
   }
  ],
  "meta": {
-  "lastSync": "2026-10-12T15:20:00+07:00",
+  "lastSync": "2026-10-12T15:35:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 10:58, Wayground đọc lúc 12:23 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
