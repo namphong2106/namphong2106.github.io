@@ -552,7 +552,7 @@ const asAll = mine(state.assess);
           <h3>${esc(what(t))}</h3>${prac ? `<div class="acts">${prac}</div>` : ""}</div>
         ${tick(t, what(t))}</article>`;
     };
-    $("sessions").innerHTML = todayRows.map(sesCard).join("") + (aheadDay ? `<div class="ahead"><h3>Làm trước bài của ${aheadName}</h3><p>Không bắt buộc. Bài nào tích ở đây thì đến ngày đó sẽ hiện là đã xong.</p></div>` + aheadRows.map(sesCard).join("") : "");
+    $("sessions").innerHTML = todayRows.filter(t => !isDone(t)).map(sesCard).join("") + (aheadDay ? `<div class="ahead"><h3>Làm trước bài của ${aheadName}</h3><p>Không bắt buộc. Bài nào tích ở đây thì đến ngày đó sẽ hiện là đã xong.</p></div>` + aheadRows.filter(t => !isDone(t)).map(sesCard).join("") : "");
 
     // ----- Việc cần làm -----
     const listTasks = kidTasks.filter(t => !inPlan(t));
