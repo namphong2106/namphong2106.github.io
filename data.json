@@ -17,9 +17,11 @@
    "practice": "Thảo luận trước tiết 2 – tuần 7: Quy trình giải quyết vấn đề (LMS)",
    "review": "Đọc bài báo về quy trình giải quyết vấn đề",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Công dân toàn cầu",
-   "title": "Thảo luận trước tiết 2 tuần 7 – Quy trình giải quyết vấn đề (bắt buộc)"
+   "title": "Thảo luận trước tiết 2 tuần 7 – Quy trình giải quyết vấn đề (bắt buộc)",
+   "doneAt": "2026-10-04T00:24:39+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-eng-unit-2-7",
@@ -138,10 +140,12 @@
    "practice": "Bài đánh giá giữa HK1 Địa lí: đọc hướng dẫn, làm theo file mẫu, nộp trên LMS",
    "review": "Bài đánh giá giữa HK1 Địa lí 8 (đọc file hướng dẫn của cô)",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "2 · Địa lý",
    "title": "40 phút – Địa lí: hoàn thành bài đánh giá giữa HK1 (quá hạn 09/10, LMS đã khóa)",
-   "missing": true
+   "missing": true,
+   "doneAt": "2026-10-11T21:33:54+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-lms-3054591",
@@ -160,9 +164,11 @@
    "practice": "Bài tập củng cố tuần 8 (LMS)",
    "review": "Nói và nghe: nội dung, nghệ thuật của một tác phẩm thơ Đường luật",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Ngữ văn",
-   "title": "Bài tập củng cố tuần 8 – nói và nghe về một tác phẩm thơ Đường luật"
+   "title": "Bài tập củng cố tuần 8 – nói và nghe về một tác phẩm thơ Đường luật",
+   "doneAt": "2026-10-04T18:43:33+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-lms-3061170",
@@ -181,9 +187,11 @@
    "practice": "Bài tập tổng kết Lăng kính 3 (LMS)",
    "review": "Nhận xét tính khách quan của một quan điểm trái chiều về bất bình đẳng",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Công dân toàn cầu",
-   "title": "Bài tập tổng kết Lăng kính 3 – Đánh giá quan điểm trái chiều"
+   "title": "Bài tập tổng kết Lăng kính 3 – Đánh giá quan điểm trái chiều",
+   "doneAt": "2026-10-04T00:24:56+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-lms-637488",
@@ -202,9 +210,11 @@
    "practice": "Nhiệm vụ trước tiết học – Bài 1.3 Thay đổi bản thân, tiết 2 (LMS)",
    "review": "Thay đổi bản thân (tiết 2)",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Giáo dục KNPC",
-   "title": "Nhiệm vụ trước tiết học Bài 1.3 – Thay đổi bản thân (tiết 2)"
+   "title": "Nhiệm vụ trước tiết học Bài 1.3 – Thay đổi bản thân (tiết 2)",
+   "doneAt": "2026-10-03T09:42:19+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-lms-702278",
@@ -249,9 +259,11 @@
    "practice": "2 file PDF của cô Nhi: Hướng dẫn ôn tập giữa HKI; Kiến thức ôn tập chương 1",
    "review": "Review trước kì thi: xem lại toàn bộ chương 1 theo file của cô Nhi",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Lịch sử",
-   "title": "Review trước kì thi: đọc lại 2 file ôn tập của cô Nhi"
+   "title": "Review trước kì thi: đọc lại 2 file ôn tập của cô Nhi",
+   "doneAt": "2026-10-04T15:47:25+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-lms-van-on-ghk1",
@@ -270,9 +282,11 @@
    "practice": "Nội dung ôn tập giữa HKI (file Word của cô)",
    "review": "Đọc nội dung ôn tập giữa HKI (file của cô)",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Ngữ văn",
-   "title": "Ôn giữa HKI theo tài liệu của cô: Nội dung ôn tập"
+   "title": "Ôn giữa HKI theo tài liệu của cô: Nội dung ôn tập",
+   "doneAt": "2026-10-04T15:47:58+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-van-dethamkhao-1",
@@ -291,9 +305,11 @@
    "practice": "Wayground: Đề tham khảo giữa HK1 – Phần 1 (6 câu)",
    "review": "Đề tham khảo của cô – đọc hiểu đoạn trích Đêm hội Long Trì",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "8 · Ngữ văn",
-   "title": "30 phút – Đề tham khảo Ngữ văn giữa HK1, phần 1: đọc hiểu ngữ liệu 1 (6 câu)"
+   "title": "30 phút – Đề tham khảo Ngữ văn giữa HK1, phần 1: đọc hiểu ngữ liệu 1 (6 câu)",
+   "doneAt": "2026-10-04T12:37:57+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-van-dethamkhao-2",
@@ -312,9 +328,11 @@
    "practice": "Wayground: Đề tham khảo giữa HK1 – Phần 2 (5 câu)",
    "review": "Đề tham khảo của cô – đọc hiểu bài thơ Xuất dương lưu biệt",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "9 · Ngữ văn",
-   "title": "20 phút – Đề tham khảo Ngữ văn giữa HK1, phần 2: đọc hiểu ngữ liệu 2 (5 câu)"
+   "title": "20 phút – Đề tham khảo Ngữ văn giữa HK1, phần 2: đọc hiểu ngữ liệu 2 (5 câu)",
+   "doneAt": "2026-10-04T13:15:47+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-ls-hoi-co-nhi",
@@ -379,9 +397,11 @@
    "practice": "Wayground Lịch sử bài 3 – Cách mạng công nghiệp (15 câu)",
    "review": "Cách mạng công nghiệp",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "6 · Lịch sử",
-   "title": "50 phút – Cách mạng công nghiệp: ôn lại bài, rồi làm Wayground bài 3 (15 câu)"
+   "title": "50 phút – Cách mạng công nghiệp: ôn lại bài, rồi làm Wayground bài 3 (15 câu)",
+   "doneAt": "2026-10-03T09:36:03+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-ls-on-gk-4",
@@ -400,9 +420,11 @@
    "practice": "Wayground Lịch sử bài 4 – Phân tích sử liệu & so sánh (12 câu)",
    "review": "Đọc tư liệu, so sánh",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "7 · Lịch sử",
-   "title": "45 phút – Đọc tư liệu và so sánh: Wayground bài 4 (12 câu)"
+   "title": "45 phút – Đọc tư liệu và so sánh: Wayground bài 4 (12 câu)",
+   "doneAt": "2026-10-03T09:54:17+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261003-khtn-c1",
@@ -419,9 +441,11 @@
    "practice": "Bài ôn giữa kì cô Huệ phát trong tiết (bản giấy)",
    "review": "Chương 1 Quang hợp, kĩ phần thí nghiệm chứng minh khí oxygen (cô đã nhắc)",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "5 · KHTN",
-   "title": "50 phút – Chương 1 Quang hợp: ôn kĩ thí nghiệm chứng minh khí oxygen, rồi làm bài ôn cô phát trong tiết"
+   "title": "50 phút – Chương 1 Quang hợp: ôn kĩ thí nghiệm chứng minh khí oxygen, rồi làm bài ôn cô phát trong tiết",
+   "doneAt": "2026-10-04T01:22:27+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261003-ls-tuluan",
@@ -440,9 +464,11 @@
    "practice": "Wayground Lịch sử bài 5A – Tự luận ngắn, 4 câu (viết tay ra giấy trước)",
    "review": "Tự luận Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "8 · Lịch sử",
-   "title": "30 phút – Tự luận câu 1–4 (Wayground bài 5A): Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp"
+   "title": "30 phút – Tự luận câu 1–4 (Wayground bài 5A): Anh, Bắc Mĩ, Pháp, so sánh Anh – Pháp",
+   "doneAt": "2026-10-03T21:38:20+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-khtn-c2",
@@ -461,9 +487,11 @@
    "practice": "Phiếu khắc phục lỗi KHTN 8 – lần 2",
    "review": "Chương 2: phân tử, liên kết hóa học",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "2 · KHTN",
-   "title": "40 phút – KHTN chương 2: Phiếu khắc phục lỗi lần 2 (phân tử, liên kết hóa học)"
+   "title": "40 phút – KHTN chương 2: Phiếu khắc phục lỗi lần 2 (phân tử, liên kết hóa học)",
+   "doneAt": "2026-10-11T16:39:43+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-ls-thithu-tn",
@@ -482,9 +510,11 @@
    "practice": "Wayground: Thi thử giữa HK1 – Phần 1 Trắc nghiệm (10 câu)",
    "review": "Thi thử giữa HK1 – phần trắc nghiệm",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "3 · Lịch sử",
-   "title": "15 phút – Thi thử Lịch sử giữa HK1, phần 1: trắc nghiệm (10 câu)"
+   "title": "15 phút – Thi thử Lịch sử giữa HK1, phần 1: trắc nghiệm (10 câu)",
+   "doneAt": "2026-10-04T13:24:35+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-ls-thithu-tl",
@@ -503,9 +533,11 @@
    "practice": "Wayground: Thi thử giữa HK1 – Phần 2 Tự luận (3 câu)",
    "review": "Thi thử giữa HK1 – phần tự luận",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "4 · Lịch sử",
-   "title": "30 phút – Thi thử Lịch sử giữa HK1, phần 2: tự luận (3 câu)"
+   "title": "30 phút – Thi thử Lịch sử giữa HK1, phần 2: tự luận (3 câu)",
+   "doneAt": "2026-10-04T18:42:38+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-ls-khung-y",
@@ -524,9 +556,11 @@
    "practice": "Khung ý tự luận Lịch sử 8 (trang đọc)",
    "review": "Đọc khung ý tự luận trước khi làm bài: mỗi câu 3–4 từ khóa phải có",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "1 · Lịch sử",
-   "title": "10 phút – Đọc khung ý tự luận Lịch sử trước khi làm bài"
+   "title": "10 phút – Đọc khung ý tự luận Lịch sử trước khi làm bài",
+   "doneAt": "2026-10-04T17:09:53+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-ls-tuluan",
@@ -545,9 +579,11 @@
    "practice": "Wayground Lịch sử bài 5B – Tự luận ngắn, 4 câu (viết tay ra giấy trước)",
    "review": "Tự luận Cách mạng công nghiệp và câu liên hệ",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "2 · Lịch sử",
-   "title": "30 phút – Tự luận câu 5–8 (Wayground bài 5B): Cách mạng công nghiệp, liên hệ ngày nay"
+   "title": "30 phút – Tự luận câu 5–8 (Wayground bài 5B): Cách mạng công nghiệp, liên hệ ngày nay",
+   "doneAt": "2026-10-04T15:03:13+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261003-van-duongluat",
@@ -566,9 +602,11 @@
    "practice": "Wayground: Luyện thơ Đường luật (20 câu)",
    "review": "Ôn thơ Đường luật: bố cục, luật, niêm, vần, đối, nhịp",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "11 · Ngữ văn",
-   "title": "25 phút – Luyện kiến thức thơ Đường luật"
+   "title": "25 phút – Luyện kiến thức thơ Đường luật",
+   "doneAt": "2026-10-03T22:16:18+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-ta-ngay-20261005",
@@ -591,9 +629,11 @@
    "practice": "Wayground Daily Writing B; LMS [Must-do] Grammar practice 1",
    "review": "Câu hỏi bắt đầu bằng giới từ; ngữ pháp trắc nghiệm (2 bài)",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "11 · Tiếng Anh",
-   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing B và Grammar practice 1"
+   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing B và Grammar practice 1",
+   "doneAt": "2026-10-04T19:23:15+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-ta-ngay-20261006",
@@ -616,9 +656,11 @@
    "practice": "Wayground Daily Writing C; LMS [Must-do] Grammar practice 2",
    "review": "Sửa lỗi câu (formal letter); chia động từ (2 bài)",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "2 · Tiếng Anh",
-   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing C và Grammar practice 2"
+   "title": "40 phút – Tiếng Anh hằng ngày: Daily Writing C và Grammar practice 2",
+   "doneAt": "2026-10-06T20:39:03+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-toan-quiz-2-10",
@@ -674,9 +716,11 @@
    "kid": "nam",
    "note": "Cùng ngày kiểm tra chương 2; hôm sau 13/10 kiểm tra giữa kì. Mang phiếu học tập và bài tập ôn cô phát.",
    "source": "VS One",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "Buổi ôn tập chương 2 của cô Huệ – buổi 2 (tại phòng học lớp 8A2)"
+   "title": "Buổi ôn tập chương 2 của cô Huệ – buổi 2 (tại phòng học lớp 8A2)",
+   "doneAt": "2026-10-12T22:12:49+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261010-khtn-c2",
@@ -693,9 +737,11 @@
    "practice": "Hướng dẫn ôn tập cô Huệ phát (bản giấy); các câu sai ở bài tập 2.3, 2.4",
    "review": "Lí thuyết chương 2: nguyên tử, phân tử, liên kết hóa học",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "3 · KHTN",
-   "title": "45 phút – KHTN chương 2: ôn lí thuyết theo hướng dẫn ôn tập của cô, xem lại các câu sai ở bài tập 2.3 và 2.4"
+   "title": "45 phút – KHTN chương 2: ôn lí thuyết theo hướng dẫn ôn tập của cô, xem lại các câu sai ở bài tập 2.3 và 2.4",
+   "doneAt": "2026-10-10T16:49:38+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261011-khtn-c1",
@@ -712,9 +758,11 @@
    "practice": "Hướng dẫn ôn tập cô Huệ phát, phần chương 1 (bản giấy)",
    "review": "Chương 1 Quang hợp: thí nghiệm chứng minh khí oxygen, cấu tạo lá – lục lạp, trao đổi carbon",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "1 · KHTN",
-   "title": "30 phút – KHTN: ôn lại lí thuyết chương 1 Quang hợp cho bài giữa kì sáng thứ Ba 13/10"
+   "title": "30 phút – KHTN: ôn lại lí thuyết chương 1 Quang hợp cho bài giữa kì sáng thứ Ba 13/10",
+   "doneAt": "2026-10-11T22:45:06+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261011-khtn-c2",
@@ -735,9 +783,11 @@
    "practice": "Bài tập ôn cô Huệ phát, phần chương 2 (bản giấy), làm lại có bấm giờ",
    "review": "Tổng ôn chương 2 (lí thuyết và bài tập)",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "1 · KHTN",
-   "title": "60 phút – Tổng ôn chương 2 trước bài kiểm tra thứ Hai: làm lại bài tập ôn cô phát (phần chương 2), có bấm giờ"
+   "title": "60 phút – Tổng ôn chương 2 trước bài kiểm tra thứ Hai: làm lại bài tập ôn cô phát (phần chương 2), có bấm giờ",
+   "doneAt": "2026-10-11T16:39:38+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-vnh-quiz-huong-dan-san-pham-cd2",
@@ -912,9 +962,11 @@
    "practice": "Wayground: Đề tham khảo giữa HK1 – Phần 3 Viết (1 câu)",
    "review": "Đề tham khảo của cô – bài văn kể lại chuyến tham quan di tích lịch sử, văn hóa",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "10 · Ngữ văn",
-   "title": "30 phút – Đề tham khảo Ngữ văn giữa HK1, phần 3: viết (1 câu)"
+   "title": "30 phút – Đề tham khảo Ngữ văn giữa HK1, phần 3: viết (1 câu)",
+   "doneAt": "2026-10-04T15:48:08+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-on-20261004-toan-phieu-on",
@@ -931,9 +983,11 @@
    "practice": "Phiếu ôn tập Toán (bản giấy, không có link)",
    "review": "Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "12 · Toán",
-   "title": "45 phút – Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán"
+   "title": "45 phút – Buổi chiều: ôn Toán chương 2 theo phiếu ôn tập Toán",
+   "doneAt": "2026-10-04T17:10:00+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-amnhac-hs1-20261010",
@@ -1007,9 +1061,11 @@
    "practice": "Bài kiểm tra hệ số 1 – lần 1 (LMS)",
    "review": "Xem lại các câu đã sai ở 4 lượt trước",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "3 · Địa lý",
-   "title": "20 phút – Địa lí: ôn lại rồi làm thêm một lượt bài kiểm tra hệ số 1 (hạn thứ Tư 14/10)"
+   "title": "20 phút – Địa lí: ôn lại rồi làm thêm một lượt bài kiểm tra hệ số 1 (hạn thứ Tư 14/10)",
+   "doneAt": "2026-10-11T21:33:22+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-toan-quiz-3-2",
@@ -1313,14 +1369,16 @@
    "practice": "T07 Quiz – Dấu gạch ngang (1)",
    "review": "Dấu gạch ngang (phần 1)",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Tiếng Việt",
    "title": "10 phút – Dấu gạch ngang (phần 1)",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226019"
+   "link": "https://lms.vinschool.edu.vn/courses/73709/quizzes/2226019",
+   "doneAt": "2026-10-10T20:38:23+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-myimaths-fractions-of-amounts",
-   "due": "2026-10-10",
+   "due": "2026-10-14",
    "kid": "phong",
    "links": [
     {
@@ -1333,8 +1391,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 10/10, buổi 2. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
-   "order": 2,
+   "note": "Con đã tích xong ngày 10/10 nhưng MyiMaths chưa ghi nhận điểm (bài vẫn báo Late). Làm lại đến khi hiện điểm ở mục Scores.",
+   "order": 3,
    "practice": "MyiMaths: làm bài Fractions of amounts",
    "review": "Tìm phân số của một số lượng (bài thầy giao, MyiMaths đang báo trễ)",
    "source": "MyiMaths",
@@ -1359,14 +1417,16 @@
    "practice": "Raz-Kids Level S: quiz \"Critter Crossings\"",
    "review": "Làm nốt quiz đang dở của sách \"Critter Crossings\"",
    "source": "Raz-Kids",
-   "status": "todo",
+   "status": "done",
    "subject": "Raz-Kids",
    "title": "10 phút – Làm nốt quiz đang dở của sách \"Critter Crossings\"",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment",
+   "doneAt": "2026-10-10T21:22:10+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-tv-t08-doc-ve-mau",
-   "due": "2026-10-11",
+   "due": "2026-10-13",
    "kid": "phong",
    "links": [
     {
@@ -1379,8 +1439,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu CN 11/10, buổi 1. Chuẩn bị cho tuần học 12/10.",
-   "order": 1,
+   "note": "Chuyển từ CN 11/10 – chưa tích.",
+   "order": 2,
    "practice": "T08 Nhiệm vụ làm trước – Đọc Vẽ màu",
    "review": "Bài 3.1 Vẽ màu: đọc bài thơ và làm nhiệm vụ trước tiết học",
    "source": "LMS",
@@ -1391,7 +1451,7 @@
   },
   {
    "id": "phong-tv-t08-quiz-nhan-hoa",
-   "due": "2026-10-11",
+   "due": "2026-10-13",
    "kid": "phong",
    "links": [
     {
@@ -1400,8 +1460,8 @@
     }
    ],
    "minutes": 10,
-   "note": "Thời gian biểu CN 11/10, buổi 2.",
-   "order": 2,
+   "note": "Chuyển từ CN 11/10 – LMS ghi chưa nộp.",
+   "order": 1,
    "practice": "T08 Quiz – Luyện từ và câu: Biện pháp nhân hóa",
    "review": "Biện pháp nhân hóa",
    "source": "LMS",
@@ -1430,14 +1490,16 @@
    "practice": "T07 Quiz – Đền Hùng và Giỗ Tổ Hùng Vương",
    "review": "Đền Hùng và Giỗ Tổ Hùng Vương: xem video tự học rồi làm quiz",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Lịch sử và Địa lý",
    "title": "20 phút – Đền Hùng và Giỗ Tổ Hùng Vương: xem video tự học rồi làm quiz",
-   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2226018"
+   "link": "https://lms.vinschool.edu.vn/courses/73707/quizzes/2226018",
+   "doneAt": "2026-10-12T21:30:01+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-myimaths-fractions-as-operators-2",
-   "due": "2026-10-11",
+   "due": "2026-10-14",
    "kid": "phong",
    "links": [
     {
@@ -1450,7 +1512,7 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu CN 11/10, buổi 4. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
+   "note": "Chuyển từ CN 11/10 (chưa làm). MyiMaths báo Late.",
    "order": 4,
    "practice": "MyiMaths: làm bài Fractions as operators 2",
    "review": "Tìm phân số của một số, tử số lớn hơn 1 (bài thầy giao, MyiMaths đang báo trễ)",
@@ -1476,10 +1538,12 @@
    "practice": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
    "review": "Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
    "source": "Raz-Kids",
-   "status": "todo",
+   "status": "done",
    "subject": "Raz-Kids",
    "title": "10 phút – Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment",
+   "doneAt": "2026-10-12T21:29:36+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-wg-lms-sci-u3-revision-2-b",
@@ -1497,10 +1561,12 @@
    "practice": "Wayground: G4 Revision Unit 3.1–3.2, câu 11–20 (10 câu)",
    "review": "G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 11–20",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Science",
    "title": "20 phút – G4 Revision Unit 3.1–3.2 (phiếu LMS): câu 11–20",
-   "link": "https://wayground.com/join?gc=25000173"
+   "link": "https://wayground.com/join?gc=25000173",
+   "doneAt": "2026-10-11T11:41:15+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-tv-t08-doc-dong-co-no-hoa",
@@ -1518,10 +1584,12 @@
    "practice": "T08 Nhiệm vụ làm trước – Đọc Đồng cỏ nở hoa",
    "review": "Bài 3.2 Đồng cỏ nở hoa: đọc văn bản và làm nhiệm vụ trước tiết học",
    "source": "LMS",
-   "status": "todo",
+   "status": "done",
    "subject": "Tiếng Việt",
    "title": "15 phút – Bài 3.2 Đồng cỏ nở hoa: đọc văn bản và làm nhiệm vụ trước tiết học",
-   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021911"
+   "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9021911",
+   "doneAt": "2026-10-12T21:11:35+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-raz-20261012-quiz",
@@ -1539,10 +1607,12 @@
    "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
    "review": "Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
    "source": "Raz-Kids",
-   "status": "todo",
+   "status": "done",
    "subject": "Raz-Kids",
    "title": "10 phút – Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
-   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+   "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment",
+   "doneAt": "2026-10-12T21:05:21+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "phong-maths-w9-lms-practice",
@@ -2121,9 +2191,11 @@
    "practice": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 1: Ion – ai cho, ai nhận electron (10 câu)",
    "review": "Ion: đếm proton và electron để biết dấu điện tích",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN chương 2, sửa lỗi 1/3: ion – ai cho, ai nhận electron"
+   "title": "15 phút – KHTN chương 2, sửa lỗi 1/3: ion – ai cho, ai nhận electron",
+   "doneAt": "2026-10-11T16:18:24+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-c2-sualoi2",
@@ -2142,9 +2214,11 @@
    "practice": "Wayground: KHTN 8 – Chương 2 – Sửa lỗi 2: Hợp chất ion, cộng hóa trị, nhóm 7 (10 câu)",
    "review": "Hợp chất ion và cộng hóa trị; halogen và khí hiếm",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN chương 2, sửa lỗi 2/3: hợp chất ion, cộng hóa trị, nhóm 7"
+   "title": "15 phút – KHTN chương 2, sửa lỗi 2/3: hợp chất ion, cộng hóa trị, nhóm 7",
+   "doneAt": "2026-10-11T16:26:50+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-c2-nangcao",
@@ -2163,9 +2237,11 @@
    "practice": "Wayground: KHTN 8 – Chương 2 – Nâng cao: Bài tổng hợp kiểu đề kiểm tra (10 câu)",
    "review": "Bài tổng hợp nhiều bước, gồm cả cấu trúc đơn giản và khổng lồ (C2.04)",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN chương 2, nâng cao 3/3: bài tổng hợp kiểu đề kiểm tra"
+   "title": "15 phút – KHTN chương 2, nâng cao 3/3: bài tổng hợp kiểu đề kiểm tra",
+   "doneAt": "2026-10-11T16:39:32+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-onlancuoi-bai1",
@@ -2184,9 +2260,11 @@
    "practice": "Wayground: KHTN 8 – Ôn lần cuối – Bài 1: Liên kết hóa học (10 câu)",
    "review": "Ion, liên kết ion và cộng hóa trị, phân tử",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "20 phút – KHTN ôn lần cuối, bài 1/2: Liên kết hóa học"
+   "title": "20 phút – KHTN ôn lần cuối, bài 1/2: Liên kết hóa học",
+   "doneAt": "2026-10-11T22:45:13+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-onlancuoi-bai2",
@@ -2205,9 +2283,11 @@
    "practice": "Wayground: KHTN 8 – Ôn lần cuối – Bài 2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm (10 câu)",
    "review": "Công thức và ion, cặp electron dùng chung, khối lượng riêng, biến trong thí nghiệm, truyền nhiệt",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN ôn lần cuối, bài 2/2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm"
+   "title": "15 phút – KHTN ôn lần cuối, bài 2/2: Ion, vẽ liên kết, khối lượng riêng, thí nghiệm",
+   "doneAt": "2026-10-12T19:35:01+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-sualoi-phieuon",
@@ -2230,9 +2310,11 @@
    "practice": "Wayground: KHTN 8 - Sửa lỗi phiếu ôn giữa HK1 - Phần 1/2 và 2/2",
    "review": "Các câu sai trong phiếu ôn giữa HK1 chấm 03/10",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "15 phút – KHTN sửa lỗi phiếu ôn giữa HK1 (2 phần: 6 câu + 5 câu)"
+   "title": "15 phút – KHTN sửa lỗi phiếu ôn giữa HK1 (2 phần: 6 câu + 5 câu)",
+   "doneAt": "2026-10-12T22:29:21+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-sualoi-3",
@@ -2251,9 +2333,11 @@
    "practice": "Wayground: Sửa lỗi KHTN 3: Ion, công thức hợp chất ion, phân tử (10 câu)",
    "review": "Ion, công thức hợp chất ion, phân tử – hợp chất, khả năng phản ứng nhóm 1",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "20 phút – KHTN sửa lỗi 3: Ion, công thức hợp chất ion, phân tử (10 câu)"
+   "title": "20 phút – KHTN sửa lỗi 3: Ion, công thức hợp chất ion, phân tử (10 câu)",
+   "doneAt": "2026-10-12T20:37:50+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-sualoi-4",
@@ -2272,9 +2356,11 @@
    "practice": "Wayground: Sửa lỗi KHTN 4: Nguyên tử, khối lượng riêng, thí nghiệm quang hợp (10 câu)",
    "review": "Cấu tạo nguyên tử, khối lượng riêng, thí nghiệm quang hợp, thử tinh bột",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "20 phút – KHTN sửa lỗi 4: Nguyên tử, khối lượng riêng, thí nghiệm quang hợp (10 câu)"
+   "title": "20 phút – KHTN sửa lỗi 4: Nguyên tử, khối lượng riêng, thí nghiệm quang hợp (10 câu)",
+   "doneAt": "2026-10-12T21:07:14+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-sualoi-a",
@@ -2293,9 +2379,11 @@
    "practice": "Wayground: KHTN 8 – Sửa lỗi A: Ion, nguyên tử, nhóm và chu kì (10 câu)",
    "review": "Kim loại nhường e → ion dương, phi kim nhận e → ion âm; số proton → cấu hình → nhóm, chu kì; không cộng neutron khi tìm số hiệu",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "25 phút – KHTN sửa lỗi A: Ion, nguyên tử, nhóm và chu kì (10 câu)"
+   "title": "25 phút – KHTN sửa lỗi A: Ion, nguyên tử, nhóm và chu kì (10 câu)",
+   "doneAt": "2026-10-12T21:17:00+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-sualoi-b",
@@ -2314,9 +2402,11 @@
    "practice": "Wayground: KHTN 8 – Sửa lỗi B: Quang hợp và chu trình carbon (10 câu)",
    "review": "Chất tham gia quang hợp chỉ là nước và CO₂; diệp lục: ánh sáng → năng lượng hóa học; mô giậu – mô xốp; lấy – truyền – trả CO₂",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "25 phút – KHTN sửa lỗi B: Quang hợp và chu trình carbon (10 câu)"
+   "title": "25 phút – KHTN sửa lỗi B: Quang hợp và chu trình carbon (10 câu)",
+   "doneAt": "2026-10-12T21:43:55+07:00",
+   "doneVia": "tick"
   },
   {
    "id": "nam-wg-khtn-sualoi-c",
@@ -2335,9 +2425,51 @@
    "practice": "Wayground: KHTN 8 – Sửa lỗi C: Thí nghiệm, khoáng chất, các nhóm và cấu trúc khổng lồ (10 câu)",
    "review": "Biến độc lập, phụ thuộc, cố định; thiếu Mg và nitrate; khí hiếm đều là khí; kim cương, than chì, polymer",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
-   "title": "25 phút – KHTN sửa lỗi C: Thí nghiệm, khoáng chất, các nhóm và cấu trúc khổng lồ (10 câu)"
+   "title": "25 phút – KHTN sửa lỗi C: Thí nghiệm, khoáng chất, các nhóm và cấu trúc khổng lồ (10 câu)",
+   "doneAt": "2026-10-12T21:50:23+07:00",
+   "doneVia": "tick"
+  },
+  {
+   "id": "phong-amnhac-lms-3093910",
+   "kid": "phong",
+   "subject": "Âm nhạc",
+   "source": "LMS",
+   "status": "todo",
+   "due": "2026-10-15",
+   "order": 3,
+   "minutes": 10,
+   "title": "10 phút – Âm nhạc: Bài tập mức độ dễ",
+   "practice": "Âm nhạc – Bài tập mức độ dễ (quiz LMS)",
+   "review": "Bài hát Siyahamba",
+   "link": "https://lms.vinschool.edu.vn/courses/72800/assignments/3093910",
+   "links": [
+    {
+     "label": "Âm nhạc – Bài tập mức độ dễ",
+     "url": "https://lms.vinschool.edu.vn/courses/72800/assignments/3093910"
+    }
+   ],
+   "note": "Cô giao trên LMS ngày 10/10, không ghi hạn."
+  },
+  {
+   "id": "phong-amnhac-lms-3093911",
+   "kid": "phong",
+   "subject": "Âm nhạc",
+   "source": "LMS",
+   "status": "todo",
+   "minutes": 20,
+   "title": "Thử thách sáng tạo (không bắt buộc): đặt lời mới cho bài hát \"Siyahamba\"",
+   "practice": "Âm nhạc – Thử thách sáng tạo (nộp file trên LMS)",
+   "review": "Chủ đề gợi ý: mái trường, thầy cô, bạn bè, quê hương",
+   "link": "https://lms.vinschool.edu.vn/courses/72800/assignments/3093911",
+   "links": [
+    {
+     "label": "Âm nhạc – Thử thách sáng tạo",
+     "url": "https://lms.vinschool.edu.vn/courses/72800/assignments/3093911"
+    }
+   ],
+   "note": "Bài nâng cao, làm khi con có hứng thú."
   }
  ],
  "exams": [
@@ -3636,7 +3768,7 @@
    "source": "LMS",
    "subject": "Lịch sử và Địa lý",
    "title": "T05 Quiz – Thiên nhiên Trung du và miền núi Bắc Bộ",
-   "note": "Lượt làm đầu, làm trong chưa đầy 4 phút."
+   "note": "Lượt làm đầu 4,67/10, làm trong chưa đầy 4 phút. Làm lại ngày 12/10 được 5,67/10."
   },
   {
    "id": "phong-lms-2711931",
@@ -3718,6 +3850,30 @@
    "source": "LMS",
    "subject": "Âm nhạc",
    "title": "Bài đánh giá tuần 2 (2)"
+  },
+  {
+   "id": "phong-lms-3058673",
+   "date": "2026-10-11",
+   "kid": "phong",
+   "max": 10,
+   "official": false,
+   "score": 2.4,
+   "source": "LMS",
+   "subject": "Lịch sử và Địa lý",
+   "title": "T07 Quiz – Đền Hùng và Giỗ Tổ Hùng Vương",
+   "note": "Lượt làm đầu 2,4/10. Con làm 5 lượt liền trong khoảng 6 phút (2,4 → 6,4 → 4,4 → 5,2 → 5,2) – có dấu hiệu đoán đáp án."
+  },
+  {
+   "id": "phong-lms-3058675",
+   "date": "2026-10-10",
+   "kid": "phong",
+   "max": 10,
+   "official": false,
+   "score": 8.67,
+   "source": "LMS",
+   "subject": "Tiếng Việt",
+   "title": "T07 Quiz – Ngôn ngữ: Dấu gạch ngang (1)",
+   "note": "Lượt làm đầu."
   }
  ],
  "notes": [
@@ -4059,7 +4215,7 @@
    "id": "phong-lsdl-lms-t05-quiz",
    "activity": "Quiz T05 trên LMS",
    "date": "2026-10-07",
-   "detail": "Lượt làm đầu 4,67/10, làm trong chưa đầy 4 phút. Trang kết quả trên LMS không hiện câu nào sai.",
+   "detail": "Lượt làm đầu 4,67/10, làm trong chưa đầy 4 phút. Trang kết quả trên LMS không hiện câu nào sai. Làm lại ngày 12/10 được 5,67/10.",
    "fix": "Phụ huynh mở quiz cùng con để xem các câu sai. Khi rõ câu sai sẽ soạn quiz sửa lỗi.",
    "kid": "phong",
    "level": "unknown",
@@ -4180,20 +4336,34 @@
    "status": "fixed",
    "subject": "Tiếng Việt",
    "topic": "Quiz sửa lỗi Tiếng Việt – Dấu ngoặc kép (5 câu)"
+  },
+  {
+   "id": "phong-lsdl-lms-t07-quiz",
+   "activity": "Quiz T07 trên LMS",
+   "date": "2026-10-11",
+   "detail": "Lượt làm đầu 2,4/10; con làm 5 lượt liền trong khoảng 6 phút, cao nhất 6,4/10. Trang kết quả trên LMS không hiện câu nào sai.",
+   "fix": "Phụ huynh mở quiz cùng con, đọc lại bài Đền Hùng và Giỗ Tổ Hùng Vương rồi xem các câu sai. Khi rõ câu sai sẽ soạn quiz sửa lỗi.",
+   "kid": "phong",
+   "level": "unknown",
+   "link": "https://lms.vinschool.edu.vn/courses/73707/assignments/3058673",
+   "source": "LMS",
+   "status": "open",
+   "subject": "Lịch sử và Địa lý",
+   "topic": "T07 – Đền Hùng và Giỗ Tổ Hùng Vương: 2,4/10"
   }
  ],
  "meta": {
-  "lastSync": "2026-10-12T15:35:00+07:00",
+  "lastSync": "2026-10-13T08:55:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS của Nam đọc lúc 10:58, Wayground đọc lúc 12:23 Chủ nhật 11/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Chủ nhật 11/10: nộp bài đánh giá giữa HK1 Địa lí (LMS vẫn ghi chưa nộp). KHTN: làm ba quiz mới trên Wayground theo thứ tự Sửa lỗi 1, Sửa lỗi 2, Nâng cao để chắc phần ion trước bài kiểm tra thứ Hai 12/10.",
+   "sources": "Tích hoàn thành đồng bộ lúc 08:55 thứ Ba 13/10 · LMS của Nam chưa đọc lại (lượt cập nhật này không mở được trình duyệt đăng nhập tài khoản Nam) · VS One đọc lúc 21:10 thứ Bảy 10/10",
+   "tonight": "Thứ Ba 13/10: Lịch sử – bài tập trước tiết Đàng Ngoài; Địa lí – bài tập trước tiết Bài 4. Từ tuần này ưu tiên Toán và Tiếng Anh.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
    "dailyDone": "2026-10-01",
-   "sources": "Wayground đọc lúc 10:58 Chủ nhật 11/10 · LMS, MyiMaths và Raz-Kids của Phong chưa đọc được sáng 11/10 (chưa đăng nhập) · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Chủ nhật 11/10: làm theo danh sách hôm nay. Quiz sửa lỗi Hỗn số 2 còn dở 4 câu, con làm nốt khi có thời gian.",
+   "sources": "LMS và MyiMaths của Phong đọc lúc 08:55 thứ Ba 13/10 · Raz-Kids, Wayground chưa đọc lại · VS One đọc lúc 21:10 thứ Bảy 10/10",
+   "tonight": "Thứ Ba 13/10: làm quiz Biện pháp nhân hóa và đọc bài Vẽ màu (chuyển từ CN), rồi bài Maths tuần 9 và MyiMaths phân số lớn hơn 1. Bài MyiMaths \"Fractions of amounts\" con đã tích nhưng hệ thống chưa ghi điểm – làm lại thứ Tư.",
    "weeklyDone": "2026-10-02"
   }
  }
