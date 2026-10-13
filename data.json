@@ -4264,6 +4264,42 @@
    "subject": "Tiếng Việt",
    "title": "T07 Quiz – Ngôn ngữ: Dấu gạch ngang (1)",
    "note": "Lượt làm đầu."
+  },
+  {
+   "id": "nam-vsone-toan-ch1",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "max": 10,
+   "note": "Phụ huynh báo theo VinschoolOne ngày 13/10.",
+   "official": true,
+   "score": 10,
+   "source": "VS One",
+   "subject": "Toán",
+   "title": "Kiểm tra chương 1 – Số và phép toán"
+  },
+  {
+   "id": "nam-vsone-toan-ch2",
+   "date": "2026-10-10",
+   "kid": "nam",
+   "max": 10,
+   "note": "Phụ huynh báo theo VinschoolOne ngày 13/10.",
+   "official": true,
+   "score": 9.5,
+   "source": "VS One",
+   "subject": "Toán",
+   "title": "Kiểm tra chương 2 – Biểu thức và công thức"
+  },
+  {
+   "id": "nam-vsone-ta-unit-quiz2",
+   "date": "2026-10-07",
+   "kid": "nam",
+   "max": 10,
+   "note": "Phụ huynh báo theo VinschoolOne ngày 13/10.",
+   "official": true,
+   "score": 6,
+   "source": "VS One",
+   "subject": "Tiếng Anh (GVVN)",
+   "title": "8A5 – Unit Quiz 2"
   }
  ],
  "notes": [
