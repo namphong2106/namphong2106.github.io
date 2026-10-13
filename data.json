@@ -2325,7 +2325,7 @@
     }
    ],
    "minutes": 20,
-   "note": "LMS đọc 13/10: quiz chưa làm. Toán giữa kì thứ Sáu 23/10.",
+   "note": "LMS đọc 13/10: quiz chưa làm. Tối nay làm cả ba quiz 3.1, 3.2, 3.3. Toán giữa kì thứ Sáu 23/10.",
    "order": 3,
    "practice": "[QUIZ] Bài 3.1 (LMS)",
    "review": "Bài 3.1: nhân, chia với lũy thừa của 10",
@@ -2351,17 +2351,17 @@
    ],
    "minutes": 20,
    "note": "LMS đọc 13/10: chưa làm.",
-   "order": 4,
+   "order": 6,
    "practice": "[MUST DO] 3.4. Reading Practice (LMS)",
    "review": "Unit 3 · Lesson 3.4 You and Your Community",
    "source": "LMS",
    "status": "todo",
-   "subject": "4 · Tiếng Anh",
+   "subject": "6 · Tiếng Anh",
    "title": "20 phút – Tiếng Anh: Lesson 3.4 – Reading Practice"
   },
   {
    "id": "nam-toan-quiz-3-2",
-   "due": "2026-10-14",
+   "due": "2026-10-13",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2240219",
    "links": [
@@ -2376,12 +2376,12 @@
    ],
    "minutes": 20,
    "note": "LMS đọc 13/10: quiz chưa làm.",
-   "order": 1,
+   "order": 4,
    "practice": "[QUIZ] Bài 3.2 (LMS)",
    "review": "Bài 3.2: nhân, chia số thập phân",
    "source": "LMS",
    "status": "todo",
-   "subject": "1 · Toán",
+   "subject": "4 · Toán",
    "title": "20 phút – Toán: quiz Bài 3.2 – Phép nhân và phép chia số thập phân"
   },
   {
@@ -2411,7 +2411,7 @@
   },
   {
    "id": "nam-toan-quiz-3-3",
-   "due": "2026-10-15",
+   "due": "2026-10-13",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2240220",
    "links": [
@@ -2426,12 +2426,12 @@
    ],
    "minutes": 20,
    "note": "LMS đọc 13/10: quiz chưa làm.",
-   "order": 1,
+   "order": 5,
    "practice": "[QUIZ] Bài 3.3 (LMS)",
    "review": "Bài 3.3: phần trăm kép",
    "source": "LMS",
    "status": "todo",
-   "subject": "1 · Toán",
+   "subject": "5 · Toán",
    "title": "20 phút – Toán: quiz Bài 3.3 – Hiểu về phần trăm kép"
   },
   {
@@ -2457,7 +2457,7 @@
   },
   {
    "id": "nam-toan-pht-3-1",
-   "due": "2026-10-16",
+   "due": "2026-10-14",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/files/11814726",
    "links": [
@@ -2499,7 +2499,7 @@
   },
   {
    "id": "nam-toan-pht-3-2",
-   "due": "2026-10-17",
+   "due": "2026-10-15",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/files/11815138",
    "links": [
@@ -2520,7 +2520,7 @@
   },
   {
    "id": "nam-toan-pht-3-3",
-   "due": "2026-10-17",
+   "due": "2026-10-16",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/files/11815246",
    "links": [
@@ -2531,12 +2531,12 @@
    ],
    "minutes": 25,
    "note": "Làm trên giấy, không dùng máy tính.",
-   "order": 2,
+   "order": 1,
    "practice": "[PHT] Bài 3.3 (file LMS)",
    "review": "Ôn Bài 3.3 cho kiểm tra giữa kì",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Toán",
+   "subject": "1 · Toán",
    "title": "25 phút – Toán: phiếu học tập Bài 3.3"
   },
   {
@@ -2556,17 +2556,17 @@
    ],
    "minutes": 25,
    "note": "Hai bài Must-do Week 7 LMS ghi chưa làm.",
-   "order": 3,
+   "order": 2,
    "practice": "[Must-do] Reading practice 1 – MCQs; Reading practice 2 – Gap-filling (LMS)",
    "review": "Ôn Unit 1–2 (Week 7 revision)",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Tiếng Anh",
+   "subject": "2 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Reading practice 1 và 2"
   },
   {
    "id": "nam-toan-pht-1-3",
-   "due": "2026-10-18",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/assignments/2834902",
    "links": [
@@ -2616,7 +2616,7 @@
   },
   {
    "id": "nam-toan-pht-2-1",
-   "due": "2026-10-19",
+   "due": "2026-10-18",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/assignments/2834911",
    "links": [
@@ -2666,7 +2666,7 @@
   },
   {
    "id": "nam-toan-pbt-2-10",
-   "due": "2026-10-20",
+   "due": "2026-10-19",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/files/11644726",
    "links": [
@@ -2676,7 +2676,7 @@
     }
    ],
    "minutes": 25,
-   "note": "Nếu LMS đã mở Bài 3.4 (cận trên, cận dưới), sổ sẽ thêm vào khi cập nhật.",
+   "note": "Làm trên giấy, không dùng máy tính.",
    "order": 1,
    "practice": "[PBT] Bài 2.10 (file LMS)",
    "review": "Ôn giữa kì: rút gọn phân thức đại số",
@@ -2708,7 +2708,7 @@
   },
   {
    "id": "nam-toan-pht-2-11",
-   "due": "2026-10-21",
+   "due": "2026-10-20",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/files/11732871",
    "links": [
@@ -2839,6 +2839,27 @@
    "status": "todo",
    "subject": "2 · Tiếng Anh",
    "title": "15 phút – Tiếng Anh: ôn lại từ vựng Unit 3"
+  },
+  {
+   "id": "nam-toan-pht-1-3-nc",
+   "due": "2026-10-21",
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/88431/assignments/2834903",
+   "links": [
+    {
+     "label": "[PHT NÂNG CAO] Bài 1.3 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/88431/assignments/2834903"
+    }
+   ],
+   "minutes": 25,
+   "note": "Nếu LMS mở Bài 3.4 (cận trên, cận dưới), sổ sẽ đổi sang Bài 3.4 vì bài này nằm trong phạm vi thi.",
+   "order": 1,
+   "practice": "[PHT NÂNG CAO] Bài 1.3 Số mũ (LMS)",
+   "review": "Ôn giữa kì: số mũ (quiz Bài 1.3 trước đây 7,33/10)",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "1 · Toán",
+   "title": "25 phút – Toán: ôn chương 1 – PHT nâng cao Bài 1.3 Số mũ"
   }
  ],
  "exams": [
@@ -2891,7 +2912,7 @@
    "id": "nam-toan-giuaki1",
    "date": "2026-10-23",
    "kid": "nam",
-   "scope": "45 phút, làm bài trên giấy, không dùng máy tính cầm tay. Nội dung: từ đầu chương trình đến Bài 3.4 – Hiểu về cận trên và cận dưới (không gồm các nội dung MoET tích hợp). Sổ đã xếp ôn: 13–15/10 làm quiz Bài 3.1–3.3; 16–17/10 phiếu học tập 3.1–3.3; 18–21/10 ôn chương 1–2 (số mũ, thay vào biểu thức, rút gọn phân thức, biến đổi công thức); 22/10 xem lại câu sai. Bài 3.4 LMS chưa mở (đọc 13/10).",
+   "scope": "45 phút, làm bài trên giấy, không dùng máy tính cầm tay. Nội dung: từ đầu chương trình đến Bài 3.4 – Hiểu về cận trên và cận dưới (không gồm các nội dung MoET tích hợp). Sổ đã xếp ôn: 13/10 làm cả ba quiz Bài 3.1–3.3; 14–16/10 phiếu học tập 3.1–3.3; 17–21/10 ôn chương 1–2 (số mũ, thay vào biểu thức, rút gọn phân thức, biến đổi công thức); 22/10 xem lại câu sai. Bài 3.4 LMS chưa mở (đọc 13/10).",
    "source": "VS One",
    "subject": "Toán",
    "title": "Kiểm tra giữa kì I"
@@ -4726,7 +4747,7 @@
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Ba 13/10: Lịch sử và Địa lí – bài tập trước tiết; Toán quiz Bài 3.1; Tiếng Anh Lesson 3.4 Reading. Từ nay ngày nào cũng có Toán và Tiếng Anh. Toán kiểm tra giữa kì thứ Sáu 23/10.",
+   "tonight": "Thứ Ba 13/10: Lịch sử và Địa lí – bài tập trước tiết; Toán làm cả ba quiz Bài 3.1, 3.2, 3.3; Tiếng Anh Lesson 3.4 Reading. Ngày nào cũng có một bài Toán và một bài Tiếng Anh. Toán kiểm tra giữa kì thứ Sáu 23/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
