@@ -2489,12 +2489,12 @@
    ],
    "minutes": 15,
    "note": "LMS đọc 13/10: chưa nộp.",
-   "order": 2,
+   "order": 3,
    "practice": "After class task – Reflection (LMS)",
    "review": "Lesson 3.4: tự đánh giá sau bài học",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "3 · Tiếng Anh",
    "title": "15 phút – Tiếng Anh: Lesson 3.4 – After class task – Reflection"
   },
   {
@@ -2556,12 +2556,12 @@
    ],
    "minutes": 25,
    "note": "Hai bài Must-do Week 7 LMS ghi chưa làm.",
-   "order": 3,
+   "order": 2,
    "practice": "[Must-do] Reading practice 1 – MCQs; Reading practice 2 – Gap-filling (LMS)",
    "review": "Ôn Unit 1–2 (Week 7 revision)",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Tiếng Anh",
+   "subject": "2 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Reading practice 1 và 2"
   },
   {
@@ -2842,7 +2842,7 @@
   },
   {
    "id": "nam-wg-toan-giuaki-1",
-   "due": "2026-10-17",
+   "due": "2026-10-16",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=26005373",
    "links": [
@@ -2944,6 +2944,52 @@
    "status": "todo",
    "subject": "2 · Toán",
    "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới"
+  },
+  {
+   "id": "nam-ta-u34-reading-nop",
+   "due": "2026-10-16",
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248471",
+   "links": [
+    {
+     "label": "Self-study instruction (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/pages/self-study-instruction-6"
+    },
+    {
+     "label": "[MUST DO] 3.4 Reading Practice (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248471"
+    }
+   ],
+   "minutes": 20,
+   "note": "Tối 13/10 con đã tích xong nhưng LMS đọc tối 15/10 vẫn ghi chưa nộp. Mở lại, làm và bấm nộp trên LMS.",
+   "order": 4,
+   "practice": "[MUST DO] 3.4. Reading Practice (LMS)",
+   "review": "Lesson 3.4: Reading Practice – làm và nộp trên LMS",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "4 · Tiếng Anh",
+   "title": "20 phút – Tiếng Anh: Lesson 3.4 – Reading Practice (nộp trên LMS)"
+  },
+  {
+   "id": "nam-ta-sualoi-3-t6",
+   "due": "2026-10-16",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=00822509",
+   "links": [
+    {
+     "label": "Sửa lỗi Tiếng Anh 3/5 (Wayground)",
+     "url": "https://wayground.com/join?gc=00822509"
+    }
+   ],
+   "minutes": 25,
+   "note": "Tối 14/10 con mở quiz nhưng Wayground ghi chưa trả lời câu nào. Gõ cả câu, viết hoa đầu câu, có dấu chấm cuối câu.",
+   "order": 5,
+   "practice": "Sửa lỗi Tiếng Anh 3/5 (Wayground)",
+   "review": "Sửa lỗi Tiếng Anh 3/5: làm hết 10 câu",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "5 · Tiếng Anh",
+   "title": "25 phút – Tiếng Anh: Wayground sửa lỗi 3/5"
   }
  ],
  "exams": [
