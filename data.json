@@ -1122,12 +1122,12 @@
    ],
    "minutes": 15,
    "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Trước khi bấm làm, xem LMS cho mấy lượt. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
-   "order": 4,
+   "order": 3,
    "practice": "HK1_Kiểm tra HS1 (Bài 1) (LMS)",
    "review": "Xem lại bài đã học trước khi làm",
    "source": "LMS",
    "status": "todo",
-   "subject": "4 · Hoạt động trải nghiệm",
+   "subject": "3 · Hoạt động trải nghiệm",
    "title": "15 phút – Hoạt động trải nghiệm: HK1 – Kiểm tra HS1 (Bài 1)"
   },
   {
@@ -1143,12 +1143,12 @@
    ],
    "minutes": 15,
    "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Hai bài HS2 và HS3 làm tuần sau nữa. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
-   "order": 5,
+   "order": 4,
    "practice": "HK1_Kiểm tra HS1 (Bài 2) (LMS)",
    "review": "Xem lại bài đã học trước khi làm",
    "source": "LMS",
    "status": "todo",
-   "subject": "5 · Hoạt động trải nghiệm",
+   "subject": "4 · Hoạt động trải nghiệm",
    "title": "15 phút – Hoạt động trải nghiệm: HK1 – Kiểm tra HS1 (Bài 2)"
   },
   {
@@ -2489,12 +2489,12 @@
    ],
    "minutes": 15,
    "note": "LMS đọc 13/10: chưa nộp.",
-   "order": 3,
+   "order": 4,
    "practice": "After class task – Reflection (LMS)",
    "review": "Lesson 3.4: tự đánh giá sau bài học",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Tiếng Anh",
+   "subject": "4 · Tiếng Anh",
    "title": "15 phút – Tiếng Anh: Lesson 3.4 – After class task – Reflection"
   },
   {
@@ -2606,12 +2606,12 @@
    ],
    "minutes": 25,
    "note": "Grammar practice 2 lượt đầu 0/10 – làm lại cẩn thận.",
-   "order": 3,
+   "order": 2,
    "practice": "[Must-do] Grammar practice 1 – MCQs; Grammar practice 2 (LMS)",
    "review": "Ngữ pháp Unit 1–2",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Tiếng Anh",
+   "subject": "2 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Grammar practice 1, làm lại Grammar practice 2"
   },
   {
@@ -2863,7 +2863,7 @@
   },
   {
    "id": "nam-wg-toan-giuaki-2",
-   "due": "2026-10-18",
+   "due": "2026-10-16",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=27660669",
    "links": [
@@ -2874,12 +2874,12 @@
    ],
    "minutes": 20,
    "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 2. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
-   "order": 2,
+   "order": 3,
    "practice": "Wayground – Toán ôn giữa kì Quiz 2: Thay vào biểu thức, lập biểu thức, biểu thức và số mũ",
    "review": "Ôn giữa kì: thay vào biểu thức, lập biểu thức, biểu thức và số mũ (Chương 2)",
    "source": "Wayground",
    "status": "todo",
-   "subject": "2 · Toán",
+   "subject": "3 · Toán",
    "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 2: Thay vào biểu thức, lập biểu thức, biểu thức và số mũ"
   },
   {
@@ -2962,12 +2962,12 @@
    ],
    "minutes": 20,
    "note": "Tối 13/10 con đã tích xong nhưng LMS đọc tối 15/10 vẫn ghi chưa nộp. Mở lại, làm và bấm nộp trên LMS.",
-   "order": 4,
+   "order": 5,
    "practice": "[MUST DO] 3.4. Reading Practice (LMS)",
    "review": "Lesson 3.4: Reading Practice – làm và nộp trên LMS",
    "source": "LMS",
    "status": "todo",
-   "subject": "4 · Tiếng Anh",
+   "subject": "5 · Tiếng Anh",
    "title": "20 phút – Tiếng Anh: Lesson 3.4 – Reading Practice (nộp trên LMS)"
   },
   {
@@ -2983,12 +2983,12 @@
    ],
    "minutes": 25,
    "note": "Tối 14/10 con mở quiz nhưng Wayground ghi chưa trả lời câu nào. Gõ cả câu, viết hoa đầu câu, có dấu chấm cuối câu.",
-   "order": 5,
+   "order": 6,
    "practice": "Sửa lỗi Tiếng Anh 3/5 (Wayground)",
    "review": "Sửa lỗi Tiếng Anh 3/5: làm hết 10 câu",
    "source": "Wayground",
    "status": "todo",
-   "subject": "5 · Tiếng Anh",
+   "subject": "6 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Wayground sửa lỗi 3/5"
   }
  ],
