@@ -344,8 +344,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
     <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
     <button role="tab" id="t-english" data-tab="english" aria-controls="p-english" hidden>Tiếng Anh <span class="badge" id="b-english" hidden></span></button>
-    <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Tuần học</button>
-<button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
+    <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Tuần</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
     <button role="tab" id="t-review" data-tab="review" aria-controls="p-review">Cần xem lại <span class="badge" id="b-review" hidden></span></button>
 <button role="tab" id="t-assess" data-tab="assess" aria-controls="p-assess" hidden>Đánh giá</button>
@@ -441,7 +440,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  const TABS = ["today","week","english","preview","done","errors","review","assess","grades"];
+  const TABS = ["today","week","english","preview","errors","review","assess","grades"];
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
   let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
   // localDone: { mã bài: thời điểm con tích (ms) }
@@ -507,7 +506,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     const pvRange = (w) => w.from.slice(0, 7) === w.to.slice(0, 7) ? w.from.slice(8, 10) + "–" + dm(w.to) : dm(w.from) + "–" + dm(w.to);
 const pvAll = mine(state.preview).filter(w => w.from && w.to && dayDiff(w.to, today) >= -2).sort((a, b) => String(a.from).localeCompare(String(b.from)));
 $("t-preview").hidden = !pvAll.length && !(tab === "preview" && !state.pvReady);
-$("t-preview").textContent = pvAll.length ? "Tuần học " + pvRange(pvAll[0]) : "Tuần học";
+$("t-preview").textContent = pvAll.length ? "Tuần " + pvRange(pvAll[0]) : "Tuần";
 if (!pvAll.length && tab === "preview" && state.pvReady) tab = "today";
 const asAll = mine(state.assess);
   $("t-assess").hidden = !asAll.length && !(tab === "assess" && !state.asReady);
