@@ -1122,12 +1122,12 @@
    ],
    "minutes": 15,
    "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Trước khi bấm làm, xem LMS cho mấy lượt. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
-   "order": 3,
+   "order": 4,
    "practice": "HK1_Kiểm tra HS1 (Bài 1) (LMS)",
    "review": "Xem lại bài đã học trước khi làm",
    "source": "LMS",
    "status": "todo",
-   "subject": "3 · Hoạt động trải nghiệm",
+   "subject": "4 · Hoạt động trải nghiệm",
    "title": "15 phút – Hoạt động trải nghiệm: HK1 – Kiểm tra HS1 (Bài 1)"
   },
   {
@@ -1143,12 +1143,12 @@
    ],
    "minutes": 15,
    "note": "Bài lấy điểm, hạn 23:59 Chủ nhật 25/10. Hai bài HS2 và HS3 làm tuần sau nữa. Tạm xếp cho cuối tuần sau; sổ sẽ soạn lại vào tối thứ Sáu 16/10.",
-   "order": 4,
+   "order": 5,
    "practice": "HK1_Kiểm tra HS1 (Bài 2) (LMS)",
    "review": "Xem lại bài đã học trước khi làm",
    "source": "LMS",
    "status": "todo",
-   "subject": "4 · Hoạt động trải nghiệm",
+   "subject": "5 · Hoạt động trải nghiệm",
    "title": "15 phút – Hoạt động trải nghiệm: HK1 – Kiểm tra HS1 (Bài 2)"
   },
   {
@@ -2556,12 +2556,12 @@
    ],
    "minutes": 25,
    "note": "Hai bài Must-do Week 7 LMS ghi chưa làm.",
-   "order": 2,
+   "order": 3,
    "practice": "[Must-do] Reading practice 1 – MCQs; Reading practice 2 – Gap-filling (LMS)",
    "review": "Ôn Unit 1–2 (Week 7 revision)",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "3 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Reading practice 1 và 2"
   },
   {
@@ -2606,12 +2606,12 @@
    ],
    "minutes": 25,
    "note": "Grammar practice 2 lượt đầu 0/10 – làm lại cẩn thận.",
-   "order": 2,
+   "order": 3,
    "practice": "[Must-do] Grammar practice 1 – MCQs; Grammar practice 2 (LMS)",
    "review": "Ngữ pháp Unit 1–2",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "3 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Grammar practice 1, làm lại Grammar practice 2"
   },
   {
@@ -2656,12 +2656,12 @@
    ],
    "minutes": 25,
    "note": "Hai bài Must-do Week 7 LMS ghi chưa làm.",
-   "order": 2,
+   "order": 3,
    "practice": "[Must-do] Listening practice 1 – MCQs; Gap-filling (LMS)",
    "review": "Luyện nghe",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "3 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Listening practice 1 (MCQs và Gap-filling)"
   },
   {
@@ -2698,12 +2698,12 @@
    ],
    "minutes": 15,
    "note": "Nếu LMS mở Week 9, sổ sẽ đổi sang bài Week 9.",
-   "order": 2,
+   "order": 3,
    "practice": "Vocabularies – Week 8 (LMS)",
    "review": "Từ vựng Unit 3",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "3 · Tiếng Anh",
    "title": "15 phút – Tiếng Anh: ôn từ vựng Unit 3"
   },
   {
@@ -2740,12 +2740,12 @@
    ],
    "minutes": 20,
    "note": "Đánh dấu phần con còn sai: câu hỏi có giới từ, mệnh đề quan hệ, câu điều kiện loại 2.",
-   "order": 2,
+   "order": 3,
    "practice": "Revision guideline (LMS)",
    "review": "Ôn tổng hợp Unit 1–2",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "3 · Tiếng Anh",
    "title": "20 phút – Tiếng Anh: đọc lại Revision guideline Week 7"
   },
   {
@@ -2839,6 +2839,111 @@
    "status": "todo",
    "subject": "1 · Toán",
    "title": "25 phút – Toán: ôn chương 1 – PHT nâng cao Bài 1.3 Số mũ"
+  },
+  {
+   "id": "nam-wg-toan-giuaki-1",
+   "due": "2026-10-17",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=26005373",
+   "links": [
+    {
+     "label": "Wayground – Toán ôn giữa kì Quiz 1: Số vô tỉ, dạng chuẩn, số mũ",
+     "url": "https://wayground.com/join?gc=26005373"
+    }
+   ],
+   "minutes": 20,
+   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 1. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Toán ôn giữa kì Quiz 1: Số vô tỉ, dạng chuẩn, số mũ",
+   "review": "Ôn giữa kì: số vô tỉ, dạng chuẩn, số mũ (Chương 1)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Toán",
+   "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 1: Số vô tỉ, dạng chuẩn, số mũ"
+  },
+  {
+   "id": "nam-wg-toan-giuaki-2",
+   "due": "2026-10-18",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=27660669",
+   "links": [
+    {
+     "label": "Wayground – Toán ôn giữa kì Quiz 2: Thay vào biểu thức, lập biểu thức, biểu thức và số mũ",
+     "url": "https://wayground.com/join?gc=27660669"
+    }
+   ],
+   "minutes": 20,
+   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 2. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Toán ôn giữa kì Quiz 2: Thay vào biểu thức, lập biểu thức, biểu thức và số mũ",
+   "review": "Ôn giữa kì: thay vào biểu thức, lập biểu thức, biểu thức và số mũ (Chương 2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Toán",
+   "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 2: Thay vào biểu thức, lập biểu thức, biểu thức và số mũ"
+  },
+  {
+   "id": "nam-wg-toan-giuaki-3",
+   "due": "2026-10-19",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=18009981",
+   "links": [
+    {
+     "label": "Wayground – Toán ôn giữa kì Quiz 3: Khai triển tích, phân thức đại số, biến đổi công thức",
+     "url": "https://wayground.com/join?gc=18009981"
+    }
+   ],
+   "minutes": 20,
+   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 2, không có hằng đẳng thức. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Toán ôn giữa kì Quiz 3: Khai triển tích, phân thức đại số, biến đổi công thức",
+   "review": "Ôn giữa kì: khai triển tích, phân thức đại số, biến đổi công thức (Chương 2, không có hằng đẳng thức)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Toán",
+   "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 3: Khai triển tích, phân thức đại số, biến đổi công thức"
+  },
+  {
+   "id": "nam-wg-toan-giuaki-4",
+   "due": "2026-10-20",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=30068605",
+   "links": [
+    {
+     "label": "Wayground – Toán ôn giữa kì Quiz 4: Lũy thừa của 10, nhân và chia số thập phân",
+     "url": "https://wayground.com/join?gc=30068605"
+    }
+   ],
+   "minutes": 20,
+   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 3. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Toán ôn giữa kì Quiz 4: Lũy thừa của 10, nhân và chia số thập phân",
+   "review": "Ôn giữa kì: lũy thừa của 10, nhân và chia số thập phân (Chương 3)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Toán",
+   "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 4: Lũy thừa của 10, nhân và chia số thập phân"
+  },
+  {
+   "id": "nam-wg-toan-giuaki-5",
+   "due": "2026-10-21",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=58593661",
+   "links": [
+    {
+     "label": "Wayground – Toán ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới",
+     "url": "https://wayground.com/join?gc=58593661"
+    }
+   ],
+   "minutes": 20,
+   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 3. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Toán ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới",
+   "review": "Ôn giữa kì: tỉ số phần trăm kép, cận trên và cận dưới (Chương 3)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Toán",
+   "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới"
   }
  ],
  "exams": [
@@ -2891,7 +2996,7 @@
    "id": "nam-toan-giuaki1",
    "date": "2026-10-23",
    "kid": "nam",
-   "scope": "45 phút, làm bài trên giấy, không dùng máy tính cầm tay. Nội dung: từ đầu chương trình đến Bài 3.4 – Hiểu về cận trên và cận dưới (không gồm các nội dung MoET tích hợp). Sổ đã xếp ôn: 13/10 làm cả ba quiz Bài 3.1–3.3; 14–16/10 phiếu học tập 3.1–3.3; 17–21/10 ôn chương 1–2 (số mũ, thay vào biểu thức, rút gọn phân thức, biến đổi công thức); 22/10 xem lại câu sai. Bài 3.4 LMS chưa mở (đọc 13/10).",
+   "scope": "45 phút, làm bài trên giấy, không dùng máy tính cầm tay. Nội dung: từ đầu chương trình đến Bài 3.4 – Hiểu về cận trên và cận dưới (không gồm các nội dung MoET tích hợp). Sổ đã xếp ôn: 13/10 làm cả ba quiz Bài 3.1–3.3; 14–16/10 phiếu học tập 3.1–3.3; 17–21/10 ôn chương 1–2 (số mũ, thay vào biểu thức, rút gọn phân thức, biến đổi công thức); 22/10 xem lại câu sai. Đề không có hằng đẳng thức đáng nhớ. Thêm 5 quiz Wayground ôn giữa kì (17–21/10, mỗi ngày một quiz 10 câu). Bài 3.4 LMS chưa mở (đọc 13/10).",
    "source": "VS One",
    "subject": "Toán",
    "title": "Kiểm tra giữa kì I"
