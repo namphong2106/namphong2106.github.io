@@ -259,6 +259,17 @@ td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
 /* ---------- Nội dung tuần học ---------- */
 .tabs{overflow-x:auto;scrollbar-width:none}
 .tabs button{flex:1 0 auto;white-space:nowrap;padding-inline:10px}
+.en-prac{display:grid;gap:6px;margin-top:9px}
+.en-prac .row{padding:8px 11px;background:var(--paper)}
+.en-tip{margin-top:8px;font-size:13px;padding:6px 10px;background:var(--paper);border-radius:9px}
+.en-tip b{color:var(--muted);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;margin-right:6px}
+.en-wk{display:grid;gap:10px}
+.en-wk details > summary{cursor:pointer;list-style:none}
+.en-wk details > summary::-webkit-details-marker{display:none}
+.en-wk ul{margin:8px 0 2px;padding-left:18px;display:grid;gap:3px;font-size:13px;color:var(--muted)}
+.en-wk .fill.low{background:var(--late)}
+.en-wk .fill.mid{background:var(--soon)}
+.en-wk .fill.hi{background:var(--ok-mark)}
 .pv-intro{padding:10px 14px;background:var(--paper-2);border-radius:var(--r);font-size:13.5px;color:var(--muted)}
 .pv-status{font-size:13px;color:var(--muted);margin:0 0 8px}
 .pv{background:color-mix(in oklab,var(--c) var(--wash),var(--paper));border-left:5px solid var(--c);border-radius:var(--r);padding:11px 14px 12px;min-width:0}
@@ -332,6 +343,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   <nav class="tabs" role="tablist" aria-label="Các phần của sổ">
     <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
     <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
+    <button role="tab" id="t-english" data-tab="english" aria-controls="p-english" hidden>Tiếng Anh <span class="badge" id="b-english" hidden></span></button>
     <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Tuần học</button>
 <button role="tab" id="t-done" data-tab="done" aria-controls="p-done">Đã làm</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
@@ -364,6 +376,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     <section class="page" id="p-week" role="tabpanel" aria-labelledby="t-week" hidden>
       <div id="week"></div>
       <div id="week-tasks"></div>
+    </section>
+
+    <section class="page" id="p-english" role="tabpanel" aria-labelledby="t-english" hidden>
+      <div id="english"></div>
     </section>
 
     <section class="page" id="p-preview" role="tabpanel" aria-labelledby="t-preview" hidden>
@@ -425,7 +441,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  const TABS = ["today","week","preview","done","errors","review","assess","grades"];
+  const TABS = ["today","week","english","preview","done","errors","review","assess","grades"];
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
   let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
   // localDone: { mã bài: thời điểm con tích (ms) }
@@ -433,7 +449,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
   ls.set("soht-done", JSON.stringify(localDone));
   let showAllExams = false, lastLeft = 0;
-  const state = { preview: [], pvReady: false, assess: [], assessNotes: {}, asReady: false, tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
+  const state = { en: null, enReady: false, preview: [], pvReady: false, assess: [], assessNotes: {}, asReady: false, tasks: [], exams: [], grades: [], notes: [], errors: [], meta: null, ready: false };
 
   const isDone = (t) => t.status === "done" || !!localDone[t.id];
   const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
@@ -499,6 +515,9 @@ const asAll = mine(state.assess);
   const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
     $("t-grades").hidden = !hasGrades;
     if (!hasGrades && tab === "grades") tab = "today";
+    const enData = state.en && state.en.kid === kid ? state.en : null;
+    $("t-english").hidden = !enData && !(tab === "english" && !state.enReady);
+    if (!enData && tab === "english" && state.enReady) tab = "today";
     document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
     TABS.forEach(k => { $("p-" + k).hidden = k !== tab; });
 
@@ -689,6 +708,44 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
         (a.next ? "<div class='fix'><b>Việc tiếp theo:</b> " + esc(a.next) + "</div>" : "") + "</article>";
     }).join("") + "</div>" : "<div class='empty'>" + (state.asReady ? "Chưa có đánh giá." : "Đang tải…") + "</div>";
 
+  // ----- Tiếng Anh (riêng cho Nam) -----
+    if (enData) {
+      const EL = { yeu: ["Yếu", "late"], tam: ["Chưa vững", "soon"], vung: ["Vững", "ok"], chua: ["Chưa rõ", ""] };
+      const eRank = { yeu: 0, tam: 1, chua: 2, vung: 3 };
+      const tps = (enData.topics || []).slice().sort((a, b) => (eRank[a.level] ?? 9) - (eRank[b.level] ?? 9));
+      const allPrac = tps.flatMap(t => t.practice || []);
+      const pracLeft = allPrac.filter(p => !localDone[p.id]).length;
+      $("b-english").hidden = !pracLeft; $("b-english").textContent = pracLeft;
+      const pracRow = (p) => { const u = safeUrl(p.url); const tag = p.kind === "lms" ? "LMS" : p.kind === "old" ? "Wayground · bài cũ" : "Wayground · bài mới";
+        return `<div class="row ${localDone[p.id] ? "done" : ""}">${tick({ id: p.id }, p.label, true)}<div style="min-width:0"><div class="row-t">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(p.label)}</a>` : esc(p.label)}</div><div class="meta"><span>${tag}</span>${p.note ? `<span>${esc(p.note)}</span>` : ""}</div></div></div>`; };
+      const upd = enData.updated ? dm(enData.updated.slice(0, 10)) : "";
+      const ST = { chua: ["Chưa làm", "late"], tre: ["Quá hạn", "late"], xong: ["", "ok"] };
+      // tiến bộ theo tuần (điểm lượt đầu)
+      const monday = (d) => { const t = Date.parse(d + "T00:00:00Z"); const w = (new Date(t).getUTCDay() + 6) % 7; return new Date(t - w * 864e5).toISOString().slice(0, 10); };
+      const weeks = {};
+      (enData.progress || []).forEach(x => { if (!x.max) return; (weeks[monday(x.date)] ||= []).push(x); });
+      const pct = (x) => Math.round(x.score / x.max * 100);
+      const band = (v) => v < 60 ? "low" : v < 80 ? "mid" : "hi";
+      const wkHtml = Object.keys(weeks).sort().map(w => {
+        const arr = weeks[w], avg = Math.round(arr.reduce((a, x) => a + pct(x), 0) / arr.length);
+        const end = new Date(Date.parse(w + "T00:00:00Z") + 6 * 864e5).toISOString().slice(0, 10);
+        return `<details class="sbar s7"><summary><div class="h"><span>Tuần ${dm(w)}–${dm(end)} <small>${arr.length} bài</small></span><b>${avg}%</b></div><div class="track"><div class="fill ${band(avg)}" style="width:${Math.max(4, avg)}%"></div></div></summary><ul>${arr.map(x => `<li>${fmtDate(x.date)} · ${esc(x.name)}: <b>${String(x.score).replace(".", ",")}/${x.max}</b> (${pct(x)}%)</li>`).join("")}</ul></details>`;
+      }).join("");
+      $("english").innerHTML = `<div class="sec-head"><h2>Tiếng Anh của Nam</h2><span class="hint">${upd ? "Cập nhật " + upd + " · " : ""}ngữ pháp cần chú ý</span></div>` +
+        (enData.intro ? `<p class="pv-intro">${esc(enData.intro)}</p>` : "") +
+        `<div class="lv as-lv">${Object.keys(EL).map(k => [k, tps.filter(t => t.level === k).length]).filter(x => x[1]).map(([k, n]) => `<span class="chip ${EL[k][1]}">${EL[k][0]}: ${n} chủ điểm</span>`).join("")}</div>` +
+        `<div class="sec-head"><h2>Bản đồ ngữ pháp</h2><span class="hint">${pracLeft} bài luyện chưa làm · không xếp lịch, chọn bài khi phù hợp</span></div>` +
+        `<div class="list as-list">${tps.map(t => { const lv = EL[t.level] || EL.chua;
+          return `<article class="pv as s7"><div class="as-h"><h4>${esc(t.name)}</h4><span class="chip ${lv[1]}">${lv[0]}</span></div>${t.unit ? `<p class="pv-read">${esc(t.unit)}</p>` : ""}` +
+            ((t.evidence || []).length ? `<div class="as-b"><b>Căn cứ</b><ul>${t.evidence.map(e => `<li>${esc(e)}</li>`).join("")}</ul></div>` : "") +
+            (t.tip ? `<div class="en-tip"><b>Ghi nhớ</b>${esc(t.tip)}</div>` : "") +
+            ((t.practice || []).length ? `<div class="en-prac">${t.practice.map(pracRow).join("")}</div>` : "") + `</article>`; }).join("")}</div>` +
+        `<div class="sec-head"><h2>Bài Tiếng Anh trên LMS</h2><span class="hint">Trạng thái đọc từ LMS ngày ${upd}</span></div>` +
+        (enData.lms || []).map(g => `<div class="err-sub s7"><i></i><h3>${esc(g.group)}</h3><span>${g.items.filter(i => i.status !== "xong").length} bài chưa làm</span></div><div class="list">${g.items.map(i => { const u = safeUrl(i.url); const st = ST[i.status] || ST.chua; const chip = i.status === "xong" ? `<span class="chip ${(() => { const m = String(i.score || "").match(/^([\d.,]+)\/(\d+)/); if (!m) return "ok"; const r = parseFloat(m[1].replace(",", ".")) / Number(m[2]); return r < 0.65 ? "late" : r < 0.8 ? "soon" : "ok"; })()}">${esc(i.score || "Đã nộp")}</span>` : `<span class="chip ${st[1]}">${st[0]}</span>`;
+          return `<div class="row"><span></span><div style="min-width:0"><div class="row-t">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(i.label)}</a>` : esc(i.label)}</div>${i.note ? `<div class="note">${esc(i.note)}</div>` : ""}</div><div class="row-c">${chip}</div></div>`; }).join("")}</div>`).join("") +
+        `<div class="sec-head"><h2>Tiến bộ theo tuần</h2><span class="hint">Điểm lượt làm đầu tiên của các bài ngữ pháp · bấm vào tuần để xem từng bài</span></div><div class="en-wk">${wkHtml}</div>`;
+    } else { $("english").innerHTML = `<div class="empty">${state.enReady ? "" : "Đang tải…"}</div>`; }
+
   // ----- Điểm -----
     const isOff = (g) => g.official === true || g.source === "VS One";
     const offG = grades.filter(isOff), lmsG = grades.filter(g => !isOff(g));
@@ -793,6 +850,7 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
   pullTicks();
 
   const load = (url) => fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  load("english.json").then(e => { state.en = e || null; }).catch(() => {}).then(() => { state.enReady = true; render(); });
   load("preview.json").then(p => { state.preview = (p && p.weeks) || []; }).catch(() => {}).then(() => { state.pvReady = true; render(); });
 load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.assessNotes = (a && a.notes) || {}; }).catch(() => {}).then(() => { state.asReady = true; render(); });
   load("data.json").catch(() => load("https://namphong2106.github.io/data.json"))
