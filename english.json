@@ -1,0 +1,590 @@
+{
+ "kid": "nam",
+ "updated": "2026-10-15T22:30:00+07:00",
+ "intro": "Nam làm tốt các bài nhận biết (chọn đáp án), nhưng điểm giảm rõ khi phải tự viết cả câu hoặc làm bài test. Yếu nhất: mệnh đề quan hệ và câu hỏi có giới từ, và lỗi ngữ pháp khi viết. Các bài luyện dưới đây không xếp lịch; chị chọn bài cho con làm khi phù hợp.",
+ "topics": [
+  {
+   "id": "relprep",
+   "name": "Mệnh đề quan hệ có giới từ (in which, to whom…)",
+   "unit": "Unit 1",
+   "level": "yeu",
+   "evidence": [
+    "Relative clause (with preposition): 3/10 (20/09), bài test 2/10 (21/09)",
+    "Practice 1: Relative pronoun & preposition 4/5 (10/09)",
+    "Quiz sửa lỗi 5 (10/10): vẫn sai câu nối bằng giới từ + which/whom"
+   ],
+   "tip": "Giới từ đi trước which (vật) / whom (người): the house in which I live; the man to whom I spoke.",
+   "practice": [
+    {
+     "id": "nam-en-dwA",
+     "label": "Daily Writing A – nối câu bằng giới từ + which/whom (chưa làm)",
+     "url": "https://wayground.com/join?gc=10220014",
+     "kind": "old",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "qprep",
+   "name": "Câu hỏi bắt đầu bằng giới từ (With whom…? About what…?)",
+   "unit": "Unit 1",
+   "level": "yeu",
+   "evidence": [
+    "Questions with preposition: practice 0/5, test 1/10 (21/09)",
+    "Questions beginning with prepositions: lượt đầu 3/5 (19/09)",
+    "Daily Writing B (04/10): làm dở"
+   ],
+   "tip": "Giới từ + whom/what/which + trợ động từ + chủ ngữ + V: With whom did you go? About what are they talking?",
+   "practice": [
+    {
+     "id": "nam-en-dwB",
+     "label": "Daily Writing B – câu hỏi bắt đầu bằng giới từ (làm nốt)",
+     "url": "https://wayground.com/join?gc=55781870",
+     "kind": "old",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "writing",
+   "name": "Ngữ pháp khi viết đoạn văn, thư trang trọng",
+   "unit": "Unit 1–2",
+   "level": "yeu",
+   "evidence": [
+    "Unit 1.8 Formal Letter: 12/20 – cô nhận xét “frequent grammar errors make your writing difficult to understand”",
+    "Unit 2.8 Project Challenge: 12/20 (nộp muộn)",
+    "Daily Writing C – sửa lỗi formal letter (06/10): làm dở, 10/16 câu"
+   ],
+   "tip": "Viết xong đọc lại từng câu: có chủ ngữ, động từ chia đúng thì, viết hoa đầu câu, dấu chấm cuối câu.",
+   "practice": [
+    {
+     "id": "nam-en-dwC",
+     "label": "Daily Writing C – sửa lỗi trong thư trang trọng (làm nốt)",
+     "url": "https://wayground.com/join?gc=49342958",
+     "kind": "old",
+     "note": ""
+    },
+    {
+     "id": "nam-en-lms-wp1",
+     "label": "[REVIEW] Writing practice 1 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884",
+     "kind": "lms",
+     "note": ""
+    },
+    {
+     "id": "nam-en-lms-wp2",
+     "label": "[REVIEW] Writing practice 2 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861885",
+     "kind": "lms",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "cond2",
+   "name": "Câu điều kiện loại 2 (If I had…, I would…)",
+   "unit": "Unit 2",
+   "level": "tam",
+   "evidence": [
+    "Second conditionals 11/12 (20/09); practice 8,5/10",
+    "Bài test second conditional: 5/10 (20/09)",
+    "Daily Writing D – câu điều kiện và liên từ: 9/17 (01/10)"
+   ],
+   "tip": "If + quá khứ đơn, would/could + V. Không dùng will sau if. If I were you…",
+   "practice": [
+    {
+     "id": "nam-en-g1",
+     "label": "G1 – Second conditional (10 câu tự gõ, mới)",
+     "url": "https://wayground.com/join?gc=00012669",
+     "kind": "new",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "conj",
+   "name": "Liên từ đối lập: although, whereas, however, despite",
+   "unit": "Unit 1",
+   "level": "tam",
+   "evidence": [
+    "Conjunctions practice: 6/7 (09/09)",
+    "Rewrite the sentences – Conjunction: 3/5 (10/09)",
+    "Daily Writing D: 9/17 (01/10)"
+   ],
+   "tip": "Although + mệnh đề (không thêm but). Despite + danh từ hoặc V-ing. However đứng đầu câu sau, có dấu phẩy.",
+   "practice": [
+    {
+     "id": "nam-en-g2",
+     "label": "G2 – Although, whereas, however, despite (10 câu tự gõ, mới)",
+     "url": "https://wayground.com/join?gc=66121597",
+     "kind": "new",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "question",
+   "name": "Đặt câu hỏi (Wh-questions, trợ động từ)",
+   "unit": "Unit 1",
+   "level": "tam",
+   "evidence": [
+    "Formulating questions: practice 9/10 nhưng test 6/10 (10/09)",
+    "Writing questions: practice 7/10, test 7/10 (22/09)"
+   ],
+   "tip": "Wh- + trợ động từ (do/does/did/is/has) + chủ ngữ + V. Hỏi chủ ngữ thì không cần did: Who broke it?",
+   "practice": [
+    {
+     "id": "nam-en-g4",
+     "label": "G4 – Making questions (10 câu tự gõ, mới)",
+     "url": "https://wayground.com/join?gc=29897085",
+     "kind": "new",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "vocab",
+   "name": "Danh từ ghép, cụm động từ (phrasal verbs)",
+   "unit": "Unit 2",
+   "level": "tam",
+   "evidence": [
+    "Compound nouns: lượt đầu 4/7 (19/09)",
+    "Prepositional and phrasal verbs: lượt đầu 3/7 (19/09)"
+   ],
+   "tip": "Học theo cụm, đặt một câu ví dụ cho mỗi cụm.",
+   "practice": [
+    {
+     "id": "nam-en-lms-uoe1",
+     "label": "[REVIEW] Use of English 1 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861879",
+     "kind": "lms",
+     "note": ""
+    },
+    {
+     "id": "nam-en-lms-uoe2",
+     "label": "[REVIEW] Use of English 2 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861880",
+     "kind": "lms",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "abstract",
+   "name": "Danh từ trừu tượng (happiness, friendship…)",
+   "unit": "Unit 1",
+   "level": "tam",
+   "evidence": [
+    "Abstract nouns: lượt đầu 3/6 (09/09), các lượt sau 6/6"
+   ],
+   "tip": "Hậu tố hay gặp: -ness, -ship, -ment, -tion, -ity.",
+   "practice": [
+    {
+     "id": "nam-en-lms-uoe3",
+     "label": "[REVIEW] Use of English 3 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861881",
+     "kind": "lms",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "verbform",
+   "name": "Chia động từ đúng thì",
+   "unit": "Unit 1–2",
+   "level": "chua",
+   "evidence": [
+    "Week 7 – Grammar practice 2 (put the verb in the correct form): 0/10 (06/10) – có thể con bấm nộp khi chưa làm"
+   ],
+   "tip": "Tìm dấu hiệu thời gian trong câu (yesterday, now, since, already…) trước khi chia động từ.",
+   "practice": [
+    {
+     "id": "nam-en-lms-gp1",
+     "label": "Week 7 – Grammar practice 1 – MCQs (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892976",
+     "kind": "lms",
+     "note": ""
+    },
+    {
+     "id": "nam-en-lms-gp2",
+     "label": "Week 7 – Grammar practice 2 – chia động từ (LMS, làm lại)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892977",
+     "kind": "lms",
+     "note": ""
+    },
+    {
+     "id": "nam-en-lms-uoe4",
+     "label": "[REVIEW] Use of English 4 (LMS)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882",
+     "kind": "lms",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "ing",
+   "name": "V-ing hay to + V sau động từ, tính từ, giới từ",
+   "unit": "Unit 1, Unit 3",
+   "level": "vung",
+   "evidence": [
+    "-ING forms as subjects and objects: 5/5; test 9/10 (09/09)",
+    "Unit 3.4 Grammar practice: lượt đầu 6/7 (14/10)"
+   ],
+   "tip": "Sau giới từ luôn dùng V-ing (interested in visiting). Một số động từ đi với to V: want, decide, hope.",
+   "practice": [
+    {
+     "id": "nam-en-g3",
+     "label": "G3 – V-ing hay to + V (10 câu tự gõ, mới) – đang học Unit 3",
+     "url": "https://wayground.com/join?gc=56160125",
+     "kind": "new",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "presc",
+   "name": "Hiện tại tiếp diễn",
+   "unit": "Unit 1",
+   "level": "vung",
+   "evidence": [
+    "Present continuous: practice 8,33/10, test 8,46/10, bài LMS 5/5 (09–10/09)"
+   ],
+   "tip": "",
+   "practice": []
+  },
+  {
+   "id": "part",
+   "name": "Partitives (a piece of, a slice of…)",
+   "unit": "Unit 2",
+   "level": "vung",
+   "evidence": [
+    "Partitives: practice 14/15, test 8/10 (20/09)"
+   ],
+   "tip": "",
+   "practice": []
+  }
+ ],
+ "lms": [
+  {
+   "group": "Tuần 8 – Unit 3.4 (đang học)",
+   "items": [
+    {
+     "label": "[MUST DO] 3.4 Reading Practice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001698",
+     "status": "chua",
+     "score": "",
+     "note": "Con đã tích xong ngày 13/10 nhưng LMS vẫn ghi chưa nộp"
+    },
+    {
+     "label": "[MUST DO] 3.4 Listening practice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001697",
+     "status": "xong",
+     "score": "6/8",
+     "note": "Hai lượt đều 6/8"
+    },
+    {
+     "label": "[MUST DO] Grammar practice – verbs, adjectives, prepositions + -ing",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001699",
+     "status": "xong",
+     "score": "7/7",
+     "note": "Lượt đầu 6/7"
+    },
+    {
+     "label": "After class task – Reflection",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001700",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    },
+    {
+     "label": "Before Class (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001678",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "group": "Tuần 7 – ôn Progress Check 1 (Must-do)",
+   "items": [
+    {
+     "label": "Reading practice 1 – MCQs",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892973",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    },
+    {
+     "label": "Reading practice 2 – Gap-filling",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892974",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    },
+    {
+     "label": "Grammar practice 1 – MCQs",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892976",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    },
+    {
+     "label": "Grammar practice 2 – Put the verb in the correct form",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892977",
+     "status": "xong",
+     "score": "0/10",
+     "note": "Cần làm lại"
+    },
+    {
+     "label": "Listening practice 1 – MCQs",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892979",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    },
+    {
+     "label": "Listening practice 1 – Gap-filling",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892980",
+     "status": "chua",
+     "score": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "group": "Bài viết",
+   "items": [
+    {
+     "label": "Unit 2.7 Improve your Writing – School Report",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3038889",
+     "status": "tre",
+     "score": "",
+     "note": "Hạn 25/09, chưa nộp"
+    },
+    {
+     "label": "Stage 8 Progress Check 1 – Writing Revision",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3065692",
+     "status": "chua",
+     "score": "",
+     "note": "Hạn 09/10"
+    },
+    {
+     "label": "Unit 1.8 Formal Letter Writing",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3044965",
+     "status": "xong",
+     "score": "12/20",
+     "note": "Nhiều lỗi ngữ pháp"
+    },
+    {
+     "label": "Unit 2.8 Project Challenge",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3063800",
+     "status": "xong",
+     "score": "12/20",
+     "note": "Nộp muộn"
+    },
+    {
+     "label": "Unit 1.9 Project Challenge",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3047195",
+     "status": "xong",
+     "score": "16/20",
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "progress": [
+  {
+   "date": "2026-09-09",
+   "name": "Present continuous (LMS)",
+   "score": 5,
+   "max": 5
+  },
+  {
+   "date": "2026-09-09",
+   "name": "Conjunctions practice",
+   "score": 6,
+   "max": 7
+  },
+  {
+   "date": "2026-09-09",
+   "name": "Use of English Review 2",
+   "score": 7,
+   "max": 10
+  },
+  {
+   "date": "2026-09-09",
+   "name": "-ING forms subjects/objects",
+   "score": 5,
+   "max": 5
+  },
+  {
+   "date": "2026-09-09",
+   "name": "Abstract nouns",
+   "score": 3,
+   "max": 6
+  },
+  {
+   "date": "2026-09-09",
+   "name": "-ING form test",
+   "score": 9,
+   "max": 10
+  },
+  {
+   "date": "2026-09-10",
+   "name": "-ING form practice",
+   "score": 7,
+   "max": 10
+  },
+  {
+   "date": "2026-09-10",
+   "name": "Formulating questions practice",
+   "score": 9,
+   "max": 10
+  },
+  {
+   "date": "2026-09-10",
+   "name": "Formulating questions test",
+   "score": 6,
+   "max": 10
+  },
+  {
+   "date": "2026-09-10",
+   "name": "Present continuous test",
+   "score": 8.46,
+   "max": 10
+  },
+  {
+   "date": "2026-09-10",
+   "name": "Relative pronoun & preposition",
+   "score": 4,
+   "max": 5
+  },
+  {
+   "date": "2026-09-10",
+   "name": "Sentence combination",
+   "score": 5,
+   "max": 5
+  },
+  {
+   "date": "2026-09-10",
+   "name": "Rewrite – conjunctions",
+   "score": 3,
+   "max": 5
+  },
+  {
+   "date": "2026-09-19",
+   "name": "Compound nouns",
+   "score": 4,
+   "max": 7
+  },
+  {
+   "date": "2026-09-19",
+   "name": "Prepositional & phrasal verbs",
+   "score": 3,
+   "max": 7
+  },
+  {
+   "date": "2026-09-19",
+   "name": "Questions beginning with prepositions",
+   "score": 3,
+   "max": 5
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Second conditionals",
+   "score": 11,
+   "max": 12
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Partitives practice",
+   "score": 14,
+   "max": 15
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Partitives test",
+   "score": 8,
+   "max": 10
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Second conditional practice",
+   "score": 8.5,
+   "max": 10
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Second conditional test",
+   "score": 5,
+   "max": 10
+  },
+  {
+   "date": "2026-09-20",
+   "name": "Relative clause with preposition",
+   "score": 3,
+   "max": 10
+  },
+  {
+   "date": "2026-09-21",
+   "name": "Relative clause with preposition test",
+   "score": 2,
+   "max": 10
+  },
+  {
+   "date": "2026-09-21",
+   "name": "Questions with preposition practice",
+   "score": 0,
+   "max": 5
+  },
+  {
+   "date": "2026-09-21",
+   "name": "Questions with preposition test",
+   "score": 1,
+   "max": 10
+  },
+  {
+   "date": "2026-09-22",
+   "name": "Writing questions practice",
+   "score": 7,
+   "max": 10
+  },
+  {
+   "date": "2026-09-22",
+   "name": "Writing questions test",
+   "score": 7,
+   "max": 10
+  },
+  {
+   "date": "2026-10-01",
+   "name": "Daily Writing D (Wayground)",
+   "score": 9,
+   "max": 17
+  },
+  {
+   "date": "2026-10-06",
+   "name": "Grammar practice 2 – chia động từ",
+   "score": 0,
+   "max": 10
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Sửa lỗi Tiếng Anh 5 (Wayground)",
+   "score": 7,
+   "max": 9
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Sửa lỗi Tiếng Anh 2 (Wayground)",
+   "score": 10,
+   "max": 10
+  },
+  {
+   "date": "2026-10-14",
+   "name": "Grammar 3.4 – V-ing",
+   "score": 6,
+   "max": 7
+  }
+ ]
+}
