@@ -439,6 +439,14 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
   const doneTime = (t) => (t.status === "done" ? (Date.parse(t.doneAt || "") || (t.due ? Date.parse(t.due + "T12:00:00+07:00") : 0)) : 0) || Number(localDone[t.id]) || 0;
   const tick = (t, label, small) => `<label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(label)}"><span aria-hidden="true"></span></label>`;
+  // Bài tích xong trong hôm nay: vẫn hiện (gạch ngang) đến hết ngày, sang ngày mới mới ẩn
+  const doneToday = (t, today) => isDone(t) && vnDay(doneTime(t) || Date.now()) === today;
+  function rawBucket(t, today) {
+    if (t.missing) return "late";
+    if (!t.due) return "nodate";
+    const d = dayDiff(t.due, today);
+    return d < 0 ? "late" : d <= 1 ? "soon" : "later";
+  }
   function taskBucket(t, today) {
     if (isDone(t)) return "done";
     if (t.missing) return "late";
@@ -532,6 +540,8 @@ const asAll = mine(state.assess);
     // Xong hết bài hôm nay thì đưa luôn bài của ngày kế tiếp còn việc lên để con làm trước
     const aheadDay = state.ready && !left ? days.find(d => d > today && rowsOf(d).some(t => !isDone(t))) : null;
     const aheadRows = aheadDay ? rowsOf(aheadDay) : [];
+    // Những ngày sau có bài con đã làm trước trong hôm nay: vẫn hiện gạch ngang đến hết ngày
+    const earlyDays = state.ready && !left ? days.filter(d => d > today && d !== aheadDay && (!aheadDay || d < aheadDay) && rowsOf(d).some(t => doneToday(t, today))) : [];
     const aheadName = aheadDay ? `${DOWL[dowOf(aheadDay)]} ${dm(aheadDay)}` : "";
     const sub = aheadDay ? `Con có thể làm trước bài của ${aheadName} ở ngay bên dưới.` : "";
     $("hero-sub").hidden = !sub; $("hero-sub").textContent = sub;
@@ -552,18 +562,21 @@ const asAll = mine(state.assess);
           <h3>${esc(what(t))}</h3>${prac ? `<div class="acts">${prac}</div>` : ""}</div>
         ${tick(t, what(t))}</article>`;
     };
-    $("sessions").innerHTML = todayRows.filter(t => !isDone(t)).map(sesCard).join("") + (aheadDay ? `<div class="ahead"><h3>Làm trước bài của ${aheadName}</h3><p>Không bắt buộc. Bài nào tích ở đây thì đến ngày đó sẽ hiện là đã xong.</p></div>` + aheadRows.filter(t => !isDone(t)).map(sesCard).join("") : "");
+    const keep = (t) => !isDone(t) || doneToday(t, today);
+    const doneLast = (arr) => arr.filter(t => !isDone(t)).concat(arr.filter(t => isDone(t)));
+    const earlyHtml = earlyDays.map(d => `<div class="ahead"><h3>Đã làm trước bài của ${DOWL[dowOf(d)]} ${dm(d)}</h3></div>` + rowsOf(d).filter(t => doneToday(t, today)).map(sesCard).join("")).join("");
+    $("sessions").innerHTML = doneLast(todayRows.filter(keep)).map(sesCard).join("") + earlyHtml + (aheadDay ? `<div class="ahead"><h3>Làm trước bài của ${aheadName}</h3><p>Không bắt buộc. Bài nào tích ở đây thì đến ngày đó sẽ hiện là đã xong.</p></div>` + doneLast(aheadRows.filter(keep)).map(sesCard).join("") : "");
 
     // ----- Việc cần làm -----
     const listTasks = kidTasks.filter(t => !inPlan(t));
     const groups = { late: [], soon: [], later: [], nodate: [], done: [] };
-    listTasks.forEach(t => groups[taskBucket(t, today)].push(t));
-    const byDue = (a, b) => (a.due || "9999").localeCompare(b.due || "9999") || String(a.subject).localeCompare(String(b.subject));
+    listTasks.forEach(t => groups[doneToday(t, today) ? rawBucket(t, today) : taskBucket(t, today)].push(t));
+    const byDue = (a, b) => (isDone(a) - isDone(b)) || (a.due || "9999").localeCompare(b.due || "9999") || String(a.subject).localeCompare(String(b.subject));
     Object.values(groups).forEach(g => g.sort(byDue));
     groups.done.sort((a, b) => String(b.doneAt || "").localeCompare(String(a.doneAt || "")));
     $("today-tasks").innerHTML = block("Còn nợ: quá hạn hoặc bị tính thiếu", groups.late, today) + block("Hạn hôm nay và ngày mai", groups.soon, today);
 
-    const parentTasks = tasks.filter(t => t.who === "parent" && !isDone(t)).sort(byDue);
+    const parentTasks = tasks.filter(t => t.who === "parent" && (!isDone(t) || doneToday(t, today))).sort(byDue);
     $("parent-tasks").innerHTML = block("Việc của phụ huynh", parentTasks, today);
 
     const grades = mine(state.grades).sort((a,b) => String(b.date || "").localeCompare(String(a.date || "")));
