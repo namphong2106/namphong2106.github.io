@@ -1596,7 +1596,7 @@
   },
   {
    "id": "phong-raz-20261016-quiz",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "phong",
    "links": [
     {
@@ -1605,7 +1605,7 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T6 16/10, buổi 1. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học), buổi 1. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
    "order": 1,
    "practice": "Raz-Kids Level S: quiz \"The Great Gallardo's Books\"",
    "review": "Xem lại sách \"The Great Gallardo's Books\" rồi làm quiz",
@@ -1626,8 +1626,8 @@
     }
    ],
    "minutes": 20,
-   "note": "Thời gian biểu T7 17/10, buổi 1.",
-   "order": 1,
+   "note": "Thời gian biểu T7 17/10, buổi 2.",
+   "order": 2,
    "practice": "T08 Nhiệm vụ làm trước – Viết: Tìm ý cho đoạn văn tưởng tượng",
    "review": "Viết: tìm ý cho đoạn văn tưởng tượng (thêm lời thoại, thêm chi tiết, hoặc đổi kết thúc)",
    "source": "LMS",
@@ -1647,8 +1647,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 17/10, buổi 2.",
-   "order": 2,
+   "note": "Thời gian biểu T7 17/10, buổi 3.",
+   "order": 3,
    "practice": "Identifying Number Pattern Worksheet, có đáp án (LMS)",
    "review": "Bài tập về nhà tuần 9: tìm quy luật dãy số",
    "source": "LMS",
@@ -1672,8 +1672,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 17/10, buổi 3. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
-   "order": 3,
+   "note": "Thời gian biểu T7 17/10, buổi 4. Link mở thẳng vào bài; nếu MyiMaths hỏi đăng nhập thì đăng nhập rồi bấm lại link.",
+   "order": 4,
    "practice": "MyiMaths: làm bài Fractions as operators",
    "review": "Tìm phân số của một nhóm đồ vật (bài thầy giao)",
    "source": "MyiMaths",
@@ -1697,8 +1697,8 @@
     }
    ],
    "minutes": 15,
-   "note": "Thời gian biểu T7 17/10, buổi 4. Bài tuần 05–09/10 còn thiếu.",
-   "order": 4,
+   "note": "Thời gian biểu T7 17/10, buổi 5. Bài tuần 05–09/10 còn thiếu.",
+   "order": 5,
    "practice": "Quiz tự học – Tự hào danh thắng Việt Nam",
    "review": "Chủ đề 2 Danh thắng Việt Nam: đọc tài liệu Tự hào danh thắng Việt Nam rồi làm quiz",
    "source": "LMS",
@@ -2478,7 +2478,7 @@
   },
   {
    "id": "nam-ta-u34-reflection",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3087695",
    "links": [
@@ -2488,7 +2488,7 @@
     }
    ],
    "minutes": 15,
-   "note": "LMS đọc 13/10: chưa nộp.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học). LMS đọc 13/10: chưa nộp.",
    "order": 4,
    "practice": "After class task – Reflection (LMS)",
    "review": "Lesson 3.4: tự đánh giá sau bài học",
@@ -2520,7 +2520,7 @@
   },
   {
    "id": "nam-toan-pht-3-3",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/88431/files/11815246",
    "links": [
@@ -2530,7 +2530,7 @@
     }
    ],
    "minutes": 25,
-   "note": "Làm trên giấy, không dùng máy tính.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học). Làm trên giấy, không dùng máy tính.",
    "order": 1,
    "practice": "[PHT] Bài 3.3 (file LMS)",
    "review": "Ôn Bài 3.3 cho kiểm tra giữa kì",
@@ -2556,12 +2556,12 @@
    ],
    "minutes": 25,
    "note": "Hai bài Must-do Week 7 LMS ghi chưa làm.",
-   "order": 2,
+   "order": 8,
    "practice": "[Must-do] Reading practice 1 – MCQs; Reading practice 2 – Gap-filling (LMS)",
    "review": "Ôn Unit 1–2 (Week 7 revision)",
    "source": "LMS",
    "status": "todo",
-   "subject": "2 · Tiếng Anh",
+   "subject": "8 · Tiếng Anh",
    "title": "25 phút – Tiếng Anh: Week 7 – Reading practice 1 và 2"
   },
   {
@@ -2581,12 +2581,12 @@
    ],
    "minutes": 30,
    "note": "Quiz Bài 1.3 trước đây 7,33/10 – phần cần ôn lại cho giữa kì.",
-   "order": 1,
+   "order": 7,
    "practice": "[PHT CƠ BẢN] Bài 1.3 Số mũ (LMS)",
    "review": "Ôn giữa kì: số mũ (quiz Bài 1.3 trước đây 7,33/10)",
    "source": "LMS",
    "status": "todo",
-   "subject": "1 · Toán",
+   "subject": "7 · Toán",
    "title": "30 phút – Toán: ôn chương 1 – PHT cơ bản Bài 1.3 Số mũ"
   },
   {
@@ -2842,7 +2842,7 @@
   },
   {
    "id": "nam-wg-toan-giuaki-1",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=26005373",
    "links": [
@@ -2852,7 +2852,7 @@
     }
    ],
    "minutes": 20,
-   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 1. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học). 10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 1. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 2,
    "practice": "Wayground – Toán ôn giữa kì Quiz 1: Số vô tỉ, dạng chuẩn, số mũ",
    "review": "Ôn giữa kì: số vô tỉ, dạng chuẩn, số mũ (Chương 1)",
@@ -2863,7 +2863,7 @@
   },
   {
    "id": "nam-wg-toan-giuaki-2",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=27660669",
    "links": [
@@ -2873,7 +2873,7 @@
     }
    ],
    "minutes": 20,
-   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 2. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học). 10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 2. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 3,
    "practice": "Wayground – Toán ôn giữa kì Quiz 2: Thay vào biểu thức, lập biểu thức, biểu thức và số mũ",
    "review": "Ôn giữa kì: thay vào biểu thức, lập biểu thức, biểu thức và số mũ (Chương 2)",
@@ -2947,7 +2947,7 @@
   },
   {
    "id": "nam-ta-u34-reading-nop",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2248471",
    "links": [
@@ -2961,7 +2961,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Tối 13/10 con đã tích xong nhưng LMS đọc tối 15/10 vẫn ghi chưa nộp. Mở lại, làm và bấm nộp trên LMS.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học). Tối 13/10 con đã tích xong nhưng LMS đọc tối 15/10 vẫn ghi chưa nộp. Mở lại, làm và bấm nộp trên LMS.",
    "order": 5,
    "practice": "[MUST DO] 3.4. Reading Practice (LMS)",
    "review": "Lesson 3.4: Reading Practice – làm và nộp trên LMS",
@@ -2972,7 +2972,7 @@
   },
   {
    "id": "nam-ta-sualoi-3-t6",
-   "due": "2026-10-16",
+   "due": "2026-10-17",
    "kid": "nam",
    "link": "https://wayground.com/join?gc=00822509",
    "links": [
@@ -2982,7 +2982,7 @@
     }
    ],
    "minutes": 25,
-   "note": "Tối 14/10 con mở quiz nhưng Wayground ghi chưa trả lời câu nào. Gõ cả câu, viết hoa đầu câu, có dấu chấm cuối câu.",
+   "note": "Chuyển từ T6 16/10 sang T7 17/10 (T6 không kịp học). Tối 14/10 con mở quiz nhưng Wayground ghi chưa trả lời câu nào. Gõ cả câu, viết hoa đầu câu, có dấu chấm cuối câu.",
    "order": 6,
    "practice": "Sửa lỗi Tiếng Anh 3/5 (Wayground)",
    "review": "Sửa lỗi Tiếng Anh 3/5: làm hết 10 câu",
@@ -4969,13 +4969,13 @@
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Ba 13/10: Lịch sử và Địa lí – bài tập trước tiết; Toán làm cả ba quiz Bài 3.1, 3.2, 3.3; Tiếng Anh Lesson 3.4 Reading. Ngày nào cũng có một bài Toán và một bài Tiếng Anh. Toán kiểm tra giữa kì thứ Sáu 23/10.",
+   "tonight": "Thứ Bảy 17/10: làm bù toàn bộ bài thứ Sáu (Toán PHT 3.3, Wayground ôn giữa kì Quiz 1 và 2; Tiếng Anh Reflection, Reading Practice 3.4 nộp LMS, sửa lỗi 3/5), rồi bài của thứ Bảy (Toán PHT 1.3, Tiếng Anh Week 7 Reading). Toán kiểm tra giữa kì thứ Sáu 23/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
    "dailyDone": "2026-10-01",
    "sources": "LMS và MyiMaths của Phong đọc lúc 08:55 thứ Ba 13/10 · Raz-Kids, Wayground chưa đọc lại · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Ba 13/10: làm quiz Biện pháp nhân hóa và đọc bài Vẽ màu (chuyển từ CN), rồi bài Maths tuần 9 và MyiMaths phân số lớn hơn 1. Bài MyiMaths \"Fractions of amounts\" con đã tích nhưng hệ thống chưa ghi điểm – làm lại thứ Tư.",
+   "tonight": "Thứ Bảy 17/10: làm bù quiz Raz-Kids \"The Great Gallardo's Books\" của thứ Sáu, rồi bài thứ Bảy: Tiếng Việt tìm ý, Maths quy luật dãy số, MyiMaths Fractions as operators, quiz Việt Nam học.",
    "weeklyDone": "2026-10-02"
   }
  }
