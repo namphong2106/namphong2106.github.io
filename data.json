@@ -1889,7 +1889,7 @@
   },
   {
    "id": "nam-ta-w7-listening",
-   "due": "2026-10-19",
+   "due": null,
    "kid": "nam",
    "link": "https://lms.vinschool.edu.vn/courses/87505/quizzes/2224958",
    "links": [
@@ -1903,8 +1903,7 @@
     }
    ],
    "minutes": 25,
-   "note": "Hai bài Must-do Week 7 LMS ghi chưa làm.",
-   "order": 3,
+   "note": "Bài bắt buộc trên LMS, chưa xếp ngày (bỏ khỏi 19/10 để dành cả ngày cho Tin học). Sẽ xếp lại sau kỳ thi Tin học.",
    "practice": "[Must-do] Listening practice 1 – MCQs; Gap-filling (LMS)",
    "review": "Luyện nghe",
    "source": "LMS",
@@ -4254,7 +4253,7 @@
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Hai 19/10 (nghỉ học): Tin học gõ code 10 đề luyện, chấm bằng cham_luyen.py, rồi 15:45 thi thử đề 1 (trang Tin học Nhóm B); Tiếng Anh luyện nghe. Thi đội tuyển Tin học thứ Tư 21/10 15:45; Toán giữa kì thứ Sáu 23/10.",
+   "tonight": "Thứ Hai 19/10 (nghỉ học): chỉ học Tin học – gõ code 10 đề luyện, chấm bằng cham_luyen.py, rồi 15:45 thi thử đề 1 (trang Tin học Nhóm B). Thi đội tuyển Tin học thứ Tư 21/10 15:45; Toán giữa kì thứ Sáu 23/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
