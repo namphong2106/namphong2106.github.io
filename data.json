@@ -2171,6 +2171,237 @@
    "status": "todo",
    "subject": "2 · Toán",
    "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-tong-hop",
+   "due": "2026-10-18",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=46169597",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán) (10 câu)",
+     "url": "https://wayground.com/join?gc=46169597"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: Bài kiểm tra nhanh 10 câu, mỗi chủ đề 2 câu: làm trước để mẹ biết con đang hiểu đến đâu. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 5,
+   "practice": "Wayground – Tin học đội tuyển Python: Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "5 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-re-nhanh-1",
+   "due": "2026-10-19",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=36863485",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Rẽ nhánh (Phần 1/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=36863485"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: if/elif/else, and/or/not, thứ tự xét điều kiện. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 4,
+   "practice": "Wayground – Tin học đội tuyển Python: Rẽ nhánh (Phần 1/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Rẽ nhánh (Phần 1/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "4 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Rẽ nhánh (Phần 1/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-re-nhanh-2",
+   "due": "2026-10-20",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=00687613",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Rẽ nhánh (Phần 2/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=00687613"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: if lồng nhau, viết điều kiện (số có 2 chữ số, tam giác), so sánh liên tiếp. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 4,
+   "practice": "Wayground – Tin học đội tuyển Python: Rẽ nhánh (Phần 2/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Rẽ nhánh (Phần 2/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "4 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Rẽ nhánh (Phần 2/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-vong-lap-1",
+   "due": "2026-10-21",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=04881917",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Vòng lặp (Phần 1/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=04881917"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: for với range(bắt đầu, kết thúc, bước), while, vòng lặp lồng nhau, break, continue. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 4,
+   "practice": "Wayground – Tin học đội tuyển Python: Vòng lặp (Phần 1/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Vòng lặp (Phần 1/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "4 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Vòng lặp (Phần 1/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-vong-lap-2",
+   "due": "2026-10-22",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=55213565",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Vòng lặp (Phần 2/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=55213565"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: Fibonacci, lặp vô hạn, đảo ngược số, for có break. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 3,
+   "practice": "Wayground – Tin học đội tuyển Python: Vòng lặp (Phần 2/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Vòng lặp (Phần 2/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "3 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Vòng lặp (Phần 2/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-mang-1",
+   "due": "2026-10-23",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=19561981",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Mảng – list (Phần 1/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=19561981"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: Chỉ số, cắt list, insert, remove, b = a dùng chung danh sách. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 3,
+   "practice": "Wayground – Tin học đội tuyển Python: Mảng – list (Phần 1/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Mảng – list (Phần 1/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "3 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Mảng – list (Phần 1/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-mang-2",
+   "due": "2026-10-24",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=56262141",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Mảng – list (Phần 2/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=56262141"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: sort, pop, lỗi IndexError, đọc nhiều số bằng map(int, input().split()). 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 1,
+   "practice": "Wayground – Tin học đội tuyển Python: Mảng – list (Phần 2/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Mảng – list (Phần 2/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "1 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Mảng – list (Phần 2/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-xau-1",
+   "due": "2026-10-24",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=32144893",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Xâu (Phần 1/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=32144893"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: len, chỉ số, cắt xâu, đảo xâu, upper/lower, count, split. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Tin học đội tuyển Python: Xâu (Phần 1/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Xâu (Phần 1/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Xâu (Phần 1/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-xau-2",
+   "due": "2026-10-25",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=20610557",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Xâu (Phần 2/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=20610557"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: replace, xâu đối xứng, isdigit, so sánh xâu, ord/chr, xâu không sửa được từng ký tự. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 1,
+   "practice": "Wayground – Tin học đội tuyển Python: Xâu (Phần 2/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Xâu (Phần 2/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "1 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Xâu (Phần 2/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-thuat-toan-1",
+   "due": "2026-10-25",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=49970685",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Thuật toán cơ bản (Phần 1/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=49970685"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: Tìm min, kiểm tra nguyên tố, ƯCLN/BCNN, sắp xếp nổi bọt, tìm kiếm tuần tự, đổi nhị phân. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 2,
+   "practice": "Wayground – Tin học đội tuyển Python: Thuật toán cơ bản (Phần 1/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Thuật toán cơ bản (Phần 1/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "2 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Thuật toán cơ bản (Phần 1/2)"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-thuat-toan-2",
+   "due": "2026-10-26",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=50757117",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển Python: Thuật toán cơ bản (Phần 2/2) (10 câu)",
+     "url": "https://wayground.com/join?gc=50757117"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: Số hoàn hảo, tìm kiếm nhị phân, số chính phương, mảng cộng dồn, đếm số nguyên tố, đoạn tăng dài nhất. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 1,
+   "practice": "Wayground – Tin học đội tuyển Python: Thuật toán cơ bản (Phần 2/2) (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Thuật toán cơ bản (Phần 2/2)",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "1 · Tin học",
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Thuật toán cơ bản (Phần 2/2)"
   }
  ],
  "exams": [
