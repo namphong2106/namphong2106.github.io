@@ -2173,25 +2173,25 @@
    "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới"
   },
   {
-   "id": "nam-wg-tin-doituyen-tong-hop",
+   "id": "nam-wg-tin-doituyen-tong-hop-lan2",
    "due": "2026-10-18",
    "kid": "nam",
-   "link": "https://wayground.com/join?gc=46169597",
+   "link": "https://wayground.com/join?gc=19070461",
    "links": [
     {
-     "label": "Wayground – Tin học đội tuyển Python: Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán) (10 câu)",
-     "url": "https://wayground.com/join?gc=46169597"
+     "label": "Wayground – Tin học đội tuyển Python: Kiểm tra tổng hợp – Lần 2, đổi số (10 câu)",
+     "url": "https://wayground.com/join?gc=19070461"
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: Bài kiểm tra nhanh 10 câu, mỗi chủ đề 2 câu: làm trước để mẹ biết con đang hiểu đến đâu. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Ôn thi đội tuyển Tin học. Nội dung: Bài kiểm tra lần 2, cùng dạng với bài lần 1 nhưng đã đổi số: tính lại từ đầu, không dựa vào đáp số cũ, để mẹ biết con hiểu bài hay chỉ nhớ đáp án. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 5,
-   "practice": "Wayground – Tin học đội tuyển Python: Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán) (10 câu)",
-   "review": "Ôn đội tuyển Tin học: Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)",
+   "practice": "Wayground – Tin học đội tuyển Python: Kiểm tra tổng hợp – Lần 2, đổi số (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Kiểm tra tổng hợp – Lần 2, đổi số (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)",
    "source": "Wayground",
    "status": "todo",
    "subject": "5 · Tin học",
-   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Kiểm tra tổng hợp (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)"
+   "title": "20 phút – Tin học: Wayground ôn đội tuyển – Kiểm tra tổng hợp lần 2, đổi số (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)"
   },
   {
    "id": "nam-wg-tin-doituyen-re-nhanh-1",
