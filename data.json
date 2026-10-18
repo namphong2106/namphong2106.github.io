@@ -2194,8 +2194,92 @@
    "title": "20 phút – Tin học: Wayground ôn đội tuyển – Kiểm tra tổng hợp lần 2, đổi số (rẽ nhánh, vòng lặp, mảng, xâu, thuật toán)"
   },
   {
-   "id": "nam-wg-tin-doituyen-re-nhanh-1",
+   "id": "nam-wg-tin-pycannho-1",
+   "due": "2026-10-18",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=42594750",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển: Python cần nhớ 1: Phép tính, rẽ nhánh, for (10 câu)",
+     "url": "https://wayground.com/join?gc=42594750"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học (thi thứ Tư 21/10). Bài luyện theo mục 1 và 2 trên tờ \"Python cần nhớ\" mẹ đã in: để tờ tóm tắt bên cạnh, câu nào chưa chắc thì mở đúng mục đó ra xem. Nội dung: phép % và //, if/elif/else, and/or, range có bước nhảy và đếm lùi, bẫy in nhầm biến. 10 câu, có câu tự gõ kết quả. Câu có vòng lặp phải kẻ bảng giá trị biến ra giấy nháp rồi mới trả lời. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 6,
+   "practice": "Wayground – Tin học đội tuyển: Python cần nhớ 1: Phép tính, rẽ nhánh, for (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Python cần nhớ 1: Phép tính, rẽ nhánh, for",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "5 · Tin học",
+   "title": "20 phút – Tin học: Wayground Python cần nhớ 1: Phép tính, rẽ nhánh, for"
+  },
+  {
+   "id": "nam-wg-tin-pycannho-2",
    "due": "2026-10-19",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=43905470",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển: Python cần nhớ 2: while, tách chữ số, list (10 câu)",
+     "url": "https://wayground.com/join?gc=43905470"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học (thi thứ Tư 21/10). Bài luyện theo mục 3 và 4 trên tờ \"Python cần nhớ\" mẹ đã in: để tờ tóm tắt bên cạnh, câu nào chưa chắc thì mở đúng mục đó ra xem. Nội dung: tách chữ số, đếm chữ số, đảo số, chỉ số list và chỉ số âm, append, sort, sorted, index, count, cắt list. 10 câu, có câu tự gõ kết quả. Câu có vòng lặp phải kẻ bảng giá trị biến ra giấy nháp rồi mới trả lời. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 5,
+   "practice": "Wayground – Tin học đội tuyển: Python cần nhớ 2: while, tách chữ số, list (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Python cần nhớ 2: while, tách chữ số, list",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "5 · Tin học",
+   "title": "20 phút – Tin học: Wayground Python cần nhớ 2: while, tách chữ số, list"
+  },
+  {
+   "id": "nam-wg-tin-pycannho-3",
+   "due": "2026-10-19",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=52955582",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển: Python cần nhớ 3: Xâu, nhập và in (10 câu)",
+     "url": "https://wayground.com/join?gc=52955582"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học (thi thứ Tư 21/10). Bài luyện theo mục 5 và 6 trên tờ \"Python cần nhớ\" mẹ đã in: để tờ tóm tắt bên cạnh, câu nào chưa chắc thì mở đúng mục đó ra xem. Nội dung: cắt xâu, chỉ số âm, find, count, isdigit, xâu đối xứng, replace, upper, split, nhập bằng input().split(), print(*a). 10 câu, có câu tự gõ kết quả. Câu có vòng lặp phải kẻ bảng giá trị biến ra giấy nháp rồi mới trả lời. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 6,
+   "practice": "Wayground – Tin học đội tuyển: Python cần nhớ 3: Xâu, nhập và in (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Python cần nhớ 3: Xâu, nhập và in",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "5 · Tin học",
+   "title": "20 phút – Tin học: Wayground Python cần nhớ 3: Xâu, nhập và in"
+  },
+  {
+   "id": "nam-wg-tin-pycannho-4",
+   "due": "2026-10-20",
+   "kid": "nam",
+   "link": "https://wayground.com/join?gc=34736574",
+   "links": [
+    {
+     "label": "Wayground – Tin học đội tuyển: Python cần nhớ 4: Mẫu thuật toán (10 câu)",
+     "url": "https://wayground.com/join?gc=34736574"
+    }
+   ],
+   "minutes": 20,
+   "note": "Ôn thi đội tuyển Tin học (thi thứ Tư 21/10). Bài luyện theo mục 7 trên tờ \"Python cần nhớ\" mẹ đã in: để tờ tóm tắt bên cạnh, câu nào chưa chắc thì mở đúng mục đó ra xem. Nội dung: tìm max và vị trí (> và >=), đếm ước, số nguyên tố, tổng có điều kiện, ƯCLN, BCNN, tổng chữ số. 10 câu, có câu tự gõ kết quả. Câu có vòng lặp phải kẻ bảng giá trị biến ra giấy nháp rồi mới trả lời. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "order": 5,
+   "practice": "Wayground – Tin học đội tuyển: Python cần nhớ 4: Mẫu thuật toán (10 câu)",
+   "review": "Ôn đội tuyển Tin học: Python cần nhớ 4: Mẫu thuật toán",
+   "source": "Wayground",
+   "status": "todo",
+   "subject": "5 · Tin học",
+   "title": "20 phút – Tin học: Wayground Python cần nhớ 4: Mẫu thuật toán"
+  },
+  {
+   "id": "nam-wg-tin-doituyen-re-nhanh-1",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=36863485",
    "links": [
@@ -2205,7 +2289,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: if/elif/else, and/or/not, thứ tự xét điều kiện. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: if/elif/else, and/or/not, thứ tự xét điều kiện. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 4,
    "practice": "Wayground – Tin học đội tuyển Python: Rẽ nhánh (Phần 1/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Rẽ nhánh (Phần 1/2)",
@@ -2216,7 +2300,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-re-nhanh-2",
-   "due": "2026-10-20",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=00687613",
    "links": [
@@ -2226,7 +2310,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: if lồng nhau, viết điều kiện (số có 2 chữ số, tam giác), so sánh liên tiếp. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: if lồng nhau, viết điều kiện (số có 2 chữ số, tam giác), so sánh liên tiếp. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 4,
    "practice": "Wayground – Tin học đội tuyển Python: Rẽ nhánh (Phần 2/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Rẽ nhánh (Phần 2/2)",
@@ -2237,7 +2321,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-vong-lap-1",
-   "due": "2026-10-21",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=04881917",
    "links": [
@@ -2247,7 +2331,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: for với range(bắt đầu, kết thúc, bước), while, vòng lặp lồng nhau, break, continue. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: for với range(bắt đầu, kết thúc, bước), while, vòng lặp lồng nhau, break, continue. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 4,
    "practice": "Wayground – Tin học đội tuyển Python: Vòng lặp (Phần 1/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Vòng lặp (Phần 1/2)",
@@ -2258,7 +2342,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-vong-lap-2",
-   "due": "2026-10-22",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=55213565",
    "links": [
@@ -2268,7 +2352,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: Fibonacci, lặp vô hạn, đảo ngược số, for có break. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: Fibonacci, lặp vô hạn, đảo ngược số, for có break. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 3,
    "practice": "Wayground – Tin học đội tuyển Python: Vòng lặp (Phần 2/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Vòng lặp (Phần 2/2)",
@@ -2279,7 +2363,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-mang-1",
-   "due": "2026-10-23",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=19561981",
    "links": [
@@ -2289,7 +2373,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: Chỉ số, cắt list, insert, remove, b = a dùng chung danh sách. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: Chỉ số, cắt list, insert, remove, b = a dùng chung danh sách. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 3,
    "practice": "Wayground – Tin học đội tuyển Python: Mảng – list (Phần 1/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Mảng – list (Phần 1/2)",
@@ -2300,7 +2384,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-mang-2",
-   "due": "2026-10-24",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=56262141",
    "links": [
@@ -2310,7 +2394,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: sort, pop, lỗi IndexError, đọc nhiều số bằng map(int, input().split()). 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: sort, pop, lỗi IndexError, đọc nhiều số bằng map(int, input().split()). 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 1,
    "practice": "Wayground – Tin học đội tuyển Python: Mảng – list (Phần 2/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Mảng – list (Phần 2/2)",
@@ -2321,7 +2405,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-xau-1",
-   "due": "2026-10-24",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=32144893",
    "links": [
@@ -2331,7 +2415,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: len, chỉ số, cắt xâu, đảo xâu, upper/lower, count, split. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: len, chỉ số, cắt xâu, đảo xâu, upper/lower, count, split. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 2,
    "practice": "Wayground – Tin học đội tuyển Python: Xâu (Phần 1/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Xâu (Phần 1/2)",
@@ -2342,7 +2426,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-xau-2",
-   "due": "2026-10-25",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=20610557",
    "links": [
@@ -2352,7 +2436,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: replace, xâu đối xứng, isdigit, so sánh xâu, ord/chr, xâu không sửa được từng ký tự. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: replace, xâu đối xứng, isdigit, so sánh xâu, ord/chr, xâu không sửa được từng ký tự. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 1,
    "practice": "Wayground – Tin học đội tuyển Python: Xâu (Phần 2/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Xâu (Phần 2/2)",
@@ -2363,7 +2447,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-thuat-toan-1",
-   "due": "2026-10-25",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=49970685",
    "links": [
@@ -2373,7 +2457,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: Tìm min, kiểm tra nguyên tố, ƯCLN/BCNN, sắp xếp nổi bọt, tìm kiếm tuần tự, đổi nhị phân. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: Tìm min, kiểm tra nguyên tố, ƯCLN/BCNN, sắp xếp nổi bọt, tìm kiếm tuần tự, đổi nhị phân. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 2,
    "practice": "Wayground – Tin học đội tuyển Python: Thuật toán cơ bản (Phần 1/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Thuật toán cơ bản (Phần 1/2)",
@@ -2384,7 +2468,7 @@
   },
   {
    "id": "nam-wg-tin-doituyen-thuat-toan-2",
-   "due": "2026-10-26",
+   "due": null,
    "kid": "nam",
    "link": "https://wayground.com/join?gc=50757117",
    "links": [
@@ -2394,7 +2478,7 @@
     }
    ],
    "minutes": 20,
-   "note": "Ôn thi đội tuyển Tin học. Nội dung: Số hoàn hảo, tìm kiếm nhị phân, số chính phương, mảng cộng dồn, đếm số nguyên tố, đoạn tăng dài nhất. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
+   "note": "Làm thêm, không bắt buộc: chỉ làm khi đã xong 4 bài \"Python cần nhớ\" trước ngày thi 21/10. Ôn thi đội tuyển Tin học. Nội dung: Số hoàn hảo, tìm kiếm nhị phân, số chính phương, mảng cộng dồn, đếm số nguyên tố, đoạn tăng dài nhất. 10 câu, có câu tự gõ kết quả. Tự chạy code trong đầu, ghi nháp giá trị biến qua từng bước; không dùng máy tính chạy thử. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
    "order": 1,
    "practice": "Wayground – Tin học đội tuyển Python: Thuật toán cơ bản (Phần 2/2) (10 câu)",
    "review": "Ôn đội tuyển Tin học: Thuật toán cơ bản (Phần 2/2)",
@@ -2522,6 +2606,15 @@
    "source": "LMS",
    "subject": "Giáo dục công dân",
    "title": "Kiểm tra 15 phút số 1, số 2 và giữa học kì trên LMS"
+  },
+  {
+   "id": "nam-tin-doituyen",
+   "date": "2026-10-21",
+   "kid": "nam",
+   "scope": "Python: rẽ nhánh, vòng lặp, mảng (list), xâu, thuật toán cơ bản. Ôn theo tờ \"Python cần nhớ\" đã in và 4 bài Wayground \"Python cần nhớ\" (18–20/10). Sáng thứ Tư chỉ đọc lại tờ tóm tắt, không làm bài mới.",
+   "source": "Phụ huynh báo",
+   "subject": "Tin học",
+   "title": "Thi đội tuyển Tin học"
   }
  ],
  "grades": [
