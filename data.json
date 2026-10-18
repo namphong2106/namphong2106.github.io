@@ -1913,27 +1913,6 @@
    "title": "25 phút – Tiếng Anh: Week 7 – Listening practice 1 (MCQs và Gap-filling)"
   },
   {
-   "id": "nam-toan-pbt-2-10",
-   "due": "2026-10-19",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/88431/files/11644726",
-   "links": [
-    {
-     "label": "[PBT] Bài 2.10 (LMS)",
-     "url": "https://lms.vinschool.edu.vn/courses/88431/files/11644726"
-    }
-   ],
-   "minutes": 25,
-   "note": "Làm trên giấy, không dùng máy tính.",
-   "order": 1,
-   "practice": "[PBT] Bài 2.10 (file LMS)",
-   "review": "Ôn giữa kì: rút gọn phân thức đại số",
-   "source": "LMS",
-   "status": "todo",
-   "subject": "1 · Toán",
-   "title": "25 phút – Toán: ôn chương 2 – PBT Bài 2.10 Rút gọn phân thức"
-  },
-  {
    "id": "nam-ta-u3-vocab",
    "due": "2026-10-20",
    "kid": "nam",
@@ -2089,27 +2068,6 @@
    "title": "25 phút – Toán: ôn chương 1 – PHT nâng cao Bài 1.3 Số mũ"
   },
   {
-   "id": "nam-wg-toan-giuaki-3",
-   "due": "2026-10-19",
-   "kid": "nam",
-   "link": "https://wayground.com/join?gc=18009981",
-   "links": [
-    {
-     "label": "Wayground – Toán ôn giữa kì Quiz 3: Khai triển tích, phân thức đại số, biến đổi công thức",
-     "url": "https://wayground.com/join?gc=18009981"
-    }
-   ],
-   "minutes": 20,
-   "note": "10 câu, có câu tự gõ đáp án. Làm ra giấy nháp, không dùng máy tính. Phạm vi: Chương 2, không có hằng đẳng thức. Câu nào sai thì đọc kĩ lời giải rồi mới bấm sang câu tiếp.",
-   "order": 2,
-   "practice": "Wayground – Toán ôn giữa kì Quiz 3: Khai triển tích, phân thức đại số, biến đổi công thức",
-   "review": "Ôn giữa kì: khai triển tích, phân thức đại số, biến đổi công thức (Chương 2, không có hằng đẳng thức)",
-   "source": "Wayground",
-   "status": "todo",
-   "subject": "2 · Toán",
-   "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 3: Khai triển tích, phân thức đại số, biến đổi công thức"
-  },
-  {
    "id": "nam-wg-toan-giuaki-4",
    "due": "2026-10-20",
    "kid": "nam",
@@ -2150,69 +2108,6 @@
    "status": "todo",
    "subject": "2 · Toán",
    "title": "20 phút – Toán: Wayground ôn giữa kì Quiz 5: Tỉ số phần trăm kép, cận trên và cận dưới"
-  },
-  {
-   "id": "nam-tin-sotay-m0-3",
-   "due": "2026-10-19",
-   "kid": "nam",
-   "link": null,
-   "links": [
-    {
-     "label": "Sổ tay học thuộc 12 mẫu code (bản in) – Mẫu 0, 1, 2, 3",
-     "url": null
-    }
-   ],
-   "minutes": 45,
-   "note": "Mỗi mẫu: đọc giải thích → nhìn code gõ lại 1 lần → che code, tự gõ lại đến khi đúng. Mẫu 0 thuộc bảng dòng nhập/in.",
-   "order": 0.5,
-   "practice": "Sổ tay học thuộc 12 mẫu code (bản in) – Mẫu 0, 1, 2, 3",
-   "review": "Học thuộc Mẫu 0, 1, 2, 3: khung bài, rẽ nhánh, tổng 1..n, tách chữ số",
-   "source": "Phụ huynh giao",
-   "status": "todo",
-   "subject": "5 · Tin học",
-   "title": "Tin học: học thuộc Mẫu 0–3 (Sổ tay bản in)"
-  },
-  {
-   "id": "nam-tin-sotay-m4-7",
-   "due": "2026-10-19",
-   "kid": "nam",
-   "link": null,
-   "links": [
-    {
-     "label": "Sổ tay học thuộc 12 mẫu code (bản in) – Mẫu 4, 5, 6, 7",
-     "url": null
-    }
-   ],
-   "minutes": 45,
-   "note": "Thuộc bảng 4 dòng if của Mẫu 5 và bảng điều kiện của Mẫu 6. Che code, tự gõ lại.",
-   "order": 2.5,
-   "practice": "Sổ tay học thuộc 12 mẫu code (bản in) – Mẫu 4, 5, 6, 7",
-   "review": "Học thuộc Mẫu 4, 5, 6, 7: dãy số, max và vị trí, đếm/tổng có điều kiện, xâu",
-   "source": "Phụ huynh giao",
-   "status": "todo",
-   "subject": "5 · Tin học",
-   "title": "Tin học: học thuộc Mẫu 4–7 (Sổ tay bản in)"
-  },
-  {
-   "id": "nam-tin-sotay-m8-11",
-   "due": "2026-10-19",
-   "kid": "nam",
-   "link": null,
-   "links": [
-    {
-     "label": "Sổ tay học thuộc 12 mẫu code (bản in) – Mẫu 8, 9, 10, 11 và Kiểm tra cuối",
-     "url": null
-    }
-   ],
-   "minutes": 45,
-   "note": "Hàm la_nt thuộc nguyên văn. Xong làm phần “Kiểm tra cuối” ở cuối Sổ tay.",
-   "order": 2.7,
-   "practice": "Sổ tay học thuộc 12 mẫu code (bản in) – Mẫu 8, 9, 10, 11 và Kiểm tra cuối",
-   "review": "Học thuộc Mẫu 8, 9, 10, 11: nguyên tố, ước, ƯCLN/BCNN, đếm cặp",
-   "source": "Phụ huynh giao",
-   "status": "todo",
-   "subject": "5 · Tin học",
-   "title": "Tin học: học thuộc Mẫu 8–11 (Sổ tay bản in)"
   },
   {
    "id": "nam-tin-luyen-de-1-5",
@@ -4359,7 +4254,7 @@
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Hai 19/10 (nghỉ học): Tin học học thuộc Sổ tay 12 mẫu code, gõ 10 đề luyện và 15:45 thi thử đề 1 (trang Tin học Nhóm B); Toán và Tiếng Anh theo thời gian biểu. Thi đội tuyển Tin học thứ Tư 21/10 15:45; Toán giữa kì thứ Sáu 23/10.",
+   "tonight": "Thứ Hai 19/10 (nghỉ học): Tin học gõ code 10 đề luyện, chấm bằng cham_luyen.py, rồi 15:45 thi thử đề 1 (trang Tin học Nhóm B); Tiếng Anh luyện nghe. Thi đội tuyển Tin học thứ Tư 21/10 15:45; Toán giữa kì thứ Sáu 23/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
