@@ -2667,6 +2667,27 @@
    "subject": "5 · Tin học",
    "title": "Tin học: làm thêm 10 đề luyện mới (Đề 11–20)",
    "order": 7
+  },
+  {
+   "id": "phong-wg-sci-onlai-truocthi",
+   "kid": "phong",
+   "due": "2026-10-19",
+   "order": 16,
+   "minutes": 15,
+   "subject": "CIE Science",
+   "source": "Wayground",
+   "status": "todo",
+   "title": "15 phút – Science: ôn lại các câu đã sai trước giờ thi",
+   "practice": "Wayground – Phong Science – Ôn lại câu sai trước khi thi (10 câu)",
+   "review": "Bay hơi, ngưng tụ, giáng thủy, mây; đông đặc; nước nở ra khi đóng băng; biến đổi thuận nghịch",
+   "note": "Sáng 20/10 thi Science. Câu hỏi mới, cùng dạng với các câu con sai trong 3 bài ôn Science hôm nay. Làm tối nay hoặc sáng mai trước giờ thi; câu nào sai thì đọc kĩ giải thích.",
+   "link": "https://wayground.com/join?gc=15741955",
+   "links": [
+    {
+     "label": "Wayground – Phong Science – Ôn lại câu sai trước khi thi (10 câu)",
+     "url": "https://wayground.com/join?gc=15741955"
+    }
+   ]
   }
  ],
  "exams": [
@@ -2796,6 +2817,15 @@
    "source": "Phụ huynh báo",
    "subject": "Tin học",
    "title": "Thi đội tuyển Tin học"
+  },
+  {
+   "id": "phong-sci-giuaki1",
+   "date": "2026-10-20",
+   "kid": "phong",
+   "scope": "Phụ huynh báo thi sáng 20/10. Ôn: Unit 1 Plants, Unit 3 các thể của nước, bay hơi, ngưng tụ, vòng tuần hoàn nước.",
+   "source": "Phụ huynh",
+   "subject": "CIE Science",
+   "title": "Kiểm tra giữa kì Science"
   }
  ],
  "grades": [
@@ -4777,7 +4807,7 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-19T21:45:00+07:00",
+  "lastSync": "2026-10-19T21:55:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
@@ -4787,7 +4817,7 @@
   "phong": {
    "dailyDone": "2026-10-01",
    "sources": "LMS và MyiMaths của Phong đọc lúc 08:55 thứ Ba 13/10 · Raz-Kids chưa đọc lại · Wayground đọc lúc 21:45 thứ Hai 19/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Hai 19/10: 15 bài Wayground ôn giữa kì – 5 Maths, 5 Science, 5 ESL. Làm theo thứ tự trong sổ, mỗi buổi 40 phút rồi nghỉ 10 phút.",
+   "tonight": "Thứ Hai 19/10: 15 bài Wayground ôn giữa kì – 5 Maths, 5 Science, 5 ESL. Làm theo thứ tự trong sổ, mỗi buổi 40 phút rồi nghỉ 10 phút. Sáng 20/10 thi Science: làm thêm bài ôn lại câu sai Science (10 câu).",
    "weeklyDone": "2026-10-02"
   }
  }
