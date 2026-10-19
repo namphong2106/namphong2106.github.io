@@ -2278,14 +2278,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 12/12 (100%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 6,
    "practice": "Wayground – Phong Science – Ôn giữa kì 1: Unit 1 Plants (12 câu)",
    "review": "Cây có hoa và không hoa, thụ phấn, phát tán hạt, nảy mầm",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Science",
-   "title": "15 phút – Ôn giữa kì Science – Unit 1 Plants"
+   "title": "15 phút – Ôn giữa kì Science – Unit 1 Plants",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-46713853",
@@ -2299,14 +2301,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 9/13 (69%), làm lại 12/13. Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 11,
    "practice": "Wayground – Phong ESL – Ôn giữa kì 1: Unit 3 Past simple và từ nối (13 câu)",
    "review": "Past simple (walked, went, saw, had, were, didn't go) và and / but / because / so / then",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE ESL",
-   "title": "15 phút – Ôn giữa kì ESL – Unit 3 Past simple và từ nối"
+   "title": "15 phút – Ôn giữa kì ESL – Unit 3 Past simple và từ nối",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-49597437",
@@ -2320,14 +2324,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 11/12 (92%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 7,
    "practice": "Wayground – Phong Science – Ôn giữa kì 2: Unit 3.1–3.2 Gases và nước (12 câu)",
    "review": "Chất khí, khí quyển, 0 °C và 100 °C, nước nở ra khi đóng băng",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Science",
-   "title": "15 phút – Ôn giữa kì Science – Unit 3.1–3.2 Gases và nước"
+   "title": "15 phút – Ôn giữa kì Science – Unit 3.1–3.2 Gases và nước",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-64539645",
@@ -2341,14 +2347,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 9/12 (75%), làm lại 12/12. Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 12,
    "practice": "Wayground – Phong ESL – Ôn giữa kì 2: Unit 2 Food and Health (12 câu)",
    "review": "should / shouldn't, must / mustn't, đồ ăn lành mạnh, từ vựng bài muỗi",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE ESL",
-   "title": "15 phút – Ôn giữa kì ESL – Unit 2 Food and Health"
+   "title": "15 phút – Ôn giữa kì ESL – Unit 2 Food and Health",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-65850365",
@@ -2362,14 +2370,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: hai lượt đầu bỏ dở giữa chừng; lượt làm đủ đầu tiên 9/13 (69%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 8,
    "practice": "Wayground – Phong Science – Ôn giữa kì 3: Bay hơi, ngưng tụ, dung dịch (13 câu)",
    "review": "Bay hơi, ngưng tụ, vòng tuần hoàn nước, solute / solvent / solution",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Science",
-   "title": "15 phút – Ôn giữa kì Science – Unit 3.3–3.4 Bay hơi, ngưng tụ, dung dịch"
+   "title": "15 phút – Ôn giữa kì Science – Unit 3.3–3.4 Bay hơi, ngưng tụ, dung dịch",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-38063101",
@@ -2383,14 +2393,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 11/11 (100%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 13,
    "practice": "Wayground – Phong ESL – Ôn giữa kì 3: Đọc hiểu tìm chi tiết (11 câu)",
    "review": "Đọc đoạn văn tả nơi tưởng tượng, trả lời where / who / why / when",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE ESL",
-   "title": "15 phút – Ôn giữa kì ESL – Đọc hiểu tìm chi tiết"
+   "title": "15 phút – Ôn giữa kì ESL – Đọc hiểu tìm chi tiết",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-32947197",
@@ -2404,14 +2416,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 11/12 (92%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 1,
    "practice": "Wayground – Phong Maths – Ôn giữa kì 1: Số thập phân và làm tròn (12 câu)",
    "review": "Giá trị chữ số, làm tròn, so sánh và sắp xếp số thập phân",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Maths",
-   "title": "15 phút – Ôn giữa kì Maths – Số thập phân và làm tròn"
+   "title": "15 phút – Ôn giữa kì Maths – Số thập phân và làm tròn",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-03259389",
@@ -2425,14 +2439,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 11/12 (92%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 2,
    "practice": "Wayground – Phong Maths – Ôn giữa kì 2: Cộng trừ số thập phân (12 câu)",
    "review": "Cộng, trừ số thập phân và toán có lời văn về tiền, độ dài",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Maths",
-   "title": "15 phút – Ôn giữa kì Maths – Cộng trừ số thập phân"
+   "title": "15 phút – Ôn giữa kì Maths – Cộng trừ số thập phân",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-46513149",
@@ -2446,14 +2462,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 9/12 (75%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 3,
    "practice": "Wayground – Phong Maths – Ôn giữa kì 3: Phân số, số thập phân, phần trăm (12 câu)",
    "review": "Đổi qua lại, tìm phân số của một số, bài hỏi “còn lại” và “không”",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Maths",
-   "title": "15 phút – Ôn giữa kì Maths – Phân số, số thập phân, phần trăm"
+   "title": "15 phút – Ôn giữa kì Maths – Phân số, số thập phân, phần trăm",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-27114493",
@@ -2467,14 +2485,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 6/12 (50%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 4,
    "practice": "Wayground – Phong Maths – Ôn giữa kì 4: Hỗn số và phân số lớn hơn 1 (12 câu)",
    "review": "Đổi hỗn số ↔ phân số lớn hơn 1, so sánh, toán có lời văn",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Maths",
-   "title": "15 phút – Ôn giữa kì Maths – Hỗn số và phân số lớn hơn 1"
+   "title": "15 phút – Ôn giữa kì Maths – Hỗn số và phân số lớn hơn 1",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-25934845",
@@ -2488,14 +2508,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: hai lượt đầu bỏ dở giữa chừng; lượt làm đủ đầu tiên 8/12 (67%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 5,
    "practice": "Wayground – Phong Maths – Ôn giữa kì 5: Ước, số nguyên tố, dãy số (12 câu)",
    "review": "Ước, cặp ước, số nguyên tố và hợp số, bội, quy luật dãy số",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Maths",
-   "title": "15 phút – Ôn giữa kì Maths – Ước, số nguyên tố, dãy số"
+   "title": "15 phút – Ôn giữa kì Maths – Ước, số nguyên tố, dãy số",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-15186941",
@@ -2509,14 +2531,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 10/12 (83%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 9,
    "practice": "Wayground – Phong Science – Ôn giữa kì 4: Chất rắn, lỏng, khí (12 câu)",
    "review": "Tính chất ba thể, đông đặc, ngưng tụ, biến đổi thuận nghịch",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Science",
-   "title": "15 phút – Ôn giữa kì Science – Chất rắn, lỏng, khí"
+   "title": "15 phút – Ôn giữa kì Science – Chất rắn, lỏng, khí",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-67091453",
@@ -2530,14 +2554,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 12/12 (100%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 10,
    "practice": "Wayground – Phong Science – Ôn giữa kì 5: Bộ phận hoa và vòng đời cây (12 câu)",
    "review": "Sepal, stigma, ovary, thụ phấn, phát tán hạt, vòng đời cây có hoa",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE Science",
-   "title": "15 phút – Ôn giữa kì Science – Bộ phận hoa và vòng đời cây"
+   "title": "15 phút – Ôn giữa kì Science – Bộ phận hoa và vòng đời cây",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-06847485",
@@ -2551,14 +2577,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 8/12 (67%). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 14,
    "practice": "Wayground – Phong ESL – Ôn giữa kì 4: Từ vựng và động từ quá khứ Unit 3 (12 câu)",
    "review": "Gõ động từ quá khứ (was, played, took, made, were) và từ vựng nơi chốn",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE ESL",
-   "title": "15 phút – Ôn giữa kì ESL – Từ vựng và động từ quá khứ Unit 3"
+   "title": "15 phút – Ôn giữa kì ESL – Từ vựng và động từ quá khứ Unit 3",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "phong-wg-giuaki-41188349",
@@ -2572,14 +2600,16 @@
     }
    ],
    "minutes": 15,
-   "note": "Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
+   "note": "Kết quả Wayground: lượt đầu 10/12 (83%; một lượt mở ra rồi thoát, không tính). Ôn kiểm tra giữa kì (tuần 20–23/10). Câu nào sai thì đọc kĩ giải thích rồi mới bấm sang câu tiếp. Lượt đầu dưới 80% thì hôm sau làm lại câu sai.",
    "order": 15,
    "practice": "Wayground – Phong ESL – Ôn giữa kì 5: Viết câu hoàn chỉnh (12 câu)",
    "review": "Nối câu bằng so / because / but, viết câu đủ ý, chữ hoa và dấu chấm",
    "source": "Wayground",
-   "status": "todo",
+   "status": "done",
    "subject": "CIE ESL",
-   "title": "15 phút – Ôn giữa kì ESL – Viết câu hoàn chỉnh"
+   "title": "15 phút – Ôn giữa kì ESL – Viết câu hoàn chỉnh",
+   "doneAt": "2026-10-19T21:45:00+07:00",
+   "doneVia": "page"
   },
   {
    "id": "nam-tin-luyen-de-11-20",
@@ -4618,10 +4648,136 @@
    "status": "open",
    "subject": "KHTN",
    "topic": "Ion: công thức hợp chất ion, đơn chất và hợp chất"
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-esl-giuaki-past-simple",
+   "subject": "CIE ESL",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=06847485",
+   "activity": "Ôn giữa kì ESL 1, 4, 5 (Wayground 19/10)",
+   "topic": "ESL – Động từ quá khứ (past simple)",
+   "detail": "Ôn giữa kì ESL 4 lượt đầu 8/12: gõ were thay was (is), live thay lived, taked thay took, are thay were. ESL 1 chọn \"We didn't goes by train\"; ESL 5 gõ \"didn't goes\"; lượt làm lại ESL 1 gõ sai chính tả saw.",
+   "fix": "Động từ có quy tắc thêm -ed (live → lived). Động từ bất quy tắc phải thuộc: is → was, are → were, take → took, see → saw, go → went. Sau didn't luôn là động từ nguyên mẫu (didn't go). Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-esl-giuaki-tu-noi",
+   "subject": "CIE ESL",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=46713853",
+   "activity": "Ôn giữa kì ESL 1 và 5 (Wayground 19/10)",
+   "topic": "ESL – Từ nối so, then, because",
+   "detail": "ESL 1 lượt đầu 9/13: chọn then thay so (sông rộng, vì vậy đi thuyền), chọn So thay Then (trước đi chợ, sau đó đi công viên). ESL 5: câu nối bằng because lặp lại ý đầu (\"because we stayed inside\").",
+   "fix": "so = vì vậy (nói kết quả); because = vì (nói lí do); then = sau đó (nói thứ tự). Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-esl-giuaki-tu-vung",
+   "subject": "CIE ESL",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=64539645",
+   "activity": "Ôn giữa kì ESL 1 và 2 (Wayground 19/10)",
+   "topic": "ESL – Từ vựng Unit 2 và Unit 3",
+   "detail": "ESL 2 lượt đầu 9/12: viết musn't (đúng mustn't), chọn nets thay mosquito coils, chọn a cold thay malaria. ESL 1: hiểu bullet train là tàu chở hàng (đúng: tàu rất nhanh).",
+   "fix": "Ôn từ: mustn't (có chữ t sau s), mosquito coil (nhang muỗi), mosquito net (màn), malaria (sốt rét), bullet train (tàu cao tốc). Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-maths-giuaki-phan-con-lai",
+   "subject": "CIE Maths",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=46513149",
+   "activity": "Ôn giữa kì Maths 3 (Wayground 19/10)",
+   "topic": "Maths – Phân số, phần trăm của một số: phần còn lại",
+   "detail": "Lượt đầu 9/12. $60 tiêu 1/3, hỏi còn lại: chọn $20 (đúng $40). 24 bạn, 1/4 đeo kính, hỏi số bạn KHÔNG đeo: chọn 6 (đúng 18). 20% của 50: chọn 5 (đúng 10). Cùng lỗi \"đề hỏi gì?\" trong Sổ lỗi trước.",
+   "fix": "Gạch chân chữ hỏi (LEFT, NOT). Tìm phần được nói trước, rồi lấy tổng trừ đi. 10% là chia 10, 20% là gấp đôi 10%. Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-maths-giuaki-hon-so",
+   "subject": "CIE Maths",
+   "level": "repeat",
+   "link": "https://wayground.com/join?gc=27114493",
+   "activity": "Ôn giữa kì Maths 4 (Wayground 19/10)",
+   "topic": "Maths – Hỗn số và phân số lớn hơn 1",
+   "detail": "Lượt đầu 6/12, sai 6 câu cuối: 1 1/2 = ?/2 gõ 5 (đúng 3); 9/4 = 2 và ?/4 gõ 18 (đúng 1); 13/5 chọn 2 2/5 (đúng 2 3/5); so sánh 5/2 và 2 1/4 chọn sai; 9 phần tư bánh chọn 9 1/4 (đúng 2 1/4); 2 1/2 bánh cắt đôi chọn 3 (đúng 5). Dạng này đã sai từ 10/10.",
+   "fix": "Hỗn số → phân số: phần nguyên × mẫu + tử. Phân số → hỗn số: chia tử cho mẫu, thương là phần nguyên, số dư là tử. Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-maths-giuaki-so-nguyen-to",
+   "subject": "CIE Maths",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=25934845",
+   "activity": "Ôn giữa kì Maths 5 (Wayground 19/10)",
+   "topic": "Maths – Ước, số nguyên tố, hợp số, dãy số",
+   "detail": "Hai lượt đầu bỏ dở giữa chừng. Lượt làm đủ 8/12: chọn 21 rồi 15 là số nguyên tố (đúng 13), chọn 11 rồi 7 là hợp số (đúng 21), số nguyên tố nhỏ hơn 20 gõ 5 (đúng 8), dãy 2, 4, 8, 16 chọn 24 (đúng 32). Lượt bỏ dở còn sai: 4 không là ước của 18, cặp thừa số của 20, số 1 không nguyên tố cũng không hợp số.",
+   "fix": "Số nguyên tố chỉ có 2 ước là 1 và chính nó (2, 3, 5, 7, 11, 13, 17, 19). Hợp số có nhiều hơn 2 ước. Số 1 không là số nguyên tố, không là hợp số. Dãy 2, 4, 8, 16: mỗi số gấp đôi số trước. Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-maths-giuaki-thap-phan",
+   "subject": "CIE Maths",
+   "level": "once",
+   "link": "https://wayground.com/join?gc=32947197",
+   "activity": "Ôn giữa kì Maths 1 và 2 (Wayground 19/10)",
+   "topic": "Maths – Làm tròn và trừ số thập phân",
+   "detail": "Cả hai bài lượt đầu 11/12. Làm tròn 3,48 đến hàng phần mười gõ 3 (đúng 3,5). 5,2 − 1,8 chọn 3,6 (đúng 3,4).",
+   "fix": "Làm tròn đến hàng phần mười thì kết quả còn 1 chữ số sau dấu phẩy. Trừ có nhớ: đặt thẳng dấu phẩy, mượn 1 ở hàng đơn vị."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-sci-giuaki-vong-tuan-hoan-nuoc",
+   "subject": "CIE Science",
+   "level": "redo",
+   "link": "https://wayground.com/join?gc=65850365",
+   "activity": "Ôn giữa kì Science 3 (Wayground 19/10)",
+   "topic": "Science – Bay hơi, ngưng tụ, vòng tuần hoàn nước",
+   "detail": "Hai lượt đầu bỏ dở giữa chừng. Lượt làm đủ 9/13: quần áo ướt khô là condensation (đúng evaporation); năng lượng làm nước bay hơi là clouds (đúng the Sun); mưa, tuyết, mưa đá là solution (đúng precipitation); mây chỉ là hơi nước (đúng giọt nước nhỏ hoặc tinh thể băng). Lượt bỏ dở còn nhầm định nghĩa condensation.",
+   "fix": "Evaporation: nước lỏng → hơi nước (cần nhiệt, Mặt Trời). Condensation: hơi nước lạnh đi → nước lỏng (giọt nước, mây). Precipitation: mưa, tuyết, mưa đá rơi xuống. Cần quiz sửa lỗi 5 câu bằng câu mới; chưa soạn."
+  },
+  {
+   "kid": "phong",
+   "date": "2026-10-19",
+   "source": "Wayground",
+   "status": "open",
+   "id": "phong-sci-giuaki-the-chat",
+   "subject": "CIE Science",
+   "level": "once",
+   "link": "https://wayground.com/join?gc=15186941",
+   "activity": "Ôn giữa kì Science 2 và 4 (Wayground 19/10)",
+   "topic": "Science – Đông đặc và biến đổi thuận nghịch",
+   "detail": "Science 4 lượt đầu 10/12: lỏng → rắn chọn evaporating (đúng freezing); sô-cô-la chảy rồi cứng lại chọn burning (đúng reversible). Science 2 lượt đầu 11/12: nước đóng băng thì co lại (đúng: nở ra).",
+   "fix": "Freezing: lỏng → rắn; melting: rắn → lỏng. Biến đổi đổi lại được như cũ là reversible. Nước đóng băng thì nở ra."
   }
  ],
  "meta": {
-  "lastSync": "2026-10-19T18:40:00+07:00",
+  "lastSync": "2026-10-19T21:45:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
@@ -4630,7 +4786,7 @@
   },
   "phong": {
    "dailyDone": "2026-10-01",
-   "sources": "LMS và MyiMaths của Phong đọc lúc 08:55 thứ Ba 13/10 · Raz-Kids, Wayground chưa đọc lại · VS One đọc lúc 21:10 thứ Bảy 10/10",
+   "sources": "LMS và MyiMaths của Phong đọc lúc 08:55 thứ Ba 13/10 · Raz-Kids chưa đọc lại · Wayground đọc lúc 21:45 thứ Hai 19/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
    "tonight": "Thứ Hai 19/10: 15 bài Wayground ôn giữa kì – 5 Maths, 5 Science, 5 ESL. Làm theo thứ tự trong sổ, mỗi buổi 40 phút rồi nghỉ 10 phút.",
    "weeklyDone": "2026-10-02"
   }
