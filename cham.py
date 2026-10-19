@@ -88,7 +88,6 @@ def cham_mot_bai(de, bai, thu_muc):
         print("  Bo %2d: %s" % (i, kq))
         if i <= 2 and not kq.startswith("DUNG"):
             print("         Du lieu vao: " + inp.replace("\n", " | ")[:60])
-            print("         Dap an dung: " + " | ".join(dap_an)[:60])
     print("  Diem: %.1f / 5" % diem)
     return diem
 

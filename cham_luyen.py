@@ -79,7 +79,6 @@ def cham(k, thu_muc):
         print("  Bo %2d: %s" % (i, kq))
         if not kq.startswith("DUNG") and len(inp) <= 60:
             print("         Du lieu vao: " + inp.replace("\n", " | "))
-            print("         Dap an dung: " + " | ".join(da))
     print("  Ket qua: %d / 10 bo dung" % dung)
     return dung
 
