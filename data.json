@@ -2583,7 +2583,7 @@
   },
   {
    "id": "nam-tin-luyen-de-11-20",
-   "due": "2026-10-20",
+   "due": "2026-10-19",
    "kid": "nam",
    "link": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-11",
    "links": [
@@ -2629,13 +2629,14 @@
     }
    ],
    "minutes": 40,
-   "note": "Làm thêm nếu còn thời gian. Trang không có lời giải. Tải lại cham_luyen.py (bản 20 đề), lưu L11.py…L20.py, chấm đạt 10/10.",
+   "note": "Làm sau thi thử đề 1. Trang không có lời giải. Tải lại cham_luyen.py (bản 20 đề), lưu L11.py…L20.py, chấm đạt 10/10.",
    "practice": "10 đề luyện mới 11–20",
    "review": "Gõ code Đề 11–20, chấm bằng cham_luyen.py",
    "source": "Phụ huynh giao",
    "status": "todo",
    "subject": "5 · Tin học",
-   "title": "Tin học: làm thêm 10 đề luyện mới (Đề 11–20)"
+   "title": "Tin học: làm thêm 10 đề luyện mới (Đề 11–20)",
+   "order": 7
   }
  ],
  "exams": [
@@ -4620,11 +4621,11 @@
   }
  ],
  "meta": {
-  "lastSync": "2026-10-13T19:30:00+07:00",
+  "lastSync": "2026-10-19T18:40:00+07:00",
   "nam": {
    "dailyDone": "2026-10-01",
    "sources": "LMS của Nam đọc lúc 19:30 thứ Ba 13/10 · VS One đọc lúc 21:10 thứ Bảy 10/10",
-   "tonight": "Thứ Hai 19/10 (nghỉ học): chỉ học Tin học – gõ code 10 đề luyện, chấm bằng cham_luyen.py, rồi 15:45 thi thử đề 1 (trang Tin học Nhóm B). Thi đội tuyển Tin học thứ Tư 21/10 15:45; Toán giữa kì thứ Sáu 23/10.",
+   "tonight": "Thứ Hai 19/10 (nghỉ học): chỉ học Tin học – gõ code Đề 1–10, 15:45 thi thử đề 1, sau đó gõ thêm Đề 11–20; chấm bằng cham_luyen.py (trang Tin học Nhóm B). Thi đội tuyển Tin học thứ Tư 21/10 15:45; Toán giữa kì thứ Sáu 23/10.",
    "weeklyDone": "2026-10-02"
   },
   "phong": {
