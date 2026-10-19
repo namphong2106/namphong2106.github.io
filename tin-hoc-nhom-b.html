@@ -21,117 +21,61 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}p code,li 
 </style></head><body><main>
 <a class="back" href="./">← Về Sổ học tập</a>
 <h1>Tin học Nhóm B – Luyện gõ code</h1>
-<p class="sub">Ôn thi đội tuyển Lập trình, thứ Tư 21/10, 15:45. Đề thi: 4 bài Python, 120 phút, máy chấm với 10 bộ dữ liệu mỗi bài. Học thuộc theo <b>Sổ tay 12 mẫu code (bản in)</b>, rồi tự gõ các đề dưới đây.</p>
+<p class="sub">Ôn thi đội tuyển Lập trình, thứ Tư 21/10, 15:45. Đề thi: 4 bài Python, 120 phút, máy chấm với 10 bộ dữ liệu mỗi bài. Học thuộc theo <b>Sổ tay 12 mẫu code (bản in)</b>, rồi tự gõ các đề dưới đây. Chương trình chấm đã cập nhật cho 20 đề: nếu đã tải trước đây thì tải lại.</p>
 <h2>Chuẩn bị (làm 1 lần)</h2>
 <div class="how"><ol>
 <li>Mở Thonny (hoặc IDLE). Thư mục bài làm: <code>C:\BAILAM</code>.</li>
 <li>Tải 2 chương trình chấm dưới đây, lưu vào <code>C:\BAILAM</code>. Không mở ra đọc.</li>
-<li>Mỗi đề: đọc đề → tự gõ code (được nhìn Sổ tay) → bấm F5 chạy thử với ví dụ → lưu đúng tên → mở chương trình chấm, bấm F5.</li>
-<li>Chấm báo DUNG / SAI / LOI / QUA THOI GIAN cho từng bộ. Chưa 10/10 thì sửa rồi chấm lại. Sửa 2 lần vẫn sai mới mở lời giải.</li>
-</ol><div class="dl"><a href="cham_luyen.py" download>Tải cham_luyen.py (10 đề luyện)</a><a href="cham.py" download>Tải cham.py (đề thi thử)</a></div></div>
+<li>Mỗi đề: đọc đề → tự gõ code → bấm F5 chạy thử với ví dụ → lưu đúng tên → mở chương trình chấm, bấm F5.</li>
+<li>Chấm báo DUNG / SAI / LOI / QUA THOI GIAN cho từng bộ. Chưa 10/10 thì sửa rồi chấm lại. Trang này không có lời giải: tự làm, bí thì hỏi bố mẹ.</li>
+</ol><div class="dl"><a href="cham_luyen.py" download>Tải cham_luyen.py (20 đề luyện)</a><a href="cham.py" download>Tải cham.py (đề thi thử)</a></div></div>
 <h2>10 đề luyện gõ</h2>
 <section class="q" id="de-1"><h3><span class="n">1</span>Năm nhuận <span class="tag">Dạng 1 · Mẫu 1</span></h3>
 <p>Nhập một số nguyên y là một năm. In <b>YES</b> nếu y là năm nhuận, ngược lại in <b>NO</b>. Năm nhuận là năm chia hết cho 4 nhưng không chia hết cho 100, hoặc chia hết cho 400.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>2024</code></pre></div><div><span class="lb">Kết quả</span><pre><code>YES</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>1900</code></pre></div><div><span class="lb">Kết quả</span><pre><code>NO</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 3 – Dữ liệu vào</span><pre><code>2000</code></pre></div><div><span class="lb">Kết quả</span><pre><code>YES</code></pre></div></div><p class="save">Lưu thành <code>L1.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>1</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>y = int(input())
-if (y % 4 == 0 and y % 100 != 0) or y % 400 == 0:
-    print(&quot;YES&quot;)
-else:
-    print(&quot;NO&quot;)</code></pre><ul><li>Một số trên một dòng → <code>int(input())</code>.</li><li>“Chia hết cho 4 nhưng không chia hết cho 100” → <code>y % 4 == 0 and y % 100 != 0</code>; “hoặc” → <code>or</code>. Phải có ngoặc quanh vế <code>and</code>.</li><li>1900 chia hết cho 100 nhưng không chia hết cho 400 → NO.</li></ul></details></section><section class="q" id="de-2"><h3><span class="n">2</span>Tổng các số chẵn <span class="tag">Dạng 2 · Mẫu 2</span></h3>
+</section><section class="q" id="de-2"><h3><span class="n">2</span>Tổng các số chẵn <span class="tag">Dạng 2 · Mẫu 2</span></h3>
 <p>Nhập số nguyên dương n. In ra tổng các số chẵn từ 1 đến n.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>10</code></pre></div><div><span class="lb">Kết quả</span><pre><code>30</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>7</code></pre></div><div><span class="lb">Kết quả</span><pre><code>12</code></pre></div></div><p class="save">Lưu thành <code>L2.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>2</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>n = int(input())
-s = 0
-for i in range(1, n + 1):
-    if i % 2 == 0:
-        s = s + i
-print(s)</code></pre><ul><li>“Từ 1 đến n” phải viết <code>range(1, n + 1)</code>; thiếu <code>+ 1</code> sẽ thiếu số n.</li><li><code>print(s)</code> thẳng hàng chữ <code>for</code> để chỉ in 1 lần.</li></ul></details></section><section class="q" id="de-3"><h3><span class="n">3</span>Chữ số <span class="tag">Dạng 3 · Mẫu 3</span></h3>
+</section><section class="q" id="de-3"><h3><span class="n">3</span>Chữ số <span class="tag">Dạng 3 · Mẫu 3</span></h3>
 <p>Nhập số nguyên dương n. In ra trên một dòng: số chữ số của n và tổng các chữ số của n.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>5027</code></pre></div><div><span class="lb">Kết quả</span><pre><code>4 14</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>909</code></pre></div><div><span class="lb">Kết quả</span><pre><code>3 18</code></pre></div></div><p class="save">Lưu thành <code>L3.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>3</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>n = int(input())
-t = 0
-dem = 0
-while n &gt; 0:
-    t = t + n % 10
-    dem = dem + 1
-    n = n // 10
-print(dem, t)</code></pre><ul><li><code>n % 10</code> lấy chữ số cuối, <code>n // 10</code> bỏ chữ số cuối.</li><li>Đề yêu cầu số chữ số trước, tổng sau → <code>print(dem, t)</code>.</li></ul></details></section><section class="q" id="de-4"><h3><span class="n">4</span>Sắp xếp dãy <span class="tag">Dạng 4 · Mẫu 4</span></h3>
+</section><section class="q" id="de-4"><h3><span class="n">4</span>Sắp xếp dãy <span class="tag">Dạng 4 · Mẫu 4</span></h3>
 <p>Dòng 1 là số nguyên n. Dòng 2 gồm n số nguyên. In ra: dòng 1 là dãy đã sắp xếp tăng dần; dòng 2 là tổng, số nhỏ nhất, số lớn nhất.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>5
 7 2 9 4 3</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2 3 4 7 9
 25 2 9</code></pre></div></div><p class="save">Lưu thành <code>L4.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>4</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>n = int(input())
-a = list(map(int, input().split()))
-a.sort()
-print(*a)
-print(sum(a), a[0], a[-1])</code></pre><ul><li>Phải đọc dòng n trước dù không dùng.</li><li><code>print(*a)</code> in các số cách nhau dấu cách, không có ngoặc vuông.</li><li>Sau khi sắp xếp, <code>a[0]</code> nhỏ nhất, <code>a[-1]</code> lớn nhất.</li></ul></details></section><section class="q" id="de-5"><h3><span class="n">5</span>Nguyên âm và xâu đối xứng <span class="tag">Dạng 5 · Mẫu 7</span></h3>
+</section><section class="q" id="de-5"><h3><span class="n">5</span>Nguyên âm và xâu đối xứng <span class="tag">Dạng 5 · Mẫu 7</span></h3>
 <p>Nhập một xâu s (chữ cái tiếng Anh). Dòng 1: in số nguyên âm (a, e, i, o, u, kể cả chữ hoa). Dòng 2: in YES nếu s đọc xuôi và ngược giống nhau, ngược lại NO.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>level</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2
 YES</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>Python</code></pre></div><div><span class="lb">Kết quả</span><pre><code>1
 NO</code></pre></div></div><p class="save">Lưu thành <code>L5.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>5</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>s = input().strip()
-dem = 0
-for c in s:
-    if c in &quot;aeiouAEIOU&quot;:
-        dem = dem + 1
-print(dem)
-if s == s[::-1]:
-    print(&quot;YES&quot;)
-else:
-    print(&quot;NO&quot;)</code></pre><ul><li><code>for c in s</code> duyệt từng chữ; <code>c in "aeiouAEIOU"</code> kiểm tra có phải nguyên âm.</li><li><code>s[::-1]</code> là xâu viết ngược.</li></ul></details></section><section class="q" id="de-6"><h3><span class="n">6</span>Giá trị lớn nhất và vị trí <span class="tag">Dạng 6 · Mẫu 5</span></h3>
+</section><section class="q" id="de-6"><h3><span class="n">6</span>Giá trị lớn nhất và vị trí <span class="tag">Dạng 6 · Mẫu 5</span></h3>
 <p>Dòng 1 là n. Dòng 2 gồm n số nguyên. In ra giá trị lớn nhất và vị trí <b>đầu tiên</b> của nó (vị trí đánh số <b>từ 1</b>).</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>6
 5 2 8 1 8 3</code></pre></div><div><span class="lb">Kết quả</span><pre><code>8 3</code></pre></div></div><p class="save">Lưu thành <code>L6.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>6</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>n = int(input())
-a = list(map(int, input().split()))
-m = a[0]
-vt = 0
-for i in range(n):
-    if a[i] &gt; m:
-        m = a[i]
-        vt = i
-print(m, vt + 1)</code></pre><ul><li>Vị trí đầu tiên dùng <code>&gt;</code>; vị trí cuối cùng dùng <code>&gt;=</code>.</li><li>Python đếm từ 0, đề đếm từ 1 → in <code>vt + 1</code>.</li></ul></details></section><section class="q" id="de-7"><h3><span class="n">7</span>Đếm số nguyên tố trong dãy <span class="tag">Dạng 7 · Mẫu 8</span></h3>
+</section><section class="q" id="de-7"><h3><span class="n">7</span>Đếm số nguyên tố trong dãy <span class="tag">Dạng 7 · Mẫu 8</span></h3>
 <p>Dòng 1 là n. Dòng 2 gồm n số nguyên dương. In ra số lượng số nguyên tố trong dãy.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>6
 2 9 13 1 21 17</code></pre></div><div><span class="lb">Kết quả</span><pre><code>3</code></pre></div></div><p class="save">Lưu thành <code>L7.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>7</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>def la_nt(x):
-    if x &lt; 2:
-        return False
-    i = 2
-    while i * i &lt;= x:
-        if x % i == 0:
-            return False
-        i = i + 1
-    return True
-
-n = int(input())
-a = list(map(int, input().split()))
-dem = 0
-for x in a:
-    if la_nt(x):
-        dem = dem + 1
-print(dem)</code></pre><ul><li>Hàm <code>la_nt</code> học thuộc nguyên văn: <code>x &lt; 2</code> không phải nguyên tố; chỉ thử chia đến khi <code>i * i &lt;= x</code>.</li><li>2, 13, 17 là số nguyên tố; 9 = 3×3, 21 = 3×7, số 1 không phải.</li></ul></details></section><section class="q" id="de-8"><h3><span class="n">8</span>ƯCLN và BCNN <span class="tag">Dạng 7 · Mẫu 10</span></h3>
+</section><section class="q" id="de-8"><h3><span class="n">8</span>ƯCLN và BCNN <span class="tag">Dạng 7 · Mẫu 10</span></h3>
 <p>Nhập hai số nguyên dương a, b trên một dòng. In ra ƯCLN và BCNN của chúng trên một dòng.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>24 36</code></pre></div><div><span class="lb">Kết quả</span><pre><code>12 72</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>4 6</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2 12</code></pre></div></div><p class="save">Lưu thành <code>L8.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>8</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>import math
-a, b = map(int, input().split())
-g = math.gcd(a, b)
-print(g, a * b // g)</code></pre><ul><li>Nhớ dòng <code>import math</code>.</li><li>BCNN = a × b ÷ ƯCLN, phải dùng <code>//</code>; dùng <code>/</code> sẽ in 72.0 và bị chấm sai.</li></ul></details></section><section class="q" id="de-9"><h3><span class="n">9</span>Đếm và tính tổng có điều kiện <span class="tag">Dạng 8 · Mẫu 6</span></h3>
+</section><section class="q" id="de-9"><h3><span class="n">9</span>Đếm và tính tổng có điều kiện <span class="tag">Dạng 8 · Mẫu 6</span></h3>
 <p>Dòng 1 là n. Dòng 2 gồm n số nguyên. In ra trên một dòng: số lượng số chia hết cho 3, và tổng các số chẵn.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>6
 5 8 3 10 7 6</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2 24</code></pre></div></div><p class="save">Lưu thành <code>L9.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>9</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>n = int(input())
-a = list(map(int, input().split()))
-dem = 0
-tong = 0
-for x in a:
-    if x % 3 == 0:
-        dem = dem + 1
-    if x % 2 == 0:
-        tong = tong + x
-print(dem, tong)</code></pre><ul><li>Hai lệnh <code>if</code> rời nhau (không dùng <code>elif</code>), vì số 6 vừa chia hết cho 3 vừa chẵn.</li><li>Chia hết luôn dùng <code>%</code>, không dùng <code>/</code>.</li></ul></details></section><section class="q" id="de-10"><h3><span class="n">10</span>Đếm ước với n rất lớn <span class="tag">Dạng 7 · Mẫu 9</span></h3>
+</section><section class="q" id="de-10"><h3><span class="n">10</span>Đếm ước với n rất lớn <span class="tag">Dạng 7 · Mẫu 9</span></h3>
 <p>Nhập số nguyên dương n (có thể lớn đến 10^12). In ra số ước của n.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>30</code></pre></div><div><span class="lb">Kết quả</span><pre><code>8</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>16</code></pre></div><div><span class="lb">Kết quả</span><pre><code>5</code></pre></div></div><p class="save">Lưu thành <code>L10.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>10</b>. Đạt <b>10/10</b> mới tích xong.</p>
-<details><summary>Xem lời giải và giải thích</summary><pre><code>n = int(input())
-dem = 0
-i = 1
-while i * i &lt;= n:
-    if n % i == 0:
-        dem = dem + 1
-        if i != n // i:
-            dem = dem + 1
-    i = i + 1
-print(dem)</code></pre><ul><li>Ước đi theo cặp (i, n // i), chỉ thử i đến khi i × i vượt n nên chạy kịp với n = 10^12.</li><li>Hai số trong cặp bằng nhau (16 = 4 × 4) thì chỉ đếm 1 lần.</li><li>Cách đơn giản <code>for i in range(1, n + 1)</code> cũng đúng nhưng hết giờ khi n lớn.</li></ul></details></section>
+</section>
+<h2>10 đề luyện mới (11–20)</h2>
+<section class="q" id="de-11"><h3><span class="n">11</span>Tam giác <span class="tag">Dạng 1 · Mẫu 1</span></h3>
+<p>Nhập ba số nguyên dương a, b, c trên một dòng. In <b>YES</b> nếu a, b, c là độ dài ba cạnh của một tam giác (tổng hai cạnh bất kì lớn hơn cạnh còn lại), ngược lại in <b>NO</b>.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>3 4 5</code></pre></div><div><span class="lb">Kết quả</span><pre><code>YES</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>1 2 3</code></pre></div><div><span class="lb">Kết quả</span><pre><code>NO</code></pre></div></div><p class="save">Lưu thành <code>L11.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>11</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-12"><h3><span class="n">12</span>Tổng chia hết cho 3 hoặc 5 <span class="tag">Dạng 2 · Mẫu 2</span></h3>
+<p>Nhập số nguyên dương n. In tổng các số từ 1 đến n chia hết cho 3 hoặc chia hết cho 5.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>10</code></pre></div><div><span class="lb">Kết quả</span><pre><code>33</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>15</code></pre></div><div><span class="lb">Kết quả</span><pre><code>60</code></pre></div></div><p class="save">Lưu thành <code>L12.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>12</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-13"><h3><span class="n">13</span>Số đảo ngược <span class="tag">Dạng 3 · Mẫu 3</span></h3>
+<p>Nhập số nguyên dương n. In số đảo ngược của n (viết các chữ số theo thứ tự ngược lại, bỏ các chữ số 0 ở đầu).</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>123</code></pre></div><div><span class="lb">Kết quả</span><pre><code>321</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>1200</code></pre></div><div><span class="lb">Kết quả</span><pre><code>21</code></pre></div></div><p class="save">Lưu thành <code>L13.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>13</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-14"><h3><span class="n">14</span>Dãy giảm dần <span class="tag">Dạng 4 · Mẫu 4</span></h3>
+<p>Dòng 1 là n. Dòng 2 gồm n số nguyên. In ra: dòng 1 là dãy sắp xếp giảm dần; dòng 2 là hiệu của số lớn nhất và số nhỏ nhất.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>5
+3 9 1 7 4</code></pre></div><div><span class="lb">Kết quả</span><pre><code>9 7 4 3 1
+8</code></pre></div></div><p class="save">Lưu thành <code>L14.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>14</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-15"><h3><span class="n">15</span>Chữ hoa, chữ thường, chữ số <span class="tag">Dạng 5 · Mẫu 7</span></h3>
+<p>Nhập một xâu s. Dòng 1: in số chữ hoa, số chữ thường, số chữ số (cách nhau một dấu cách). Dòng 2: in xâu s viết hoa toàn bộ.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>Vinschool2026</code></pre></div><div><span class="lb">Kết quả</span><pre><code>1 8 4
+VINSCHOOL2026</code></pre></div></div><p class="save">Lưu thành <code>L15.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>15</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-16"><h3><span class="n">16</span>Nhỏ nhất, vị trí cuối cùng <span class="tag">Dạng 6 · Mẫu 5</span></h3>
+<p>Dòng 1 là n. Dòng 2 gồm n số nguyên. In giá trị nhỏ nhất và vị trí <b>cuối cùng</b> của nó (vị trí đánh số <b>từ 1</b>).</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>6
+5 2 8 2 9 3</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2 4</code></pre></div></div><p class="save">Lưu thành <code>L16.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>16</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-17"><h3><span class="n">17</span>Tổng số nguyên tố <span class="tag">Dạng 7 · Mẫu 8</span></h3>
+<p>Dòng 1 là n. Dòng 2 gồm n số nguyên dương. In tổng các số nguyên tố trong dãy (không có thì in 0).</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>6
+2 9 13 1 21 17</code></pre></div><div><span class="lb">Kết quả</span><pre><code>32</code></pre></div></div><p class="save">Lưu thành <code>L17.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>17</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-18"><h3><span class="n">18</span>Rút gọn phân số <span class="tag">Dạng 7 · Mẫu 10</span></h3>
+<p>Nhập hai số nguyên dương a, b (phân số a/b) trên một dòng. In tử số và mẫu số sau khi rút gọn tối giản, cách nhau một dấu cách.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>6 8</code></pre></div><div><span class="lb">Kết quả</span><pre><code>3 4</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>12 18</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2 3</code></pre></div></div><p class="save">Lưu thành <code>L18.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>18</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-19"><h3><span class="n">19</span>Đếm và tính tổng có điều kiện 2 <span class="tag">Dạng 8 · Mẫu 6</span></h3>
+<p>Dòng 1 là n. Dòng 2 gồm n số nguyên. In trên một dòng: số lượng số vừa dương vừa chẵn, và tổng các số âm.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>6
+4 -3 7 -2 10 0</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2 -5</code></pre></div></div><p class="save">Lưu thành <code>L19.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>19</b>. Đạt <b>10/10</b> mới tích xong.</p></section><section class="q" id="de-20"><h3><span class="n">20</span>Số hoàn hảo <span class="tag">Dạng 7 · Mẫu 9</span></h3>
+<p>Nhập số nguyên dương n (n có thể lớn đến 10^12). Số hoàn hảo là số bằng tổng các ước của nó không kể chính nó (ví dụ 6 = 1 + 2 + 3). In YES nếu n là số hoàn hảo, ngược lại in NO.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>6</code></pre></div><div><span class="lb">Kết quả</span><pre><code>YES</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>12</code></pre></div><div><span class="lb">Kết quả</span><pre><code>NO</code></pre></div></div><p class="save">Lưu thành <code>L20.py</code> trong <code>C:\BAILAM</code> → chấm bằng <code>cham_luyen.py</code>, gõ số <b>20</b>. Đạt <b>10/10</b> mới tích xong.</p></section>
 <h2>Đề thi thử (không có lời giải – làm như thi thật)</h2>
 <section class="q exam" id="thi-thu-1"><h3>ĐỀ THI THỬ SỐ 1 – NHÓM B</h3><p><b>120 phút · Python · 4 bài, mỗi bài 5 điểm · mỗi bài 10 bộ dữ liệu, mỗi bộ 0,5 điểm, chạy không quá 2 giây.</b> Lưu bài vào <code>C:\BAILAM</code> với tên <code>GP012_B1.py</code> … <code>GP012_B4.py</code>. Hết giờ mở <code>cham.py</code>, bấm F5, gõ <b>1</b>. Không xem tài liệu khi làm.</p><h4>Bài B1 – CHỮ SỐ (5 điểm)</h4><p>Cho số nguyên dương n (1 ≤ n ≤ 10^18). In trên một dòng: tổng các chữ số của n và chữ số lớn nhất của n, cách nhau một dấu cách.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>5027</code></pre></div><div><span class="lb">Kết quả</span><pre><code>14 7</code></pre></div></div><div class="ex"><div><span class="lb">Ví dụ 2 – Dữ liệu vào</span><pre><code>909</code></pre></div><div><span class="lb">Kết quả</span><pre><code>18 9</code></pre></div></div><h4>Bài B2 – TRÊN TRUNG BÌNH (5 điểm)</h4><p>Dòng 1: số nguyên n (1 ≤ n ≤ 10^5). Dòng 2: n số nguyên (|ai| ≤ 10^9). In ra số phần tử lớn hơn hẳn trung bình cộng của cả dãy.</p><div class="ex"><div><span class="lb">Ví dụ – Dữ liệu vào</span><pre><code>5
 3 8 5 10 4</code></pre></div><div><span class="lb">Kết quả</span><pre><code>2</code></pre></div></div><h4>Bài B3 – TỪ DÀI NHẤT (5 điểm)</h4><p>Một dòng là câu gồm các từ (chữ cái tiếng Anh); giữa các từ có thể có một hoặc nhiều dấu cách, đầu và cuối câu có thể có dấu cách thừa. Dòng 1: in số từ. Dòng 2: in từ dài nhất; nếu nhiều từ cùng dài nhất, in từ xuất hiện đầu tiên.</p><div class="ex"><div><span class="lb">Ví dụ 1 – Dữ liệu vào</span><pre><code>  hoc   lap trinh python  </code></pre></div><div><span class="lb">Kết quả</span><pre><code>4

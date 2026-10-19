@@ -1,29 +1,41 @@
 # -*- coding: utf-8 -*-
-# TU CHAM 10 DE LUYEN TAP NHOM B (Phan "Luyen viet chuong trinh" trong tai lieu on)
-# Cach dung: luu bai De 1 thanh L1.py, De 2 thanh L2.py, ... De 10 thanh L10.py
+# TU CHAM 20 DE LUYEN TAP NHOM B (Phan "Luyen viet chuong trinh" trong tai lieu on)
+# Cach dung: luu bai De 1 thanh L1.py, De 2 thanh L2.py, ... De 20 thanh L20.py
 #   trong CUNG thu muc voi file nay, roi mo file nay bang IDLE/Thonny va bam F5.
 import os, sys, subprocess, time, zlib, base64
 GIOI_HAN_GIAY = 2
 _D = """
-eNqVVm1v4zYM/t5foRkoTk6UVJLf09OHfegBBwS7oesGDGlxcBMn9Rorhe106Yr+95GSndhJh/XS
-xqJCkXz4kFSSF0+bsiZlqhebgpEirR/OFtmSTAWt3MkZgdeLynUNu0tSZvW21MT58+o3h+RLQl/O
-faU4AWPyci44/0lxl2xK2PicoyZbVxlxfvnmWKdy71TvnRZKX1zIvfOqLmkxoMVQuK418vZGtarG
-oM+f6AHM0nldZ5rW7ht5rbYFRbdzlywBxZzkmoCiCe7v/TyrdV7VtEif8DgDp0/rvKauC25TVQEh
-2YI+z8REDJ9n/O6ukzpxxn9tcm1sAQpLXXfo3GpnCDgwfIo4UjAyy0jctdGD/8sCrUUHNxJspE9p
-lm+2P199/fb7J/cNY9F9BWql6tlkAnEOVDe0hR9Mt5MnFqNId5BEF1iBqYxzvch2tHCHosno+xPd
-NQEAyO6znLQ2X1KAYhVKmvXvh3ydkXyQf1Y7a9KanefQJu9YGv1QCbNptDflNrO5RR/KrdNRB3J3
-SGknZ0RhUmnbLd77Ttm9OnV8SVYKx2S8mi8oHOlxtUKuBvcXF6u27smPl6Gbc68xDPbU8uYBb23P
-70600mgbCIK/M3YLxS+hPuK4PrpXH93UZzFUROAHsIVxzW23yf8sFXK+cM+ur76o13yyNPhytkSE
-md4WWZnWGZ1NBZtKNvXY1GfTgE1DNo3YNGbThAHoOybcN5PBCgb8scngWtm7anxtFgq3Dh8+ukaH
-Z9OypJqtN+whdycnY4u4rsfoAXmwp+xl8R2xgWKVUe26bVs/KiUm5EbNHMml7zBHJJzDInmzyBAX
-YXe+WcwxczQJ7RnPsTXN1taltC4Fno6a0xLeHsrGR5IkVuY2kJCeH+DR4MiVZ10FXKI24Unrkp/a
-h1GcWN9HLwQdiwARhNzC70fxD01hot3qiEiSEJ8YyLfa2N7qkSCjgHDnbjiDxtVwWb3aeowQCsMH
-dKXhWyPfNIDPWGA0RgtyI3G3DyHoQ1hnz9kagv76Uj9sNAgpvO9xvb9H8TqdZ/O0BMlcnOYKhc3u
-5R946o0x+SPX1fxhs1kfZRv2Q4WQHmQbwwDEbb5IsX+rPWL+sC6QfEBGkowS84ze5WAwCJl59lkQ
-HQJM7oaGRj4mIjpBh5UQHsCTgojIAhS2IBLgBRarT0LAn5ziEjgELR6QDSQqTXiX0RYZiIERB4PA
-fsybXBiV3Y132BxBj/vQJbQPTgggw64lBjoxo+M1icRE2m7mJAoOHU32fWsbm0Bnm9GDIsVH1Uze
-qSbUkQhwaQIf2AqBotCyNQrJyMNK/kAzf7CMVdZH5JkBDTv3QII5R5LDf2+KDxMbd66Hgzr0olCI
-JMZ7yEZLqyqDn3f4C+nGhbuM77+sbs7+BSjgiBs=
+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
+iE7BIzCljnh9Fu/9A1TWTng=
 """
 _ns = {}
 exec(zlib.decompress(base64.b64decode("".join(_D.split()))).decode(), _ns)
@@ -31,7 +43,10 @@ REF, gen = _ns["REF"], _ns["gen"]
 TEN = {1: "Nam nhuan", 2: "Tong cac so chan", 3: "Chu so", 4: "Sap xep day",
        5: "Nguyen am va xau doi xung", 6: "Gia tri lon nhat va vi tri",
        7: "Dem so nguyen to trong day", 8: "UCLN va BCNN",
-       9: "Dem va tinh tong co dieu kien", 10: "Dem uoc voi n rat lon"}
+       9: "Dem va tinh tong co dieu kien", 10: "Dem uoc voi n rat lon",
+       11: "Tam giac", 12: "Tong chia het cho 3 hoac 5", 13: "So dao nguoc",
+       14: "Day giam dan", 15: "Chu hoa, chu thuong, chu so", 16: "Nho nhat, vi tri cuoi",
+       17: "Tong so nguyen to", 18: "Rut gon phan so", 19: "Dem va tong co dieu kien 2", 20: "So hoan hao"}
 
 def chuan_hoa(s):
     d = [x.rstrip() for x in s.replace("\r\n", "\n").split("\n")]
@@ -70,8 +85,8 @@ def cham(k, thu_muc):
 
 def main():
     thu_muc = os.path.dirname(os.path.abspath(__file__))
-    chon = input("Cham de so may? (go 1-10, hoac Enter de cham tat ca): ").strip()
-    ds = [int(chon)] if chon.isdigit() and 1 <= int(chon) <= 10 else range(1, 11)
+    chon = input("Cham de so may? (go 1-20, hoac Enter de cham tat ca): ").strip()
+    ds = [int(chon)] if chon.isdigit() and 1 <= int(chon) <= 20 else range(1, 21)
     kq = {k: cham(k, thu_muc) for k in ds}
     print("=" * 56)
     for k, v in kq.items():

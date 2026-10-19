@@ -2580,6 +2580,62 @@
    "status": "todo",
    "subject": "CIE ESL",
    "title": "15 phút – Ôn giữa kì ESL – Viết câu hoàn chỉnh"
+  },
+  {
+   "id": "nam-tin-luyen-de-11-20",
+   "due": "2026-10-20",
+   "kid": "nam",
+   "link": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-11",
+   "links": [
+    {
+     "label": "Đề 11 – Tam giác",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-11"
+    },
+    {
+     "label": "Đề 12 – Tổng chia hết cho 3 hoặc 5",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-12"
+    },
+    {
+     "label": "Đề 13 – Số đảo ngược",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-13"
+    },
+    {
+     "label": "Đề 14 – Dãy giảm dần",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-14"
+    },
+    {
+     "label": "Đề 15 – Chữ hoa, chữ thường, chữ số",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-15"
+    },
+    {
+     "label": "Đề 16 – Nhỏ nhất, vị trí cuối cùng",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-16"
+    },
+    {
+     "label": "Đề 17 – Tổng số nguyên tố",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-17"
+    },
+    {
+     "label": "Đề 18 – Rút gọn phân số",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-18"
+    },
+    {
+     "label": "Đề 19 – Đếm và tính tổng có điều kiện 2",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-19"
+    },
+    {
+     "label": "Đề 20 – Số hoàn hảo",
+     "url": "https://namphong2106.github.io/tin-hoc-nhom-b.html#de-20"
+    }
+   ],
+   "minutes": 40,
+   "note": "Làm thêm nếu còn thời gian. Trang không có lời giải. Tải lại cham_luyen.py (bản 20 đề), lưu L11.py…L20.py, chấm đạt 10/10.",
+   "practice": "10 đề luyện mới 11–20",
+   "review": "Gõ code Đề 11–20, chấm bằng cham_luyen.py",
+   "source": "Phụ huynh giao",
+   "status": "todo",
+   "subject": "5 · Tin học",
+   "title": "Tin học: làm thêm 10 đề luyện mới (Đề 11–20)"
   }
  ],
  "exams": [
