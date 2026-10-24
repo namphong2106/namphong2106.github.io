@@ -192,7 +192,11 @@ details.more > summary{cursor:pointer;font-weight:600;font-size:13.5px;color:var
 details.more > .list, details.more > .tbl-wrap{margin-top:8px}
 
 /* ---------- Phần của phụ huynh ---------- */
-.parent{margin-top:30px;padding-top:6px;border-top:2px dashed var(--line)}
+.parent{margin-top:0}
+.mode{display:flex;gap:4px;margin-top:14px;padding:4px;background:var(--paper);border:1px solid var(--line);border-radius:12px;width:fit-content}
+.mode button{padding:7px 16px;border:0;border-radius:9px;background:transparent;color:var(--muted);font:700 15px/1.1 var(--f-display);cursor:pointer}
+.mode button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.wk-pv{margin-top:28px;padding-top:6px;border-top:2px dashed var(--line)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
 .stat{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;padding:10px 14px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r)}
 .stat b{font:800 30px/1 var(--f-display);min-width:1.2ch;text-align:center}
@@ -334,6 +338,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
       <button class="kid" role="tab" data-kid="phong" aria-selected="false"><span class="kn">Hải Phong</span><span class="kc">Lớp 4B3</span></button>
     </div>
   </header>
+  <div class="mode" role="group" aria-label="Chế độ xem">
+    <button type="button" data-mode="kid" aria-pressed="true">Con học</button>
+    <button type="button" data-mode="parent" aria-pressed="false">Phụ huynh theo dõi</button>
+  </div>
 
   <section aria-labelledby="ex-h">
     <div class="sec-head"><h2 id="ex-h">Kiểm tra sắp tới</h2><button class="link-btn" id="ex-more" type="button" hidden></button></div>
@@ -342,13 +350,12 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 
   <nav class="tabs" role="tablist" aria-label="Các phần của sổ">
     <button role="tab" id="t-today" data-tab="today" aria-controls="p-today">Hôm nay <span class="badge" id="b-today" hidden></span></button>
-    <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Các ngày tới</button>
-    <button role="tab" id="t-english" data-tab="english" aria-controls="p-english" hidden>Tiếng Anh <span class="badge" id="b-english" hidden></span></button>
-    <button role="tab" id="t-preview" data-tab="preview" aria-controls="p-preview" hidden>Tuần</button>
+    <button role="tab" id="t-week" data-tab="week" aria-controls="p-week">Cả tuần</button>
     <button role="tab" id="t-errors" data-tab="errors" aria-controls="p-errors">Sổ lỗi <span class="badge" id="b-errors" hidden></span></button>
+    <button role="tab" id="t-parent" data-tab="parent" aria-controls="p-parent">Tổng quan</button>
+    <button role="tab" id="t-english" data-tab="english" aria-controls="p-english" hidden>Tiếng Anh <span class="badge" id="b-english" hidden></span></button>
+    <button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
     <button role="tab" id="t-review" data-tab="review" aria-controls="p-review">Cần xem lại <span class="badge" id="b-review" hidden></span></button>
-<button role="tab" id="t-assess" data-tab="assess" aria-controls="p-assess" hidden>Đánh giá</button>
-<button role="tab" id="t-grades" data-tab="grades" aria-controls="p-grades">Điểm</button>
   </nav>
 
   <main>
@@ -365,29 +372,28 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
       <p class="tonight" id="tonight-box" hidden><b>Nhắc nhanh</b><span id="tonight"></span></p>
       <div class="ses-list" id="sessions"></div>
       <div id="today-tasks"></div>
+    </section>
+
+    <section class="page" id="p-parent" role="tabpanel" aria-labelledby="t-parent" hidden>
       <section class="parent" aria-labelledby="par-h">
-        <div class="sec-head"><h2 id="par-h">Phần của phụ huynh</h2><span class="hint">Nhìn nhanh tình hình của con</span></div>
+        <div class="sec-head"><h2 id="par-h">Nhìn nhanh tình hình của con</h2></div>
         <div class="stats" id="stats"></div>
         <div id="parent-tasks"></div>
       </section>
+      <div id="assess"></div>
     </section>
 
     <section class="page" id="p-week" role="tabpanel" aria-labelledby="t-week" hidden>
       <div id="week"></div>
       <div id="week-tasks"></div>
+      <div class="wk-pv" id="preview"></div>
     </section>
 
     <section class="page" id="p-english" role="tabpanel" aria-labelledby="t-english" hidden>
       <div id="english"></div>
     </section>
 
-    <section class="page" id="p-preview" role="tabpanel" aria-labelledby="t-preview" hidden>
-<div id="preview"></div>
-</section>
-
-<section class="page" id="p-done" role="tabpanel" aria-labelledby="t-done" hidden>
-      <div id="done-list"></div>
-    </section>
+<div id="done-list" hidden></div>
 
     <section class="page" id="p-errors" role="tabpanel" aria-labelledby="t-errors" hidden>
       <div id="errors"></div>
@@ -397,9 +403,6 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 <div id="review"></div>
 </section>
 
-<section class="page" id="p-assess" role="tabpanel" aria-labelledby="t-assess" hidden>
-<div id="assess"></div>
-</section>
 
 <section class="page" id="p-grades" role="tabpanel" aria-labelledby="t-grades" hidden>
       <div class="sec-head"><h2>Điểm chính thức</h2><span class="hint">Từ VinschoolOne · quy về thang 10</span></div>
@@ -440,9 +443,11 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const subjPill = (s) => `<span class="subj s${slot(s)}"><i></i>${esc(subjName(s))}</span>`;
 
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
-  const TABS = ["today","week","english","preview","errors","review","assess","grades"];
+  const TABS = ["today","week","errors","parent","english","grades","review"];
+  const MODE_TABS = { kid: ["today","week","errors"], parent: ["parent","english","grades","review"] };
+  let mode = ls.get("soht-mode") === "parent" ? "parent" : "kid";
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
-  let tab = TABS.includes(ls.get("soht-tab")) ? ls.get("soht-tab") : "today";
+  let tab = MODE_TABS[mode].includes(ls.get("soht-tab")) ? ls.get("soht-tab") : MODE_TABS[mode][0];
   // localDone: { mã bài: thời điểm con tích (ms) }
   let localDone = {}; try { localDone = JSON.parse(ls.get("soht-done") || "{}") || {}; } catch(e) {}
   Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
@@ -505,18 +510,17 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 
     const pvRange = (w) => w.from.slice(0, 7) === w.to.slice(0, 7) ? w.from.slice(8, 10) + "–" + dm(w.to) : dm(w.from) + "–" + dm(w.to);
 const pvAll = mine(state.preview).filter(w => w.from && w.to && dayDiff(w.to, today) >= -2).sort((a, b) => String(a.from).localeCompare(String(b.from)));
-$("t-preview").hidden = !pvAll.length && !(tab === "preview" && !state.pvReady);
-$("t-preview").textContent = pvAll.length ? "Tuần " + pvRange(pvAll[0]) : "Tuần";
-if (!pvAll.length && tab === "preview" && state.pvReady) tab = "today";
+$("preview").hidden = !pvAll.length;
 const asAll = mine(state.assess);
-  $("t-assess").hidden = !asAll.length && !(tab === "assess" && !state.asReady);
-  if (!asAll.length && tab === "assess" && state.asReady) tab = "today";
   const hasGrades = !state.ready || (state.grades || []).length > 0 || (state.notes || []).length > 0;
     $("t-grades").hidden = !hasGrades;
-    if (!hasGrades && tab === "grades") tab = "today";
+    if (!hasGrades && tab === "grades") tab = "parent";
     const enData = state.en && state.en.kid === kid ? state.en : null;
     $("t-english").hidden = !enData && !(tab === "english" && !state.enReady);
-    if (!enData && tab === "english" && state.enReady) tab = "today";
+    if (!enData && tab === "english" && state.enReady) tab = "parent";
+    if (!MODE_TABS[mode].includes(tab)) tab = MODE_TABS[mode][0];
+    document.querySelectorAll(".mode button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
+    document.querySelectorAll(".tabs button").forEach(b => { if (!MODE_TABS[mode].includes(b.dataset.tab)) b.hidden = true; else if (!["english","grades"].includes(b.dataset.tab)) b.hidden = false; });
     document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
     TABS.forEach(k => { $("p-" + k).hidden = k !== tab; });
 
@@ -792,6 +796,7 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
 
   document.querySelectorAll(".kid").forEach(b => b.addEventListener("click", () => { kid = b.dataset.kid; ls.set("soht-kid", kid); showAllExams = false; render(); }));
   document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => { tab = b.dataset.tab; ls.set("soht-tab", tab); render(); }));
+  document.querySelectorAll(".mode button").forEach(b => b.addEventListener("click", () => { mode = b.dataset.mode; ls.set("soht-mode", mode); tab = MODE_TABS[mode][0]; ls.set("soht-tab", tab); render(); }));
   $("ex-more").addEventListener("click", () => { showAllExams = !showAllExams; render(); });
   document.addEventListener("change", (ev) => {
     const cb = ev.target.closest("input[type=checkbox][data-id]");
