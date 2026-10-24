@@ -4278,6 +4278,94 @@
       "subject": "English",
       "title": "Unit 2.7 – Improve your Writing: School Report",
       "note": "Nhận xét: lỗi ngữ pháp thường xuyên khiến một số ý khó hiểu."
+    },
+    {
+      "id": "nam-lms-3076988",
+      "date": "2026-10-13",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 8.67,
+      "source": "LMS",
+      "subject": "Toán",
+      "title": "[QUIZ] Bài 3.1 Phép nhân và phép chia cho lũy thừa của 10"
+    },
+    {
+      "id": "nam-lms-3077002",
+      "date": "2026-10-13",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 7,
+      "source": "LMS",
+      "subject": "Toán",
+      "title": "[QUIZ] Bài 3.2 Phép nhân và phép chia số thập phân"
+    },
+    {
+      "id": "nam-lms-3077003",
+      "date": "2026-10-13",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 9,
+      "source": "LMS",
+      "subject": "Toán",
+      "title": "[QUIZ] Bài 3.3 Hiểu về tỉ số phần trăm kép"
+    },
+    {
+      "id": "nam-lms-3091385",
+      "date": "2026-10-12",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 10,
+      "source": "LMS",
+      "subject": "Ngữ văn",
+      "title": "Quiz tự học tuần 10"
+    },
+    {
+      "id": "nam-lms-3087693",
+      "date": "2026-10-14",
+      "kid": "nam",
+      "max": 7,
+      "official": false,
+      "score": 7,
+      "source": "LMS",
+      "subject": "English",
+      "title": "[MUST DO] Grammar practice – verbs, adjectives, prepositions + -ing"
+    },
+    {
+      "id": "nam-lms-3087694",
+      "date": "2026-10-15",
+      "kid": "nam",
+      "max": 8,
+      "official": false,
+      "score": 6,
+      "source": "LMS",
+      "subject": "English",
+      "title": "[MUST DO] 3.4 Listening practice"
+    },
+    {
+      "id": "phong-lms-3093910",
+      "date": "2026-10-14",
+      "kid": "phong",
+      "max": 2,
+      "official": false,
+      "score": 2,
+      "source": "LMS",
+      "subject": "Âm nhạc",
+      "title": "Bài tập mức độ dễ"
+    },
+    {
+      "id": "phong-lms-2660192",
+      "date": "2026-10-14",
+      "kid": "phong",
+      "max": 10,
+      "official": false,
+      "score": 7.5,
+      "source": "LMS",
+      "subject": "Việt Nam học",
+      "title": "[Quiz tự học] Giới thiệu chủ đề Danh thắng Việt Nam"
     }
   ],
   "notes": [
@@ -4983,16 +5071,16 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-24T08:45:00+07:00",
+    "lastSync": "2026-10-24T11:00:00+07:00",
     "nam": {
       "dailyDone": "2026-10-24",
-      "sources": "LMS của Nam đọc lúc 08:35–08:41 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
+      "sources": "LMS của Nam đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
       "tonight": "Thứ Bảy 24/10: ưu tiên Unit 3.8 English (hạn T2 26/10), nộp bài cộng 0.25 Tin học (hạn CN 25/10), sau đó 4 bài HĐTN HK1 (hạn T6 30/10). Toán giữa kì đã thi 23/10, chờ kết quả. GDCD hạn T7 31/10.",
       "weeklyDone": "2026-10-02"
     },
     "phong": {
       "dailyDone": "2026-10-01",
-      "sources": "LMS của Phong đọc lúc 08:35 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
+      "sources": "LMS của Phong đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
       "tonight": "Thứ Hai 19/10: 15 bài Wayground ôn giữa kì – 5 Maths, 5 Science, 5 ESL. Làm theo thứ tự trong sổ, mỗi buổi 40 phút rồi nghỉ 10 phút. Sáng 20/10 thi Science: làm thêm bài ôn lại câu sai Science (10 câu).",
       "weeklyDone": "2026-10-02"
     }
