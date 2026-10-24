@@ -2683,6 +2683,415 @@
           "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882"
         }
       ]
+    },
+    {
+      "id": "phong-plan-2026-10-24-01",
+      "kid": "phong",
+      "due": "2026-10-24",
+      "order": 1,
+      "minutes": 50,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "50 phút – Toán: Đọc trước tuần 11: Linear Sequence và phân số của số tự nhiên",
+      "practice": "Đọc trước tuần 11: Linear Sequence và phân số của số tự nhiên",
+      "review": "Đọc trước dãy số (Unit 3) và tìm phân số của một số. Chưa có link MyImaths/Razkid trong LMS.",
+      "note": "Đọc trước dãy số (Unit 3) và tìm phân số của một số. Chưa có link MyImaths/Razkid trong LMS.",
+      "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118035",
+      "links": [
+        {
+          "label": "Linear Sequence Poster",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118035"
+        },
+        {
+          "label": "Finding Fractions of a Whole Number",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118476"
+        },
+        {
+          "label": "MyImaths (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-25-01",
+      "kid": "phong",
+      "due": "2026-10-25",
+      "order": 1,
+      "minutes": 45,
+      "subject": "Tiếng Việt",
+      "source": "LMS",
+      "status": "todo",
+      "title": "45 phút – Tiếng Việt: Dế Mèn và Dế Trũi lên đường (Bài 4.3): đọc trước phiếu, nhiệm vụ và bài giảng",
+      "practice": "Dế Mèn và Dế Trũi lên đường (Bài 4.3): đọc trước phiếu, nhiệm vụ và bài giảng",
+      "review": "Đọc trước bài tập đọc, làm nhiệm vụ trước khi đến lớp.",
+      "note": "Đọc trước bài tập đọc, làm nhiệm vụ trước khi đến lớp.",
+      "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148348",
+      "links": [
+        {
+          "label": "Phiếu đọc Dế Mèn và Dế Trũi lên đường",
+          "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148348"
+        },
+        {
+          "label": "Nhiệm vụ làm trước",
+          "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148349"
+        },
+        {
+          "label": "Bài giảng: Bức tường có nhiều phép lạ",
+          "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148350"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-25-02",
+      "kid": "phong",
+      "due": "2026-10-25",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Razkid",
+      "source": "Razkid",
+      "status": "todo",
+      "title": "15 phút – Razkid: Razkid: đọc 1 truyện hoặc bài theo GV giao",
+      "practice": "Razkid: đọc 1 truyện hoặc bài theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "Razkid (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-26-01",
+      "kid": "phong",
+      "due": "2026-10-26",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Khoa học tự nhiên: Unit 2.1 How Sounds Are Made: đọc trước bài tự học",
+      "practice": "Unit 2.1 How Sounds Are Made: đọc trước bài tự học",
+      "review": "Đọc trước về âm thanh được tạo ra như thế nào.",
+      "note": "Đọc trước về âm thanh được tạo ra như thế nào.",
+      "link": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939972",
+      "links": [
+        {
+          "label": "Unit 2.1 How are sounds made",
+          "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939972"
+        },
+        {
+          "label": "What is sound (ppt)",
+          "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9118691"
+        },
+        {
+          "label": "Words of the week",
+          "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939973"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-26-02",
+      "kid": "phong",
+      "due": "2026-10-26",
+      "order": 2,
+      "minutes": 15,
+      "subject": "MyImaths",
+      "source": "MyImaths",
+      "status": "todo",
+      "title": "15 phút – MyImaths: MyImaths: làm bài theo GV giao",
+      "practice": "MyImaths: làm bài theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "MyImaths (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-27-01",
+      "kid": "phong",
+      "due": "2026-10-27",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Tiếng Anh: Unit 4 Special Occasions: đọc trước từ vựng và Relative Clause",
+      "practice": "Unit 4 Special Occasions: đọc trước từ vựng và Relative Clause",
+      "review": "Đọc trước từ vựng lễ hội và mệnh đề quan hệ.",
+      "note": "Đọc trước từ vựng lễ hội và mệnh đề quan hệ.",
+      "link": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9134949",
+      "links": [
+        {
+          "label": "Celebrations vocabulary poster",
+          "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9134949"
+        },
+        {
+          "label": "Relative Clause PPT",
+          "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9134942"
+        },
+        {
+          "label": "Add More Detail – Relative Clauses poster",
+          "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9134947"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-27-02",
+      "kid": "phong",
+      "due": "2026-10-27",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Razkid",
+      "source": "Razkid",
+      "status": "todo",
+      "title": "15 phút – Razkid: Razkid: theo GV giao",
+      "practice": "Razkid: theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "Razkid (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-28-01",
+      "kid": "phong",
+      "due": "2026-10-28",
+      "order": 1,
+      "minutes": 45,
+      "subject": "Lịch sử và Địa lí",
+      "source": "LMS",
+      "status": "todo",
+      "title": "45 phút – Lịch sử và Địa lí: Chương 4 Đồng bằng Bắc Bộ: đọc kiến thức trọng tâm trước khi đến lớp",
+      "practice": "Chương 4 Đồng bằng Bắc Bộ: đọc kiến thức trọng tâm trước khi đến lớp",
+      "review": "Đọc trước đặc điểm thiên nhiên đồng bằng Bắc Bộ.",
+      "note": "Đọc trước đặc điểm thiên nhiên đồng bằng Bắc Bộ.",
+      "link": "https://lms.vinschool.edu.vn/courses/73707/modules/items/9148364",
+      "links": [
+        {
+          "label": "Kiến thức trọng tâm – Đặc điểm thiên nhiên ĐBBB",
+          "url": "https://lms.vinschool.edu.vn/courses/73707/modules/items/9148364"
+        },
+        {
+          "label": "Địa hình Đồng bằng Bắc Bộ (video)",
+          "url": "https://lms.vinschool.edu.vn/courses/73707/modules/items/9148365"
+        },
+        {
+          "label": "Tài liệu: Lũ là gì?",
+          "url": "https://lms.vinschool.edu.vn/courses/73707/modules/items/9148370"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-28-02",
+      "kid": "phong",
+      "due": "2026-10-28",
+      "order": 2,
+      "minutes": 15,
+      "subject": "MyImaths",
+      "source": "MyImaths",
+      "status": "todo",
+      "title": "15 phút – MyImaths: MyImaths: theo GV giao",
+      "practice": "MyImaths: theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "MyImaths (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-29-01",
+      "kid": "phong",
+      "due": "2026-10-29",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Tiếng Việt",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Tiếng Việt: Nàng tiên ốc (Bài 4.4): nhiệm vụ đọc trước",
+      "practice": "Nàng tiên ốc (Bài 4.4): nhiệm vụ đọc trước",
+      "review": "Đọc trước văn bản, làm quiz sau khi đọc.",
+      "note": "Đọc trước văn bản, làm quiz sau khi đọc.",
+      "link": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148354",
+      "links": [
+        {
+          "label": "Nhiệm vụ làm trước – Nàng tiên ốc",
+          "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148354"
+        },
+        {
+          "label": "Quiz sau bài học – Nàng tiên ốc",
+          "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148355"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-29-02",
+      "kid": "phong",
+      "due": "2026-10-29",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Razkid",
+      "source": "Razkid",
+      "status": "todo",
+      "title": "15 phút – Razkid: Razkid: theo GV giao",
+      "practice": "Razkid: theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "Razkid (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-30-01",
+      "kid": "phong",
+      "due": "2026-10-30",
+      "order": 1,
+      "minutes": 45,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "45 phút – Toán: Ôn kiểm tra thứ Sáu: Fractions, Decimals, Percentages",
+      "practice": "Ôn kiểm tra thứ Sáu: Fractions, Decimals, Percentages",
+      "review": "Ôn cho bài kiểm tra Toán thứ Sáu (30/10).",
+      "note": "Ôn cho bài kiểm tra Toán thứ Sáu (30/10).",
+      "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118591",
+      "links": [
+        {
+          "label": "Fractions to decimals to Percentages",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118591"
+        },
+        {
+          "label": "Fractions Decimals and Percentages Poster",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118477"
+        },
+        {
+          "label": "Fractions Percentages and Decimals Worksheet",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118475"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-30-02",
+      "kid": "phong",
+      "due": "2026-10-30",
+      "order": 2,
+      "minutes": 15,
+      "subject": "MyImaths",
+      "source": "MyImaths",
+      "status": "todo",
+      "title": "15 phút – MyImaths: MyImaths: theo GV giao",
+      "practice": "MyImaths: theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "MyImaths (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-31-01",
+      "kid": "phong",
+      "due": "2026-10-31",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Tiếng Anh: Present Continuous: chuẩn bị cho tuần sau",
+      "practice": "Present Continuous: chuẩn bị cho tuần sau",
+      "review": "Làm trước phần ngữ pháp tuần 12.",
+      "note": "Làm trước phần ngữ pháp tuần 12.",
+      "link": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503422",
+      "links": [
+        {
+          "label": "Present Continuous Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503422"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-10-31-02",
+      "kid": "phong",
+      "due": "2026-10-31",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Razkid",
+      "source": "Razkid",
+      "status": "todo",
+      "title": "20 phút – Razkid: Razkid: theo GV giao",
+      "practice": "Razkid: theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "Razkid (theo GV giao)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-11-01-01",
+      "kid": "phong",
+      "due": "2026-11-01",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Khoa học tự nhiên: Unit 2.1: bài tập về nhà",
+      "practice": "Unit 2.1: bài tập về nhà",
+      "review": "Làm bài về nhà Unit 2.1.",
+      "note": "Làm bài về nhà Unit 2.1.",
+      "link": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939974",
+      "links": [
+        {
+          "label": "Homework – Try your best",
+          "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939974"
+        }
+      ]
+    },
+    {
+      "id": "phong-plan-2026-11-01-02",
+      "kid": "phong",
+      "due": "2026-11-01",
+      "order": 2,
+      "minutes": 20,
+      "subject": "MyImaths",
+      "source": "MyImaths",
+      "status": "todo",
+      "title": "20 phút – MyImaths: MyImaths: theo GV giao",
+      "practice": "MyImaths: theo GV giao",
+      "review": "Chưa có link trong LMS.",
+      "note": "Chưa có link trong LMS.",
+      "link": "",
+      "links": [
+        {
+          "label": "MyImaths (theo GV giao)",
+          "url": ""
+        }
+      ]
     }
   ],
   "exams": [
@@ -4958,7 +5367,7 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-24T11:15:00+07:00",
+    "lastSync": "2026-10-24T17:05:00+07:00",
     "nam": {
       "dailyDone": "2026-10-24",
       "sources": "LMS của Nam đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
@@ -4967,8 +5376,8 @@
     },
     "phong": {
       "dailyDone": "2026-10-01",
-      "sources": "LMS của Phong đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
-      "tonight": "Thứ Hai 19/10: 15 bài Wayground ôn giữa kì – 5 Maths, 5 Science, 5 ESL. Làm theo thứ tự trong sổ, mỗi buổi 40 phút rồi nghỉ 10 phút. Sáng 20/10 thi Science: làm thêm bài ôn lại câu sai Science (10 câu).",
+      "sources": "LMS của Phong đọc 24/10 (module tuần 10–11, mục đọc trước). Myimaths và Razkid chưa có link trong LMS, nên chỉ ghi tên, bố mẹ kiểm tra theo GV giao.",
+      "tonight": "Thứ Bảy 24/10: đọc trước Toán tuần 11 (dãy số, phân số) và MyImaths. Tuần tới: Tiếng Việt Bài 4.3–4.4, Khoa học Unit 2.1, Tiếng Anh Unit 4, Lịch sử và Địa lí Chương 4, Toán ôn kiểm tra thứ Sáu 30/10.",
       "weeklyDone": "2026-10-02"
     }
   }
