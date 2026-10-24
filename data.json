@@ -1208,27 +1208,6 @@
       "link": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9005939"
     },
     {
-      "id": "phong-sci-w9-lms-practice",
-      "due": "2026-10-18",
-      "kid": "phong",
-      "links": [
-        {
-          "label": "Thư gửi phụ huynh Science tuần 9 (mục LMS practice)",
-          "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006554"
-        }
-      ],
-      "minutes": 15,
-      "note": "Thời gian biểu CN 18/10, buổi 3. Đáp án ở dòng Parent check.",
-      "order": 3,
-      "practice": "Thư gửi phụ huynh Science tuần 9 (mục LMS practice)",
-      "review": "Solutions: làm câu 3 và câu 4 trong thư tuần 9 vào vở (solute, solvent, solution; đọc bảng kết quả bay hơi)",
-      "source": "LMS",
-      "status": "todo",
-      "subject": "CIE Science",
-      "title": "15 phút – Solutions: làm câu 3 và câu 4 trong thư tuần 9 vào vở (solute, solvent, solution; đọc bảng kết quả bay hơi)",
-      "link": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9006554"
-    },
-    {
       "id": "phong-wg-lms-maths-mixed-wp-w8-b",
       "due": "2026-10-18",
       "kid": "phong",
@@ -2090,27 +2069,6 @@
       "title": "15 phút – Ôn giữa kì ESL – Viết câu hoàn chỉnh",
       "doneAt": "2026-10-19T21:45:00+07:00",
       "doneVia": "page"
-    },
-    {
-      "id": "phong-wg-sci-onlai-truocthi",
-      "kid": "phong",
-      "due": "2026-10-19",
-      "order": 16,
-      "minutes": 15,
-      "subject": "CIE Science",
-      "source": "Wayground",
-      "status": "todo",
-      "title": "15 phút – Science: ôn lại các câu đã sai trước giờ thi",
-      "practice": "Wayground – Phong Science – Ôn lại câu sai trước khi thi (10 câu)",
-      "review": "Bay hơi, ngưng tụ, giáng thủy, mây; đông đặc; nước nở ra khi đóng băng; biến đổi thuận nghịch",
-      "note": "Sáng 20/10 thi Science. Câu hỏi mới, cùng dạng với các câu con sai trong 3 bài ôn Science hôm nay. Làm tối nay hoặc sáng mai trước giờ thi; câu nào sai thì đọc kĩ giải thích.",
-      "link": "https://wayground.com/join?gc=15741955",
-      "links": [
-        {
-          "label": "Wayground – Phong Science – Ôn lại câu sai trước khi thi (10 câu)",
-          "url": "https://wayground.com/join?gc=15741955"
-        }
-      ]
     },
     {
       "id": "nam-sched-2026-10-24-01",
