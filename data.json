@@ -1265,7 +1265,7 @@
       "practice": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
       "review": "Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
       "source": "Raz-Kids",
-      "status": "todo",
+      "status": "done",
       "subject": "Raz-Kids",
       "title": "10 phút – Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
       "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
@@ -2743,27 +2743,6 @@
       ]
     },
     {
-      "id": "phong-plan-2026-10-25-02",
-      "kid": "phong",
-      "due": "2026-10-25",
-      "order": 2,
-      "minutes": 15,
-      "subject": "Razkid",
-      "source": "Razkid",
-      "status": "todo",
-      "title": "15 phút – Razkid: Razkid: đọc 1 truyện hoặc bài theo GV giao",
-      "practice": "Razkid: đọc 1 truyện hoặc bài theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "Razkid (theo GV giao)",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": "phong-plan-2026-10-26-01",
       "kid": "phong",
       "due": "2026-10-26",
@@ -2789,27 +2768,6 @@
         {
           "label": "Words of the week",
           "url": "https://lms.vinschool.edu.vn/courses/73566/modules/items/7939973"
-        }
-      ]
-    },
-    {
-      "id": "phong-plan-2026-10-26-02",
-      "kid": "phong",
-      "due": "2026-10-26",
-      "order": 2,
-      "minutes": 15,
-      "subject": "MyImaths",
-      "source": "MyImaths",
-      "status": "todo",
-      "title": "15 phút – MyImaths: MyImaths: làm bài theo GV giao",
-      "practice": "MyImaths: làm bài theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "MyImaths (theo GV giao)",
-          "url": ""
         }
       ]
     },
@@ -2843,27 +2801,6 @@
       ]
     },
     {
-      "id": "phong-plan-2026-10-27-02",
-      "kid": "phong",
-      "due": "2026-10-27",
-      "order": 2,
-      "minutes": 15,
-      "subject": "Razkid",
-      "source": "Razkid",
-      "status": "todo",
-      "title": "15 phút – Razkid: Razkid: theo GV giao",
-      "practice": "Razkid: theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "Razkid (theo GV giao)",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": "phong-plan-2026-10-28-01",
       "kid": "phong",
       "due": "2026-10-28",
@@ -2893,27 +2830,6 @@
       ]
     },
     {
-      "id": "phong-plan-2026-10-28-02",
-      "kid": "phong",
-      "due": "2026-10-28",
-      "order": 2,
-      "minutes": 15,
-      "subject": "MyImaths",
-      "source": "MyImaths",
-      "status": "todo",
-      "title": "15 phút – MyImaths: MyImaths: theo GV giao",
-      "practice": "MyImaths: theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "MyImaths (theo GV giao)",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": "phong-plan-2026-10-29-01",
       "kid": "phong",
       "due": "2026-10-29",
@@ -2935,27 +2851,6 @@
         {
           "label": "Quiz sau bài học – Nàng tiên ốc",
           "url": "https://lms.vinschool.edu.vn/courses/73709/modules/items/9148355"
-        }
-      ]
-    },
-    {
-      "id": "phong-plan-2026-10-29-02",
-      "kid": "phong",
-      "due": "2026-10-29",
-      "order": 2,
-      "minutes": 15,
-      "subject": "Razkid",
-      "source": "Razkid",
-      "status": "todo",
-      "title": "15 phút – Razkid: Razkid: theo GV giao",
-      "practice": "Razkid: theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "Razkid (theo GV giao)",
-          "url": ""
         }
       ]
     },
@@ -2989,27 +2884,6 @@
       ]
     },
     {
-      "id": "phong-plan-2026-10-30-02",
-      "kid": "phong",
-      "due": "2026-10-30",
-      "order": 2,
-      "minutes": 15,
-      "subject": "MyImaths",
-      "source": "MyImaths",
-      "status": "todo",
-      "title": "15 phút – MyImaths: MyImaths: theo GV giao",
-      "practice": "MyImaths: theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "MyImaths (theo GV giao)",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": "phong-plan-2026-10-31-01",
       "kid": "phong",
       "due": "2026-10-31",
@@ -3027,27 +2901,6 @@
         {
           "label": "Present Continuous Practice",
           "url": "https://lms.vinschool.edu.vn/courses/73561/modules/items/7503422"
-        }
-      ]
-    },
-    {
-      "id": "phong-plan-2026-10-31-02",
-      "kid": "phong",
-      "due": "2026-10-31",
-      "order": 2,
-      "minutes": 20,
-      "subject": "Razkid",
-      "source": "Razkid",
-      "status": "todo",
-      "title": "20 phút – Razkid: Razkid: theo GV giao",
-      "practice": "Razkid: theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
-      "links": [
-        {
-          "label": "Razkid (theo GV giao)",
-          "url": ""
         }
       ]
     },
@@ -3073,23 +2926,317 @@
       ]
     },
     {
-      "id": "phong-plan-2026-11-01-02",
+      "id": "phong-myimaths-20261024-amounts",
+      "kid": "phong",
+      "due": "2026-10-24",
+      "order": 2,
+      "minutes": 20,
+      "subject": "MyiMaths",
+      "source": "MyiMaths",
+      "status": "todo",
+      "title": "20 phút – MyiMaths: Fractions of amounts",
+      "practice": "MyiMaths: Fractions of amounts",
+      "review": "Làm sau bài LMS. Nếu chưa hiểu, bấm \"Try the lesson\" trong bài trước khi làm.",
+      "note": "Bài thầy giao, đã quá hạn 06/10 — làm trước.",
+      "link": "https://app.myimaths.com/1676-homework/fractions-of-amounts/5208094/task",
+      "links": [
+        {
+          "label": "MyiMaths: Fractions of amounts",
+          "url": "https://app.myimaths.com/1676-homework/fractions-of-amounts/5208094/task"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261024-critter",
+      "kid": "phong",
+      "due": "2026-10-24",
+      "order": 3,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Làm tiếp quiz đang dở của sách \"Critter Crossings\"",
+      "practice": "Raz-Kids Level S: quiz \"Critter Crossings\"",
+      "review": "Làm tiếp quiz đang dở của sách \"Critter Crossings\"",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDZ9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Critter Crossings",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDZ9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261024-animal",
+      "kid": "phong",
+      "due": "2026-10-24",
+      "order": 4,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
+      "review": "Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzF9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Animal Groups: Strength in Numbers",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzF9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261025-butter",
+      "kid": "phong",
+      "due": "2026-10-25",
+      "order": 2,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
+      "review": "Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1Njd9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Butterflies and Moths",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1Njd9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261025-shirley",
+      "kid": "phong",
+      "due": "2026-10-25",
+      "order": 3,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Shirley Chisholm\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Shirley Chisholm\"",
+      "review": "Xem lại sách \"Shirley Chisholm\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MDN9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Shirley Chisholm",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MDN9"
+        }
+      ]
+    },
+    {
+      "id": "phong-myimaths-20261026-mixed",
+      "kid": "phong",
+      "due": "2026-10-26",
+      "order": 2,
+      "minutes": 20,
+      "subject": "MyiMaths",
+      "source": "MyiMaths",
+      "status": "todo",
+      "title": "20 phút – MyiMaths: Introducing improper and mixed fractions",
+      "practice": "MyiMaths: Introducing improper and mixed fractions",
+      "review": "Làm sau bài LMS. Nếu chưa hiểu, bấm \"Try the lesson\" trong bài trước khi làm.",
+      "note": "Bài thầy giao, hạn 25/03/2027.",
+      "link": "https://app.myimaths.com/5998-homework/introducing-improper-and-mixed-fractions/5208096/task",
+      "links": [
+        {
+          "label": "MyiMaths: Introducing improper and mixed fractions",
+          "url": "https://app.myimaths.com/5998-homework/introducing-improper-and-mixed-fractions/5208096/task"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261026-locust",
+      "kid": "phong",
+      "due": "2026-10-26",
+      "order": 3,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Here Come the Locusts\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Here Come the Locusts\"",
+      "review": "Xem lại sách \"Here Come the Locusts\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MjZ9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Here Come the Locusts",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MjZ9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261027-polar",
+      "kid": "phong",
+      "due": "2026-10-27",
+      "order": 2,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Polar Bear's Promise\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Polar Bear's Promise\"",
+      "review": "Xem lại sách \"Polar Bear's Promise\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NDUwNzN9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Polar Bear's Promise",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NDUwNzN9"
+        }
+      ]
+    },
+    {
+      "id": "phong-myimaths-20261028-operators",
+      "kid": "phong",
+      "due": "2026-10-28",
+      "order": 2,
+      "minutes": 20,
+      "subject": "MyiMaths",
+      "source": "MyiMaths",
+      "status": "todo",
+      "title": "20 phút – MyiMaths: Fractions as operators",
+      "practice": "MyiMaths: Fractions as operators",
+      "review": "Làm sau bài LMS. Nếu chưa hiểu, bấm \"Try the lesson\" trong bài trước khi làm.",
+      "note": "Bài thầy giao, hạn 25/03/2027.",
+      "link": "https://app.myimaths.com/1759-homework/fractions-as-operators/5208093/task",
+      "links": [
+        {
+          "label": "MyiMaths: Fractions as operators",
+          "url": "https://app.myimaths.com/1759-homework/fractions-as-operators/5208093/task"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261028-morty",
+      "kid": "phong",
+      "due": "2026-10-28",
+      "order": 3,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Morty the Meany\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Morty the Meany\"",
+      "review": "Xem lại sách \"Morty the Meany\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzA5ODN9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Morty the Meany",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzA5ODN9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261029-shelter",
+      "kid": "phong",
+      "due": "2026-10-29",
+      "order": 2,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Shelter Pets Are Best\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Shelter Pets Are Best\"",
+      "review": "Xem lại sách \"Shelter Pets Are Best\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MTV9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Shelter Pets Are Best",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MTV9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261030-tshirt",
+      "kid": "phong",
+      "due": "2026-10-30",
+      "order": 2,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"The International T-Shirt Challenge\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"The International T-Shirt Challenge\"",
+      "review": "Xem lại sách \"The International T-Shirt Challenge\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NTF9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: The International T-Shirt Challenge",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NTF9"
+        }
+      ]
+    },
+    {
+      "id": "phong-myimaths-20261031-squares",
+      "kid": "phong",
+      "due": "2026-10-31",
+      "order": 2,
+      "minutes": 20,
+      "subject": "MyiMaths",
+      "source": "MyiMaths",
+      "status": "todo",
+      "title": "20 phút – MyiMaths: Squares and triangles",
+      "practice": "MyiMaths: Squares and triangles",
+      "review": "Làm sau bài LMS. Nếu chưa hiểu, bấm \"Try the lesson\" trong bài trước khi làm.",
+      "note": "Bài thầy giao 20/10, hạn 01/08/2027.",
+      "link": "https://app.myimaths.com/149-homework/squares-and-triangles/5218753/task",
+      "links": [
+        {
+          "label": "MyiMaths: Squares and triangles",
+          "url": "https://app.myimaths.com/149-homework/squares-and-triangles/5218753/task"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261031-harriet",
+      "kid": "phong",
+      "due": "2026-10-31",
+      "order": 3,
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
+      "status": "todo",
+      "title": "10 phút – Xem lại sách \"Harriet Tubman and the Underground Railroad\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Harriet Tubman and the Underground Railroad\"",
+      "review": "Xem lại sách \"Harriet Tubman and the Underground Railroad\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NDZ9",
+      "links": [
+        {
+          "label": "Raz-Kids quiz: Harriet Tubman and the Underground Railroad",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NDZ9"
+        }
+      ]
+    },
+    {
+      "id": "phong-raz-20261101-yellow",
       "kid": "phong",
       "due": "2026-11-01",
       "order": 2,
-      "minutes": 20,
-      "subject": "MyImaths",
-      "source": "MyImaths",
+      "minutes": 10,
+      "subject": "Raz-Kids",
+      "source": "Raz-Kids",
       "status": "todo",
-      "title": "20 phút – MyImaths: MyImaths: theo GV giao",
-      "practice": "MyImaths: theo GV giao",
-      "review": "Chưa có link trong LMS.",
-      "note": "Chưa có link trong LMS.",
-      "link": "",
+      "title": "10 phút – Xem lại sách \"Yellowstone: A Place of Wild Wonders\" rồi làm quiz",
+      "practice": "Raz-Kids Level S: quiz \"Yellowstone: A Place of Wild Wonders\"",
+      "review": "Xem lại sách \"Yellowstone: A Place of Wild Wonders\" rồi làm quiz",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDl9",
       "links": [
         {
-          "label": "MyImaths (theo GV giao)",
-          "url": ""
+          "label": "Raz-Kids quiz: Yellowstone: A Place of Wild Wonders",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDl9"
         }
       ]
     }
@@ -5367,7 +5514,7 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-24T17:05:00+07:00",
+    "lastSync": "2026-10-24T19:30:00+07:00",
     "nam": {
       "dailyDone": "2026-10-24",
       "sources": "LMS của Nam đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
@@ -5376,7 +5523,7 @@
     },
     "phong": {
       "dailyDone": "2026-10-01",
-      "sources": "LMS của Phong đọc 24/10 (module tuần 10–11, mục đọc trước). Myimaths và Razkid chưa có link trong LMS, nên chỉ ghi tên, bố mẹ kiểm tra theo GV giao.",
+      "sources": "LMS của Phong đọc 24/10 (module tuần 10–11, mục đọc trước). MyiMaths và Raz-Kids đọc 24/10: 4 bài MyiMaths thầy giao, 11 sách Raz-Kids Level S còn thiếu quiz; mỗi mục có link thẳng vào đúng bài.",
       "tonight": "Thứ Bảy 24/10: đọc trước Toán tuần 11 (dãy số, phân số) và MyImaths. Tuần tới: Tiếng Việt Bài 4.3–4.4, Khoa học Unit 2.1, Tiếng Anh Unit 4, Lịch sử và Địa lí Chương 4, Toán ôn kiểm tra thứ Sáu 30/10.",
       "weeklyDone": "2026-10-02"
     }
