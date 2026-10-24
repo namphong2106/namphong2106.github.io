@@ -2121,7 +2121,7 @@
       "subject": "Tin học",
       "source": "LMS",
       "status": "todo",
-      "title": "10 phút – Tin học: 10 phút – Tin học: nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
+      "title": "10 phút – Tin học: nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
       "practice": "10 phút – Tin học: nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
       "review": "Nộp/làm theo hạn trên LMS.",
       "note": "Nộp trên LMS trước 23:59 CN 25/10.",
@@ -2142,7 +2142,7 @@
       "subject": "Tiếng Anh",
       "source": "LMS",
       "status": "todo",
-      "title": "45 phút – Tiếng Anh: 45 phút – English: Unit 3.8 Project Challenge (Fundraising Leaflet) (hạn 23:59 T2 26/10)",
+      "title": "45 phút – Tiếng Anh: Unit 3.8 Project Challenge (Fundraising Leaflet) (hạn 23:59 T2 26/10)",
       "practice": "45 phút – English: Unit 3.8 Project Challenge (Fundraising Leaflet) (hạn 23:59 T2 26/10)",
       "review": "Nộp/làm theo hạn trên LMS.",
       "note": "Hạn 23:59 T2 26/10.",
@@ -2158,7 +2158,7 @@
       "id": "nam-plan2-2026-10-24-03",
       "kid": "nam",
       "due": "2026-10-24",
-      "order": 3,
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
@@ -2179,7 +2179,7 @@
       "id": "nam-plan2-2026-10-24-04",
       "kid": "nam",
       "due": "2026-10-24",
-      "order": 4,
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
@@ -2205,7 +2205,7 @@
       "subject": "Hoạt động trải nghiệm",
       "source": "LMS",
       "status": "todo",
-      "title": "60 phút – Hoạt động trải nghiệm: 60 phút – HĐTN: 4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
+      "title": "60 phút – Hoạt động trải nghiệm: 4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
       "practice": "60 phút – HĐTN: 4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
       "review": "Nộp/làm theo hạn trên LMS.",
       "note": "Hạn 23:59 T6 30/10.",
@@ -2233,7 +2233,7 @@
       "id": "nam-plan2-2026-10-25-02",
       "kid": "nam",
       "due": "2026-10-25",
-      "order": 2,
+      "order": 3,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
@@ -2254,7 +2254,7 @@
       "id": "nam-plan2-2026-10-25-03",
       "kid": "nam",
       "due": "2026-10-25",
-      "order": 3,
+      "order": 4,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
@@ -2296,7 +2296,7 @@
       "id": "nam-plan2-2026-10-27-01",
       "kid": "nam",
       "due": "2026-10-27",
-      "order": 1,
+      "order": 2,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
@@ -2343,7 +2343,7 @@
       "subject": "Giáo dục công dân",
       "source": "LMS",
       "status": "todo",
-      "title": "60 phút – Giáo dục công dân: 60 phút – GDCD: 4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
+      "title": "60 phút – Giáo dục công dân: 4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
       "practice": "60 phút – GDCD: 4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
       "review": "Nộp/làm theo hạn trên LMS.",
       "note": "Hạn 23:59 T7 31/10. Nên hỏi lại GV xác nhận hạn bài cuối kỳ.",
@@ -2492,6 +2492,130 @@
           "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882"
         }
       ]
+    },
+    {
+      "id": "nam-prep-2026-10-24-3-1894",
+      "kid": "nam",
+      "due": "2026-10-24",
+      "minutes": 45,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "45 phút – Toán: Bài 3.4 còn lại: HDTH, quiz, PHT",
+      "practice": "Bài 3.4 còn lại: HDTH, quiz, PHT",
+      "review": "Ôn lại Bài 3.4 (cận trên và cận dưới) — mục chưa làm.",
+      "note": "Ôn lại Bài 3.4 (cận trên và cận dưới) — mục chưa làm.",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051053",
+      "links": [
+        {
+          "label": "HDTH Bài 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051053"
+        },
+        {
+          "label": "Quiz Bài 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051055"
+        },
+        {
+          "label": "PHT Bài 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051054"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "nam-prep-2026-10-24-4-0019",
+      "kid": "nam",
+      "due": "2026-10-24",
+      "minutes": 50,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "50 phút – Tiếng Anh: Unit 3.4 must-do: listening, reading, grammar, reflection",
+      "practice": "Unit 3.4 must-do: listening, reading, grammar, reflection",
+      "review": "Các mục bắt buộc của Unit 3.4 còn chưa làm.",
+      "note": "Các mục bắt buộc của Unit 3.4 còn chưa làm.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001697",
+      "links": [
+        {
+          "label": "Listening 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001697"
+        },
+        {
+          "label": "Reading 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001698"
+        },
+        {
+          "label": "Grammar 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001699"
+        },
+        {
+          "label": "Reflection 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001700"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "nam-prep-2026-10-25-6-5733",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "minutes": 80,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "80 phút – Khoa học tự nhiên: C3.01 và C3.02: đọc lý thuyết, hướng dẫn, quiz trước tiết",
+      "practice": "C3.01 và C3.02: đọc lý thuyết, hướng dẫn, quiz trước tiết",
+      "review": "Học trước tuần 10–11 (19/10 – 30/10). Quiz sau tiết không bắt buộc.",
+      "note": "Học trước tuần 10–11 (19/10 – 30/10). Quiz sau tiết không bắt buộc.",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117",
+      "links": [
+        {
+          "label": "Lý thuyết C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117"
+        },
+        {
+          "label": "Hướng dẫn C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035118"
+        },
+        {
+          "label": "Quiz trước tiết C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035119"
+        },
+        {
+          "label": "Lý thuyết C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035109"
+        },
+        {
+          "label": "Hướng dẫn C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035111"
+        },
+        {
+          "label": "Quiz trước tiết C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035112"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "nam-prep-2026-10-25-1-3211",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "minutes": 15,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Toán: Bài 4.1 phần HDTH (học trước)",
+      "practice": "Bài 4.1 phần HDTH (học trước)",
+      "review": "Học trước Bài 4.1 Lập và giải phương trình (tuần 19–23/10).",
+      "note": "Học trước Bài 4.1 Lập và giải phương trình (tuần 19–23/10).",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059",
+      "links": [
+        {
+          "label": "HDTH Bài 4.1",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059"
+        }
+      ],
+      "order": 2
     }
   ],
   "exams": [
