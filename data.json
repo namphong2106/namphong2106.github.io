@@ -2695,8 +2695,8 @@
       "status": "todo",
       "title": "50 phút – Toán: Đọc trước tuần 11: Linear Sequence và phân số của số tự nhiên",
       "practice": "Đọc trước tuần 11: Linear Sequence và phân số của số tự nhiên",
-      "review": "Đọc trước dãy số (Unit 3) và tìm phân số của một số. Chưa có link MyImaths/Razkid trong LMS.",
-      "note": "Đọc trước dãy số (Unit 3) và tìm phân số của một số. Chưa có link MyImaths/Razkid trong LMS.",
+      "review": "Đọc trước dãy số (Unit 3) và tìm phân số của một số.",
+      "note": "Đọc trước dãy số (Unit 3) và tìm phân số của một số.",
       "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118035",
       "links": [
         {
@@ -2706,10 +2706,6 @@
         {
           "label": "Finding Fractions of a Whole Number",
           "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118476"
-        },
-        {
-          "label": "MyImaths (theo GV giao)",
-          "url": ""
         }
       ]
     },
@@ -5524,7 +5520,7 @@
     "phong": {
       "dailyDone": "2026-10-01",
       "sources": "LMS của Phong đọc 24/10 (module tuần 10–11, mục đọc trước). MyiMaths và Raz-Kids đọc 24/10: 4 bài MyiMaths thầy giao, 11 sách Raz-Kids Level S còn thiếu quiz; mỗi mục có link thẳng vào đúng bài.",
-      "tonight": "Thứ Bảy 24/10: đọc trước Toán tuần 11 (dãy số, phân số) và MyImaths. Tuần tới: Tiếng Việt Bài 4.3–4.4, Khoa học Unit 2.1, Tiếng Anh Unit 4, Lịch sử và Địa lí Chương 4, Toán ôn kiểm tra thứ Sáu 30/10.",
+      "tonight": "Thứ Bảy 24/10: đọc trước Toán tuần 11 (dãy số, phân số) MyiMaths \"Fractions of amounts\" và 2 quiz Raz-Kids. Tuần tới: Tiếng Việt Bài 4.3–4.4, Khoa học Unit 2.1, Tiếng Anh Unit 4, Lịch sử và Địa lí Chương 4, Toán ôn kiểm tra thứ Sáu 30/10.",
       "weeklyDone": "2026-10-02"
     }
   }
