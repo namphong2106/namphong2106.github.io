@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-24-01",
+      "id": "nam-sched-2026-10-24-01",
       "kid": "nam",
       "due": "2026-10-24",
       "order": 1,
@@ -2122,8 +2122,8 @@
       "source": "LMS",
       "status": "todo",
       "title": "10 phút – Tin học: nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
-      "practice": "10 phút – Tin học: nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
-      "review": "Nộp/làm theo hạn trên LMS.",
+      "practice": "nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
+      "review": "Nộp trên LMS trước 23:59 CN 25/10.",
       "note": "Nộp trên LMS trước 23:59 CN 25/10.",
       "link": "https://lms.vinschool.edu.vn/courses/87936/assignments/3117624",
       "links": [
@@ -2134,17 +2134,17 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-24-02",
+      "id": "nam-sched-2026-10-24-02",
       "kid": "nam",
       "due": "2026-10-24",
       "order": 2,
-      "minutes": 45,
+      "minutes": 40,
       "subject": "Tiếng Anh",
       "source": "LMS",
       "status": "todo",
-      "title": "45 phút – Tiếng Anh: Unit 3.8 Project Challenge (Fundraising Leaflet) (hạn 23:59 T2 26/10)",
-      "practice": "45 phút – English: Unit 3.8 Project Challenge (Fundraising Leaflet) (hạn 23:59 T2 26/10)",
-      "review": "Nộp/làm theo hạn trên LMS.",
+      "title": "40 phút – Tiếng Anh: Unit 3.8 Project Challenge – Fundraising Leaflet (hạn 23:59 T2 26/10)",
+      "practice": "Unit 3.8 Project Challenge – Fundraising Leaflet (hạn 23:59 T2 26/10)",
+      "review": "Hạn 23:59 T2 26/10.",
       "note": "Hạn 23:59 T2 26/10.",
       "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3130173",
       "links": [
@@ -2155,17 +2155,17 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-24-03",
+      "id": "nam-sched-2026-10-24-03",
       "kid": "nam",
       "due": "2026-10-24",
-      "order": 5,
+      "order": 3,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
       "status": "todo",
       "title": "20 phút – Tiếng Anh: Daily Writing A – nối câu bằng giới từ + which/whom",
       "practice": "Daily Writing A – nối câu bằng giới từ + which/whom",
-      "review": "Bài luyện Tiếng Anh.",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "link": "https://wayground.com/join?gc=10220014",
       "links": [
@@ -2176,17 +2176,17 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-24-04",
+      "id": "nam-sched-2026-10-24-04",
       "kid": "nam",
       "due": "2026-10-24",
-      "order": 6,
+      "order": 4,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
       "status": "todo",
       "title": "20 phút – Tiếng Anh: Daily Writing B – câu hỏi bắt đầu bằng giới từ",
       "practice": "Daily Writing B – câu hỏi bắt đầu bằng giới từ",
-      "review": "Bài luyện Tiếng Anh.",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "link": "https://wayground.com/join?gc=55781870",
       "links": [
@@ -2197,17 +2197,188 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-27-01",
+      "id": "nam-sched-2026-10-25-01",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Khoa học tự nhiên: C3.01 Khối lượng riêng: lý thuyết, hướng dẫn, quiz trước tiết",
+      "practice": "C3.01 Khối lượng riêng: lý thuyết, hướng dẫn, quiz trước tiết",
+      "review": "Học trước tuần 10–11 (19/10 – 30/10).",
+      "note": "Học trước tuần 10–11 (19/10 – 30/10).",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117",
+      "links": [
+        {
+          "label": "Lý thuyết C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117"
+        },
+        {
+          "label": "Hướng dẫn C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035118"
+        },
+        {
+          "label": "Quiz trước tiết C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/quizzes/8035119"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-25-02",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Daily Writing C – sửa lỗi trong thư trang trọng",
+      "practice": "Daily Writing C – sửa lỗi trong thư trang trọng",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://wayground.com/join?gc=49342958",
+      "links": [
+        {
+          "label": "Daily Writing C – sửa lỗi trong thư trang trọng",
+          "url": "https://wayground.com/join?gc=49342958"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-25-03",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Writing practice (LMS, Unit 3)",
+      "practice": "Writing practice (LMS, Unit 3)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884",
+      "links": [
+        {
+          "label": "Writing practice (LMS, Unit 3)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-26-01",
+      "kid": "nam",
+      "due": "2026-10-26",
+      "order": 1,
+      "minutes": 45,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "45 phút – Toán: Bài 3.4 còn lại: HDTH, quiz, PHT",
+      "practice": "Bài 3.4 còn lại: HDTH, quiz, PHT",
+      "review": "Mục chưa làm của Bài 3.4.",
+      "note": "Mục chưa làm của Bài 3.4.",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051053",
+      "links": [
+        {
+          "label": "HDTH Bài 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051053"
+        },
+        {
+          "label": "Quiz Bài 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/9051055"
+        },
+        {
+          "label": "PHT Bài 3.4",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051054"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-26-02",
+      "kid": "nam",
+      "due": "2026-10-26",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Writing practice (LMS, Unit 3, bài 2)",
+      "practice": "Writing practice (LMS, Unit 3, bài 2)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861885",
+      "links": [
+        {
+          "label": "Writing practice (LMS, Unit 3, bài 2)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861885"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-27-01",
       "kid": "nam",
       "due": "2026-10-27",
+      "order": 1,
+      "minutes": 40,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Khoa học tự nhiên: C3.02 Nhiệt lượng và nhiệt độ: lý thuyết, hướng dẫn, quiz trước tiết",
+      "practice": "C3.02 Nhiệt lượng và nhiệt độ: lý thuyết, hướng dẫn, quiz trước tiết",
+      "review": "Học trước tuần 10–11.",
+      "note": "Học trước tuần 10–11.",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035109",
+      "links": [
+        {
+          "label": "Lý thuyết C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035109"
+        },
+        {
+          "label": "Hướng dẫn C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035111"
+        },
+        {
+          "label": "Quiz trước tiết C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/quizzes/8035112"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-27-02",
+      "kid": "nam",
+      "due": "2026-10-27",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: G1 – Second conditional (10 câu tự gõ)",
+      "practice": "G1 – Second conditional (10 câu tự gõ)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://wayground.com/join?gc=00012669",
+      "links": [
+        {
+          "label": "G1 – Second conditional (10 câu tự gõ)",
+          "url": "https://wayground.com/join?gc=00012669"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-28-01",
+      "kid": "nam",
+      "due": "2026-10-28",
       "order": 1,
       "minutes": 60,
       "subject": "Hoạt động trải nghiệm",
       "source": "LMS",
       "status": "todo",
       "title": "60 phút – Hoạt động trải nghiệm: 4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
-      "practice": "60 phút – HĐTN: 4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
-      "review": "Nộp/làm theo hạn trên LMS.",
+      "practice": "4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
+      "review": "Hạn 23:59 T6 30/10.",
       "note": "Hạn 23:59 T6 30/10.",
       "link": "https://lms.vinschool.edu.vn/courses/165813/quizzes/2231307",
       "links": [
@@ -2230,101 +2401,17 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-25-02",
-      "kid": "nam",
-      "due": "2026-10-25",
-      "order": 3,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Daily Writing C – sửa lỗi trong thư trang trọng",
-      "practice": "Daily Writing C – sửa lỗi trong thư trang trọng",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://wayground.com/join?gc=49342958",
-      "links": [
-        {
-          "label": "Daily Writing C – sửa lỗi trong thư trang trọng",
-          "url": "https://wayground.com/join?gc=49342958"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-10-25-03",
-      "kid": "nam",
-      "due": "2026-10-25",
-      "order": 4,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Writing practice (LMS, Unit 3)",
-      "practice": "Writing practice (LMS, Unit 3)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884",
-      "links": [
-        {
-          "label": "Writing practice (LMS, Unit 3)",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-10-26-01",
-      "kid": "nam",
-      "due": "2026-10-26",
-      "order": 1,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Writing practice (LMS, Unit 3, bài 2)",
-      "practice": "Writing practice (LMS, Unit 3, bài 2)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861885",
-      "links": [
-        {
-          "label": "Writing practice (LMS, Unit 3, bài 2)",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861885"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-10-27-01",
-      "kid": "nam",
-      "due": "2026-10-27",
-      "order": 2,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: G1 – Second conditional (10 câu tự gõ)",
-      "practice": "G1 – Second conditional (10 câu tự gõ)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://wayground.com/join?gc=00012669",
-      "links": [
-        {
-          "label": "G1 – Second conditional (10 câu tự gõ)",
-          "url": "https://wayground.com/join?gc=00012669"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-10-28-01",
+      "id": "nam-sched-2026-10-28-02",
       "kid": "nam",
       "due": "2026-10-28",
-      "order": 1,
+      "order": 2,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
       "status": "todo",
       "title": "20 phút – Tiếng Anh: G2 – Although, whereas, however, despite (10 câu tự gõ)",
       "practice": "G2 – Although, whereas, however, despite (10 câu tự gõ)",
-      "review": "Bài luyện Tiếng Anh.",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "link": "https://wayground.com/join?gc=66121597",
       "links": [
@@ -2335,7 +2422,7 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-29-01",
+      "id": "nam-sched-2026-10-29-01",
       "kid": "nam",
       "due": "2026-10-29",
       "order": 1,
@@ -2344,9 +2431,9 @@
       "source": "LMS",
       "status": "todo",
       "title": "60 phút – Giáo dục công dân: 4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
-      "practice": "60 phút – GDCD: 4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
-      "review": "Nộp/làm theo hạn trên LMS.",
-      "note": "Hạn 23:59 T7 31/10. Nên hỏi lại GV xác nhận hạn bài cuối kỳ.",
+      "practice": "4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
+      "review": "Hạn 23:59 T7 31/10. Nên hỏi GV xác nhận hạn bài cuối kỳ.",
+      "note": "Hạn 23:59 T7 31/10. Nên hỏi GV xác nhận hạn bài cuối kỳ.",
       "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238476",
       "links": [
         {
@@ -2368,7 +2455,7 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-29-02",
+      "id": "nam-sched-2026-10-29-02",
       "kid": "nam",
       "due": "2026-10-29",
       "order": 2,
@@ -2378,7 +2465,7 @@
       "status": "todo",
       "title": "20 phút – Tiếng Anh: G4 – Making questions (10 câu tự gõ)",
       "practice": "G4 – Making questions (10 câu tự gõ)",
-      "review": "Bài luyện Tiếng Anh.",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
       "link": "https://wayground.com/join?gc=29897085",
       "links": [
@@ -2389,151 +2476,18 @@
       ]
     },
     {
-      "id": "nam-plan2-2026-10-30-01",
+      "id": "nam-sched-2026-10-30-01",
       "kid": "nam",
       "due": "2026-10-30",
       "order": 1,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 1)",
-      "practice": "Use of English (LMS, bài 1)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861879",
-      "links": [
-        {
-          "label": "Use of English (LMS, bài 1)",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861879"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-10-31-01",
-      "kid": "nam",
-      "due": "2026-10-31",
-      "order": 1,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 2)",
-      "practice": "Use of English (LMS, bài 2)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861880",
-      "links": [
-        {
-          "label": "Use of English (LMS, bài 2)",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861880"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-10-31-02",
-      "kid": "nam",
-      "due": "2026-10-31",
-      "order": 2,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 3)",
-      "practice": "Use of English (LMS, bài 3)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861881",
-      "links": [
-        {
-          "label": "Use of English (LMS, bài 3)",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861881"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-11-01-01",
-      "kid": "nam",
-      "due": "2026-11-01",
-      "order": 1,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: G3 – V-ing hay to + V (10 câu tự gõ)",
-      "practice": "G3 – V-ing hay to + V (10 câu tự gõ)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://wayground.com/join?gc=56160125",
-      "links": [
-        {
-          "label": "G3 – V-ing hay to + V (10 câu tự gõ)",
-          "url": "https://wayground.com/join?gc=56160125"
-        }
-      ]
-    },
-    {
-      "id": "nam-plan2-2026-11-01-02",
-      "kid": "nam",
-      "due": "2026-11-01",
-      "order": 2,
-      "minutes": 20,
-      "subject": "Tiếng Anh",
-      "source": "Tiếng Anh",
-      "status": "todo",
-      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 4)",
-      "practice": "Use of English (LMS, bài 4)",
-      "review": "Bài luyện Tiếng Anh.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882",
-      "links": [
-        {
-          "label": "Use of English (LMS, bài 4)",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882"
-        }
-      ]
-    },
-    {
-      "id": "nam-prep-2026-10-24-3-1894",
-      "kid": "nam",
-      "due": "2026-10-24",
-      "minutes": 45,
-      "subject": "Toán",
-      "source": "LMS",
-      "status": "todo",
-      "title": "45 phút – Toán: Bài 3.4 còn lại: HDTH, quiz, PHT",
-      "practice": "Bài 3.4 còn lại: HDTH, quiz, PHT",
-      "review": "Ôn lại Bài 3.4 (cận trên và cận dưới) — mục chưa làm.",
-      "note": "Ôn lại Bài 3.4 (cận trên và cận dưới) — mục chưa làm.",
-      "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051053",
-      "links": [
-        {
-          "label": "HDTH Bài 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051053"
-        },
-        {
-          "label": "Quiz Bài 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051055"
-        },
-        {
-          "label": "PHT Bài 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051054"
-        }
-      ],
-      "order": 3
-    },
-    {
-      "id": "nam-prep-2026-10-24-4-0019",
-      "kid": "nam",
-      "due": "2026-10-24",
       "minutes": 50,
       "subject": "Tiếng Anh",
       "source": "LMS",
       "status": "todo",
       "title": "50 phút – Tiếng Anh: Unit 3.4 must-do: listening, reading, grammar, reflection",
       "practice": "Unit 3.4 must-do: listening, reading, grammar, reflection",
-      "review": "Các mục bắt buộc của Unit 3.4 còn chưa làm.",
-      "note": "Các mục bắt buộc của Unit 3.4 còn chưa làm.",
+      "review": "Mục bắt buộc của Unit 3.4 còn chưa làm.",
+      "note": "Mục bắt buộc của Unit 3.4 còn chưa làm.",
       "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001697",
       "links": [
         {
@@ -2550,72 +2504,185 @@
         },
         {
           "label": "Reflection 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001700"
+          "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/9001700"
         }
-      ],
-      "order": 4
+      ]
     },
     {
-      "id": "nam-prep-2026-10-25-6-5733",
+      "id": "nam-sched-2026-10-30-02",
       "kid": "nam",
-      "due": "2026-10-25",
-      "minutes": 80,
-      "subject": "Khoa học tự nhiên",
-      "source": "LMS",
-      "status": "todo",
-      "title": "80 phút – Khoa học tự nhiên: C3.01 và C3.02: đọc lý thuyết, hướng dẫn, quiz trước tiết",
-      "practice": "C3.01 và C3.02: đọc lý thuyết, hướng dẫn, quiz trước tiết",
-      "review": "Học trước tuần 10–11 (19/10 – 30/10). Quiz sau tiết không bắt buộc.",
-      "note": "Học trước tuần 10–11 (19/10 – 30/10). Quiz sau tiết không bắt buộc.",
-      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117",
-      "links": [
-        {
-          "label": "Lý thuyết C3.01",
-          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117"
-        },
-        {
-          "label": "Hướng dẫn C3.01",
-          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035118"
-        },
-        {
-          "label": "Quiz trước tiết C3.01",
-          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035119"
-        },
-        {
-          "label": "Lý thuyết C3.02",
-          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035109"
-        },
-        {
-          "label": "Hướng dẫn C3.02",
-          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035111"
-        },
-        {
-          "label": "Quiz trước tiết C3.02",
-          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035112"
-        }
-      ],
-      "order": 1
-    },
-    {
-      "id": "nam-prep-2026-10-25-1-3211",
-      "kid": "nam",
-      "due": "2026-10-25",
+      "due": "2026-10-30",
+      "order": 2,
       "minutes": 15,
       "subject": "Toán",
       "source": "LMS",
       "status": "todo",
       "title": "15 phút – Toán: Bài 4.1 phần HDTH (học trước)",
       "practice": "Bài 4.1 phần HDTH (học trước)",
-      "review": "Học trước Bài 4.1 Lập và giải phương trình (tuần 19–23/10).",
-      "note": "Học trước Bài 4.1 Lập và giải phương trình (tuần 19–23/10).",
+      "review": "Học trước Bài 4.1 (tuần 19–23/10).",
+      "note": "Học trước Bài 4.1 (tuần 19–23/10).",
       "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059",
       "links": [
         {
           "label": "HDTH Bài 4.1",
           "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059"
         }
-      ],
-      "order": 2
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-30-03",
+      "kid": "nam",
+      "due": "2026-10-30",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 1)",
+      "practice": "Use of English (LMS, bài 1)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861879",
+      "links": [
+        {
+          "label": "Use of English (LMS, bài 1)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861879"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-31-01",
+      "kid": "nam",
+      "due": "2026-10-31",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Toán: Bài 4.1: quiz và PHT",
+      "practice": "Bài 4.1: quiz và PHT",
+      "review": "Mục chưa làm của Bài 4.1.",
+      "note": "Mục chưa làm của Bài 4.1.",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/quizzes/9051060",
+      "links": [
+        {
+          "label": "Quiz Bài 4.1",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/9051060"
+        },
+        {
+          "label": "PHT Bài 4.1",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051066"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-31-02",
+      "kid": "nam",
+      "due": "2026-10-31",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 2)",
+      "practice": "Use of English (LMS, bài 2)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861880",
+      "links": [
+        {
+          "label": "Use of English (LMS, bài 2)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861880"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-31-03",
+      "kid": "nam",
+      "due": "2026-10-31",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 3)",
+      "practice": "Use of English (LMS, bài 3)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861881",
+      "links": [
+        {
+          "label": "Use of English (LMS, bài 3)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861881"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-01-01",
+      "kid": "nam",
+      "due": "2026-11-01",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Khoa học tự nhiên: Quiz sau tiết C3.01 và C3.02 (không bắt buộc)",
+      "practice": "Quiz sau tiết C3.01 và C3.02 (không bắt buộc)",
+      "review": "Không bắt buộc, làm để củng cố.",
+      "note": "Không bắt buộc, làm để củng cố.",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/quizzes/8035120",
+      "links": [
+        {
+          "label": "Quiz sau tiết C3.01",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/quizzes/8035120"
+        },
+        {
+          "label": "Quiz sau tiết C3.02",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/quizzes/8035114"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-01-02",
+      "kid": "nam",
+      "due": "2026-11-01",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: G3 – V-ing hay to + V (10 câu tự gõ)",
+      "practice": "G3 – V-ing hay to + V (10 câu tự gõ)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://wayground.com/join?gc=56160125",
+      "links": [
+        {
+          "label": "G3 – V-ing hay to + V (10 câu tự gõ)",
+          "url": "https://wayground.com/join?gc=56160125"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-01-03",
+      "kid": "nam",
+      "due": "2026-11-01",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Use of English (LMS, bài 4)",
+      "practice": "Use of English (LMS, bài 4)",
+      "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882",
+      "links": [
+        {
+          "label": "Use of English (LMS, bài 4)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882"
+        }
+      ]
     }
   ],
   "exams": [
@@ -4891,11 +4958,11 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-24T11:10:00+07:00",
+    "lastSync": "2026-10-24T11:15:00+07:00",
     "nam": {
       "dailyDone": "2026-10-24",
       "sources": "LMS của Nam đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
-      "tonight": "Thứ Bảy 24/10: nộp bài cộng 0.25 (hạn CN 25/10), English Unit 3.8 (hạn T2 26/10), 2 bài Tiếng Anh. Chỉ giữ việc tuần này và tuần tới; đã bỏ các bài quá hạn lâu.",
+      "tonight": "Thứ Bảy 24/10: nộp bài cộng 0.25 Tin học (hạn CN 25/10), English Unit 3.8 (hạn T2 26/10), Toán 3.4 và Tiếng Anh luyện. Mỗi ngày khoảng 60–90 phút.",
       "weeklyDone": "2026-10-02"
     },
     "phong": {
