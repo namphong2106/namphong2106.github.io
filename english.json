@@ -1,6 +1,6 @@
 {
  "kid": "nam",
- "updated": "2026-10-15T22:30:00+07:00",
+ "updated": "2026-10-25T20:00:00+07:00",
  "intro": "Nam làm tốt các bài nhận biết (chọn đáp án), nhưng điểm giảm rõ khi phải tự viết cả câu hoặc làm bài test. Yếu nhất: mệnh đề quan hệ và câu hỏi có giới từ, và lỗi ngữ pháp khi viết. Các bài luyện dưới đây không xếp lịch; chị chọn bài cho con làm khi phù hợp.",
  "topics": [
   {
@@ -53,7 +53,8 @@
    "evidence": [
     "Unit 1.8 Formal Letter: 12/20 – cô nhận xét “frequent grammar errors make your writing difficult to understand”",
     "Unit 2.8 Project Challenge: 12/20 (nộp muộn)",
-    "Daily Writing C – sửa lỗi formal letter (06/10): làm dở, 10/16 câu"
+    "Daily Writing C – sửa lỗi formal letter (06/10): làm dở, 10/16 câu",
+    "Daily Writing C (25/10, làm cùng mẹ): vẫn sai chia động từ theo chủ ngữ, số nhiều; lượt tự làm 06/10 sai câu điều kiện, for/since, look forward to + V-ing"
    ],
    "tip": "Viết xong đọc lại từng câu: có chủ ngữ, động từ chia đúng thì, viết hoa đầu câu, dấu chấm cuối câu.",
    "practice": [
@@ -62,6 +63,20 @@
      "label": "Daily Writing C – sửa lỗi trong thư trang trọng (làm nốt)",
      "url": "https://wayground.com/join?gc=49342958",
      "kind": "old",
+     "note": ""
+    },
+    {
+     "id": "nam-en-dwC2",
+     "label": "Daily Writing C2 – sửa lỗi: chia động từ, số nhiều, thì, for/since (10 câu, mới)",
+     "url": "https://wayground.com/join?gc=25837566",
+     "kind": "new",
+     "note": ""
+    },
+    {
+     "id": "nam-en-dwC3",
+     "label": "Daily Writing C3 – sửa lỗi: dạng động từ, câu điều kiện, although (10 câu, mới)",
+     "url": "https://wayground.com/join?gc=52117502",
+     "kind": "new",
      "note": ""
     },
     {

@@ -2191,16 +2191,59 @@
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
-      "status": "todo",
+      "status": "done",
       "title": "20 phút – Tiếng Anh: Daily Writing C – sửa lỗi trong thư trang trọng",
       "practice": "Daily Writing C – sửa lỗi trong thư trang trọng",
       "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "Làm cùng mẹ chiều 25/10; con còn sai nhiều nên tối nay làm 2 bài sửa lỗi C2, C3 (câu mới, cùng dạng).",
       "link": "https://wayground.com/join?gc=49342958",
       "links": [
         {
           "label": "Daily Writing C – sửa lỗi trong thư trang trọng",
           "url": "https://wayground.com/join?gc=49342958"
+        }
+      ],
+      "doneAt": "2026-10-25T16:19:00+07:00"
+    },
+    {
+      "id": "nam-sched-2026-10-25-04",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "order": 4,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Daily Writing C2 – sửa lỗi: chia động từ theo chủ ngữ, số nhiều, thì, for/since",
+      "practice": "Daily Writing C2 – sửa lỗi: chia động từ theo chủ ngữ, số nhiều, thì, for/since",
+      "review": "Câu mới cùng dạng bài C: chủ ngữ số ít thêm -s, danh từ số nhiều, quá khứ đơn, for/since.",
+      "note": "Câu mới cùng dạng bài C: chủ ngữ số ít thêm -s, danh từ số nhiều, quá khứ đơn, for/since. Con tự gõ cả câu, có dấu chấm cuối câu; đọc đáp án rồi mới bấm sang câu sau.",
+      "link": "https://wayground.com/join?gc=25837566",
+      "links": [
+        {
+          "label": "Daily Writing C2 – sửa lỗi: chia động từ theo chủ ngữ, số nhiều, thì, for/since",
+          "url": "https://wayground.com/join?gc=25837566"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-25-05",
+      "kid": "nam",
+      "due": "2026-10-25",
+      "order": 5,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "Tiếng Anh",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Daily Writing C3 – sửa lỗi: dạng động từ, câu điều kiện loại 2, although",
+      "practice": "Daily Writing C3 – sửa lỗi: dạng động từ, câu điều kiện loại 2, although",
+      "review": "Câu mới cùng dạng bài C: look forward to/enjoy/thank you for + V-ing, would like to + V, If + quá khứ, bỏ but sau although.",
+      "note": "Câu mới cùng dạng bài C: look forward to/enjoy/thank you for + V-ing, would like to + V, If + quá khứ, bỏ but sau although. Con tự gõ cả câu, có dấu chấm cuối câu; đọc đáp án rồi mới bấm sang câu sau.",
+      "link": "https://wayground.com/join?gc=52117502",
+      "links": [
+        {
+          "label": "Daily Writing C3 – sửa lỗi: dạng động từ, câu điều kiện loại 2, although",
+          "url": "https://wayground.com/join?gc=52117502"
         }
       ]
     },
