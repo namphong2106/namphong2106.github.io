@@ -2730,7 +2730,7 @@
       "id": "phong-plan-2026-10-25-01",
       "kid": "phong",
       "due": "2026-10-25",
-      "order": 1,
+      "order": 3,
       "minutes": 45,
       "subject": "Tiếng Việt",
       "source": "LMS",
@@ -2759,7 +2759,7 @@
       "id": "phong-plan-2026-10-26-01",
       "kid": "phong",
       "due": "2026-10-26",
-      "order": 1,
+      "order": 3,
       "minutes": 40,
       "subject": "Khoa học tự nhiên",
       "source": "LMS",
@@ -3013,7 +3013,7 @@
       "id": "phong-raz-20261025-butter",
       "kid": "phong",
       "due": "2026-10-25",
-      "order": 2,
+      "order": 4,
       "minutes": 10,
       "subject": "Raz-Kids",
       "source": "Raz-Kids",
@@ -3038,7 +3038,7 @@
       "id": "phong-raz-20261025-shirley",
       "kid": "phong",
       "due": "2026-10-25",
-      "order": 3,
+      "order": 5,
       "minutes": 10,
       "subject": "Raz-Kids",
       "source": "Raz-Kids",
@@ -3063,7 +3063,7 @@
       "id": "phong-myimaths-20261026-mixed",
       "kid": "phong",
       "due": "2026-10-26",
-      "order": 2,
+      "order": 4,
       "minutes": 20,
       "subject": "MyiMaths",
       "source": "MyiMaths",
@@ -3084,7 +3084,7 @@
       "id": "phong-raz-20261026-locust",
       "kid": "phong",
       "due": "2026-10-26",
-      "order": 3,
+      "order": 5,
       "minutes": 10,
       "subject": "Raz-Kids",
       "source": "Raz-Kids",
@@ -3294,6 +3294,106 @@
         {
           "label": "2. Làm quiz \"Yellowstone: A Place of Wild Wonders\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDl9"
+        }
+      ]
+    },
+    {
+      "id": "phong-math-2026-10-25-01",
+      "kid": "phong",
+      "due": "2026-10-25",
+      "order": 2,
+      "minutes": 40,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "40 phút – Toán: Toán ôn thi (thứ Sáu 30/10): booklet Unit 3 và đáp án",
+      "practice": "Toán ôn thi (thứ Sáu 30/10): booklet Unit 3 và đáp án",
+      "review": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "note": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/7501846",
+      "links": [
+        {
+          "label": "Booklet ôn Unit 3",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/7501846"
+        },
+        {
+          "label": "Đáp án booklet Unit 3",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118395"
+        }
+      ]
+    },
+    {
+      "id": "phong-math-2026-10-25-02",
+      "kid": "phong",
+      "due": "2026-10-25",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Toán: Toán ôn thi: poster và worksheet Fractions, Decimals, Percentages",
+      "practice": "Toán ôn thi: poster và worksheet Fractions, Decimals, Percentages",
+      "review": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "note": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118477",
+      "links": [
+        {
+          "label": "Poster Fractions, Decimals, Percentages",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118477"
+        },
+        {
+          "label": "Worksheet Fractions, Percentages, Decimals",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118475"
+        }
+      ]
+    },
+    {
+      "id": "phong-math-2026-10-26-01",
+      "kid": "phong",
+      "due": "2026-10-26",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Toán: Toán ôn thi: Fractions wall và bài tập đổi phân số, số thập phân, phần trăm",
+      "practice": "Toán ôn thi: Fractions wall và bài tập đổi phân số, số thập phân, phần trăm",
+      "review": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "note": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118478",
+      "links": [
+        {
+          "label": "Fractions wall",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118478"
+        },
+        {
+          "label": "Fractions to decimals to percentages",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118591"
+        }
+      ]
+    },
+    {
+      "id": "phong-math-2026-10-26-02",
+      "kid": "phong",
+      "due": "2026-10-26",
+      "order": 1,
+      "minutes": 25,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "25 phút – Toán: Toán ôn thi: bài tập về nhà phân số và dãy số",
+      "practice": "Toán ôn thi: bài tập về nhà phân số và dãy số",
+      "review": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "note": "Ưu tiên môn Toán tuần này. Nếu hôm nay chưa làm hết, chuyển phần còn lại sang thứ Hai, rồi cứ thế đến hết thứ Năm.",
+      "link": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118476",
+      "links": [
+        {
+          "label": "Finding fractions of a whole number",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118476"
+        },
+        {
+          "label": "Linear sequence homework",
+          "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118051"
         }
       ]
     }
@@ -5487,7 +5587,7 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-24T19:30:00+07:00",
+    "lastSync": "2026-10-25T20:40:00+07:00",
     "nam": {
       "dailyDone": "2026-10-24",
       "sources": "LMS của Nam đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
@@ -5497,7 +5597,7 @@
     "phong": {
       "dailyDone": "2026-10-01",
       "sources": "LMS của Phong đọc 24/10 (module tuần 10–11, mục đọc trước). MyiMaths và Raz-Kids đọc 24/10: 4 bài MyiMaths thầy giao, 11 sách Raz-Kids Level S còn thiếu quiz; mỗi mục có link thẳng vào đúng bài.",
-      "tonight": "Thứ Bảy 24/10: đọc trước Toán tuần 11 (dãy số, phân số) MyiMaths \"Fractions of amounts\" và 2 quiz Raz-Kids. Tuần tới: Tiếng Việt Bài 4.3–4.4, Khoa học Unit 2.1, Tiếng Anh Unit 4, Lịch sử và Địa lí Chương 4, Toán ôn kiểm tra thứ Sáu 30/10.",
+      "tonight": "Chủ nhật 25/10: ôn Toán thi thứ Sáu 30/10 trước (booklet Unit 3, poster và worksheet phân số). Chưa làm xong thì chuyển sang thứ Hai, đến hết thứ Năm.",
       "weeklyDone": "2026-10-02"
     }
   }
