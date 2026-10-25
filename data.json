@@ -1029,12 +1029,16 @@
       "kid": "phong",
       "links": [
         {
-          "label": "Raz-Kids Level S: quiz \"Critter Crossings\"",
-          "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+          "label": "1. Đọc sách \"Critter Crossings\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDR9"
+        },
+        {
+          "label": "2. Làm quiz \"Critter Crossings\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDZ9"
         }
       ],
       "minutes": 10,
-      "note": "Thời gian biểu T7 10/10, buổi 3. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
+      "note": "Thời gian biểu T7 10/10, buổi 3. Sách con đã đọc xong, chỉ còn thiếu quiz. Link 1 mở thẳng vào sách, link 2 mở thẳng vào quiz.",
       "order": 3,
       "practice": "Raz-Kids Level S: quiz \"Critter Crossings\"",
       "review": "Làm nốt quiz đang dở của sách \"Critter Crossings\"",
@@ -1042,7 +1046,7 @@
       "status": "done",
       "subject": "Raz-Kids",
       "title": "10 phút – Làm nốt quiz đang dở của sách \"Critter Crossings\"",
-      "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDR9",
       "doneAt": "2026-10-10T21:22:10+07:00",
       "doneVia": "tick"
     },
@@ -1079,12 +1083,16 @@
       "kid": "phong",
       "links": [
         {
-          "label": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
-          "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+          "label": "1. Đọc sách \"Animal Groups: Strength in Numbers\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzB9"
+        },
+        {
+          "label": "2. Làm quiz \"Animal Groups: Strength in Numbers\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzF9"
         }
       ],
       "minutes": 10,
-      "note": "Thời gian biểu CN 11/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
+      "note": "Thời gian biểu CN 11/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz. Link 1 mở thẳng vào sách, link 2 mở thẳng vào quiz.",
       "order": 5,
       "practice": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
       "review": "Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
@@ -1092,7 +1100,7 @@
       "status": "done",
       "subject": "Raz-Kids",
       "title": "10 phút – Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
-      "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzB9",
       "doneAt": "2026-10-12T21:29:36+07:00",
       "doneVia": "tick"
     },
@@ -1148,12 +1156,16 @@
       "kid": "phong",
       "links": [
         {
-          "label": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
-          "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+          "label": "1. Đọc sách \"Butterflies and Moths\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NjZ9"
+        },
+        {
+          "label": "2. Làm quiz \"Butterflies and Moths\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1Njd9"
         }
       ],
       "minutes": 10,
-      "note": "Thời gian biểu T2 12/10, buổi 2. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
+      "note": "Thời gian biểu T2 12/10, buổi 2. Sách con đã đọc xong, chỉ còn thiếu quiz. Link 1 mở thẳng vào sách, link 2 mở thẳng vào quiz.",
       "order": 2,
       "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
       "review": "Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
@@ -1161,7 +1173,7 @@
       "status": "done",
       "subject": "Raz-Kids",
       "title": "10 phút – Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
-      "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NjZ9",
       "doneAt": "2026-10-12T21:05:21+07:00",
       "doneVia": "tick"
     },
@@ -1234,12 +1246,16 @@
       "kid": "phong",
       "links": [
         {
-          "label": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
-          "url": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+          "label": "1. Đọc sách \"Guardian Dogs: Penguin Protectors\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0Mjh9"
+        },
+        {
+          "label": "2. Làm quiz \"Guardian Dogs: Penguin Protectors\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MzB9"
         }
       ],
       "minutes": 10,
-      "note": "Thời gian biểu CN 18/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz. Raz-Kids chưa có link thẳng vào từng sách: link mở trang Level Up, con tìm đúng tên sách rồi bấm biểu tượng Quiz.",
+      "note": "Thời gian biểu CN 18/10, buổi 5. Sách con đã đọc xong, chỉ còn thiếu quiz. Link 1 mở thẳng vào sách, link 2 mở thẳng vào quiz.",
       "order": 5,
       "practice": "Raz-Kids Level S: quiz \"Guardian Dogs: Penguin Protectors\"",
       "review": "Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
@@ -1247,7 +1263,7 @@
       "status": "done",
       "subject": "Raz-Kids",
       "title": "10 phút – Xem lại sách \"Guardian Dogs: Penguin Protectors\" rồi làm quiz",
-      "link": "https://www.kidsa-z.com/ng/student-portal/reading/self-paced-assignment"
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0Mjh9"
     },
     {
       "id": "phong-tv-ton-tuan-6-7",
@@ -2955,11 +2971,15 @@
       "title": "10 phút – Làm tiếp quiz đang dở của sách \"Critter Crossings\"",
       "practice": "Raz-Kids Level S: quiz \"Critter Crossings\"",
       "review": "Làm tiếp quiz đang dở của sách \"Critter Crossings\"",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDZ9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDR9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Critter Crossings",
+          "label": "1. Đọc sách \"Critter Crossings\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDR9"
+        },
+        {
+          "label": "2. Làm quiz \"Critter Crossings\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDZ9"
         }
       ]
@@ -2976,11 +2996,15 @@
       "title": "10 phút – Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Animal Groups: Strength in Numbers\"",
       "review": "Xem lại sách \"Animal Groups: Strength in Numbers\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzF9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzB9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Animal Groups: Strength in Numbers",
+          "label": "1. Đọc sách \"Animal Groups: Strength in Numbers\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzB9"
+        },
+        {
+          "label": "2. Làm quiz \"Animal Groups: Strength in Numbers\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU4NzF9"
         }
       ]
@@ -2997,11 +3021,15 @@
       "title": "10 phút – Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Butterflies and Moths\"",
       "review": "Xem lại sách \"Butterflies and Moths\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1Njd9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NjZ9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Butterflies and Moths",
+          "label": "1. Đọc sách \"Butterflies and Moths\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NjZ9"
+        },
+        {
+          "label": "2. Làm quiz \"Butterflies and Moths\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1Njd9"
         }
       ]
@@ -3018,11 +3046,15 @@
       "title": "10 phút – Xem lại sách \"Shirley Chisholm\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Shirley Chisholm\"",
       "review": "Xem lại sách \"Shirley Chisholm\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MDN9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MDJ9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Shirley Chisholm",
+          "label": "1. Đọc sách \"Shirley Chisholm\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MDJ9"
+        },
+        {
+          "label": "2. Làm quiz \"Shirley Chisholm\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MDN9"
         }
       ]
@@ -3060,11 +3092,15 @@
       "title": "10 phút – Xem lại sách \"Here Come the Locusts\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Here Come the Locusts\"",
       "review": "Xem lại sách \"Here Come the Locusts\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MjZ9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MjV9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Here Come the Locusts",
+          "label": "1. Đọc sách \"Here Come the Locusts\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MjV9"
+        },
+        {
+          "label": "2. Làm quiz \"Here Come the Locusts\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NzU5MjZ9"
         }
       ]
@@ -3081,11 +3117,15 @@
       "title": "10 phút – Xem lại sách \"Polar Bear's Promise\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Polar Bear's Promise\"",
       "review": "Xem lại sách \"Polar Bear's Promise\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NDUwNzN9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NDUwNzJ9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Polar Bear's Promise",
+          "label": "1. Đọc sách \"Polar Bear's Promise\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NDUwNzJ9"
+        },
+        {
+          "label": "2. Làm quiz \"Polar Bear's Promise\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6NDUwNzN9"
         }
       ]
@@ -3123,11 +3163,15 @@
       "title": "10 phút – Xem lại sách \"Morty the Meany\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Morty the Meany\"",
       "review": "Xem lại sách \"Morty the Meany\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzA5ODN9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzA5ODJ9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Morty the Meany",
+          "label": "1. Đọc sách \"Morty the Meany\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzA5ODJ9"
+        },
+        {
+          "label": "2. Làm quiz \"Morty the Meany\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzA5ODN9"
         }
       ]
@@ -3144,11 +3188,15 @@
       "title": "10 phút – Xem lại sách \"Shelter Pets Are Best\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Shelter Pets Are Best\"",
       "review": "Xem lại sách \"Shelter Pets Are Best\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MTV9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MTR9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Shelter Pets Are Best",
+          "label": "1. Đọc sách \"Shelter Pets Are Best\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MTR9"
+        },
+        {
+          "label": "2. Làm quiz \"Shelter Pets Are Best\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk0MTV9"
         }
       ]
@@ -3165,11 +3213,15 @@
       "title": "10 phút – Xem lại sách \"The International T-Shirt Challenge\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"The International T-Shirt Challenge\"",
       "review": "Xem lại sách \"The International T-Shirt Challenge\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NTF9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NTB9",
       "links": [
         {
-          "label": "Raz-Kids quiz: The International T-Shirt Challenge",
+          "label": "1. Đọc sách \"The International T-Shirt Challenge\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NTB9"
+        },
+        {
+          "label": "2. Làm quiz \"The International T-Shirt Challenge\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NTF9"
         }
       ]
@@ -3207,11 +3259,15 @@
       "title": "10 phút – Xem lại sách \"Harriet Tubman and the Underground Railroad\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Harriet Tubman and the Underground Railroad\"",
       "review": "Xem lại sách \"Harriet Tubman and the Underground Railroad\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NDZ9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NDR9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Harriet Tubman and the Underground Railroad",
+          "label": "1. Đọc sách \"Harriet Tubman and the Underground Railroad\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NDR9"
+        },
+        {
+          "label": "2. Làm quiz \"Harriet Tubman and the Underground Railroad\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MTk1NDZ9"
         }
       ]
@@ -3228,11 +3284,15 @@
       "title": "10 phút – Xem lại sách \"Yellowstone: A Place of Wild Wonders\" rồi làm quiz",
       "practice": "Raz-Kids Level S: quiz \"Yellowstone: A Place of Wild Wonders\"",
       "review": "Xem lại sách \"Yellowstone: A Place of Wild Wonders\" rồi làm quiz",
-      "note": "Sách con đã đọc xong, còn thiếu quiz. Link mở thẳng quiz của sách này. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
-      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDl9",
+      "note": "Sách con đã đọc xong, còn thiếu quiz. Link 1 mở thẳng vào sách để đọc lại, link 2 mở thẳng vào quiz. Ghi điểm lần đầu và câu sai; dưới 80% chuyển vào Sổ lỗi.",
+      "link": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDh9",
       "links": [
         {
-          "label": "Raz-Kids quiz: Yellowstone: A Place of Wild Wonders",
+          "label": "1. Đọc sách \"Yellowstone: A Place of Wild Wonders\"",
+          "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDh9"
+        },
+        {
+          "label": "2. Làm quiz \"Yellowstone: A Place of Wild Wonders\"",
           "url": "https://www.kidsa-z.com/ng/federate?data=eyJjb250ZXh0SWQiOiJyZWFkaW5nLmxldmVsVXAuYWN0aXZpdHkiLCJyZXNvdXJjZURlcGxveW1lbnRJZCI6MzEzMDl9"
         }
       ]
