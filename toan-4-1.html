@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sổ học tập Toán 8 – Bài 4.1</title>
+<style>
+  :root{--bg:#eef1fb;--paper:#fff;--ink:#16203a;--muted:#5b6582;--line:#d7dcef;--accent:#1f6fd1;--soft:#e8f1fd;--warn:#b4501f;--warnsoft:#fdf1ec;--ok:#1d7a4f;--oksoft:#e9f6ef}
+  @media (prefers-color-scheme:dark){:root{--bg:#10141f;--paper:#191f2e;--ink:#eef1fb;--muted:#a3acc6;--line:#2c3449;--accent:#7fb4ff;--soft:#18243a;--warn:#ff9a6b;--warnsoft:#2a1f1c;--ok:#6fd3a0;--oksoft:#17271f}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+  a{color:var(--accent)}
+  .back{display:inline-block;margin-bottom:10px;font-size:14px;color:var(--muted)}
+  h1{font-size:26px;line-height:1.25;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 18px}
+  h2{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:30px 0 10px}
+  .how{background:var(--paper);border:2px solid var(--ink);border-radius:16px;padding:14px 18px}
+  .how ol,.how ul{margin:8px 0 0;padding-left:22px}
+  .how li{margin:4px 0}
+  .q{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0}
+  .q h3{font-size:17px;line-height:1.4;margin:0 0 8px}
+  .q .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--ink);color:var(--paper);font-size:14px;margin-right:8px}
+  .q ol,.q ul{margin:0;padding-left:20px}
+  .q li{margin:5px 0}
+  .rule{background:var(--soft);border-radius:10px;padding:8px 12px;margin:8px 0}
+  .ex{border-left:4px solid var(--ok);background:var(--oksoft);border-radius:0 10px 10px 0;padding:8px 12px;margin:10px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:15.5px;white-space:pre-wrap;overflow-x:auto}
+  .ex b{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  .warn{background:var(--warnsoft);border-radius:12px;padding:10px 14px;margin:8px 0;font-size:15.5px}
+  .warn b{color:var(--warn)}
+  details{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0}
+  summary{cursor:pointer;font-weight:600}
+  details .ex{margin-bottom:2px}
+  .links a{display:block;margin:4px 0}
+  .foot{color:var(--muted);font-size:14px;margin-top:26px}
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← Về Sổ học tập</a>
+  <h1>Sổ học tập Toán 8 – Bài 4.1: Lập và giải phương trình</h1>
+  <p class="sub">Đọc trang này trước (khoảng 10 phút), sau đó làm Quiz LMS, Phiếu học tập và quiz Wayground 10 câu. Bài này theo SGK (Learner's Book) trang 83–84.</p>
+
+  <div class="how">
+    <b>Sau bài này con cần làm được 4 việc:</b>
+    <ol>
+      <li>Giải phương trình bậc nhất một ẩn (dạng ax + b = 0).</li>
+      <li>Giải phương trình đưa được về bậc nhất: có ngoặc, có mẫu số.</li>
+      <li>Giải phương trình có ẩn ở mẫu dạng a/(mx + n) = b, có đặt điều kiện.</li>
+      <li>Lập phương trình từ bài toán bằng lời, và ngược lại: đọc một phương trình rồi nói ra tình huống thực tế.</li>
+    </ol>
+  </div>
+
+  <h2>Dạng 1 · Phương trình bậc nhất ax + b = 0</h2>
+  <div class="q">
+    <div class="rule"><b>Quy tắc chuyển vế:</b> chuyển một hạng tử sang vế kia thì <b>đổi dấu</b>.<br><b>Quy tắc nhân/chia:</b> nhân hoặc chia cả hai vế cho cùng một số khác 0.</div>
+    <div class="ex"><b>Ví dụ:</b> 5x − 35 = 0
+⇔ 5x = 35        (chuyển −35 sang phải thành +35)
+⇔ x = 7          (chia hai vế cho 5)
+Vậy phương trình có nghiệm x = 7.</div>
+  </div>
+
+  <h2>Dạng 2 · Có ngoặc hoặc có mẫu số</h2>
+  <div class="q">
+    <h3><span class="n">1</span>Các bước làm</h3>
+    <ol>
+      <li>Có mẫu số: tìm <b>mẫu chung</b>, nhân <b>tất cả</b> các hạng tử của hai vế với mẫu chung (kể cả số không có mẫu).</li>
+      <li>Bỏ ngoặc. Trước ngoặc có dấu trừ thì <b>đổi dấu mọi số trong ngoặc</b>.</li>
+      <li>Chuyển hạng tử chứa x sang trái, số sang phải, rồi thu gọn.</li>
+      <li>Chia cho hệ số của x. Thử lại nếu còn thời gian.</li>
+    </ol>
+    <div class="ex"><b>Ví dụ 1 (có ngoặc):</b> 4x − (3 − 2x) = 2(x + 5)
+⇔ 4x − 3 + 2x = 2x + 10
+⇔ 6x − 2x = 10 + 3
+⇔ 4x = 13  ⇔  x = 13/4</div>
+    <div class="ex"><b>Ví dụ 2 (có mẫu):</b> (x + 1)/2 − (x − 2)/3 = 2      mẫu chung 6
+⇔ 3(x + 1) − 2(x − 2) = 12          (số 2 cũng nhân 6)
+⇔ 3x + 3 − 2x + 4 = 12
+⇔ x = 5</div>
+  </div>
+
+  <h2>Dạng 3 · Ẩn ở mẫu: a/(mx + n) = b</h2>
+  <div class="q">
+    <ol>
+      <li><b>Đặt điều kiện:</b> mẫu khác 0, tức mx + n ≠ 0.</li>
+      <li>Nhân hai vế với mẫu (mx + n) để bỏ mẫu.</li>
+      <li>Giải phương trình bậc nhất vừa nhận được.</li>
+      <li><b>Đối chiếu điều kiện:</b> giá trị nào làm mẫu bằng 0 thì loại.</li>
+    </ol>
+    <div class="ex"><b>Ví dụ:</b> 15/(x − 1) = 5        Điều kiện: x − 1 ≠ 0 ⇒ x ≠ 1
+⇔ 15 = 5(x − 1)
+⇔ 15 = 5x − 5
+⇔ 5x = 20  ⇔  x = 4   (x = 4 khác 1 nên nhận)</div>
+    <div class="warn"><b>Vì sao phải đối chiếu?</b> Như ví dụ b) trong SGK: giải ra một giá trị chưa chắc đã là nghiệm. Nếu giá trị đó làm mẫu bằng 0 thì phương trình không có nghĩa, phải loại.</div>
+  </div>
+
+  <h2>Dạng 4 · Lập phương trình từ bài toán bằng lời</h2>
+  <div class="q">
+    <ol>
+      <li><b>Gọi ẩn:</b> gọi đại lượng đề hỏi là x, ghi đơn vị và điều kiện (ví dụ x là số con, x nguyên dương).</li>
+      <li><b>Biểu diễn</b> các đại lượng còn lại theo x.</li>
+      <li><b>Lập phương trình</b> từ dữ kiện "tổng bằng…", "nhiều hơn…", "diện tích bằng…".</li>
+      <li><b>Giải, thử lại và trả lời</b> bằng một câu có đơn vị.</li>
+    </ol>
+    <div class="ex"><b>Ví dụ (bài gà – chó trong phần Thảo luận):</b> 36 con gà và chó, tổng 100 chân.
+Gọi số chó là x (con), số gà là 36 − x.
+Số chân: 4x + 2(36 − x) = 100
+⇔ 4x + 72 − 2x = 100  ⇔  2x = 28  ⇔  x = 14
+Trả lời: 14 con chó, 22 con gà.  Thử lại: 56 + 44 = 100 ✓</div>
+    <div class="ex"><b>Ví dụ (diện tích):</b> Hình chữ nhật rộng 6 m, dài x m, diện tích 54 m².
+Phương trình: 6x = 54  ⇔  x = 9.  Chiều dài 9 m.</div>
+    <div class="rule"><b>Từ khóa hay gặp:</b> "gấp ba lần" → 3x · "hơn 5" → x + 5 · "kém 5" → x − 5 · "tổng" → cộng · "hiệu" → trừ · "vận tốc" = quãng đường : thời gian.</div>
+  </div>
+
+  <h2>Dạng 5 · Đọc phương trình thành tình huống</h2>
+  <div class="q">
+    <p style="margin:0 0 6px">Hỏi: mỗi số trong phương trình là đại lượng gì? x là đại lượng gì?</p>
+    <div class="ex"><b>Ví dụ:</b> 90/x = 30
+→ Một người đạp xe 90 km hết x giờ, vận tốc trung bình 30 km/h. (x = 3 giờ)
+→ Hoặc: 90 cái bánh chia đều cho x bạn, mỗi bạn 30 cái. (x = 3 bạn)</div>
+  </div>
+
+  <h2>Lỗi hay gặp, kiểm tra trước khi nộp</h2>
+  <div class="q">
+    <ul>
+      <li>Chuyển vế mà <b>quên đổi dấu</b>.</li>
+      <li>Dấu trừ trước ngoặc nhưng chỉ đổi dấu số đầu tiên trong ngoặc.</li>
+      <li>Nhân mẫu chung nhưng <b>quên nhân số không có mẫu</b> (số 2 ở ví dụ 2).</li>
+      <li>Phương trình có ẩn ở mẫu mà <b>không ghi điều kiện</b> và không đối chiếu.</li>
+      <li>Bài toán bằng lời: không ghi đơn vị, không trả lời bằng câu đầy đủ.</li>
+    </ul>
+  </div>
+
+  <h2>Tự luyện nhanh (bấm để xem đáp án sau khi làm)</h2>
+  <details><summary>a) 7x + 2 = 3x − 10</summary><div class="ex">4x = −12  ⇔  x = −3</div></details>
+  <details><summary>b) 2(x − 3) − (x + 1) = 5</summary><div class="ex">2x − 6 − x − 1 = 5  ⇔  x − 7 = 5  ⇔  x = 12</div></details>
+  <details><summary>c) x/3 + (x − 1)/2 = 4</summary><div class="ex">Nhân 6: 2x + 3(x − 1) = 24  ⇔  5x = 27  ⇔  x = 27/5</div></details>
+  <details><summary>d) 8/(2x + 1) = 4</summary><div class="ex">Điều kiện x ≠ −1/2.  8 = 4(2x + 1)  ⇔  8x = 4  ⇔  x = 1/2 (nhận)</div></details>
+  <details><summary>e) Hai số hơn kém nhau 9, tổng bằng 41. Tìm số nhỏ.</summary><div class="ex">Gọi số nhỏ là x: x + (x + 9) = 41  ⇔  2x = 32  ⇔  x = 16. Hai số là 16 và 25.</div></details>
+
+  <h2>Làm bài</h2>
+  <div class="q links">
+    <a href="https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059" target="_blank" rel="noopener">HDTH Bài 4.1 (LMS)</a>
+    <a href="https://lms.vinschool.edu.vn/courses/88431/quizzes/9051060" target="_blank" rel="noopener">Quiz Bài 4.1 (LMS, 10 điểm)</a>
+    <a href="https://lms.vinschool.edu.vn/courses/88431/modules/items/9051066" target="_blank" rel="noopener">Phiếu học tập Bài 4.1 (LMS)</a>
+    <a href="https://wayground.com/join?gc=63780291" target="_blank" rel="noopener">Quiz Wayground: Bài 4.1 – Lập và giải phương trình (10 câu)</a>
+  </div>
+
+  <p class="foot">Soạn ngày 27/10/2026 theo HDTH và Phiếu học tập Bài 4.1 trên LMS. Các ví dụ là bài mới, không trùng với quiz.</p>
+</main>
+</body>
+</html>

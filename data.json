@@ -2094,18 +2094,20 @@
       "minutes": 10,
       "subject": "Tin học",
       "source": "LMS",
-      "status": "todo",
+      "status": "done",
       "title": "10 phút – Tin học: nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
       "practice": "nộp bài cộng 0.25 số 1 (hạn 23:59 CN 25/10)",
       "review": "Nộp trên LMS trước 23:59 CN 25/10.",
-      "note": "Nộp trên LMS trước 23:59 CN 25/10.",
+      "note": "Đã nộp trên LMS 25/10, chờ thầy chấm.",
       "link": "https://lms.vinschool.edu.vn/courses/87936/assignments/3117624",
       "links": [
         {
           "label": "Nộp bài cộng 0.25 số 1",
           "url": "https://lms.vinschool.edu.vn/courses/87936/assignments/3117624"
         }
-      ]
+      ],
+      "doneAt": "2026-10-25T09:02:00+07:00",
+      "doneVia": "LMS"
     },
     {
       "id": "nam-sched-2026-10-24-02",
@@ -2115,18 +2117,20 @@
       "minutes": 40,
       "subject": "Tiếng Anh",
       "source": "LMS",
-      "status": "todo",
+      "status": "done",
       "title": "40 phút – Tiếng Anh: Unit 3.8 Project Challenge – Fundraising Leaflet (hạn 23:59 T2 26/10)",
       "practice": "Unit 3.8 Project Challenge – Fundraising Leaflet (hạn 23:59 T2 26/10)",
       "review": "Hạn 23:59 T2 26/10.",
-      "note": "Hạn 23:59 T2 26/10.",
+      "note": "Đã nộp 26/10, thầy chấm 7,5.",
       "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3130173",
       "links": [
         {
           "label": "Unit 3.8 – Fundraising Leaflet",
           "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/3130173"
         }
-      ]
+      ],
+      "doneAt": "2026-10-26T13:55:00+07:00",
+      "doneVia": "LMS"
     },
     {
       "id": "nam-sched-2026-10-24-03",
@@ -2271,18 +2275,20 @@
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
-      "status": "todo",
+      "status": "done",
       "title": "20 phút – Tiếng Anh: Writing practice (LMS, Unit 3)",
       "practice": "Writing practice (LMS, Unit 3)",
       "review": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
-      "note": "Bài luyện trong tab Tiếng Anh, điểm yếu trước.",
+      "note": "LMS ghi đã làm.",
       "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884",
       "links": [
         {
           "label": "Writing practice (LMS, Unit 3)",
           "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861884"
         }
-      ]
+      ],
+      "doneAt": "2026-10-26T20:00:00+07:00",
+      "doneVia": "LMS"
     },
     {
       "id": "nam-sched-2026-10-26-01",
@@ -2364,10 +2370,10 @@
       ]
     },
     {
-      "id": "nam-sched-2026-10-27-02",
+      "id": "nam-sched-2026-11-01-04",
       "kid": "nam",
-      "due": "2026-10-27",
-      "order": 2,
+      "due": "2026-11-01",
+      "order": 4,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "Tiếng Anh",
@@ -2497,52 +2503,27 @@
       "kid": "nam",
       "due": "2026-10-30",
       "order": 1,
-      "minutes": 50,
+      "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
       "status": "todo",
-      "title": "50 phút – Tiếng Anh: Unit 3.4 must-do: listening, reading, grammar, reflection",
-      "practice": "Unit 3.4 must-do: listening, reading, grammar, reflection",
-      "review": "Mục bắt buộc của Unit 3.4 còn chưa làm.",
-      "note": "Mục bắt buộc của Unit 3.4 còn chưa làm.",
-      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001697",
+      "title": "30 phút – Tiếng Anh: Unit 3.4 (Week 8) còn lại: Before Class, Reading Practice, Reflection",
+      "practice": "Unit 3.4 (Week 8) còn lại: Before Class, Reading Practice, Reflection",
+      "review": "Listening và Grammar 3.4 đã làm (6/8, 7/7). Còn 3 mục này.",
+      "note": "Listening và Grammar 3.4 đã làm (6/8, 7/7). Còn 3 mục này.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001678",
       "links": [
         {
-          "label": "Listening 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001697"
+          "label": "Before Class",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001678"
         },
         {
           "label": "Reading 3.4",
           "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001698"
         },
         {
-          "label": "Grammar 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001699"
-        },
-        {
           "label": "Reflection 3.4",
-          "url": "https://lms.vinschool.edu.vn/courses/87505/assignments/9001700"
-        }
-      ]
-    },
-    {
-      "id": "nam-sched-2026-10-30-02",
-      "kid": "nam",
-      "due": "2026-10-30",
-      "order": 2,
-      "minutes": 15,
-      "subject": "Toán",
-      "source": "LMS",
-      "status": "todo",
-      "title": "15 phút – Toán: Bài 4.1 phần HDTH (học trước)",
-      "practice": "Bài 4.1 phần HDTH (học trước)",
-      "review": "Học trước Bài 4.1 (tuần 19–23/10).",
-      "note": "Học trước Bài 4.1 (tuần 19–23/10).",
-      "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059",
-      "links": [
-        {
-          "label": "HDTH Bài 4.1",
-          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059"
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001700"
         }
       ]
     },
@@ -3394,6 +3375,210 @@
         {
           "label": "Linear sequence homework",
           "url": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9118051"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-27-03",
+      "kid": "nam",
+      "due": "2026-10-27",
+      "order": 3,
+      "minutes": 30,
+      "subject": "Toán",
+      "source": "Sổ học tập",
+      "status": "todo",
+      "title": "30 phút – Toán: Bài 4.1 Lập và giải phương trình: đọc sổ học tập rồi làm quiz Wayground 10 câu",
+      "practice": "Bài 4.1 Lập và giải phương trình: đọc sổ học tập rồi làm quiz Wayground 10 câu",
+      "review": "Đọc sổ học tập Bài 4.1 khoảng 10 phút (5 dạng toán, lỗi hay gặp), rồi làm quiz Wayground 10 câu tự gõ đáp số. Đọc lời giải từng câu trước khi bấm sang câu sau.",
+      "note": "Đọc sổ học tập Bài 4.1 khoảng 10 phút (5 dạng toán, lỗi hay gặp), rồi làm quiz Wayground 10 câu tự gõ đáp số. Đọc lời giải từng câu trước khi bấm sang câu sau.",
+      "link": "https://namphong2106.github.io/toan-4-1.html",
+      "links": [
+        {
+          "label": "Sổ học tập Bài 4.1",
+          "url": "https://namphong2106.github.io/toan-4-1.html"
+        },
+        {
+          "label": "Quiz Wayground Bài 4.1 (10 câu)",
+          "url": "https://wayground.com/join?gc=63780291"
+        },
+        {
+          "label": "HDTH Bài 4.1 (LMS)",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-27-04",
+      "kid": "nam",
+      "due": "2026-10-27",
+      "order": 4,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: [MUST DO] 3.10 Reading Practice (Week 10)",
+      "practice": "[MUST DO] 3.10 Reading Practice (Week 10)",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167457",
+      "links": [
+        {
+          "label": "3.10 Reading Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167457"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-27-05",
+      "kid": "nam",
+      "due": "2026-10-27",
+      "order": 5,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: [MUST DO] 3.10 Listening Practice (Week 10)",
+      "practice": "[MUST DO] 3.10 Listening Practice (Week 10)",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn. Nghe bằng tai nghe, được nghe lại.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn. Nghe bằng tai nghe, được nghe lại.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167458",
+      "links": [
+        {
+          "label": "3.10 Listening Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167458"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-27-06",
+      "kid": "nam",
+      "due": "2026-10-27",
+      "order": 6,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: [MUST DO] 3.10 Use of English Practice 1 (Week 10)",
+      "practice": "[MUST DO] 3.10 Use of English Practice 1 (Week 10)",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167460",
+      "links": [
+        {
+          "label": "3.10 Use of English Practice 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167460"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-28-03",
+      "kid": "nam",
+      "due": "2026-10-28",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: [MUST DO] 3.10 Use of English Practice 2 (Week 10)",
+      "practice": "[MUST DO] 3.10 Use of English Practice 2 (Week 10)",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167461",
+      "links": [
+        {
+          "label": "3.10 Use of English Practice 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167461"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-29-03",
+      "kid": "nam",
+      "due": "2026-10-29",
+      "order": 3,
+      "minutes": 25,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "25 phút – Tiếng Anh: Week 9 – bài thơ: Before you read, Activity 1–3, Share your opinion",
+      "practice": "Week 9 – bài thơ: Before you read, Activity 1–3, Share your opinion",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn. Làm theo thứ tự trong module Week 9.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn. Làm theo thứ tự trong module Week 9.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167318",
+      "links": [
+        {
+          "label": "Before you read",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167318"
+        },
+        {
+          "label": "Activity 1: Choose the title",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167320"
+        },
+        {
+          "label": "Activity 2: quiz về bài thơ",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167321"
+        },
+        {
+          "label": "Activity 3: đọc thơ, trả lời câu hỏi",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167322"
+        },
+        {
+          "label": "Share your opinion",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167324"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-31-04",
+      "kid": "nam",
+      "due": "2026-10-31",
+      "order": 4,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Week 7 Must-do: Reading practice 1 và 2",
+      "practice": "Week 7 Must-do: Reading practice 1 và 2",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892973",
+      "links": [
+        {
+          "label": "Reading practice 1 – MCQs",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892973"
+        },
+        {
+          "label": "Reading practice 2 – Gap-filling",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892974"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-01-05",
+      "kid": "nam",
+      "due": "2026-11-01",
+      "order": 5,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Week 7 Must-do: Grammar practice 1, Listening practice 1 (MCQs, Gap-filling)",
+      "practice": "Week 7 Must-do: Grammar practice 1, Listening practice 1 (MCQs, Gap-filling)",
+      "review": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "note": "Bài LMS Tiếng Anh chưa làm, xếp từ bài gần nhất trở về trước. Làm trên LMS, đọc kĩ đề trước khi chọn.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892976",
+      "links": [
+        {
+          "label": "Grammar practice 1 – MCQs",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892976"
+        },
+        {
+          "label": "Listening practice 1 – MCQs",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892979"
+        },
+        {
+          "label": "Listening practice 1 – Gap-filling",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892980"
         }
       ]
     }
@@ -5587,11 +5772,11 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-25T20:40:00+07:00",
+    "lastSync": "2026-10-27T20:40:00+07:00",
     "nam": {
-      "dailyDone": "2026-10-24",
-      "sources": "LMS của Nam đọc lúc 10:55 thứ Bảy 24/10 · VS One đọc lúc 08:33–08:41 thứ Bảy 24/10",
-      "tonight": "Thứ Bảy 24/10: nộp bài cộng 0.25 Tin học (hạn CN 25/10), English Unit 3.8 (hạn T2 26/10), Toán 3.4 và Tiếng Anh luyện. Mỗi ngày khoảng 60–90 phút.",
+      "dailyDone": "2026-10-27",
+      "sources": "LMS của Nam đọc lúc 20:20 thứ Ba 27/10 (Tiếng Anh, Toán Bài 4.1)",
+      "tonight": "Thứ Ba 27/10: KHTN C3.02, Toán Bài 4.1 (sổ học tập + quiz Wayground), 3 bài LMS Tiếng Anh Week 10 (3.10 Reading, Listening, Use of English 1).",
       "weeklyDone": "2026-10-02"
     },
     "phong": {

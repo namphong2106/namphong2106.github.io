@@ -1,6 +1,6 @@
 {
  "kid": "nam",
- "updated": "2026-10-25T20:00:00+07:00",
+ "updated": "2026-10-27T20:40:00+07:00",
  "intro": "Nam làm tốt các bài nhận biết (chọn đáp án), nhưng điểm giảm rõ khi phải tự viết cả câu hoặc làm bài test. Yếu nhất: mệnh đề quan hệ và câu hỏi có giới từ, và lỗi ngữ pháp khi viết. Các bài luyện dưới đây không xếp lịch; chị chọn bài cho con làm khi phù hợp.",
  "topics": [
   {
@@ -281,14 +281,87 @@
  ],
  "lms": [
   {
-   "group": "Tuần 8 – Unit 3.4 (đang học)",
+   "group": "Tuần 10 (19–23/10) – Lesson 3.10 (mới nhất)",
+   "items": [
+    {
+     "label": "[MUST DO] 3.10 Reading Practice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167457",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 27/10."
+    },
+    {
+     "label": "[MUST DO] 3.10 Listening Practice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167458",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 27/10."
+    },
+    {
+     "label": "[MUST DO] 3.10 Use of English Practice 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167460",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 27/10."
+    },
+    {
+     "label": "[MUST DO] 3.10 Use of English Practice 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167461",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 28/10."
+    }
+   ]
+  },
+  {
+   "group": "Tuần 9 (12–16/10) – bài thơ",
+   "items": [
+    {
+     "label": "Before you read (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167318",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 29/10."
+    },
+    {
+     "label": "Activity 1: Choose the title",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167320",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 29/10."
+    },
+    {
+     "label": "Activity 2: How much you remember about the poem (quiz)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167321",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 29/10."
+    },
+    {
+     "label": "Activity 3: Read the poem and answer the questions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167322",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 29/10."
+    },
+    {
+     "label": "Share your opinion",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167324",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 29/10."
+    }
+   ]
+  },
+  {
+   "group": "Tuần 8 (05–09/10) – Unit 3.4",
    "items": [
     {
      "label": "[MUST DO] 3.4 Reading Practice",
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001698",
      "status": "chua",
      "score": "",
-     "note": "Con đã tích xong ngày 13/10 nhưng LMS vẫn ghi chưa nộp"
+     "note": "Xếp lịch 30/10. Con đã tích xong ngày 13/10 nhưng LMS vẫn ghi chưa nộp"
     },
     {
      "label": "[MUST DO] 3.4 Listening practice",
@@ -309,40 +382,40 @@
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001700",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 30/10."
     },
     {
      "label": "Before Class (thảo luận)",
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9001678",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 30/10."
     }
    ]
   },
   {
-   "group": "Tuần 7 – ôn Progress Check 1 (Must-do)",
+   "group": "Tuần 7 (28/09–02/10) – ôn Progress Check 1 (Must-do)",
    "items": [
     {
      "label": "Reading practice 1 – MCQs",
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892973",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 31/10."
     },
     {
      "label": "Reading practice 2 – Gap-filling",
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892974",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 31/10."
     },
     {
      "label": "Grammar practice 1 – MCQs",
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892976",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 01/11."
     },
     {
      "label": "Grammar practice 2 – Put the verb in the correct form",
@@ -356,14 +429,711 @@
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892979",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 01/11."
     },
     {
      "label": "Listening practice 1 – Gap-filling",
      "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892980",
      "status": "chua",
      "score": "",
-     "note": ""
+     "note": "Xếp lịch 01/11."
+    }
+   ]
+  },
+  {
+   "group": "Ôn Progress Check ([REVIEW])",
+   "items": [
+    {
+     "label": "[REVIEW] Use of English 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861879",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 30/10."
+    },
+    {
+     "label": "[REVIEW] Use of English 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861880",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 31/10."
+    },
+    {
+     "label": "[REVIEW] Use of English 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861881",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 31/10."
+    },
+    {
+     "label": "[REVIEW] Use of English 4",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861882",
+     "status": "chua",
+     "score": "",
+     "note": "Xếp lịch 01/11."
+    },
+    {
+     "label": "[REVIEW] Writing practice 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861885",
+     "status": "chua",
+     "score": "",
+     "note": "Quá hạn từ 26/10, còn trong lịch."
+    },
+    {
+     "label": "[REVIEW] Listening 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861870",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[REVIEW] Listening 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861871",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[REVIEW] Listening 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861872",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[REVIEW] Reading 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861874",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[REVIEW] Reading 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861875",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[REVIEW] Reading 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861876",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[REVIEW] Reading 4",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861877",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    }
+   ]
+  },
+  {
+   "group": "Bổ trợ kiến thức Unit 3 – chờ xếp dần",
+   "items": [
+    {
+     "label": "[U3] Listening practice 1: Main ideas and specific details",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167481",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Listening practice 2: Main ideas and specific details",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167482",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Listening mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Listening practice 3: Listen for speakers' opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167484",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Listening practice 4: Listen for speakers' opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167485",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Listening mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167486",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading practice 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167488",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading practice 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167489",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167490",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading practice 3: Deduce the meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167491",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading practice 4: Deduce the meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167492",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167493",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading practice: Reading for opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167494",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Reading mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167495",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Use of English practice 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167497",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Use of English mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167498",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Use of English practice 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167499",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Use of English mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167500",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Structure of a proposal letter (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167502",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Proposal letter: Outline generating",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167503",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Writing a proposal letter",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167504",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Writing a proposal letter (test)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167505",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Structure of a descriptive essay (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167506",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Descriptive essay: Outline generating",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167507",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U3] Writing a descriptive essay",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167508",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    }
+   ]
+  },
+  {
+   "group": "Bổ trợ kiến thức Unit 2 – chờ xếp dần",
+   "items": [
+    {
+     "label": "[U2] Listening practice 1: Main idea and specific details",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825497",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening practice 2: Main idea and specific details",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825498",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825499",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening practice 3 + 4: Listen for speaker's arguments",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825500",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825501",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening practice 5: Deduce the meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825502",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening practice 6: Deduce the meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825503",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Listening mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825504",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading practice 3: Deduce the meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825510",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading practice 4: Deduce the meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825513",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825515",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading practice 5",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825518",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading practice 6",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825520",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825521",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Inconsistency",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825523",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading practice 7: Inconsistencies",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825525",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Reading mini test 4",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825527",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Structure of a report (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825549",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Outline generating",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825550",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U2] Write a report about a house/building",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825552",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "List out the objects (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825555",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    }
+   ]
+  },
+  {
+   "group": "Bổ trợ kiến thức Unit 1 – chờ xếp dần",
+   "items": [
+    {
+     "label": "[U1] Listening practice 1: Main ideas and specific details",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731000",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening practice 2: Main ideas and specific details",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731001",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening practice 3: Listen for arguments",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731003",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening practice 4: Listen for arguments",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731004",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731005",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening practice 5: Listen for opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731006",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening practice 6: Listen for opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731007",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Listening mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731008",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading practice 2: Main ideas",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731012",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731013",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading practice 1: Specific details and opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731014",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading practice 2: Specific details and opinions",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731015",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731016",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731019",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading practice 5: Implied meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731020",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading practice 6: Implied meaning",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731021",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Reading mini test 4",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731022",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Quick check: Abstract nouns",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731026",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Abstract nouns: Practice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731027",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Abstract nouns: Mini test",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731028",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Structure of an instruction (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731043",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Write an instruction (practice)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731044",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Write an instruction (test)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731045",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Structure of a letter (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731047",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Outline generating (thảo luận)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731048",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Write a letter (practice)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731049",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "[U1] Write a letter (test)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731050",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    }
+   ]
+  },
+  {
+   "group": "Tuần 0–5 (bài cũ) – chờ xếp dần",
+   "items": [
+    {
+     "label": "Week 5 – Before class discussion",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825324",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 5 – [BEFORE-CLASS] World's Famous Buildings",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825331",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 5 – Before class discussion (2)",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825336",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 5 – After the lesson task: Create Your Own Historical Painting",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825339",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 4 – [BEFORE-CLASS] 3D Shapes",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825316",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 3 – Before class discussion",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8729507",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 3 – Reading practice",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8729510",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 2 – Writing a Haiku Poem",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8566270",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 2 – Writing a Poem",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8566271",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 1 – [MUST DO] Do \"emojis\" make language better? Discussion",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8295300",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
+    },
+    {
+     "label": "Week 0 – [MUST DO] \"Get To Know Each Other\"",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8295282",
+     "status": "chua",
+     "score": "",
+     "note": "Chưa xếp lịch."
     }
    ]
   },
