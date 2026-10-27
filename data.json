@@ -2559,13 +2559,13 @@
       "status": "todo",
       "title": "30 phút – Toán: Bài 4.1: quiz và PHT",
       "practice": "Bài 4.1: quiz và PHT",
-      "review": "Mục chưa làm của Bài 4.1.",
-      "note": "Mục chưa làm của Bài 4.1.",
-      "link": "https://lms.vinschool.edu.vn/courses/88431/quizzes/9051060",
+      "review": "Bài đã học trên lớp tuần 19–23/10. Quiz LMS 10 câu, giới hạn 30 phút, được làm 3 lượt (ghi điểm lượt đầu); PHT là file PDF, in ra làm.",
+      "note": "Bài đã học trên lớp tuần 19–23/10. Quiz LMS 10 câu, giới hạn 30 phút, được làm 3 lượt (ghi điểm lượt đầu); PHT là file PDF, in ra làm.",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051060",
       "links": [
         {
           "label": "Quiz Bài 4.1",
-          "url": "https://lms.vinschool.edu.vn/courses/88431/quizzes/9051060"
+          "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051060"
         },
         {
           "label": "PHT Bài 4.1",
@@ -3579,6 +3579,1623 @@
         {
           "label": "Listening practice 1 – Gap-filling",
           "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8892980"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167481",
+      "kid": "nam",
+      "due": "2026-10-28",
+      "order": 4,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Listening practice 1: Main ideas and specific details",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Listening practice 1: Main ideas and specific details",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167481",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Listening practice 1: Main ideas and specific details",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167481"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167482",
+      "kid": "nam",
+      "due": "2026-10-29",
+      "order": 4,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Listening practice 2: Main ideas and specific details",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Listening practice 2: Main ideas and specific details",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167482",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Listening practice 2: Main ideas and specific details",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167482"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167483",
+      "kid": "nam",
+      "due": "2026-11-01",
+      "order": 6,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Listening mini test 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Listening mini test 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Listening mini test 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167484",
+      "kid": "nam",
+      "due": "2026-11-02",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Listening practice 3: Listen for speakers' opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Listening practice 3: Listen for speakers' opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167484",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Listening practice 3: Listen for speakers' opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167484"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167485",
+      "kid": "nam",
+      "due": "2026-11-02",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Listening practice 4: Listen for speakers' opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Listening practice 4: Listen for speakers' opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167485",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Listening practice 4: Listen for speakers' opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167485"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167486",
+      "kid": "nam",
+      "due": "2026-11-03",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Listening mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Listening mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167486",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Listening mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167486"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167488",
+      "kid": "nam",
+      "due": "2026-11-03",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Reading practice 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading practice 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167488",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading practice 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167488"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167489",
+      "kid": "nam",
+      "due": "2026-11-04",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Reading practice 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading practice 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167489",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading practice 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167489"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167490",
+      "kid": "nam",
+      "due": "2026-11-04",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Reading mini test 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading mini test 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167490",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading mini test 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167490"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167491",
+      "kid": "nam",
+      "due": "2026-11-05",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Reading practice 3: Deduce the meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading practice 3: Deduce the meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167491",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading practice 3: Deduce the meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167491"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167492",
+      "kid": "nam",
+      "due": "2026-11-05",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Reading practice 4: Deduce the meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading practice 4: Deduce the meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167492",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading practice 4: Deduce the meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167492"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167493",
+      "kid": "nam",
+      "due": "2026-11-06",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Reading mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167493",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167493"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167494",
+      "kid": "nam",
+      "due": "2026-11-06",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Reading practice: Reading for opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading practice: Reading for opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167494",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading practice: Reading for opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167494"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167495",
+      "kid": "nam",
+      "due": "2026-11-07",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Reading mini test 3",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Reading mini test 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167495",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Reading mini test 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167495"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167497",
+      "kid": "nam",
+      "due": "2026-11-07",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Use of English practice 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Use of English practice 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167497",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Use of English practice 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167497"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167498",
+      "kid": "nam",
+      "due": "2026-11-07",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Use of English mini test 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Use of English mini test 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167498",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Use of English mini test 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167498"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167499",
+      "kid": "nam",
+      "due": "2026-11-08",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 3: Use of English practice 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Use of English practice 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167499",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Use of English practice 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167499"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167500",
+      "kid": "nam",
+      "due": "2026-11-08",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Use of English mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Use of English mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167500",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Use of English mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167500"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167503",
+      "kid": "nam",
+      "due": "2026-11-08",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Proposal letter: Outline generating",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Proposal letter: Outline generating",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167503",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Proposal letter: Outline generating",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167503"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167504",
+      "kid": "nam",
+      "due": "2026-11-09",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 3: Writing a proposal letter",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Writing a proposal letter",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167504",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Writing a proposal letter",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167504"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167505",
+      "kid": "nam",
+      "due": "2026-11-09",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 3: Writing a proposal letter (test)",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Writing a proposal letter (test)",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167505",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Writing a proposal letter (test)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167505"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167507",
+      "kid": "nam",
+      "due": "2026-11-10",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 3: Descriptive essay: Outline generating",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Descriptive essay: Outline generating",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167507",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Descriptive essay: Outline generating",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167507"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-9167508",
+      "kid": "nam",
+      "due": "2026-11-10",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 3: Writing a descriptive essay",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 3: Writing a descriptive essay",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167508",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 3: Writing a descriptive essay",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167508"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861870",
+      "kid": "nam",
+      "due": "2026-11-11",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Listening 1",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Listening 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861870",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Listening 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861870"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861871",
+      "kid": "nam",
+      "due": "2026-11-11",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Listening 2",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Listening 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861871",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Listening 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861871"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861872",
+      "kid": "nam",
+      "due": "2026-11-12",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Listening 3",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Listening 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861872",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Listening 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861872"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861874",
+      "kid": "nam",
+      "due": "2026-11-12",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Reading 1",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Reading 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861874",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Reading 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861874"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861875",
+      "kid": "nam",
+      "due": "2026-11-13",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Reading 2",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Reading 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861875",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Reading 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861875"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861876",
+      "kid": "nam",
+      "due": "2026-11-13",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Reading 3",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Reading 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861876",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Reading 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861876"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8861877",
+      "kid": "nam",
+      "due": "2026-11-14",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Ôn Progress Check 1: [REVIEW] Reading 4",
+      "practice": "LMS Tiếng Anh – Ôn Progress Check 1: [REVIEW] Reading 4",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861877",
+      "links": [
+        {
+          "label": "Ôn Progress Check 1: [REVIEW] Reading 4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861877"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8566271",
+      "kid": "nam",
+      "due": "2026-11-14",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Week 2 – Writing a Poem",
+      "practice": "LMS Tiếng Anh – Week 2 – Writing a Poem",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8566271",
+      "links": [
+        {
+          "label": "Week 2 – Writing a Poem",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8566271"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8729510",
+      "kid": "nam",
+      "due": "2026-11-14",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Week 3 – Reading practice",
+      "practice": "LMS Tiếng Anh – Week 3 – Reading practice",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8729510",
+      "links": [
+        {
+          "label": "Week 3 – Reading practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8729510"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825339",
+      "kid": "nam",
+      "due": "2026-11-15",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Week 5 – Create Your Own Historical Painting",
+      "practice": "LMS Tiếng Anh – Week 5 – Create Your Own Historical Painting",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825339",
+      "links": [
+        {
+          "label": "Week 5 – Create Your Own Historical Painting",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825339"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825497",
+      "kid": "nam",
+      "due": "2026-11-15",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Listening practice 1: Main idea and specific details",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening practice 1: Main idea and specific details",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825497",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening practice 1: Main idea and specific details",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825497"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825498",
+      "kid": "nam",
+      "due": "2026-11-15",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Listening practice 2: Main idea and specific details",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening practice 2: Main idea and specific details",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825498",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening practice 2: Main idea and specific details",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825498"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825499",
+      "kid": "nam",
+      "due": "2026-11-16",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Listening mini test 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening mini test 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825499",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening mini test 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825499"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825500",
+      "kid": "nam",
+      "due": "2026-11-16",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Listening practice 3 + 4: Listen for speaker's arguments",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening practice 3 + 4: Listen for speaker's arguments",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825500",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening practice 3 + 4: Listen for speaker's arguments",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825500"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825501",
+      "kid": "nam",
+      "due": "2026-11-17",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Listening mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825501",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825501"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825502",
+      "kid": "nam",
+      "due": "2026-11-17",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Listening practice 5: Deduce the meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening practice 5: Deduce the meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825502",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening practice 5: Deduce the meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825502"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825503",
+      "kid": "nam",
+      "due": "2026-11-18",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Listening practice 6: Deduce the meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening practice 6: Deduce the meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825503",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening practice 6: Deduce the meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825503"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825504",
+      "kid": "nam",
+      "due": "2026-11-18",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Listening mini test 3",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Listening mini test 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825504",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Listening mini test 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825504"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825510",
+      "kid": "nam",
+      "due": "2026-11-19",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Reading practice 3: Deduce the meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading practice 3: Deduce the meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825510",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading practice 3: Deduce the meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825510"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825513",
+      "kid": "nam",
+      "due": "2026-11-19",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Reading practice 4: Deduce the meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading practice 4: Deduce the meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825513",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading practice 4: Deduce the meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825513"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825515",
+      "kid": "nam",
+      "due": "2026-11-20",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Reading mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825515",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825515"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825518",
+      "kid": "nam",
+      "due": "2026-11-20",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Reading practice 5",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading practice 5",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825518",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading practice 5",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825518"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825520",
+      "kid": "nam",
+      "due": "2026-11-21",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Reading practice 6",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading practice 6",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825520",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading practice 6",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825520"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825521",
+      "kid": "nam",
+      "due": "2026-11-21",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Reading mini test 3",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading mini test 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825521",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading mini test 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825521"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825523",
+      "kid": "nam",
+      "due": "2026-11-21",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Inconsistency",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Inconsistency",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825523",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Inconsistency",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825523"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825525",
+      "kid": "nam",
+      "due": "2026-11-22",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 2: Reading practice 7: Inconsistencies",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading practice 7: Inconsistencies",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825525",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading practice 7: Inconsistencies",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825525"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825527",
+      "kid": "nam",
+      "due": "2026-11-22",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Reading mini test 4",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Reading mini test 4",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825527",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Reading mini test 4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825527"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825550",
+      "kid": "nam",
+      "due": "2026-11-22",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 2: Report: Outline generating",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Report: Outline generating",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825550",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Report: Outline generating",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825550"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8825552",
+      "kid": "nam",
+      "due": "2026-11-23",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 2: Write a report about a house/building",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 2: Write a report about a house/building",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825552",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 2: Write a report about a house/building",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825552"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731000",
+      "kid": "nam",
+      "due": "2026-11-23",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Listening practice 1: Main ideas and specific details",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening practice 1: Main ideas and specific details",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731000",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening practice 1: Main ideas and specific details",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731000"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731001",
+      "kid": "nam",
+      "due": "2026-11-24",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Listening practice 2: Main ideas and specific details",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening practice 2: Main ideas and specific details",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731001",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening practice 2: Main ideas and specific details",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731001"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731003",
+      "kid": "nam",
+      "due": "2026-11-24",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Listening practice 3: Listen for arguments",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening practice 3: Listen for arguments",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731003",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening practice 3: Listen for arguments",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731003"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731004",
+      "kid": "nam",
+      "due": "2026-11-25",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Listening practice 4: Listen for arguments",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening practice 4: Listen for arguments",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731004",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening practice 4: Listen for arguments",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731004"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731005",
+      "kid": "nam",
+      "due": "2026-11-25",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Listening mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731005",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731005"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731006",
+      "kid": "nam",
+      "due": "2026-11-26",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Listening practice 5: Listen for opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening practice 5: Listen for opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731006",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening practice 5: Listen for opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731006"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731007",
+      "kid": "nam",
+      "due": "2026-11-26",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Listening practice 6: Listen for opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening practice 6: Listen for opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731007",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening practice 6: Listen for opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731007"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731008",
+      "kid": "nam",
+      "due": "2026-11-27",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Listening mini test 3",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Listening mini test 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731008",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Listening mini test 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731008"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731012",
+      "kid": "nam",
+      "due": "2026-11-27",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Reading practice 2: Main ideas",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading practice 2: Main ideas",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731012",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading practice 2: Main ideas",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731012"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731013",
+      "kid": "nam",
+      "due": "2026-11-28",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Reading mini test 1",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading mini test 1",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731013",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading mini test 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731013"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731014",
+      "kid": "nam",
+      "due": "2026-11-28",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Reading practice 1: Specific details and opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading practice 1: Specific details and opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731014",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading practice 1: Specific details and opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731014"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731015",
+      "kid": "nam",
+      "due": "2026-11-28",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Reading practice 2: Specific details and opinions",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading practice 2: Specific details and opinions",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731015",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading practice 2: Specific details and opinions",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731015"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731016",
+      "kid": "nam",
+      "due": "2026-11-29",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Reading mini test 2",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading mini test 2",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731016",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading mini test 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731016"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731019",
+      "kid": "nam",
+      "due": "2026-11-29",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Reading mini test 3",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading mini test 3",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731019",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading mini test 3",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731019"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731020",
+      "kid": "nam",
+      "due": "2026-11-29",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Reading practice 5: Implied meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading practice 5: Implied meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731020",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading practice 5: Implied meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731020"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731021",
+      "kid": "nam",
+      "due": "2026-11-30",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Reading practice 6: Implied meaning",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading practice 6: Implied meaning",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731021",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading practice 6: Implied meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731021"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731022",
+      "kid": "nam",
+      "due": "2026-11-30",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Reading mini test 4",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Reading mini test 4",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731022",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Reading mini test 4",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731022"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731026",
+      "kid": "nam",
+      "due": "2026-12-01",
+      "order": 1,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Quick check: Abstract nouns",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Quick check: Abstract nouns",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731026",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Quick check: Abstract nouns",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731026"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731027",
+      "kid": "nam",
+      "due": "2026-12-01",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: Bổ trợ Unit 1: Abstract nouns: Practice",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Abstract nouns: Practice",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731027",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Abstract nouns: Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731027"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731028",
+      "kid": "nam",
+      "due": "2026-12-02",
+      "order": 1,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: Bổ trợ Unit 1: Abstract nouns: Mini test",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Abstract nouns: Mini test",
+      "review": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Làm trên LMS, ghi điểm lượt đầu. Dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731028",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Abstract nouns: Mini test",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731028"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731044",
+      "kid": "nam",
+      "due": "2026-12-02",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 1: Write an instruction (practice)",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Write an instruction (practice)",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731044",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Write an instruction (practice)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731044"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731045",
+      "kid": "nam",
+      "due": "2026-12-03",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 1: Write an instruction (test)",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Write an instruction (test)",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731045",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Write an instruction (test)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731045"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731049",
+      "kid": "nam",
+      "due": "2026-12-03",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 1: Write a letter (practice)",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Write a letter (practice)",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731049",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Write a letter (practice)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731049"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8731050",
+      "kid": "nam",
+      "due": "2026-12-04",
+      "order": 1,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Bổ trợ Unit 1: Write a letter (test)",
+      "practice": "LMS Tiếng Anh – Bổ trợ Unit 1: Write a letter (test)",
+      "review": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "note": "Viết và nộp trên LMS. Viết xong tự đọc lại, kiểm tra chia động từ và mạo từ trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731050",
+      "links": [
+        {
+          "label": "Bổ trợ Unit 1: Write a letter (test)",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731050"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-lms-8758395",
+      "kid": "nam",
+      "due": "2026-12-04",
+      "order": 2,
+      "minutes": 30,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "30 phút – Tiếng Anh: Mục Ms Alex: Speaking presentation: a guide to non-verbal communication",
+      "practice": "LMS Tiếng Anh – Mục Ms Alex: Speaking presentation: a guide to non-verbal communication",
+      "review": "Bài nằm trong mục \"Ms Alex 9A1\" trên LMS; nếu thầy cô không giao cho lớp 8A2 thì bỏ qua.",
+      "note": "Bài nằm trong mục \"Ms Alex 9A1\" trên LMS; nếu thầy cô không giao cho lớp 8A2 thì bỏ qua.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8758395",
+      "links": [
+        {
+          "label": "Mục Ms Alex: Speaking presentation: a guide to non-verbal communication",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8758395"
         }
       ]
     }
@@ -5772,7 +7389,7 @@
     }
   ],
   "meta": {
-    "lastSync": "2026-10-27T20:40:00+07:00",
+    "lastSync": "2026-10-27T20:45:00+07:00",
     "nam": {
       "dailyDone": "2026-10-27",
       "sources": "LMS của Nam đọc lúc 20:20 thứ Ba 27/10 (Tiếng Anh, Toán Bài 4.1)",
