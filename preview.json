@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-31",
  "weeks": [
   {
    "id": "nam-2026-10-12",
@@ -445,6 +445,129 @@
      "watch": [
       "LMS có ba nhiệm vụ làm trước, một quiz và một thảo luận cho hai tuần này; đã xếp rải từ Chủ nhật 11/10 đến thứ Bảy 17/10.",
       "LMS ghi ngày kiểm tra giữa HK1 môn Tiếng Việt là 09/10; chưa có điểm."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nam-2026-11-02",
+   "kid": "nam",
+   "from": "2026-11-02",
+   "to": "2026-11-06",
+   "updated": "2026-10-31",
+   "note": "LMS đọc tối 31/10. KHTN học C3.03 và C3.04 (chương 3 – Năng lượng). Tiếng Anh tuần 12 học Lesson 4.9 Fiction; bài tuần 11 (4.2, 4.4) chưa làm nên xếp trước. Toán: LMS chưa mở mục mới sau Tuần 19–23/10 (Bài 4.1 Lập và giải phương trình).",
+   "subjects": [
+    {
+     "subject": "Toán",
+     "summary": "LMS chưa có mục tuần 02–06/11",
+     "status": "Mục mới nhất trên LMS là Tuần 19–23/10: Bài 4.1 Lập và giải phương trình (HDTH, quiz, PHT). Chưa có bài mới để đọc trước.",
+     "lessons": [
+      {
+       "title": "Ôn lại Bài 4.1 · Lập và giải phương trình",
+       "readLabel": "Đọc lại",
+       "read": "Hướng dẫn tự học Bài 4.1 trên LMS",
+       "points": [
+        "Làm xong quiz và PHT Bài 4.1 (xếp tối thứ Bảy 31/10).",
+        "Xem lại quiz Bài 3.4 Cận trên và cận dưới (6,33/10) vào thứ Hai 02/11."
+       ],
+       "links": [
+        {
+         "label": "[HDTH] Bài 4.1 (LMS)",
+         "url": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "subject": "Tiếng Anh",
+     "summary": "Unit 4 · Lesson 4.9 Fiction (tuần 12)",
+     "lessons": [
+      {
+       "title": "4.9 · Fiction – đọc trích đoạn truyện",
+       "readLabel": "Đọc trước",
+       "read": "Learning objectives Lesson 4.9 trên LMS",
+       "points": [
+        "Đọc một đoạn trích truyện, tìm ý chính (argument) của đoạn.",
+        "Đoán nghĩa từ mới qua ngữ cảnh: đọc cả câu trước và sau, xem từ đó là danh từ, động từ hay tính từ.",
+        "Nêu ý kiến về đoạn trích; bài thảo luận “Tom’s personality” cần tả tính cách Tom kèm dẫn chứng từ bài."
+       ],
+       "links": [
+        {
+         "label": "Lesson 4.9: Learning objectives",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192190"
+        },
+        {
+         "label": "Vocabulary Check",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192191"
+        }
+       ]
+      },
+      {
+       "title": "Tuần 11 còn nợ · 4.2 Three Advertisements và 4.4 The Psychology of Shopping",
+       "readLabel": "Ôn theo",
+       "read": "Grammar guide 4.2 và bài Reflexive pronoun 4.4",
+       "points": [
+        "Đại từ phản thân: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves – dùng khi chủ ngữ và tân ngữ là cùng một người (She taught herself).",
+        "Mệnh đề quan hệ rút gọn mang nghĩa bị động: The phone (which was) made in Japan → The phone made in Japan."
+       ],
+       "links": [
+        {
+         "label": "Grammar guide 4.2",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192199"
+        },
+        {
+         "label": "Reflexive pronoun 4.4",
+         "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192178"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "subject": "KHTN",
+     "summary": "Chương 3 · C3.03 Sự bảo toàn năng lượng, C3.04 Sự di chuyển từ nóng sang lạnh",
+     "lessons": [
+      {
+       "title": "C3.03 · Sự bảo toàn năng lượng",
+       "readLabel": "Đọc trước",
+       "read": "Nội dung lý thuyết C3.03 rồi làm quiz trước tiết (bắt buộc)",
+       "points": [
+        "Năng lượng không tự sinh ra, không tự mất đi: tổng năng lượng đầu ra luôn bằng năng lượng đầu vào.",
+        "Ví dụ đèn điện: 100 J điện năng → 10 J quang năng (có ích) + 90 J nhiệt năng (hao phí).",
+        "Năng lượng hao phí bị tiêu tán: lan ra môi trường xung quanh, không mất đi."
+       ],
+       "links": [
+        {
+         "label": "Nội dung lý thuyết C3.03",
+         "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035100"
+        },
+        {
+         "label": "Quiz trước tiết C3.03",
+         "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035104"
+        }
+       ]
+      },
+      {
+       "title": "C3.04 · Sự di chuyển từ nóng sang lạnh",
+       "readLabel": "Đọc trước",
+       "read": "Nội dung lý thuyết C3.04 rồi làm quiz trước tiết (bắt buộc)",
+       "points": [
+        "Nhiệt năng luôn truyền từ nơi nóng hơn sang nơi lạnh hơn.",
+        "Lạnh không phải năng lượng và không truyền đi; cầm đá thấy lạnh vì nhiệt từ tay truyền sang đá.",
+        "Chênh lệch nhiệt độ càng lớn thì nhiệt truyền càng nhanh. Trên lớp có thí nghiệm đo nhiệt độ nước nguội dần."
+       ],
+       "links": [
+        {
+         "label": "Nội dung lý thuyết C3.04",
+         "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035101"
+        },
+        {
+         "label": "Quiz trước tiết C3.04",
+         "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035105"
+        }
+       ]
+      }
      ]
     }
    ]

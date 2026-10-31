@@ -2398,7 +2398,7 @@
       "minutes": 60,
       "subject": "Hoạt động trải nghiệm",
       "source": "LMS",
-      "status": "todo",
+      "status": "done",
       "title": "60 phút – Hoạt động trải nghiệm: 4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
       "practice": "4 bài kiểm tra HK1 (hạn 23:59 T6 30/10)",
       "review": "Hạn 23:59 T6 30/10.",
@@ -2421,7 +2421,9 @@
           "label": "HS3",
           "url": "https://lms.vinschool.edu.vn/courses/165813/quizzes/2231298"
         }
-      ]
+      ],
+      "doneAt": "2026-10-31",
+      "doneVia": "LMS: 4 bài HĐTN đã nộp, điểm 10; 10; 8,5; 9,5"
     },
     {
       "id": "nam-sched-2026-10-28-02",
@@ -2455,8 +2457,8 @@
       "status": "todo",
       "title": "60 phút – Giáo dục công dân: 4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
       "practice": "4 bài kiểm tra HK1 (hạn 23:59 T7 31/10)",
-      "review": "Hạn 23:59 T7 31/10. Nên hỏi GV xác nhận hạn bài cuối kỳ.",
-      "note": "Hạn 23:59 T7 31/10. Nên hỏi GV xác nhận hạn bài cuối kỳ.",
+      "review": "LMS 31/10: đã làm 3/4 bài (15 phút số 1: 10, số 2: 10, cuối kì: 9). Còn bài giữa kì (hệ số 2), hạn 23:59 thứ Bảy 31/10.",
+      "note": "LMS 31/10: đã làm 3/4 bài (15 phút số 1: 10, số 2: 10, cuối kì: 9). Còn bài giữa kì (hệ số 2), hạn 23:59 thứ Bảy 31/10.",
       "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238476",
       "links": [
         {
@@ -2618,8 +2620,8 @@
     {
       "id": "nam-sched-2026-11-01-01",
       "kid": "nam",
-      "due": "2026-11-01",
-      "order": 1,
+      "due": "2026-11-07",
+      "order": 8,
       "minutes": 20,
       "subject": "Khoa học tự nhiên",
       "source": "LMS",
@@ -2927,7 +2929,7 @@
       "minutes": 20,
       "subject": "MyiMaths",
       "source": "MyiMaths",
-      "status": "todo",
+      "status": "done",
       "title": "20 phút – MyiMaths: Fractions of amounts",
       "practice": "MyiMaths: Fractions of amounts",
       "review": "Làm sau bài LMS. Nếu chưa hiểu, bấm \"Try the lesson\" trong bài trước khi làm.",
@@ -2938,7 +2940,9 @@
           "label": "MyiMaths: Fractions of amounts",
           "url": "https://app.myimaths.com/1676-homework/fractions-of-amounts/5208094/task"
         }
-      ]
+      ],
+      "doneAt": "2026-10-31",
+      "doneVia": "MyiMaths 31/10: bài đã rời danh sách bài tập về nhà"
     },
     {
       "id": "phong-raz-20261024-critter",
@@ -3648,8 +3652,8 @@
     {
       "id": "nam-en-lms-9167484",
       "kid": "nam",
-      "due": "2026-11-02",
-      "order": 1,
+      "due": "2026-11-07",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3669,8 +3673,8 @@
     {
       "id": "nam-en-lms-9167485",
       "kid": "nam",
-      "due": "2026-11-02",
-      "order": 2,
+      "due": "2026-11-07",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3690,8 +3694,8 @@
     {
       "id": "nam-en-lms-9167486",
       "kid": "nam",
-      "due": "2026-11-03",
-      "order": 1,
+      "due": "2026-11-08",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3711,8 +3715,8 @@
     {
       "id": "nam-en-lms-9167488",
       "kid": "nam",
-      "due": "2026-11-03",
-      "order": 2,
+      "due": "2026-11-08",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3732,8 +3736,8 @@
     {
       "id": "nam-en-lms-9167489",
       "kid": "nam",
-      "due": "2026-11-04",
-      "order": 1,
+      "due": "2026-11-08",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3753,8 +3757,8 @@
     {
       "id": "nam-en-lms-9167490",
       "kid": "nam",
-      "due": "2026-11-04",
-      "order": 2,
+      "due": "2026-11-09",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3774,8 +3778,8 @@
     {
       "id": "nam-en-lms-9167491",
       "kid": "nam",
-      "due": "2026-11-05",
-      "order": 1,
+      "due": "2026-11-09",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3795,8 +3799,8 @@
     {
       "id": "nam-en-lms-9167492",
       "kid": "nam",
-      "due": "2026-11-05",
-      "order": 2,
+      "due": "2026-11-10",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3816,8 +3820,8 @@
     {
       "id": "nam-en-lms-9167493",
       "kid": "nam",
-      "due": "2026-11-06",
-      "order": 1,
+      "due": "2026-11-10",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3837,8 +3841,8 @@
     {
       "id": "nam-en-lms-9167494",
       "kid": "nam",
-      "due": "2026-11-06",
-      "order": 2,
+      "due": "2026-11-11",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3858,8 +3862,8 @@
     {
       "id": "nam-en-lms-9167495",
       "kid": "nam",
-      "due": "2026-11-07",
-      "order": 1,
+      "due": "2026-11-11",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3879,8 +3883,8 @@
     {
       "id": "nam-en-lms-9167497",
       "kid": "nam",
-      "due": "2026-11-07",
-      "order": 2,
+      "due": "2026-11-12",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3900,8 +3904,8 @@
     {
       "id": "nam-en-lms-9167498",
       "kid": "nam",
-      "due": "2026-11-07",
-      "order": 3,
+      "due": "2026-11-12",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3921,8 +3925,8 @@
     {
       "id": "nam-en-lms-9167499",
       "kid": "nam",
-      "due": "2026-11-08",
-      "order": 1,
+      "due": "2026-11-13",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3942,8 +3946,8 @@
     {
       "id": "nam-en-lms-9167500",
       "kid": "nam",
-      "due": "2026-11-08",
-      "order": 2,
+      "due": "2026-11-13",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3963,8 +3967,8 @@
     {
       "id": "nam-en-lms-9167503",
       "kid": "nam",
-      "due": "2026-11-08",
-      "order": 3,
+      "due": "2026-11-14",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -3984,8 +3988,8 @@
     {
       "id": "nam-en-lms-9167504",
       "kid": "nam",
-      "due": "2026-11-09",
-      "order": 1,
+      "due": "2026-11-14",
+      "order": 6,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4005,8 +4009,8 @@
     {
       "id": "nam-en-lms-9167505",
       "kid": "nam",
-      "due": "2026-11-09",
-      "order": 2,
+      "due": "2026-11-14",
+      "order": 7,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4026,8 +4030,8 @@
     {
       "id": "nam-en-lms-9167507",
       "kid": "nam",
-      "due": "2026-11-10",
-      "order": 1,
+      "due": "2026-11-15",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4047,8 +4051,8 @@
     {
       "id": "nam-en-lms-9167508",
       "kid": "nam",
-      "due": "2026-11-10",
-      "order": 2,
+      "due": "2026-11-15",
+      "order": 6,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4068,8 +4072,8 @@
     {
       "id": "nam-en-lms-8861870",
       "kid": "nam",
-      "due": "2026-11-11",
-      "order": 1,
+      "due": "2026-11-15",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4089,8 +4093,8 @@
     {
       "id": "nam-en-lms-8861871",
       "kid": "nam",
-      "due": "2026-11-11",
-      "order": 2,
+      "due": "2026-11-16",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4110,8 +4114,8 @@
     {
       "id": "nam-en-lms-8861872",
       "kid": "nam",
-      "due": "2026-11-12",
-      "order": 1,
+      "due": "2026-11-16",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4131,8 +4135,8 @@
     {
       "id": "nam-en-lms-8861874",
       "kid": "nam",
-      "due": "2026-11-12",
-      "order": 2,
+      "due": "2026-11-17",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4152,8 +4156,8 @@
     {
       "id": "nam-en-lms-8861875",
       "kid": "nam",
-      "due": "2026-11-13",
-      "order": 1,
+      "due": "2026-11-17",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4173,8 +4177,8 @@
     {
       "id": "nam-en-lms-8861876",
       "kid": "nam",
-      "due": "2026-11-13",
-      "order": 2,
+      "due": "2026-11-18",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4194,8 +4198,8 @@
     {
       "id": "nam-en-lms-8861877",
       "kid": "nam",
-      "due": "2026-11-14",
-      "order": 1,
+      "due": "2026-11-18",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4215,8 +4219,8 @@
     {
       "id": "nam-en-lms-8566271",
       "kid": "nam",
-      "due": "2026-11-14",
-      "order": 2,
+      "due": "2026-11-19",
+      "order": 5,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4236,8 +4240,8 @@
     {
       "id": "nam-en-lms-8729510",
       "kid": "nam",
-      "due": "2026-11-14",
-      "order": 3,
+      "due": "2026-11-19",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4257,8 +4261,8 @@
     {
       "id": "nam-en-lms-8825339",
       "kid": "nam",
-      "due": "2026-11-15",
-      "order": 1,
+      "due": "2026-11-20",
+      "order": 5,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4278,8 +4282,8 @@
     {
       "id": "nam-en-lms-8825497",
       "kid": "nam",
-      "due": "2026-11-15",
-      "order": 2,
+      "due": "2026-11-20",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4299,8 +4303,8 @@
     {
       "id": "nam-en-lms-8825498",
       "kid": "nam",
-      "due": "2026-11-15",
-      "order": 3,
+      "due": "2026-11-21",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4320,8 +4324,8 @@
     {
       "id": "nam-en-lms-8825499",
       "kid": "nam",
-      "due": "2026-11-16",
-      "order": 1,
+      "due": "2026-11-21",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4341,8 +4345,8 @@
     {
       "id": "nam-en-lms-8825500",
       "kid": "nam",
-      "due": "2026-11-16",
-      "order": 2,
+      "due": "2026-11-21",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4362,8 +4366,8 @@
     {
       "id": "nam-en-lms-8825501",
       "kid": "nam",
-      "due": "2026-11-17",
-      "order": 1,
+      "due": "2026-11-22",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4383,8 +4387,8 @@
     {
       "id": "nam-en-lms-8825502",
       "kid": "nam",
-      "due": "2026-11-17",
-      "order": 2,
+      "due": "2026-11-22",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4404,8 +4408,8 @@
     {
       "id": "nam-en-lms-8825503",
       "kid": "nam",
-      "due": "2026-11-18",
-      "order": 1,
+      "due": "2026-11-22",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4425,8 +4429,8 @@
     {
       "id": "nam-en-lms-8825504",
       "kid": "nam",
-      "due": "2026-11-18",
-      "order": 2,
+      "due": "2026-11-23",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4446,8 +4450,8 @@
     {
       "id": "nam-en-lms-8825510",
       "kid": "nam",
-      "due": "2026-11-19",
-      "order": 1,
+      "due": "2026-11-23",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4467,8 +4471,8 @@
     {
       "id": "nam-en-lms-8825513",
       "kid": "nam",
-      "due": "2026-11-19",
-      "order": 2,
+      "due": "2026-11-24",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4488,8 +4492,8 @@
     {
       "id": "nam-en-lms-8825515",
       "kid": "nam",
-      "due": "2026-11-20",
-      "order": 1,
+      "due": "2026-11-24",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4509,8 +4513,8 @@
     {
       "id": "nam-en-lms-8825518",
       "kid": "nam",
-      "due": "2026-11-20",
-      "order": 2,
+      "due": "2026-11-25",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4530,8 +4534,8 @@
     {
       "id": "nam-en-lms-8825520",
       "kid": "nam",
-      "due": "2026-11-21",
-      "order": 1,
+      "due": "2026-11-25",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4551,8 +4555,8 @@
     {
       "id": "nam-en-lms-8825521",
       "kid": "nam",
-      "due": "2026-11-21",
-      "order": 2,
+      "due": "2026-11-26",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4572,8 +4576,8 @@
     {
       "id": "nam-en-lms-8825523",
       "kid": "nam",
-      "due": "2026-11-21",
-      "order": 3,
+      "due": "2026-11-26",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4593,8 +4597,8 @@
     {
       "id": "nam-en-lms-8825525",
       "kid": "nam",
-      "due": "2026-11-22",
-      "order": 1,
+      "due": "2026-11-27",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4614,8 +4618,8 @@
     {
       "id": "nam-en-lms-8825527",
       "kid": "nam",
-      "due": "2026-11-22",
-      "order": 2,
+      "due": "2026-11-27",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4635,8 +4639,8 @@
     {
       "id": "nam-en-lms-8825550",
       "kid": "nam",
-      "due": "2026-11-22",
-      "order": 3,
+      "due": "2026-11-28",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4656,8 +4660,8 @@
     {
       "id": "nam-en-lms-8825552",
       "kid": "nam",
-      "due": "2026-11-23",
-      "order": 1,
+      "due": "2026-11-28",
+      "order": 6,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4677,8 +4681,8 @@
     {
       "id": "nam-en-lms-8731000",
       "kid": "nam",
-      "due": "2026-11-23",
-      "order": 2,
+      "due": "2026-11-28",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4698,8 +4702,8 @@
     {
       "id": "nam-en-lms-8731001",
       "kid": "nam",
-      "due": "2026-11-24",
-      "order": 1,
+      "due": "2026-11-29",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4719,8 +4723,8 @@
     {
       "id": "nam-en-lms-8731003",
       "kid": "nam",
-      "due": "2026-11-24",
-      "order": 2,
+      "due": "2026-11-29",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4740,8 +4744,8 @@
     {
       "id": "nam-en-lms-8731004",
       "kid": "nam",
-      "due": "2026-11-25",
-      "order": 1,
+      "due": "2026-11-29",
+      "order": 7,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4761,8 +4765,8 @@
     {
       "id": "nam-en-lms-8731005",
       "kid": "nam",
-      "due": "2026-11-25",
-      "order": 2,
+      "due": "2026-11-30",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4782,8 +4786,8 @@
     {
       "id": "nam-en-lms-8731006",
       "kid": "nam",
-      "due": "2026-11-26",
-      "order": 1,
+      "due": "2026-11-30",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4803,8 +4807,8 @@
     {
       "id": "nam-en-lms-8731007",
       "kid": "nam",
-      "due": "2026-11-26",
-      "order": 2,
+      "due": "2026-12-01",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4824,8 +4828,8 @@
     {
       "id": "nam-en-lms-8731008",
       "kid": "nam",
-      "due": "2026-11-27",
-      "order": 1,
+      "due": "2026-12-01",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4845,8 +4849,8 @@
     {
       "id": "nam-en-lms-8731012",
       "kid": "nam",
-      "due": "2026-11-27",
-      "order": 2,
+      "due": "2026-12-02",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4866,8 +4870,8 @@
     {
       "id": "nam-en-lms-8731013",
       "kid": "nam",
-      "due": "2026-11-28",
-      "order": 1,
+      "due": "2026-12-02",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4887,8 +4891,8 @@
     {
       "id": "nam-en-lms-8731014",
       "kid": "nam",
-      "due": "2026-11-28",
-      "order": 2,
+      "due": "2026-12-03",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4908,8 +4912,8 @@
     {
       "id": "nam-en-lms-8731015",
       "kid": "nam",
-      "due": "2026-11-28",
-      "order": 3,
+      "due": "2026-12-03",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4929,8 +4933,8 @@
     {
       "id": "nam-en-lms-8731016",
       "kid": "nam",
-      "due": "2026-11-29",
-      "order": 1,
+      "due": "2026-12-04",
+      "order": 5,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4950,8 +4954,8 @@
     {
       "id": "nam-en-lms-8731019",
       "kid": "nam",
-      "due": "2026-11-29",
-      "order": 2,
+      "due": "2026-12-04",
+      "order": 6,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4971,8 +4975,8 @@
     {
       "id": "nam-en-lms-8731020",
       "kid": "nam",
-      "due": "2026-11-29",
-      "order": 3,
+      "due": "2026-12-05",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -4992,8 +4996,8 @@
     {
       "id": "nam-en-lms-8731021",
       "kid": "nam",
-      "due": "2026-11-30",
-      "order": 1,
+      "due": "2026-12-05",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5013,8 +5017,8 @@
     {
       "id": "nam-en-lms-8731022",
       "kid": "nam",
-      "due": "2026-11-30",
-      "order": 2,
+      "due": "2026-12-05",
+      "order": 7,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5034,8 +5038,8 @@
     {
       "id": "nam-en-lms-8731026",
       "kid": "nam",
-      "due": "2026-12-01",
-      "order": 1,
+      "due": "2026-12-06",
+      "order": 5,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5055,8 +5059,8 @@
     {
       "id": "nam-en-lms-8731027",
       "kid": "nam",
-      "due": "2026-12-01",
-      "order": 2,
+      "due": "2026-12-06",
+      "order": 6,
       "minutes": 15,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5076,8 +5080,8 @@
     {
       "id": "nam-en-lms-8731028",
       "kid": "nam",
-      "due": "2026-12-02",
-      "order": 1,
+      "due": "2026-12-06",
+      "order": 7,
       "minutes": 20,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5097,8 +5101,8 @@
     {
       "id": "nam-en-lms-8731044",
       "kid": "nam",
-      "due": "2026-12-02",
-      "order": 2,
+      "due": "2026-12-07",
+      "order": 5,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5118,8 +5122,8 @@
     {
       "id": "nam-en-lms-8731045",
       "kid": "nam",
-      "due": "2026-12-03",
-      "order": 1,
+      "due": "2026-12-07",
+      "order": 6,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5139,8 +5143,8 @@
     {
       "id": "nam-en-lms-8731049",
       "kid": "nam",
-      "due": "2026-12-03",
-      "order": 2,
+      "due": "2026-12-08",
+      "order": 5,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5160,8 +5164,8 @@
     {
       "id": "nam-en-lms-8731050",
       "kid": "nam",
-      "due": "2026-12-04",
-      "order": 1,
+      "due": "2026-12-08",
+      "order": 6,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5181,8 +5185,8 @@
     {
       "id": "nam-en-lms-8758395",
       "kid": "nam",
-      "due": "2026-12-04",
-      "order": 2,
+      "due": "2026-12-09",
+      "order": 5,
       "minutes": 30,
       "subject": "Tiếng Anh",
       "source": "LMS",
@@ -5196,6 +5200,370 @@
         {
           "label": "Mục Ms Alex: Speaking presentation: a guide to non-verbal communication",
           "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8758395"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-10-31-00",
+      "kid": "nam",
+      "due": "2026-10-31",
+      "order": 0,
+      "minutes": 20,
+      "subject": "Giáo dục công dân",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Giáo dục công dân: Bài kiểm tra giữa học kì (hệ số 2) – hạn 23:59 tối nay",
+      "practice": "Bài kiểm tra giữa học kì (hệ số 2) – hạn 23:59 tối nay",
+      "review": "Bài cuối cùng còn thiếu trong 4 bài GDCD HK1; 9 câu, chưa nộp. Làm trước mọi bài khác tối nay.",
+      "note": "Bài cuối cùng còn thiếu trong 4 bài GDCD HK1; 9 câu, chưa nộp. Làm trước mọi bài khác tối nay.",
+      "link": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238475",
+      "links": [
+        {
+          "label": "Học kì I_Bài kiểm tra giữa học kì (hệ số 2)",
+          "url": "https://lms.vinschool.edu.vn/courses/165713/quizzes/2238475"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-01-06",
+      "kid": "nam",
+      "due": "2026-11-01",
+      "order": 6,
+      "minutes": 20,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Khoa học tự nhiên: C3.03 Sự bảo toàn năng lượng: đọc lý thuyết rồi làm quiz trước tiết (bắt buộc)",
+      "practice": "C3.03 Sự bảo toàn năng lượng: đọc lý thuyết rồi làm quiz trước tiết (bắt buộc)",
+      "review": "Đọc \"Nội dung lý thuyết C3.03\" trước, rồi làm quiz 10 câu. Ý chính: tổng năng lượng đầu ra luôn bằng năng lượng đầu vào (đèn 100 J → 10 J quang năng + 90 J nhiệt năng).",
+      "note": "Đọc \"Nội dung lý thuyết C3.03\" trước, rồi làm quiz 10 câu. Ý chính: tổng năng lượng đầu ra luôn bằng năng lượng đầu vào (đèn 100 J → 10 J quang năng + 90 J nhiệt năng).",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035100",
+      "links": [
+        {
+          "label": "Nội dung lý thuyết C3.03",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035100"
+        },
+        {
+          "label": "Quiz trước tiết C3.03 (bắt buộc)",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035104"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-03-03",
+      "kid": "nam",
+      "due": "2026-11-03",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Khoa học tự nhiên: C3.04 Sự di chuyển từ nóng sang lạnh: đọc lý thuyết rồi làm quiz trước tiết (bắt buộc)",
+      "practice": "C3.04 Sự di chuyển từ nóng sang lạnh: đọc lý thuyết rồi làm quiz trước tiết (bắt buộc)",
+      "review": "Đọc \"Nội dung lý thuyết C3.04\" trước, rồi làm quiz 10 câu. Ý chính: nhiệt năng luôn truyền từ nơi nóng sang nơi lạnh; \"lạnh\" là có ít nhiệt năng hơn, không phải thứ truyền đi.",
+      "note": "Đọc \"Nội dung lý thuyết C3.04\" trước, rồi làm quiz 10 câu. Ý chính: nhiệt năng luôn truyền từ nơi nóng sang nơi lạnh; \"lạnh\" là có ít nhiệt năng hơn, không phải thứ truyền đi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035101",
+      "links": [
+        {
+          "label": "Nội dung lý thuyết C3.04",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035101"
+        },
+        {
+          "label": "Quiz trước tiết C3.04 (bắt buộc)",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035105"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-07-09",
+      "kid": "nam",
+      "due": "2026-11-07",
+      "order": 9,
+      "minutes": 20,
+      "subject": "Khoa học tự nhiên",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Khoa học tự nhiên: Quiz sau tiết C3.03 và C3.04 (luyện thêm, không bắt buộc)",
+      "practice": "Quiz sau tiết C3.03 và C3.04 (luyện thêm, không bắt buộc)",
+      "review": "Không bắt buộc, làm sau khi đã học trên lớp để củng cố.",
+      "note": "Không bắt buộc, làm sau khi đã học trên lớp để củng cố.",
+      "link": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035106",
+      "links": [
+        {
+          "label": "Quiz sau tiết C3.03",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035106"
+        },
+        {
+          "label": "Quiz sau tiết C3.04",
+          "url": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035107"
+        }
+      ]
+    },
+    {
+      "id": "nam-sched-2026-11-02-00",
+      "kid": "nam",
+      "due": "2026-11-02",
+      "order": 0,
+      "minutes": 25,
+      "subject": "Toán",
+      "source": "LMS",
+      "status": "todo",
+      "title": "25 phút – Toán: Xem lại quiz Bài 3.4 Cận trên và cận dưới (6,33/10)",
+      "practice": "Xem lại quiz Bài 3.4 Cận trên và cận dưới (6,33/10)",
+      "review": "Quiz LMS ngày 26/10 chỉ đạt 6,33/10. Mở phần xem lại bài làm, chép câu sai ra vở và làm lại; chụp câu sai gửi mẹ để soạn quiz sửa lỗi. LMS Toán chưa mở mục tuần 26/10 trở đi.",
+      "note": "Quiz LMS ngày 26/10 chỉ đạt 6,33/10. Mở phần xem lại bài làm, chép câu sai ra vở và làm lại; chụp câu sai gửi mẹ để soạn quiz sửa lỗi. LMS Toán chưa mở mục tuần 26/10 trở đi.",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/assignments/3100855",
+      "links": [
+        {
+          "label": "Quiz Bài 3.4 – xem lại bài làm",
+          "url": "https://lms.vinschool.edu.vn/courses/88431/assignments/3100855"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1102-1",
+      "kid": "nam",
+      "due": "2026-11-02",
+      "order": 2,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: 4.2 Three Advertisements: Reading 1 và Reading 2",
+      "practice": "4.2 Three Advertisements: Reading 1 và Reading 2",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Bài tuần 26–30/10, làm trên LMS.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Bài tuần 26–30/10, làm trên LMS.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192197",
+      "links": [
+        {
+          "label": "Reading 1",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192197"
+        },
+        {
+          "label": "Reading 2",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192198"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1102-2",
+      "kid": "nam",
+      "due": "2026-11-02",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: 4.2: Grammar guide rồi Grammar task",
+      "practice": "4.2: Grammar guide rồi Grammar task",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Đọc Grammar guide trước rồi mới làm.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Đọc Grammar guide trước rồi mới làm.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192199",
+      "links": [
+        {
+          "label": "Grammar guide",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192199"
+        },
+        {
+          "label": "Grammar task",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192200"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1103-1",
+      "kid": "nam",
+      "due": "2026-11-03",
+      "order": 2,
+      "minutes": 25,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "25 phút – Tiếng Anh: 4.2: Writing Task",
+      "practice": "4.2: Writing Task",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Viết trên LMS; tự soát thì, chính tả trước khi nộp.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Viết trên LMS; tự soát thì, chính tả trước khi nộp.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192201",
+      "links": [
+        {
+          "label": "Writing Task",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192201"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1103-2",
+      "kid": "nam",
+      "due": "2026-11-03",
+      "order": 3,
+      "minutes": 20,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "20 phút – Tiếng Anh: 4.4 Reflexive pronoun: đọc bài rồi làm grammar exercise",
+      "practice": "4.4 Reflexive pronoun: đọc bài rồi làm grammar exercise",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Đại từ phản thân: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Đại từ phản thân: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192178",
+      "links": [
+        {
+          "label": "Reflexive pronoun",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192178"
+        },
+        {
+          "label": "Reflexive pronoun – grammar exercise",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192179"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1104-1",
+      "kid": "nam",
+      "due": "2026-11-04",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.4 The Psychology of Shopping: Reading Practice",
+      "practice": "4.4 The Psychology of Shopping: Reading Practice",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192185",
+      "links": [
+        {
+          "label": "Reading Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192185"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1104-2",
+      "kid": "nam",
+      "due": "2026-11-04",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.4: Listening practice",
+      "practice": "4.4: Listening practice",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192186",
+      "links": [
+        {
+          "label": "Listening practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192186"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1105-1",
+      "kid": "nam",
+      "due": "2026-11-05",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.4: Reduced relative clause with passive meaning",
+      "practice": "4.4: Reduced relative clause with passive meaning",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Ví dụ: The book (which was) written by him → The book written by him.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Ví dụ: The book (which was) written by him → The book written by him.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192174",
+      "links": [
+        {
+          "label": "Reduced relative clause with passive meaning",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192174"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1105-2",
+      "kid": "nam",
+      "due": "2026-11-05",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.9 Fiction: Vocabulary Check",
+      "practice": "4.9 Fiction: Vocabulary Check",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Bài tuần 02–06/11.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Bài tuần 02–06/11.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192190",
+      "links": [
+        {
+          "label": "Learning objectives",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192190"
+        },
+        {
+          "label": "Vocabulary Check",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192191"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1106-1",
+      "kid": "nam",
+      "due": "2026-11-06",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.9 Fiction: Reading Practice",
+      "practice": "4.9 Fiction: Reading Practice",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192194",
+      "links": [
+        {
+          "label": "Reading Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192194"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1106-2",
+      "kid": "nam",
+      "due": "2026-11-06",
+      "order": 3,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.9 Fiction: Listening Practice",
+      "practice": "4.9 Fiction: Listening Practice",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192195",
+      "links": [
+        {
+          "label": "Listening Practice",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192195"
+        }
+      ]
+    },
+    {
+      "id": "nam-en-w1112-1107-1",
+      "kid": "nam",
+      "due": "2026-11-07",
+      "order": 2,
+      "minutes": 15,
+      "subject": "Tiếng Anh",
+      "source": "LMS",
+      "status": "todo",
+      "title": "15 phút – Tiếng Anh: 4.9 Fiction: thảo luận Tom’s personality",
+      "practice": "4.9 Fiction: thảo luận Tom’s personality",
+      "review": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Trả lời trên LMS bằng 3–4 câu, có dẫn chứng từ đoạn trích.",
+      "note": "Bài trên lớp, làm trước phần bổ trợ. Ghi điểm lượt đầu; dưới 80% thì chép câu sai vào Sổ lỗi. Trả lời trên LMS bằng 3–4 câu, có dẫn chứng từ đoạn trích.",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192192",
+      "links": [
+        {
+          "label": "Tom’s personality",
+          "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192192"
         }
       ]
     }
@@ -6768,6 +7136,151 @@
       "source": "LMS",
       "subject": "Việt Nam học",
       "title": "[Quiz tự học] Giới thiệu chủ đề Danh thắng Việt Nam"
+    },
+    {
+      "id": "nam-lms-3074843",
+      "date": "2026-10-30",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 9,
+      "source": "LMS",
+      "subject": "Giáo dục công dân",
+      "title": "Học kì I_Bài kiểm tra cuối học kì (Điểm hệ số 3)"
+    },
+    {
+      "id": "nam-lms-3074840",
+      "date": "2026-10-30",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 10,
+      "source": "LMS",
+      "subject": "Giáo dục công dân",
+      "title": "Học kì I_Bài kiểm tra 15 phút_Số 2 (Hệ số 1)"
+    },
+    {
+      "id": "nam-lms-3074842",
+      "date": "2026-10-30",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 10,
+      "source": "LMS",
+      "subject": "Giáo dục công dân",
+      "title": "Học kì I_Bài kiểm tra 15 phút_Số 1 (Hệ số 1)"
+    },
+    {
+      "id": "nam-lms-3138639",
+      "date": "2026-10-27",
+      "kid": "nam",
+      "max": 8,
+      "official": false,
+      "score": 0,
+      "source": "LMS",
+      "subject": "English",
+      "title": "[MUST DO] 3.10. Use of English Practice 1",
+      "note": "LMS chấm 0/8 – bài chưa làm hoặc nộp trống; cần làm lại."
+    },
+    {
+      "id": "nam-lms-3065909",
+      "date": "2026-10-27",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 8.5,
+      "source": "LMS",
+      "subject": "Hoạt động trải nghiệm",
+      "title": "HK1_Kiểm tra HS2"
+    },
+    {
+      "id": "nam-lms-3065899",
+      "date": "2026-10-27",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 10,
+      "source": "LMS",
+      "subject": "Hoạt động trải nghiệm",
+      "title": "HK1_Kiểm tra HS1 (Bài 2)"
+    },
+    {
+      "id": "nam-lms-3065911",
+      "date": "2026-10-27",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 10,
+      "source": "LMS",
+      "subject": "Hoạt động trải nghiệm",
+      "title": "HK1_Kiểm tra HS1 (Bài 1)"
+    },
+    {
+      "id": "nam-lms-3065902",
+      "date": "2026-10-27",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 9.5,
+      "source": "LMS",
+      "subject": "Hoạt động trải nghiệm",
+      "title": "HK1_Kiểm tra HS3"
+    },
+    {
+      "id": "nam-lms-3130173",
+      "date": "2026-10-27",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 7.5,
+      "source": "LMS",
+      "subject": "English",
+      "title": "Unit 3.8 Project Challenge_Fundraising Leaflet"
+    },
+    {
+      "id": "nam-lms-3100855",
+      "date": "2026-10-26",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 6.33,
+      "source": "LMS",
+      "subject": "Toán",
+      "title": "[QUIZ] Bài 3.4. Hiểu về cận trên và cận dưới",
+      "note": "Dưới 6,5 – xem lại câu sai (đã xếp thứ Hai 02/11)."
+    },
+    {
+      "id": "nam-lms-2748621",
+      "date": "2026-10-26",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 10,
+      "source": "LMS",
+      "subject": "KHTN",
+      "title": "Quiz tự học trước tiết - C3.02"
+    },
+    {
+      "id": "nam-lms-2748397",
+      "date": "2026-10-26",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 9.5,
+      "source": "LMS",
+      "subject": "KHTN",
+      "title": "Quiz tự học trước tiết - C3.01"
+    },
+    {
+      "id": "nam-lms-3049507",
+      "date": "2026-10-24",
+      "kid": "nam",
+      "max": 10,
+      "official": false,
+      "score": 8,
+      "source": "LMS",
+      "subject": "Địa lý",
+      "title": "ĐỊA LÍ 8_NỘP BÀI ĐÁNH GIÁ GIỮA HK1_HẠN CHÓT 23H59 NGÀY 09/10/2026"
     }
   ],
   "notes": [
@@ -7386,19 +7899,45 @@
       "status": "open",
       "subject": "Tiếng Việt",
       "topic": "Tiếng Việt – Dấu ngoặc kép: lời trích dẫn trực tiếp"
+    },
+    {
+      "id": "nam-toan-lms-3-4-can-tren-duoi",
+      "activity": "[QUIZ] Bài 3.4 Hiểu về cận trên và cận dưới",
+      "date": "2026-10-26",
+      "detail": "LMS chấm 6,33/10. Chưa xem được câu sai qua dữ liệu LMS; cần mở phần xem lại bài làm.",
+      "kid": "nam",
+      "level": "unknown",
+      "link": "https://lms.vinschool.edu.vn/courses/88431/assignments/3100855",
+      "source": "LMS",
+      "status": "open",
+      "subject": "Toán",
+      "topic": "Cận trên, cận dưới (làm tròn)"
+    },
+    {
+      "id": "nam-en-lms-3-10-uoe1",
+      "activity": "[MUST DO] 3.10 Use of English Practice 1",
+      "date": "2026-10-27",
+      "detail": "LMS chấm 0/8, có thể con chưa làm mà bài tự đóng. Cần xem lại trên LMS.",
+      "kid": "nam",
+      "level": "unknown",
+      "link": "https://lms.vinschool.edu.vn/courses/87505/assignments/3138639",
+      "source": "LMS",
+      "status": "open",
+      "subject": "Tiếng Anh",
+      "topic": "Use of English – Unit 3"
     }
   ],
   "meta": {
-    "lastSync": "2026-10-27T20:45:00+07:00",
+    "lastSync": "2026-10-31T21:00:00+07:00",
     "nam": {
       "dailyDone": "2026-10-27",
-      "sources": "LMS của Nam đọc lúc 20:20 thứ Ba 27/10 (Tiếng Anh, Toán Bài 4.1)",
-      "tonight": "Thứ Ba 27/10: KHTN C3.02, Toán Bài 4.1 (sổ học tập + quiz Wayground), 3 bài LMS Tiếng Anh Week 10 (3.10 Reading, Listening, Use of English 1).",
+      "sources": "LMS của Nam đọc tối thứ Bảy 31/10 (tất cả môn, mục tuần 02–06/11). VinschoolOne chưa đọc lần này.",
+      "tonight": "Thứ Bảy 31/10: GDCD bài giữa kì (hạn 23:59 tối nay) trước, rồi Toán Bài 4.1 quiz và PHT, 2 bài Use of English trên LMS.",
       "weeklyDone": "2026-10-02"
     },
     "phong": {
       "dailyDone": "2026-10-01",
-      "sources": "LMS của Phong đọc 24/10 (module tuần 10–11, mục đọc trước). MyiMaths và Raz-Kids đọc 24/10: 4 bài MyiMaths thầy giao, 11 sách Raz-Kids Level S còn thiếu quiz; mỗi mục có link thẳng vào đúng bài.",
+      "sources": "MyiMaths và Raz-Kids đọc 31/10: còn 3 bài MyiMaths. LMS của Phong chưa đọc lần này (Chrome đang đăng nhập tài khoản Nam).",
       "tonight": "Chủ nhật 25/10: ôn Toán thi thứ Sáu 30/10 trước (booklet Unit 3, poster và worksheet phân số). Chưa làm xong thì chuyển sang thứ Hai, đến hết thứ Năm.",
       "weeklyDone": "2026-10-02"
     }
