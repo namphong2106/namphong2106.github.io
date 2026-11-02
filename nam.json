@@ -1,0 +1,585 @@
+{
+ "updated": "2026-10-31",
+ "subjects": [
+  {
+   "key": "toan",
+   "name": "Toán",
+   "week": "LMS chưa mở bài mới. Ôn lại Bài 4.1: Lập và giải phương trình.",
+   "todo": [
+    {
+     "t": "Xem lại quiz Bài 3.4 Cận trên và cận dưới (6,33/10)",
+     "d": "2026-11-02",
+     "u": "https://lms.vinschool.edu.vn/courses/88431/assignments/3100855"
+    }
+   ],
+   "extra": [],
+   "exams": [],
+   "grades": [
+    {
+     "t": "[QUIZ] Bài 3.4. Hiểu về cận trên và cận dưới",
+     "s": 6.33,
+     "m": 10,
+     "d": "2026-10-26"
+    },
+    {
+     "t": "[QUIZ] Bài 3.1 Phép nhân và phép chia cho lũy thừa của 10",
+     "s": 8.67,
+     "m": 10,
+     "d": "2026-10-13"
+    },
+    {
+     "t": "[QUIZ] Bài 3.2 Phép nhân và phép chia số thập phân",
+     "s": 7,
+     "m": 10,
+     "d": "2026-10-13"
+    }
+   ]
+  },
+  {
+   "key": "anh",
+   "name": "Tiếng Anh",
+   "week": "Lesson 4.9 Fiction: đọc truyện, đoán nghĩa từ mới. Làm nốt 4.2 và 4.4.",
+   "todo": [
+    {
+     "t": "4.2 Three Advertisements: Reading 1 và Reading 2",
+     "d": "2026-11-02",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192197"
+    },
+    {
+     "t": "4.2: Grammar guide rồi Grammar task",
+     "d": "2026-11-02",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192199"
+    },
+    {
+     "t": "4.2: Writing Task",
+     "d": "2026-11-03",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192201"
+    },
+    {
+     "t": "4.4 Reflexive pronoun: đọc bài rồi làm grammar exercise",
+     "d": "2026-11-03",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192178"
+    },
+    {
+     "t": "4.4 The Psychology of Shopping: Reading Practice",
+     "d": "2026-11-04",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192185"
+    },
+    {
+     "t": "4.4: Listening practice",
+     "d": "2026-11-04",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192186"
+    },
+    {
+     "t": "4.4: Reduced relative clause with passive meaning",
+     "d": "2026-11-05",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192174"
+    },
+    {
+     "t": "4.9 Fiction: Vocabulary Check",
+     "d": "2026-11-05",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192190"
+    },
+    {
+     "t": "4.9 Fiction: Reading Practice",
+     "d": "2026-11-06",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192194"
+    },
+    {
+     "t": "4.9 Fiction: Listening Practice",
+     "d": "2026-11-06",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192195"
+    },
+    {
+     "t": "4.9 Fiction: thảo luận Tom’s personality",
+     "d": "2026-11-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9192192"
+    }
+   ],
+   "extra": [
+    {
+     "t": "Bổ trợ Unit 3: Listening practice 3: Listen for speakers' opinions",
+     "d": "2026-11-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167484"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Listening practice 4: Listen for speakers' opinions",
+     "d": "2026-11-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167485"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Listening mini test 2",
+     "d": "2026-11-08",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167486"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading practice 1",
+     "d": "2026-11-08",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167488"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading practice 2",
+     "d": "2026-11-08",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167489"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading mini test 1",
+     "d": "2026-11-09",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167490"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading practice 3: Deduce the meaning",
+     "d": "2026-11-09",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167491"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading practice 4: Deduce the meaning",
+     "d": "2026-11-10",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167492"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading mini test 2",
+     "d": "2026-11-10",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167493"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading practice: Reading for opinions",
+     "d": "2026-11-11",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167494"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Reading mini test 3",
+     "d": "2026-11-11",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167495"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Use of English practice 1",
+     "d": "2026-11-12",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167497"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Use of English mini test 1",
+     "d": "2026-11-12",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167498"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Use of English practice 2",
+     "d": "2026-11-13",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167499"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Use of English mini test 2",
+     "d": "2026-11-13",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167500"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Proposal letter: Outline generating",
+     "d": "2026-11-14",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167503"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Writing a proposal letter",
+     "d": "2026-11-14",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167504"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Writing a proposal letter (test)",
+     "d": "2026-11-14",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167505"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Descriptive essay: Outline generating",
+     "d": "2026-11-15",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167507"
+    },
+    {
+     "t": "Bổ trợ Unit 3: Writing a descriptive essay",
+     "d": "2026-11-15",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167508"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Listening 1",
+     "d": "2026-11-15",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861870"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Listening 2",
+     "d": "2026-11-16",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861871"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Listening 3",
+     "d": "2026-11-16",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861872"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Reading 1",
+     "d": "2026-11-17",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861874"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Reading 2",
+     "d": "2026-11-17",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861875"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Reading 3",
+     "d": "2026-11-18",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861876"
+    },
+    {
+     "t": "Ôn Progress Check 1: [REVIEW] Reading 4",
+     "d": "2026-11-18",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8861877"
+    },
+    {
+     "t": "Week 2 – Writing a Poem",
+     "d": "2026-11-19",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8566271"
+    },
+    {
+     "t": "Week 3 – Reading practice",
+     "d": "2026-11-19",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8729510"
+    },
+    {
+     "t": "Week 5 – Create Your Own Historical Painting",
+     "d": "2026-11-20",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825339"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening practice 1: Main idea and specific details",
+     "d": "2026-11-20",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825497"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening practice 2: Main idea and specific details",
+     "d": "2026-11-21",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825498"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening mini test 1",
+     "d": "2026-11-21",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825499"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening practice 3 + 4: Listen for speaker's arguments",
+     "d": "2026-11-21",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825500"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening mini test 2",
+     "d": "2026-11-22",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825501"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening practice 5: Deduce the meaning",
+     "d": "2026-11-22",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825502"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening practice 6: Deduce the meaning",
+     "d": "2026-11-22",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825503"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Listening mini test 3",
+     "d": "2026-11-23",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825504"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading practice 3: Deduce the meaning",
+     "d": "2026-11-23",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825510"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading practice 4: Deduce the meaning",
+     "d": "2026-11-24",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825513"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading mini test 2",
+     "d": "2026-11-24",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825515"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading practice 5",
+     "d": "2026-11-25",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825518"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading practice 6",
+     "d": "2026-11-25",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825520"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading mini test 3",
+     "d": "2026-11-26",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825521"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Inconsistency",
+     "d": "2026-11-26",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825523"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading practice 7: Inconsistencies",
+     "d": "2026-11-27",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825525"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Reading mini test 4",
+     "d": "2026-11-27",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825527"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Report: Outline generating",
+     "d": "2026-11-28",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825550"
+    },
+    {
+     "t": "Bổ trợ Unit 2: Write a report about a house/building",
+     "d": "2026-11-28",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825552"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening practice 1: Main ideas and specific details",
+     "d": "2026-11-28",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731000"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening practice 2: Main ideas and specific details",
+     "d": "2026-11-29",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731001"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening practice 3: Listen for arguments",
+     "d": "2026-11-29",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731003"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening practice 4: Listen for arguments",
+     "d": "2026-11-29",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731004"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening mini test 2",
+     "d": "2026-11-30",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731005"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening practice 5: Listen for opinions",
+     "d": "2026-11-30",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731006"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening practice 6: Listen for opinions",
+     "d": "2026-12-01",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731007"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Listening mini test 3",
+     "d": "2026-12-01",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731008"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading practice 2: Main ideas",
+     "d": "2026-12-02",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731012"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading mini test 1",
+     "d": "2026-12-02",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731013"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading practice 1: Specific details and opinions",
+     "d": "2026-12-03",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731014"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading practice 2: Specific details and opinions",
+     "d": "2026-12-03",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731015"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading mini test 2",
+     "d": "2026-12-04",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731016"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading mini test 3",
+     "d": "2026-12-04",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731019"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading practice 5: Implied meaning",
+     "d": "2026-12-05",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731020"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading practice 6: Implied meaning",
+     "d": "2026-12-05",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731021"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Reading mini test 4",
+     "d": "2026-12-05",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731022"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Quick check: Abstract nouns",
+     "d": "2026-12-06",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731026"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Abstract nouns: Practice",
+     "d": "2026-12-06",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731027"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Abstract nouns: Mini test",
+     "d": "2026-12-06",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731028"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Write an instruction (practice)",
+     "d": "2026-12-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731044"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Write an instruction (test)",
+     "d": "2026-12-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731045"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Write a letter (practice)",
+     "d": "2026-12-08",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731049"
+    },
+    {
+     "t": "Bổ trợ Unit 1: Write a letter (test)",
+     "d": "2026-12-08",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8731050"
+    },
+    {
+     "t": "Mục Ms Alex: Speaking presentation: a guide to non-verbal communication",
+     "d": "2026-12-09",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8758395"
+    }
+   ],
+   "exams": [],
+   "grades": [
+    {
+     "t": "[MUST DO] 3.10. Use of English Practice 1",
+     "s": 0,
+     "m": 8,
+     "d": "2026-10-27",
+     "n": "chưa làm"
+    },
+    {
+     "t": "Unit 3.8 Project Challenge_Fundraising Leaflet",
+     "s": 7.5,
+     "m": 10,
+     "d": "2026-10-27"
+    },
+    {
+     "t": "Unit 3.7 – Improve Your Writing: Formal Letter",
+     "s": 6.5,
+     "m": 10,
+     "d": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "key": "khtn",
+   "name": "KHTN",
+   "week": "Chương 3 Năng lượng: C3.03 Bảo toàn năng lượng, C3.04 Truyền nhiệt.",
+   "todo": [
+    {
+     "t": "C3.04 Sự di chuyển từ nóng sang lạnh: đọc lý thuyết rồi làm quiz trước tiết (bắt buộc)",
+     "d": "2026-11-03",
+     "u": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035101"
+    }
+   ],
+   "extra": [
+    {
+     "t": "Quiz sau tiết C3.01 và C3.02 (không bắt buộc)",
+     "d": "2026-11-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87368/quizzes/8035120"
+    },
+    {
+     "t": "Quiz sau tiết C3.03 và C3.04 (luyện thêm, không bắt buộc)",
+     "d": "2026-11-07",
+     "u": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035106"
+    }
+   ],
+   "exams": [],
+   "grades": [
+    {
+     "t": "Quiz tự học trước tiết - C3.02",
+     "s": 10,
+     "m": 10,
+     "d": "2026-10-26"
+    },
+    {
+     "t": "Quiz tự học trước tiết - C3.01",
+     "s": 9.5,
+     "m": 10,
+     "d": "2026-10-26"
+    },
+    {
+     "t": "Quiz trước tiết học – C2.04",
+     "s": 9.56,
+     "m": 10,
+     "d": "2026-10-03"
+    }
+   ]
+  },
+  {
+   "key": "khac",
+   "name": "Môn khác",
+   "week": "",
+   "todo": [],
+   "extra": [],
+   "exams": [],
+   "grades": [
+    {
+     "t": "Học kì I_Bài kiểm tra cuối học kì (Điểm hệ số 3)",
+     "s": 9,
+     "m": 10,
+     "d": "2026-10-30",
+     "sub": "Giáo dục công dân"
+    },
+    {
+     "t": "Học kì I_Bài kiểm tra 15 phút_Số 2 (Hệ số 1)",
+     "s": 10,
+     "m": 10,
+     "d": "2026-10-30",
+     "sub": "Giáo dục công dân"
+    },
+    {
+     "t": "Học kì I_Bài kiểm tra 15 phút_Số 1 (Hệ số 1)",
+     "s": 10,
+     "m": 10,
+     "d": "2026-10-30",
+     "sub": "Giáo dục công dân"
+    },
+    {
+     "t": "HK1_Kiểm tra HS2",
+     "s": 8.5,
+     "m": 10,
+     "d": "2026-10-27",
+     "sub": "Hoạt động trải nghiệm"
+    },
+    {
+     "t": "HK1_Kiểm tra HS1 (Bài 2)",
+     "s": 10,
+     "m": 10,
+     "d": "2026-10-27",
+     "sub": "Hoạt động trải nghiệm"
+    }
+   ]
+  }
+ ]
+}
