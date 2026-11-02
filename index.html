@@ -326,27 +326,50 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
 
 /* ---------- Bản gọn cho Nam: mỗi môn một thẻ ---------- */
-.nv-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-top:22px}
-.nv-tabs button{min-width:0;padding:10px 8px;border:2px solid var(--line);border-radius:12px;background:var(--paper);font:700 17px/1.1 var(--f-display);display:flex;align-items:center;justify-content:center;gap:7px}
-.nv-tabs button i{width:10px;height:10px;border-radius:3px;background:var(--c)}
-.nv-tabs button[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
-@media (max-width:520px){.nv-tabs button{font-size:14px;padding:9px 3px;gap:4px;flex-wrap:wrap}.nv-tabs button i{display:none}}
-.nv-tabs .n{font:700 12px/1 var(--f-body);background:var(--late);color:#fff;border-radius:99px;padding:3px 7px}
-.nv-card{margin-top:14px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:4px 16px 14px}
-.nv-card h3{font:700 18px/1.2 var(--f-display);margin:16px 0 8px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
-.nv-card h3 small{font:500 12.5px var(--f-body);color:var(--muted)}
-.nv-week{margin:0;padding:10px 12px;background:var(--paper-2);border-left:4px solid var(--c);border-radius:8px}
-.nv-list{list-style:none;margin:0;padding:0;display:grid;gap:6px}
-.nv-list li{display:flex;justify-content:space-between;gap:12px;padding:9px 12px;background:var(--paper-2);border-radius:10px}
-.nv-list li span:first-child{min-width:0}
-.nv-list a{font-weight:600;text-underline-offset:3px}
-.nv-list .r{flex:none;color:var(--muted);font-size:13px;white-space:nowrap}
-.nv-list .low{color:var(--late);font-weight:700}
-.nv-list .hi{color:var(--ok);font-weight:700}
-.nv-none{color:var(--muted);margin:0}
-.nv-card details{margin-top:8px}
-.nv-card summary{cursor:pointer;color:var(--muted);font-size:13.5px;font-weight:600;padding:4px 0}
-.nv-card details .nv-list{margin-top:6px}
+#nam-v{--t1:#2f6bff;--t2:#7b4dff;--a1:#ff5d8f;--a2:#ff9a3c;--k1:#10b981;--k2:#06b6d4;--o1:#f59e0b;--o2:#ef4444}
+.nv-tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px}
+.nv-tile{position:relative;overflow:hidden;text-align:left;border:0;border-radius:20px;padding:14px 14px 12px;color:#fff;background:linear-gradient(135deg,var(--g1),var(--g2));box-shadow:0 6px 0 color-mix(in oklab,var(--g2) 60%,#000 25%);transition:transform .15s,box-shadow .15s;min-height:118px;display:flex;flex-direction:column;justify-content:space-between}
+.nv-tile:hover{transform:translateY(-2px)}
+.nv-tile[aria-selected="true"]{transform:translateY(3px);box-shadow:0 2px 0 color-mix(in oklab,var(--g2) 60%,#000 25%),0 0 0 4px var(--bg),0 0 0 7px var(--g1)}
+.nv-tile svg{width:30px;height:30px;opacity:.95}
+.nv-tile::after{content:"";position:absolute;right:-26px;top:-26px;width:92px;height:92px;border-radius:50%;background:rgba(255,255,255,.16)}
+.nv-tile .nm{font:800 19px/1.05 var(--f-display);margin-top:8px}
+.nv-tile .ct{font:600 12.5px/1.2 var(--f-body);opacity:.92}
+.nv-tile .ct b{font:800 22px/1 var(--f-display);margin-right:3px}
+.g-toan{--g1:var(--t1);--g2:var(--t2)} .g-anh{--g1:var(--a1);--g2:var(--a2)} .g-khtn{--g1:var(--k1);--g2:var(--k2)} .g-khac{--g1:var(--o1);--g2:var(--o2)}
+.nv-panel{margin-top:18px;background:var(--paper);border-radius:24px;overflow:hidden;border:1px solid var(--line)}
+.nv-hero{position:relative;padding:18px 18px 22px;color:#fff;background:linear-gradient(120deg,var(--g1),var(--g2))}
+.nv-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 90% 20%,rgba(255,255,255,.25) 0 60px,transparent 61px),radial-gradient(circle at 75% 110%,rgba(255,255,255,.14) 0 80px,transparent 81px)}
+.nv-hero h2{position:relative;font:800 28px/1 var(--f-display)}
+.nv-hero .up{position:relative;font-size:12px;opacity:.85;margin-top:4px}
+.nv-note{position:relative;margin:14px 0 0;max-width:520px;background:#fff8c5;color:#3b3200;padding:12px 14px;border-radius:4px 14px 14px 14px;font-weight:600;box-shadow:0 4px 10px rgba(0,0,0,.15);transform:rotate(-1deg)}
+.nv-note small{display:block;font:800 11px/1 var(--f-body);letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:4px}
+.nv-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;padding:18px}
+.nv-h{font:800 17px/1.2 var(--f-display);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+.nv-h::before{content:"";width:8px;height:20px;border-radius:4px;background:linear-gradient(var(--g1),var(--g2))}
+.nv-h .cnt{margin-left:auto;font:700 12px/1 var(--f-body);background:var(--paper-2);padding:5px 9px;border-radius:99px;color:var(--muted)}
+.nv-day{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;margin-bottom:10px}
+.nv-cal{align-self:start;text-align:center;border-radius:12px;overflow:hidden;border:2px solid var(--g1);background:var(--paper)}
+.nv-cal i{display:block;font:800 10.5px/1 var(--f-body);font-style:normal;color:#fff;background:var(--g1);padding:4px 0}
+.nv-cal b{display:block;font:800 20px/1.1 var(--f-display);padding:3px 0 2px}
+.nv-cal.today{box-shadow:0 0 0 3px color-mix(in oklab,var(--g1) 30%,transparent)}
+.nv-items{display:grid;gap:6px}
+.nv-it{display:block;padding:10px 12px;border-radius:12px;background:var(--paper-2);font-weight:600;line-height:1.35;text-decoration:none;border-left:4px solid var(--g1);transition:transform .12s}
+.nv-it:hover{transform:translateX(3px)}
+.nv-it::after{content:" ↗";color:var(--g1);font-weight:800}
+.nv-more{margin-top:6px}
+.nv-more summary{cursor:pointer;font-weight:700;font-size:13.5px;color:var(--muted);padding:6px 0}
+.nv-more .nv-items{margin-top:6px}
+.nv-empty{display:flex;align-items:center;gap:10px;padding:14px;border-radius:14px;background:var(--paper-2);color:var(--muted);font-weight:600}
+.nv-empty svg{width:26px;height:26px;flex:none;color:var(--g1)}
+.nv-side{display:grid;gap:18px;align-content:start}
+.nv-scores{display:grid;gap:8px}
+.nv-sc{display:grid;grid-template-columns:54px minmax(0,1fr);gap:10px;align-items:center}
+.nv-ring{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--rc) calc(var(--p)*1%),var(--paper-2) 0)}
+.nv-ring span{width:42px;height:42px;border-radius:50%;background:var(--paper);display:grid;place-items:center;font:800 14px/1 var(--f-display)}
+.nv-sc .tt{font-size:13px;line-height:1.3;font-weight:600}
+.nv-sc .tt small{display:block;color:var(--muted);font-weight:500}
+@media (max-width:720px){.nv-grid{grid-template-columns:1fr}.nv-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.nv-tile{min-height:100px}}
 </style>
 </head>
 <body>
@@ -367,7 +390,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   </div>
 
   <section id="nam-v" hidden aria-label="Các môn của Nam">
-    <div class="nv-tabs" role="tablist" id="nv-tabs"></div>
+    <div class="nv-tiles" role="tablist" id="nv-tabs"></div>
     <div id="nv-body"></div>
   </section>
 
@@ -896,44 +919,57 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const DOW = ["CN","T2","T3","T4","T5","T6","T7"];
-  const dm = (d) => d ? `${DOW[new Date(d+"T00:00:00Z").getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}` : "";
+  const dow = (d) => DOW[new Date(d+"T00:00:00Z").getUTCDay()];
+  const dm = (d) => d ? `${d.slice(8,10)}/${d.slice(5,7)}` : "";
   const today = new Date(Date.now() + 7*3600e3).toISOString().slice(0,10);
-  const SL = { toan: 1, anh: 7, khtn: 3, khac: 0 };
   const num = (n) => String(Math.round(n*100)/100).replace(".", ",");
+  const IC = {
+    toan: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 18h.01M12 18h.01M16 18h.01"/>',
+    anh: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
+    khtn: '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M7.5 15h9"/>',
+    khac: '<circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/>'
+  };
+  const svg = (k) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[k] || IC.khac}</svg>`;
+  const OK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>';
+  const CAL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>';
   let data = null, cur = "toan";
   try { cur = localStorage.getItem("soht-nam-subj") || "toan"; } catch(e) {}
   const OLD = [".mode", "section[aria-labelledby='ex-h']", "nav.tabs", "main", "footer"];
-  const link = (it) => /^https:\/\//.test(it.u || "") ? `<a href="${esc(it.u)}" target="_blank" rel="noopener">${esc(it.t)}</a>` : esc(it.t);
-  const list = (arr, right) => `<ul class="nv-list">${arr.map(it => `<li><span>${link(it)}</span><span class="r">${right(it)}</span></li>`).join("")}</ul>`;
+  const url = (it) => /^https:\/\//.test(it.u || "") ? it.u : null;
+  const item = (it) => url(it) ? `<a class="nv-it" href="${esc(url(it))}" target="_blank" rel="noopener">${esc(it.t)}</a>` : `<span class="nv-it">${esc(it.t)}</span>`;
+  const byDay = (arr) => { const g = {}; arr.forEach(t => (g[t.d] ||= []).push(t)); return Object.keys(g).sort().map(d =>
+    `<div class="nv-day"><div class="nv-cal${d === today ? " today" : ""}"><i>${d === today ? "H.NAY" : dow(d)}</i><b>${d.slice(8,10)}</b></div><div class="nv-items">${g[d].map(item).join("")}</div></div>`).join(""); };
   function draw() {
     const isNam = document.querySelector('.kid[data-kid="nam"]').getAttribute("aria-selected") === "true";
     $("nam-v").hidden = !isNam;
     OLD.forEach(q => document.querySelectorAll(q).forEach(el => { el.style.display = isNam ? "none" : ""; }));
     if (!isNam) return;
-    if (!data) { $("nv-body").innerHTML = `<div class="nv-card"><p class="nv-none" style="padding:14px 0">Đang tải…</p></div>`; return; }
+    if (!data) { $("nv-body").innerHTML = `<div class="nv-empty" style="margin-top:18px">Đang tải…</div>`; return; }
     const S = data.subjects;
     if (!S.find(s => s.key === cur)) cur = S[0].key;
     $("nv-tabs").innerHTML = S.map(s => { const n = s.todo.filter(t => t.d >= today).length;
-      return `<button role="tab" class="s${SL[s.key] ?? 0}" data-k="${s.key}" aria-selected="${s.key === cur}"><i></i>${esc(s.name)}${n ? `<span class="n">${n}</span>` : ""}</button>`; }).join("");
+      return `<button role="tab" class="nv-tile g-${s.key}" data-k="${s.key}" aria-selected="${s.key === cur}">${svg(s.key)}<div><div class="nm">${esc(s.name)}</div><div class="ct">${n ? `<b>${n}</b>bài cần làm` : "Không có bài"}</div></div></button>`; }).join("");
     const s = S.find(x => x.key === cur);
     const todo = s.todo.filter(t => t.d >= today), extra = (s.extra || []).filter(t => t.d >= today);
     const exams = (s.exams || []).filter(e => e.d >= today);
-    const sc = (g) => { const v = g.s / g.m * 10; return `<span class="${v < 6.5 ? "low" : v >= 8.5 ? "hi" : ""}">${num(g.s)}/${g.m}</span>${g.n ? " · " + esc(g.n) : ""} · ${dm(g.d).slice(3)}`; };
-    $("nv-body").innerHTML = `<div class="nv-card s${SL[s.key] ?? 0}">
-      <h3>Tuần này học gì <small>Cập nhật ${dm(data.updated)}</small></h3>
-      ${s.week ? `<p class="nv-week">${esc(s.week)}</p>` : `<p class="nv-none">Chưa có thông tin.</p>`}
-      <h3>Bài cần làm <small>${todo.length ? todo.length + " bài" : ""}</small></h3>
-      ${todo.length ? list(todo, t => dm(t.d)) : `<p class="nv-none">Không có bài.</p>`}
-      ${extra.length ? `<details><summary>Bài thêm, không bắt buộc (${extra.length})</summary>${list(extra, t => dm(t.d))}</details>` : ""}
-      <h3>Lịch kiểm tra</h3>
-      ${exams.length ? list(exams, e => dm(e.d)) : `<p class="nv-none">Chưa có lịch.</p>`}
-      <h3>Điểm gần đây</h3>
-      ${s.grades.length ? list(s.grades.map(g => ({ ...g, t: (g.sub ? g.sub + ": " : "") + g.t })), sc) : `<p class="nv-none">Chưa có điểm.</p>`}
-    </div>`;
+    const ring = (g) => { const p = Math.max(0, Math.min(100, g.s / g.m * 100)); const c = p < 65 ? "#ef4444" : p >= 85 ? "#10b981" : "#f59e0b";
+      return `<div class="nv-sc"><div class="nv-ring" style="--p:${p};--rc:${c}"><span>${num(g.s / g.m * 10)}</span></div><div class="tt">${esc((g.sub ? g.sub + " · " : "") + g.t.replace(/^\[[^\]]+\]\s*/, ""))}<small>${num(g.s)}/${g.m}${g.n ? " · " + esc(g.n) : ""} · ${dm(g.d)}</small></div></div>`; };
+    $("nv-body").innerHTML = `<div class="nv-panel g-${s.key}">
+      <div class="nv-hero"><h2>${esc(s.name)}</h2><div class="up">Cập nhật ${dm(data.updated)}</div>
+        <p class="nv-note"><small>Tuần này học gì</small>${s.week ? esc(s.week) : "Chưa có thông tin."}</p></div>
+      <div class="nv-grid">
+        <div><h3 class="nv-h">Bài cần làm ${todo.length ? `<span class="cnt">${todo.length} bài</span>` : ""}</h3>
+          ${todo.length ? byDay(todo) : `<div class="nv-empty">${OK}Không có bài. Tuyệt!</div>`}
+          ${extra.length ? `<details class="nv-more"><summary>+ ${extra.length} bài thêm, không bắt buộc</summary><div class="nv-items">${extra.map(item).join("")}</div></details>` : ""}</div>
+        <div class="nv-side">
+          <div><h3 class="nv-h">Lịch kiểm tra</h3>${exams.length ? `<div class="nv-items">${exams.map(e => `<div class="nv-day"><div class="nv-cal"><i>${dow(e.d)}</i><b>${e.d.slice(8,10)}</b></div>${item(e)}</div>`).join("")}</div>` : `<div class="nv-empty">${CAL}Chưa có lịch.</div>`}</div>
+          <div><h3 class="nv-h">Điểm gần đây</h3>${s.grades.length ? `<div class="nv-scores">${s.grades.map(ring).join("")}</div>` : `<div class="nv-empty">Chưa có điểm.</div>`}</div>
+        </div>
+      </div></div>`;
   }
   $("nv-tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-k]"); if (!b) return; cur = b.dataset.k; try { localStorage.setItem("soht-nam-subj", cur); } catch(e) {} draw(); });
   document.querySelectorAll(".kid").forEach(b => b.addEventListener("click", () => setTimeout(draw, 0)));
-  fetch("nam.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(d => { data = d; draw(); }).catch(() => { $("nv-body").innerHTML = `<div class="nv-card"><p class="nv-none" style="padding:14px 0">Chưa tải được dữ liệu.</p></div>`; });
+  fetch("nam.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(d => { data = d; draw(); }).catch(() => { $("nv-body").innerHTML = `<div class="nv-empty" style="margin-top:18px">Chưa tải được dữ liệu.</div>`; });
   setTimeout(draw, 0);
 })();
 </script>
