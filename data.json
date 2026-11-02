@@ -1862,6 +1862,48 @@
       ],
       "doneAt": "2026-10-31",
       "doneVia": "MyiMaths 31/10: bài đã rời danh sách bài tập về nhà"
+    },
+    {
+      "id": "phong-wg-esl-u4-w12-vocab",
+      "due": "2026-11-02",
+      "kid": "phong",
+      "links": [
+        {
+          "label": "Wayground: ESL Unit 4 W12 (02–06/11) – Vocabulary: Celebrations & Traditional Food (15 câu)",
+          "url": "https://wayground.com/join?gc=48468067"
+        }
+      ],
+      "minutes": 15,
+      "note": "Bài ESL tuần 02–06/11 trên Wayground, bám nội dung LMS Unit 4. Câu nào sai thì đọc kĩ đáp án đúng rồi mới bấm sang câu tiếp.",
+      "order": 1,
+      "practice": "Wayground: ESL Unit 4 W12 (02–06/11) – Vocabulary: Celebrations & Traditional Food (15 câu)",
+      "review": "Từ vựng lễ hội và món ăn truyền thống (Unit 4)",
+      "source": "Wayground",
+      "status": "todo",
+      "subject": "CIE ESL",
+      "title": "15 phút – ESL Unit 4: Vocabulary: Celebrations & Traditional Food",
+      "link": "https://wayground.com/join?gc=48468067"
+    },
+    {
+      "id": "phong-wg-esl-u4-w12-present-continuous",
+      "due": "2026-11-02",
+      "kid": "phong",
+      "links": [
+        {
+          "label": "Wayground: ESL Unit 4 W12 (02–06/11) – Present Continuous: Now & Future Plans (15 câu)",
+          "url": "https://wayground.com/join?gc=04952163"
+        }
+      ],
+      "minutes": 15,
+      "note": "Bài ESL tuần 02–06/11 trên Wayground, bám nội dung LMS Unit 4. Câu nào sai thì đọc kĩ đáp án đúng rồi mới bấm sang câu tiếp.",
+      "order": 2,
+      "practice": "Wayground: ESL Unit 4 W12 (02–06/11) – Present Continuous: Now & Future Plans (15 câu)",
+      "review": "Thì hiện tại tiếp diễn: việc đang làm và kế hoạch sắp tới",
+      "source": "Wayground",
+      "status": "todo",
+      "subject": "CIE ESL",
+      "title": "15 phút – ESL Unit 4: Present Continuous: Now & Future Plans",
+      "link": "https://wayground.com/join?gc=04952163"
     }
   ],
   "exams": [
