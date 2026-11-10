@@ -809,6 +809,179 @@
      "url": "https://lms.vinschool.edu.vn/courses/73707/files/12318454"
     }
    ]
+  },
+  {
+   "subject": "ESL",
+   "due": "2026-11-11",
+   "minutes": 20,
+   "link": "https://lms.vinschool.edu.vn/courses/73561/modules",
+   "source": "LMS",
+   "title": "ESL: Bài về nhà tuần 12 – Present Continuous Practice",
+   "note": "Bài Homework thầy Tim giao tuần 12 (Unit 4). Trang 1 là đề, trang 2 là đáp án – làm xong mới mở trang 2. Slide 'future plans' để xem lại cách dùng thì hiện tại tiếp diễn nói về kế hoạch.",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-esl-w12-present-continuous",
+   "links": [
+    {
+     "label": "📄 Present Continuous Practice – đề + đáp án",
+     "url": "https://lms.vinschool.edu.vn/courses/73561/files/9799583"
+    },
+    {
+     "label": "📄 Slide: Present continuous for future plans",
+     "url": "https://lms.vinschool.edu.vn/courses/73561/files/12210913"
+    }
+   ]
+  },
+  {
+   "subject": "Math",
+   "due": "2026-11-12",
+   "minutes": 25,
+   "link": "https://lms.vinschool.edu.vn/courses/73563/modules",
+   "source": "LMS",
+   "title": "Math: Homework tuần 13 – Reasoning About 3D Shapes",
+   "note": "Homework Unit 6 – 3D Shapes. Làm phiếu câu hỏi trước, sau đó tự chữa bằng file đáp án. Slide dùng để xem lại mặt, cạnh, đỉnh.",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-math-w13-3d-reasoning",
+   "links": [
+    {
+     "label": "📄 Reasoning About 3D Shapes – câu hỏi",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/files/9798783"
+    },
+    {
+     "label": "📄 Reasoning About 3D Shapes – đáp án",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/files/9798681"
+    },
+    {
+     "label": "📄 Slide: Reasoning About 3D Shapes",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/files/9798731"
+    }
+   ]
+  },
+  {
+   "subject": "Science",
+   "due": "2026-11-13",
+   "minutes": 10,
+   "link": "https://lms.vinschool.edu.vn/courses/73566/discussion_topics/631014",
+   "source": "LMS",
+   "title": "Science: Homework 2.2 – Which animals have a loud and soft sound?",
+   "note": "Bài thảo luận tuần 12 (Try your best). Chưa thấy Phong trả lời trên LMS. Bài 2.3 Noise pollution thì Phong đã làm ngày 10/11. Phong tự vào LMS trả lời 1–2 câu, ví dụ: 'A lion is loud, but a butterfly is soft.'",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-sci-w12-homework-loud-soft",
+   "links": [
+    {
+     "label": "📄 Bài giảng Unit 2.2 Volume and Pitch",
+     "url": "https://lms.vinschool.edu.vn/courses/73566/files/12167072"
+    }
+   ]
+  },
+  {
+   "subject": "ESL",
+   "due": "2026-11-14",
+   "minutes": 20,
+   "link": "https://lms.vinschool.edu.vn/courses/73561/modules",
+   "source": "LMS",
+   "title": "ESL: Tự học tuần 13 – đọc Horrid Henry's Birthday",
+   "note": "Truyện tự đọc của Unit 4 (Birthday party). Khi đọc, gạch chân tính từ -ed/-ing và trạng từ -ly, rồi kể lại cho bố mẹ 3 việc Henry làm trong bữa tiệc.",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-esl-w13-horrid-henry",
+   "links": [
+    {
+     "label": "📄 Horrid Henry's Birthday",
+     "url": "https://lms.vinschool.edu.vn/courses/73561/files/12250581"
+    }
+   ]
+  },
+  {
+   "subject": "Math",
+   "due": "2026-11-15",
+   "minutes": 25,
+   "link": "https://lms.vinschool.edu.vn/courses/73563/modules",
+   "source": "LMS",
+   "title": "Math: Unit 2 – 2D Shape and Pattern + Reflected Symmetry",
+   "note": "Tài liệu tuần 12: các loại tam giác, đường ngang/dọc, trục đối xứng. Làm phiếu Reflected Symmetry (trang 2 là đáp án).",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-math-w12-2d-symmetry",
+   "links": [
+    {
+     "label": "📄 2D Shape and Pattern",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/files/12250699"
+    },
+    {
+     "label": "📄 Reflected Symmetry – đề + đáp án",
+     "url": "https://lms.vinschool.edu.vn/courses/73563/files/9798740"
+    }
+   ]
+  },
+  {
+   "subject": "ESL",
+   "due": "2026-11-16",
+   "minutes": 30,
+   "order": 1,
+   "link": "https://lms.vinschool.edu.vn/courses/73561/modules",
+   "source": "Kế hoạch ôn",
+   "title": "Ôn ESL: Phiếu tổng hợp Unit 4 – Special Occasions",
+   "review": "Từ vựng lễ hội/tiệc sinh nhật; Present continuous (now & future plans); who/which/where; tính từ -ed/-ing; trạng từ -ly; viết thiệp mời",
+   "practice": "5 bài tập + viết thiệp mời 40–60 từ; đáp án ở trang cuối",
+   "note": "LMS chưa có đề ôn Unit 4, nên phiếu này được tổng hợp từ poster, slide và bài tập tuần 11–13.",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-on-20261116-esl",
+   "links": [
+    {
+     "label": "📄 Phiếu ôn tổng hợp ESL Unit 4",
+     "url": "https://namphong2106.github.io/files/Phong-ESL-Unit4-Phieu-on-tong-hop.pdf"
+    }
+   ]
+  },
+  {
+   "subject": "Math",
+   "due": "2026-11-19",
+   "minutes": 30,
+   "order": 1,
+   "link": "https://lms.vinschool.edu.vn/courses/73563/modules",
+   "source": "Kế hoạch ôn",
+   "title": "Ôn Math: Phiếu tổng hợp Unit 2 (2D) + Unit 6 (3D Shapes)",
+   "review": "Tam giác đều/cân/thường, trục đối xứng, phép đối xứng; bảng mặt–cạnh–đỉnh của hình 3D, lăng trụ và hình chóp, hình khai triển",
+   "practice": "16 câu; đáp án ở trang cuối",
+   "note": "LMS chưa có đề ôn Unit 2 và Unit 6, nên phiếu này được tổng hợp từ poster, slide và bài tập tuần 12–13.",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-on-20261119-math",
+   "links": [
+    {
+     "label": "📄 Phiếu ôn tổng hợp Math Unit 2 + 6",
+     "url": "https://namphong2106.github.io/files/Phong-Maths-Unit2-6-Phieu-on-tong-hop.pdf"
+    }
+   ]
+  },
+  {
+   "subject": "Science",
+   "due": "2026-11-21",
+   "minutes": 30,
+   "order": 1,
+   "link": "https://lms.vinschool.edu.vn/courses/73566/modules",
+   "source": "Kế hoạch ôn",
+   "title": "Ôn Science: Phiếu tổng hợp Unit 2 – Sound",
+   "review": "Âm thanh do rung động; truyền qua rắn/lỏng/khí; độ to (dB, sound level meter) và cao độ; giảm tiếng ồn; các biến trong thí nghiệm công bằng",
+   "practice": "12 câu; đáp án ở trang cuối. Đọc lại bài giảng 2.1 nếu sai phần rung động",
+   "note": "LMS chưa có đề ôn Unit 2 Sound, nên phiếu này được tổng hợp từ bài giảng 2.1, 2.2 và 2.3.",
+   "kid": "phong",
+   "status": "todo",
+   "id": "phong-on-20261121-science",
+   "links": [
+    {
+     "label": "📄 Phiếu ôn tổng hợp Science Unit 2",
+     "url": "https://namphong2106.github.io/files/Phong-Science-Unit2-Phieu-on-tong-hop.pdf"
+    },
+    {
+     "label": "📄 Bài giảng Unit 2.1 How are sounds made",
+     "url": "https://lms.vinschool.edu.vn/courses/73566/files/10279552"
+    }
+   ]
   }
  ],
  "exams": [
@@ -2999,7 +3172,7 @@
  ],
  "errors": [],
  "meta": {
-  "lastSync": "2026-11-10T23:00:00+07:00",
+  "lastSync": "2026-11-11T02:00:00+07:00",
   "nam": {
    "dailyDone": "2026-11-10",
    "sources": "LMS đã đọc 10/11 · VS One đã đọc 10/11 (điểm tất cả môn)",
@@ -3007,8 +3180,8 @@
   },
   "phong": {
    "dailyDone": "2026-11-10",
-   "sources": "LMS đã đọc 10/11 · VS One đã đọc 10/11 (CIE Maths, Science)",
-   "tonight": "Không có bài LMS đến hạn. Ôn LS&ĐL (2 quiz gần nhất 4.7 và 5.7) 15 phút."
+   "sources": "LMS đã đọc 11/11 (ESL, Maths, Science, LS&ĐL, Tiếng Việt) · VS One đã đọc 10/11",
+   "tonight": "ESL: Present Continuous Practice (20 phút) + Ôn Tiếng Việt đọc hiểu Miếng dán veo-cờ-rô."
   }
  }
 }
