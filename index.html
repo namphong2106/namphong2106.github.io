@@ -327,7 +327,8 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 
 /* ---------- Bản gọn cho Nam: mỗi môn một thẻ (phong cách tối giản cho THCS) ---------- */
 #nam-v{--acc:#2a78d6;font-family:var(--f-body)}
-#nam-v .k-toan{--acc:#3b6fe0} #nam-v .k-anh{--acc:#c2410c} #nam-v .k-khtn{--acc:#0f8a5f} #nam-v .k-khac{--acc:#6b7280}
+#nam-v .k-toan{--acc:#3b6fe0} #nam-v .k-anh{--acc:#c2410c} #nam-v .k-khtn{--acc:#0f8a5f} #nam-v .k-khac{--acc:#6b7280} #nam-v .k-esl{--acc:#c2410c} #nam-v .k-math{--acc:#3b6fe0} #nam-v .k-sci{--acc:#0f8a5f} #nam-v .k-van{--acc:#b4235a}
+.nv-f{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}.nv-f a{font-size:12.5px;font-weight:600;padding:3px 9px;border-radius:8px;border:1px solid var(--line);background:var(--bg,#f5f7fb);text-decoration:none;color:var(--ink)}.nv-f a:hover{border-color:var(--acc);color:var(--acc)}.nv-n{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
 .nv-nav{display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
 .nv-nav button{flex:none;background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:10px 14px 11px;font:600 15px/1 var(--f-body);color:var(--muted);display:flex;align-items:center;gap:8px}
 .nv-nav button i{width:7px;height:7px;border-radius:50%;background:var(--acc)}
@@ -383,7 +384,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     <button type="button" data-mode="parent" aria-pressed="false">Phụ huynh theo dõi</button>
   </div>
 
-  <section id="nam-v" hidden aria-label="Các môn của Nam">
+  <section id="nam-v" hidden aria-label="Các môn theo từng con">
     <div class="nv-nav" role="tablist" id="nv-tabs"></div>
     <div id="nv-body"></div>
   </section>
@@ -916,25 +917,29 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
   const dd = (d) => d ? `${DOW[new Date(d+"T00:00:00Z").getUTCDay()]} ${d.slice(8,10)}/${d.slice(5,7)}` : "";
   const today = new Date(Date.now() + 7*3600e3).toISOString().slice(0,10);
   const num = (n) => String(Math.round(n*100)/100).replace(".", ",");
-  let data = null, cur = "toan";
-  try { cur = localStorage.getItem("soht-nam-subj") || "toan"; } catch(e) {}
+  const DATA = { nam: null, phong: null }, CUR = { nam: "toan", phong: "esl" };
+  ["nam", "phong"].forEach(k => { try { CUR[k] = localStorage.getItem("soht-" + k + "-subj") || CUR[k]; } catch(e) {} });
+  let data = null, cur = "toan", kid = "nam";
   const OLD = [".mode", "section[aria-labelledby='ex-h']", "nav.tabs", "main", "footer"];
   const url = (it) => /^https:\/\//.test(it.u || "") ? it.u : null;
   const title = (it) => url(it) ? `<a href="${esc(url(it))}" target="_blank" rel="noopener">${esc(it.t)}</a>` : `<span class="t">${esc(it.t)}</span>`;
-  const rows = (arr) => `<ul class="nv-rows">${arr.map(it => `<li><span class="nv-d${it.d === today ? " now" : ""}">${it.d === today ? "Hôm nay" : dd(it.d)}</span>${title(it)}<span class="go">${url(it) ? "↗" : ""}</span></li>`).join("")}</ul>`;
+  const furl = (u) => /^https:\/\//.test(u || "") ? u : null;
+  const files = (it) => { const f = (it.f || []).filter(x => furl(x.u)); return f.length ? `<span class="nv-f">${f.map(x => `<a href="${esc(x.u)}" target="_blank" rel="noopener">📄 ${esc(x.l)}</a>`).join("")}</span>` : ""; };
+  const rows = (arr) => `<ul class="nv-rows">${arr.map(it => `<li><span class="nv-d${it.d === today ? " now" : ""}">${!it.d ? (it.x ? "Chưa có ngày" : "Tài liệu") : it.d === today ? "Hôm nay" : dd(it.d)}</span><span>${title(it)}${it.n && it.f ? `<span class="nv-n">${esc(it.n)}</span>` : ""}${files(it)}</span><span class="go">${url(it) ? "↗" : ""}</span></li>`).join("")}</ul>`;
+  const live = (x) => !x.d || x.d >= today;
   function draw() {
-    const isNam = document.querySelector('.kid[data-kid="nam"]').getAttribute("aria-selected") === "true";
-    $("nam-v").hidden = !isNam;
-    OLD.forEach(q => document.querySelectorAll(q).forEach(el => { el.style.display = isNam ? "none" : ""; }));
-    if (!isNam) return;
+    kid = document.querySelector('.kid[data-kid="phong"]').getAttribute("aria-selected") === "true" ? "phong" : "nam";
+    data = DATA[kid]; cur = CUR[kid];
+    $("nam-v").hidden = false;
+    OLD.forEach(q => document.querySelectorAll(q).forEach(el => { el.style.display = "none"; }));
     if (!data) { $("nv-body").innerHTML = `<p class="nv-nil" style="margin-top:18px">Đang tải…</p>`; return; }
     const S = data.subjects;
-    if (!S.find(s => s.key === cur)) cur = S[0].key;
-    $("nv-tabs").innerHTML = S.map(s => { const n = s.todo.filter(t => t.d >= today).length;
+    if (!S.find(s => s.key === cur)) cur = CUR[kid] = S[0].key;
+    $("nv-tabs").innerHTML = S.map(s => { const n = s.todo.filter(t => t.d && t.d >= today).length;
       return `<button role="tab" class="k-${s.key}" data-k="${s.key}" aria-selected="${s.key === cur}"><i></i>${esc(s.name)}${n ? `<em>${n}</em>` : ""}</button>`; }).join("");
     const s = S.find(x => x.key === cur);
-    const todo = s.todo.filter(t => t.d >= today), extra = (s.extra || []).filter(t => t.d >= today);
-    const exams = (s.exams || []).filter(e => e.d >= today);
+    const todo = s.todo.filter(live), extra = (s.extra || []).filter(live);
+    const exams = (s.exams || []).filter(live);
     const g = (x) => { const v = x.s / x.m * 10; const c = v < 6.5 ? "low" : v >= 8.5 ? "hi" : "";
       return `<div class="nv-g"><span class="t">${esc((x.sub ? x.sub + " · " : "") + x.t.replace(/^\[[^\]]+\]\s*/, ""))}</span><span class="s ${c}">${num(x.s)}<small style="font-weight:500;color:var(--muted)">/${x.m}</small></span><span class="m">${dd(x.d)}${x.n ? " · " + esc(x.n) : ""}</span><span></span><span class="bar"><b style="width:${Math.max(0, Math.min(100, v * 10))}%"></b></span></div>`; };
     $("nv-body").innerHTML = `<div class="nv-wrap k-${s.key}">
@@ -948,9 +953,9 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
         <div class="nv-box"><p class="nv-lbl"><span>Điểm gần đây</span></p>${s.grades.length ? s.grades.map(g).join("") : `<p class="nv-nil">Chưa có điểm.</p>`}</div>
       </div></div>`;
   }
-  $("nv-tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-k]"); if (!b) return; cur = b.dataset.k; try { localStorage.setItem("soht-nam-subj", cur); } catch(e) {} draw(); });
+  $("nv-tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-k]"); if (!b) return; cur = CUR[kid] = b.dataset.k; try { localStorage.setItem("soht-" + kid + "-subj", cur); } catch(e) {} draw(); });
   document.querySelectorAll(".kid").forEach(b => b.addEventListener("click", () => setTimeout(draw, 0)));
-  fetch("nam.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(d => { data = d; draw(); }).catch(() => { $("nv-body").innerHTML = `<p class="nv-nil" style="margin-top:18px">Chưa tải được dữ liệu.</p>`; });
+  ["nam", "phong"].forEach(k => fetch(k + ".json?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(d => { DATA[k] = d; draw(); }).catch(() => { if (kid === k) $("nv-body").innerHTML = `<p class="nv-nil" style="margin-top:18px">Chưa tải được dữ liệu.</p>`; }));
   setTimeout(draw, 0);
 })();
 </script>
