@@ -157,6 +157,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .ses.done .acts{opacity:.6}
 
 /* ---------- Ô tích ---------- */
+.tk-wrap{display:inline-flex;align-items:center;gap:6px;flex-shrink:0}.tk-lbl{font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap}.tk-del{border:1px solid color-mix(in oklab,var(--ink) 20%,transparent);background:var(--paper);color:var(--muted);font-size:12px;font-weight:600;font-family:inherit;padding:5px 9px;border-radius:999px;cursor:pointer;white-space:nowrap}.tk-del:hover{color:var(--ink);border-color:var(--ink)}
 .tick{display:grid;place-items:center;padding:0 14px;cursor:pointer}
 .tick input{position:absolute;opacity:0;width:1px;height:1px}
 .tick span{width:32px;height:32px;border-radius:50%;border:2.5px solid color-mix(in oklab,var(--ink) 35%,var(--paper));background:var(--paper);display:grid;place-items:center;transition:transform .15s ease}
@@ -504,6 +505,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   let tab = MODE_TABS[mode].includes(ls.get("soht-tab")) ? ls.get("soht-tab") : MODE_TABS[mode][0];
   // localDone: { mã bài: thời điểm con tích (ms) }
   let localDone = {}; try { localDone = JSON.parse(ls.get("soht-done") || "{}") || {}; } catch(e) {}
+  let hiddenIds = []; try { hiddenIds = JSON.parse(ls.get("soht-hidden") || "[]") || []; } catch(e) {}
   Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
   ls.set("soht-done", JSON.stringify(localDone));
   let showAllExams = false, lastLeft = 0;
@@ -512,7 +514,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const isDone = (t) => t.status === "done" || !!localDone[t.id];
   const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
   const doneTime = (t) => (t.status === "done" ? (Date.parse(t.doneAt || "") || (t.due ? Date.parse(t.due + "T12:00:00+07:00") : 0)) : 0) || Number(localDone[t.id]) || 0;
-  const tick = (t, label, small) => `<label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Đã xong: ${esc(label)}"><span aria-hidden="true"></span></label>`;
+  const tick = (t, label, small) => `<span class="tk-wrap"><label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Hoàn thành: ${esc(label)}"><span aria-hidden="true"></span></label><span class="tk-lbl">Hoàn thành</span><button type="button" class="tk-del" data-hide="${esc(t.id)}" aria-label="Xóa: ${esc(label)}" title="Xóa">Xóa</button></span>`;
   // Bài tích xong trong hôm nay: vẫn hiện (gạch ngang) đến hết ngày, sang ngày mới mới ẩn
   const doneToday = (t, today) => isDone(t) && vnDay(doneTime(t) || Date.now()) === today;
   function rawBucket(t, today) {
@@ -599,7 +601,7 @@ const asAll = mine(state.assess);
     $("ex-more").textContent = showAllExams ? "Thu gọn" : `Xem cả ${exams.length} bài`;
 
     // ----- Thời gian biểu -----
-    const tasks = mine(state.tasks);
+    const tasks = mine(state.tasks).filter(t => !hiddenIds.includes(t.id));
     const kidTasks = tasks.filter(t => t.who !== "parent");
     const inPlan = (t) => Number.isFinite(t.order) && !!t.due && dayDiff(t.due, today) >= 0;
     const plan = kidTasks.filter(inPlan);
@@ -715,7 +717,7 @@ return "<div class='err-sub " + c + "'><i></i><h3>" + esc(subjName(s.subject)) +
 }).join("")).join("") : "<div class='empty'>" + (state.pvReady ? "Chưa có nội dung tuần học." : "Đang tải…") + "</div>";
 
 // ----- Sổ lỗi -----
-    const allErrs = mine(state.errors);
+    const allErrs = mine(state.errors).filter(e => !hiddenIds.includes(e.id));
 const errs = allErrs.filter(e => e.level !== "unknown");
 const revs = allErrs.filter(e => e.level === "unknown");
     const LV = { redo: ["Quiz sửa lỗi", "soon"], repeat: ["Sai nhiều lần", "late"], once: ["Sai 1 lần", "soon"], unknown: ["Chưa rõ câu sai", ""], habit: ["Cách làm bài", ""] };
@@ -852,6 +854,14 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
   document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => { tab = b.dataset.tab; ls.set("soht-tab", tab); render(); }));
   document.querySelectorAll(".mode button").forEach(b => b.addEventListener("click", () => { mode = b.dataset.mode; ls.set("soht-mode", mode); tab = MODE_TABS[mode][0]; ls.set("soht-tab", tab); render(); }));
   $("ex-more").addEventListener("click", () => { showAllExams = !showAllExams; render(); });
+  document.addEventListener("click", (ev) => {
+    const b = ev.target.closest("button[data-hide]");
+    if (!b) return;
+    ev.preventDefault();
+    if (!hiddenIds.includes(b.dataset.hide)) hiddenIds.push(b.dataset.hide);
+    ls.set("soht-hidden", JSON.stringify(hiddenIds));
+    render();
+  });
   document.addEventListener("change", (ev) => {
     const cb = ev.target.closest("input[type=checkbox][data-id]");
     if (!cb) return;
