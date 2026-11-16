@@ -318,6 +318,27 @@
    ]
   },
   {
+   "kid": "nam",
+   "subject": "KHTN",
+   "title": "Kiểm tra KHTN cuối chương 3 (trên lớp)",
+   "due": "2026-11-17",
+   "source": "VS One",
+   "status": "todo",
+   "link": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
+   "note": "Cô Huệ báo 'Thứ ba ngày 16/11' (thứ Ba là 17/11). Ôn lí thuyết + bài tập chương 3.",
+   "id": "nam-kt-khtn-chuong-3",
+   "links": [
+    {
+     "label": "📄 PHT KHTN Bài 3.3 – 3.4",
+     "url": "https://lms.vinschool.edu.vn/courses/87368/files/11527643"
+    },
+    {
+     "label": "📄 PHT KHTN Bài 3.5 – 3.6",
+     "url": "https://lms.vinschool.edu.vn/courses/87368/files/11527643"
+    }
+   ]
+  },
+  {
    "due": "2026-11-19",
    "dueTime": "23:59",
    "kid": "nam",

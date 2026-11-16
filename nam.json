@@ -36,6 +36,7 @@
    "week": "Tuần 16–20/11: chưa có bài mới trên LMS; còn 4 quiz 4.3–5.3 chưa làm. Thi cuối kỳ thứ Năm 03/12, 90 phút, đến hết bài 5.5 Pythagore (Phần 1 không máy tính, Phần 2 có máy tính).",
    "todo": [
     {
+     "id": "nam-pht-12228779",
      "t": "Phiếu học tập 5.1 – Tính góc",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9212484",
@@ -49,6 +50,7 @@
      ]
     },
     {
+     "id": "nam-pht-12228772",
      "t": "Phiếu học tập 4.3 – Bất phương trình",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9212480",
@@ -62,6 +64,7 @@
      ]
     },
     {
+     "id": "nam-pht-12336460",
      "t": "Phiếu học tập 5.2 – Góc trong của đa giác",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9282099",
@@ -75,6 +78,7 @@
      ]
     },
     {
+     "id": "nam-pht-12336480",
      "t": "Phiếu học tập 5.3 – Góc ngoài của đa giác",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9282110",
@@ -88,6 +92,7 @@
      ]
     },
     {
+     "id": "nam-on-20261117-toan",
      "t": "Ôn Toán: Chương 2: biểu thức, 7 hằng đẳng thức, rút gọn phân thức",
      "d": "2026-11-17",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/8230858",
@@ -95,6 +100,7 @@
      "n": "30 phút · SGK 2.3 bài 1, 2, 4, 6–9 + tự kiểm tra câu 2"
     },
     {
+     "id": "nam-toan-quiz-4-3-5-3",
      "t": "Làm 4 quiz Toán còn thiếu: 4.3 Bất phương trình, 5.1 Tính góc, 5.2 Góc trong, 5.3 Góc ngoài đa giác",
      "d": "2026-11-18",
      "u": "https://lms.vinschool.edu.vn/courses/88431/quizzes/2298179",
@@ -120,6 +126,7 @@
      ]
     },
     {
+     "id": "nam-on-20261124-toan",
      "t": "Ôn Toán: Chương 3: số thập phân, phần trăm kép, cận trên – cận dưới",
      "d": "2026-11-24",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/8971400",
@@ -127,6 +134,7 @@
      "n": "40 phút · SGK 3.3 bài 1–3, 5–7; 3.4 bài 1, 2, 6, 7"
     },
     {
+     "id": "nam-on-20261126-toan",
      "t": "Ôn Toán: Chương 4: phương trình, hệ phương trình, bất phương trình",
      "d": "2026-11-26",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9051059",
@@ -134,6 +142,7 @@
      "n": "30 phút · Phiếu học tập 4.1–4.3 + tự kiểm tra câu 5"
     },
     {
+     "id": "nam-on-20261129-toan",
      "t": "Ôn Toán: Chương 5: góc, góc trong và góc ngoài đa giác",
      "d": "2026-11-29",
      "u": "https://lms.vinschool.edu.vn/courses/88431/modules/items/9212482",
@@ -141,6 +150,7 @@
      "n": "30 phút · SGK 5.2 bài 1–5; 5.3 bài 2, 4, 5 + tự kiểm tra câu 6"
     },
     {
+     "id": "nam-on-20261130-toan",
      "t": "Ôn Toán: Ôn Paper 1 không máy tính: số thập phân, phân số, dạng chuẩn",
      "d": "2026-11-30",
      "u": null,
@@ -148,6 +158,7 @@
      "n": "30 phút · Tự kiểm tra Toán câu 1, 3, 4"
     },
     {
+     "id": "nam-on-20261201-toan",
      "t": "Ôn Toán: Tổng ôn Toán chương 1–5, làm lại câu sai",
      "d": "2026-12-01",
      "u": null,
@@ -155,6 +166,7 @@
      "n": "45 phút · Phiếu học tập 5.1–5.3 + các quiz sai trên LMS"
     },
     {
+     "id": "nam-on-20261202-toan",
      "t": "Ôn Toán: Thuộc lại công thức trước thi",
      "d": "2026-12-02",
      "u": null,
@@ -165,6 +177,7 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-nam-toan-cuoi-hki",
      "t": "Toán – Kiểm tra cuối HKI",
      "d": "2026-12-03",
      "n": "Thứ Năm 03/12, tiết 3–4 (9:55–11:30), 90 phút, làm trên giấy. Phạm vi: từ đầu đến hết Bài 5.5 Định lý Pythagore (không kiểm tra kiến thức MOET). Phần 1 không dùng máy tính, Phần 2 được dùng máy tính. Mang thước thẳng, thước đo độ, compa, bút chì, tẩy, bút mực, máy tính cầm tay.",
@@ -281,6 +294,7 @@
    "week": "Tuần 16–20/11: ôn thi cuối kỳ. Unit 4.7 Advertisement Writing được 9,5/10. Thi thứ Hai 23/11, tiết 1–3.",
    "todo": [
     {
+     "id": "nam-on-20261117-tieng-anh",
      "t": "Ôn Tiếng Anh: So sánh: comparative structures, comparative adverbs",
      "d": "2026-11-17",
      "u": null,
@@ -288,6 +302,7 @@
      "n": "30 phút · Quiz Comparative Structure Practice (Lesson 5.1)"
     },
     {
+     "id": "nam-on-20261118-tieng-anh",
      "t": "Ôn Tiếng Anh: Prepositional/phrasal verbs, giới từ đi kèm, gerund và to-V",
      "d": "2026-11-18",
      "u": null,
@@ -295,6 +310,7 @@
      "n": "30 phút · Quiz Prepositional Verbs and Phrasal Verbs (Lesson 5.1)"
     },
     {
+     "id": "nam-on-20261120-tieng-anh",
      "t": "Ôn Tiếng Anh: Tính từ ghép, đại từ, danh từ trừu tượng/ghép, từ nối",
      "d": "2026-11-20",
      "u": null,
@@ -302,6 +318,7 @@
      "n": "45 phút · Quiz MUST-DO tuần 13 (Compound Adjectives, Reflexive pronouns, Prepositions before nouns)"
     },
     {
+     "id": "nam-on-20261121-tieng-anh",
      "t": "Ôn Tiếng Anh: Reading & Listening Unit 3–4",
      "d": "2026-11-21",
      "u": null,
@@ -309,6 +326,7 @@
      "n": "45 phút · Các bài mini test Unit 3 và Unit 4 (mục BỔ TRỢ KIẾN THỨC)"
     },
     {
+     "id": "nam-on-20261122-tieng-anh",
      "t": "Ôn Tiếng Anh: Tổng ôn trước thi: làm lại câu sai, ôn dàn ý các dạng Writing",
      "d": "2026-11-22",
      "u": null,
@@ -319,6 +337,7 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-nam-tieng-anh-cuoi-hki",
      "t": "Tiếng Anh – Kiểm tra cuối HKI (Stage 8)",
      "d": "2026-11-23",
      "n": "Thứ Hai 23/11, tiết 1–3 (8:00–10:40).",
@@ -445,6 +464,7 @@
    "week": "Kiểm tra cuối chương 3 thứ Ba 17/11. Tuần 14 học C4.01 Thực vật và nước, C4.02 Thoát hơi nước ở lá; làm dự án chương 3 (video). Thi cuối kỳ thứ Sáu 04/12 (chương 1–3 và chương 4 đến bài 4.2).",
    "todo": [
     {
+     "id": "nam-khtn-pht-3-3-3-4",
      "t": "Phiếu học tập Bài 3.3 Sự bảo toàn năng lượng & Bài 3.4 Sự di chuyển từ nóng sang lạnh",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
@@ -458,6 +478,7 @@
      ]
     },
     {
+     "id": "nam-khtn-pht-3-5-3-6",
      "t": "Phiếu học tập Bài 3.5 Các hình thức truyền nhiệt & Bài 3.6 Làm mát nhờ sự bay hơi",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
@@ -471,6 +492,7 @@
      ]
     },
     {
+     "id": "nam-lms-2748475",
      "t": "Quiz trước tiết học – C3.05 Các hình thức truyền nhiệt (Bắt buộc)",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/87368/quizzes/2002638",
@@ -478,6 +500,7 @@
      "n": "QUÁ HẠN từ 13/11 · Chưa làm. 10 câu, 10 phút, được làm 3 lần (lấy điểm trung bình), tính điểm cộng ý thức. Nên đọc bài C3.05 trước khi làm."
     },
     {
+     "id": "nam-on-20261116-khtn-kt-chuong-3",
      "t": "Ôn KHTN: kiểm tra cuối chương 3 ngày mai",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
@@ -485,6 +508,24 @@
      "n": "40 phút · Làm lại bài tập chương 3 trong Sách bài tập + phiếu 3.3–3.6"
     },
     {
+     "id": "nam-kt-khtn-chuong-3",
+     "t": "Kiểm tra KHTN cuối chương 3 (trên lớp)",
+     "d": "2026-11-17",
+     "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
+     "sub": "KHTN",
+     "f": [
+      {
+       "l": "PHT KHTN Bài 3.3 – 3.4",
+       "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643"
+      },
+      {
+       "l": "PHT KHTN Bài 3.5 – 3.6",
+       "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643"
+      }
+     ]
+    },
+    {
+     "id": "nam-khtn-quiz-c401-c402",
      "t": "Quiz trước tiết học C4.01 Thực vật và nước + C4.02 Sự thoát hơi nước ở lá",
      "d": "2026-11-17",
      "u": "https://lms.vinschool.edu.vn/courses/87368/quizzes/2002751",
@@ -506,6 +547,7 @@
      ]
     },
     {
+     "id": "nam-on-20261118-khtn",
      "t": "Ôn KHTN: Chương 2: nguyên tử, bảng tuần hoàn, liên kết hóa học",
      "d": "2026-11-18",
      "u": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035134",
@@ -513,6 +555,7 @@
      "n": "30 phút · File gợi ý đáp án ôn tập giữa kỳ + tự kiểm tra câu 5"
     },
     {
+     "id": "nam-on-20261125-khtn",
      "t": "Ôn KHTN: Chương 3: bài 3.1–3.3 (khối lượng riêng, nhiệt, bảo toàn năng lượng)",
      "d": "2026-11-25",
      "u": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035117",
@@ -520,6 +563,7 @@
      "n": "40 phút · Phiếu học tập trang 28–35 + tự kiểm tra câu 1"
     },
     {
+     "id": "nam-on-20261202-khtn",
      "t": "Ôn KHTN: Chương 3: bài 3.4–3.6 (truyền nhiệt, bay hơi)",
      "d": "2026-12-02",
      "u": "https://lms.vinschool.edu.vn/courses/87368/modules/items/8035101",
@@ -527,6 +571,7 @@
      "n": "40 phút · Phiếu học tập trang 35–41 + tự kiểm tra câu 2–4"
     },
     {
+     "id": "nam-on-20261203-khtn",
      "t": "Ôn KHTN: Tổng ôn KHTN chương 1–3",
      "d": "2026-12-03",
      "u": null,
@@ -534,6 +579,7 @@
      "n": "60 phút · Đề cương KHTN: tự kiểm tra 1–5"
     },
     {
+     "id": "nam-khtn-du-an-chuong-3",
      "t": "Dự án chương 3 (video) theo nhóm – làm thí nghiệm sản phẩm và nộp đúng hạn",
      "d": null,
      "u": "https://lms.vinschool.edu.vn/courses/87368/modules/items/9316894",
@@ -549,12 +595,14 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-nam-khtn-kt-cuoi-chuong-3",
      "t": "KHTN – Kiểm tra cuối chương 3",
      "d": "2026-11-17",
      "n": "Ôn lí thuyết và bài tập chương 3. Tin cô Huệ ghi 'Thứ ba ngày 16/11' – 16/11 là thứ Hai, thứ Ba là 17/11; nên ôn xong ngay tối 16/11.",
      "sub": "KHTN"
     },
     {
+     "id": "exam-nam-khtn-cuoi-hki",
      "t": "KHTN – Kiểm tra cuối HKI",
      "d": "2026-12-04",
      "n": "Thứ Sáu 04/12, tiết 3–4 (9:55–11:30). Phạm vi: chương 1, 2, 3 và chương 4 (đến hết bài 4.2). Mang bút, thước, bút chì, compa, máy tính cầm tay, tẩy.",
@@ -671,6 +719,7 @@
    "week": "Lịch sử: Phiếu 2 bài luận nộp trước 23:59 hôm nay 16/11. Địa lí: bài đánh giá cuối kỳ nộp trước 23:59 21/11, quiz hệ số 1 trước 23/11. Ngữ văn thi thứ Ba 01/12. Mĩ thuật: mang thiết bị điện tử tuần này.",
    "todo": [
     {
+     "id": "nam-ls-moc1",
      "t": "Bài luận Lịch sử – Mốc 1: nộp Phiếu 1 (chủ đề, câu hỏi nghiên cứu, ≥3 câu hỏi bổ trợ, luận đề tạm thời)",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/57207/modules/items/9253168",
@@ -688,6 +737,7 @@
      ]
     },
     {
+     "id": "nam-lms-q1998784",
      "t": "Quiz tự học bài 1 – Dân tộc Khmer",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/86970/quizzes/1998784",
@@ -695,6 +745,7 @@
      "n": "QUÁ HẠN từ 13/11 – LMS ghi thiếu · Quá hạn 13/11 – LMS đã ghi THIẾU. Làm bù ngay hôm nay."
     },
     {
+     "id": "nam-ls-moc2",
      "t": "Bài luận Lịch sử – Mốc 2: nộp Phiếu 2 (≥3 nguồn: SGK + 1 sơ cấp + 1 thứ cấp, phân tích từng nguồn)",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/57207/modules/items/9253168",
@@ -712,6 +763,7 @@
      ]
     },
     {
+     "id": "nam-ls-moc3",
      "t": "Bài luận Lịch sử – Mốc 3: nộp bản nháp đủ mở bài, thân bài, kết luận",
      "d": "2026-11-19",
      "u": "https://lms.vinschool.edu.vn/courses/57207/modules/items/9253168",
@@ -729,6 +781,7 @@
      ]
     },
     {
+     "id": "nam-mi-thuat-thiet-bi",
      "t": "Mang thiết bị điện tử cá nhân cho tiết Mĩ thuật tuần này",
      "d": "2026-11-20",
      "u": "https://lms.vinschool.edu.vn/courses/88139/discussion_topics/729547",
@@ -736,6 +789,7 @@
      "n": "Cô Phú nhắc kiểm tra thiết bị trước khi đến lớp."
     },
     {
+     "id": "nam-on-20261121-ngu-van",
      "t": "Ôn Ngữ văn: Thơ Đường luật: Thu điếu, Thiên Trường vãn vọng – thi luật, hình ảnh",
      "d": "2026-11-21",
      "u": null,
@@ -743,6 +797,7 @@
      "n": "30 phút · Tự kiểm tra Ngữ văn câu 1"
     },
     {
+     "id": "nam-dia-ly-danh-gia-cuoi-hki",
      "t": "Địa lí: Bài đánh giá cuối HK1 – bài viết 900–1200 từ + bảng số liệu/bản đồ/biểu đồ",
      "d": "2026-11-21",
      "u": "https://lms.vinschool.edu.vn/courses/87796/assignments/3179704",
@@ -750,6 +805,7 @@
      "n": "hạn 23:59 · Tải file Word 'Tên HS_Lớp_Phiếu làm bài đánh giá cuối HK1 môn Địa lí 8' trên LMS, làm trên lớp và ở nhà, nộp file Word hoặc PDF (không nộp link). LMS ghi hạn 23:59 21/11; tin cô Ly trên VS One ghi thời gian thực hiện 16/11–04/12 – nên theo hạn sớm hơn. Mang laptop sạc đầy, có mạng."
     },
     {
+     "id": "nam-on-20261123-ngu-van",
      "t": "Ôn Ngữ văn: Nghị luận trung đại: Hịch tướng sĩ, Nam quốc sơn hà",
      "d": "2026-11-23",
      "u": null,
@@ -757,6 +813,7 @@
      "n": "30 phút · Tự kiểm tra Ngữ văn câu 2"
     },
     {
+     "id": "nam-dia-ly-quiz-hs1-lan2",
      "t": "Địa lí: Bài kiểm tra hệ số 1 lần 2 (15 phút, 10 câu) – Bài 3 Khoáng sản, Bài 4 Khí hậu Việt Nam",
      "d": "2026-11-23",
      "u": "https://lms.vinschool.edu.vn/courses/87796/quizzes/2327500",
@@ -764,6 +821,7 @@
      "n": "hạn 23:59 · Không giới hạn lượt, điểm lấy trung bình các lượt – ôn kỹ trước khi làm lượt đầu."
     },
     {
+     "id": "nam-on-20261124-ngu-van",
      "t": "Ôn Ngữ văn: Tiếng Việt: tượng hình/tượng thanh, Hán Việt, đảo ngữ, câu hỏi tu từ, từ địa phương",
      "d": "2026-11-24",
      "u": null,
@@ -771,6 +829,7 @@
      "n": "20 phút · Tự kiểm tra Ngữ văn câu 4"
     },
     {
+     "id": "nam-on-20261125-ngu-van",
      "t": "Ôn Ngữ văn: Thơ trào phúng (Lễ xướng danh khoa Đinh Dậu)",
      "d": "2026-11-25",
      "u": null,
@@ -778,6 +837,7 @@
      "n": "20 phút · Đọc lại PBT tuần 13"
     },
     {
+     "id": "nam-on-20261128-ngu-van",
      "t": "Ôn Ngữ văn: Làm văn: lập dàn ý 2 đề (phân tích thơ Đường luật; kể chuyến đi tham quan)",
      "d": "2026-11-28",
      "u": null,
@@ -785,6 +845,7 @@
      "n": "60 phút · Viết dàn ý trên giấy, mỗi đề 20 phút"
     },
     {
+     "id": "nam-on-20261129-ngu-van",
      "t": "Ôn Ngữ văn: Đọc hiểu văn bản ngoài SGK",
      "d": "2026-11-29",
      "u": null,
@@ -792,6 +853,7 @@
      "n": "45 phút · Đề tham khảo KT giữa HK1 trên LMS (làm lại phần Đọc hiểu)"
     },
     {
+     "id": "nam-on-20261130-ngu-van",
      "t": "Ôn Ngữ văn: Tổng ôn Ngữ văn trước thi",
      "d": "2026-11-30",
      "u": null,
@@ -799,6 +861,7 @@
      "n": "30 phút · Đề cương Ngữ văn: tự kiểm tra 1–4"
     },
     {
+     "id": "nam-phu-huynh-khao-sat-he-nang-cao",
      "t": "Phụ huynh: khảo sát Đăng ký chuyển hệ nâng cao năm học 2027–2028",
      "d": null,
      "u": null,
@@ -809,18 +872,21 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-nam-dia-ly-danh-gia-cuoi-hki",
      "t": "Địa lý – Bài đánh giá cuối HK1 (bài viết + bảng số liệu/bản đồ/biểu đồ)",
      "d": "2026-11-21",
      "n": "Làm trên lớp và ở nhà trong 3 tuần (16/11–04/12, 135 phút có GV hỗ trợ). Nộp trên LMS hạn 23:59 21/11.",
      "sub": "Địa lý"
     },
     {
+     "id": "exam-nam-lich-su-bai-luan-cuoi-hki",
      "t": "Lịch sử – Bài luận nghiên cứu cuối HKI (600–900 từ)",
      "d": "2026-11-27",
      "n": "Làm trong 3 tuần, 3 mốc nộp nhận phản hồi: Phiếu 1 trước 23:59 11/11, Phiếu 2 trước 23:59 16/11, bản nháp trước 23:59 19/11; nộp chính thức 1 file PDF trước 23:59 27/11 tại ô NỘP BÀI LUẬN CUỐI HKI trên LMS.",
      "sub": "Lịch sử"
     },
     {
+     "id": "exam-nam-ngu-van-cuoi-hki",
      "t": "Ngữ văn – Kiểm tra cuối HKI",
      "d": "2026-12-01",
      "n": "Thứ Ba 01/12, tiết 3–4 (9:55–11:30).",

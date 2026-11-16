@@ -36,6 +36,7 @@
    "week": "Thi viết thứ Sáu 27/11 (Nghe 25' · Đọc + Use of English 35' · Viết 35'); thi nói 16–27/11. Tuần 14 học Unit 5 Our Brains.",
    "todo": [
     {
+     "id": "phong-esl-w12-present-continuous",
      "t": "ESL: Bài về nhà tuần 12 – Present Continuous Practice",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9199691",
@@ -53,6 +54,7 @@
      ]
     },
     {
+     "id": "phong-esl-w13-horrid-henry",
      "t": "ESL: Tự học tuần 13 – đọc Horrid Henry's Birthday",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9228063",
@@ -66,6 +68,7 @@
      ]
     },
     {
+     "id": "phong-on-20261116-esl",
      "t": "Ôn ESL: Phiếu tổng hợp Unit 4 – Special Occasions",
      "d": "2026-11-16",
      "u": "https://namphong2106.github.io/files/Phong-ESL-Unit4-Phieu-on-tong-hop.pdf",
@@ -79,6 +82,7 @@
      ]
     },
     {
+     "id": "phong-esl-w14-unit5",
      "t": "ESL: Unit 5 Our Brains – Zero Conditional & Tag Questions (tự học tuần 14)",
      "d": "2026-11-20",
      "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9324879",
@@ -96,6 +100,7 @@
      ]
     },
     {
+     "id": "phong-on-20261123-esl-practice",
      "t": "Ôn ESL: Đề luyện End of Semester 1",
      "d": "2026-11-23",
      "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9310521",
@@ -113,6 +118,7 @@
      ]
     },
     {
+     "id": "phong-on-20261126-esl-grammar",
      "t": "Ôn ESL: Tổng ôn ngữ pháp trước thi ngày mai",
      "d": "2026-11-26",
      "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9307632",
@@ -133,12 +139,14 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-phong-esl-eos1-speaking",
      "t": "ESL – Speaking (thi nói trong khoảng 16–27/11)",
      "d": "2026-11-27",
      "n": "Thi nói trong khoảng 16–27/11, ngày cụ thể do thầy xếp. Nói rõ ràng, hỏi và trả lời câu hỏi, chia sẻ ý kiến.",
      "sub": "ESL"
     },
     {
+     "id": "exam-phong-esl-eos1-written",
      "t": "ESL – End of Semester 1 (bài viết)",
      "d": "2026-11-27",
      "n": "Thứ Sáu 27/11. Listening 25 phút (12–15 câu); Reading + Use of English 35 phút; Writing 35 phút (2 bài). Ngữ pháp: hiện tại đơn, quá khứ đơn, hiện tại tiếp diễn; modal verbs; tính từ và trật tự tính từ; so sánh hơn/nhất của tính từ và trạng từ; quantifiers; đại từ bất định; mệnh đề quan hệ; giới từ.",
@@ -178,6 +186,7 @@
    "week": "Thi thứ Năm 03/12 (2 bài, Units 1–7). Tuần 14 học Unit 4 Averages (mode, median). Bài 2D & Nets mới được 22/24.",
    "todo": [
     {
+     "id": "phong-math-w13-3d-reasoning",
      "t": "Math: Homework tuần 13 – Reasoning About 3D Shapes",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/7501824",
@@ -199,6 +208,7 @@
      ]
     },
     {
+     "id": "phong-math-w12-2d-symmetry",
      "t": "Math: Unit 2 – 2D Shape and Pattern + Reflected Symmetry",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9228122",
@@ -216,6 +226,7 @@
      ]
     },
     {
+     "id": "phong-math-w14-median",
      "t": "Math: Homework tuần 14 – Starter for Ten: Median",
      "d": "2026-11-17",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9324649",
@@ -233,6 +244,7 @@
      ]
     },
     {
+     "id": "phong-on-20261119-math",
      "t": "Ôn Math: Phiếu tổng hợp Unit 2 (2D) + Unit 6 (3D Shapes)",
      "d": "2026-11-19",
      "u": "https://namphong2106.github.io/files/Phong-Maths-Unit2-6-Phieu-on-tong-hop.pdf",
@@ -246,6 +258,7 @@
      ]
     },
     {
+     "id": "phong-on-20261128-math-unit-1-2",
      "t": "Ôn Math: Unit 1 & 2 – số thập phân, tam giác, đối xứng",
      "d": "2026-11-28",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310032",
@@ -263,6 +276,7 @@
      ]
     },
     {
+     "id": "phong-on-20261129-math-unit-3-4",
      "t": "Ôn Math: Unit 3 & 4 – dãy số, số đặc biệt, mode/median",
      "d": "2026-11-29",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310041",
@@ -280,6 +294,7 @@
      ]
     },
     {
+     "id": "phong-on-20261130-math-unit-5-6",
      "t": "Ôn Math: Unit 5 & 6 – cộng trừ số thập phân, số âm, hình 3D",
      "d": "2026-11-30",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310042",
@@ -297,6 +312,7 @@
      ]
     },
     {
+     "id": "phong-on-20261201-math-unit-7",
      "t": "Ôn Math: Unit 7 – phân số, số thập phân, phần trăm",
      "d": "2026-12-01",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310043",
@@ -314,6 +330,7 @@
      ]
     },
     {
+     "id": "phong-on-20261202-math-tong-on",
      "t": "Ôn Math: Tổng ôn trước thi ngày mai",
      "d": "2026-12-02",
      "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9307726",
@@ -334,6 +351,7 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-phong-math-eos1",
      "t": "Maths – End of Semester 1 (Paper 1 + Paper 2)",
      "d": "2026-12-03",
      "n": "Thứ Năm 03/12. Units 1–7: số thập phân, nhân chia 10/100/1000, số âm, dãy số, số chính phương, tam giác số, số nguyên tố/hợp số; phân số – thập phân – phần trăm; tam giác và đối xứng, phép đối xứng, hình 3D và hình khai triển của hình lập phương; mode và median. Thời lượng và số câu trường sẽ xác nhận sau.",
@@ -373,6 +391,7 @@
    "week": "Thi thứ Tư 25/11: Paper 1 + Paper 2, mỗi bài 35 phút (Unit 1, Unit 3, Sound 2.1–2.3). Mang bút, bút chì, thước.",
    "todo": [
     {
+     "id": "phong-sci-w12-homework-loud-soft",
      "t": "Science: Homework 2.2 – Which animals have a loud and soft sound?",
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/73566/discussion_topics/631014",
@@ -386,6 +405,7 @@
      ]
     },
     {
+     "id": "phong-on-20261118-science-unit1",
      "t": "Ôn Science: Unit 1 – Plants & life cycles",
      "d": "2026-11-18",
      "u": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9310344",
@@ -403,6 +423,7 @@
      ]
     },
     {
+     "id": "phong-on-20261121-science",
      "t": "Ôn Science: Phiếu tổng hợp Unit 2 – Sound",
      "d": "2026-11-21",
      "u": "https://namphong2106.github.io/files/Phong-Science-Unit2-Phieu-on-tong-hop.pdf",
@@ -420,6 +441,7 @@
      ]
     },
     {
+     "id": "phong-on-20261122-science-unit3",
      "t": "Ôn Science: Unit 3 – Materials & water",
      "d": "2026-11-22",
      "u": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9310385",
@@ -437,6 +459,7 @@
      ]
     },
     {
+     "id": "phong-on-20261124-science-tong-on",
      "t": "Ôn Science: Tổng ôn trước thi ngày mai (Sound + checklist)",
      "d": "2026-11-24",
      "u": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9310345",
@@ -457,6 +480,7 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-phong-science-eos1",
      "t": "Science – End of Semester 1 (Paper 1 + Paper 2)",
      "d": "2026-11-25",
      "n": "Thứ Tư 25/11. Paper 1: 35 phút, Paper 2: 35 phút. Phạm vi: Unit 1 (cây có hoa, thụ phấn, hạt, nảy mầm), Unit 3 (vật liệu, nước, bay hơi – ngưng tụ, dung dịch, khí quyển, vòng tuần hoàn nước), Unit 2.1–2.3 (âm thanh). Kỹ năng thí nghiệm công bằng, biến số. Mang bút, bút chì, thước.",
@@ -505,6 +529,7 @@
    "week": "LS&ĐL: kiểm tra cuối HKI 35 phút (chưa có ngày), ôn theo lịch 17–20/11 bằng đề cô giao.",
    "todo": [
     {
+     "id": "phong-on-20261117-lsdl",
      "t": "Ôn LS&ĐL: Đề ôn tổng hợp số 1 (cả 3 chủ đề)",
      "d": "2026-11-17",
      "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318452",
@@ -518,6 +543,7 @@
      ]
     },
     {
+     "id": "phong-on-20261118-lsdl",
      "t": "Ôn LS&ĐL: Đề ôn tổng hợp số 2",
      "d": "2026-11-18",
      "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318453",
@@ -531,6 +557,7 @@
      ]
     },
     {
+     "id": "phong-on-20261120-lsdl",
      "t": "Ôn LS&ĐL: Đề ôn tổng hợp số 3",
      "d": "2026-11-20",
      "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318454",
@@ -544,6 +571,7 @@
      ]
     },
     {
+     "id": "phong-lsdl-tong-hop-kien-thuc",
      "t": "Tài liệu đọc: Tổng hợp kiến thức trọng tâm LS&ĐL 4 – Học kì 1",
      "d": null,
      "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318449",
@@ -559,6 +587,7 @@
    "extra": [],
    "exams": [
     {
+     "id": "exam-phong-lsdl-cuoi-hki",
      "t": "LS&ĐL – Kiểm tra cuối học kì I",
      "d": null,
      "n": "35 phút, làm tại lớp. Phạm vi từ bài 1.1 đến hết bài 4.2: Địa phương em (TP.HCM), Trung du và miền núi phía Bắc, Đồng bằng Bắc Bộ. Kĩ năng: đọc bản đồ, lược đồ, bảng số liệu; giải thích mối liên hệ tự nhiên – đời sống; đề xuất việc làm bảo vệ môi trường, di tích. Ngày thi chưa công bố.",
