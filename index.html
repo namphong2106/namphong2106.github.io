@@ -328,6 +328,13 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
 /* ---------- Bản gọn cho Nam: mỗi môn một thẻ (phong cách tối giản cho THCS) ---------- */
 #nam-v{--acc:#2a78d6;font-family:var(--f-body)}
 #nam-v .k-toan{--acc:#3b6fe0} #nam-v .k-anh{--acc:#c2410c} #nam-v .k-khtn{--acc:#0f8a5f} #nam-v .k-khac{--acc:#6b7280} #nam-v .k-esl{--acc:#c2410c} #nam-v .k-math{--acc:#3b6fe0} #nam-v .k-sci{--acc:#0f8a5f} #nam-v .k-van{--acc:#b4235a}
+.nv-ban{margin-top:20px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.nv-ban h2{font:700 16px/1.2 var(--f-body);margin:0 0 12px;display:flex;align-items:center;gap:8px}
+.nv-ban ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.nv-ban li{border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;padding:10px 12px;cursor:pointer;background:var(--bg,#f6f8fc)}
+.nv-ban li b{display:block;font-size:15px}.nv-ban li span{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.nv-ban li em{font-style:normal;font-size:12px;font-weight:700;color:var(--acc);margin-top:6px;display:block}
+.nv-ban li.past{opacity:.5}
 .nv-f{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}.nv-f a{font-size:12.5px;font-weight:600;padding:3px 9px;border-radius:8px;border:1px solid var(--line);background:var(--bg,#f5f7fb);text-decoration:none;color:var(--ink)}.nv-f a:hover{border-color:var(--acc);color:var(--acc)}.nv-n{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
 .nv-nav{display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
 .nv-nav button{flex:none;background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:10px 14px 11px;font:600 15px/1 var(--f-body);color:var(--muted);display:flex;align-items:center;gap:8px}
@@ -385,6 +392,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   </div>
 
   <section id="nam-v" hidden aria-label="Các môn theo từng con">
+    <div id="nv-banner"></div>
     <div class="nv-nav" role="tablist" id="nv-tabs"></div>
     <div id="nv-body"></div>
   </section>
@@ -934,6 +942,10 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
     OLD.forEach(q => document.querySelectorAll(q).forEach(el => { el.style.display = "none"; }));
     if (!data) { $("nv-body").innerHTML = `<p class="nv-nil" style="margin-top:18px">Đang tải…</p>`; return; }
     const S = data.subjects;
+    const B = data.banner;
+    const days = (d) => Math.round((Date.parse(d + "T00:00:00Z") - Date.parse(today + "T00:00:00Z")) / 864e5);
+    $("nv-banner").innerHTML = B && B.items && B.items.length ? `<section class="nv-ban"><h2>📅 ${esc(B.title)}</h2><ul>${B.items.map(x => { const n = x.d ? days(x.d) : null;
+      return `<li class="k-${esc(x.k || "")}${n !== null && n < 0 ? " past" : ""}" data-k="${esc(x.k || "")}"><b>${esc(x.sub)}</b><span>${esc(x.time)}</span><em>${n === null ? "Chưa có ngày" : n < 0 ? "Đã thi" : n === 0 ? "Hôm nay" : "Còn " + n + " ngày"}</em></li>`; }).join("")}</ul></section>` : "";
     if (!S.find(s => s.key === cur)) cur = CUR[kid] = S[0].key;
     $("nv-tabs").innerHTML = S.map(s => { const n = s.todo.filter(t => t.d && t.d >= today).length;
       return `<button role="tab" class="k-${s.key}" data-k="${s.key}" aria-selected="${s.key === cur}"><i></i>${esc(s.name)}${n ? `<em>${n}</em>` : ""}</button>`; }).join("");
@@ -953,6 +965,7 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
         <div class="nv-box"><p class="nv-lbl"><span>Điểm gần đây</span></p>${s.grades.length ? s.grades.map(g).join("") : `<p class="nv-nil">Chưa có điểm.</p>`}</div>
       </div></div>`;
   }
+  $("nv-banner").addEventListener("click", (e) => { const b = e.target.closest("li[data-k]"); if (!b || !b.dataset.k || !data || !data.subjects.find(s => s.key === b.dataset.k)) return; cur = CUR[kid] = b.dataset.k; try { localStorage.setItem("soht-" + kid + "-subj", cur); } catch(e) {} draw(); });
   $("nv-tabs").addEventListener("click", (e) => { const b = e.target.closest("button[data-k]"); if (!b) return; cur = CUR[kid] = b.dataset.k; try { localStorage.setItem("soht-" + kid + "-subj", cur); } catch(e) {} draw(); });
   document.querySelectorAll(".kid").forEach(b => b.addEventListener("click", () => setTimeout(draw, 0)));
   ["nam", "phong"].forEach(k => fetch(k + ".json?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(d => { DATA[k] = d; draw(); }).catch(() => { if (kid === k) $("nv-body").innerHTML = `<p class="nv-nil" style="margin-top:18px">Chưa tải được dữ liệu.</p>`; }));

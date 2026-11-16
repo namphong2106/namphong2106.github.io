@@ -1,17 +1,46 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-16",
+ "banner": {
+  "title": "Lịch kiểm tra cuối HK I – Lớp 4",
+  "items": [
+   {
+    "d": "2026-11-25",
+    "sub": "Science",
+    "time": "Thứ Tư 25/11 · 2 bài × 35 phút",
+    "k": "sci"
+   },
+   {
+    "d": "2026-11-27",
+    "sub": "ESL",
+    "time": "Thứ Sáu 27/11 · bài viết (thi nói 16–27/11)",
+    "k": "esl"
+   },
+   {
+    "d": "2026-12-03",
+    "sub": "Math",
+    "time": "Thứ Năm 03/12 · 2 bài",
+    "k": "math"
+   },
+   {
+    "d": null,
+    "sub": "LS&ĐL",
+    "time": "Chưa có ngày · 35 phút",
+    "k": "khac"
+   }
+  ]
+ },
  "subjects": [
   {
    "key": "esl",
    "name": "ESL",
-   "week": "Unit 4 Special Occasions – tuần 13: từ vựng tiệc sinh nhật, tính từ -ed/-ing, trạng từ, viết thiệp mời. LMS chưa có đề ôn Unit 4 → phiếu ôn tổng hợp làm ngày 16/11.",
+   "week": "Thi viết thứ Sáu 27/11 (Nghe 25' · Đọc + Use of English 35' · Viết 35'); thi nói 16–27/11. Tuần 14 học Unit 5 Our Brains.",
    "todo": [
     {
      "t": "ESL: Bài về nhà tuần 12 – Present Continuous Practice",
-     "d": "2026-11-11",
-     "u": "https://lms.vinschool.edu.vn/courses/73561/modules",
+     "d": "2026-11-16",
+     "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9199691",
      "sub": "ESL",
-     "n": "20 phút · Làm phiếu 10 câu, xong mới xem đáp án trang 2",
+     "n": "QUÁ HẠN từ 11/11 · 20 phút · Làm phiếu 10 câu, xong mới xem đáp án trang 2",
      "f": [
       {
        "l": "Present Continuous Practice – đề + đáp án",
@@ -25,10 +54,10 @@
     },
     {
      "t": "ESL: Tự học tuần 13 – đọc Horrid Henry's Birthday",
-     "d": "2026-11-14",
-     "u": "https://lms.vinschool.edu.vn/courses/73561/modules",
+     "d": "2026-11-16",
+     "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9228063",
      "sub": "ESL",
-     "n": "20 phút · Gạch chân tính từ -ed/-ing, trạng từ -ly; kể lại 3 việc",
+     "n": "QUÁ HẠN từ 14/11 · 20 phút · Gạch chân tính từ -ed/-ing, trạng từ -ly; kể lại 3 việc",
      "f": [
       {
        "l": "Horrid Henry's Birthday",
@@ -39,7 +68,7 @@
     {
      "t": "Ôn ESL: Phiếu tổng hợp Unit 4 – Special Occasions",
      "d": "2026-11-16",
-     "u": "https://lms.vinschool.edu.vn/courses/73561/modules",
+     "u": "https://namphong2106.github.io/files/Phong-ESL-Unit4-Phieu-on-tong-hop.pdf",
      "sub": "ESL",
      "n": "30 phút · 5 bài tập + viết thiệp mời 40–60 từ; đáp án ở trang cuối",
      "f": [
@@ -48,23 +77,112 @@
        "u": "https://namphong2106.github.io/files/Phong-ESL-Unit4-Phieu-on-tong-hop.pdf"
       }
      ]
+    },
+    {
+     "t": "ESL: Unit 5 Our Brains – Zero Conditional & Tag Questions (tự học tuần 14)",
+     "d": "2026-11-20",
+     "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9324879",
+     "sub": "ESL",
+     "n": "20 phút · Làm phiếu Zero Conditional và Tag Questions",
+     "f": [
+      {
+       "l": "Zero Conditional",
+       "u": "https://namphong2106.github.io/files/Phong-ESL-Zero-Conditional.pdf"
+      },
+      {
+       "l": "Tag Questions",
+       "u": "https://namphong2106.github.io/files/Phong-ESL-Tag-Questions.pdf"
+      }
+     ]
+    },
+    {
+     "t": "Ôn ESL: Đề luyện End of Semester 1",
+     "d": "2026-11-23",
+     "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9310521",
+     "sub": "ESL",
+     "n": "35 phút · Làm đề luyện như thi thật, chữa câu sai",
+     "f": [
+      {
+       "l": "ESL EoS1 Student Practice",
+       "u": "https://namphong2106.github.io/files/Phong-ESL-EoS1-Student-Practice.pdf"
+      },
+      {
+       "l": "Đề cương thi ESL",
+       "u": "https://namphong2106.github.io/files/Phong-ESL-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
+     "t": "Ôn ESL: Tổng ôn ngữ pháp trước thi ngày mai",
+     "d": "2026-11-26",
+     "u": "https://lms.vinschool.edu.vn/courses/73561/modules/items/9307632",
+     "sub": "ESL",
+     "n": "30 phút · Đọc checklist đề cương, làm lại phiếu ôn Unit 4, luyện viết 1 đoạn",
+     "f": [
+      {
+       "l": "Đề cương thi ESL",
+       "u": "https://namphong2106.github.io/files/Phong-ESL-EoS1-de-cuong.png"
+      },
+      {
+       "l": "Phiếu ôn tổng hợp ESL Unit 4",
+       "u": "https://namphong2106.github.io/files/Phong-ESL-Unit4-Phieu-on-tong-hop.pdf"
+      }
+     ]
     }
    ],
    "extra": [],
-   "exams": [],
-   "grades": []
+   "exams": [
+    {
+     "t": "ESL – Speaking (thi nói trong khoảng 16–27/11)",
+     "d": "2026-11-27",
+     "n": "Thi nói trong khoảng 16–27/11, ngày cụ thể do thầy xếp. Nói rõ ràng, hỏi và trả lời câu hỏi, chia sẻ ý kiến.",
+     "sub": "ESL"
+    },
+    {
+     "t": "ESL – End of Semester 1 (bài viết)",
+     "d": "2026-11-27",
+     "n": "Thứ Sáu 27/11. Listening 25 phút (12–15 câu); Reading + Use of English 35 phút; Writing 35 phút (2 bài). Ngữ pháp: hiện tại đơn, quá khứ đơn, hiện tại tiếp diễn; modal verbs; tính từ và trật tự tính từ; so sánh hơn/nhất của tính từ và trạng từ; quantifiers; đại từ bất định; mệnh đề quan hệ; giới từ.",
+     "sub": "ESL"
+    }
+   ],
+   "grades": [
+    {
+     "t": "Unit 3",
+     "s": 30,
+     "m": 43,
+     "d": "2026-11-01",
+     "sub": "CIE ESL",
+     "n": "Nền tảng đang phát triển. Ôn từ vựng trong câu hỏi, tìm đúng đoạn khi đọc; luyện nghe ngắn; lập dàn ý trước khi viết."
+    },
+    {
+     "t": "Unit 2 – Health",
+     "s": 37,
+     "m": 47,
+     "d": "2026-10-16",
+     "sub": "CIE ESL",
+     "n": "Nên ôn so sánh số lượng (quantifiers) và nghĩa của modal verbs."
+    },
+    {
+     "t": "Unit 1 – Talking about People",
+     "s": 33,
+     "m": 46,
+     "d": "2026-09-23",
+     "sub": "CIE ESL",
+     "n": "Cần viết câu trả lời đầy đủ hơn: thêm ai, cái gì, ở đâu, tại sao."
+    }
+   ]
   },
   {
    "key": "math",
    "name": "Math",
-   "week": "Tuần 13: Unit 6 – 3D Shapes (mặt, cạnh, đỉnh, hình khai triển). Tuần 12: Unit 2 – 2D Shape & Pattern (tam giác, đối xứng). Phiếu ôn tổng hợp làm ngày 19/11.",
+   "week": "Thi thứ Năm 03/12 (2 bài, Units 1–7). Tuần 14 học Unit 4 Averages (mode, median). Bài 2D & Nets mới được 22/24.",
    "todo": [
     {
      "t": "Math: Homework tuần 13 – Reasoning About 3D Shapes",
-     "d": "2026-11-12",
-     "u": "https://lms.vinschool.edu.vn/courses/73563/modules",
+     "d": "2026-11-16",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/7501824",
      "sub": "Math",
-     "n": "25 phút · Làm phiếu câu hỏi, tự chữa bằng file đáp án",
+     "n": "QUÁ HẠN từ 12/11 · 25 phút · Làm phiếu câu hỏi, tự chữa bằng file đáp án",
      "f": [
       {
        "l": "Reasoning About 3D Shapes – câu hỏi",
@@ -82,10 +200,10 @@
     },
     {
      "t": "Math: Unit 2 – 2D Shape and Pattern + Reflected Symmetry",
-     "d": "2026-11-15",
-     "u": "https://lms.vinschool.edu.vn/courses/73563/modules",
+     "d": "2026-11-16",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9228122",
      "sub": "Math",
-     "n": "25 phút · Đọc 2D Shape and Pattern, làm phiếu Reflected Symmetry",
+     "n": "QUÁ HẠN từ 15/11 · 25 phút · Đọc 2D Shape and Pattern, làm phiếu Reflected Symmetry",
      "f": [
       {
        "l": "2D Shape and Pattern",
@@ -98,9 +216,26 @@
      ]
     },
     {
+     "t": "Math: Homework tuần 14 – Starter for Ten: Median",
+     "d": "2026-11-17",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9324649",
+     "sub": "Math",
+     "n": "20 phút · Làm phiếu 10 câu, xong mới xem đáp án",
+     "f": [
+      {
+       "l": "Starter for Ten – Median",
+       "u": "https://namphong2106.github.io/files/Phong-Math-Median-Starter.pdf"
+      },
+      {
+       "l": "Đáp án Median",
+       "u": "https://namphong2106.github.io/files/Phong-Math-Median-Starter-Answers.pdf"
+      }
+     ]
+    },
+    {
      "t": "Ôn Math: Phiếu tổng hợp Unit 2 (2D) + Unit 6 (3D Shapes)",
      "d": "2026-11-19",
-     "u": "https://lms.vinschool.edu.vn/courses/73563/modules",
+     "u": "https://namphong2106.github.io/files/Phong-Maths-Unit2-6-Phieu-on-tong-hop.pdf",
      "sub": "Math",
      "n": "30 phút · 16 câu; đáp án ở trang cuối",
      "f": [
@@ -109,18 +244,118 @@
        "u": "https://namphong2106.github.io/files/Phong-Maths-Unit2-6-Phieu-on-tong-hop.pdf"
       }
      ]
+    },
+    {
+     "t": "Ôn Math: Unit 1 & 2 – số thập phân, tam giác, đối xứng",
+     "d": "2026-11-28",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310032",
+     "sub": "Math",
+     "n": "30 phút · Xem slide ôn Unit 1–2, làm các câu hỏi",
+     "f": [
+      {
+       "l": "Slide ôn Unit 1 & 2",
+       "u": "https://namphong2106.github.io/files/Phong-Math-Review-Unit-1-2.pdf"
+      },
+      {
+       "l": "Đề cương thi Maths",
+       "u": "https://namphong2106.github.io/files/Phong-Math-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
+     "t": "Ôn Math: Unit 3 & 4 – dãy số, số đặc biệt, mode/median",
+     "d": "2026-11-29",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310041",
+     "sub": "Math",
+     "n": "30 phút · Xem slide ôn Unit 3–4",
+     "f": [
+      {
+       "l": "Slide ôn Unit 3 & 4",
+       "u": "https://namphong2106.github.io/files/Phong-Math-Review-Unit-3-4.pdf"
+      },
+      {
+       "l": "Đề cương thi Maths",
+       "u": "https://namphong2106.github.io/files/Phong-Math-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
+     "t": "Ôn Math: Unit 5 & 6 – cộng trừ số thập phân, số âm, hình 3D",
+     "d": "2026-11-30",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310042",
+     "sub": "Math",
+     "n": "30 phút · Xem slide ôn Unit 5–6",
+     "f": [
+      {
+       "l": "Slide ôn Unit 5 & 6",
+       "u": "https://namphong2106.github.io/files/Phong-Math-Review-Unit-5-6.pdf"
+      },
+      {
+       "l": "Đề cương thi Maths",
+       "u": "https://namphong2106.github.io/files/Phong-Math-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
+     "t": "Ôn Math: Unit 7 – phân số, số thập phân, phần trăm",
+     "d": "2026-12-01",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9310043",
+     "sub": "Math",
+     "n": "30 phút · Xem slide ôn Unit 7",
+     "f": [
+      {
+       "l": "Slide ôn Unit 7",
+       "u": "https://namphong2106.github.io/files/Phong-Math-Review-Unit-7.pdf"
+      },
+      {
+       "l": "Đề cương thi Maths",
+       "u": "https://namphong2106.github.io/files/Phong-Math-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
+     "t": "Ôn Math: Tổng ôn trước thi ngày mai",
+     "d": "2026-12-02",
+     "u": "https://lms.vinschool.edu.vn/courses/73563/modules/items/9307726",
+     "sub": "Math",
+     "n": "25 phút · Làm lại các câu sai trong tuần, xem lại 4 trục đối xứng của hình vuông",
+     "f": [
+      {
+       "l": "Đề cương thi Maths",
+       "u": "https://namphong2106.github.io/files/Phong-Math-EoS1-de-cuong.png"
+      },
+      {
+       "l": "Phiếu ôn tổng hợp Math Unit 2 + 6",
+       "u": "https://namphong2106.github.io/files/Phong-Maths-Unit2-6-Phieu-on-tong-hop.pdf"
+      }
+     ]
     }
    ],
    "extra": [],
-   "exams": [],
+   "exams": [
+    {
+     "t": "Maths – End of Semester 1 (Paper 1 + Paper 2)",
+     "d": "2026-12-03",
+     "n": "Thứ Năm 03/12. Units 1–7: số thập phân, nhân chia 10/100/1000, số âm, dãy số, số chính phương, tam giác số, số nguyên tố/hợp số; phân số – thập phân – phần trăm; tam giác và đối xứng, phép đối xứng, hình 3D và hình khai triển của hình lập phương; mode và median. Thời lượng và số câu trường sẽ xác nhận sau.",
+     "sub": "Math"
+    }
+   ],
    "grades": [
+    {
+     "t": "Unit 2 2D Shapes & Unit 6 Nets",
+     "s": 22,
+     "m": 24,
+     "d": "2026-11-12",
+     "sub": "CIE Maths",
+     "n": "Kết quả tốt; ôn lại 4 trục đối xứng của hình vuông (kể cả 2 đường chéo)."
+    },
     {
      "t": "Unit 3 Numbers & Unit 7 Fractions",
      "s": 33,
      "m": 36,
      "d": "2026-11-02",
      "sub": "CIE Maths",
-     "n": "VS One"
+     "n": "= 9.2/10. Tiến bộ rõ, làm bài tập trung hơn."
     },
     {
      "t": "Unit 1 & 5 – Number System, Addition & Subtraction",
@@ -128,21 +363,21 @@
      "m": 36,
      "d": "2026-09-29",
      "sub": "CIE Maths",
-     "n": "VS One"
+     "n": "= 7.5/10. Làm tròn số thập phân tốt; cần đọc kỹ điều kiện đề (lớn hơn/nhỏ hơn, số lẻ)."
     }
    ]
   },
   {
    "key": "sci",
    "name": "Science",
-   "week": "Unit 2 Sound – tuần 13: 2.3 Changing the volume of sound. Bài thảo luận 2.2 Phong chưa trả lời trên LMS. Phiếu ôn tổng hợp làm ngày 21/11.",
+   "week": "Thi thứ Tư 25/11: Paper 1 + Paper 2, mỗi bài 35 phút (Unit 1, Unit 3, Sound 2.1–2.3). Mang bút, bút chì, thước.",
    "todo": [
     {
      "t": "Science: Homework 2.2 – Which animals have a loud and soft sound?",
-     "d": "2026-11-13",
+     "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/73566/discussion_topics/631014",
      "sub": "Science",
-     "n": "10 phút · Vào LMS trả lời 1–2 câu",
+     "n": "QUÁ HẠN từ 13/11 · 10 phút · Vào LMS trả lời 1–2 câu",
      "f": [
       {
        "l": "Bài giảng Unit 2.2 Volume and Pitch",
@@ -151,9 +386,26 @@
      ]
     },
     {
+     "t": "Ôn Science: Unit 1 – Plants & life cycles",
+     "d": "2026-11-18",
+     "u": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9310344",
+     "sub": "Science",
+     "n": "25 phút · Xem slide ôn Unit 1, trả lời các câu hỏi trong slide",
+     "f": [
+      {
+       "l": "Slide ôn Unit 1",
+       "u": "https://namphong2106.github.io/files/Phong-Science-Review-Unit-1.pdf"
+      },
+      {
+       "l": "Đề cương thi Science",
+       "u": "https://namphong2106.github.io/files/Phong-Science-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
      "t": "Ôn Science: Phiếu tổng hợp Unit 2 – Sound",
      "d": "2026-11-21",
-     "u": "https://lms.vinschool.edu.vn/courses/73566/modules",
+     "u": "https://namphong2106.github.io/files/Phong-Science-Unit2-Phieu-on-tong-hop.pdf",
      "sub": "Science",
      "n": "30 phút · 12 câu; đáp án ở trang cuối. Đọc lại bài giảng 2.1 nếu sai phần rung động",
      "f": [
@@ -166,10 +418,51 @@
        "u": "https://lms.vinschool.edu.vn/courses/73566/files/10279552"
       }
      ]
+    },
+    {
+     "t": "Ôn Science: Unit 3 – Materials & water",
+     "d": "2026-11-22",
+     "u": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9310385",
+     "sub": "Science",
+     "n": "30 phút · Xem slide ôn Unit 3, tự trả lời câu hỏi",
+     "f": [
+      {
+       "l": "Slide ôn Unit 3",
+       "u": "https://namphong2106.github.io/files/Phong-Science-Review-Unit-3.pdf"
+      },
+      {
+       "l": "Đề cương thi Science",
+       "u": "https://namphong2106.github.io/files/Phong-Science-EoS1-de-cuong.png"
+      }
+     ]
+    },
+    {
+     "t": "Ôn Science: Tổng ôn trước thi ngày mai (Sound + checklist)",
+     "d": "2026-11-24",
+     "u": "https://lms.vinschool.edu.vn/courses/73566/modules/items/9310345",
+     "sub": "Science",
+     "n": "30 phút · Làm Sound Revision Test, đọc lại checklist đề cương",
+     "f": [
+      {
+       "l": "Sound Revision Test",
+       "u": "https://namphong2106.github.io/files/Phong-Science-Sound-Revision-Test.pdf"
+      },
+      {
+       "l": "Đề cương thi Science",
+       "u": "https://namphong2106.github.io/files/Phong-Science-EoS1-de-cuong.png"
+      }
+     ]
     }
    ],
    "extra": [],
-   "exams": [],
+   "exams": [
+    {
+     "t": "Science – End of Semester 1 (Paper 1 + Paper 2)",
+     "d": "2026-11-25",
+     "n": "Thứ Tư 25/11. Paper 1: 35 phút, Paper 2: 35 phút. Phạm vi: Unit 1 (cây có hoa, thụ phấn, hạt, nảy mầm), Unit 3 (vật liệu, nước, bay hơi – ngưng tụ, dung dịch, khí quyển, vòng tuần hoàn nước), Unit 2.1–2.3 (âm thanh). Kỹ năng thí nghiệm công bằng, biến số. Mang bút, bút chì, thước.",
+     "sub": "Science"
+    }
+   ],
    "grades": [
     {
      "t": "Unit 3 – Water",
@@ -177,7 +470,7 @@
      "m": 27,
      "d": "2026-10-29",
      "sub": "CIE Science",
-     "n": "VS One"
+     "n": "= 9.6/10. Hiểu bài rất chắc; nên luyện giải thích nội dung học bằng ví dụ đời sống."
     },
     {
      "t": "Unit 1 – Flowering and Non-Flowering Plants",
@@ -185,29 +478,15 @@
      "m": 29,
      "d": "2026-10-04",
      "sub": "CIE Science",
-     "n": "VS One"
+     "n": "= 9.3/10. Hiểu chức năng hoa và hạt; cần giải thích quan hệ nhân – quả rõ hơn."
     }
    ]
   },
   {
    "key": "van",
    "name": "Ngữ văn",
-   "week": "Tiếng Việt: Chương 4 – Niềm vui sáng tạo. Hôm nay làm phiếu đọc hiểu Miếng dán veo-cờ-rô.",
-   "todo": [
-    {
-     "t": "Ôn Tiếng Việt: Đọc hiểu: Miếng dán veo-cờ-rô (Chương 4 – Niềm vui sáng tạo)",
-     "d": "2026-11-11",
-     "u": "https://lms.vinschool.edu.vn/courses/73709/modules",
-     "sub": "Tiếng Việt",
-     "n": "20 phút · Phiếu đọc hiểu, làm ra giấy",
-     "f": [
-      {
-       "l": "Phiếu đọc hiểu Miếng dán veo-cờ-rô",
-       "u": "https://lms.vinschool.edu.vn/courses/73709/files/12216448"
-      }
-     ]
-    }
-   ],
+   "week": "Tiếng Việt: Chương 4 – Niềm vui sáng tạo. Lịch thi cuối kỳ chưa có.",
+   "todo": [],
    "extra": [],
    "exams": [],
    "grades": [
@@ -223,51 +502,12 @@
   {
    "key": "khac",
    "name": "Môn khác",
-   "week": "LS&ĐL: kiểm tra cuối HKI 35 phút (chưa có ngày), ôn theo lịch 12–20/11 bằng phiếu cô giao.",
+   "week": "LS&ĐL: kiểm tra cuối HKI 35 phút (chưa có ngày), ôn theo lịch 17–20/11 bằng đề cô giao.",
    "todo": [
-    {
-     "t": "Ôn LS&ĐL: Địa phương em – Thành phố Hồ Chí Minh: vị trí, thiên nhiên, kinh tế, di tích, danh nhân",
-     "d": "2026-11-12",
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
-     "sub": "LS&ĐL",
-     "n": "25 phút · Đọc phần 1 tài liệu Tổng hợp kiến thức + làm phiếu ôn tập Địa phương em",
-     "f": [
-      {
-       "l": "Phiếu ôn tập Địa phương em",
-       "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318450"
-      }
-     ]
-    },
-    {
-     "t": "Ôn LS&ĐL: Trung du và miền núi phía Bắc: thiên nhiên, dân cư, sản xuất, văn hóa (Đền Hùng)",
-     "d": "2026-11-14",
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
-     "sub": "LS&ĐL",
-     "n": "30 phút · Phiếu ôn tập cuối chủ đề Trung du và miền núi phía Bắc",
-     "f": [
-      {
-       "l": "Phiếu ôn tập Trung du và miền núi phía Bắc",
-       "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318455"
-      }
-     ]
-    },
-    {
-     "t": "Ôn LS&ĐL: Đồng bằng Bắc Bộ: sông Hồng, đê điều, nghề trồng lúa, làng nghề",
-     "d": "2026-11-15",
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
-     "sub": "LS&ĐL",
-     "n": "30 phút · Phiếu ôn tập cuối chủ đề Đồng bằng Bắc Bộ",
-     "f": [
-      {
-       "l": "Phiếu ôn tập Đồng bằng Bắc Bộ",
-       "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318451"
-      }
-     ]
-    },
     {
      "t": "Ôn LS&ĐL: Đề ôn tổng hợp số 1 (cả 3 chủ đề)",
      "d": "2026-11-17",
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
+     "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318452",
      "sub": "LS&ĐL",
      "n": "30 phút · Làm đề trong 35 phút như thi thật",
      "f": [
@@ -280,7 +520,7 @@
     {
      "t": "Ôn LS&ĐL: Đề ôn tổng hợp số 2",
      "d": "2026-11-18",
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
+     "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318453",
      "sub": "LS&ĐL",
      "n": "25 phút · Làm đề, đối chiếu tài liệu Tổng hợp kiến thức khi chữa",
      "f": [
@@ -293,7 +533,7 @@
     {
      "t": "Ôn LS&ĐL: Đề ôn tổng hợp số 3",
      "d": "2026-11-20",
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
+     "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318454",
      "sub": "LS&ĐL",
      "n": "25 phút · Làm đề, chữa lại câu sai",
      "f": [
@@ -306,7 +546,7 @@
     {
      "t": "Tài liệu đọc: Tổng hợp kiến thức trọng tâm LS&ĐL 4 – Học kì 1",
      "d": null,
-     "u": "https://lms.vinschool.edu.vn/courses/73707/modules",
+     "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318449",
      "sub": "LS&ĐL",
      "f": [
       {
@@ -328,18 +568,19 @@
    ],
    "grades": [
     {
+     "t": "Bài tập mức độ dễ",
+     "s": 2,
+     "m": 2,
+     "d": "2026-10-14",
+     "sub": "Âm nhạc",
+     "n": "= 10.0/10."
+    },
+    {
      "t": "[Quiz tự học] - Giới thiệu chủ đề Danh thắng Việt Nam",
      "s": 7.5,
      "m": 10,
      "d": "2026-10-14",
      "sub": "Việt Nam học"
-    },
-    {
-     "t": "Bài tập mức độ dễ",
-     "s": 2,
-     "m": 2,
-     "d": "2026-10-14",
-     "sub": "Âm nhạc"
     },
     {
      "t": "🏆 T05_Quiz_Thiên nhiên Trung du và miền núi Bắc Bộ",
@@ -360,28 +601,32 @@
      "s": 3,
      "m": 4,
      "d": "2026-10-07",
-     "sub": "Công nghệ"
+     "sub": "Công nghệ",
+     "n": "= 7.5/10."
     },
     {
      "t": "Bài tập mức độ dễ",
      "s": 2,
      "m": 2,
      "d": "2026-10-07",
-     "sub": "Âm nhạc"
+     "sub": "Âm nhạc",
+     "n": "= 10.0/10."
     },
     {
      "t": "[Quiz tự học] - Chuẩn bị báo cáo sản phẩm",
      "s": 7,
      "m": 10,
      "d": "2026-09-15",
-     "sub": "Việt Nam học"
+     "sub": "Việt Nam học",
+     "n": "Nộp muộn."
     },
     {
      "t": "[Quiz tự học] -  Hướng dẫn thực hiện sản phẩm",
      "s": 3.5,
      "m": 10,
      "d": "2026-08-31",
-     "sub": "Việt Nam học"
+     "sub": "Việt Nam học",
+     "n": "Nộp muộn."
     }
    ]
   }
