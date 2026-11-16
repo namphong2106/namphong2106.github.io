@@ -388,8 +388,6 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
     </div>
   </header>
   <div class="mode" role="group" aria-label="Chế độ xem">
-    <button type="button" data-mode="kid" aria-pressed="true">Con học</button>
-    <button type="button" data-mode="parent" aria-pressed="false">Phụ huynh theo dõi</button>
   </div>
 
   <section id="nam-v" hidden aria-label="Các môn theo từng con">
@@ -500,7 +498,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   let kid = ls.get("soht-kid") === "phong" ? "phong" : "nam";
   const TABS = ["today","week","errors","parent","english","grades","review"];
   const MODE_TABS = { kid: ["today","week","errors"], parent: ["parent","english","grades","review"] };
-  let mode = ls.get("soht-mode") === "parent" ? "parent" : "kid";
+  let mode = "kid";   // đã chốt giao diện: chỉ còn phần con học
   const KEEP_DAYS = 2;   // bài đã làm hiện ở thẻ "Đã làm" trong ngày làm xong và 2 ngày sau đó
   let tab = MODE_TABS[mode].includes(ls.get("soht-tab")) ? ls.get("soht-tab") : MODE_TABS[mode][0];
   // localDone: { mã bài: thời điểm con tích (ms) }
