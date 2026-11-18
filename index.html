@@ -970,6 +970,7 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
     const tItems = [], tExams = [];
     S.forEach(s => { s.todo.filter(visible).forEach(it => { if (it.d === today || (it.d === tmr && /ki[eể]m tra/i.test(it.t))) tItems.push({ ...it, _s: s.name }); });
       (s.exams || []).forEach(e => { if (e.d === today || e.d === tmr) tExams.push({ ...e, _s: s.name }); }); });
+    tItems.sort((a, b) => (a.pin ?? 99) - (b.pin ?? 99)); // mục ghim lên đầu (KHTN quá hạn)
     $("nv-today").innerHTML = (tItems.length || tExams.length) ? `<section class="nv-today"><h2>Hôm nay · ${dd(today)}</h2>${rows(tItems.map(x => ({ ...x, t: x._s + " · " + x.t })))}${tExams.length ? `<p class="nv-lbl" style="margin-top:12px"><span>Kiểm tra hôm nay / ngày mai</span></p>${rows(tExams, false)}` : ""}</section>` : "";
     if (!S.find(s => s.key === cur)) cur = CUR[kid] = S[0].key;
     $("nv-tabs").innerHTML = S.map(s => { const n = s.todo.filter(t => t.d && t.d >= today).length;
