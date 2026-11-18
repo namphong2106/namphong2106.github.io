@@ -161,22 +161,6 @@
      "d": "2026-11-01",
      "sub": "CIE ESL",
      "n": "Nền tảng đang phát triển. Ôn từ vựng trong câu hỏi, tìm đúng đoạn khi đọc; luyện nghe ngắn; lập dàn ý trước khi viết."
-    },
-    {
-     "t": "Unit 2 – Health",
-     "s": 37,
-     "m": 47,
-     "d": "2026-10-16",
-     "sub": "CIE ESL",
-     "n": "Nên ôn so sánh số lượng (quantifiers) và nghĩa của modal verbs."
-    },
-    {
-     "t": "Unit 1 – Talking about People",
-     "s": 33,
-     "m": 46,
-     "d": "2026-09-23",
-     "sub": "CIE ESL",
-     "n": "Cần viết câu trả lời đầy đủ hơn: thêm ai, cái gì, ở đâu, tại sao."
     }
    ]
   },
@@ -374,14 +358,6 @@
      "d": "2026-11-02",
      "sub": "CIE Maths",
      "n": "= 9.2/10. Tiến bộ rõ, làm bài tập trung hơn."
-    },
-    {
-     "t": "Unit 1 & 5 – Number System, Addition & Subtraction",
-     "s": 27,
-     "m": 36,
-     "d": "2026-09-29",
-     "sub": "CIE Maths",
-     "n": "= 7.5/10. Làm tròn số thập phân tốt; cần đọc kỹ điều kiện đề (lớn hơn/nhỏ hơn, số lẻ)."
     }
    ]
   },
@@ -487,24 +463,7 @@
      "sub": "Science"
     }
    ],
-   "grades": [
-    {
-     "t": "Unit 3 – Water",
-     "s": 26,
-     "m": 27,
-     "d": "2026-10-29",
-     "sub": "CIE Science",
-     "n": "= 9.6/10. Hiểu bài rất chắc; nên luyện giải thích nội dung học bằng ví dụ đời sống."
-    },
-    {
-     "t": "Unit 1 – Flowering and Non-Flowering Plants",
-     "s": 27,
-     "m": 29,
-     "d": "2026-10-04",
-     "sub": "CIE Science",
-     "n": "= 9.3/10. Hiểu chức năng hoa và hạt; cần giải thích quan hệ nhân – quả rõ hơn."
-    }
-   ]
+   "grades": []
   },
   {
    "key": "van",
@@ -513,15 +472,7 @@
    "todo": [],
    "extra": [],
    "exams": [],
-   "grades": [
-    {
-     "t": "💡T07_Quiz_Ngôn ngữ: Dấu gạch ngang (1)",
-     "s": 8.67,
-     "m": 10,
-     "d": "2026-10-10",
-     "sub": "Tiếng Việt"
-    }
-   ]
+   "grades": []
   },
   {
    "key": "khac",
@@ -595,69 +546,7 @@
      "x": 1
     }
    ],
-   "grades": [
-    {
-     "t": "Bài tập mức độ dễ",
-     "s": 2,
-     "m": 2,
-     "d": "2026-10-14",
-     "sub": "Âm nhạc",
-     "n": "= 10.0/10."
-    },
-    {
-     "t": "[Quiz tự học] - Giới thiệu chủ đề Danh thắng Việt Nam",
-     "s": 7.5,
-     "m": 10,
-     "d": "2026-10-14",
-     "sub": "Việt Nam học"
-    },
-    {
-     "t": "🏆 T05_Quiz_Thiên nhiên Trung du và miền núi Bắc Bộ",
-     "s": 5.67,
-     "m": 10,
-     "d": "2026-10-12",
-     "sub": "LS&ĐL"
-    },
-    {
-     "t": "🏆T07_Quiz_Đền Hùng và Giỗ Tổ Hùng Vương",
-     "s": 4.72,
-     "m": 10,
-     "d": "2026-10-11",
-     "sub": "LS&ĐL"
-    },
-    {
-     "t": "✍️ T06_Quiz:_Hoa và cây cảnh trong đời sống",
-     "s": 3,
-     "m": 4,
-     "d": "2026-10-07",
-     "sub": "Công nghệ",
-     "n": "= 7.5/10."
-    },
-    {
-     "t": "Bài tập mức độ dễ",
-     "s": 2,
-     "m": 2,
-     "d": "2026-10-07",
-     "sub": "Âm nhạc",
-     "n": "= 10.0/10."
-    },
-    {
-     "t": "[Quiz tự học] - Chuẩn bị báo cáo sản phẩm",
-     "s": 7,
-     "m": 10,
-     "d": "2026-09-15",
-     "sub": "Việt Nam học",
-     "n": "Nộp muộn."
-    },
-    {
-     "t": "[Quiz tự học] -  Hướng dẫn thực hiện sản phẩm",
-     "s": 3.5,
-     "m": 10,
-     "d": "2026-08-31",
-     "sub": "Việt Nam học",
-     "n": "Nộp muộn."
-    }
-   ]
+   "grades": []
   }
  ]
 }
