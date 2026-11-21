@@ -980,7 +980,8 @@ load("assess.json").then(a => { state.assess = (a && a.subjects) || []; state.as
       return `<button role="tab" class="k-${s.key}" data-k="${s.key}" aria-selected="${s.key === cur}"><i></i>${esc(s.name)}${n ? `<em>${n}</em>` : ""}</button>`; }).join("");
     const s = S.find(x => x.key === cur);
     // bài chưa làm (chưa tick) vẫn hiện dù đã qua ngày
-    const todo = s.todo.filter(it => live(it) || (it.id && S_() && !S_().isDone(it.id))).filter(visible), extra = (s.extra || []).filter(live).filter(visible);
+    // bài đã tích (kể cả quá hạn) vẫn giữ lại, hiện gạch ngang; chỉ bài bị ẩn mới biến mất
+    const todo = s.todo.filter(it => live(it) || (it.id && S_() && S_().isDone(it.id)) || (it.id && S_() && !S_().isDone(it.id))).filter(visible), extra = (s.extra || []).filter(it => live(it) || (it.id && S_() && S_().isDone(it.id))).filter(visible);
     const exams = (s.exams || []).filter(live);
     const monthGrades = (s.grades || []).filter(x => String(x.d || "").slice(0, 7) === today.slice(0, 7));
     const g = (x) => { const v = x.s / x.m * 10; const c = v < 6.5 ? "low" : v >= 8.5 ? "hi" : "";
