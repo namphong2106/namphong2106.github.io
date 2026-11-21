@@ -510,6 +510,10 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   // localDone: { mã bài: thời điểm con tích (ms) }
   let localDone = {}; try { localDone = JSON.parse(ls.get("soht-done") || "{}") || {}; } catch(e) {}
   let hiddenIds = []; try { hiddenIds = JSON.parse(ls.get("soht-hidden") || "[]") || []; } catch(e) {}
+  // Bài Tiếng Anh của Nam: không ẩn/xóa được; bài đã ẩn trước đây được khôi phục
+  const isEnglishId = (id) => /tieng-anh|^nam-ta-/.test(String(id || ""));
+  hiddenIds = hiddenIds.filter(id => !isEnglishId(id));
+  ls.set("soht-hidden", JSON.stringify(hiddenIds));
   Object.keys(localDone).forEach(k => { const v = localDone[k]; if (v === true) localDone[k] = Date.now(); else if (!(Number(v) > 0) || Date.now() - Number(v) > 45 * 864e5) delete localDone[k]; });
   ls.set("soht-done", JSON.stringify(localDone));
   let showAllExams = false, lastLeft = 0;
@@ -518,7 +522,7 @@ footer{margin-top:22px;color:var(--muted);font-size:12.5px;max-width:70ch}
   const isDone = (t) => t.status === "done" || !!localDone[t.id];
   const vnDay = (ms) => new Date(ms + 7*3600e3).toISOString().slice(0,10);
   const doneTime = (t) => (t.status === "done" ? (Date.parse(t.doneAt || "") || (t.due ? Date.parse(t.due + "T12:00:00+07:00") : 0)) : 0) || Number(localDone[t.id]) || 0;
-  const tick = (t, label, small) => `<span class="tk-wrap"><label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Hoàn thành: ${esc(label)}"><span aria-hidden="true"></span></label><span class="tk-lbl">Hoàn thành</span><button type="button" class="tk-del" data-hide="${esc(t.id)}" aria-label="Xóa: ${esc(label)}" title="Xóa">Xóa</button></span>`;
+  const tick = (t, label, small) => `<span class="tk-wrap"><label class="tick${small ? " sm" : ""}"><input type="checkbox" data-id="${esc(t.id)}" ${isDone(t) ? "checked" : ""} ${t.status === "done" ? "disabled" : ""} aria-label="Hoàn thành: ${esc(label)}"><span aria-hidden="true"></span></label><span class="tk-lbl">Hoàn thành</span></span>`;
   // Cầu nối cho phần chia môn (script bên dưới): cùng ô tích, cùng nút Xóa, cùng đồng bộ Google Sheet
   const notify = () => { try { window.dispatchEvent(new Event("soht-sync")); } catch(e) {} };
   window.SOHT = { tick: (id, label) => tick({ id, status: "todo" }, label), isDone: (id) => !!localDone[id], isHidden: (id) => hiddenIds.includes(id) };
@@ -865,7 +869,7 @@ return `<div class="row err ${errFixed(e) ? "done" : ""}">${tick({ id: e.id, sta
     const b = ev.target.closest("button[data-hide]");
     if (!b) return;
     ev.preventDefault();
-    if (!hiddenIds.includes(b.dataset.hide)) hiddenIds.push(b.dataset.hide);
+    if (!isEnglishId(b.dataset.hide) && !hiddenIds.includes(b.dataset.hide)) hiddenIds.push(b.dataset.hide);
     ls.set("soht-hidden", JSON.stringify(hiddenIds));
     render(); notify();
   });
