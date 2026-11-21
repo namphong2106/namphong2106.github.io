@@ -3,8 +3,49 @@
   {
    "due": "2026-11-21",
    "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
+   "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483",
+   "links": [
+    {
+     "label": "📄 U3 Listening mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483"
+    },
+    {
+     "label": "📄 U3 Listening mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167486"
+    },
+    {
+     "label": "📄 U3 Reading mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167490"
+    },
+    {
+     "label": "📄 U3 Reading mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167493"
+    },
+    {
+     "label": "📄 U3 Reading mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167495"
+    },
+    {
+     "label": "📄 U4 Listening mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288139"
+    },
+    {
+     "label": "📄 U4 Listening mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288142"
+    },
+    {
+     "label": "📄 U4 Listening mini test 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288145"
+    },
+    {
+     "label": "📄 U4 Reading mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288149"
+    },
+    {
+     "label": "📄 U4 Reading mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288152"
+    }
+   ],
    "minutes": 45,
    "note": "Theo đề cương ôn tập cuối HKI.",
    "order": 1,
@@ -1395,8 +1436,29 @@
   {
    "due": "2026-11-22",
    "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
+   "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378682",
+   "links": [
+    {
+     "label": "📄 Tài liệu ôn tập tổng hợp HK1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378682"
+    },
+    {
+     "label": "📄 Writing: Write an advertisement",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378597"
+    },
+    {
+     "label": "📄 Writing: Write a proposal letter",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378596"
+    },
+    {
+     "label": "📄 Ôn Unit 3 – Society",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378683"
+    },
+    {
+     "label": "📄 Ôn Unit 4 – Advertising",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378686"
+    }
+   ],
    "minutes": 60,
    "note": "Theo đề cương ôn tập cuối HKI.",
    "order": 1,
@@ -1507,7 +1569,7 @@
    "due": "2026-11-22",
    "dueTime": "",
    "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118603",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378583",
    "missing": false,
    "note": "Thầy Hùng nhắn 20/11: hoàn thành toàn bộ bài ôn tập (Revision) và tự học thêm Module Bổ trợ kiến thức Unit 1–4, End of Semester 1 trên LMS trước thi 23/11.",
    "source": "VinschoolOne",
@@ -1517,24 +1579,60 @@
    "id": "nam-anh-bo-tro-unit-1-4",
    "links": [
     {
-     "label": "Revision tuần 14",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118603"
+     "label": "📄 Revision Listening 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378583"
     },
     {
-     "label": "Bổ trợ Unit 1",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1059710"
+     "label": "📄 Revision Listening 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378584"
     },
     {
-     "label": "Bổ trợ Unit 2",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1070280"
+     "label": "📄 Revision Listening 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378585"
     },
     {
-     "label": "Bổ trợ Unit 3",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1106335"
+     "label": "📄 Revision Reading 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378587"
     },
     {
-     "label": "Bổ trợ Unit 4",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118608"
+     "label": "📄 Revision Reading 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378588"
+    },
+    {
+     "label": "📄 Revision Reading 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378589"
+    },
+    {
+     "label": "📄 Revision Reading 4",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378590"
+    },
+    {
+     "label": "📄 Revision Use of English 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378592"
+    },
+    {
+     "label": "📄 Revision Use of English 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378593"
+    },
+    {
+     "label": "📄 Revision Use of English 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9378594"
+    },
+    {
+     "label": "📄 U3 Use of English mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167498"
+    },
+    {
+     "label": "📄 U3 Use of English mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167500"
+    },
+    {
+     "label": "📄 U4 Use of English mini test 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288155"
+    },
+    {
+     "label": "📄 U4 Use of English mini test 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288157"
     }
    ]
   },
