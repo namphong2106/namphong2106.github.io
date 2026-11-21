@@ -207,7 +207,7 @@
    "practice": "Quiz Comparative Structure Practice (Lesson 5.1)",
    "review": "So sánh: comparative structures, comparative adverbs",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "Tiếng Anh",
    "title": "Ôn Tiếng Anh: So sánh: comparative structures, comparative adverbs",
    "id": "nam-on-20261117-tieng-anh"
@@ -323,7 +323,7 @@
    "title": "Kiểm tra KHTN cuối chương 3 (trên lớp)",
    "due": "2026-11-17",
    "source": "VS One",
-   "status": "todo",
+   "status": "done",
    "link": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
    "note": "Cô Huệ báo 'Thứ ba ngày 16/11' (thứ Ba là 17/11). Ôn lí thuyết + bài tập chương 3.",
    "id": "nam-kt-khtn-chuong-3",
@@ -1064,7 +1064,7 @@
    "link": "https://lms.vinschool.edu.vn/courses/88139/discussion_topics/729547",
    "note": "Cô Phú nhắc kiểm tra thiết bị trước khi đến lớp.",
    "source": "LMS + VS One",
-   "status": "todo",
+   "status": "done",
    "subject": "Mĩ thuật",
    "title": "Mang thiết bị điện tử cá nhân cho tiết Mĩ thuật tuần này",
    "id": "nam-mi-thuat-thiet-bi",
@@ -1095,7 +1095,7 @@
    "practice": "Làm lại bài tập chương 3 trong Sách bài tập + phiếu 3.3–3.6",
    "review": "Chương 3: khối lượng riêng, nhiệt lượng – nhiệt độ, bảo toàn năng lượng, truyền nhiệt (dẫn, đối lưu, bức xạ), làm mát bằng bay hơi",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "KHTN",
    "title": "Ôn KHTN: kiểm tra cuối chương 3 ngày mai",
    "id": "nam-on-20261116-khtn-kt-chuong-3",
@@ -1456,10 +1456,129 @@
    "practice": "Quiz Prepositional Verbs and Phrasal Verbs (Lesson 5.1)",
    "review": "Prepositional/phrasal verbs, giới từ đi kèm, gerund và to-V",
    "source": "Kế hoạch ôn",
-   "status": "todo",
+   "status": "done",
    "subject": "Tiếng Anh",
    "title": "Ôn Tiếng Anh: Prepositional/phrasal verbs, giới từ đi kèm, gerund và to-V",
    "id": "nam-on-20261118-tieng-anh"
+  },
+  {
+   "due": "2026-11-22",
+   "dueTime": "",
+   "kid": "nam",
+   "link": "",
+   "missing": false,
+   "note": "Phiếu giấy cô Thảo phát 19/11, con mới làm 1/3. Cô dặn đây là phần quan trọng trong thi cuối HK1. Cần thước thẳng và compa.",
+   "source": "VinschoolOne",
+   "status": "todo",
+   "subject": "Toán",
+   "title": "Phiếu học tập 5.4 – Hướng dẫn dựng hình: làm nốt 2/3 còn lại",
+   "id": "nam-toan-pht-5-4-dung-hinh",
+   "links": []
+  },
+  {
+   "due": "2026-11-25",
+   "dueTime": "",
+   "kid": "nam",
+   "link": "",
+   "missing": false,
+   "note": "Chỗ nào chưa rõ thì hỏi cô Thảo trước buổi thi thử 26/11.",
+   "source": "VinschoolOne",
+   "status": "todo",
+   "subject": "Toán",
+   "title": "Làm phiếu ôn tập HK1 theo các chương (phiếu giấy cô phát 20/11)",
+   "id": "nam-toan-phieu-on-hk1",
+   "links": []
+  },
+  {
+   "due": "2026-11-25",
+   "dueTime": "",
+   "kid": "nam",
+   "link": "",
+   "missing": false,
+   "note": "Thi thử thứ Năm 26/11 để cô đánh giá mức độ học tập trước thi cuối kỳ.",
+   "source": "VinschoolOne",
+   "status": "todo",
+   "subject": "Toán",
+   "title": "Chuẩn bị cho thi thử Toán ngày mai: máy tính cầm tay, thước thẳng, compa",
+   "id": "nam-toan-thi-thu-chuan-bi",
+   "links": []
+  },
+  {
+   "due": "2026-11-22",
+   "dueTime": "",
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118603",
+   "missing": false,
+   "note": "Thầy Hùng nhắn 20/11: hoàn thành toàn bộ bài ôn tập (Revision) và tự học thêm Module Bổ trợ kiến thức Unit 1–4, End of Semester 1 trên LMS trước thi 23/11.",
+   "source": "VinschoolOne",
+   "status": "todo",
+   "subject": "Tiếng Anh",
+   "title": "Module Bổ trợ kiến thức Unit 1–4 + bài Revision tuần 14 trên LMS",
+   "id": "nam-anh-bo-tro-unit-1-4",
+   "links": [
+    {
+     "label": "Revision tuần 14",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118603"
+    },
+    {
+     "label": "Bổ trợ Unit 1",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1059710"
+    },
+    {
+     "label": "Bổ trợ Unit 2",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1070280"
+    },
+    {
+     "label": "Bổ trợ Unit 3",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1106335"
+    },
+    {
+     "label": "Bổ trợ Unit 4",
+     "url": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118608"
+    }
+   ]
+  },
+  {
+   "due": "2026-11-27",
+   "dueTime": "23:59",
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/57207/assignments/3162455",
+   "missing": false,
+   "note": "hạn 23:59 · Nộp chính thức sau khi đã sửa theo góp ý của cô Nhi.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Lịch sử",
+   "title": "Lịch sử: nộp bài luận cuối HKI (1 file PDF) tại ô NỘP BÀI LUẬN CUỐI HKI",
+   "id": "nam-ls-nop-bai-luan-cuoi-hki",
+   "links": []
+  },
+  {
+   "due": "2026-11-27",
+   "dueTime": "23:59",
+   "kid": "nam",
+   "link": "https://lms.vinschool.edu.vn/courses/87796/assignments/3179704",
+   "missing": false,
+   "note": "hạn 23:59 · Tiết Địa tuần sau mang thiết bị điện tử để sửa bài trên lớp.",
+   "source": "VinschoolOne",
+   "status": "todo",
+   "subject": "Địa lý",
+   "title": "Địa lí: sửa bài luận cuối HK1 theo góp ý của cô, nộp LẦN 2 lên LMS",
+   "id": "nam-dia-ly-nop-lan-2",
+   "links": []
+  },
+  {
+   "due": "2026-11-15",
+   "dueTime": "",
+   "kid": "phong",
+   "link": "https://lms.vinschool.edu.vn/courses/73239/assignments/2665311",
+   "missing": false,
+   "note": "QUÁ HẠN từ 15/11 – LMS ghi thiếu. Hỏi cô Mĩ thuật xem có cần nộp ảnh sản phẩm không.",
+   "source": "LMS",
+   "status": "todo",
+   "subject": "Mĩ thuật",
+   "title": "Mĩ thuật: bài Thực hành (LMS ghi thiếu)",
+   "id": "phong-mi-thuat-thuc-hanh-1511",
+   "links": []
   }
  ],
  "exams": [
@@ -1578,6 +1697,26 @@
    "subject": "ESL",
    "title": "ESL – Speaking (5–10 phút mỗi bạn)",
    "id": "phong-esl-eos1-speaking"
+  },
+  {
+   "date": "2026-11-26",
+   "kid": "nam",
+   "link": "",
+   "scope": "Thứ Năm 26/11, trên lớp. Mang máy tính cầm tay, thước thẳng, compa. (Tin cô Thảo 20/11 trên VinschoolOne)",
+   "source": "VinschoolOne",
+   "subject": "Toán",
+   "title": "Toán – Thi thử trước cuối HKI",
+   "id": "nam-toan-thi-thu"
+  },
+  {
+   "date": "2026-11-23",
+   "kid": "nam",
+   "link": "",
+   "scope": "Làm trong 4 tiết Tin học trên lớp, từ 23/11 đến 04/12. Cá nhân hoặc nhóm tối đa 2 bạn. Cô Nhi theo dõi và chấm trực tiếp trên lớp – cần đi học đủ, đúng giờ.",
+   "source": "VinschoolOne",
+   "subject": "Tin học",
+   "title": "Tin học – Dự án cuối kỳ (làm trên lớp)",
+   "id": "nam-tin-hoc-du-an-cuoi-hki"
   }
  ],
  "grades": [
@@ -3803,15 +3942,15 @@
  ],
  "errors": [],
  "meta": {
-  "lastSync": "2026-11-16T19:00:00+07:00",
+  "lastSync": "2026-11-21T09:00:00+07:00",
   "nam": {
    "dailyDone": "2026-11-16",
-   "sources": "LMS đã đọc 16/11 · VS One đã đọc 16/11",
+   "sources": "LMS đã đọc 21/11 · VS One đã đọc 21/11",
    "tonight": "Ôn KHTN chương 3 cho bài kiểm tra cuối chương ngày mai; làm bù Quiz VNH Dân tộc Khmer (đã quá hạn); nộp Phiếu 2 bài luận Lịch sử trước 23:59 hôm nay."
   },
   "phong": {
    "dailyDone": "2026-11-16",
-   "sources": "LMS đã đọc 16/11 (đề cương thi ESL, Maths, Science) · VS One đã đọc 16/11",
+   "sources": "LMS đã đọc 21/11 · VS One đã đọc 21/11 (không có tin mới từ 13/11)",
    "tonight": "Làm phiếu ôn ESL Unit 4 (30 phút). Tuần này có thể thi nói ESL bất kỳ ngày nào – tập trả lời câu hỏi về bản thân."
   }
  }

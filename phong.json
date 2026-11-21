@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-21",
  "banner": {
   "title": "Lịch kiểm tra cuối HK I – Lớp 4",
   "items": [
@@ -533,6 +533,14 @@
        "u": "https://lms.vinschool.edu.vn/courses/73707/files/12318449"
       }
      ]
+    },
+    {
+     "id": "phong-mi-thuat-thuc-hanh-1511",
+     "t": "Mĩ thuật: bài Thực hành (LMS ghi thiếu)",
+     "d": "2026-11-15",
+     "u": "https://lms.vinschool.edu.vn/courses/73239/assignments/2665311",
+     "sub": "Mĩ thuật",
+     "n": "QUÁ HẠN từ 15/11 – LMS ghi thiếu. Hỏi cô Mĩ thuật xem có cần nộp ảnh sản phẩm không."
     }
    ],
    "extra": [],

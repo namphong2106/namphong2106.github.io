@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-21",
  "banner": {
   "title": "Lịch kiểm tra cuối HK I – Khối 8",
   "items": [
@@ -33,7 +33,7 @@
   {
    "key": "toan",
    "name": "Toán",
-   "week": "Tuần 16–20/11: chưa có bài mới trên LMS; còn 4 quiz 4.3–5.3 chưa làm. Thi cuối kỳ thứ Năm 03/12, 90 phút, đến hết bài 5.5 Pythagore (Phần 1 không máy tính, Phần 2 có máy tính).",
+   "week": "Cô Thảo phát phiếu ôn tập HK1 theo chương (20/11) và Phiếu học tập 5.4 Dựng hình (19/11, con mới làm 1/3). Thi thử thứ Năm 26/11 – mang máy tính cầm tay, thước thẳng, compa. Còn 4 quiz 4.3–5.3 chưa làm. Thi cuối kỳ thứ Năm 03/12.",
    "todo": [
     {
      "id": "nam-pht-12228779",
@@ -172,10 +172,38 @@
      "u": null,
      "sub": "Toán",
      "n": "20 phút · Mục 'Công thức phải thuộc' trong đề cương"
+    },
+    {
+     "id": "nam-toan-pht-5-4-dung-hinh",
+     "t": "Phiếu học tập 5.4 – Hướng dẫn dựng hình: làm nốt 2/3 còn lại",
+     "d": "2026-11-22",
+     "sub": "Toán",
+     "n": "Phiếu giấy cô Thảo phát 19/11, con mới làm 1/3. Cô dặn đây là phần quan trọng trong thi cuối HK1. Cần thước thẳng và compa."
+    },
+    {
+     "id": "nam-toan-phieu-on-hk1",
+     "t": "Làm phiếu ôn tập HK1 theo các chương (phiếu giấy cô phát 20/11)",
+     "d": "2026-11-25",
+     "sub": "Toán",
+     "n": "Chỗ nào chưa rõ thì hỏi cô Thảo trước buổi thi thử 26/11."
+    },
+    {
+     "id": "nam-toan-thi-thu-chuan-bi",
+     "t": "Chuẩn bị cho thi thử Toán ngày mai: máy tính cầm tay, thước thẳng, compa",
+     "d": "2026-11-25",
+     "sub": "Toán",
+     "n": "Thi thử thứ Năm 26/11 để cô đánh giá mức độ học tập trước thi cuối kỳ."
     }
    ],
    "extra": [],
    "exams": [
+    {
+     "id": "exam-nam-toan-thi-thu",
+     "t": "Toán – Thi thử trước cuối HKI",
+     "d": "2026-11-26",
+     "n": "Thứ Năm 26/11, trên lớp. Mang máy tính cầm tay, thước thẳng, compa. (Tin cô Thảo 20/11 trên VinschoolOne)",
+     "sub": "Toán"
+    },
     {
      "id": "exam-nam-toan-cuoi-hki",
      "t": "Toán – Kiểm tra cuối HKI",
@@ -204,7 +232,7 @@
   {
    "key": "anh",
    "name": "Tiếng Anh",
-   "week": "Tuần 16–20/11: ôn thi cuối kỳ. Unit 4.7 Advertisement Writing được 9,5/10. Thi thứ Hai 23/11, tiết 1–3.",
+   "week": "Thi cuối HKI thứ Hai 23/11, tiết 1–3, thi tập trung tại trường: Nghe, Đọc, Use of English, Viết; 4 chủ đề Languages of the World, Design and Architecture, Our Society, Advertising. Thầy Hùng dặn: làm hết bài Revision và Module Bổ trợ kiến thức Unit 1–4 trên LMS. Quiz Comparative 5/5 và Phrasal Verbs 16/16 đã xong.",
    "todo": [
     {
      "id": "nam-on-20261115-tieng-anh",
@@ -245,22 +273,6 @@
      "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/8825546"
     },
     {
-     "id": "nam-on-20261117-tieng-anh",
-     "t": "Ôn Tiếng Anh: So sánh: comparative structures, comparative adverbs",
-     "d": "2026-11-17",
-     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288063",
-     "sub": "Tiếng Anh",
-     "n": "30 phút · Quiz Comparative Structure Practice (Lesson 5.1)"
-    },
-    {
-     "id": "nam-on-20261118-tieng-anh",
-     "t": "Ôn Tiếng Anh: Prepositional/phrasal verbs, giới từ đi kèm, gerund và to-V",
-     "d": "2026-11-18",
-     "u": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288061",
-     "sub": "Tiếng Anh",
-     "n": "30 phút · Quiz Prepositional Verbs and Phrasal Verbs (Lesson 5.1)"
-    },
-    {
      "id": "nam-on-20261120-tieng-anh",
      "t": "Ôn Tiếng Anh: Tính từ ghép, đại từ, danh từ trừu tượng/ghép, từ nối",
      "d": "2026-11-20",
@@ -293,6 +305,36 @@
      "u": null,
      "sub": "Tiếng Anh",
      "n": "60 phút · Đề cương Tiếng Anh: tự kiểm tra 1–5"
+    },
+    {
+     "id": "nam-anh-bo-tro-unit-1-4",
+     "t": "Module Bổ trợ kiến thức Unit 1–4 + bài Revision tuần 14 trên LMS",
+     "d": "2026-11-22",
+     "u": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118603",
+     "sub": "Tiếng Anh",
+     "n": "Thầy Hùng nhắn 20/11: hoàn thành toàn bộ bài ôn tập (Revision) và tự học thêm Module Bổ trợ kiến thức Unit 1–4, End of Semester 1 trên LMS trước thi 23/11.",
+     "f": [
+      {
+       "l": "Revision tuần 14",
+       "u": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118603"
+      },
+      {
+       "l": "Bổ trợ Unit 1",
+       "u": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1059710"
+      },
+      {
+       "l": "Bổ trợ Unit 2",
+       "u": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1070280"
+      },
+      {
+       "l": "Bổ trợ Unit 3",
+       "u": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1106335"
+      },
+      {
+       "l": "Bổ trợ Unit 4",
+       "u": "https://lms.vinschool.edu.vn/courses/87505/modules#module_1118608"
+      }
+     ]
     }
    ],
    "extra": [],
@@ -301,11 +343,27 @@
      "id": "exam-nam-tieng-anh-cuoi-hki",
      "t": "Tiếng Anh – Kiểm tra cuối HKI (Stage 8)",
      "d": "2026-11-23",
-     "n": "Thứ Hai 23/11, tiết 1–3 (8:00–10:40).",
+     "n": "Thứ Hai 23/11, tiết 1–3 (8:00–10:40), thi tập trung tại trường. 4 kỹ năng: Nghe, Đọc, Use of English, Viết. 4 chủ đề: Languages of the World, Design and Architecture, Our Society, Advertising.",
      "sub": "Tiếng Anh"
     }
    ],
    "grades": [
+    {
+     "t": "Prepositional Verbs and Phrasal Verbs",
+     "s": 16,
+     "m": 16,
+     "d": "2026-11-19",
+     "sub": "Tiếng Anh",
+     "n": "LMS"
+    },
+    {
+     "t": "Comparative Structure Practice",
+     "s": 5,
+     "m": 5,
+     "d": "2026-11-19",
+     "sub": "Tiếng Anh",
+     "n": "LMS"
+    },
     {
      "t": "Unit 4.7 - Advertisement Writing",
      "s": 9.5,
@@ -327,7 +385,7 @@
   {
    "key": "khtn",
    "name": "KHTN",
-   "week": "Kiểm tra cuối chương 3 thứ Ba 17/11. Tuần 14 học C4.01 Thực vật và nước, C4.02 Thoát hơi nước ở lá; làm dự án chương 3 (video). Thi cuối kỳ thứ Sáu 04/12 (chương 1–3 và chương 4 đến bài 4.2).",
+   "week": "Đã kiểm tra cuối chương 3 (17/11). Còn nợ quiz trước tiết C4.02 và làm lại C4.01 (6/10), C3.05 (9,5/10). Thi cuối kỳ thứ Sáu 04/12 (chương 1–3 và chương 4 đến bài 4.2).",
    "todo": [
     {
      "id": "nam-khtn-pht-3-3-3-4",
@@ -371,31 +429,6 @@
      "d": "2026-11-18",
      "sub": "KHTN",
      "n": "QUÁ HẠN từ 14/11 · 30 phút · Làm lại quiz C1.01–C1.04 trên LMS"
-    },
-    {
-     "id": "nam-on-20261116-khtn-kt-chuong-3",
-     "t": "Ôn KHTN: kiểm tra cuối chương 3 ngày mai",
-     "d": "2026-11-18",
-     "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
-     "sub": "KHTN",
-     "n": "40 phút · Làm lại bài tập chương 3 trong Sách bài tập + phiếu 3.3–3.6"
-    },
-    {
-     "id": "nam-kt-khtn-chuong-3",
-     "t": "Kiểm tra KHTN cuối chương 3 (trên lớp)",
-     "d": "2026-11-17",
-     "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643",
-     "sub": "KHTN",
-     "f": [
-      {
-       "l": "PHT KHTN Bài 3.3 – 3.4",
-       "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643"
-      },
-      {
-       "l": "PHT KHTN Bài 3.5 – 3.6",
-       "u": "https://lms.vinschool.edu.vn/courses/87368/files/11527643"
-      }
-     ]
     },
     {
      "id": "nam-khtn-quiz-c401-c402",
@@ -467,13 +500,6 @@
    ],
    "extra": [],
    "exams": [
-    {
-     "id": "exam-nam-khtn-kt-cuoi-chuong-3",
-     "t": "KHTN – Kiểm tra cuối chương 3",
-     "d": "2026-11-17",
-     "n": "Ôn lí thuyết và bài tập chương 3. Tin cô Huệ ghi 'Thứ ba ngày 16/11' – 16/11 là thứ Hai, thứ Ba là 17/11; nên ôn xong ngay tối 16/11.",
-     "sub": "KHTN"
-    },
     {
      "id": "exam-nam-khtn-cuoi-hki",
      "t": "KHTN – Kiểm tra cuối HKI",
@@ -554,7 +580,7 @@
   {
    "key": "khac",
    "name": "Môn khác",
-   "week": "Lịch sử: Phiếu 2 bài luận nộp trước 23:59 hôm nay 16/11. Địa lí: bài đánh giá cuối kỳ nộp trước 23:59 21/11, quiz hệ số 1 trước 23/11. Ngữ văn thi thứ Ba 01/12. Mĩ thuật: mang thiết bị điện tử tuần này.",
+   "week": "Hôm nay 21/11: nộp lần 1 bài luận Địa lí trước 23:59. Lịch sử: Phiếu 1, Phiếu 2, bản nháp đều chưa xong – làm gấp; nộp bài luận chính thức trước 23:59 27/11. Địa lí: quiz hệ số 1 lần 2 trước 23/11, nộp lần 2 trước 27/11. Tin học: dự án cuối kỳ trên lớp 23/11–04/12. Ngữ văn thi thứ Ba 01/12.",
    "todo": [
     {
      "id": "nam-ls-moc1",
@@ -562,7 +588,7 @@
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/57207/modules/items/9253168",
      "sub": "Lịch sử",
-     "n": "QUÁ HẠN từ 11/11 · 45 phút · Nộp trên LMS trước 23:59 (Mốc 1)",
+     "n": "QUÁ HẠN · Cô Nhi nhắn 19/11: con chưa hoàn thành, cần làm ngay, nếu không sẽ bị trừ điểm văn minh. Hoàn thành và chỉnh sửa Phiếu 1 theo góp ý của cô.",
      "f": [
       {
        "l": "Hướng dẫn chi tiết + ví dụ mẫu",
@@ -588,7 +614,7 @@
      "d": "2026-11-16",
      "u": "https://lms.vinschool.edu.vn/courses/57207/modules/items/9253168",
      "sub": "Lịch sử",
-     "n": "hạn 23:59 · Theo Hướng dẫn đánh giá cuối HKI. Con tự viết; không nhờ AI đặt câu hỏi hay viết đoạn văn. Chi tiết trong đề cương.",
+     "n": "QUÁ HẠN · Cô Nhi nhắn 19/11: con chưa hoàn thành, cần làm ngay, nếu không sẽ bị trừ điểm văn minh. Hoàn thành và chỉnh sửa Phiếu 2 (hết hạn từ 16/11).",
      "f": [
       {
        "l": "Hướng dẫn chi tiết + ví dụ mẫu",
@@ -606,7 +632,7 @@
      "d": "2026-11-19",
      "u": "https://lms.vinschool.edu.vn/courses/57207/modules/items/9253168",
      "sub": "Lịch sử",
-     "n": "hạn 23:59 · Theo Hướng dẫn đánh giá cuối HKI. Con tự viết; không nhờ AI đặt câu hỏi hay viết đoạn văn. Chi tiết trong đề cương.",
+     "n": "QUÁ HẠN · Cô Nhi nhắn 19/11: con chưa hoàn thành, cần làm ngay, nếu không sẽ bị trừ điểm văn minh. Hoàn thành bản nháp (hạn 19/11).",
      "f": [
       {
        "l": "Hướng dẫn chi tiết + ví dụ mẫu",
@@ -619,14 +645,6 @@
      ]
     },
     {
-     "id": "nam-mi-thuat-thiet-bi",
-     "t": "Mang thiết bị điện tử cá nhân cho tiết Mĩ thuật tuần này",
-     "d": "2026-11-20",
-     "u": "https://lms.vinschool.edu.vn/courses/88139/discussion_topics/729547",
-     "sub": "Mĩ thuật",
-     "n": "Cô Phú nhắc kiểm tra thiết bị trước khi đến lớp."
-    },
-    {
      "id": "nam-on-20261121-ngu-van",
      "t": "Ôn Ngữ văn: Thơ Đường luật: Thu điếu, Thiên Trường vãn vọng – thi luật, hình ảnh",
      "d": "2026-11-21",
@@ -636,11 +654,11 @@
     },
     {
      "id": "nam-dia-ly-danh-gia-cuoi-hki",
-     "t": "Địa lí: Bài đánh giá cuối HK1 – bài viết 900–1200 từ + bảng số liệu/bản đồ/biểu đồ",
+     "t": "Địa lí: bài luận cuối HK1 – nộp bản hoàn chỉnh LẦN 1 lên LMS để cô góp ý",
      "d": "2026-11-21",
      "u": "https://lms.vinschool.edu.vn/courses/87796/assignments/3179704",
      "sub": "Địa lý",
-     "n": "hạn 23:59 · Tải file Word 'Tên HS_Lớp_Phiếu làm bài đánh giá cuối HK1 môn Địa lí 8' trên LMS, làm trên lớp và ở nhà, nộp file Word hoặc PDF (không nộp link). LMS ghi hạn 23:59 21/11; tin cô Ly trên VS One ghi thời gian thực hiện 16/11–04/12 – nên theo hạn sớm hơn. Mang laptop sạc đầy, có mạng."
+     "n": "hạn 23:59 hôm nay 21/11 · Cô Ly nhắn 19/11: con đã chọn chủ đề và câu hỏi nghiên cứu, làm nốt ở nhà rồi nộp lần 1. Nộp file Word hoặc PDF."
     },
     {
      "id": "nam-on-20261123-ngu-van",
@@ -705,15 +723,38 @@
      "u": null,
      "sub": "Phụ huynh",
      "n": "Thông báo trên VinschoolOne ngày 13/11 (mục Thông báo). Phụ huynh tự trả lời trong app."
+    },
+    {
+     "id": "nam-ls-nop-bai-luan-cuoi-hki",
+     "t": "Lịch sử: nộp bài luận cuối HKI (1 file PDF) tại ô NỘP BÀI LUẬN CUỐI HKI",
+     "d": "2026-11-27",
+     "u": "https://lms.vinschool.edu.vn/courses/57207/assignments/3162455",
+     "sub": "Lịch sử",
+     "n": "hạn 23:59 · Nộp chính thức sau khi đã sửa theo góp ý của cô Nhi."
+    },
+    {
+     "id": "nam-dia-ly-nop-lan-2",
+     "t": "Địa lí: sửa bài luận cuối HK1 theo góp ý của cô, nộp LẦN 2 lên LMS",
+     "d": "2026-11-27",
+     "u": "https://lms.vinschool.edu.vn/courses/87796/assignments/3179704",
+     "sub": "Địa lý",
+     "n": "hạn 23:59 · Tiết Địa tuần sau mang thiết bị điện tử để sửa bài trên lớp."
     }
    ],
    "extra": [],
    "exams": [
     {
+     "id": "exam-nam-tin-hoc-du-an-cuoi-hki",
+     "t": "Tin học – Dự án cuối kỳ (làm trên lớp)",
+     "d": "2026-11-23",
+     "n": "Làm trong 4 tiết Tin học trên lớp, từ 23/11 đến 04/12. Cá nhân hoặc nhóm tối đa 2 bạn. Cô Nhi theo dõi và chấm trực tiếp trên lớp – cần đi học đủ, đúng giờ.",
+     "sub": "Tin học"
+    },
+    {
      "id": "exam-nam-dia-ly-danh-gia-cuoi-hki",
      "t": "Địa lý – Bài đánh giá cuối HK1 (bài viết + bảng số liệu/bản đồ/biểu đồ)",
-     "d": "2026-11-21",
-     "n": "Làm trên lớp và ở nhà trong 3 tuần (16/11–04/12, 135 phút có GV hỗ trợ). Nộp trên LMS hạn 23:59 21/11.",
+     "d": "2026-11-27",
+     "n": "Nộp lần 1 trước 23:59 21/11 để cô góp ý; sửa trên lớp tuần sau (mang thiết bị điện tử); nộp lần 2 trước 23:59 27/11.",
      "sub": "Địa lý"
     },
     {
@@ -732,6 +773,14 @@
     }
    ],
    "grades": [
+    {
+     "t": "[HKI - HS1 - CỘT 3]",
+     "s": 8.5,
+     "m": 10,
+     "d": "2026-11-18",
+     "sub": "Tin học",
+     "n": "LMS"
+    },
     {
      "t": "Quiz tự học Tuần 14",
      "s": 7.2,
