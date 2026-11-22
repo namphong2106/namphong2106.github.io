@@ -1,63 +1,6 @@
 {
  "tasks": [
   {
-   "due": "2026-11-21",
-   "kid": "nam",
-   "link": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483",
-   "links": [
-    {
-     "label": "📄 U3 Listening mini test 1",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167483"
-    },
-    {
-     "label": "📄 U3 Listening mini test 2",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167486"
-    },
-    {
-     "label": "📄 U3 Reading mini test 1",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167490"
-    },
-    {
-     "label": "📄 U3 Reading mini test 2",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167493"
-    },
-    {
-     "label": "📄 U3 Reading mini test 3",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9167495"
-    },
-    {
-     "label": "📄 U4 Listening mini test 1",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288139"
-    },
-    {
-     "label": "📄 U4 Listening mini test 2",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288142"
-    },
-    {
-     "label": "📄 U4 Listening mini test 3",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288145"
-    },
-    {
-     "label": "📄 U4 Reading mini test 1",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288149"
-    },
-    {
-     "label": "📄 U4 Reading mini test 2",
-     "url": "https://lms.vinschool.edu.vn/courses/87505/modules/items/9288152"
-    }
-   ],
-   "minutes": 45,
-   "note": "Theo đề cương ôn tập cuối HKI.",
-   "order": 1,
-   "practice": "Các bài mini test Unit 3 và Unit 4 (mục BỔ TRỢ KIẾN THỨC)",
-   "review": "Reading & Listening Unit 3–4",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Ôn Tiếng Anh: Reading & Listening Unit 3–4",
-   "id": "nam-on-20261121-tieng-anh"
-  },
-  {
    "due": "2026-11-28",
    "kid": "nam",
    "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
@@ -302,22 +245,6 @@
      "url": "https://namphong2106.github.io/files/Phong-Math-EoS1-de-cuong.png"
     }
    ]
-  },
-  {
-   "due": "2026-11-11",
-   "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
-   "minutes": 30,
-   "note": "Theo đề cương ôn tập cuối HKI.",
-   "order": 2,
-   "practice": "Đề cương mục Tiếng Anh dòng 1 + làm lại quiz Questions with preposition (practice) trên LMS",
-   "review": "Câu hỏi bắt đầu bằng giới từ (To whom…? In which…? From where…?)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Ôn Tiếng Anh: Câu hỏi bắt đầu bằng giới từ (To whom…? In which…?)",
-   "id": "nam-on-20261111-tieng-anh"
   },
   {
    "due": "2026-11-11",
@@ -657,22 +584,6 @@
    "subject": "KHTN",
    "title": "Ôn KHTN: Tổng ôn KHTN chương 1–3",
    "id": "nam-on-20261203-khtn"
-  },
-  {
-   "due": "2026-11-15",
-   "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
-   "minutes": 30,
-   "note": "Theo đề cương ôn tập cuối HKI.",
-   "order": 1,
-   "practice": "Quiz Second Conditional Practice (Lesson 5.1)",
-   "review": "Second conditional, unless, if only, wish",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Ôn Tiếng Anh: Second conditional, unless, if only, wish",
-   "id": "nam-on-20261115-tieng-anh"
   },
   {
    "due": "2026-11-11",
@@ -1031,22 +942,6 @@
   },
   {
    "due": "2026-11-12",
-   "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
-   "minutes": 30,
-   "note": "Theo đề cương ôn tập cuối HKI.",
-   "order": 1,
-   "practice": "Đề cương mục Tiếng Anh dòng 1 + quiz Relative Clause Practice (Lesson 5.1)",
-   "review": "Mệnh đề quan hệ có giới từ (in which, from where, to whom)",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Ôn Tiếng Anh: Mệnh đề quan hệ có giới từ",
-   "id": "nam-on-20261112-tieng-anh"
-  },
-  {
-   "due": "2026-11-12",
    "kid": "phong",
    "link": "https://lms.vinschool.edu.vn/courses/73563/modules",
    "minutes": 25,
@@ -1272,22 +1167,6 @@
    "id": "nam-on-20261129-ngu-van"
   },
   {
-   "due": "2026-11-14",
-   "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
-   "minutes": 30,
-   "note": "Theo đề cương ôn tập cuối HKI.",
-   "order": 1,
-   "practice": "Quiz Tenses Practice (Lesson 5.1)",
-   "review": "Thì HTĐ – QKĐ – HTTD, chủ động và bị động",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Ôn Tiếng Anh: Thì HTĐ – QKĐ – HTTD, chủ động và bị động",
-   "id": "nam-on-20261114-tieng-anh"
-  },
-  {
    "due": "2026-11-30",
    "kid": "nam",
    "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
@@ -1379,22 +1258,6 @@
      "url": "https://lms.vinschool.edu.vn/courses/73563/files/9798740"
     }
    ]
-  },
-  {
-   "due": "2026-11-20",
-   "kid": "nam",
-   "link": "https://claude.ai/artifact/1bsAyJbGZhQmuMXqA5ay4U",
-   "links": [],
-   "minutes": 45,
-   "note": "Theo đề cương ôn tập cuối HKI.",
-   "order": 1,
-   "practice": "Quiz MUST-DO tuần 13 (Compound Adjectives, Reflexive pronouns, Prepositions before nouns)",
-   "review": "Tính từ ghép, đại từ, danh từ trừu tượng/ghép, từ nối",
-   "source": "Kế hoạch ôn",
-   "status": "todo",
-   "subject": "Tiếng Anh",
-   "title": "Ôn Tiếng Anh: Tính từ ghép, đại từ, danh từ trừu tượng/ghép, từ nối",
-   "id": "nam-on-20261120-tieng-anh"
   },
   {
    "due": "2026-11-14",
