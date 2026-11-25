@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-25",
  "banner": {
   "title": "Lịch kiểm tra cuối HK I – Lớp 4",
   "items": [
@@ -116,6 +116,30 @@
        "u": "https://namphong2106.github.io/files/Phong-ESL-EoS1-de-cuong.png"
       }
      ]
+    },
+    {
+     "id": "phong-esl-20261125-wg-vocab",
+     "t": "Ôn ESL: Wayground – Từ vựng Unit 4 (15 câu)",
+     "d": "2026-11-25",
+     "u": "https://wayground.com/join?gc=53986315",
+     "sub": "ESL",
+     "n": "20 phút · Gõ tên \"Hải Phong\", không cần nhập mã · Đọc đáp án đúng rồi mới bấm sang câu sau"
+    },
+    {
+     "id": "phong-esl-20261125-wg-grammar",
+     "t": "Ôn ESL: Wayground – Present Simple & Present Continuous (15 câu)",
+     "d": "2026-11-25",
+     "u": "https://wayground.com/join?gc=11518987",
+     "sub": "ESL",
+     "n": "25 phút · Chia động từ, đặt câu hỏi, sửa lỗi · Sai thì làm lại câu đó"
+    },
+    {
+     "id": "phong-esl-20261125-wg-writing",
+     "t": "Ôn ESL: Wayground – Viết câu & đoạn ngắn (15 câu)",
+     "d": "2026-11-25",
+     "u": "https://wayground.com/join?gc=50316299",
+     "sub": "ESL",
+     "n": "30 phút · 10 câu gõ + 5 câu viết · Viết hoa đầu câu, có dấu chấm cuối câu"
     },
     {
      "id": "phong-on-20261126-esl-grammar",
