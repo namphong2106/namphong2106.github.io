@@ -123,7 +123,13 @@
      "d": "2026-11-25",
      "u": "https://wayground.com/join?gc=53986315",
      "sub": "ESL",
-     "n": "20 phút · Gõ tên \"Hải Phong\", không cần nhập mã · Đọc đáp án đúng rồi mới bấm sang câu sau"
+     "n": "20 phút · Gõ tên \"Hải Phong\", không cần nhập mã · Đọc đáp án đúng rồi mới bấm sang câu sau",
+     "f": [
+      {
+       "l": "Mở bài Từ vựng trên Wayground",
+       "u": "https://wayground.com/join?gc=53986315"
+      }
+     ]
     },
     {
      "id": "phong-esl-20261125-wg-grammar",
@@ -131,7 +137,13 @@
      "d": "2026-11-25",
      "u": "https://wayground.com/join?gc=11518987",
      "sub": "ESL",
-     "n": "25 phút · Chia động từ, đặt câu hỏi, sửa lỗi · Sai thì làm lại câu đó"
+     "n": "25 phút · Chia động từ, đặt câu hỏi, sửa lỗi · Sai thì làm lại câu đó",
+     "f": [
+      {
+       "l": "Mở bài Ngữ pháp trên Wayground",
+       "u": "https://wayground.com/join?gc=11518987"
+      }
+     ]
     },
     {
      "id": "phong-esl-20261125-wg-writing",
@@ -139,7 +151,13 @@
      "d": "2026-11-25",
      "u": "https://wayground.com/join?gc=50316299",
      "sub": "ESL",
-     "n": "30 phút · 10 câu gõ + 5 câu viết · Viết hoa đầu câu, có dấu chấm cuối câu"
+     "n": "30 phút · 10 câu gõ + 5 câu viết · Viết hoa đầu câu, có dấu chấm cuối câu",
+     "f": [
+      {
+       "l": "Mở bài Viết trên Wayground",
+       "u": "https://wayground.com/join?gc=50316299"
+      }
+     ]
     },
     {
      "id": "phong-on-20261126-esl-grammar",
