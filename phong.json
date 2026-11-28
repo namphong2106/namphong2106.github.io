@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-28",
  "banner": {
   "title": "Lịch kiểm tra cuối HK I – Lớp 4",
   "items": [
@@ -33,7 +33,7 @@
   {
    "key": "esl",
    "name": "ESL",
-   "week": "Thi viết thứ Sáu 27/11 (Nghe 25' · Đọc + Use of English 35' · Viết 35'); thi nói 16–27/11. Tuần 14 học Unit 5 Our Brains.",
+   "week": "Đã thi viết ESL thứ Sáu 27/11 và thi nói xong. Điểm Unit 3 được 7/10 – thấp hơn Unit 2 (7,9/10). Cô dặn: ôn từ vựng trong câu hỏi và tập tìm đúng đoạn văn chứa câu trả lời khi làm bài Đọc; nghe các đoạn ngắn có mục đích rõ; viết theo dàn ý đã hướng dẫn.",
    "todo": [
     {
      "id": "phong-esl-w12-present-continuous",
@@ -272,14 +272,14 @@
      "m": 43,
      "d": "2026-11-01",
      "sub": "CIE ESL",
-     "n": "Nền tảng đang phát triển. Ôn từ vựng trong câu hỏi, tìm đúng đoạn khi đọc; luyện nghe ngắn; lập dàn ý trước khi viết."
+     "n": "Điểm thang 10: 7,0/10 · VS One. Cô: nền tảng ngôn ngữ đang phát triển; cần ôn từ vựng câu hỏi và cách định vị đoạn văn."
     }
    ]
   },
   {
    "key": "math",
    "name": "Math",
-   "week": "Thi thứ Năm 03/12 (2 bài, Units 1–7). Tuần 14 học Unit 4 Averages (mode, median). Bài 2D & Nets mới được 22/24.",
+   "week": "Thi cuối kỳ thứ Năm 03/12 (2 bài, Units 1–7). Hai bài gần nhất đều 9,2/10 – Toán đang rất tốt. Cô lưu ý ôn lại 4 trục đối xứng của hình vuông (kể cả đường chéo) và phân biệt hình nón – hình trụ.",
    "todo": [
     {
      "id": "phong-math-w13-3d-reasoning",
@@ -461,7 +461,7 @@
      "m": 24,
      "d": "2026-11-12",
      "sub": "CIE Maths",
-     "n": "Kết quả tốt; ôn lại 4 trục đối xứng của hình vuông (kể cả 2 đường chéo)."
+     "n": "Điểm thang 10: 9,2/10 · VS One. Cô: kết quả tốt; cần ôn lại 4 trục đối xứng của hình vuông kể cả đường chéo, và so sánh hình nón với hình trụ."
     },
     {
      "t": "Unit 3 Numbers & Unit 7 Fractions",
@@ -469,7 +469,7 @@
      "m": 36,
      "d": "2026-11-02",
      "sub": "CIE Maths",
-     "n": "= 9.2/10. Tiến bộ rõ, làm bài tập trung hơn."
+     "n": "Điểm thang 10: 9,2/10 · VS One. Cô: kết quả tốt và tiến bộ rõ; nên ôn đều phân số của một lượng."
     }
    ]
   },
@@ -589,7 +589,7 @@
   {
    "key": "khac",
    "name": "Môn khác",
-   "week": "LS&ĐL: kiểm tra cuối HKI 35 phút (chưa có ngày), ôn theo lịch 17–20/11 bằng đề cô giao.",
+   "week": "Điểm LS&ĐL đang thấp nhất (2 quiz đều dưới trung bình). Còn 2 quiz tự học môn Việt Nam học chưa làm – quiz vẫn mở, làm xong là điểm môn lên ngay. Bài Mĩ thuật \"Thực hành\" là bài làm tại lớp, thang 0 điểm, không tính thiếu bài.",
    "todo": [
     {
      "id": "phong-on-20261117-lsdl",
@@ -653,6 +653,22 @@
      "u": "https://lms.vinschool.edu.vn/courses/73239/assignments/2665311",
      "sub": "Mĩ thuật",
      "n": "QUÁ HẠN từ 15/11 – LMS ghi thiếu. Hỏi cô Mĩ thuật xem có cần nộp ảnh sản phẩm không."
+    },
+    {
+     "id": "phong-vnh-quiz-huong-dan-san-pham-1",
+     "t": "Việt Nam học: Quiz tự học – Hướng dẫn thực hiện sản phẩm (bài 1)",
+     "d": "2026-11-29",
+     "sub": "Việt Nam học",
+     "u": "https://lms.vinschool.edu.vn/courses/72358/assignments/2660204",
+     "n": "LMS ghi THIẾU. Quiz vẫn mở, không giới hạn lượt làm – khoảng 10 phút."
+    },
+    {
+     "id": "phong-vnh-quiz-huong-dan-san-pham-2",
+     "t": "Việt Nam học: Quiz tự học – Hướng dẫn thực hiện sản phẩm (bài 2)",
+     "d": "2026-11-29",
+     "sub": "Việt Nam học",
+     "u": "https://lms.vinschool.edu.vn/courses/72358/assignments/2660198",
+     "n": "LMS ghi THIẾU. Quiz vẫn mở, không giới hạn lượt làm – khoảng 10 phút."
     }
    ],
    "extra": [],
@@ -666,7 +682,16 @@
      "x": 1
     }
    ],
-   "grades": []
+   "grades": [
+    {
+     "t": "Quiz Thiên nhiên Trung du và miền núi Bắc Bộ",
+     "s": 5.7,
+     "m": 10,
+     "d": "2026-11-21",
+     "sub": "LS&ĐL",
+     "n": "LMS. Quiz trước đó (Đền Hùng) được 4,7/10 – môn này cần ưu tiên ôn."
+    }
+   ]
   }
  ]
 }

@@ -3917,22 +3917,58 @@
  ],
  "notes": [
   {
-   "date": "2026-10-24",
+   "date": "2026-11-27",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "KHTN",
+   "teacher": "Cô Vũ Thị Huệ",
+   "text": "Kiểm tra cuối HK1 tiết 3–4 thứ Sáu 04/12: chương 1, 2, 3 và chương 4 đến hết bài 4.2. Mang bút, thước, bút chì, compa, máy tính cầm tay, tẩy. Tuần 30/11–04/12 học ôn tập trên lớp; mang đủ Sách học sinh, Sách bài tập và Phiếu học tập HK1.",
+   "id": "nam-2026-11-27-khtn"
+  },
+  {
+   "date": "2026-11-27",
+   "kid": "nam",
+   "source": "VS One",
+   "subject": "Toán",
+   "teacher": "Cô Nguyễn Thị Thanh Thảo",
+   "text": "Các con đã làm 2 đề thi thử (đề 1.1 không dùng máy tính, đề 2.2 được dùng) và được trả bài để tự soi chỗ yếu. Cô phát thêm 2 phiếu luyện tập (đề 1.2 và 2.1) cùng phiếu ôn tập tổng hợp. Tuần tới có buổi phụ đạo hình học. Cô nhờ phụ huynh nhắc con hoàn thành các phiếu ôn tập.",
+   "id": "nam-2026-11-27-toan"
+  },
+  {
+   "date": "2026-11-27",
    "kid": "nam",
    "source": "LMS",
    "subject": "Địa lý",
    "teacher": "Cô Nguyễn Thị Khánh Ly",
-   "text": "Bài đánh giá giữa kỳ 8/10: câu hỏi nghiên cứu quá rộng – lần sau chọn 1 vùng cụ thể (vd. vùng núi Đông Bắc). Bài nộp muộn so với hạn 09/10.",
-   "id": "nam-2026-10-24-dia-ly"
+   "text": "Bài đánh giá cuối HK1 8/10. Câu hỏi nghiên cứu rõ và liên kết tốt. Cần bổ sung bảng số liệu và biểu đồ so sánh khí hậu Hà Nội – TP.HCM; phân loại lại Atlat và SGK là nguồn thứ cấp; trích dẫn theo chuẩn APA.",
+   "id": "nam-2026-11-27-dia-ly"
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-11-27",
+   "kid": "phong",
+   "source": "VS One",
+   "subject": "GVCN",
+   "teacher": "Thầy Trương Hạnh Ngân",
+   "text": "Thầy tự hào về sự tiến bộ của Hải Phong. Đôi lúc trò chuyện hoặc hoạt động xung quanh khiến em mất tập trung khi thầy hướng dẫn bài – mong em duy trì chú ý trong suốt các buổi ôn tập. Chuẩn bị đồ dùng nhanh và trình bày ý rõ khi làm nhóm sẽ giúp em tận dụng tốt thời gian trên lớp. Em chưa khai thác hết tài liệu trên LMS, trong khi nguồn này hỗ trợ nhiều cho việc chuẩn bị kỳ thi.",
+   "id": "phong-2026-11-27-gvcn"
+  },
+  {
+   "date": "2026-11-26",
    "kid": "nam",
-   "source": "LMS",
-   "subject": "Tiếng Anh",
-   "teacher": "Ms Cindelin",
-   "text": "Writing: lỗi ngữ pháp nhiều, cần bố cục đoạn đúng (Formal Letter 6.5). Project: ý tưởng tốt, trình bày còn đơn giản. Bài MUST DO 3.10 được 0/8.",
-   "id": "nam-2026-10-27-tieng-anh"
+   "source": "VS One",
+   "subject": "Lịch sử",
+   "teacher": "Cô Nguyễn Thị Tuyết Nhi",
+   "text": "Nhắc hoàn thành và nộp bài luận cuối học kì I, hạn 27/11. Nộp file PDF trên LMS, không nộp qua Google Classroom. Rà lại bài theo từng tiêu chí của Rubric; phần checklist phải chọn \"Có\" ở tất cả các mục.",
+   "id": "nam-2026-11-26-lich-su"
+  },
+  {
+   "date": "2026-11-02",
+   "kid": "phong",
+   "source": "VS One",
+   "subject": "CIE Maths",
+   "teacher": "GV CIE Maths",
+   "text": "Phong tiến bộ rõ (7.5 → 9.2/10), làm bài tập trung hơn.",
+   "id": "phong-2026-11-02-cie-maths"
   },
   {
    "date": "2026-10-29",
@@ -3944,27 +3980,36 @@
    "id": "phong-2026-10-29-cie-science"
   },
   {
-   "date": "2026-11-02",
-   "kid": "phong",
-   "source": "VS One",
-   "subject": "CIE Maths",
-   "teacher": "GV CIE Maths",
-   "text": "Phong tiến bộ rõ (7.5 → 9.2/10), làm bài tập trung hơn.",
-   "id": "phong-2026-11-02-cie-maths"
+   "date": "2026-10-27",
+   "kid": "nam",
+   "source": "LMS",
+   "subject": "Tiếng Anh",
+   "teacher": "Ms Cindelin",
+   "text": "Writing: lỗi ngữ pháp nhiều, cần bố cục đoạn đúng (Formal Letter 6.5). Project: ý tưởng tốt, trình bày còn đơn giản. Bài MUST DO 3.10 được 0/8.",
+   "id": "nam-2026-10-27-tieng-anh"
+  },
+  {
+   "date": "2026-10-24",
+   "kid": "nam",
+   "source": "LMS",
+   "subject": "Địa lý",
+   "teacher": "Cô Nguyễn Thị Khánh Ly",
+   "text": "Bài đánh giá giữa kỳ 8/10: câu hỏi nghiên cứu quá rộng – lần sau chọn 1 vùng cụ thể (vd. vùng núi Đông Bắc). Bài nộp muộn so với hạn 09/10.",
+   "id": "nam-2026-10-24-dia-ly"
   }
  ],
  "errors": [],
  "meta": {
-  "lastSync": "2026-11-21T09:00:00+07:00",
+  "lastSync": "2026-11-28T17:30:00+07:00",
   "nam": {
    "dailyDone": "2026-11-16",
-   "sources": "LMS đã đọc 21/11 · VS One đã đọc 21/11",
-   "tonight": "Ôn KHTN chương 3 cho bài kiểm tra cuối chương ngày mai; làm bù Quiz VNH Dân tộc Khmer (đã quá hạn); nộp Phiếu 2 bài luận Lịch sử trước 23:59 hôm nay."
+   "sources": "LMS đã đọc 28/11 · VS One đã đọc 28/11",
+   "tonight": "Nộp bài luận cuối HKI môn Lịch sử (file PDF trên LMS, LMS vẫn cho nộp dù quá hạn 27/11); làm bù quiz Việt Nam học Dân tộc Khmer; bắt đầu phiếu ôn Toán cô Thảo phát."
   },
   "phong": {
    "dailyDone": "2026-11-16",
-   "sources": "LMS đã đọc 21/11 · VS One đã đọc 21/11 (không có tin mới từ 13/11)",
-   "tonight": "Làm phiếu ôn ESL Unit 4 (30 phút). Tuần này có thể thi nói ESL bất kỳ ngày nào – tập trả lời câu hỏi về bản thân."
+   "sources": "LMS đã đọc 28/11 · VS One đã đọc 28/11",
+   "tonight": "Làm 2 quiz tự học Việt Nam học còn bỏ trống (mỗi bài ~10 phút); ôn Math Unit 1–7 cho bài thi thứ Năm 03/12."
   }
  }
 }
